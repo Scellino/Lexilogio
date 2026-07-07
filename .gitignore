@@ -1,0 +1,24 @@
+# Secrets & config
+app/.env
+
+# Database (server gets its own)
+app/*.db
+app/instance/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.Python
+
+# macOS
+.DS_Store
+
+# Backups
+*.bak
+*.bak2
+*.bak_premigration
+
+# Old pre-migration data files (already imported to DB)
+*/progress.json
+*/user_cards.json

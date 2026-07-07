@@ -1,0 +1,29 @@
+# Secrets
+.env
+
+# Database (keep local, server gets its own)
+*.db
+instance/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+.venv/
+
+# macOS
+.DS_Store
+
+# Backups
+*.bak
+*.bak2
+*.bak_premigration
+
+# Anaconda / Jupyter
+*.ipynb_checkpoints/
+
+# Logs
+*.log

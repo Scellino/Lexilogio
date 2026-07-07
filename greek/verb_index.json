@@ -1,0 +1,3626 @@
+[
+  {
+    "page": 11,
+    "voice": "Active",
+    "verb": "ΑΓΑΠΩ",
+    "english": "love,  to  like"
+  },
+  {
+    "page": 12,
+    "voice": "Active",
+    "verb": "ΑΓΝΟΩ",
+    "english": "ignore"
+  },
+  {
+    "page": 13,
+    "voice": "Active",
+    "verb": "ΑΓΟΡΑΖΩ",
+    "english": "buy"
+  },
+  {
+    "page": 14,
+    "voice": "Active",
+    "verb": "ΑΔΙΑΦΟΡΩ",
+    "english": "be  indifferent  to,"
+  },
+  {
+    "page": 15,
+    "voice": "Active",
+    "verb": "ΑΔΙΚΩ",
+    "english": "be  unfair,"
+  },
+  {
+    "page": 16,
+    "voice": "Passive",
+    "verb": "ΑΙΣΘΑΝΟΜΑΙ",
+    "english": "feel"
+  },
+  {
+    "page": 17,
+    "voice": "Active",
+    "verb": "ΑΙΧΜΑΛΩΤΙΖΩ",
+    "english": "capture,"
+  },
+  {
+    "page": 18,
+    "voice": "Active",
+    "verb": "ΑΚΟΛΟΥΘΩ",
+    "english": "follow"
+  },
+  {
+    "page": 19,
+    "voice": "Active",
+    "verb": "ΑΚΟΥΩ",
+    "english": "hear,  to  listen,  to  obey"
+  },
+  {
+    "page": 20,
+    "voice": "Active",
+    "verb": "ΑΛΕΘΩ",
+    "english": "grind,  to  mill"
+  },
+  {
+    "page": 21,
+    "voice": "Active",
+    "verb": "ΑΛΛΑΖΩ",
+    "english": "change"
+  },
+  {
+    "page": 22,
+    "voice": "Active",
+    "verb": "ΑΝΑΒΑΛΛΩ",
+    "english": "postpone,  to  defer"
+  },
+  {
+    "page": 23,
+    "voice": "Active",
+    "verb": "ΑΝΑΒΩ",
+    "english": "light,"
+  },
+  {
+    "page": 24,
+    "voice": "Passive",
+    "verb": "ΑΝΑΓΝΩΡΙΖΟΜΑΙ",
+    "english": "be  recognized"
+  },
+  {
+    "page": 25,
+    "voice": "Active",
+    "verb": "ΑΝΑΓΝΩΡΙΖΩ",
+    "english": "recognize"
+  },
+  {
+    "page": 26,
+    "voice": "Active",
+    "verb": "ΑΝΑΘΕΤΩ",
+    "english": "entrust,  to  assign"
+  },
+  {
+    "page": 27,
+    "voice": "Active",
+    "verb": "ΑΝΑΚΑΛΥΠΤΩ",
+    "english": "discover"
+  },
+  {
+    "page": 28,
+    "voice": "Active",
+    "verb": "ΑΝΑΚΟΙΝΩΝΩ",
+    "english": "announce"
+  },
+  {
+    "page": 29,
+    "voice": "Active",
+    "verb": "ΑΝΑΛΑΜΒΑΝΩ",
+    "english": "undertake,"
+  },
+  {
+    "page": 30,
+    "voice": "Active",
+    "verb": "ΑΝΑΛΥΩ",
+    "english": "analyze"
+  },
+  {
+    "page": 31,
+    "voice": "Active",
+    "verb": "ΑΝΑΝΕΩΝΩ",
+    "english": "renew"
+  },
+  {
+    "page": 32,
+    "voice": "Active",
+    "verb": "ΑΝΑΠΝΕΩ",
+    "english": "breathe"
+  },
+  {
+    "page": 33,
+    "voice": "Active",
+    "verb": "ΑΝΑΣΤΑΙΝΩ",
+    "english": "resurrect,  to  revive"
+  },
+  {
+    "page": 34,
+    "voice": "Active",
+    "verb": "ΑΝΑΣΤΕΝΑΖΩ",
+    "english": "sigh"
+  },
+  {
+    "page": 35,
+    "voice": "Active",
+    "verb": "ΑΝΑΤΡΙΧΙΑΖΩ",
+    "english": "shiver"
+  },
+  {
+    "page": 36,
+    "voice": "Active",
+    "verb": "ΑΝΑΧΩΡΩ",
+    "english": "depart,"
+  },
+  {
+    "page": 37,
+    "voice": "Active",
+    "verb": "ΑΝΕΒΑΙΝΩ",
+    "english": "ascend"
+  },
+  {
+    "page": 38,
+    "voice": "Active",
+    "verb": "ΑΝΘΙΖΩ",
+    "english": "bloom"
+  },
+  {
+    "page": 39,
+    "voice": "Active",
+    "verb": "ΑΝΟΙΓΩ",
+    "english": "open"
+  },
+  {
+    "page": 40,
+    "voice": "Active",
+    "verb": "ΑΝΤΑΜΕΙΒΩ",
+    "english": "reward"
+  },
+  {
+    "page": 41,
+    "voice": "Active",
+    "verb": "ΑΝΤΙΓΡΑΦΩ",
+    "english": "copy"
+  },
+  {
+    "page": 42,
+    "voice": "Active",
+    "verb": "ΑΝΤΙΠΡΟΣΩΠΕΥΩ",
+    "english": "represent"
+  },
+  {
+    "page": 43,
+    "voice": "Active",
+    "verb": "ΑΝΤΛΩ",
+    "english": "pump,  to  draw"
+  },
+  {
+    "page": 44,
+    "voice": "Active",
+    "verb": "ΑΠΑΓΟΡΕΥΩ",
+    "english": "forbid,  to  prohibit"
+  },
+  {
+    "page": 45,
+    "voice": "Active",
+    "verb": "ΑΠΑΙΤΩ",
+    "english": "demand,  to  claim"
+  },
+  {
+    "page": 46,
+    "voice": "Active",
+    "verb": "ΑΠΑΛΛΑΣΣΩ",
+    "english": "exempt,  to  excuse"
+  },
+  {
+    "page": 47,
+    "voice": "Active",
+    "verb": "ΑΠΑΝΤΩ",
+    "english": "answer"
+  },
+  {
+    "page": 48,
+    "voice": "Active",
+    "verb": "ΑΠΕΙΛΩ",
+    "english": "threaten"
+  },
+  {
+    "page": 49,
+    "voice": "Active",
+    "verb": "ΑΠΛΟΠΟΙΩ",
+    "english": "simplify"
+  },
+  {
+    "page": 50,
+    "voice": "Active",
+    "verb": "ΑΠΛΩΝΩ",
+    "english": "spread,"
+  },
+  {
+    "page": 51,
+    "voice": "Active",
+    "verb": "ΑΠΟΔΙΔΩ",
+    "english": "attribute,"
+  },
+  {
+    "page": 52,
+    "voice": "Active",
+    "verb": "ΑΠΟΘΗΚΕΥΩ",
+    "english": "store"
+  },
+  {
+    "page": 53,
+    "voice": "Active",
+    "verb": "ΑΠΟΚΑΜΝΩ",
+    "english": "get  tired,"
+  },
+  {
+    "page": 54,
+    "voice": "Passive",
+    "verb": "ΑΠΟΚΛΕΙΟΜΑΙ",
+    "english": "be  excluded,"
+  },
+  {
+    "page": 55,
+    "voice": "Active",
+    "verb": "ΑΠΟΚΡΟΥΩ",
+    "english": "repel,"
+  },
+  {
+    "page": 56,
+    "voice": "Active",
+    "verb": "ΑΠΟΛΑΜΒΑΝΩ",
+    "english": "enjoy,  to  relish"
+  },
+  {
+    "page": 57,
+    "voice": "Active",
+    "verb": "ΑΠΟΛΥΜΑΙΝΩ",
+    "english": "disinfect,"
+  },
+  {
+    "page": 58,
+    "voice": "Active",
+    "verb": "ΑΠΟΜΟΝΩΝΩ",
+    "english": "isolate,"
+  },
+  {
+    "page": 59,
+    "voice": "Active",
+    "verb": "ΑΠΟΡΩ",
+    "english": "wonder,"
+  },
+  {
+    "page": 60,
+    "voice": "Active",
+    "verb": "ΑΠΟΦΕΥΓΩ",
+    "english": "avoid"
+  },
+  {
+    "page": 61,
+    "voice": "Active",
+    "verb": "ΑΠΟΧΤΩ",
+    "english": "obtain"
+  },
+  {
+    "page": 62,
+    "voice": "Active",
+    "verb": "ΑΡΕΣΩ",
+    "english": "like"
+  },
+  {
+    "page": 63,
+    "voice": "Active",
+    "verb": "ΑΡΠΑΖΩ",
+    "english": "grab,"
+  },
+  {
+    "page": 64,
+    "voice": "Passive",
+    "verb": "ΑΡΡΑΒΩΝΙΑΖΟΜΑΙ",
+    "english": "become  engaged"
+  },
+  {
+    "page": 65,
+    "voice": "Active",
+    "verb": "ΑΡΧΙΖΩ",
+    "english": "begin,"
+  },
+  {
+    "page": 66,
+    "voice": "Active",
+    "verb": "ΑΣΤΡΑΦΤΩ",
+    "english": "lighten,"
+  },
+  {
+    "page": 67,
+    "voice": "Passive",
+    "verb": "ΑΣΧΟΛΟΥΜΑΙ",
+    "english": "engage  in,"
+  },
+  {
+    "page": 68,
+    "voice": "Active",
+    "verb": "ΑΥΞΑΝΩ",
+    "english": "increase,"
+  },
+  {
+    "page": 69,
+    "voice": "Active",
+    "verb": "ΑΦΗΝΩ",
+    "english": "leave,  to  let,"
+  },
+  {
+    "page": 70,
+    "voice": "Active",
+    "verb": "ΑΦΟΜΟΙΩΝΩ",
+    "english": "assimilate"
+  },
+  {
+    "page": 71,
+    "voice": "Active",
+    "verb": "ΒΑΖΩ",
+    "english": "put,  to  lay,"
+  },
+  {
+    "page": 72,
+    "voice": "Passive",
+    "verb": "ΒΑΡΙΕΜΑΙ",
+    "english": "be  bored,"
+  },
+  {
+    "page": 73,
+    "voice": "Active",
+    "verb": "ΒΑΣΑΝΙΖΩ",
+    "english": "torture,  to  torment"
+  },
+  {
+    "page": 74,
+    "voice": "Active",
+    "verb": "ΒΑΣΤΩ",
+    "english": "hold,  to  carry"
+  },
+  {
+    "page": 75,
+    "voice": "Passive",
+    "verb": "ΒΑΦΟΜΑΙ",
+    "english": "be  painted"
+  },
+  {
+    "page": 76,
+    "voice": "Active",
+    "verb": "ΒΑΦΤΙΖΩ",
+    "english": "baptize"
+  },
+  {
+    "page": 77,
+    "voice": "Active",
+    "verb": "ΒΑΦΩ",
+    "english": "paint"
+  },
+  {
+    "page": 78,
+    "voice": "Active",
+    "verb": "ΒΓΑΖΩ",
+    "english": "take  off,"
+  },
+  {
+    "page": 79,
+    "voice": "Active",
+    "verb": "ΒΓΑΙΝΩ",
+    "english": "go  out,"
+  },
+  {
+    "page": 80,
+    "voice": "Active",
+    "verb": "ΒΕΒΑΙΩΝΩ",
+    "english": "assure,  to  affirm"
+  },
+  {
+    "page": 81,
+    "voice": "Active",
+    "verb": "ΒΕΛΤΙΩΝΩ",
+    "english": "improve"
+  },
+  {
+    "page": 82,
+    "voice": "Active",
+    "verb": "ΒΗΜΑΤΙΖΩ",
+    "english": "pace"
+  },
+  {
+    "page": 83,
+    "voice": "Active",
+    "verb": "ΒΗΧΩ",
+    "english": "cough"
+  },
+  {
+    "page": 84,
+    "voice": "Active",
+    "verb": "ΒΛΑΠΤΩ",
+    "english": "harm,  to  damage"
+  },
+  {
+    "page": 85,
+    "voice": "Active",
+    "verb": "ΒΛΕΠΩ",
+    "english": "see,  to  look"
+  },
+  {
+    "page": 86,
+    "voice": "Active",
+    "verb": "ΒΟΓΚΩ",
+    "english": "groan,  to  moan"
+  },
+  {
+    "page": 87,
+    "voice": "Passive",
+    "verb": "ΒΟΗΘΙΕΜΑΙ",
+    "english": "be  helped"
+  },
+  {
+    "page": 88,
+    "voice": "Active",
+    "verb": "ΒΟΗΘΩ",
+    "english": "help"
+  },
+  {
+    "page": 89,
+    "voice": "Active",
+    "verb": "ΒΟΜΒΑΡΔΙΖΩ",
+    "english": "bomb"
+  },
+  {
+    "page": 90,
+    "voice": "Active",
+    "verb": "ΒΟΣΚΩ",
+    "english": "graze,  to  pasture"
+  },
+  {
+    "page": 91,
+    "voice": "Active",
+    "verb": "ΒΟΥΤΩ",
+    "english": "plunge,  to  dive,  to  dip,"
+  },
+  {
+    "page": 92,
+    "voice": "Active",
+    "verb": "ΒΡΕΧΩ",
+    "english": "rain,  to  wet,"
+  },
+  {
+    "page": 93,
+    "voice": "Passive",
+    "verb": "ΒΡΙΣΚΟΜΑΙ",
+    "english": "be,"
+  },
+  {
+    "page": 94,
+    "voice": "Active",
+    "verb": "ΒΡΙΣΚΩ",
+    "english": "find"
+  },
+  {
+    "page": 95,
+    "voice": "Active",
+    "verb": "ΒΥΘΙΖΩ",
+    "english": "sink,  to  plunge"
+  },
+  {
+    "page": 96,
+    "voice": "Active",
+    "verb": "ΓΑΥΓΙΖΩ",
+    "english": "bark"
+  },
+  {
+    "page": 97,
+    "voice": "Passive",
+    "verb": "ΓΕΛΙΕΜΑΙ",
+    "english": "be  deceived"
+  },
+  {
+    "page": 98,
+    "voice": "Active",
+    "verb": "ΓΕΛΩ",
+    "english": "laugh,  to  deceive"
+  },
+  {
+    "page": 99,
+    "voice": "Passive",
+    "verb": "ΓΕΝΝΙΕΜΑΙ",
+    "english": "be  born"
+  },
+  {
+    "page": 100,
+    "voice": "Active",
+    "verb": "ΓΕΝΝΩ",
+    "english": "give  birth"
+  },
+  {
+    "page": 101,
+    "voice": "Active",
+    "verb": "ΓΕΡΝΩ",
+    "english": "get  old,"
+  },
+  {
+    "page": 102,
+    "voice": "Passive",
+    "verb": "ΓΕΥΟΜΑΙ",
+    "english": "taste,  to  try"
+  },
+  {
+    "page": 103,
+    "voice": "Active",
+    "verb": "ΓΔΕΡΝΩ",
+    "english": "skin,  to  flay,"
+  },
+  {
+    "page": 104,
+    "voice": "Active",
+    "verb": "ΓΙΑΤΡΕΥΩ",
+    "english": "cure,  to  heal"
+  },
+  {
+    "page": 105,
+    "voice": "Passive",
+    "verb": "ΓΙΝΟΜΑΙ",
+    "english": "become,  to  grow"
+  },
+  {
+    "page": 106,
+    "voice": "Passive",
+    "verb": "ΓΙΟΡΤΑΖΟΜΑΙ",
+    "english": "be  celebrated"
+  },
+  {
+    "page": 107,
+    "voice": "Active",
+    "verb": "ΓΙΟΡΤΑΖΩ",
+    "english": "celebrate"
+  },
+  {
+    "page": 108,
+    "voice": "Active",
+    "verb": "ΓΛΕΝΤΩ",
+    "english": "amuse  oneself,"
+  },
+  {
+    "page": 109,
+    "voice": "Active",
+    "verb": "ΓΛΙΣΤΡΩ",
+    "english": "slip"
+  },
+  {
+    "page": 110,
+    "voice": "Active",
+    "verb": "ΓΛΥΤΩΝΩ",
+    "english": "save,  to  rescue,"
+  },
+  {
+    "page": 111,
+    "voice": "Active",
+    "verb": "ΓΡΑΦΩ",
+    "english": "write"
+  },
+  {
+    "page": 112,
+    "voice": "Active",
+    "verb": "ΓΥΑΛΙΖΩ",
+    "english": "polish,  to  shine"
+  },
+  {
+    "page": 113,
+    "voice": "Active",
+    "verb": "ΓΥΡΙΖΩ",
+    "english": "turn,"
+  },
+  {
+    "page": 114,
+    "voice": "Active",
+    "verb": "ΓΥΡΝΩ",
+    "english": "turn,  to  return,"
+  },
+  {
+    "page": 115,
+    "voice": "Active",
+    "verb": "ΔΑΓΚΑΝΩ",
+    "english": "bite"
+  },
+  {
+    "page": 116,
+    "voice": "Active",
+    "verb": "ΔΑΚΡΥΖΩ",
+    "english": "shed  tears"
+  },
+  {
+    "page": 117,
+    "voice": "Active",
+    "verb": "ΔΑΚΤΥΛΟΓΡΑΦΩ",
+    "english": "type"
+  },
+  {
+    "page": 118,
+    "voice": "Active",
+    "verb": "ΔΑΜΑΖΩ",
+    "english": "tame"
+  },
+  {
+    "page": 119,
+    "voice": "Passive",
+    "verb": "ΔΑΝΕΙΖΟΜΑΙ",
+    "english": "borrow"
+  },
+  {
+    "page": 120,
+    "voice": "Active",
+    "verb": "ΔΑΝΕΙΖΩ",
+    "english": "lend"
+  },
+  {
+    "page": 121,
+    "voice": "Active",
+    "verb": "ΔΑΠΑΝΩ",
+    "english": "spend"
+  },
+  {
+    "page": 122,
+    "voice": "Active",
+    "verb": "ΔΕΙΧΝΩ",
+    "english": "show,  to  point  to,"
+  },
+  {
+    "page": 123,
+    "voice": "Active",
+    "verb": "ΔΕΛΕΑΖΩ",
+    "english": "tempt,  to  allure"
+  },
+  {
+    "page": 124,
+    "voice": "Passive",
+    "verb": "ΔΕΝΟΜΑΙ",
+    "english": "be  tied"
+  },
+  {
+    "page": 125,
+    "voice": "Active",
+    "verb": "ΔΕΝΩ",
+    "english": "tie,  to  bind"
+  },
+  {
+    "page": 126,
+    "voice": "Passive",
+    "verb": "ΔΕΡΝΟΜΑΙ",
+    "english": "be  beaten,"
+  },
+  {
+    "page": 127,
+    "voice": "Active",
+    "verb": "ΔΕΡΝΩ",
+    "english": "beat"
+  },
+  {
+    "page": 128,
+    "voice": "Passive",
+    "verb": "ΔΕΧΟΜΑΙ",
+    "english": "accept,"
+  },
+  {
+    "page": 129,
+    "voice": "Passive",
+    "verb": "ΔΗΛΗΤΗΡΙΑΖΟΜΑΙ",
+    "english": "be  poisoned"
+  },
+  {
+    "page": 130,
+    "voice": "Active",
+    "verb": "ΔΗΛΗΤΗΡΙΑΖΩ",
+    "english": "poison"
+  },
+  {
+    "page": 131,
+    "voice": "Active",
+    "verb": "ΔΗΛΩΝΩ",
+    "english": "declare,  to  state"
+  },
+  {
+    "page": 132,
+    "voice": "Active",
+    "verb": "ΔΗΜΙΟΥΡΓΩ",
+    "english": "create,  to  construct"
+  },
+  {
+    "page": 133,
+    "voice": "Active",
+    "verb": "ΔΗΜΟΣΙΕΥΩ",
+    "english": "publish"
+  },
+  {
+    "page": 134,
+    "voice": "Passive",
+    "verb": "ΔΙΑΒΑΖΟΜΑΙ",
+    "english": "be  read"
+  },
+  {
+    "page": 135,
+    "voice": "Active",
+    "verb": "ΔΙΑΒΑΖΩ",
+    "english": "read,  to  study"
+  },
+  {
+    "page": 136,
+    "voice": "Active",
+    "verb": "ΔΙΑΘΕΤΩ",
+    "english": "dispose,"
+  },
+  {
+    "page": 137,
+    "voice": "Active",
+    "verb": "ΔΙΑΙΡΩ",
+    "english": "divide,  to  split"
+  },
+  {
+    "page": 138,
+    "voice": "Active",
+    "verb": "ΔΙΑΙΩΝΙΖΩ",
+    "english": "perpetuate"
+  },
+  {
+    "page": 139,
+    "voice": "Active",
+    "verb": "ΔΙΑΚΟΣΜΩ",
+    "english": "decorate"
+  },
+  {
+    "page": 140,
+    "voice": "Active",
+    "verb": "ΔΙΑΛΕΓΩ",
+    "english": "choose,"
+  },
+  {
+    "page": 141,
+    "voice": "Passive",
+    "verb": "ΔΙΑΜΑΡΤΥΡΟΜΑΙ",
+    "english": "protest"
+  },
+  {
+    "page": 142,
+    "voice": "Active",
+    "verb": "ΔΙΑΝΕΜΩ",
+    "english": "distribute,  to  divide"
+  },
+  {
+    "page": 143,
+    "voice": "Active",
+    "verb": "ΔΙΑΣΚΕΔΑΖΩ",
+    "english": "enjoy  oneself,"
+  },
+  {
+    "page": 144,
+    "voice": "Active",
+    "verb": "ΔΙΑΤΑΖΩ",
+    "english": "order,"
+  },
+  {
+    "page": 145,
+    "voice": "Active",
+    "verb": "ΔΙΑΤΗΡΩ",
+    "english": "maintain,"
+  },
+  {
+    "page": 146,
+    "voice": "Active",
+    "verb": "ΔΙΑΤΥΠΩΝΩ",
+    "english": "formulate"
+  },
+  {
+    "page": 147,
+    "voice": "Active",
+    "verb": "ΔΙΑΦΗΜΙΖΩ",
+    "english": "advertise"
+  },
+  {
+    "page": 148,
+    "voice": "Active",
+    "verb": "ΔΙΑΦΩΝΩ",
+    "english": "disagree"
+  },
+  {
+    "page": 149,
+    "voice": "Active",
+    "verb": "ΔΙΔΑΣΚΩ",
+    "english": "teach"
+  },
+  {
+    "page": 150,
+    "voice": "Active",
+    "verb": "ΔΙΚΑΖΩ",
+    "english": "judge,  to  try"
+  },
+  {
+    "page": 151,
+    "voice": "Active",
+    "verb": "ΔΙΝΩ",
+    "english": "give"
+  },
+  {
+    "page": 152,
+    "voice": "Active",
+    "verb": "ΔΙΟΡΙΖΩ",
+    "english": "appoint"
+  },
+  {
+    "page": 153,
+    "voice": "Active",
+    "verb": "ΔΙΠΛΑΣΙΑΖΩ",
+    "english": "double"
+  },
+  {
+    "page": 154,
+    "voice": "Active",
+    "verb": "ΔΙΠΛΩΝΩ",
+    "english": "fold"
+  },
+  {
+    "page": 155,
+    "voice": "Active",
+    "verb": "ΔΙΣΤΑΖΩ",
+    "english": "hesitate"
+  },
+  {
+    "page": 156,
+    "voice": "Active",
+    "verb": "ΔΙΨΩ",
+    "english": "be  thirsty"
+  },
+  {
+    "page": 157,
+    "voice": "Active",
+    "verb": "ΔΟΚΙΜΑΖΩ",
+    "english": "try,  to  test,"
+  },
+  {
+    "page": 158,
+    "voice": "Active",
+    "verb": "ΔΟΥΛΕΥΩ",
+    "english": "work"
+  },
+  {
+    "page": 159,
+    "voice": "Active",
+    "verb": "ΔΡΟΣΙΖΩ",
+    "english": "cool"
+  },
+  {
+    "page": 160,
+    "voice": "Active",
+    "verb": "ΔΥΣΤΥΧΩ",
+    "english": "be  unfortunate,"
+  },
+  {
+    "page": 161,
+    "voice": "Passive",
+    "verb": "ΔΥΣΦΗΜΟΥΜΑΙ",
+    "english": "be  defamed,"
+  },
+  {
+    "page": 162,
+    "voice": "Active",
+    "verb": "ΔΥΣΦΗΜΩ",
+    "english": "defame,  to  slander"
+  },
+  {
+    "page": 163,
+    "voice": "Active",
+    "verb": "ΔΩΡΙΖΩ",
+    "english": "make  a  present,"
+  },
+  {
+    "page": 164,
+    "voice": "Active",
+    "verb": "ΔΩΡΟΔΟΚΩ",
+    "english": "bribe"
+  },
+  {
+    "page": 165,
+    "voice": "Passive",
+    "verb": "ΕΓΓΥΩΜΑΙ",
+    "english": "guarantee,"
+  },
+  {
+    "page": 166,
+    "voice": "Active",
+    "verb": "ΕΓΚΑΙΝΙΑΖΩ",
+    "english": "inaugurate"
+  },
+  {
+    "page": 167,
+    "voice": "Passive",
+    "verb": "ΕΓΚΑΤΑΛΕΙΠΟΜΑΙ",
+    "english": "be  abandoned,"
+  },
+  {
+    "page": 168,
+    "voice": "Active",
+    "verb": "ΕΓΚΑΤΑΛΕΙΠΩ",
+    "english": "abandon, to desert"
+  },
+  {
+    "page": 169,
+    "voice": "Passive",
+    "verb": "ΕΙΔΙΚΕΥΟΜΑΙ",
+    "english": "specialize"
+  },
+  {
+    "page": 170,
+    "voice": "Active",
+    "verb": "ΕΙΔΟΠΟΙΩ",
+    "english": "notify"
+  },
+  {
+    "page": 171,
+    "voice": "Passive",
+    "verb": "ΕΙΜΑΙ",
+    "english": "be"
+  },
+  {
+    "page": 172,
+    "voice": "Passive",
+    "verb": "ΕΙΡΩΝΕΥΟΜΑΙ",
+    "english": "speak  ironically,"
+  },
+  {
+    "page": 173,
+    "voice": "Active",
+    "verb": "ΕΙΣΠΡΑΤΤΩ",
+    "english": "collect,"
+  },
+  {
+    "page": 174,
+    "voice": "Active",
+    "verb": "ΕΚΘΕΤΩ",
+    "english": "display,"
+  },
+  {
+    "page": 175,
+    "voice": "Active",
+    "verb": "ΕΚΤΕΛΩ",
+    "english": "execute"
+  },
+  {
+    "page": 176,
+    "voice": "Active",
+    "verb": "ΕΚΤΙΜΩ",
+    "english": "appreciate,"
+  },
+  {
+    "page": 177,
+    "voice": "Passive",
+    "verb": "ΕΚΦΡΑΖΟΜΑΙ",
+    "english": "be  expressed,"
+  },
+  {
+    "page": 178,
+    "voice": "Active",
+    "verb": "ΕΚΦΡΑΖΩ",
+    "english": "express"
+  },
+  {
+    "page": 179,
+    "voice": "Passive",
+    "verb": "ΕΛΑΤΤΩΝΟΜΑΙ",
+    "english": "be  diminished,"
+  },
+  {
+    "page": 180,
+    "voice": "Active",
+    "verb": "ΕΛΑΤΤΩΝΩ",
+    "english": "diminish,"
+  },
+  {
+    "page": 181,
+    "voice": "Passive",
+    "verb": "ΕΛΕΓΧΟΜΑΙ",
+    "english": "be  checked,"
+  },
+  {
+    "page": 182,
+    "voice": "Active",
+    "verb": "ΕΛΕΓΧΩ",
+    "english": "check,  to  control"
+  },
+  {
+    "page": 183,
+    "voice": "Passive",
+    "verb": "ΕΛΕΥΘΕΡΩΝΟΜΑΙ",
+    "english": "be  set  free,"
+  },
+  {
+    "page": 184,
+    "voice": "Active",
+    "verb": "ΕΛΕΥΘΕΡΩΝΩ",
+    "english": "set  free,  to  free"
+  },
+  {
+    "page": 185,
+    "voice": "Active",
+    "verb": "ΕΛΠΙΖΩ",
+    "english": "hope"
+  },
+  {
+    "page": 186,
+    "voice": "Passive",
+    "verb": "ΕΜΠΝΕΟΜΑΙ",
+    "english": "be  inspired,"
+  },
+  {
+    "page": 187,
+    "voice": "Active",
+    "verb": "ΕΜΠΟΔΙΖΩ",
+    "english": "hinder,"
+  },
+  {
+    "page": 188,
+    "voice": "Passive",
+    "verb": "ΕΝΘΟΥΣΙΑΖΟΜΑΙ",
+    "english": "be  enthusiastic"
+  },
+  {
+    "page": 189,
+    "voice": "Active",
+    "verb": "ΕΞΑΓΩ",
+    "english": "extract,"
+  },
+  {
+    "page": 190,
+    "voice": "Passive",
+    "verb": "ΕΞΑΙΡΟΥΜΑΙ",
+    "english": "be  excluded,"
+  },
+  {
+    "page": 191,
+    "voice": "Active",
+    "verb": "ΕΞΑΙΡΩ",
+    "english": "except,"
+  },
+  {
+    "page": 192,
+    "voice": "Active",
+    "verb": "ΕΞΑΚΡΙΒΩΝΩ",
+    "english": "ascertain,"
+  },
+  {
+    "page": 193,
+    "voice": "Active",
+    "verb": "ΕΞΑΡΓΥΡΩΝΩ",
+    "english": "cash"
+  },
+  {
+    "page": 194,
+    "voice": "Active",
+    "verb": "ΕΞΑΣΦΑΛΙΖΩ",
+    "english": "secure"
+  },
+  {
+    "page": 195,
+    "voice": "Passive",
+    "verb": "ΕΞΑΦΑΝΙΖΟΜΑΙ",
+    "english": "disappear"
+  },
+  {
+    "page": 196,
+    "voice": "Passive",
+    "verb": "ΕΞΕΤΑΖΟΜΑΙ",
+    "english": "be  examined"
+  },
+  {
+    "page": 197,
+    "voice": "Active",
+    "verb": "ΕΞΕΤΑΖΩ",
+    "english": "examine"
+  },
+  {
+    "page": 198,
+    "voice": "Active",
+    "verb": "ΕΞΗΓΩ",
+    "english": "explain"
+  },
+  {
+    "page": 199,
+    "voice": "Active",
+    "verb": "ΕΞΟΛΟΘΡΕΥΩ",
+    "english": "exterminate,"
+  },
+  {
+    "page": 200,
+    "voice": "Active",
+    "verb": "ΕΞΟΡΙΖΩ",
+    "english": "exile,  to  banish"
+  },
+  {
+    "page": 201,
+    "voice": "Active",
+    "verb": "ΕΞΥΨΩΝΩ",
+    "english": "elevate,"
+  },
+  {
+    "page": 202,
+    "voice": "Active",
+    "verb": "ΕΠΑΙΝΩ",
+    "english": "praise"
+  },
+  {
+    "page": 203,
+    "voice": "Active",
+    "verb": "ΕΠΑΝΑΣΤΑΤΩ",
+    "english": "revolt,  to  rebel"
+  },
+  {
+    "page": 204,
+    "voice": "Active",
+    "verb": "ΕΠΗΡΕΑΖΩ",
+    "english": "influence"
+  },
+  {
+    "page": 205,
+    "voice": "Active",
+    "verb": "ΕΠΙΖΩ",
+    "english": "survive"
+  },
+  {
+    "page": 206,
+    "voice": "Active",
+    "verb": "ΕΠΙΘΥΜΩ",
+    "english": "desire"
+  },
+  {
+    "page": 207,
+    "voice": "Active",
+    "verb": "ΕΠΙΚΟΙΝΩΝΩ",
+    "english": "communicate"
+  },
+  {
+    "page": 208,
+    "voice": "Active",
+    "verb": "ΕΠΙΜΕΝΩ",
+    "english": "insist,  to  persist,"
+  },
+  {
+    "page": 209,
+    "voice": "Active",
+    "verb": "ΕΠΙΠΛΩΝΩ",
+    "english": "furnish"
+  },
+  {
+    "page": 210,
+    "voice": "Passive",
+    "verb": "ΕΠΙΣΚΕΠΤΟΜΑΙ",
+    "english": "visit"
+  },
+  {
+    "page": 211,
+    "voice": "Passive",
+    "verb": "ΕΠΙΤΙΘΕΜΑΙ",
+    "english": "attack,  to  charge,"
+  },
+  {
+    "page": 212,
+    "voice": "Active",
+    "verb": "ΕΡΕΘΙΖΩ",
+    "english": "irritate,"
+  },
+  {
+    "page": 213,
+    "voice": "Active",
+    "verb": "ΕΡΕΙΠΩΝΩ",
+    "english": "ruin,"
+  },
+  {
+    "page": 214,
+    "voice": "Active",
+    "verb": "ΕΡΕΥΝΩ",
+    "english": "search,"
+  },
+  {
+    "page": 215,
+    "voice": "Active",
+    "verb": "ΕΡΜΗΝΕΥΩ",
+    "english": "interpret,"
+  },
+  {
+    "page": 216,
+    "voice": "Passive",
+    "verb": "ΕΡΧΟΜΑΙ",
+    "english": "come"
+  },
+  {
+    "page": 217,
+    "voice": "Passive",
+    "verb": "ΕΤΟΙΜΑΖΟΜΑΙ",
+    "english": "prepare  oneself,"
+  },
+  {
+    "page": 218,
+    "voice": "Active",
+    "verb": "ΕΤΟΙΜΑΖΩ",
+    "english": "prepare"
+  },
+  {
+    "page": 219,
+    "voice": "Passive",
+    "verb": "ΕΥΧΑΡΙΣΤΙΕΜΑΙ",
+    "english": "be  pleased,"
+  },
+  {
+    "page": 220,
+    "voice": "Active",
+    "verb": "ΕΥΧΑΡΙΣΤΩ",
+    "english": "please,  to  thank"
+  },
+  {
+    "page": 221,
+    "voice": "Passive",
+    "verb": "ΕΥΧΟΜΑΙ",
+    "english": "wish"
+  },
+  {
+    "page": 222,
+    "voice": "Active",
+    "verb": "ΕΦΑΡΜΟΖΩ",
+    "english": "fit,  to  apply"
+  },
+  {
+    "page": 223,
+    "voice": "Active",
+    "verb": "ΕΦΕΥΡΙΣΚΩ",
+    "english": "invent,"
+  },
+  {
+    "page": 224,
+    "voice": "Active",
+    "verb": "ΕΧΩ",
+    "english": "have"
+  },
+  {
+    "page": 225,
+    "voice": "Passive",
+    "verb": "ΖΑΛΙΖΟΜΑΙ",
+    "english": "feel  dizzy"
+  },
+  {
+    "page": 226,
+    "voice": "Active",
+    "verb": "ΖΑΛΙΖΩ",
+    "english": "make  dizzy"
+  },
+  {
+    "page": 227,
+    "voice": "Active",
+    "verb": "ΖΕΣΤΑΙΝΩ",
+    "english": "heat,"
+  },
+  {
+    "page": 228,
+    "voice": "Active",
+    "verb": "ΖΗΛΕΥΩ",
+    "english": "envy,"
+  },
+  {
+    "page": 229,
+    "voice": "Active",
+    "verb": "ΖΗΜΙΩΝΩ",
+    "english": "damage"
+  },
+  {
+    "page": 230,
+    "voice": "Active",
+    "verb": "ΖΗΤΩ",
+    "english": "look  for,"
+  },
+  {
+    "page": 231,
+    "voice": "Active",
+    "verb": "ΖΥΓΙΖΩ",
+    "english": "weigh"
+  },
+  {
+    "page": 232,
+    "voice": "Active",
+    "verb": "ΖΥΜΩΝΩ",
+    "english": "knead"
+  },
+  {
+    "page": 233,
+    "voice": "Active",
+    "verb": "ΖΩ",
+    "english": "live,"
+  },
+  {
+    "page": 234,
+    "voice": "Active",
+    "verb": "ΖΩΓΡΑΦΙΖΩ",
+    "english": "paint,  to  draw"
+  },
+  {
+    "page": 235,
+    "voice": "Active",
+    "verb": "ΗΣΥΧΑΖΩ",
+    "english": "make quiet,"
+  },
+  {
+    "page": 236,
+    "voice": "Active",
+    "verb": "ΗΧΟΓΡΑΦΩ",
+    "english": "record"
+  },
+  {
+    "page": 237,
+    "voice": "Passive",
+    "verb": "ΘΑΜΠΩΝΟΜΑΙ",
+    "english": "be  dazzled"
+  },
+  {
+    "page": 238,
+    "voice": "Active",
+    "verb": "ΘΑΜΠΩΝΩ",
+    "english": "dazzle,"
+  },
+  {
+    "page": 239,
+    "voice": "Active",
+    "verb": "ΘΑΡΡΩ",
+    "english": "think,"
+  },
+  {
+    "page": 240,
+    "voice": "Passive",
+    "verb": "ΘΑΥΜΑΖΟΜΑΙ",
+    "english": "be  admired"
+  },
+  {
+    "page": 241,
+    "voice": "Active",
+    "verb": "ΘΑΥΜΑΖΩ",
+    "english": "admire,"
+  },
+  {
+    "page": 242,
+    "voice": "Active",
+    "verb": "ΘΕΛΩ",
+    "english": "want,  to  wish"
+  },
+  {
+    "page": 243,
+    "voice": "Active",
+    "verb": "ΘΕΡΙΖΩ",
+    "english": "harvest,"
+  },
+  {
+    "page": 244,
+    "voice": "Active",
+    "verb": "ΘΕΤΩ",
+    "english": "lay,  to  put,"
+  },
+  {
+    "page": 245,
+    "voice": "Passive",
+    "verb": "ΘΥΜΑΜΑΙ",
+    "english": "remember,"
+  },
+  {
+    "page": 246,
+    "voice": "Active",
+    "verb": "ΘΥΣΙΑΖΩ",
+    "english": "sacrifice"
+  },
+  {
+    "page": 247,
+    "voice": "Active",
+    "verb": "ΙΔΡΥΩ",
+    "english": "found,"
+  },
+  {
+    "page": 248,
+    "voice": "Active",
+    "verb": "ΙΔΡΩΝΩ",
+    "english": "sweat,"
+  },
+  {
+    "page": 249,
+    "voice": "Active",
+    "verb": "ΙΚΑΝΟΠΟΙΩ",
+    "english": "satisfy"
+  },
+  {
+    "page": 250,
+    "voice": "Active",
+    "verb": "ΙΚΕΤΕΥΩ",
+    "english": "implore"
+  },
+  {
+    "page": 251,
+    "voice": "Active",
+    "verb": "ΙΣΧΥΩ",
+    "english": "be  valid,"
+  },
+  {
+    "page": 252,
+    "voice": "Active",
+    "verb": "ΚΑΘΑΡΙΖΩ",
+    "english": "clean"
+  },
+  {
+    "page": 253,
+    "voice": "Passive",
+    "verb": "ΚΑΘΟΜΑΙ",
+    "english": "sit,"
+  },
+  {
+    "page": 254,
+    "voice": "Active",
+    "verb": "ΚΑΘΟΡΙΖΩ",
+    "english": "define,"
+  },
+  {
+    "page": 255,
+    "voice": "Passive",
+    "verb": "ΚΑΘΡΕΦΤΙΖΟΜΑΙ",
+    "english": "mirror  oneself"
+  },
+  {
+    "page": 256,
+    "voice": "Active",
+    "verb": "ΚΑΘΥΣΤΕΡΩ",
+    "english": "delay,"
+  },
+  {
+    "page": 257,
+    "voice": "Active",
+    "verb": "ΚΑΙΩ",
+    "english": "burn"
+  },
+  {
+    "page": 258,
+    "voice": "Active",
+    "verb": "ΚΑΛΛΙΕΡΓΩ",
+    "english": "cultivate"
+  },
+  {
+    "page": 259,
+    "voice": "Active",
+    "verb": "ΚΑΛΥΠΤΩ",
+    "english": "cover"
+  },
+  {
+    "page": 260,
+    "voice": "Active",
+    "verb": "ΚΑΛΩ",
+    "english": "call,  to  ask,"
+  },
+  {
+    "page": 261,
+    "voice": "Active",
+    "verb": "ΚΑΝΟΝΙΖΩ",
+    "english": "regulate,"
+  },
+  {
+    "page": 262,
+    "voice": "Active",
+    "verb": "ΚΑΝΩ",
+    "english": "do,  to  make"
+  },
+  {
+    "page": 263,
+    "voice": "Active",
+    "verb": "ΚΑΠΝΙΖΩ",
+    "english": "smoke"
+  },
+  {
+    "page": 264,
+    "voice": "Active",
+    "verb": "ΚΑΡΦΩΝΩ",
+    "english": "nail"
+  },
+  {
+    "page": 265,
+    "voice": "Active",
+    "verb": "ΚΑΤΑΔΙΚΑΖΩ",
+    "english": "condemn,"
+  },
+  {
+    "page": 266,
+    "voice": "Active",
+    "verb": "ΚΑΤΑΘΕΤΩ",
+    "english": "deposit,"
+  },
+  {
+    "page": 267,
+    "voice": "Active",
+    "verb": "ΚΑΤΑΚΤΩ",
+    "english": "conquer,"
+  },
+  {
+    "page": 268,
+    "voice": "Active",
+    "verb": "ΚΑΤΑΛΑΒΑΙΝΩ",
+    "english": "understand"
+  },
+  {
+    "page": 269,
+    "voice": "Active",
+    "verb": "ΚΑΤΑΛΑΜΒΑΝΩ",
+    "english": "take,  to  seize,"
+  },
+  {
+    "page": 270,
+    "voice": "Active",
+    "verb": "ΚΑΤΑΠΙΝΩ",
+    "english": "swallow"
+  },
+  {
+    "page": 271,
+    "voice": "Passive",
+    "verb": "ΚΑΤΑΡΙΕΜΑΙ",
+    "english": "curse"
+  },
+  {
+    "page": 272,
+    "voice": "Active",
+    "verb": "ΚΑΤΑΣΚΕΥΑΖΩ",
+    "english": "make,"
+  },
+  {
+    "page": 273,
+    "voice": "Active",
+    "verb": "ΚΑΤΑΣΤΡΕΦΩ",
+    "english": "destroy"
+  },
+  {
+    "page": 274,
+    "voice": "Active",
+    "verb": "ΚΑΤΑΣΧΩ",
+    "english": "confiscate"
+  },
+  {
+    "page": 275,
+    "voice": "Active",
+    "verb": "ΚΑΤΕΒΑΙΝΩ",
+    "english": "descend"
+  },
+  {
+    "page": 276,
+    "voice": "Active",
+    "verb": "ΚΑΤΕΔΑΦΙΖΩ",
+    "english": "demolish"
+  },
+  {
+    "page": 277,
+    "voice": "Active",
+    "verb": "ΚΑΤΗΓΟΡΩ",
+    "english": "accuse,"
+  },
+  {
+    "page": 278,
+    "voice": "Active",
+    "verb": "ΚΑΤΗΦΟΡΙΖΩ",
+    "english": "go  downhill"
+  },
+  {
+    "page": 279,
+    "voice": "Active",
+    "verb": "ΚΑΤΟΙΚΩ",
+    "english": "dwell,  to  live"
+  },
+  {
+    "page": 280,
+    "voice": "Active",
+    "verb": "ΚΕΝΤΩ",
+    "english": "embroider"
+  },
+  {
+    "page": 281,
+    "voice": "Active",
+    "verb": "ΚΕΡΝΩ",
+    "english": "treat"
+  },
+  {
+    "page": 282,
+    "voice": "Active",
+    "verb": "ΚΗΡΥΤΤΩ",
+    "english": "herald,"
+  },
+  {
+    "page": 283,
+    "voice": "Active",
+    "verb": "ΚΙΝΔΥΝΕΥΩ",
+    "english": "be  in  danger,"
+  },
+  {
+    "page": 284,
+    "voice": "Active",
+    "verb": "ΚΙΝΗΜΑΤΟΓΡΑΦΩ",
+    "english": "film,"
+  },
+  {
+    "page": 285,
+    "voice": "Active",
+    "verb": "ΚΙΝΗΜΑΤΟΓΡΑΦΩ",
+    "english": "film,"
+  },
+  {
+    "page": 286,
+    "voice": "Active",
+    "verb": "ΚΛΑΙΩ",
+    "english": "cry,  to  weep"
+  },
+  {
+    "page": 287,
+    "voice": "Active",
+    "verb": "ΚΛΕΒΩ",
+    "english": "steal"
+  },
+  {
+    "page": 288,
+    "voice": "Active",
+    "verb": "ΚΛΕΙΔΩΝΩ",
+    "english": "lock"
+  },
+  {
+    "page": 289,
+    "voice": "Active",
+    "verb": "ΚΛΕΙΝΩ",
+    "english": "close"
+  },
+  {
+    "page": 290,
+    "voice": "Active",
+    "verb": "ΚΛΗΡΟΝΟΜΩ",
+    "english": "inherit"
+  },
+  {
+    "page": 291,
+    "voice": "Active",
+    "verb": "ΚΛΩΤΣΩ",
+    "english": "kick"
+  },
+  {
+    "page": 292,
+    "voice": "Active",
+    "verb": "ΚΟΒΩ",
+    "english": "cut,"
+  },
+  {
+    "page": 293,
+    "voice": "Passive",
+    "verb": "ΚΟΙΜΑΜΑΙ",
+    "english": "sleep"
+  },
+  {
+    "page": 294,
+    "voice": "Active",
+    "verb": "ΚΟΛΥΜΠΩ",
+    "english": "swim"
+  },
+  {
+    "page": 295,
+    "voice": "Active",
+    "verb": "ΚΟΡΟΪΔΕΥΩ",
+    "english": "mock,  to  deride"
+  },
+  {
+    "page": 296,
+    "voice": "Active",
+    "verb": "ΚΟΥΒΑΛΩ",
+    "english": "carry"
+  },
+  {
+    "page": 297,
+    "voice": "Active",
+    "verb": "ΚΟΥΒΕΝΤΙΑΖΩ",
+    "english": "talk"
+  },
+  {
+    "page": 298,
+    "voice": "Active",
+    "verb": "ΚΟΥΜΠΩΝΩ",
+    "english": "button"
+  },
+  {
+    "page": 299,
+    "voice": "Active",
+    "verb": "ΚΟΥΝΩ",
+    "english": "move,"
+  },
+  {
+    "page": 300,
+    "voice": "Passive",
+    "verb": "ΚΟΥΡΑΖΟΜΑΙ",
+    "english": "be  tired"
+  },
+  {
+    "page": 301,
+    "voice": "Active",
+    "verb": "ΚΟΥΡΑΖΩ",
+    "english": "tire,"
+  },
+  {
+    "page": 302,
+    "voice": "Active",
+    "verb": "ΚΟΥΡΔΙΖΩ",
+    "english": "wind up,"
+  },
+  {
+    "page": 303,
+    "voice": "Active",
+    "verb": "ΚΡΑΤΩ",
+    "english": "hold,"
+  },
+  {
+    "page": 304,
+    "voice": "Passive",
+    "verb": "ΚΡΕΜΟΜΑΙ",
+    "english": "hang,"
+  },
+  {
+    "page": 305,
+    "voice": "Active",
+    "verb": "ΚΡΕΜΩ",
+    "english": "hang"
+  },
+  {
+    "page": 306,
+    "voice": "Active",
+    "verb": "ΚΡΙΝΩ",
+    "english": "judge,"
+  },
+  {
+    "page": 307,
+    "voice": "Active",
+    "verb": "ΚΡΥΩΝΩ",
+    "english": "be  cold,"
+  },
+  {
+    "page": 308,
+    "voice": "Active",
+    "verb": "ΚΥΒΕΡΝΩ",
+    "english": "govern,"
+  },
+  {
+    "page": 309,
+    "voice": "Active",
+    "verb": "ΚΥΜΑΤΙΖΩ",
+    "english": "wave"
+  },
+  {
+    "page": 310,
+    "voice": "Active",
+    "verb": "ΚΥΝΗΓΩ",
+    "english": "hunt,  to  pursue,"
+  },
+  {
+    "page": 311,
+    "voice": "Active",
+    "verb": "ΚΥΡΙΕΥΩ",
+    "english": "conquer,  to  seize"
+  },
+  {
+    "page": 312,
+    "voice": "Active",
+    "verb": "ΛΑΜΠΩ",
+    "english": "shine,  to  glitter"
+  },
+  {
+    "page": 313,
+    "voice": "Active",
+    "verb": "ΛΑΧΑΝΙΑΖΩ",
+    "english": "gasp,  to  pant"
+  },
+  {
+    "page": 314,
+    "voice": "Active",
+    "verb": "ΛΕΙΠΩ",
+    "english": "be  absent,"
+  },
+  {
+    "page": 315,
+    "voice": "Active",
+    "verb": "ΛΕΙΤΟΥΡΓΩ",
+    "english": "function,"
+  },
+  {
+    "page": 316,
+    "voice": "Active",
+    "verb": "ΛΕΩ",
+    "english": "say,  to  tell"
+  },
+  {
+    "page": 317,
+    "voice": "Active",
+    "verb": "ΛΙΠΟΘΥΜΩ",
+    "english": "faint"
+  },
+  {
+    "page": 318,
+    "voice": "Active",
+    "verb": "ΛΙΩΝΩ",
+    "english": "melt,  to  thaw"
+  },
+  {
+    "page": 319,
+    "voice": "Active",
+    "verb": "ΛΟΓΑΡΙΑΖΩ",
+    "english": "count,"
+  },
+  {
+    "page": 320,
+    "voice": "Passive",
+    "verb": "ΛΟΓΙΚΕΥΟΜΑΙ",
+    "english": "reason"
+  },
+  {
+    "page": 321,
+    "voice": "Passive",
+    "verb": "ΛΟΥΖΟΜΑΙ",
+    "english": "take  a  bath"
+  },
+  {
+    "page": 322,
+    "voice": "Active",
+    "verb": "ΛΟΥΖΩ",
+    "english": "bathe,"
+  },
+  {
+    "page": 323,
+    "voice": "Active",
+    "verb": "ΛΥΓΙΖΩ",
+    "english": "bend,"
+  },
+  {
+    "page": 324,
+    "voice": "Active",
+    "verb": "ΛΥΝΩ",
+    "english": "solve,  to  untie"
+  },
+  {
+    "page": 325,
+    "voice": "Passive",
+    "verb": "ΛΥΠΑΜΑΙ",
+    "english": "be  sorry"
+  },
+  {
+    "page": 326,
+    "voice": "Active",
+    "verb": "ΛΥΠΩ",
+    "english": "sadden,"
+  },
+  {
+    "page": 327,
+    "voice": "Active",
+    "verb": "ΜΑΓΕΙΡΕΥΩ",
+    "english": "cook"
+  },
+  {
+    "page": 328,
+    "voice": "Active",
+    "verb": "ΜΑΓΕΥΩ",
+    "english": "bewitch,"
+  },
+  {
+    "page": 329,
+    "voice": "Active",
+    "verb": "ΜΑΖΕΥΩ",
+    "english": "gather,"
+  },
+  {
+    "page": 330,
+    "voice": "Active",
+    "verb": "ΜΑΘΑΙΝΩ",
+    "english": "learn"
+  },
+  {
+    "page": 331,
+    "voice": "Active",
+    "verb": "ΜΑΚΡΑΙΝΩ",
+    "english": "lengthen,"
+  },
+  {
+    "page": 332,
+    "voice": "Active",
+    "verb": "ΜΑΛΩΝΩ",
+    "english": "quarrel,"
+  },
+  {
+    "page": 333,
+    "voice": "Active",
+    "verb": "ΜΑΝΤΕΥΩ",
+    "english": "guess,"
+  },
+  {
+    "page": 334,
+    "voice": "Active",
+    "verb": "ΜΑΡΤΥΡΩ",
+    "english": "bear  witness  to,"
+  },
+  {
+    "page": 335,
+    "voice": "Active",
+    "verb": "ΜΑΣΩ",
+    "english": "chew"
+  },
+  {
+    "page": 336,
+    "voice": "Active",
+    "verb": "ΜΑΥΡΙΖΩ",
+    "english": "blacken,"
+  },
+  {
+    "page": 337,
+    "voice": "Active",
+    "verb": "ΜΕΓΑΛΟΠΟΙΩ",
+    "english": "exaggerate"
+  },
+  {
+    "page": 338,
+    "voice": "Active",
+    "verb": "ΜΕΓΑΛΩΝΩ",
+    "english": "grow,"
+  },
+  {
+    "page": 339,
+    "voice": "Active",
+    "verb": "ΜΕΘΩ",
+    "english": "make  drunk,"
+  },
+  {
+    "page": 340,
+    "voice": "Active",
+    "verb": "ΜΕΛΕΤΩ",
+    "english": "study"
+  },
+  {
+    "page": 341,
+    "voice": "Active",
+    "verb": "ΜΕΝΩ",
+    "english": "stay,  to  remain"
+  },
+  {
+    "page": 342,
+    "voice": "Active",
+    "verb": "ΜΕΤΑΔΙΔΩ",
+    "english": "transmit"
+  },
+  {
+    "page": 343,
+    "voice": "Active",
+    "verb": "ΜΕΤΑΚΟΜΙΖΩ",
+    "english": "transport,"
+  },
+  {
+    "page": 344,
+    "voice": "Active",
+    "verb": "ΜΕΤΑΝΑΣΤΕΥΩ",
+    "english": "immigrate,"
+  },
+  {
+    "page": 345,
+    "voice": "Active",
+    "verb": "ΜΕΤΑΝΟΩ",
+    "english": "repent"
+  },
+  {
+    "page": 346,
+    "voice": "Active",
+    "verb": "ΜΕΤΑΦΡΑΖΩ",
+    "english": "translate"
+  },
+  {
+    "page": 347,
+    "voice": "Active",
+    "verb": "ΜΕΤΡΩ",
+    "english": "count,"
+  },
+  {
+    "page": 348,
+    "voice": "Active",
+    "verb": "ΜΙΛΩ",
+    "english": "speak,  to  talk"
+  },
+  {
+    "page": 349,
+    "voice": "Active",
+    "verb": "ΜΙΣΩ",
+    "english": "hate"
+  },
+  {
+    "page": 350,
+    "voice": "Active",
+    "verb": "ΜΠΕΡΔΕΥΩ",
+    "english": "tangle,"
+  },
+  {
+    "page": 351,
+    "voice": "Active",
+    "verb": "ΜΟΙΑΖΩ",
+    "english": "resemble,"
+  },
+  {
+    "page": 352,
+    "voice": "Active",
+    "verb": "ΜΟΙΡΑΖΩ",
+    "english": "divide,"
+  },
+  {
+    "page": 353,
+    "voice": "Active",
+    "verb": "ΜΟΛΥΝΩ",
+    "english": "pollute,"
+  },
+  {
+    "page": 354,
+    "voice": "Active",
+    "verb": "ΜΟΡΦΩΝΩ",
+    "english": "educate"
+  },
+  {
+    "page": 355,
+    "voice": "Active",
+    "verb": "ΜΠΑΙΝΩ",
+    "english": "enter"
+  },
+  {
+    "page": 356,
+    "voice": "Active",
+    "verb": "ΜΠΟΡΩ",
+    "english": "be  able,  can"
+  },
+  {
+    "page": 357,
+    "voice": "Active",
+    "verb": "ΜΥΡΙΖΩ",
+    "english": "smell"
+  },
+  {
+    "page": 358,
+    "voice": "Active",
+    "verb": "ΝΙΚΩ",
+    "english": "defeat,"
+  },
+  {
+    "page": 359,
+    "voice": "Active",
+    "verb": "ΝΟΙΚΙΑΖΩ",
+    "english": "rent"
+  },
+  {
+    "page": 360,
+    "voice": "Active",
+    "verb": "ΝΟΙΩΘΩ",
+    "english": "feel,"
+  },
+  {
+    "page": 361,
+    "voice": "Active",
+    "verb": "ΝΟΜΙΖΩ",
+    "english": "think,"
+  },
+  {
+    "page": 362,
+    "voice": "Active",
+    "verb": "ΝΟΜΙΜΟΠΟΙΩ",
+    "english": "legalize,"
+  },
+  {
+    "page": 363,
+    "voice": "Passive",
+    "verb": "ΝΤΡΕΠΟΜΑΙ",
+    "english": "be  ashamed,"
+  },
+  {
+    "page": 364,
+    "voice": "Passive",
+    "verb": "ΝΤΎΝΟΜΑΙ",
+    "english": "get  dressed"
+  },
+  {
+    "page": 365,
+    "voice": "Active",
+    "verb": "ΝΤΥΝΩ",
+    "english": "dress"
+  },
+  {
+    "page": 366,
+    "voice": "Active",
+    "verb": "ΝΥΣΤΑΖΩ",
+    "english": "be  sleepy,"
+  },
+  {
+    "page": 367,
+    "voice": "Active",
+    "verb": "ΞΑΠΛΩΝΩ",
+    "english": "lie  down,"
+  },
+  {
+    "page": 368,
+    "voice": "Active",
+    "verb": "ΞΑΦΝΙΑΖΩ",
+    "english": "take  by  surprise,"
+  },
+  {
+    "page": 369,
+    "voice": "Active",
+    "verb": "ΞΕΚΙΝΩ",
+    "english": "start,  to  set  off"
+  },
+  {
+    "page": 370,
+    "voice": "Active",
+    "verb": "ΞΕΠΛΕΝΩ",
+    "english": "rinse"
+  },
+  {
+    "page": 371,
+    "voice": "Active",
+    "verb": "ΞΕΡΩ",
+    "english": "know,"
+  },
+  {
+    "page": 372,
+    "voice": "Active",
+    "verb": "ΞΕΤΥΛΙΓΩ",
+    "english": "unroll,"
+  },
+  {
+    "page": 373,
+    "voice": "Active",
+    "verb": "ΞΕΧΝΩ",
+    "english": "forget"
+  },
+  {
+    "page": 374,
+    "voice": "Active",
+    "verb": "ΞΟΔΕΥΩ",
+    "english": "spend,"
+  },
+  {
+    "page": 375,
+    "voice": "Active",
+    "verb": "ΞΥΝΩ",
+    "english": "scratch,"
+  },
+  {
+    "page": 376,
+    "voice": "Active",
+    "verb": "ΞΥΠΝΩ",
+    "english": "wake  up,"
+  },
+  {
+    "page": 377,
+    "voice": "Passive",
+    "verb": "ΞΥΡΙΖΟΜΑΙ",
+    "english": "shave,"
+  },
+  {
+    "page": 378,
+    "voice": "Active",
+    "verb": "ΟΔΗΓΩ",
+    "english": "guide,"
+  },
+  {
+    "page": 379,
+    "voice": "Active",
+    "verb": "ΟΜΟΛΟΓΩ",
+    "english": "confess,"
+  },
+  {
+    "page": 380,
+    "voice": "Passive",
+    "verb": "ΟΝΕΙΡΕΥΟΜΑΙ",
+    "english": "dream"
+  },
+  {
+    "page": 381,
+    "voice": "Active",
+    "verb": "ΟΝΟΜΑΖΩ",
+    "english": "name,"
+  },
+  {
+    "page": 382,
+    "voice": "Active",
+    "verb": "ΟΡΓΑΝΩΝΩ",
+    "english": "organize"
+  },
+  {
+    "page": 383,
+    "voice": "Active",
+    "verb": "ΟΡΙΖΩ",
+    "english": "appoint,"
+  },
+  {
+    "page": 384,
+    "voice": "Active",
+    "verb": "ΟΡΜΩ",
+    "english": "rush,"
+  },
+  {
+    "page": 385,
+    "voice": "Active",
+    "verb": "ΟΦΕΙΛΩ",
+    "english": "owe,"
+  },
+  {
+    "page": 386,
+    "voice": "Active",
+    "verb": "ΟΧΥΡΩΝΩ",
+    "english": "fortify"
+  },
+  {
+    "page": 387,
+    "voice": "Active",
+    "verb": "ΠΑΓΙΔΕΥΩ",
+    "english": "trap,  to  entrap"
+  },
+  {
+    "page": 388,
+    "voice": "Active",
+    "verb": "ΠΑΓΩΝΩ",
+    "english": "freeze,"
+  },
+  {
+    "page": 389,
+    "voice": "Active",
+    "verb": "ΠΑΘΑΙΝΩ",
+    "english": "suffer"
+  },
+  {
+    "page": 390,
+    "voice": "Active",
+    "verb": "ΠΑΙΖΩ",
+    "english": "play"
+  },
+  {
+    "page": 391,
+    "voice": "Active",
+    "verb": "ΠΑΙΡΝΩ",
+    "english": "take,"
+  },
+  {
+    "page": 392,
+    "voice": "Active",
+    "verb": "ΠΑΛΕΥΩ",
+    "english": "wrestle,"
+  },
+  {
+    "page": 393,
+    "voice": "Passive",
+    "verb": "ΠΑΝΤΡΕΥΟΜΑΙ",
+    "english": "marry,"
+  },
+  {
+    "page": 394,
+    "voice": "Active",
+    "verb": "ΠΑΡΑΒΑΙΝΩ",
+    "english": "violate,"
+  },
+  {
+    "page": 395,
+    "voice": "Active",
+    "verb": "ΠΑΡΑΓΓΕΛΝΩ",
+    "english": "send  word,"
+  },
+  {
+    "page": 396,
+    "voice": "Passive",
+    "verb": "ΠΑΡΑΔΕΧΟΜΑΙ",
+    "english": "admit"
+  },
+  {
+    "page": 397,
+    "voice": "Active",
+    "verb": "ΠΑΡΑΚΜΑΖΩ",
+    "english": "decline"
+  },
+  {
+    "page": 398,
+    "voice": "Active",
+    "verb": "ΠΑΡΑΛΕΙΠΩ",
+    "english": "omit"
+  },
+  {
+    "page": 399,
+    "voice": "Active",
+    "verb": "ΠΑΡΑΜΕΝΩ",
+    "english": "remain,"
+  },
+  {
+    "page": 400,
+    "voice": "Active",
+    "verb": "ΠΑΡΑΠΑΤΩ",
+    "english": "stagger,"
+  },
+  {
+    "page": 401,
+    "voice": "Active",
+    "verb": "ΠΑΡΑΤΕΙΝΩ",
+    "english": "extend,"
+  },
+  {
+    "page": 402,
+    "voice": "Active",
+    "verb": "ΠΑΡΑΤΗΡΩ",
+    "english": "observe,"
+  },
+  {
+    "page": 403,
+    "voice": "Active",
+    "verb": "ΠΑΡΑΤΩ",
+    "english": "abandon"
+  },
+  {
+    "page": 404,
+    "voice": "Active",
+    "verb": "ΠΑΡΕΛΑΥΝΩ",
+    "english": "parade,"
+  },
+  {
+    "page": 405,
+    "voice": "Active",
+    "verb": "ΠΑΡΚΑΡΩ",
+    "english": "park"
+  },
+  {
+    "page": 406,
+    "voice": "Passive",
+    "verb": "ΠΑΡΟΥΣΙΑΖΟΜΑΙ",
+    "english": "appear,"
+  },
+  {
+    "page": 407,
+    "voice": "Passive",
+    "verb": "ΠΑΡΟΥΣΙΑΖΟΜΑΙ",
+    "english": "appear,"
+  },
+  {
+    "page": 408,
+    "voice": "Active",
+    "verb": "ΠΑΡΟΥΣΙΑΖΩ",
+    "english": "present,"
+  },
+  {
+    "page": 409,
+    "voice": "Active",
+    "verb": "ΠΑΣΧΩ",
+    "english": "suffer"
+  },
+  {
+    "page": 410,
+    "voice": "Active",
+    "verb": "ΠΑΤΩ",
+    "english": "tread  on,"
+  },
+  {
+    "page": 411,
+    "voice": "Active",
+    "verb": "ΠΑΥΩ",
+    "english": "cease,  to  stop,"
+  },
+  {
+    "page": 412,
+    "voice": "Active",
+    "verb": "ΠΕΘΑΙΝΩ",
+    "english": "die"
+  },
+  {
+    "page": 413,
+    "voice": "Active",
+    "verb": "ΠΕΙΝΩ",
+    "english": "be  hungry"
+  },
+  {
+    "page": 414,
+    "voice": "Active",
+    "verb": "ΠΕΡΙΛΑΜΒΑΝΩ",
+    "english": "include,"
+  },
+  {
+    "page": 415,
+    "voice": "Active",
+    "verb": "ΠΕΡΙΟΡΙΖΩ",
+    "english": "confine,"
+  },
+  {
+    "page": 416,
+    "voice": "Active",
+    "verb": "ΠΕΡΙΦΡΟΝΩ",
+    "english": "disdain,"
+  },
+  {
+    "page": 417,
+    "voice": "Active",
+    "verb": "ΠΕΡΝΩ",
+    "english": "pass,  to  cross"
+  },
+  {
+    "page": 418,
+    "voice": "Active",
+    "verb": "ΠΕΡΠΑΤΩ",
+    "english": "walk"
+  },
+  {
+    "page": 419,
+    "voice": "Active",
+    "verb": "ΠΕΤΥΧΑΙΝΩ",
+    "english": "succeed,"
+  },
+  {
+    "page": 420,
+    "voice": "Active",
+    "verb": "ΠΕΦΤΩ",
+    "english": "fall  down"
+  },
+  {
+    "page": 421,
+    "voice": "Active",
+    "verb": "ΠΕΤΩ",
+    "english": "fly,"
+  },
+  {
+    "page": 422,
+    "voice": "Active",
+    "verb": "ΠΗΓΑΖΩ",
+    "english": "spring"
+  },
+  {
+    "page": 423,
+    "voice": "Active",
+    "verb": "ΠΗΓΑΙΝΩ",
+    "english": "go"
+  },
+  {
+    "page": 424,
+    "voice": "Active",
+    "verb": "ΠΗΔΩ",
+    "english": "jump,"
+  },
+  {
+    "page": 425,
+    "voice": "Passive",
+    "verb": "ΠΙΑΝΟΜΑΙ",
+    "english": "hold  on,"
+  },
+  {
+    "page": 426,
+    "voice": "Active",
+    "verb": "ΠΙΑΝΩ",
+    "english": "catch,"
+  },
+  {
+    "page": 427,
+    "voice": "Active",
+    "verb": "ΠΙΕΖΩ",
+    "english": "press,"
+  },
+  {
+    "page": 428,
+    "voice": "Active",
+    "verb": "ΠΙΝΩ",
+    "english": "drink"
+  },
+  {
+    "page": 429,
+    "voice": "Active",
+    "verb": "ΠΙΣΤΕΥΩ",
+    "english": "believe,"
+  },
+  {
+    "page": 430,
+    "voice": "Active",
+    "verb": "ΠΛΕΚΩ",
+    "english": "knit"
+  },
+  {
+    "page": 431,
+    "voice": "Passive",
+    "verb": "ΠΛΕΝΟΜΑΙ",
+    "english": "wash  oneself"
+  },
+  {
+    "page": 432,
+    "voice": "Active",
+    "verb": "ΠΛΕΝΩ",
+    "english": "wash"
+  },
+  {
+    "page": 433,
+    "voice": "Active",
+    "verb": "ΠΛΕΩ",
+    "english": "float,  to sail"
+  },
+  {
+    "page": 434,
+    "voice": "Active",
+    "verb": "ΠΛΗΓΩΝΩ",
+    "english": "wound,"
+  },
+  {
+    "page": 435,
+    "voice": "Active",
+    "verb": "ΠΛΗΡΟΦΟΡΩ",
+    "english": "inform,"
+  },
+  {
+    "page": 437,
+    "voice": "Active",
+    "verb": "ΠΛΗΡΩΝΩ",
+    "english": "pay"
+  },
+  {
+    "page": 438,
+    "voice": "Active",
+    "verb": "ΠΛΗΣΙΑΖΩ",
+    "english": "approach"
+  },
+  {
+    "page": 439,
+    "voice": "Active",
+    "verb": "ΠΟΛΛΑΠΛΑΣΙΑΖΩ",
+    "english": "multiply"
+  },
+  {
+    "page": 440,
+    "voice": "Active",
+    "verb": "ΠΟΛΛΑΠΛΑΣΙΑΖΩ",
+    "english": "multiply"
+  },
+  {
+    "page": 441,
+    "voice": "Active",
+    "verb": "ΠΟΛΕΜΩ",
+    "english": "fight"
+  },
+  {
+    "page": 442,
+    "voice": "Active",
+    "verb": "ΠΟΛΙΟΡΚΩ",
+    "english": "besiege"
+  },
+  {
+    "page": 443,
+    "voice": "Active",
+    "verb": "ΠΟΝΩ",
+    "english": "hurt,"
+  },
+  {
+    "page": 444,
+    "voice": "Active",
+    "verb": "ΠΟΤΙΖΩ",
+    "english": "water,"
+  },
+  {
+    "page": 445,
+    "voice": "Active",
+    "verb": "ΠΟΥΛΩ",
+    "english": "sell"
+  },
+  {
+    "page": 446,
+    "voice": "Active",
+    "verb": "ΠΡΙΟΝΙΖΩ",
+    "english": "saw"
+  },
+  {
+    "page": 447,
+    "voice": "Active",
+    "verb": "ΠΡΟΕΙΔΟΠΟΙΩ",
+    "english": "warn,"
+  },
+  {
+    "page": 448,
+    "voice": "Active",
+    "verb": "ΠΡΟΚΑΛΩ",
+    "english": "provoke,"
+  },
+  {
+    "page": 449,
+    "voice": "Active",
+    "verb": "ΠΡΟΛΑΒΑΙΝΩ",
+    "english": "prevent"
+  },
+  {
+    "page": 450,
+    "voice": "Active",
+    "verb": "ΠΡΟΟΔΕΥΩ",
+    "english": "progress"
+  },
+  {
+    "page": 451,
+    "voice": "Active",
+    "verb": "ΠΡΟΣΘΕΤΩ",
+    "english": "add,  to  annex"
+  },
+  {
+    "page": 452,
+    "voice": "Active",
+    "verb": "ΠΡΟΣΚΑΛΩ",
+    "english": "invite"
+  },
+  {
+    "page": 453,
+    "voice": "Active",
+    "verb": "ΠΡΟΤΙΜΩ",
+    "english": "prefer"
+  },
+  {
+    "page": 454,
+    "voice": "Active",
+    "verb": "ΠΡΟΧΩΡΩ",
+    "english": "proceed,"
+  },
+  {
+    "page": 455,
+    "voice": "Active",
+    "verb": "ΡΑΒΩ",
+    "english": "sew"
+  },
+  {
+    "page": 456,
+    "voice": "Active",
+    "verb": "ΡΙΧΝΩ",
+    "english": "throw"
+  },
+  {
+    "page": 457,
+    "voice": "Active",
+    "verb": "ΡΙΨΟΚΙΝΔΥΝΕΥΩ",
+    "english": "risk"
+  },
+  {
+    "page": 458,
+    "voice": "Active",
+    "verb": "ΡΙΨΟΚΙΝΔΥΝΕΥΩ",
+    "english": "risk"
+  },
+  {
+    "page": 459,
+    "voice": "Active",
+    "verb": "ΡΟΥΦΩ",
+    "english": "suck,"
+  },
+  {
+    "page": 460,
+    "voice": "Active",
+    "verb": "ΡΥΘΜΙΖΩ",
+    "english": "regulate"
+  },
+  {
+    "page": 461,
+    "voice": "Active",
+    "verb": "ΡΩΤΩ",
+    "english": "ask"
+  },
+  {
+    "page": 462,
+    "voice": "Active",
+    "verb": "ΣΑΠΙΖΩ",
+    "english": "rot,  to  spoil"
+  },
+  {
+    "page": 463,
+    "voice": "Active",
+    "verb": "ΣΑΠΟΥΝΙΖΩ",
+    "english": "soap"
+  },
+  {
+    "page": 464,
+    "voice": "Active",
+    "verb": "ΣΑΤΙΡΙΖΩ",
+    "english": "satirize"
+  },
+  {
+    "page": 465,
+    "voice": "Active",
+    "verb": "ΣΒΗΝΩ",
+    "english": "extinguish,"
+  },
+  {
+    "page": 466,
+    "voice": "Passive",
+    "verb": "ΣΕΒΟΜΑΙ",
+    "english": "respect"
+  },
+  {
+    "page": 467,
+    "voice": "Active",
+    "verb": "ΣΕΡΒΙΡΩ",
+    "english": "serve"
+  },
+  {
+    "page": 468,
+    "voice": "Active",
+    "verb": "ΣΕΡΝΩ",
+    "english": "drag,"
+  },
+  {
+    "page": 469,
+    "voice": "Passive",
+    "verb": "ΣΗΚΩΝΟΜΑΙ",
+    "english": "get  up"
+  },
+  {
+    "page": 470,
+    "voice": "Active",
+    "verb": "ΣΗΚΩΝΩ",
+    "english": "raise,"
+  },
+  {
+    "page": 471,
+    "voice": "Active",
+    "verb": "ΣΗΜΕΙΩΝΩ",
+    "english": "mark,"
+  },
+  {
+    "page": 472,
+    "voice": "Active",
+    "verb": "ΣΙΔΕΡΩΝΩ",
+    "english": "iron"
+  },
+  {
+    "page": 473,
+    "voice": "Active",
+    "verb": "ΣΚΑΒΩ",
+    "english": "to dig"
+  },
+  {
+    "page": 474,
+    "voice": "Active",
+    "verb": "ΣΚΑΖΩ",
+    "english": "burst,"
+  },
+  {
+    "page": 475,
+    "voice": "Active",
+    "verb": "ΣΚΕΠΑΖΩ",
+    "english": "cover,"
+  },
+  {
+    "page": 476,
+    "voice": "Passive",
+    "verb": "ΣΚΕΦΤΟΜΑΙ",
+    "english": "think"
+  },
+  {
+    "page": 477,
+    "voice": "Active",
+    "verb": "ΣΚΗΝΟΘΕΤΩ",
+    "english": "stage"
+  },
+  {
+    "page": 478,
+    "voice": "Active",
+    "verb": "ΣΚΙΖΩ",
+    "english": "tear"
+  },
+  {
+    "page": 479,
+    "voice": "Active",
+    "verb": "ΣΚΟΠΕΥΩ",
+    "english": "aim,  to  intend"
+  },
+  {
+    "page": 480,
+    "voice": "Active",
+    "verb": "ΣΚΟΤΩΝΩ",
+    "english": "kill"
+  },
+  {
+    "page": 481,
+    "voice": "Active",
+    "verb": "ΣΚΟΥΠΙΖΩ",
+    "english": "sweep"
+  },
+  {
+    "page": 482,
+    "voice": "Active",
+    "verb": "ΣΚΥΒΩ",
+    "english": "stoop,  to  bend"
+  },
+  {
+    "page": 483,
+    "voice": "Active",
+    "verb": "ΣΠΑΤΑΛΩ",
+    "english": "waste"
+  },
+  {
+    "page": 484,
+    "voice": "Active",
+    "verb": "ΣΠΑΩ",
+    "english": "break"
+  },
+  {
+    "page": 485,
+    "voice": "Active",
+    "verb": "ΣΠΕΡΝΩ",
+    "english": "sow"
+  },
+  {
+    "page": 486,
+    "voice": "Active",
+    "verb": "ΣΠΕΥΔΩ",
+    "english": "hurry,"
+  },
+  {
+    "page": 487,
+    "voice": "Active",
+    "verb": "ΣΤΑΜΑΤΩ",
+    "english": "stop"
+  },
+  {
+    "page": 488,
+    "voice": "Active",
+    "verb": "ΣΤΕΓΝΩΝΩ",
+    "english": "dry,"
+  },
+  {
+    "page": 489,
+    "voice": "Passive",
+    "verb": "ΣΤΕΚΟΜΑΙ",
+    "english": "stand"
+  },
+  {
+    "page": 490,
+    "voice": "Active",
+    "verb": "ΣΤΕΚΩ",
+    "english": "stand"
+  },
+  {
+    "page": 491,
+    "voice": "Active",
+    "verb": "ΣΤΕΛΝΩ",
+    "english": "send"
+  },
+  {
+    "page": 492,
+    "voice": "Active",
+    "verb": "ΣΤΕΡΕΩΝΩ",
+    "english": "fasten,"
+  },
+  {
+    "page": 493,
+    "voice": "Active",
+    "verb": "ΣΤΕΡΩ",
+    "english": "deprive"
+  },
+  {
+    "page": 494,
+    "voice": "Active",
+    "verb": "ΣΤΗΡΙΖΩ",
+    "english": "support"
+  },
+  {
+    "page": 495,
+    "voice": "Active",
+    "verb": "ΣΤΟΙΒΑΖΩ",
+    "english": "pile  up"
+  },
+  {
+    "page": 496,
+    "voice": "Active",
+    "verb": "ΣΤΟΛΙΖΩ",
+    "english": "adorn,"
+  },
+  {
+    "page": 497,
+    "voice": "Active",
+    "verb": "ΣΤΡΙΒΩ",
+    "english": "to turn, to twist"
+  },
+  {
+    "page": 498,
+    "voice": "Active",
+    "verb": "ΣΤΡΩΝΩ",
+    "english": "spread"
+  },
+  {
+    "page": 499,
+    "voice": "Active",
+    "verb": "ΣΤΥΒΩ",
+    "english": "squeeze"
+  },
+  {
+    "page": 500,
+    "voice": "Active",
+    "verb": "ΣΥΓΧΑΙΡΩ",
+    "english": "congratulate"
+  },
+  {
+    "page": 501,
+    "voice": "Active",
+    "verb": "ΣΥΖΗΤΩ",
+    "english": "discuss"
+  },
+  {
+    "page": 502,
+    "voice": "Active",
+    "verb": "ΣΥΚΟΦΑΝΤΩ",
+    "english": "slander,"
+  },
+  {
+    "page": 503,
+    "voice": "Active",
+    "verb": "ΣΥΛΛΑΜΒΑΝΩ",
+    "english": "arrest,"
+  },
+  {
+    "page": 504,
+    "voice": "Passive",
+    "verb": "ΣΥΜΒΙΒΑΖΟΜΑΙ",
+    "english": "compromise"
+  },
+  {
+    "page": 505,
+    "voice": "Passive",
+    "verb": "ΣΥΜΒΟΥΛΕΥΟΜΑΙ",
+    "english": "consult"
+  },
+  {
+    "page": 506,
+    "voice": "Active",
+    "verb": "ΣΥΜΒΟΥΛΕΥΩ",
+    "english": "advise"
+  },
+  {
+    "page": 507,
+    "voice": "Active",
+    "verb": "ΣΥΜΠΕΡΑΙΝΩ",
+    "english": "conclude"
+  },
+  {
+    "page": 508,
+    "voice": "Active",
+    "verb": "ΣΥΜΦΙΛΙΩΝΩ",
+    "english": "reconcile"
+  },
+  {
+    "page": 509,
+    "voice": "Active",
+    "verb": "ΣΥΜΦΩΝΩ",
+    "english": "agree"
+  },
+  {
+    "page": 510,
+    "voice": "Passive",
+    "verb": "ΣΥΝΑΓΩΝΙΖΟΜΑΙ",
+    "english": "fight  together  (with  another),"
+  },
+  {
+    "page": 511,
+    "voice": "Active",
+    "verb": "ΣΥΝΑΝΤΩ",
+    "english": "meet"
+  },
+  {
+    "page": 512,
+    "voice": "Passive",
+    "verb": "ΣΥΝΔΕΟΜΑΙ",
+    "english": "have  a  relation,"
+  },
+  {
+    "page": 513,
+    "voice": "Active",
+    "verb": "ΣΥΝΔΕΩ",
+    "english": "connect"
+  },
+  {
+    "page": 514,
+    "voice": "Active",
+    "verb": "ΣΥΝΔΡΑΜΩ",
+    "english": "contribute"
+  },
+  {
+    "page": 515,
+    "voice": "Active",
+    "verb": "ΣΥΝΔΥΑΖΩ",
+    "english": "combine,"
+  },
+  {
+    "page": 516,
+    "voice": "Active",
+    "verb": "ΣΥΝΕΧΙΖΩ",
+    "english": "continue"
+  },
+  {
+    "page": 517,
+    "voice": "Active",
+    "verb": "ΣΥΝΙΣΤΩ",
+    "english": "constitute,"
+  },
+  {
+    "page": 518,
+    "voice": "Active",
+    "verb": "ΣΥΝΟΔΕΥΩ",
+    "english": "accompany,"
+  },
+  {
+    "page": 519,
+    "voice": "Active",
+    "verb": "ΣΥΝΤΗΡΩ",
+    "english": "preserve"
+  },
+  {
+    "page": 520,
+    "voice": "Active",
+    "verb": "ΣΥΝΤΟΝΙΖΩ",
+    "english": "tune  together,"
+  },
+  {
+    "page": 521,
+    "voice": "Active",
+    "verb": "ΣΥΝΤΡΙΒΩ",
+    "english": "crush,"
+  },
+  {
+    "page": 522,
+    "voice": "Active",
+    "verb": "ΣΥΝΩΜΟΤΩ",
+    "english": "conspire"
+  },
+  {
+    "page": 523,
+    "voice": "Active",
+    "verb": "ΣΥΣΚΕΥΑΖΩ",
+    "english": "pack"
+  },
+  {
+    "page": 524,
+    "voice": "Active",
+    "verb": "ΣΥΣΤΗΝΩ",
+    "english": "introduce"
+  },
+  {
+    "page": 525,
+    "voice": "Active",
+    "verb": "ΣΦΑΖΩ",
+    "english": "slaughter"
+  },
+  {
+    "page": 526,
+    "voice": "Active",
+    "verb": "ΣΦΑΛΛΩ",
+    "english": "make  a  mistake"
+  },
+  {
+    "page": 527,
+    "voice": "Active",
+    "verb": "ΣΦΥΡΙΖΩ",
+    "english": "whistle"
+  },
+  {
+    "page": 528,
+    "voice": "Active",
+    "verb": "ΣΧΗΜΑΤΙΖΩ",
+    "english": "form,  to  shape"
+  },
+  {
+    "page": 529,
+    "voice": "Active",
+    "verb": "ΣΧΟΛΙΑΖΩ",
+    "english": "comment,"
+  },
+  {
+    "page": 530,
+    "voice": "Passive",
+    "verb": "ΣΩΖΟΜΑΙ",
+    "english": "save  oneself,"
+  },
+  {
+    "page": 531,
+    "voice": "Active",
+    "verb": "ΣΩΖΩ",
+    "english": "save,"
+  },
+  {
+    "page": 532,
+    "voice": "Active",
+    "verb": "ΣΩΠΑΙΝΩ",
+    "english": "remain  silent,"
+  },
+  {
+    "page": 533,
+    "voice": "Active",
+    "verb": "ΤΑΞΙΔΕΥΩ",
+    "english": "travel"
+  },
+  {
+    "page": 534,
+    "voice": "Active",
+    "verb": "ΤΕΛΕΙΩΝΩ",
+    "english": "finish"
+  },
+  {
+    "page": 535,
+    "voice": "Active",
+    "verb": "ΤΕΝΤΩΝΩ",
+    "english": "stretch"
+  },
+  {
+    "page": 536,
+    "voice": "Active",
+    "verb": "ΤΕΡΜΑΤΙΖΩ",
+    "english": "terminate,"
+  },
+  {
+    "page": 537,
+    "voice": "Active",
+    "verb": "ΤΗΓΑΝΙΖΩ",
+    "english": "fry"
+  },
+  {
+    "page": 538,
+    "voice": "Active",
+    "verb": "ΤΗΛΕΦΩΝΩ",
+    "english": "telephone,"
+  },
+  {
+    "page": 539,
+    "voice": "Active",
+    "verb": "ΤΙΜΩ",
+    "english": "honor"
+  },
+  {
+    "page": 540,
+    "voice": "Active",
+    "verb": "ΤΟΛΜΩ",
+    "english": "dare"
+  },
+  {
+    "page": 541,
+    "voice": "Active",
+    "verb": "ΤΡΑΒΩ",
+    "english": "pull,  to  draw"
+  },
+  {
+    "page": 542,
+    "voice": "Active",
+    "verb": "ΤΡΑΓΟΥΔΩ",
+    "english": "sing"
+  },
+  {
+    "page": 543,
+    "voice": "Passive",
+    "verb": "ΤΡΕΛΑΙΝΟΜΑΙ",
+    "english": "go  mad,"
+  },
+  {
+    "page": 544,
+    "voice": "Active",
+    "verb": "ΤΡΕΛΑΙΝΩ",
+    "english": "drive  mad"
+  },
+  {
+    "page": 545,
+    "voice": "Active",
+    "verb": "ΤΡΕΜΩ",
+    "english": "tremble,"
+  },
+  {
+    "page": 546,
+    "voice": "Active",
+    "verb": "ΤΡΕΦΩ",
+    "english": "feed,"
+  },
+  {
+    "page": 547,
+    "voice": "Active",
+    "verb": "ΤΡΕΧΩ",
+    "english": "run"
+  },
+  {
+    "page": 548,
+    "voice": "Active",
+    "verb": "ΤΡΙΒΩ",
+    "english": "rub"
+  },
+  {
+    "page": 549,
+    "voice": "Active",
+    "verb": "ΤΡΥΠΩ",
+    "english": "pierce"
+  },
+  {
+    "page": 550,
+    "voice": "Active",
+    "verb": "ΤΡΩΩ",
+    "english": "eat"
+  },
+  {
+    "page": 551,
+    "voice": "Active",
+    "verb": "ΤΣΙΜΠΩ",
+    "english": "pinch,"
+  },
+  {
+    "page": 552,
+    "voice": "Active",
+    "verb": "ΤΥΛΙΓΩ",
+    "english": "wrap"
+  },
+  {
+    "page": 553,
+    "voice": "Active",
+    "verb": "ΤΥΠΩΝΩ",
+    "english": "print,"
+  },
+  {
+    "page": 554,
+    "voice": "Active",
+    "verb": "ΥΙΟΘΕΤΩ",
+    "english": "adopt"
+  },
+  {
+    "page": 555,
+    "voice": "Active",
+    "verb": "ΥΠΑΚΟΥΩ",
+    "english": "obey"
+  },
+  {
+    "page": 556,
+    "voice": "Active",
+    "verb": "ΥΠΕΡΑΣΠΙΖΩ",
+    "english": "defend"
+  },
+  {
+    "page": 557,
+    "voice": "Active",
+    "verb": "ΥΠΕΡΒΑΙΝΩ",
+    "english": "surpass,"
+  },
+  {
+    "page": 558,
+    "voice": "Active",
+    "verb": "ΥΠΕΡΒΑΛΛΩ",
+    "english": "exaggerate,"
+  },
+  {
+    "page": 559,
+    "voice": "Active",
+    "verb": "ΥΠΟΓΡΑΦΩ",
+    "english": "sign"
+  },
+  {
+    "page": 560,
+    "voice": "Active",
+    "verb": "ΥΠΟΛΟΓΙΖΩ",
+    "english": "to calculate"
+  },
+  {
+    "page": 561,
+    "voice": "Active",
+    "verb": "ΥΠΟΜΕΝΩ",
+    "english": "endure,"
+  },
+  {
+    "page": 562,
+    "voice": "Active",
+    "verb": "ΥΠΟΣΤΗΡΙΖΩ",
+    "english": "support"
+  },
+  {
+    "page": 563,
+    "voice": "Passive",
+    "verb": "ΥΠΟΣΧΟΜΑΙ",
+    "english": "to promise, to commit oneself"
+  },
+  {
+    "page": 564,
+    "voice": "Active",
+    "verb": "ΥΦΑΙΝΩ",
+    "english": "weave"
+  },
+  {
+    "page": 565,
+    "voice": "Passive",
+    "verb": "ΦΑΙΝΟΜΑΙ",
+    "english": "seem,"
+  },
+  {
+    "page": 566,
+    "voice": "Passive",
+    "verb": "ΦΑΝΤΑΖΟΜΑΙ",
+    "english": "imagine,"
+  },
+  {
+    "page": 567,
+    "voice": "Active",
+    "verb": "ΦΑΡΔΑΙΝΩ",
+    "english": "widen"
+  },
+  {
+    "page": 568,
+    "voice": "Active",
+    "verb": "ΦΕΡΝΩ",
+    "english": "bring"
+  },
+  {
+    "page": 569,
+    "voice": "Passive",
+    "verb": "ΦΕΡΟΜΑΙ",
+    "english": "behave,"
+  },
+  {
+    "page": 570,
+    "voice": "Active",
+    "verb": "ΦΕΥΓΩ",
+    "english": "leave,"
+  },
+  {
+    "page": 571,
+    "voice": "Active",
+    "verb": "ΦΘΕΙΡΩ",
+    "english": "perish,"
+  },
+  {
+    "page": 572,
+    "voice": "Active",
+    "verb": "ΦΙΛΩ",
+    "english": "kiss"
+  },
+  {
+    "page": 573,
+    "voice": "Passive",
+    "verb": "ΦΟΒΑΜΑΙ",
+    "english": "fear,"
+  },
+  {
+    "page": 574,
+    "voice": "Active",
+    "verb": "ΦΟΝΕΥΩ",
+    "english": "kill,"
+  },
+  {
+    "page": 575,
+    "voice": "Active",
+    "verb": "ΦΟΡΤΩΝΩ",
+    "english": "load,"
+  },
+  {
+    "page": 576,
+    "voice": "Active",
+    "verb": "ΦΟΡΩ",
+    "english": "dance"
+  },
+  {
+    "page": 577,
+    "voice": "Active",
+    "verb": "ΦΡΑΖΩ",
+    "english": "fence"
+  },
+  {
+    "page": 578,
+    "voice": "Active",
+    "verb": "ΦΡΟΝΤΙΖΩ",
+    "english": "care  for,"
+  },
+  {
+    "page": 579,
+    "voice": "Active",
+    "verb": "ΦΤΑΙΩ",
+    "english": "be  at  fault,"
+  },
+  {
+    "page": 580,
+    "voice": "Active",
+    "verb": "ΦΤΑΝΩ",
+    "english": "arrive,"
+  },
+  {
+    "page": 581,
+    "voice": "Passive",
+    "verb": "ΦΤΑΡΝΙΖΟΜΑΙ",
+    "english": "sneeze"
+  },
+  {
+    "page": 582,
+    "voice": "Active",
+    "verb": "ΦΥΛΑΓΩ",
+    "english": "guard,"
+  },
+  {
+    "page": 583,
+    "voice": "Active",
+    "verb": "ΦΥΛΑΚΙΖΩ",
+    "english": "imprison"
+  },
+  {
+    "page": 584,
+    "voice": "Active",
+    "verb": "ΦΥΣΩ",
+    "english": "blow,"
+  },
+  {
+    "page": 585,
+    "voice": "Active",
+    "verb": "ΦΥΤΕΥΩ",
+    "english": "plant"
+  },
+  {
+    "page": 586,
+    "voice": "Active",
+    "verb": "ΦΩΝΑΖΩ",
+    "english": "call,"
+  },
+  {
+    "page": 587,
+    "voice": "Active",
+    "verb": "ΦΩΤΟΓΡΑΦΙΖΩ",
+    "english": "photograph,"
+  },
+  {
+    "page": 588,
+    "voice": "Active",
+    "verb": "ΧΑΪΔΕΥΩ",
+    "english": "caress,"
+  },
+  {
+    "page": 589,
+    "voice": "Active",
+    "verb": "ΧΑΙΡΕΤΙΖΩ",
+    "english": "greet"
+  },
+  {
+    "page": 590,
+    "voice": "Passive",
+    "verb": "ΧΑΙΡΟΜΑΙ",
+    "english": "be  glad,"
+  },
+  {
+    "page": 591,
+    "voice": "Active",
+    "verb": "ΧΑΛΩ",
+    "english": "spoil,"
+  },
+  {
+    "page": 592,
+    "voice": "Passive",
+    "verb": "ΧΑΝΟΜΑΙ",
+    "english": "be  lost"
+  },
+  {
+    "page": 593,
+    "voice": "Active",
+    "verb": "ΧΑΝΩ",
+    "english": "lose"
+  },
+  {
+    "page": 594,
+    "voice": "Active",
+    "verb": "ΧΑΡΑΖΩ",
+    "english": "engrave,"
+  },
+  {
+    "page": 595,
+    "voice": "Active",
+    "verb": "ΧΑΡΑΚΤΗΡΙΖΩ",
+    "english": "characterize"
+  },
+  {
+    "page": 596,
+    "voice": "Active",
+    "verb": "ΧΑΡΙΖΩ",
+    "english": "make  a  present,"
+  },
+  {
+    "page": 597,
+    "voice": "Active",
+    "verb": "ΧΕΙΡΟΥΡΓΩ",
+    "english": "operate"
+  },
+  {
+    "page": 598,
+    "voice": "Active",
+    "verb": "ΧΟΡΕΥΩ",
+    "english": "dance"
+  },
+  {
+    "page": 599,
+    "voice": "Active",
+    "verb": "ΧΟΡΤΑΙΝΩ",
+    "english": "satisfy  one's  hunger,"
+  },
+  {
+    "page": 600,
+    "voice": "Passive",
+    "verb": "ΧΡΕΙΑΖΟΜΑΙ",
+    "english": "need"
+  },
+  {
+    "page": 601,
+    "voice": "Active",
+    "verb": "ΧΡΩΜΑΤΙΖΩ",
+    "english": "color,"
+  },
+  {
+    "page": 602,
+    "voice": "Active",
+    "verb": "ΧΡΩΣΤΩ",
+    "english": "owe"
+  },
+  {
+    "page": 603,
+    "voice": "Active",
+    "verb": "ΧΤΥΠΩ",
+    "english": "beat,"
+  },
+  {
+    "page": 604,
+    "voice": "Active",
+    "verb": "ΧΩΡΙΖΩ",
+    "english": "separate,"
+  },
+  {
+    "page": 605,
+    "voice": "Active",
+    "verb": "ΧΩΡΩ",
+    "english": "contain,"
+  },
+  {
+    "page": 606,
+    "voice": "Active",
+    "verb": "ΨΑΡΕΥΩ",
+    "english": "fish"
+  },
+  {
+    "page": 607,
+    "voice": "Active",
+    "verb": "ΨΑΧΝΩ",
+    "english": "search"
+  },
+  {
+    "page": 608,
+    "voice": "Passive",
+    "verb": "ΨΕΥΔΟΜΑΙ",
+    "english": "lie"
+  },
+  {
+    "page": 609,
+    "voice": "Active",
+    "verb": "ΨΗΝΩ",
+    "english": "bake"
+  },
+  {
+    "page": 610,
+    "voice": "Active",
+    "verb": "ΨΗΦΙΖΩ",
+    "english": "vote"
+  },
+  {
+    "page": 611,
+    "voice": "Active",
+    "verb": "ΨΙΘΥΡΙΖΩ",
+    "english": "whisper,"
+  },
+  {
+    "page": 612,
+    "voice": "Active",
+    "verb": "ΨΩΝΙΖΩ",
+    "english": "shop"
+  },
+  {
+    "page": 613,
+    "voice": "Active",
+    "verb": "ΨΥΧΑΝΑΛΥΩ",
+    "english": "psychoanalyze"
+  },
+  {
+    "page": 614,
+    "voice": "Active",
+    "verb": "ΩΡΙΜΑΖΩ",
+    "english": "ripen,"
+  },
+  {
+    "page": 615,
+    "voice": "Active",
+    "verb": "ΩΦΕΛΩ",
+    "english": "benefit,"
+  }
+]

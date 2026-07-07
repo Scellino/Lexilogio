@@ -2,19 +2,27 @@
 auth.py — Authentication blueprint.
 
 Routes:
-    GET  /auth/login            login page
-    POST /auth/login            submit credentials
-    GET  /auth/signup           signup page
-    POST /auth/signup           create account
-    GET  /auth/logout           log out
-    GET  /auth/google           start Google OAuth flow
-    GET  /auth/google/callback  Google OAuth callback
+    GET  /auth/login               login page
+    POST /auth/login               submit credentials
+    GET  /auth/signup              signup page
+    POST /auth/signup              create account → sends verification email
+    GET  /auth/verify/<token>      verify email address
+    GET  /auth/resend-verification resend verification email
+    GET  /auth/forgot              forgot password page
+    POST /auth/forgot              send password reset email
+    GET  /auth/reset/<token>       password reset page
+    POST /auth/reset/<token>       set new password
+    GET  /auth/logout              log out
+    GET  /auth/google              start Google OAuth flow
+    GET  /auth/google/callback     Google OAuth callback
 """
 import os
 import json
 import urllib.request
 import urllib.parse
 import bcrypt
+import resend
+from itsdangerous import URLSafeTimedSerializer, BadSignature, SignatureExpired
 from flask import (Blueprint, render_template_string, request,
                    redirect, url_for, flash, session)
 from flask_login import login_user, logout_user, login_required, current_user
@@ -24,14 +32,16 @@ from models import db, User
 auth_bp = Blueprint("auth", __name__)
 oauth    = OAuth()
 
-# Google client registered at module level; init_app() wires it to the Flask app.
 _GOOGLE_ENABLED = bool(os.environ.get("GOOGLE_CLIENT_ID"))
 
-# Cloudflare Turnstile — disabled when env vars are blank (local dev)
 _TURNSTILE_SITE_KEY   = os.environ.get("TURNSTILE_SITE_KEY", "")
 _TURNSTILE_SECRET_KEY = os.environ.get("TURNSTILE_SECRET_KEY", "")
 _TURNSTILE_ENABLED    = bool(_TURNSTILE_SITE_KEY and _TURNSTILE_SECRET_KEY)
 
+_FROM_EMAIL = "Λεξιλόγιο <noreply@lexilogio.org>"
+
+
+# ── Turnstile ─────────────────────────────────────────────────────────────────
 
 def _verify_turnstile(token: str) -> bool:
     if not _TURNSTILE_ENABLED:
@@ -55,6 +65,86 @@ def _turnstile_widget() -> str:
         return ""
     return (f'<div class="cf-turnstile" data-sitekey="{_TURNSTILE_SITE_KEY}"'
             f' style="margin:12px 0"></div>')
+
+
+# ── Email ─────────────────────────────────────────────────────────────────────
+
+def _send_email(to: str, subject: str, html: str) -> bool:
+    api_key = os.environ.get("RESEND_API_KEY", "")
+    if not api_key:
+        print("[email] No RESEND_API_KEY set — skipping email")
+        return False
+    resend.api_key = api_key
+    try:
+        resend.Emails.send({"from": _FROM_EMAIL, "to": [to], "subject": subject, "html": html})
+        return True
+    except Exception as e:
+        print(f"[email] Failed to send to {to}: {e}")
+        return False
+
+
+def _email_html(heading: str, body: str, btn_url: str, btn_text: str) -> str:
+    return f"""
+    <div style="background:#f4f4f8;padding:40px 20px;font-family:system-ui,sans-serif">
+      <div style="max-width:480px;margin:0 auto;background:#fff;border-radius:16px;padding:40px">
+        <h1 style="font-family:Georgia,serif;color:#c9a96e;font-size:28px;margin:0 0 4px">Λεξιλόγιο</h1>
+        <p style="color:#aaa;font-size:11px;letter-spacing:1.5px;margin:0 0 32px;text-transform:uppercase">Language Trainer</p>
+        <h2 style="color:#1a1a2e;font-size:20px;font-weight:600;margin:0 0 14px">{heading}</h2>
+        <p style="color:#555;font-size:15px;line-height:1.7;margin:0 0 28px">{body}</p>
+        <a href="{btn_url}" style="display:inline-block;background:#c9a96e;color:#fff;text-decoration:none;padding:13px 28px;border-radius:10px;font-weight:700;font-size:15px">{btn_text}</a>
+        <p style="color:#bbb;font-size:11px;margin:28px 0 0;word-break:break-all">Or copy this link:<br>{btn_url}</p>
+      </div>
+    </div>"""
+
+
+# ── Tokens ────────────────────────────────────────────────────────────────────
+
+def _serializer():
+    return URLSafeTimedSerializer(os.environ.get("SECRET_KEY", "dev-secret"))
+
+
+def _make_token(email: str, salt: str) -> str:
+    return _serializer().dumps(email, salt=salt)
+
+
+def _read_token(token: str, salt: str, max_age: int):
+    try:
+        return _serializer().loads(token, salt=salt, max_age=max_age)
+    except (BadSignature, SignatureExpired):
+        return None
+
+
+def _send_verification_email(user: User) -> bool:
+    token = _make_token(user.email, salt="email-verify")
+    url   = url_for("auth.verify", token=token, _external=True)
+    return _send_email(
+        to=user.email,
+        subject="Verify your Λεξιλόγιο account",
+        html=_email_html(
+            heading="Verify your email",
+            body=f"Hi{' ' + user.name if user.name else ''}! Click the button below to verify your email address and activate your account. This link expires in 24 hours.",
+            btn_url=url,
+            btn_text="Verify email",
+        )
+    )
+
+
+def _send_reset_email(user: User) -> bool:
+    token = _make_token(user.email, salt="password-reset")
+    url   = url_for("auth.reset", token=token, _external=True)
+    return _send_email(
+        to=user.email,
+        subject="Reset your Λεξιλόγιο password",
+        html=_email_html(
+            heading="Reset your password",
+            body="Click the button below to set a new password. This link expires in 1 hour. If you didn't request this, you can ignore this email.",
+            btn_url=url,
+            btn_text="Reset password",
+        )
+    )
+
+
+# ── Google OAuth ──────────────────────────────────────────────────────────────
 
 if _GOOGLE_ENABLED:
     oauth.register(
@@ -109,6 +199,8 @@ a:hover{text-decoration:underline}
 .flash{background:rgba(220,60,60,.15);border:1px solid rgba(220,60,60,.3);
        border-radius:10px;padding:10px 14px;font-size:13px;color:#ff8a8a;
        margin-bottom:16px;font-family:system-ui,sans-serif}
+.flash.success{background:rgba(60,200,120,.1);border-color:rgba(60,200,120,.3);color:#6fdb9f}
+.info{color:rgba(255,255,255,.45);font-size:13px;line-height:1.6;margin-bottom:16px}
 """
 
 _GOOGLE_ICON = """<svg width="18" height="18" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg">
@@ -119,10 +211,10 @@ _GOOGLE_ICON = """<svg width="18" height="18" viewBox="0 0 18 18" xmlns="http://
 </svg>"""
 
 
-def _page(title, body, flash_msg=""):
-    flash_html = f'<div class="flash">{flash_msg}</div>' if flash_msg else ""
+def _page(title, body, flash_msg="", flash_type="error", show_google=True):
+    flash_html = f'<div class="flash {flash_type}">{flash_msg}</div>' if flash_msg else ""
     google_btn = ""
-    if _GOOGLE_ENABLED:
+    if show_google and _GOOGLE_ENABLED:
         google_btn = f"""
         <div class="divider">or</div>
         <form action="/auth/google" method="get">
@@ -140,7 +232,7 @@ def _page(title, body, flash_msg=""):
 <style>{_BASE_CSS}</style>
 {turnstile_script}
 </head><body>
-<div class="logo">Λεξιλόγιο</div>
+<div class="logo">🧿 Λεξιλόγιο</div>
 <div class="tagline">Language Trainer</div>
 <div class="card">
   <h2>{title}</h2>
@@ -163,13 +255,18 @@ def login():
         if not _verify_turnstile(request.form.get("cf-turnstile-response", "")):
             error = "CAPTCHA verification failed. Please try again."
         else:
-            email = request.form.get("email", "").strip().lower()
+            email    = request.form.get("email", "").strip().lower()
             password = request.form.get("password", "")
-            user = User.query.filter_by(email=email).first()
+            user     = User.query.filter_by(email=email).first()
             if user and user.password_hash and bcrypt.checkpw(password.encode(), user.password_hash.encode()):
-                login_user(user, remember=True)
-                return redirect(request.args.get("next") or "/")
-            error = "Incorrect email or password."
+                if not user.is_verified:
+                    error = ('Please verify your email first. '
+                             '<a href="/auth/resend-verification?email=' + urllib.parse.quote(email) + '">Resend verification email</a>')
+                else:
+                    login_user(user, remember=True)
+                    return redirect(request.args.get("next") or "/")
+            else:
+                error = "Incorrect email or password."
 
     body = f"""
     <form method="post">
@@ -179,7 +276,9 @@ def login():
         <input type="password" name="password" required placeholder="••••••••"></div>
       {_turnstile_widget()}
       <button type="submit" class="btn-primary">Sign in</button>
-    </form>"""
+    </form>
+    <div class="footer-link"><a href="/auth/forgot">Forgot password?</a></div>
+    <div class="footer-link">No account? <a href="/auth/signup">Create one</a></div>"""
     return _page("Sign in", body, error), (400 if error else 200)
 
 
@@ -203,11 +302,18 @@ def signup():
                 error = "An account with that email already exists."
             else:
                 pw_hash = bcrypt.hashpw(password.encode(), bcrypt.gensalt()).decode()
-                user = User(email=email, name=name or None, password_hash=pw_hash)
+                user = User(email=email, name=name or None,
+                            password_hash=pw_hash, is_verified=False)
                 db.session.add(user)
                 db.session.commit()
-                login_user(user, remember=True)
-                return redirect("/")
+                _send_verification_email(user)
+                body = f"""
+                <p class="info">We've sent a verification link to <strong>{email}</strong>.
+                Click it to activate your account.</p>
+                <p class="info" style="margin-top:12px">Didn't get it?
+                <a href="/auth/resend-verification?email={urllib.parse.quote(email)}">Resend email</a></p>
+                <div class="footer-link" style="margin-top:24px"><a href="/auth/login">Back to sign in</a></div>"""
+                return _page("Check your email", body, show_google=False)
 
     body = f"""
     <form method="post">
@@ -224,14 +330,96 @@ def signup():
     return _page("Create account", body, error), (400 if error else 200)
 
 
+@auth_bp.route("/verify/<token>")
+def verify(token):
+    email = _read_token(token, salt="email-verify", max_age=86400)  # 24h
+    if not email:
+        body = '<p class="info">This verification link has expired or is invalid.</p><div class="footer-link"><a href="/auth/signup">Sign up again</a></div>'
+        return _page("Link expired", body, show_google=False), 400
+    user = User.query.filter_by(email=email).first()
+    if not user:
+        return redirect("/auth/signup")
+    if not user.is_verified:
+        user.is_verified = True
+        db.session.commit()
+    login_user(user, remember=True)
+    return redirect("/")
+
+
+@auth_bp.route("/resend-verification")
+def resend_verification():
+    email = request.args.get("email", "").strip().lower()
+    if email:
+        user = User.query.filter_by(email=email).first()
+        if user and not user.is_verified:
+            _send_verification_email(user)
+    body = '<p class="info">If that email is registered and unverified, we\'ve sent a new link. Check your inbox.</p><div class="footer-link" style="margin-top:20px"><a href="/auth/login">Back to sign in</a></div>'
+    return _page("Verification sent", body, show_google=False)
+
+
+@auth_bp.route("/forgot", methods=["GET", "POST"])
+def forgot():
+    if request.method == "POST":
+        email = request.form.get("email", "").strip().lower()
+        user  = User.query.filter_by(email=email).first()
+        if user and user.password_hash:
+            _send_reset_email(user)
+        body = '<p class="info">If that email is registered, we\'ve sent a password reset link. It expires in 1 hour.</p><div class="footer-link" style="margin-top:20px"><a href="/auth/login">Back to sign in</a></div>'
+        return _page("Check your email", body, show_google=False)
+
+    body = """
+    <p class="info" style="margin-bottom:20px">Enter your email and we'll send you a reset link.</p>
+    <form method="post">
+      <div class="field"><label>Email</label>
+        <input type="email" name="email" required autofocus placeholder="you@example.com"></div>
+      <button type="submit" class="btn-primary">Send reset link</button>
+    </form>
+    <div class="footer-link"><a href="/auth/login">Back to sign in</a></div>"""
+    return _page("Forgot password", body, show_google=False)
+
+
+@auth_bp.route("/reset/<token>", methods=["GET", "POST"])
+def reset(token):
+    email = _read_token(token, salt="password-reset", max_age=3600)  # 1h
+    if not email:
+        body = '<p class="info">This reset link has expired or is invalid.</p><div class="footer-link"><a href="/auth/forgot">Request a new one</a></div>'
+        return _page("Link expired", body, show_google=False), 400
+
+    error = ""
+    if request.method == "POST":
+        password = request.form.get("password", "")
+        confirm  = request.form.get("confirm", "")
+        if len(password) < 8:
+            error = "Password must be at least 8 characters."
+        elif password != confirm:
+            error = "Passwords don't match."
+        else:
+            user = User.query.filter_by(email=email).first()
+            if user:
+                user.password_hash = bcrypt.hashpw(password.encode(), bcrypt.gensalt()).decode()
+                user.is_verified   = True
+                db.session.commit()
+            return _page("Password updated",
+                         '<p class="info">Your password has been updated.</p><div class="footer-link" style="margin-top:20px"><a href="/auth/login">Sign in</a></div>',
+                         show_google=False)
+
+    body = f"""
+    <form method="post">
+      <div class="field"><label>New password</label>
+        <input type="password" name="password" required autofocus placeholder="At least 8 characters"></div>
+      <div class="field"><label>Confirm password</label>
+        <input type="password" name="confirm" required placeholder="Same password again"></div>
+      <button type="submit" class="btn-primary">Set new password</button>
+    </form>"""
+    return _page("Reset password", body, error, show_google=False), (400 if error else 200)
+
+
 @auth_bp.route("/logout")
 @login_required
 def logout():
     logout_user()
     return redirect("/")
 
-
-# ── Google OAuth ──────────────────────────────────────────────────────────────
 
 @auth_bp.route("/google")
 def google_login():
@@ -245,8 +433,8 @@ def google_login():
 def google_callback():
     if not _GOOGLE_ENABLED:
         return redirect(url_for("auth.login"))
-    token = oauth.google.authorize_access_token()
-    info  = token.get("userinfo") or oauth.google.userinfo()
+    token     = oauth.google.authorize_access_token()
+    info      = token.get("userinfo") or oauth.google.userinfo()
     google_id = info["sub"]
     email     = info.get("email", "").lower()
     name      = info.get("name", "")
@@ -255,9 +443,10 @@ def google_callback():
     if not user:
         user = User.query.filter_by(email=email).first()
         if user:
-            user.google_id = google_id  # link Google to existing email account
+            user.google_id   = google_id
+            user.is_verified = True
         else:
-            user = User(email=email, name=name, google_id=google_id)
+            user = User(email=email, name=name, google_id=google_id, is_verified=True)
             db.session.add(user)
         db.session.commit()
 

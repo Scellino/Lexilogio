@@ -18,6 +18,7 @@ class User(UserMixin, db.Model):
     password_hash= db.Column(db.String(256))   # None for Google-only accounts
     google_id    = db.Column(db.String(256), unique=True)
     is_admin     = db.Column(db.Boolean, default=False)
+    is_verified  = db.Column(db.Boolean, default=True)  # False for new email signups until verified
     created_at   = db.Column(db.DateTime, server_default=db.func.now())
 
     def get_id(self):

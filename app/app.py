@@ -27,6 +27,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 from flask import Flask, redirect, request, send_from_directory, Response
+from werkzeug.middleware.proxy_fix import ProxyFix
 from flask_login import LoginManager, current_user
 from models import db, User
 from auth import auth_bp, oauth
@@ -44,6 +45,7 @@ from preset_loader import load_presets
 _DIR = Path(__file__).parent
 
 app = Flask(__name__, static_folder=None)
+app.wsgi_app = ProxyFix(app.wsgi_app, x_proto=1, x_host=1)
 app.config["SECRET_KEY"]             = os.environ.get("SECRET_KEY", "dev-secret-CHANGE-IN-PROD")
 app.config["SQLALCHEMY_DATABASE_URI"]= os.environ.get("DATABASE_URL", f"sqlite:///{_DIR / 'lexilogio.db'}")
 app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
@@ -605,8 +607,7 @@ def about():
         is valuable and I&#8217;d like to foster it if I can.</p>
 
         <p>This app is completely free; I won&#8217;t put ads anywhere. The only thing I hope is that, if you find it
-        useful, you can donate to help support the work and make sure I can eventually migrate to my own server, as
-        right now, I&#8217;m being generously hosted by a friend. And if this app grows, I&#8217;d love to build on
+        useful, you can donate to help cover server costs. And if this app grows, I&#8217;d love to build on
         top of it. For me, this is very much a hobby project; a lot of it was vibe-coded (AI-assisted), and by using
         AI, I&#8217;m obviously relying on the work of many others. Even though I find the ethics of AI a difficult
         topic, I believe that if you can use a technology to create something non-commercial that empowers people

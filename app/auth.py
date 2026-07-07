@@ -425,7 +425,8 @@ def logout():
 def google_login():
     if not _GOOGLE_ENABLED:
         return redirect(url_for("auth.login"))
-    redirect_uri = url_for("auth.google_callback", _external=True)
+    redirect_uri = (os.environ.get("GOOGLE_REDIRECT_URI")
+                    or url_for("auth.google_callback", _external=True))
     return oauth.google.authorize_redirect(redirect_uri)
 
 

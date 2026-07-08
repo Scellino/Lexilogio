@@ -72,9 +72,13 @@ def _edit_distance(a, b):
     return dp[n]
 
 
+def _strip_to(s):
+    return s[3:] if s.startswith("to ") else s
+
+
 def _check(guess, correct, direction='word→en'):
-    g    = _normalise(guess)
-    alts = [_normalise(a.strip()) for a in correct.split(",")]
+    g    = _strip_to(_normalise(guess))
+    alts = [_strip_to(_normalise(a.strip())) for a in correct.split(",")]
     if g in alts:
         return "correct"
     for a in alts:
@@ -982,8 +986,12 @@ function showFeedback(card,guess,result){
     <div class="feedback ${fbClass}">
       <div class="feedback-verdict">${verdict}</div>
       <div class="feedback-answer">
-        <span style="color:rgba(255,255,255,.4);font-size:11px">Answer: </span>
-        <strong style="font-family:Georgia,serif;${gc?`color:${gc}`:''}">${esc(correctAnswer)}</strong>
+        <span style="color:rgba(255,255,255,.4);font-size:11px">${isW2E?LANG.name:'English'}: </span>
+        <strong style="font-family:Georgia,serif;${gc&&!isW2E?`color:${gc}`:''}">${esc(isW2E?(art?art+' ':'')+card.word:card.translation)}</strong>
+      </div>
+      <div class="feedback-answer">
+        <span style="color:rgba(255,255,255,.4);font-size:11px">${isW2E?'English':LANG.name}: </span>
+        <strong style="font-family:Georgia,serif;${gc&&isW2E?`color:${gc}`:''}">${esc(correctAnswer)}</strong>
       </div>
       ${!correct&&guess?`<div class="feedback-yours">You wrote: ${esc(guess)}</div>`:''}
       ${w.length?`<div class="window-dots"><span style="font-size:9px;color:rgba(255,255,255,.25);font-family:sans-serif;margin-right:2px">last ${w.length}:</span>${dots}</div>`:''}

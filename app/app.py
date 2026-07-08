@@ -295,7 +295,7 @@ HOME_HTML = """<!DOCTYPE html>
   <div class="logo">Λεξιλόγιο</div>
   <div class="tagline" id="tagline">Language Trainer</div>
 
-  <p class="welcome">Welcome to Lexilogio — a vocabulary trainer built to help you improve your language skills. No ads, no paywall, no notifications. Just a clean interface to drill the words you want to study. What sets Lexilogio apart is its simple but effective quiz format and an easy way to build custom flashcard sets. Want to add many words at once? Copy the AI prompt into any chatbot, paste your word list, and copy the output back — you'll have a polished set of flashcards ready to study in minutes.</p>
+  <p class="welcome">Welcome to Lexilogio, the vocabulary trainer built to help you improve your language skills. No ads, no paywall, no notifications. Just a clean way to drill the words you want to study. What distinguishes Lexilogio is its simple but effective quiz interface and an easy way to create custom flashcards. If you want to add many words at once, go to the bulk add section, copy the Lexilogio prompt into any chatbot, add your word list, and copy the output back. You will have a set of beautiful flashcards ready to study in no time. Additionally, I am currently working on adding curated card presets you can use to get going right away.</p>
 
   <!-- Departure language selector (logged-in users only) -->
   <div class="dep-bar" id="dep-bar" style="display:none">
@@ -654,10 +654,9 @@ def de_vocab_redirect():
 def settings():
     from flask_login import current_user as cu
     dep = (cu.departure_lang or 'en') if cu.is_authenticated else 'en'
-    dep_names = {'en':'English','de':'German','fr':'French','nl':'Dutch','es':'Spanish','it':'Italian'}
+    dep_names = {'en':'English','de':'German'}
     options = [
-        ('en','🇬🇧 English'), ('de','🇩🇪 Deutsch'), ('fr','🇫🇷 Français'),
-        ('nl','🇳🇱 Nederlands'), ('es','🇪🇸 Español'), ('it','🇮🇹 Italiano'),
+        ('en','🇬🇧 English'), ('de','🇩🇪 Deutsch'),
     ]
     btns = ''.join(
         f'<button class="dep-btn{" active" if code==dep else ""}" onclick="setDep(\'{code}\')">{label}</button>'
@@ -855,8 +854,8 @@ def about():
 
         <p>This app is completely free; I won&#8217;t put ads anywhere. The only thing I hope is that, if you find it
         useful, you can donate to help cover server costs. And if this app grows, I&#8217;d love to build on
-        top of it. For me, this is very much a hobby project; a lot of it was vibe-coded (AI-assisted), and by using
-        AI, I&#8217;m obviously relying on the work of many others. Even though I find the ethics of AI a difficult
+        top of it. For me, this is very much a hobby project. This app was built with the assistance of AI, and as
+        such I am obviously relying on the work of many others. Even though I find the ethics of AI a difficult
         topic, I believe that if you can use a technology to create something non-commercial that empowers people
         (in its own small way), then it is worth it.</p>
 

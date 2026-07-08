@@ -531,8 +531,7 @@ def profile():
         n = len(w)
         acc = sum(w) / n if n else 0
         sd = r.spaced_days or 0
-        dirs = len(_json.loads(r.dirs or '[]'))
-        if n >= 5 and acc >= 0.8 and sd >= 3 and dirs >= 2:
+        if n >= 5 and acc >= 0.8 and sd >= 3:
             stats[lang]['mastered'] += 1
     name = cu.name or cu.email or ''
     rows_html = ''

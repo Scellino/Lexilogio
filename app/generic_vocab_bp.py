@@ -437,8 +437,8 @@ function cardMastery(c){
   const e=(progress[String(c.id)]||{});
   const w=e.window||[];
   const n=w.length,acc=n?w.filter(Boolean).length/n:0;
-  const sd=e.spaced_days||0,dirs=(e.dirs||[]).length;
-  if(n>=5&&acc>=0.8&&sd>=3&&dirs>=2) return 'mastered';
+  const sd=e.spaced_days||0;
+  if(n>=5&&acc>=0.8&&sd>=3) return 'mastered';
   if(n>=3&&acc<0.4)  return 'struggling';
   if(n>0)            return 'learning';
   return 'new';

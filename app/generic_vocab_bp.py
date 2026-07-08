@@ -318,8 +318,8 @@ select option{background:#1a1a2e;color:#fff}
   <div id="preview-banner"></div>
 </div>
 <div class="tabs" id="tabs">
-  <button class="tab active" onclick="switchTab('study')">&#128221; Study</button>
-  <button class="tab" onclick="switchTab('browse')">&#128218; Browse</button>
+  <button class="tab active" onclick="switchTab('browse')">&#128218; Browse</button>
+  <button class="tab" onclick="switchTab('study')">&#128221; Study</button>
   <button class="tab" onclick="switchTab('add')">&#10133; Add</button>
 </div>
 <div style="width:100%;max-width:480px;margin:12px auto 0;padding:0 14px 80px" id="content"></div>
@@ -365,7 +365,7 @@ const MASTERY_COLORS = {new:'#7ab3d4',learning:'#c9a96e',struggling:'#d47a8f',ma
 const MASTERY_LABELS = {new:'🆕 New',learning:'📘 Learning',struggling:'⚠️ Struggling',mastered:'✅ Mastered'};
 
 // ── State ─────────────────────────────────────────────────────────────────────
-let allCards=[], progress={}, tab='study';
+let allCards=[], progress={}, tab='browse';
 let studyFlipped=false;
 let browseView='list', browseSearch='';
 let browseGroups=new Set(), browseTags=new Set(), browseMastery='all';
@@ -376,7 +376,7 @@ let quizGroups=new Set(), quizTags=new Set(), quizMastery=new Set(), quizCount=1
 let quizWords=[], quizIdx=0, quizResults=[], quizRetrying=false;
 let quizPickMode=false, manualCards=new Set(), pickSearch='', pickGroups=new Set(), pickTags=new Set();
 let addType=(LANG.word_types||['noun'])[0];
-let genAddMode='form', genBulkParsed=null;
+let genAddMode='bulk', genBulkParsed=null;
 
 // ── Auth / user state ─────────────────────────────────────────────────────────
 /* __USER__ */
@@ -528,7 +528,7 @@ function cardBackHTML(c){
 function switchTab(t){
   tab=t;
   document.querySelectorAll('.tab').forEach((b,i)=>
-    b.classList.toggle('active',['study','browse','add'][i]===t));
+    b.classList.toggle('active',['browse','study','add'][i]===t));
   if(t==='study'){quizPhase='setup';studyFlipped=false;}
   render();
 }
@@ -1113,8 +1113,8 @@ function renderAdd(prefillCard){
       btn.onclick=()=>{genAddMode=mode;genBulkParsed=null;render();};
       return btn;
     };
-    modeRow.appendChild(mkBtn('📋 Form','form'));
     modeRow.appendChild(mkBtn('✏️ Manual / Bulk','bulk'));
+    modeRow.appendChild(mkBtn('📋 Form','form'));
     wrap.appendChild(modeRow);
   } else {
     const lbl=mkel('div','');
@@ -1219,7 +1219,6 @@ function renderAdd(prefillCard){
       '<span style="color:rgba(201,169,110,.7)">tags:</span> comma-separated<br>'+
       '<span style="color:rgba(201,169,110,.7)">priority:</span> yes / no<br>'+
       (gramLines?'<br><span style="color:rgba(255,255,255,.35)">Grammar fields</span><br>'+gramLines:'');
-    wrap.appendChild(hint);
 
     // AI prompt
     const gramInstr=Object.entries(LANG.grammar_fields||{}).filter(([,f])=>f.length).map(([type,fields])=>
@@ -1293,6 +1292,7 @@ function renderAdd(prefillCard){
     aiTa.style.cssText='min-height:120px;font-size:10px;margin-top:8px;color:rgba(255,255,255,.35);cursor:text;line-height:1.5';
     aiTa.readOnly=true;aiTa.value=aiPrompt;
     tipsDiv.appendChild(aiTa);wrap.appendChild(tipsDiv);
+    wrap.appendChild(hint);
   }
 
   return wrap;

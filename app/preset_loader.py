@@ -30,8 +30,8 @@ LANG_FOLDERS = {
 
 def _slug(lang, departure, word):
     normalized = unicodedata.normalize("NFKD", word.lower())
-    ascii_word = "".join(c for c in normalized if not unicodedata.combining(c))
-    slug = re.sub(r"[^a-z0-9]+", "-", ascii_word).strip("-")
+    no_combining = "".join(c for c in normalized if not unicodedata.combining(c))
+    slug = re.sub(r"[^\w]+", "-", no_combining, flags=re.UNICODE).strip("-").replace("_", "-")
     return f"{lang}-{departure}-{slug}"
 
 

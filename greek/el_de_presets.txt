@@ -1410,3 +1410,4 @@ etymology: Gegenteil von αισιόδοξος mit der Vorsilbe απ- (από).
 note: Beschreibt eine generell negative Erwartungshaltung.
 tags: ⚙️ neutral, 😢 Gefühle
 priority: no
+//

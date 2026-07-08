@@ -17,9 +17,10 @@ class User(UserMixin, db.Model):
     name         = db.Column(db.String(256))
     password_hash= db.Column(db.String(256))   # None for Google-only accounts
     google_id    = db.Column(db.String(256), unique=True)
-    is_admin     = db.Column(db.Boolean, default=False)
-    is_verified  = db.Column(db.Boolean, default=True)  # False for new email signups until verified
-    created_at   = db.Column(db.DateTime, server_default=db.func.now())
+    is_admin       = db.Column(db.Boolean, default=False)
+    is_verified    = db.Column(db.Boolean, default=True)
+    departure_lang = db.Column(db.String(10), default='en')  # user's native language
+    created_at     = db.Column(db.DateTime, server_default=db.func.now())
 
     def get_id(self):
         return str(self.id)
@@ -55,11 +56,12 @@ class Progress(db.Model):
 
 class UserCard(db.Model):
     __tablename__ = "user_cards"
-    id        = db.Column(db.Integer, primary_key=True)
-    user_id   = db.Column(db.Integer, db.ForeignKey("users.id"), nullable=False)
-    lang_code = db.Column(db.String(10), nullable=False)
-    card_id   = db.Column(db.String(64), nullable=False)   # matches card["id"] in JSON
-    card_data = db.Column(db.Text, nullable=False)          # full card JSON
+    id             = db.Column(db.Integer, primary_key=True)
+    user_id        = db.Column(db.Integer, db.ForeignKey("users.id"), nullable=False)
+    lang_code      = db.Column(db.String(10), nullable=False)
+    card_id        = db.Column(db.String(64), nullable=False)
+    card_data      = db.Column(db.Text, nullable=False)
+    departure_lang = db.Column(db.String(10), default='en')
 
     __table_args__ = (
         db.UniqueConstraint("user_id", "lang_code", "card_id", name="uq_user_card"),
@@ -72,8 +74,9 @@ class UserCard(db.Model):
 class PresetCard(db.Model):
     """Preset cards loaded from *_presets.txt files in language folders."""
     __tablename__ = "preset_cards"
-    id          = db.Column(db.String(128), primary_key=True)  # e.g. "fr-voyager"
-    lang        = db.Column(db.String(10),  nullable=False, index=True)
+    id             = db.Column(db.String(128), primary_key=True)  # e.g. "nl-en-hallo"
+    lang           = db.Column(db.String(10),  nullable=False, index=True)
+    departure_lang = db.Column(db.String(10),  nullable=False, default='en', index=True)
     word        = db.Column(db.String(256), nullable=False)
     translation = db.Column(db.Text,        nullable=False)
     type        = db.Column(db.String(64))
@@ -107,6 +110,7 @@ class PresetCard(db.Model):
             "example":      ex,
             "priority":     self.priority or 0,
             "language":     self.lang,
+            "departure_lang": self.departure_lang or 'en',
         }
 
 

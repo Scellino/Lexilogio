@@ -1,11 +1,15 @@
 """
 preset_loader.py — Import preset cards from *_presets.txt files into the DB.
 
-Drop a file like fr_presets.txt in the relevant language folder.
+File naming convention: {target_lang}_{departure_lang}_presets.txt
+  e.g. nl_en_presets.txt  → Dutch words, taught from English
+       nl_de_presets.txt  → Dutch words, taught from German
+
 Format: same as the bulk-add textarea in the vocab trainer (key: value lines,
 cards separated by //). On app startup, only new cards (by ID) are imported.
 
-ID is derived automatically: lang code (from filename prefix) + slugified word.
+ID format: {target_lang}-{departure_lang}-{slug}
+  e.g. nl-en-hallo, nl-de-hallo
 """
 import re
 import json
@@ -24,11 +28,11 @@ LANG_FOLDERS = {
 }
 
 
-def _slug(lang, word):
+def _slug(lang, departure, word):
     normalized = unicodedata.normalize("NFKD", word.lower())
     ascii_word = "".join(c for c in normalized if not unicodedata.combining(c))
     slug = re.sub(r"[^a-z0-9]+", "-", ascii_word).strip("-")
-    return f"{lang}-{slug}"
+    return f"{lang}-{departure}-{slug}"
 
 
 def _expand_inline(block):
@@ -41,7 +45,7 @@ def _expand_inline(block):
     return result
 
 
-def _parse_preset_text(text, lang):
+def _parse_preset_text(text, lang, departure):
     """Parse // -separated card blocks into a list of card dicts."""
     blocks = re.split(r'\n[ \t]*(?:---|//)[ \t]*(?:\n|$)', text.strip())
     cards = []
@@ -67,12 +71,12 @@ def _parse_preset_text(text, lang):
                     card["example"][lang] = val
                 else:
                     card["example"] = val
-            elif key == "example.en":
+            elif key == f"example.{departure}":
                 prev = card.get("example", "")
                 if isinstance(prev, dict):
-                    prev["en"] = val
+                    prev[departure] = val
                 else:
-                    card["example"] = {lang: prev, "en": val}
+                    card["example"] = {lang: prev, departure: val}
             elif key == "note":           card["note"] = val
             elif key == "etymology":      card["etymology"] = val
             elif key == "priority":       card["priority"] = 1 if re.search(r'yes|true|1', val, re.I) else 0
@@ -81,9 +85,21 @@ def _parse_preset_text(text, lang):
                 label = raw_key[8:].strip()
                 card["grammar"].append({"label": label, "value": val})
         if card.get("word") and card.get("translation"):
-            card["id"] = _slug(lang, card["word"])
+            card["id"] = _slug(lang, departure, card["word"])
+            card["departure_lang"] = departure
             cards.append(card)
     return cards
+
+
+def _parse_filename(txt_file):
+    """Extract (target_lang, departure_lang) from filename.
+    Supports nl_en_presets.txt (new) and nl_presets.txt (legacy → departure='en').
+    """
+    stem = txt_file.stem  # e.g. "nl_en_presets" or "nl_presets"
+    parts = stem.split("_")
+    if len(parts) >= 3 and len(parts[1]) == 2:
+        return parts[0], parts[1]   # nl_en_presets → ('nl', 'en')
+    return parts[0], 'en'           # nl_presets → ('nl', 'en')
 
 
 def load_presets(app):
@@ -95,16 +111,20 @@ def load_presets(app):
             if not folder.exists():
                 continue
             for txt_file in sorted(folder.glob("*_presets.txt")):
+                file_lang, departure = _parse_filename(txt_file)
+                if file_lang != lang:
+                    continue
                 try:
                     text = txt_file.read_text(encoding="utf-8")
                 except OSError:
                     continue
-                cards = _parse_preset_text(text, lang)
+                cards = _parse_preset_text(text, lang, departure)
                 if not cards:
                     continue
                 existing_ids = {
                     row[0] for row in
-                    db.session.query(PresetCard.id).filter_by(lang=lang).all()
+                    db.session.query(PresetCard.id)
+                    .filter_by(lang=lang, departure_lang=departure).all()
                 }
                 new_cards = [c for c in cards if c["id"] not in existing_ids]
                 if not new_cards:
@@ -114,6 +134,7 @@ def load_presets(app):
                     db.session.merge(PresetCard(
                         id=c["id"],
                         lang=lang,
+                        departure_lang=departure,
                         word=c.get("word", ""),
                         translation=c.get("translation", ""),
                         type=c.get("type", ""),
@@ -128,7 +149,7 @@ def load_presets(app):
                     ))
                 try:
                     db.session.commit()
-                    print(f"[presets] {lang}: imported {len(new_cards)} card(s) from {txt_file.name}")
+                    print(f"[presets] {lang}/{departure}: imported {len(new_cards)} card(s) from {txt_file.name}")
                 except Exception as e:
                     db.session.rollback()
-                    print(f"[presets] {lang}: error importing {txt_file.name}: {e}")
+                    print(f"[presets] {lang}/{departure}: error importing {txt_file.name}: {e}")

@@ -1,0 +1,60 @@
+word: hallo translation: hello, hi type: interjection group: 📅 Everyday Life pronunciation: /ˈɦɑ.loː/ example.nl: Hallo! Hoe gaat het met je? example.en: Hello! How are you? note: Neutral greeting suitable in most situations. tags: ⭐ common, 💬 communication, 🌆 daily priority: yes
+//
+word: hoi translation: hi type: interjection group: 📅 Everyday Life pronunciation: /ɦɔi/ example.nl: Hoi, leuk je te zien! example.en: Hi, nice to see you! note: Informal greeting. tags: ⭐ common, 💬 communication, 🌆 daily priority: yes
+//
+word: tot ziens translation: goodbye, see you type: phrase group: 📅 Everyday Life pronunciation: /tɔt ˈzins/ example.nl: Tot ziens! Fijne dag! example.en: Goodbye! Have a nice day! note: Neutral farewell. Literally "until seeing (you)." tags: ⭐ common, 💬 communication, 🌆 daily priority: yes
+//
+word: alsjeblieft translation: please, here you are type: interjection group: 📅 Everyday Life pronunciation: /ɑls.jəˈblift/ example.nl: Kun je me alsjeblieft helpen? example.en: Could you please help me? note: Also means "here you are" when giving something. tags: ⭐ common, 💬 communication, 🌆 daily priority: yes
+//
+word: bedankt translation: thank you, thanks type: interjection group: 📅 Everyday Life pronunciation: /bəˈdɑŋkt/ example.nl: Bedankt voor je hulp. example.en: Thank you for your help. note: Dank je (wel) is slightly more personal. tags: ⭐ common, 💬 communication, 🌆 daily priority: yes
+//
+word: sorry translation: sorry type: interjection group: 📅 Everyday Life pronunciation: /ˈsɔ.ri/ example.nl: Sorry dat ik te laat ben. example.en: Sorry I'm late. note: Also commonly used in Dutch alongside "het spijt me." tags: ⭐ common, 💬 communication, 🎭 emotion priority: yes
+//
+word: pardon translation: excuse me, pardon type: interjection group: 📅 Everyday Life pronunciation: /pɑrˈdɔn/ example.nl: Pardon, mag ik erlangs? example.en: Excuse me, may I get past? note: Used to get attention or ask someone to repeat something. tags: ⭐ common, 💬 communication, 🌆 daily priority: yes
+//
+word: welkom translation: welcome type: interjection group: 📅 Everyday Life pronunciation: /ˈʋɛl.kɔm/ example.nl: Welkom in Nederland! example.en: Welcome to the Netherlands! note: Also used as an adjective. tags: ⭐ common, 💬 communication, 🇳🇱 dutchness priority: yes
+//
+word: leuk translation: nice, fun, pleasant type: adjective group: 📅 Everyday Life pronunciation: /løk/ example.nl: Dat is een leuk idee. example.en: That's a nice idea. note: Extremely common adjective for people, activities and objects. tags: ⭐ common, 🎭 adjective, 🌆 daily priority: yes grammar.Inflected form: leuke grammar.Comparative: leuker grammar.Superlative: leukst
+//
+word: ontmoeten translation: meet type: verb group: 📅 Everyday Life pronunciation: /ˌɔntˈmutə(n)/ example.nl: Ik ontmoet morgen een nieuwe collega. example.en: I'm meeting a new colleague tomorrow. note: Means meeting someone for the first time or by arrangement. tags: ⭐ common, 💬 communication, 🌆 daily priority: yes grammar.Past tense (sg.): ontmoette grammar.Past participle: ontmoet grammar.Auxiliary: hebben grammar.Present (ik / jij / hij / wij / jullie / zij): ontmoet / ontmoet / ontmoet / ontmoeten / ontmoeten / ontmoeten
+//
+word: naam translation: name type: noun group: 📅 Everyday Life pronunciation: /naːm/ example.nl: Wat is je naam? example.en: What is your name? note: Common introductory question. tags: ⭐ common, 💬 communication, 🌆 daily priority: yes grammar.Article / Gender: de grammar.Plural: namen grammar.Diminutive: het naampje
+//
+word: voornaam translation: first name, given name type: noun group: 📅 Everyday Life pronunciation: /ˈvoːr.naːm/ example.nl: Mijn voornaam is Emma. example.en: My first name is Emma. note: Opposite of "achternaam." tags: ⭐ common, 💬 communication, 🌆 daily priority: yes grammar.Article / Gender: de grammar.Plural: voornamen grammar.Diminutive: het voornaampje
+//
+word: achternaam translation: last name, surname type: noun group: 📅 Everyday Life pronunciation: /ˈɑx.tər.naːm/ example.nl: Wat is uw achternaam? example.en: What is your last name? note: More formal with "uw." tags: ⭐ common, 💬 communication, 🌆 daily priority: yes grammar.Article / Gender: de grammar.Plural: achternamen grammar.Diminutive: het achternaampje
+//
+word: voorstellen translation: introduce, introduce oneself type: verb group: 📅 Everyday Life pronunciation: /ˈvoːr.stɛ.lə(n)/ example.nl: Mag ik me even voorstellen? example.en: May I introduce myself? note: Reflexive when introducing yourself: zich voorstellen. tags: ⭐ common, 💬 communication, 🌆 daily priority: yes grammar.Past tense (sg.): stelde voor grammar.Past participle: voorgesteld grammar.Auxiliary: hebben grammar.Present (ik / jij / hij / wij / jullie / zij): stel voor / stelt voor / stelt voor / stellen voor / stellen voor / stellen voor
+//
+word: vriend translation: friend type: noun group: 📅 Everyday Life pronunciation: /vrint/ example.nl: Hij is een goede vriend van mij. example.en: He is a good friend of mine. note: Female form: vriendin. Both can also mean boyfriend/girlfriend depending on context. tags: ⭐ common, 💬 communication, 👨‍👩‍👧‍👦 family, 🌆 daily priority: yes grammar.Article / Gender: de grammar.Plural: vrienden grammar.Diminutive: het vriendje
+//
+
+word: hoe translation: how type: adverb group: 📅 Everyday Life pronunciation: /ɦu/ example.nl: Hoe gaat het met je? example.en: How are you? note: Used in questions about manner, condition, or degree. tags: ⭐ common, 📚 grammar, 💬 communication priority: yes
+//
+word: waarom translation: why type: adverb group: 📅 Everyday Life pronunciation: /ʋaːˈrɔm/ example.nl: Waarom ben je zo laat? example.en: Why are you so late? note: Used to ask for a reason or explanation. tags: ⭐ common, 📚 grammar, 💬 communication priority: yes
+//
+word: omdat translation: because type: conjunction group: 📅 Everyday Life pronunciation: /ˈɔmdat/ example.nl: Ik blijf thuis omdat ik ziek ben. example.en: I stay home because I am sick. note: Introduces a reason clause. The verb goes to the end of the clause. tags: ⭐ common, 📚 grammar, 🧠 thinking priority: yes grammar.Type: subordinating grammar.Word-order effect: verb to end of clause (SOV)
+//
+word: vandaag translation: today type: adverb group: 📅 Everyday Life pronunciation: /fanˈdaːx/ example.nl: Vandaag werk ik thuis. example.en: Today I work from home. note: Combines with time expressions: vandaagavond, vandaagmiddag. tags: ⭐ common, 🕰️ time, 🌆 daily priority: yes
+//
+word: gisteren translation: yesterday type: adverb group: 📅 Everyday Life pronunciation: /ˈɣɪstə.rə(n)/ example.nl: Gisteren heb ik een film gekeken. example.en: Yesterday I watched a movie. note: Often used at the beginning of a sentence for emphasis. tags: ⭐ common, 🕰️ time, 🌆 daily priority: yes
+//
+word: morgen translation: tomorrow type: adverb group: 📅 Everyday Life pronunciation: /ˈmɔr.ɣə(n)/ example.nl: Morgen ga ik naar de stad. example.en: Tomorrow I am going to the city. note: Can also mean "morning" depending on context: de morgen. tags: ⭐ common, 🕰️ time, 🌆 daily priority: yes
+//
+word: weekend translation: weekend type: noun group: 📅 Everyday Life pronunciation: /ˈʋik.ɛnt/ example.nl: In het weekend slaap ik langer. example.en: On the weekend I sleep longer. note: Usually used with "het": het weekend. tags: ⭐ common, 🕰️ time, 🌆 daily priority: yes grammar.Article / Gender: het grammar.Plural: weekenden grammar.Diminutive: het weekendje
+//
+word: druk translation: busy type: adjective group: 📅 Everyday Life pronunciation: /drʏk/ example.nl: Ik ben deze week erg druk. example.en: I am very busy this week. note: Can also mean crowded or noisy. tags: ⭐ common, 🎭 adjective, 🌆 daily priority: yes grammar.Inflected form: drukke grammar.Comparative: drukker grammar.Superlative: drukst
+//
+word: vrij translation: free, available type: adjective group: 📅 Everyday Life pronunciation: /vrɛi/ example.nl: Ben je morgen vrij? example.en: Are you free tomorrow? note: Also means "free" as in without cost or not imprisoned. tags: ⭐ common, 🎭 adjective, 🕰️ time priority: yes grammar.Inflected form: vrije grammar.Comparative: vrijer grammar.Superlative: vrijst
+//
+word: interessant translation: interesting type: adjective group: 📅 Everyday Life pronunciation: /ɪn.te.rɛˈsɑnt/ example.nl: Dat is een interessant boek. example.en: That is an interesting book. note: Borrowed from French; pronounced with Dutch stress. tags: ⭐ common, 🎭 adjective, 🧠 thinking priority: yes grammar.Inflected form: interessante grammar.Comparative: interessanter grammar.Superlative: interessantst
+//
+word: saai translation: boring type: adjective group: 📅 Everyday Life pronunciation: /saːi/ example.nl: De film was erg saai. example.en: The movie was very boring. note: Common opposite: interessant or leuk. tags: ⭐ common, 🎭 adjective, 🧠 emotion priority: yes grammar.Inflected form: saaie grammar.Comparative: saaier grammar.Superlative: saaiste
+//
+word: leuk translation: fun, nice type: adjective group: 📅 Everyday Life pronunciation: /løk/ example.nl: Het feest was echt leuk. example.en: The party was really fun. note: Very common word with many uses. tags: ⭐ common, 🎭 adjective, 🌆 daily priority: yes grammar.Inflected form: leuke grammar.Comparative: leuker grammar.Superlative: leukst
+//
+word: akkoord gaan translation: agree type: phrase group: 📅 Everyday Life pronunciation: /aˈkɔrt ɣaːn/ example.nl: Ik ga akkoord met jouw voorstel. example.en: I agree with your proposal. note: Common phrase in formal and everyday contexts. tags: ⭐ common, 💬 communication, 🧠 thinking priority: yes
+//
+word: denken translation: think type: verb group: 📅 Everyday Life pronunciation: /ˈdɛŋkə(n)/ example.nl: Ik denk dat het goed komt. example.en: I think it will be okay. note: Often followed by "dat" with a subordinate clause. tags: ⭐ common, 🧠 thinking, 💬 communication priority: yes grammar.Past tense (sg.): dacht grammar.Past participle: gedacht grammar.Auxiliary: hebben grammar.Present (ik / jij / hij / wij / jullie / zij): denk / denkt / denkt / denken / denken / denken
+//
+word: misschien translation: maybe, perhaps type: adverb group: 📅 Everyday Life pronunciation: /misˈxiːn/ example.nl: Misschien kom ik morgen. example.en: Maybe I will come tomorrow. note: Common way to express uncertainty. tags: ⭐ common, 🧠 thinking, 💬 communication priority: yes

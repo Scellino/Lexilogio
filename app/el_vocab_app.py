@@ -165,7 +165,7 @@ EL_LANG = {
 
     # Field mapping: Greek cards use different field names than the generic schema
     "word_field":            "greek",        # card.greek → card.word
-    "group_field":           "scene_id",     # card.scene_id → card.group
+    "group_field":           "scene_label",   # card.scene_label → card.group (already has emoji)
     "example_native_code":   "gr",           # card.example.gr → card.example.el
     "gender_grammar_label":  "Gender",       # extract card.gender from grammar[label=Gender].value
 
@@ -176,12 +176,28 @@ EL_LANG = {
     "group_labels": {**{s["id"]: s["label"] for s in SCENES_META}, **_user_scenes},
 
     "tag_labels": {
-        "colloquial":       "💬 colloquial",
+        "neutral":          "◽ neutral",
+        "everyday life":    "🏠 everyday life",
+        "everyday":         "🏠 everyday",
         "figurative":       "🎭 figurative",
         "formal":           "📚 formal",
-        "neutral":          "◽ neutral",
+        "colloquial":       "💬 colloquial",
+        "nature":           "🌿 nature",
+        "mythological":     "⚡ mythological",
+        "literary":         "✍️ literary",
+        "emotion":          "❤️ emotion",
+        "nautical":         "⚓ nautical",
+        "body":             "🫀 body",
+        "religion":         "🕍 religion",
+        "common":           "⭐ common",
+        "deponent":         "📝 deponent",
         "loanword:italian": "🇮🇹 loanword",
         "loanword:turkish": "🇹🇷 loanword",
+        "loanword:slavic":  "🇷🇺 loanword",
+        "emphatic":         "❗ emphatic",
+        "emotional":        "❤️ emotional",
+        "café":             "☕ café",
+        "character":        "👤 character",
     },
 
     "article_rule": {

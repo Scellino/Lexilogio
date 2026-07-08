@@ -901,7 +901,7 @@ function renderQuizQuestion(){
       ${mastLbl?`<div class="mastery-badge" style="color:${MASTERY_COLORS[lvl]}">${mastLbl}</div>`:''}
       <div class="prompt-word" style="font-size:${promptSize};color:${promptColor}">${esc(prompt)}</div>
       ${promptSub?`<div class="prompt-sub">${esc(promptSub)}</div>`:''}
-      ${card.group?`<div class="prompt-group">${esc(card.group)}</div>`:''}
+      ${card.group?`<div class="prompt-group">${esc(groupLabel(card.group))}</div>`:''}
     </div>
     <input type="text" id="answer-input" autofocus
       placeholder="${isW2E?'Type the '+DEP_NAME+' translation…':'Type the '+LANG.name+' word…'}"

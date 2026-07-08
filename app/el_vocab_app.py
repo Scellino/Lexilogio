@@ -175,7 +175,14 @@ EL_LANG = {
 
     "group_labels": {**{s["id"]: s["label"] for s in SCENES_META}, **_user_scenes},
 
-    "tag_labels": {},
+    "tag_labels": {
+        "colloquial":       "💬 colloquial",
+        "figurative":       "🎭 figurative",
+        "formal":           "📚 formal",
+        "neutral":          "◽ neutral",
+        "loanword:italian": "🇮🇹 loanword",
+        "loanword:turkish": "🇹🇷 loanword",
+    },
 
     "article_rule": {
         "based_on": "gender",

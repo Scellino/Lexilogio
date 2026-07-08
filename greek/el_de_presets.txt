@@ -1,0 +1,1412 @@
+word: ψωμί
+translation: Brot
+type: noun
+group: Essen & Trinken
+pronunciation: [psoˈmi]
+grammar.Gender: n
+grammar.Plural: τα ψωμιά
+example.el: Θέλω μια φέτα ψωμί, παρακαλώ.
+example.de: Ich möchte bitte eine Scheibe Brot.
+etymology: Vom altgriechischen ψωμίον (bissen).
+note: Bezieht sich im Alltag auf jede Art von Brot.
+tags: ⭐ common, 🍕 Essen
+priority: yes
+//
+word: νερό
+translation: Wasser
+type: noun
+group: Essen & Trinken
+pronunciation: [neˈro]
+grammar.Gender: n
+grammar.Plural: τα νερά
+example.el: Ένα μπουκάλι νερό, παρακαλώ.
+example.de: Eine Flasche Wasser, bitte.
+etymology: Vom altgriechischen νεαρόν (ύδωρ) - frisches Wasser.
+note: Grundwort, unverzichtbar im Alltag.
+tags: ⭐ common, 🥤 Getränke
+priority: yes
+//
+word: γάλα
+translation: Milch
+type: noun
+group: Essen & Trinken
+pronunciation: [ˈɣala]
+grammar.Gender: n
+grammar.Plural: τα γάλατα
+example.el: Πίνω καφέ με γάλα.
+example.de: Ich trinke Kaffee mit Milch.
+etymology: Aus dem altgriechischen γάλα.
+note: Unregelmäßige Pluralbildung (γάλατα).
+tags: ⭐ common, 🥤 Getränke
+priority: yes
+//
+word: τυρί
+translation: Käse
+type: noun
+group: Essen & Trinken
+pronunciation: [tiˈri]
+grammar.Gender: n
+grammar.Plural: τα τυριά
+example.el: Μου αρέσει το ελληνικό τυρί.
+example.de: Ich mag griechischen Käse.
+etymology: Aus dem altgriechischen τυρίον.
+note: Wird oft generisch für Feta verwendet, wenn kein anderer Name genannt wird.
+tags: ⭐ common, 🍕 Essen
+priority: yes
+//
+word: λάδι
+translation: Öl, Olivenöl
+type: noun
+group: Essen & Trinken
+pronunciation: [ˈlaði]
+grammar.Gender: n
+grammar.Plural: τα λάδια
+example.el: Η σαλάτα χρειάζεται λίγο λάδι.
+example.de: Der Salat braucht etwas Öl.
+etymology: Aus dem altgriechischen έλαιον.
+note: In Griechenland versteht man darunter fast immer Olivenöl (ελαιόλαδο).
+tags: ⭐ common, 🍕 Essen
+priority: yes
+//
+word: κρέας
+translation: Fleisch
+type: noun
+group: Essen & Trinken
+pronunciation: [ˈkreas]
+grammar.Gender: n
+grammar.Plural: τα κρέατα
+example.el: Δεν τρώω κρέας, είμαι χορτοφάγος.
+example.de: Ich esse kein Fleisch, ich bin Vegetarier.
+etymology: Aus dem altgriechischen κρέας.
+note: Überg Begriff für alle Fleischsorten.
+tags: ⭐ common, 🥩 Fleisch
+priority: yes
+//
+word: ψάρι
+translation: Fisch
+type: noun
+group: Essen & Trinken
+pronunciation: [ˈpsari]
+grammar.Gender: n
+grammar.Plural: τα ψάρια
+example.el: Το φρέσκο ψάρι είναι ακριβό.
+example.de: Frischer Fisch ist teuer.
+etymology: Vom altgriechischen ὀψάριον.
+note: Sehr wichtiges Element der mediterranen Küche.
+tags: ⭐ common, 🐟 Fisch
+priority: yes
+//
+word: κοτόπουλο
+translation: Hähnchen, Geflügel
+type: noun
+group: Essen & Trinken
+pronunciation: [koˈtopulo]
+grammar.Gender: n
+grammar.Plural: τα κοτόπουλα
+example.el: Σήμερα μαγειρεύω κοτόπουλο στο φούρνο.
+example.de: Heute koche ich Hähnchen im Ofen.
+etymology: Zusammengesetzt aus κότα (Huhn) und -πουλο (Jungtier).
+note: Beliebtes Alltagsgericht in Griechenland.
+tags: ⭐ common, 🥩 Fleisch
+priority: yes
+//
+word: φρούτο
+translation: Frucht, Obst
+type: noun
+group: Essen & Trinken
+pronunciation: [ˈfruto]
+grammar.Gender: n
+grammar.Plural: τα φρούτα
+example.el: Το καλοκαίρι τρώμε πολλά φρούτα.
+example.de: Im Sommer essen wir viel Obst.
+etymology: Aus dem Italienischen (frutto).
+note: Wird meistens im Plural verwendet (τα φρούτα).
+tags: ⭐ common, 🍎 Obst
+priority: yes
+//
+word: λαχανικό
+translation: Gemüse
+type: noun
+group: Essen & Trinken
+pronunciation: [laxaniˈko]
+grammar.Gender: n
+grammar.Plural: τα λαχανικά
+example.el: Πρέπει να τρως περισσότερα λαχανικά.
+example.de: Du musst mehr Gemüse essen.
+etymology: Von λάχανο (Kohl).
+note: Meistens im Plural verwendet.
+tags: ⭐ common, 🥦 Gemüse
+priority: yes
+//
+word: κρασί
+translation: Wein
+type: noun
+group: Essen & Trinken
+pronunciation: [kraˈsi]
+grammar.Gender: n
+grammar.Plural: τα κρασιά
+example.el: Θέλετε κόκκινο ή λευκό κρασί;
+example.de: Möchten Sie Rot- oder Weißwein?
+etymology: Vom altgriechischen κράσις (Mischung).
+note: Traditionell wird Wein in Griechenland oft mit Wasser gemischt getrunken (historisch).
+tags: ⭐ common, 🥤 Getränke
+priority: yes
+//
+word: μπίρα
+translation: Bier
+type: noun
+group: Essen & Trinken
+pronunciation: [ˈbira]
+grammar.Gender: f
+grammar.Plural: οι μπίρες
+example.el: Μια παγωμένη μπίρα, παρακαλώ!
+example.de: Ein eisgekühltes Bier, bitte!
+etymology: Aus dem Italienischen (birra).
+note: Wird auch oft "μπύρα" geschrieben.
+tags: ⭐ common, 🥤 Getränke
+priority: yes
+//
+word: καφές
+translation: Kaffee
+type: noun
+group: Essen & Trinken
+pronunciation: [kaˈfes]
+grammar.Gender: m
+grammar.Plural: οι καφέδες
+example.el: Πίνω τον καφέ μου χωρίς ζάχαρη.
+example.de: Ich trinke meinen Kaffee ohne Zucker.
+etymology: Aus dem Türkischen (kahve).
+note: Maskulinum mit unregelmäßigem Plural (-ές -> -έδες).
+tags: ⭐ common, 🥤 Getränke, loanword:turkish
+priority: yes
+//
+word: ζάχαρη
+translation: Zucker
+type: noun
+group: Essen & Trinken
+pronunciation: [ˈzaxari]
+grammar.Gender: f
+grammar.Plural: οι ζάχαρες
+example.el: Πόση ζάχαρη θέλεις στον καφέ σου;
+example.de: Wie viel Zucker möchtest du in deinem Kaffee?
+etymology: Aus dem Arabischen über das Altgriechische σάκχαρον.
+note: Plural wird selten benutzt, nur bei Zuckersorten.
+tags: ⭐ common, 🍕 Essen
+priority: yes
+//
+word: αλάτι
+translation: Salz
+type: noun
+group: Essen & Trinken
+pronunciation: [aˈlati]
+grammar.Gender: n
+grammar.Plural: τα αλάτια
+example.el: Το φαγητό δεν έχει αλάτι.
+example.de: Das Essen hat kein Salz.
+etymology: Aus dem altgriechischen ἅλας.
+note: Wichtiges Gewürz in der Küche.
+tags: ⭐ common, 🍕 Essen
+priority: yes
+//
+word: πιπέρι
+translation: Pfeffer
+type: noun
+group: Essen & Trinken
+pronunciation: [piˈperi]
+grammar.Gender: n
+grammar.Plural: τα πιπέρια
+example.el: Βάλε λίγο πιπέρι στη σούπα.
+example.de: Gib etwas Pfeffer in die Suppe.
+etymology: Aus dem altgriechischen πέπερι.
+note: Bezieht sich sowohl auf das Gewürzpulver als auch auf Paprikaschoten (in manchen Regionen).
+tags: ⚙️ neutral, 🍕 Essen
+priority: no
+//
+word: ρύζι
+translation: Reis
+type: noun
+group: Essen & Trinken
+pronunciation: [ˈrizi]
+grammar.Gender: n
+grammar.Plural: τα ρύζια
+example.el: Το κρέας συνοδεύεται με ρύζι.
+example.de: Das Fleisch wird von Reis begleitet.
+etymology: Aus dem altgriechischen ὄρυζα.
+note: Pluralform existiert, wird aber kaum genutzt.
+tags: ⚙️ neutral, 🍕 Essen
+priority: no
+//
+word: μακαρόνια
+translation: Nudeln, Pasta
+type: noun
+group: Essen & Trinken
+pronunciation: [makaˈrona]
+grammar.Gender: n
+grammar.Plural: τα μακαρόνια
+example.el: Σήμερα έχουμε μακαρόνια με κιμά.
+example.de: Heute haben wir Nudeln mit Hackfleisch.
+etymology: Aus dem Italienischen (maccheroni).
+note: Wird fast ausschließlich im Plural verwendet. Das Singular "μακαρόνι" bezeichnet eine einzelne Nudel.
+tags: ⭐ common, 🍕 Essen, loanword:italian
+priority: yes
+//
+word: σαλάτα
+translation: Salat
+type: noun
+group: Essen & Trinken
+pronunciation: [saˈlata]
+grammar.Gender: f
+grammar.Plural: οι σαλάτες
+example.el: Παρήγγειλα μια χωριάτικη σαλάτα.
+example.de: Ich habe einen griechischen Bauernsalat bestellt.
+etymology: Aus dem Italienischen (insalata).
+note: "Χωριάτικη σαλάτα" ist der berühmte griechische Bauernsalat.
+tags: ⭐ common, 🥦 Gemüse
+priority: yes
+//
+word: ντομάτα
+translation: Tomate
+type: noun
+group: Essen & Trinken
+pronunciation: [ntoˈmata]
+grammar.Gender: f
+grammar.Plural: οι ντομάτες
+example.el: Οι ντομάτες το καλοκαίρι είναι πολύ γλυκές.
+example.de: Die Tomaten im Sommer sind sehr süß.
+etymology: Über europäische Sprachen vom aztekischen tomatl.
+note: Basisbestandteil fast jeder griechischen Mahlzeit.
+tags: ⭐ common, 🥦 Gemüse
+priority: yes
+//
+word: αγγούρι
+translation: Gurke
+type: noun
+group: Essen & Trinken
+pronunciation: [aˈŋguri]
+grammar.Gender: n
+grammar.Plural: τα αγγούρια
+example.el: Κόψε το αγγούρι για τη σαλάτα.
+example.de: Schneide die Gurke für den Salat.
+etymology: Aus dem mittelalterlichen αγγούριον.
+note: Zweiter Hauptbestandteil des Bauernsalats.
+tags: ⚙️ neutral, 🥦 Gemüse
+priority: no
+//
+word: κρεμμύδι
+translation: Zwiebel
+type: noun
+group: Essen & Trinken
+pronunciation: [kreˈmiði]
+grammar.Gender: n
+grammar.Plural: τα κρεμμύδια
+example.el: Κλαίω όταν κόβω κρεμμύδια.
+example.de: Ich weine, wenn ich Zwiebeln schneide.
+etymology: Aus dem altgriechischen κρομμύδιον.
+note: Essentiell für fast alle griechischen Schmorgerichte.
+tags: ⚙️ neutral, 🥦 Gemüse
+priority: no
+//
+word: σκόρδο
+translation: Knoblauch
+type: noun
+group: Essen & Trinken
+pronunciation: [ˈskorðo]
+grammar.Gender: n
+grammar.Plural: τα σκόρδα
+example.el: Το τζατζίκι έχει πολύ σκόρδο.
+example.de: Das Tzatziki hat viel Knoblauch.
+etymology: Aus dem altgriechischen σκόροδον.
+note: Unverzichtbar für Tzatziki.
+tags: ⭐ common, 🥦 Gemüse
+priority: yes
+//
+word: πατάτα
+translation: Kartoffel
+type: noun
+group: Essen & Trinken
+pronunciation: [paˈtata]
+grammar.Gender: f
+grammar.Plural: οι πατάτες
+example.el: Θέλω τηγανητές πατάτες.
+example.de: Ich möchte Pommes frites (frittierte Kartoffeln).
+etymology: Aus dem Spanischen (patata).
+note: "Πατάτες τηγανητές" sind extrem populär in griechischen Tavernen.
+tags: ⭐ common, 🥦 Gemüse
+priority: yes
+//
+word: μήλο
+translation: Apfel
+type: noun
+group: Essen & Trinken
+pronunciation: [ˈmilo]
+grammar.Gender: n
+grammar.Plural: τα μήλα
+example.el: Ένα μήλο την ημέρα το γιατρό τον κάνει πέρα.
+example.de: Ein Apfel am Tag hält den Doktor fern.
+etymology: Aus dem altgriechischen μῆλον.
+note: Sprichwort-Klassiker existiert auch im Griechischen.
+tags: ⭐ common, 🍎 Obst
+priority: yes
+//
+word: πορτοκάλι
+translation: Orange
+type: noun
+group: Essen & Trinken
+pronunciation: [porkoˈtali]
+grammar.Gender: n
+grammar.Plural: τα πορτοκάλια
+example.el: Το πρωί πίνω χυμό πορτοκάλι.
+example.de: Morgens trinke ich Orangensaft.
+etymology: Benannt nach Portugal, von wo die Frucht importiert wurde.
+note: Sehr günstig und süß in Griechenland.
+tags: ⭐ common, 🍎 Obst
+priority: yes
+//
+word: λεμόνι
+translation: Zitrone
+type: noun
+group: Essen & Trinken
+pronunciation: [leˈmoni]
+grammar.Gender: n
+grammar.Plural: τα λεμόνια
+example.el: Βάλε λεμόνι στο ψάρι.
+example.de: Tu Zitrone auf den Fisch.
+etymology: Aus dem Arabischen über das Italienische (limone).
+note: Zitronensaft wird in Griechenland auf fast alles (Fleisch, Fisch, Suppen) geträufelt.
+tags: ⭐ common, 🍎 Obst
+priority: yes
+//
+word: λάχανο
+translation: Kohl, Weißkohl
+type: noun
+group: Essen & Trinken
+pronunciation: [ˈlaxano]
+grammar.Gender: n
+grammar.Plural: τα λάχανα
+example.el: Το χειμώνα τρώμε σαλάτα λάχανο.
+example.de: Im Winter essen wir Kohlsalat.
+etymology: Aus dem altgriechischen λάχανον.
+note: Wird oft für den typischen Wintersalat (λαχανοσαλάτα) genutzt.
+tags: ⚙️ neutral, 🥦 Gemüse
+priority: no
+//
+word: αυγό
+translation: Ei
+type: noun
+group: Essen & Trinken
+pronunciation: [avˈɣo]
+grammar.Gender: n
+grammar.Plural: τα αυγά
+example.el: Θέλω δύο αυγά μάτια για πρωινό.
+example.de: Ich möchte zwei Spiegeleier zum Frühstück.
+etymology: Aus dem altgriechischen ὠόν.
+note: Wird manchmal auch "αβγό" geschrieben. "Αυγά μάτια" bedeutet Spiegeleier.
+tags: ⭐ common, 🍕 Essen
+priority: yes
+//
+word: γλυκό
+translation: Süßigkeit, Dessert, Kuchen
+type: noun
+group: Essen & Trinken
+pronunciation: [ɣliˈko]
+grammar.Gender: n
+grammar.Plural: τα γλυκά
+example.el: Μετά το φαγητό θέλω ένα γλυκό.
+example.de: Nach dem Essen möchte ich ein Dessert.
+etymology: Substantiviertes Adjektiv γλυκός (süß).
+note: Kann jede Art von Nachspeise bezeichnen.
+tags: ⭐ common, 🍰 Süßes
+priority: yes
+//
+word: παγωτό
+translation: Eis, Speiseeis
+type: noun
+group: Essen & Trinken
+pronunciation: [paɣoˈto]
+grammar.Gender: n
+grammar.Plural: τα παγωτά
+example.el: Τα παιδιά θέλουν παγωτό σοκολάτα.
+example.de: Die Kinder wollen Schokoladeneis.
+etymology: Von παγώνω (frieren, gefrieren).
+note: Essentiell im griechischen Sommer.
+tags: ⭐ common, 🍰 Süßes
+priority: yes
+//
+word: μέλι
+translation: Honig
+type: noun
+group: Essen & Trinken
+pronunciation: [ˈmeli]
+grammar.Gender: n
+grammar.Plural: τα μέλια
+example.el: Το γιαούρτι με μέλι είναι υπέροχο.
+example.de: Joghurt mit Honig ist herrlich.
+etymology: Aus dem altgriechischen μέλι.
+note: Pluralform extrem selten. Berühmt in Kombination mit griechischem Joghurt.
+tags: ⭐ common, 🍰 Süßes
+priority: yes
+//
+word: γιαούρτι
+translation: Joghurt
+type: noun
+group: Essen & Trinken
+pronunciation: [ʝaˈurti]
+grammar.Gender: n
+grammar.Plural: τα γιαούρτια
+example.el: Αγοράζω πάντα στραγγιστό γιαούρτι.
+example.de: Ich kaufe immer abgetropften (griechischen) Joghurt.
+etymology: Aus dem Türkischen (yoğurt).
+note: "Στραγγιστό γιαούρτι" ist der traditionelle, dickflüssige griechische Joghurt.
+tags: ⭐ common, 🍕 Essen, loanword:turkish
+priority: yes
+//
+word: σούπα
+translation: Suppe
+type: noun
+group: Essen & Trinken
+pronunciation: [ˈsupa]
+grammar.Gender: f
+grammar.Plural: οι σούπες
+example.el: Η κοτόσουπα είναι μια ζεστή σούπα.
+example.de: Die Hühnersuppe ist eine heiße Suppe.
+etymology: Aus dem Französischen (soupe) oder Italienischen (zuppa).
+note: Wird besonders im Winter oder bei Erkältungen gegessen.
+tags: ⚙️ neutral, 🍕 Essen
+priority: no
+//
+word: χυμός
+translation: Saft
+type: noun
+group: Essen & Trinken
+pronunciation: [çiˈmos]
+grammar.Gender: m
+grammar.Plural: οι χυμοί
+example.el: Θέλω έναν φυσικό χυμό πορτοκάλι.
+example.de: Ich möchte einen frisch gepressten Orangensaft.
+etymology: Aus dem altgriechischen χυμός.
+note: "Φυσικός χυμός" bedeutet frisch gepresster Saft.
+tags: ⭐ common, 🥤 Getränke
+priority: yes
+//
+word: τσάι
+translation: Tee
+type: noun
+group: Essen & Trinken
+pronunciation: [ˈt͡sai]
+grammar.Gender: n
+grammar.Plural: τα τσάγια
+example.el: Το χειμώνα πίνω τσάι του βουνού.
+example.de: Im Winter trinke ich griechischen Bergtee.
+etymology: Aus dem Sinitischen (chá) über das Türkische (çay).
+note: "Τσάι του βουνού" (Bergtee) ist hochgradig traditionell in Griechenland.
+tags: ⭐ common, 🥤 Getränke, loanword:turkish
+priority: yes
+//
+word: λογαριασμός
+translation: Rechnung
+type: noun
+group: Essen & Trinken
+pronunciation: [loɣarʝazˈmos]
+grammar.Gender: m
+grammar.Plural: οι λογαριασμοί
+example.el: Το λογαριασμό, παρακαλώ!
+example.de: Die Rechnung, bitte!
+etymology: Von λογαριάζω (rechnen).
+note: Unverzichtbarer Satz am Ende eines Tavernenbesuchs.
+tags: ⭐ common, ✈️ Travel
+priority: yes
+//
+word: μενού
+translation: Speisekarte, Menü
+type: noun
+group: Essen & Trinken
+pronunciation: [meˈnu]
+grammar.Gender: n
+grammar.Plural: τα μενού
+example.el: Μπορώ να έχω το μενού, παρακαλώ;
+example.de: Kann ich bitte die Speisekarte haben?
+etymology: Aus dem Französischen (menu).
+note: Das Wort ist im Griechischen indeklinabel (bleibt in allen Fällen gleich). Man sagt oft auch "κατάλογος".
+tags: ⭐ common, ✈️ Travel
+priority: yes
+//
+word: τρώω
+translation: essen
+type: verb
+group: Essen & Trinken
+pronunciation: [ˈtroo]
+grammar.Present (all persons): τρώω / τρως / τρώει / τρώμε / τρώτε / τρώνε
+grammar.Simple past: έφαγα
+example.el: Τι θα φάμε σήμερα το βράδυ;
+example.de: Was werden wir heute Abend essen?
+etymology: Aus dem altgriechischen τρώγω.
+note: Sehr unregelmäßiges Verb, besonders im Aorist (έφαγα).
+tags: ⭐ common, 🍕 Essen
+priority: yes
+//
+word: πίνω
+translation: trinken
+type: verb
+group: Essen & Trinken
+pronunciation: [ˈpino]
+grammar.Present (all persons): πίνω / πίνεις / πίνει / πίνουμε / πίνετε / πίνουν
+grammar.Simple past: ήπια
+example.el: Πίνεις αλκοόλ;
+example.de: Trinkst du Alkohol?
+etymology: Aus dem altgriechischen πίνω.
+note: Unregelmäßiger Aorist (ήπια).
+tags: ⭐ common, 🥤 Getränke
+priority: yes
+//
+word: μαγειρεύω
+translation: kochen
+type: verb
+group: Essen & Trinken
+pronunciation: [maʝiˈrevo]
+grammar.Present (all persons): μαγειρεύω / μαγειρεύεις / μαγειρεύει / μαγειρεύουμε / μαγειρεύετε / μαγειρεύουν
+grammar.Simple past: μαγείρεψα
+example.el: Μου αρέσει να μαγειρεύω για τους φίλους μου.
+example.de: Ich koche gerne für meine Freunde.
+etymology: Von μάγειρας (Koch), altgriechisch μάγειρος.
+note: Regelmäßige Konjugation der Klasse A (-εύω -> -εψα).
+tags: ⭐ common, 🍕 Essen
+priority: yes
+//
+word: παραγγέλνω
+translation: bestellen
+type: verb
+group: Essen & Trinken
+pronunciation: [paranˈgʲelno]
+grammar.Present (all persons): παραγγέλνω / παραγγέλνεις / παραγγέλλει / παραγγέλνουμε / παραγγέλνετε / παραγγέλνουν
+grammar.Simple past: παράγγειλα
+example.el: Θέλεις να παραγγείλουμε πίτσα;
+example.de: Möchtest du, dass wir Pizza bestellen?
+etymology: Aus dem altgriechischen παραγγέλλω.
+note: Wichtig im Restaurant oder beim Lieferservice.
+tags: ⭐ common, ✈️ Travel
+priority: yes
+//
+word: πεινάω
+translation: hungrig sein, Hunger haben
+type: verb
+group: Essen & Trinken
+pronunciation: [piˈnao]
+grammar.Present (all persons): πεινάω (πεινώ) / πεινάς / πεινάει / πεινάμε / πεινάτε / πεινάνε
+grammar.Simple past: πείνασα
+example.el: Πεινάω πολύ, πάμε να φάμε;
+example.de: Ich habe großen Hunger, gehen wir essen?
+etymology: Aus dem altgriechischen πεινῶ.
+note: Verb der Klasse B1 (Kontrahiertes Verb auf -άω).
+tags: ⭐ common, 🍕 Essen
+priority: yes
+//
+word: διψάω
+translation: durstig sein, Durst haben
+type: verb
+group: Essen & Trinken
+pronunciation: [ðiˈpsao]
+grammar.Present (all persons): διψάω (διψώ) / διψάς / διψάει / διψάμε / διψάτε / διψάνε
+grammar.Simple past: δίψασα
+example.el: Διψάω, θέλω ένα ποτήρι νερό.
+example.de: Ich habe Durst, ich möchte ein Glas Wasser.
+etymology: Aus dem altgriechischen διψῶ.
+note: Verb der Klasse B1 (Kontrahiertes Verb auf -άω).
+tags: ⭐ common, 🥤 Getränke
+priority: yes
+//
+word: νόστιμος
+translation: lecker, schmackhaft
+type: adjective
+group: Essen & Trinken
+pronunciation: [ˈnostimos]
+grammar.Masculine: νόστιμος
+grammar.Feminine: νόστιμη
+grammar.Neuter: νόστιμο
+example.el: Αυτό το φαγητό είναι πολύ νόστιμο.
+example.de: Dieses Essen ist sehr lecker.
+etymology: Vom altgriechischen νόστος (Heimkehr) - ursprünglich "zur Heimkehr gehörig", später im Sinne von "angenehm".
+note: Das Standardwort, um Lob für das Essen auszudrücken.
+tags: ⭐ common, 🍕 Essen
+priority: yes
+//
+word: φρέσκος
+translation: frisch
+type: adjective
+group: Essen & Trinken
+pronunciation: [ˈfreskos]
+grammar.Masculine: φρέσκος
+grammar.Feminine: φρέσκια
+grammar.Neuter: φρέσκο
+example.el: Θέλουμε φρέσκο ψάρι.
+example.de: Wir wollen frischen Fisch.
+etymology: Aus dem Italienischen (fresco).
+note: Die feminine Form ist unregelmäßig (φρέσκια statt φρέσκιας).
+tags: ⭐ common, 🍕 Essen, loanword:italian
+priority: yes
+//
+word: γλυκός
+translation: süß
+type: adjective
+group: Essen & Trinken
+pronunciation: [ɣliˈkos]
+grammar.Masculine: γλυκός
+grammar.Feminine: γλυκιά
+grammar.Neuter: γλυκό
+example.el: Ο καφές είναι πολύ γλυκός.
+example.de: Der Kaffee ist sehr süß.
+etymology: Aus dem altgriechischen γλυκύς.
+note: Die feminine Form lautet γλυκιά. Auch figurativ genutzt ("süß/nett").
+tags: ⭐ common, 🍰 Süßes
+priority: yes
+//
+word: ξινός
+translation: sauer
+type: adjective
+group: Essen & Trinken
+pronunciation: [ksiˈnos]
+grammar.Masculine: ξινός
+grammar.Feminine: ξινή
+grammar.Neuter: ξινό
+example.el: Το λεμόνι είναι ξινό.
+example.de: Die Zitrone ist sauer.
+etymology: Aus dem altgriechischen ξυλινός/ὀξινός.
+note: Kann auch für schlecht gewordene Milch oder Wein stehen.
+tags: ⚙️ neutral, 🍕 Essen
+priority: no
+//
+word: αλμυρός
+translation: salzig
+type: adjective
+group: Essen & Trinken
+pronunciation: [almiˈros]
+grammar.Masculine: αλμυρός
+grammar.Feminine: αλμυρή
+grammar.Neuter: αλμυρό
+example.el: Η σούπα είναι πολύ αλμυρή.
+example.de: Die Suppe ist sehr salzig.
+etymology: Vom altgriechischen ἅλμη (Salzwasser).
+note: Kann im übertragenen Sinne auch "teuer" (gesalzene Preise) bedeuten.
+tags: ⚙️ neutral, 🍕 Essen, 💬 figurative
+priority: no
+//
+word: καλημέρα
+translation: Guten Morgen, Guten Tag
+type: interjection
+group: Essen & Trinken
+pronunciation: [kaliˈmera]
+example.el: Καλημέρα! Έναν καφέ, παρακαλώ.
+example.de: Guten Morgen! Einen Kaffee, bitte.
+etymology: Zusammengesetzt aus καλή (gute) und μέρα (Tag).
+note: Wird bis ca. 12:00-14:00 Uhr zur Begrüßung genutzt, oft der Einstieg beim Bäcker oder im Café.
+tags: ⭐ common, 💬 formal
+priority: yes
+//
+word: χαρά
+translation: Freude, Glück
+type: noun
+group: Emotionen
+pronunciation: [xaˈra]
+grammar.Gender: f
+grammar.Plural: οι χαρές
+example.el: Τα μάτια του έλαμπαν από χαρά.
+example.de: Seine Augen leuchteten vor Freude.
+etymology: Aus dem altgriechischen χαρά.
+note: Ein sehr häufiges Grundwort für positive Emotionen.
+tags: ⭐ common, 😊 Gefühle
+priority: yes
+//
+word: λύπη
+translation: Trauer, Traurigkeit, Kummer
+type: noun
+group: Emotionen
+pronunciation: [ˈlipi]
+grammar.Gender: f
+grammar.Plural: οι λύπες
+example.el: Ένιωσε μεγάλη λύπη για τον χαμό του φίλου του.
+example.de: Er empfand große Trauer über den Verlust seines Freundes.
+etymology: Aus dem altgriechischen λύπη.
+note: Gehobener als das Alltagsort "στεναχώρια".
+tags: ⭐ common, 😢 Gefühle
+priority: yes
+//
+word: θυμός
+translation: Wut, Zorn
+type: noun
+group: Emotionen
+pronunciation: [θiˈmos]
+grammar.Gender: m
+grammar.Plural: οι θυμοί
+example.el: Μίλησε με θυμό και ένταση.
+example.de: Er sprach mit Wut und Intensität.
+etymology: Aus dem altgriechischen θυμός (ursprünglich: Lebenskraft, Geist).
+note: Pluralform wird selten verwendet.
+tags: ⭐ common, 😠 Gefühle
+priority: yes
+//
+word: φόβος
+translation: Angst, Furcht
+type: noun
+group: Emotionen
+pronunciation: [ˈfovos]
+grammar.Gender: m
+grammar.Plural: οι φόβοι
+example.el: Ξεπέρασε τον φόβο του για τα ύψη.
+example.de: Er hat seine Höhenangst überwunden.
+etymology: Aus dem altgriechischen φόβος.
+note: "Έχω φόβο" wird meist zu "φοβάμαι" (ich fürchte mich) umformuliert.
+tags: ⭐ common, 😨 Gefühle
+priority: yes
+//
+word: αγάπη
+translation: Liebe
+type: noun
+group: Emotionen
+pronunciation: [aˈɣapi]
+grammar.Gender: f
+grammar.Plural: οι αγάπες
+example.el: Η αγάπη είναι το πιο δυνατό συναίσθημα.
+example.de: Die Liebe ist das stärkste Gefühl.
+etymology: Aus dem altgriechischen ἀγάπη.
+note: Bezeichnet tiefe, oft platonische, familiäre oder universelle Liebe.
+tags: ⭐ common, ❤️ Gefühle
+priority: yes
+//
+word: έρωτας
+translation: Verliebtheit, leidenschaftliche Liebe
+type: noun
+group: Emotionen
+pronunciation: [ˈerotas]
+grammar.Gender: m
+grammar.Plural: οι έρωτες
+example.el: Ήταν έρωτας με την πρώτη ματιά.
+example.de: Es war Liebe auf den ersten Blick.
+etymology: Aus dem altgriechischen ἔρως.
+note: Unterscheidet sich von "αγάπη" durch die romantische/erotische Komponente.
+tags: ⭐ common, ❤️ Gefühle
+priority: yes
+//
+word: ζήλια
+translation: Eifersucht, Neid
+type: noun
+group: Emotionen
+pronunciation: [ˈzilia]
+grammar.Gender: f
+grammar.Plural: οι ζήλιες
+example.el: Η ζήλια μπορεί να καταστρέψει μια σχέση.
+example.de: Eifersucht kann eine Beziehung zerstören.
+etymology: Aus dem altgriechischen ζῆλος.
+note: Deckt sowohl "Eifersucht" in Beziehungen als auch "Neid" auf Besitz ab.
+tags: ⚙️ neutral, 😠 Gefühle
+priority: no
+//
+word: ντροπή
+translation: Scham, Schande
+type: noun
+group: Emotionen
+pronunciation: [ntroˈpi]
+grammar.Gender: f
+grammar.Plural: οι ντροπές
+example.el: Ένιωσε ντροπή για τα λάθη του.
+example.de: Er empfand Scham für seine Fehler.
+etymology: Aus dem altgriechischen ἐντροπή (das Sich-Wenden, Rücksicht).
+note: Wird auch als Ausruf genutzt: "Ντροπή σου!" (Schäm dich!).
+tags: ⭐ common, 😳 Gefühle
+priority: yes
+//
+word: έκπληξη
+translation: Überraschung
+type: noun
+group: Emotionen
+pronunciation: [ˈekpliksi]
+grammar.Gender: f
+grammar.Plural: οι εκπλήξεις
+example.el: Μας περίμενε μια ευχάριστη έκπληξη.
+example.de: Uns erwartete eine angenehme Überraschung.
+etymology: Aus dem altgriechischen ἔκπληξις (Bestürzung, Staunen).
+note: Kann sowohl positive als auch negative Überraschung bedeuten.
+tags: ⭐ common, 😲 Gefühle
+priority: yes
+//
+word: ελπίδα
+translation: Hoffnung
+type: noun
+group: Emotionen
+pronunciation: [elˈpiða]
+grammar.Gender: f
+grammar.Plural: οι ελπίδες
+example.el: Η ελπίδα πεθαίνει τελευταία.
+example.de: Die Hoffnung stirbt zuletzt.
+etymology: Aus dem altgriechischen ἐλπίς.
+note: Ein im Griechischen sehr positiv besetztes und häufiges Wort.
+tags: ⭐ common, 😊 Gefühle
+priority: yes
+//
+word: άγχος
+translation: Stress, Angstzustand, Nervosität
+type: noun
+group: Emotionen
+pronunciation: [ˈanxos]
+grammar.Gender: n
+grammar.Plural: τα άγχη
+example.el: Έχω πολύ άγχος για τις εξετάσεις.
+example.de: Ich habe großen Stress wegen der Prüfungen.
+etymology: Aus dem altgriechischen ἄγχω (επανακτώ / strangulieren, einengen).
+note: Ein extrem allgegenwärtiges Wort im modernen griechischen Alltag.
+tags: ⭐ common, 😨 Gefühle
+priority: yes
+//
+word: στεναχώρια
+translation: Kummer, Sorge, Bedrückung
+type: noun
+group: Emotionen
+pronunciation: [stenaxˈora]
+grammar.Gender: f
+grammar.Plural: οι στεναχώριες
+example.el: Άσε τις στεναχώριες και χαμογέλα.
+example.de: Lass den Kummer beiseite und lächle.
+etymology: Zusammengesetzt aus στενός (eng) und χώρος (Raum).
+note: Das gängigste Alltagswort für das Gefühl, wenn man wegen etwas bedrückt ist.
+tags: ⭐ common, 😢 Gefühle
+priority: yes
+//
+word: ενθουσιασμός
+translation: Begeisterung, Enthusiasmus
+type: noun
+group: Emotionen
+pronunciation: [enθusiazˈmos]
+grammar.Gender: m
+grammar.Plural: οι ενθουσιασμοί
+example.el: Μίλησε με μεγάλο ενθουσιασμό για το νέο του σχέδιο.
+example.de: Er sprach mit großer Begeisterung über sein neues Projekt.
+etymology: Aus dem altgriechischen ἐνθουσιασμός (göttliche Inspiration).
+note: Drückt eine sehr aktive, freudige Energie aus.
+tags: ⚙️ neutral, 😊 Gefühle
+priority: no
+//
+word: μοναξιά
+translation: Einsamkeit
+type: noun
+group: Emotionen
+pronunciation: [monakˈsja]
+grammar.Gender: f
+grammar.Plural: οι μοναξιές
+example.el: Η μοναξιά στις μεγάλες πόλεις είναι πρόβλημα.
+example.de: Einsamkeit in Großstädten ist ein Problem.
+etymology: Vom Adjektiv μόνος (allein).
+note: Bezieht sich auf das schmerzhafte Gefühl des Alleinseins.
+tags: ⚙️ neutral, 😢 Gefühle
+priority: no
+//
+word: περηφάνια
+translation: Stolz
+type: noun
+group: Emotionen
+pronunciation: [periˈfana]
+grammar.Gender: f
+grammar.Plural: οι περηφάνιες
+example.el: Ένιωσε περηφάνια για την επιτυχία της κόρης του.
+example.de: Er empfand Stolz über den Erfolg seiner Tochter.
+etymology: Aus dem mittelalterlichen υπερηφάνεια.
+note: Kann sowohl positiv (berechtigter Stolz) als auch negativ (Hochmut) sein.
+tags: ⭐ common, 😊 Gefühle
+priority: yes
+//
+word: ανακούφιση
+translation: Erleichterung
+type: noun
+group: Emotionen
+pronunciation: [anaˈkufisi]
+grammar.Gender: f
+grammar.Plural: οι ανακουφίσεις
+example.el: Ένιωσα μεγάλη ανακούφιση όταν έμαθα τα νέα.
+example.de: Ich empfand große Erleichterung, als ich die Neuigkeiten erfuhr.
+etymology: Von ανακουφίζω (erleichtern, leichter machen).
+note: Das Gefühl nach dem Schwinden einer Sorge.
+tags: ⚙️ neutral, 😊 Gefühle
+priority: no
+//
+word: απογοήτευση
+translation: Enttäuschung, Frustration
+type: noun
+group: Emotionen
+pronunciation: [apoɣoˈitefsi]
+grammar.Gender: f
+grammar.Plural: οι απογοητεύσεις
+example.el: Το αποτέλεσμα μας γέμισε απογοήτευση.
+example.de: Das Ergebnis hat uns mit Enttäuschung erfüllt.
+etymology: Von απογοητεύω (enttäuschen).
+note: Häufig genutzt bei unerfüllten Erwartungen.
+tags: ⭐ common, 😢 Gefühle
+priority: yes
+//
+word: συμπόνια
+translation: Mitgefühl, Mitleid
+type: noun
+group: Emotionen
+pronunciation: [simˈbona]
+grammar.Gender: f
+grammar.Plural: οι συμπόνιες
+example.el: Έδειξε συμπόνια για τους πρόσφυγες.
+example.de: Er zeigte Mitgefühl für die Flüchtlinge.
+etymology: Aus σύν (mit) und πόνος (Schmerz).
+note: Ein tiefes, empathisches Gefühl für das Leiden anderer.
+tags: ⚙️ neutral, 😊 Gefühle
+priority: no
+//
+word: πλήξη
+translation: Langeweile, Ö those
+type: noun
+group: Emotionen
+pronunciation: [ˈpliksi]
+grammar.Gender: f
+grammar.Plural: οι πλήξεις
+example.el: Η πλήξη της καθημερινότητας τον κούραζε.
+example.de: Die Langeweile des Alltags ermüdete ihn.
+etymology: Aus dem altgriechischen πλῆξις (Schlag, Erschütterung) – semantischer Wandel im Neugriechischen.
+note: Im Alltag wird oft der Ausdruck "βαριέμαι" (ich langweile mich) vorgezogen.
+tags: 💬 formal, ⚙️ neutral
+priority: no
+//
+word: νοσταλγία
+translation: Sehnsucht, Heimweh, Nostalgie
+type: noun
+group: Emotionen
+pronunciation: [nostalˈʝia]
+grammar.Gender: f
+grammar.Plural: οι νοσταλγίες
+example.el: Ένιωσε νοσταλgία για τα παιδικά του χρόνια.
+example.de: Er empfand Sehnsucht nach seinen Kindheitsjahren.
+etymology: Zusammengesetzt aus νόστος (Heimkehr) und ἄλγος (Schmerz). Ein weltweit exportiertes griechisches Wort.
+note: Bezeichnet meist eine bittersüße Sehnsucht nach der Vergangenheit.
+tags: ⭐ common, 😢 Gefühle, loanword:italian
+priority: yes
+//
+word: μίσος
+translation: Hass
+type: noun
+group: Emotionen
+pronunciation: [ˈmisos]
+grammar.Gender: n
+grammar.Plural: τα μίση
+example.el: Το μίσος τυφλώνει τους ανθρώπους.
+example.de: Hass macht Menschen blind.
+etymology: Aus dem altgriechischen μῖσος.
+note: Das direkte Gegenteil von αγάπη.
+tags: ⭐ common, 😠 Gefühle
+priority: yes
+//
+word: θλίψη
+translation: Trauer, Wehmut, Melancholie
+type: noun
+group: Emotionen
+pronunciation: [ˈθlipsi]
+grammar.Gender: f
+grammar.Plural: οι θλίψεις
+example.el: Μια βαθιά θλίψη απλώθηκε στο δωμάτιο.
+example.de: Eine tiefe Trauer breitete sich im Raum aus.
+etymology: Aus dem altgriechischen θλίψις (Druck, Bedrängnis).
+note: Drückt oft eine stillere, langanhaltendere Traurigkeit aus als "λύπη".
+tags: ⚙️ neutral, 😢 Gefühle
+priority: no
+//
+word: ευτυχία
+translation: Glück, Glückseligkeit
+type: noun
+group: Emotionen
+pronunciation: [eftiˈxia]
+grammar.Gender: f
+grammar.Plural: οι ευτυχίες
+example.el: Τους εύχομαι κάθε ευτυχία στη ζωή τους.
+example.de: Ich wünsche ihnen alles Glück der Welt für ihr Leben.
+etymology: Aus εὖ (gut) und τύχη (Schicksal).
+note: Bezeichnet den anhaltenden Zustand des Glücklichseins (nicht den kurzen Glücksmoment = τύχη).
+tags: ⭐ common, 😊 Gefühle
+priority: yes
+//
+word: εμπιστοσύνη
+translation: Vertrauen
+type: noun
+group: Emotionen
+pronunciation: [embistoˈsini]
+grammar.Gender: f
+grammar.Plural: οι εμπιστοσύνες
+example.el: Η εμπιστοσύνη χτίζεται δύσκολα.
+example.de: Vertrauen baut sich schwer auf.
+etymology: Vom altgriechischen πιστός (treu, gläubig).
+note: Extrem wichtiges Wort in interpersonalen Beziehungen. Plural unüblich.
+tags: ⭐ common, 😊 Gefühle
+priority: yes
+//
+word: ηρεμία
+translation: Ruhe, Gelassenheit, Seelenfrieden
+type: noun
+group: Emotionen
+pronunciation: [ireˈmia]
+grammar.Gender: f
+grammar.Plural: οι ηρεμίες
+example.el: Χρειάζομαι λίγη ηρεμία μετά από μια δύσκολη μέρα.
+example.de: Ich brauche etwas Ruhe nach einem anstrengenden Tag.
+etymology: Aus dem altgriechischen ἠρεμία.
+note: Bezeichnet den emotionalen Zustand der Abwesenheit von Stress.
+tags: ⭐ common, 😊 Gefühle
+priority: yes
+//
+word: χαίρομαι
+translation: sich freuen
+type: verb
+group: Emotionen
+pronunciation: [ˈxerome]
+grammar.Present (all persons): χαίρομαι / χαίρεσαι / χαίρεται / χαιρόμαστε / χαίρεστε / χαίρονται
+grammar.Simple past: χάρηκα
+example.el: Χάρηκα πολύ που σε είδα!
+example.de: Ich habe mich sehr gefreut, dich zu sehen!
+etymology: Aus dem altgriechischen χαίρω.
+note: Ein Deponens (wird passiv konjugiert, hat aber aktive Bedeutung). "Χάρηκα" bedeutet auch "Freut mich (beim Kennenlernen)".
+tags: ⭐ common, 😊 Gefühle
+priority: yes
+//
+word: λυπάμαι
+translation: leidtun, bedauern, traurig sein
+type: verb
+group: Emotionen
+pronunciation: [liˈpame]
+grammar.Present (all persons): λυπάμαι / λυπάσαι / λυπάται / λυπόμαστε / λυπάστε / λυπούνται
+grammar.Simple past: λυπήθηκα
+example.el: Λυπάμαι πολύ για αυτό που έγινε.
+example.de: Es tut mir sehr leid für das, was passiert ist.
+etymology: Aus dem altgriechischen λυποῦμαι.
+note: Wird sowohl für persönliches Bedauern ("Es tut mir leid") als auch für Trauer genutzt.
+tags: ⭐ common, 😢 Gefühle
+priority: yes
+//
+word: θυμώνω
+translation: wütend werden, sich ärgern
+type: verb
+group: Emotionen
+pronunciation: [θiˈmono]
+grammar.Present (all persons): θυμώνω / θυμώνεις / θυμώνει / θυμώνουμε / θυμώνετε / θυμώνουν
+grammar.Simple past: θύμωσα
+example.el: Μην θυμώνεις μαζί μου, δεν φταίω εγώ.
+example.de: Sei nicht wütend auf mich, ich bin nicht schuld.
+etymology: Vom Substantiv θυμός.
+note: Kann transitiv (jemanden wütend machen) oder intransitiv (wütend werden) sein.
+tags: ⭐ common, 😠 Gefühle
+priority: yes
+//
+word: φοβάμαι
+translation: Angst haben, sich fürchten
+type: verb
+group: Emotionen
+pronunciation: [foˈvame]
+grammar.Present (all persons): φοβάμαι / φοβάσαι / φοβάται / φοβόμαστε / φοβάστε / φοβούνται
+grammar.Simple past: φοβήθηκα
+example.el: Φοβάμαι το σκοτάδι.
+example.de: Ich habe Angst vor der Dunkelheit.
+etymology: Aus dem altgriechischen φοβοῦμαι.
+note: Weiteres wichtiges Deponens-Verb im Alltag.
+tags: ⭐ common, 😨 Gefühle
+priority: yes
+//
+word: αγαπάω
+translation: lieben
+type: verb
+group: Emotionen
+pronunciation: [aɣaˈpao]
+grammar.Present (all persons): αγαπάω (αγαπώ) / αγαπάς / αγαπάει / αγαπάμε / αγαπάτε / αγαπάνε
+grammar.Simple past: αγάπησα
+example.el: Σε αγαπώ πολύ.
+example.de: Ich liebe dich sehr.
+etymology: Aus dem altgriechischen ἀγαπῶ.
+note: Verb der Klasse B1 (-άω). Das Standardwort für "lieben".
+tags: ⭐ common, ❤️ Gefühle
+priority: yes
+//
+word: μισώ
+translation: hassen
+type: verb
+group: Emotionen
+pronunciation: [miˈso]
+grammar.Present (all persons): μισώ / μισείς / μισεί / μισούμε / μισείτε / μισούν
+grammar.Simple past: μίσησα
+example.el: Μισώ το ψέμα.
+example.de: Ich hasse Lügen.
+etymology: Aus dem altgriechischen μισῶ.
+note: Verb der Klasse B2 (-ώ, -είς). Emotional sehr stark besetzt.
+tags: ⭐ common, 😠 Gefühle
+priority: yes
+//
+word: στεναχωριέμαι
+translation: sich Sorgen machen, traurig sein, sich grämen
+type: verb
+group: Emotionen
+pronunciation: [stenaxoˈrjeme]
+grammar.Present (all persons): στεναχωριέμαι / στεναχωριέσαι / στεναχωριέται / στεναχωριόμαστε / στεναχωριέστε / στεναχωριούνται
+grammar.Simple past: στεναχωρήθηκα
+example.el: Μην στεναχωριέσαι, όλα θα πάνε καλά.
+example.de: Mach dir keine Sorgen, alles wird gut.
+etymology: Passivform von στεναχωρώ (beengen, bekümmern).
+note: Sehr häufig in Trostphrasen gebraucht.
+tags: ⭐ common, 😢 Gefühle
+priority: yes
+//
+word: ζηλεύω
+translation: eifersüchtig sein, neiden
+type: verb
+group: Emotionen
+pronunciation: [ziˈlevo]
+grammar.Present (all persons): ζηλεύω / ζηλεύεις / ζηλεύει / ζηλεύουμε / ζηλεύετε / ζηλεύουν
+grammar.Simple past: ζήλεψα
+example.el: Ζηλεύει τη νέα σου δουλειά.
+example.de: Er beneidet dich um deinen neuen Job.
+etymology: Vom Substantiv ζήλια.
+note: Regelmäßiges Verb der Klasse A.
+tags: ⚙️ neutral, 😠 Gefühle
+priority: no
+//
+word: ντρέπομαι
+translation: sich schämen
+type: verb
+group: Emotionen
+pronunciation: [ˈntrepome]
+grammar.Present (all persons): ντρέπομαι / ντρέπεσαι / ντρέπεται / ντρεπόμαστε / ντρέπεστε / ντρέπονται
+grammar.Simple past: ντράπηκα
+example.el: Ντρέπομαι να μιλήσω μπροστά σε κόσμο.
+example.de: Ich schäme mich, vor Menschen zu sprechen.
+etymology: Aus dem altgriechischen ἐντρέπομαι.
+note: Deponens-Verb mit unregelmäßigem Aorist (ντράπηκα).
+tags: ⭐ common, 😳 Gefühle
+priority: yes
+//
+word: ελπίζω
+translation: hoffen
+type: verb
+group: Emotionen
+pronunciation: [elˈpizo]
+grammar.Present (all persons): ελπίζω / ελπίζεις / ελπίζει / ελπίζουμε / ελπίζετε / ελπίζουν
+grammar.Simple past: ήλπισα
+example.el: Ελπίζω να έρθεις αύριο.
+example.de: Ich hoffe, dass du morgen kommst.
+etymology: Aus dem altgriechischen ἐλπίζω.
+note: Leitet meist Sätze mit "να" (Konjunktiv) ein.
+tags: ⭐ common, 😊 Gefühle
+priority: yes
+//
+word: ανησυχώ
+translation: sich Sorgen machen, beunruhigt sein
+type: verb
+group: Emotionen
+pronunciation: [anisiˈxo]
+grammar.Present (all persons): ανησυχώ / ανησυχείς / ανησυχεί / ανησυχούμε / ανησυχείτε / ανησυχούν
+grammar.Simple past: ανησύχησα
+example.el: Ανυσηχώ γιατί δεν παίρνει τηλέφωνο.
+example.de: Ich mache mir Sorgen, weil er nicht anruft.
+etymology: Aus ἀν- (α- privativum, un-) und ήσυχος (ruhig).
+note: Verb der Klasse B2 (-ώ, -είς). Drückt rationale Sorge aus.
+tags: ⭐ common, 😨 Gefühle
+priority: yes
+//
+word: ενθουσιάζομαι
+translation: sich begeistern, hingerissen sein
+type: verb
+group: Emotionen
+pronunciation: [enθuˈsjazome]
+grammar.Present (all persons): ενθουσιάζομαι / ενθουσιάζεσαι / ενθουσιάζεται / ενθουσιαζόμαστε / ενθουσιάζεστε / ενθουσιάζονται
+grammar.Simple past: ενθουσιάστηκα
+example.el: Ενθουσιάστηκα με την ταινία.
+example.de: Ich war von dem Film begeistert.
+etymology: Medial-/Passivform von ενθουσιάζω.
+note: Wird fast immer im Aorist verwendet, um den Moment der Begeisterung zu beschreiben.
+tags: ⚙️ neutral, 😊 Gefühle
+priority: no
+//
+word: απογοητεύομαι
+translation: enttäuscht sein
+type: verb
+group: Emotionen
+pronunciation: [apoɣoiˈtevome]
+grammar.Present (all persons): απογοητεύομαι / απογοητεύεσαι / απογοητεύεται / απογοητευόμαστε / απογοητεύεστε / απογοητεύονται
+grammar.Simple past: απογοητεύτηκα
+example.el: Απογοητεύτηκα από τη συμπεριφορά του.
+example.de: Ich war von seinem Verhalten enttäuscht.
+etymology: Medial-/Passivform von απογοητεύω.
+note: Nimmt die Präposition "από" (von) für den Grund der Enttäuschung.
+tags: ⭐ common, 😢 Gefühle
+priority: yes
+//
+word: συγκινούμαι
+translation: gerührt sein, bewegt sein
+type: verb
+group: Emotionen
+pronunciation: [singiˈnume]
+grammar.Present (all persons): συγκινούμαι / συγκινείσαι / συγκινείται / συγκινούμαστε / συγκινείστε / συγκινούνται
+grammar.Simple past: συγκινήθηκα
+example.el: Συγκινήθηκα πολύ από το γράμμα σου.
+example.de: Ich war von deinem Brief sehr gerührt.
+etymology: Aus σύν (mit) und κινώ (bewegen).
+note: Bezieht sich auf emotionale Bewegung (Tränen der Rührung).
+tags: ⚙️ neutral, 😢 Gefühle
+priority: no
+//
+word: εκπλήσσομαι
+translation: überrascht sein, staunen
+type: verb
+group: Emotionen
+pronunciation: [ekˈplisome]
+grammar.Present (all persons): εκπλήσσομαι / εκπλήσσεσαι / εκπλήσσεται / εκπλησσόμαστε / εκπλήσσεστε / εκπλήσσονται
+grammar.Simple past: εκπλάγηκα
+example.el: Εκπλάγηκα όταν τον είδα εκεί.
+example.de: Ich war überrascht, ihn dort zu sehen.
+etymology: Aus dem altgriechischen ἐκπλήσσομαι.
+note: Der Aorist "εκπλάγηκα" ist unregelmäßig (starker Aorist) und wird im Alltag häufig verwendet.
+tags: 💬 formal, 😲 Gefühle
+priority: no
+//
+word: χαρούμενος
+translation: glücklich, fröhlich
+type: adjective
+group: Emotionen
+pronunciation: [xaˈrumenos]
+grammar.Masculine: χαρούμενος
+grammar.Feminine: χαρούμενη
+grammar.Neuter: χαρούμενο
+example.el: Είναι μια πολύ χαρούμενη μέρα.
+example.de: Es ist ein sehr glücklicher Tag.
+etymology: Partizipialer Ursprung von χαίρομαι.
+note: Das gängigste Wort für "glücklich/fröhlich" im Alltag.
+tags: ⭐ common, 😊 Gefühle
+priority: yes
+//
+word: λυπημένος
+translation: traurig
+type: adjective
+group: Emotionen
+pronunciation: [lipiˈmenos]
+grammar.Masculine: λυπημένος
+grammar.Feminine: λυπημένη
+grammar.Neuter: λυπημένο
+example.el: Γιατί είσαι τόσο λυπημένος σήμερα;
+example.de: Warum bist du heute so traurig?
+etymology: Partizipialer Ursprung von λυπάμαι.
+note: Direkte Eigenschaftsbeschreibung einer Person.
+tags: ⭐ common, 😢 Gefühle
+priority: yes
+//
+word: θυμωμένος
+translation: wütend, verärgert
+type: adjective
+group: Emotionen
+pronunciation: [θimoˈmenos]
+grammar.Masculine: θυμωμένος
+grammar.Feminine: θυμωμένη
+grammar.Neuter: θυμωμένο
+example.el: Ο διευθυντής είναι θυμωμένος μαζί μας.
+example.de: Der Chef ist wütend auf uns.
+etymology: Partizipialer Ursprung von θυμώνω.
+note: Wird oft mit der Präposition "με" (mit) verwendet.
+tags: ⭐ common, 😠 Gefühle
+priority: yes
+//
+word: φοβισμένος
+translation: verängstigt, ängstlich
+type: adjective
+group: Emotionen
+pronunciation: [fovizˈmenos]
+grammar.Masculine: φοβισμένος
+grammar.Feminine: φοβισμένη
+grammar.Neuter: φοβισμένο
+example.el: Το φοβισμένο παιδί έκλαιγε.
+example.de: Das verängstigte Kind weinte.
+etymology: Partizipialer Ursprung von φοβίζω (erschrecken).
+note: Beschreibt den Zustand akuter oder dauerhafter Angst.
+tags: ⚙️ neutral, 😨 Gefühle
+priority: no
+//
+word: ντροπαλός
+translation: schüchtern
+type: adjective
+group: Emotionen
+pronunciation: [ntropaˈlos]
+grammar.Masculine: ντροπαλός
+grammar.Feminine: ντροπαλή
+grammar.Neuter: ντροπαλό
+example.el: Είναι πολύ ντροπαλός και δεν μιλάει εύκολα.
+example.de: Er ist sehr schüchtern und spricht nicht leicht.
+etymology: Vom Stamm ντροπ- (Scham).
+note: Drückt eher einen Charakterzug als eine temporäre Emotion aus.
+tags: ⭐ common, 😳 Gefühle
+priority: yes
+//
+word: ήσυχος
+translation: ruhig, friedlich, gelassen
+type: adjective
+group: Emotionen
+pronunciation: [ˈisixos]
+grammar.Masculine: ήσυχος
+grammar.Feminine: ήσυχη
+grammar.Neuter: ήσυχο
+example.el: Η θάλασσα σήμερα είναι ήσυχη.
+example.de: Das Meer ist heute ruhig.
+etymology: Aus dem altgriechischen ἥσυχος.
+note: Kann sowohl für die Umwelt ("leise") als auch für Personen ("ruhig") gelten.
+tags: ⭐ common, 😊 Gefühle
+priority: yes
+//
+word: ανήσυχος
+translation: besorgt, unruhig
+type: adjective
+group: Emotionen
+pronunciation: [aˈnisixos]
+grammar.Masculine: ανήσυχος
+grammar.Feminine: ανήσυχη
+grammar.Neuter: ανήσυχο
+example.el: Πέρασα μια ανήσυχη νύχτα.
+example.de: Ich habe eine unruhige Nacht verbracht.
+etymology: Antonym zu ήσυχος (mit α- privativum).
+note: Drückt sowohl mentale Sorge als auch physische Ruhelosigkeit aus.
+tags: ⭐ common, 😨 Gefühle
+priority: yes
+//
+word: νευρικός
+translation: nervös, reizbar
+type: adjective
+group: Emotionen
+pronunciation: [nevriˈkos]
+grammar.Masculine: νευρικός
+grammar.Feminine: νευρική
+grammar.Neuter: νευρικό
+example.el: Μην είσαι τόσο νευρικός, χαλάρωσε.
+example.de: Sei nicht so nervös, entspann dich.
+etymology: Aus dem altgriechischen νευρικός (die Nerven betreffend).
+note: Kann auch im Sinne von "temperamentvoll/leicht aufbrausend" verstanden werden.
+tags: ⭐ common, 😠 Gefühle
+priority: yes
+//
+word: αισιόδοξος
+translation: optimistisch
+type: adjective
+group: Emotionen
+pronunciation: [esˈoðoksos]
+grammar.Masculine: αισιόδοξος
+grammar.Feminine: αισιόδοξη
+grammar.Neuter: αισιόδοξο
+example.el: Είμαι αισιόδοξος για το μέλλον.
+example.de: Ich bin optimistisch, was die Zukunft betrifft.
+etymology: Aus αἴσιος (günstig, glücklich) und δόξα (Meinung, Erwartung).
+note: Ein rein positiv ausgerichtetes Eigenschaftswort.
+tags: ⚙️ neutral, 😊 Gefühle
+priority: no
+//
+word: απαισιόδοξος
+translation: pessimistisch
+type: adjective
+group: Emotionen
+pronunciation: [apesˈoðoksos]
+grammar.Masculine: απαισιόδοξος
+grammar.Feminine: απαισιόδοξη
+grammar.Neuter: απαισιόδοξο
+example.el: Μην είσαι τόσο απαισιόδοξος, όλα θα φτιάξουν.
+example.de: Sei nicht so pessimistisch, alles wird sich einrenken.
+etymology: Gegenteil von αισιόδοξος mit der Vorsilbe απ- (από).
+note: Beschreibt eine generell negative Erwartungshaltung.
+tags: ⚙️ neutral, 😢 Gefühle
+priority: no

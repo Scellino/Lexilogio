@@ -75,11 +75,13 @@ def api_copy():
     if existing:
         return jsonify({"ok": True, "already_saved": True})
 
+    dep = card.get("departure_lang", "en")
     db.session.add(UserCard(
         user_id=current_user.id,
         lang_code=lang,
         card_id=card_id,
         card_data=json.dumps(card),
+        departure_lang=dep,
     ))
     db.session.commit()
     return jsonify({"ok": True, "already_saved": False})
@@ -121,11 +123,13 @@ def api_copy_batch():
         if group_override:
             save_card["group"] = group_override
 
+        dep = card.get("departure_lang", "en")
         db.session.add(UserCard(
             user_id=current_user.id,
             lang_code=lang,
             card_id=card_id,
             card_data=json.dumps(save_card),
+            departure_lang=dep,
         ))
         added.append(card.get("word") or card.get("spanish") or card_id)
         existing_ids.add(card_id)
@@ -592,7 +596,7 @@ function render() {
   const allSelected = visibleIds.length > 0 && visibleIds.every(id => selectedIds.has(id));
   const selBtn = allSelected
     ? `<button class="sel-all-btn" onclick="deselectAll()">Deselect all</button>`
-    : `<button class="sel-all-btn" onclick="selectAll(${JSON.stringify(visibleIds)})">Select all</button>`;
+    : `<button class="sel-all-btn" onclick='selectAll(${JSON.stringify(visibleIds)})'>Select all</button>`;
 
   list.innerHTML =
     `<div class="count-row"><span class="count-label">${cards.length} card${cards.length!==1?'s':''}</span>${selBtn}</div>` +

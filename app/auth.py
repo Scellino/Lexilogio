@@ -414,7 +414,7 @@ def reset(token):
     return _page("Reset password", body, error, show_google=False), (400 if error else 200)
 
 
-_VALID_DEPARTURES = {'en', 'de', 'fr', 'nl', 'es', 'it', 'pt', 'pl', 'sv'}
+_VALID_DEPARTURES = {'en', 'de', 'el', 'fr', 'nl', 'es', 'it', 'pt', 'pl', 'sv'}
 
 @auth_bp.route("/departure", methods=["POST"])
 @login_required

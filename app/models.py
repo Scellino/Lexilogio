@@ -21,6 +21,7 @@ class User(UserMixin, db.Model):
     is_verified    = db.Column(db.Boolean, default=True)
     departure_lang = db.Column(db.String(10), default='en')  # user's native language
     created_at     = db.Column(db.DateTime, server_default=db.func.now())
+    last_seen      = db.Column(db.DateTime)
 
     def get_id(self):
         return str(self.id)

@@ -482,6 +482,16 @@ function setDep(code) {
 </html>"""
 
 
+@app.before_request
+def touch_last_seen():
+    if current_user.is_authenticated:
+        from datetime import datetime, timedelta
+        now = datetime.utcnow()
+        if not current_user.last_seen or now - current_user.last_seen > timedelta(minutes=5):
+            current_user.last_seen = now
+            from models import db
+            db.session.commit()
+
 @app.after_request
 def set_cache(resp):
     # Static assets can be cached; HTML pages must not (prevents iOS PWA stale views)

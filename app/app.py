@@ -302,11 +302,12 @@ HOME_HTML = """<!DOCTYPE html>
     <span class="dep-label">I speak:</span>
     <button class="dep-flag" data-dep="en"  onclick="setDep('en')">🇬🇧 English</button>
     <button class="dep-flag" data-dep="de"  onclick="setDep('de')">🇩🇪 Deutsch</button>
+    <button class="dep-flag" data-dep="el"  onclick="setDep('el')">🇬🇷 Ελληνικά</button>
   </div>
 
   <!-- Step 1: language picker -->
   <div class="cards" id="step-lang">
-    <div class="lang-card" onclick="pickLang('el')">
+    <div class="lang-card" id="lang-card-el" onclick="pickLang('el')">
       <span class="flag">🇬🇷</span>
       <div class="lang-name">Greek</div>
       <div class="lang-sub">Ελληνικά</div>
@@ -453,6 +454,8 @@ function _syncDepUI(code) {
   if (btn) btn.classList.add('active');
   const deCard = document.getElementById('lang-card-de');
   if (deCard) deCard.style.display = code === 'de' ? 'none' : '';
+  const elCard = document.getElementById('lang-card-el');
+  if (elCard) elCard.style.display = code === 'el' ? 'none' : '';
 }
 
 // Departure language bar
@@ -653,9 +656,9 @@ def de_vocab_redirect():
 def settings():
     from flask_login import current_user as cu
     dep = (cu.departure_lang or 'en') if cu.is_authenticated else 'en'
-    dep_names = {'en':'English','de':'German'}
+    dep_names = {'en':'English','de':'German','el':'Greek'}
     options = [
-        ('en','🇬🇧 English'), ('de','🇩🇪 Deutsch'),
+        ('en','🇬🇧 English'), ('de','🇩🇪 Deutsch'), ('el','🇬🇷 Ελληνικά'),
     ]
     btns = ''.join(
         f'<button class="dep-btn{" active" if code==dep else ""}" onclick="setDep(\'{code}\')">{label}</button>'

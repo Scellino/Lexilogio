@@ -56,8 +56,8 @@ from models import db, Progress, UserCard, CardSubmission
 
 
 DEPARTURE_NAMES = {
-    'en': 'English', 'de': 'German', 'fr': 'French',
-    'nl': 'Dutch',   'es': 'Spanish','it': 'Italian',
+    'en': 'English', 'de': 'German', 'el': 'Greek',
+    'fr': 'French',  'nl': 'Dutch',  'es': 'Spanish', 'it': 'Italian',
     'pt': 'Portuguese', 'pl': 'Polish', 'sv': 'Swedish',
 }
 

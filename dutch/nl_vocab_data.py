@@ -809,3 +809,9 @@ try:
     CARDS = CARDS + _DE_CARDS
 except ImportError:
     pass
+
+try:
+    from nl_el_vocab_data import CARDS as _EL_CARDS
+    CARDS = CARDS + _EL_CARDS
+except ImportError:
+    pass

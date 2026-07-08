@@ -791,5 +791,11 @@ CARDS: list = [
     },
 ]
 
+try:
+    from el_de_vocab_data import CARDS as _DE_CARDS
+    CARDS = CARDS + _DE_CARDS
+except ImportError:
+    pass
+
 CARDS_BY_ID: dict = {c['id']: c for c in CARDS}
 ACCEPTED_ALTS: dict = {}

@@ -803,3 +803,9 @@ CARDS = [
         "example": {"nl": "Hij ontsnapte ternauwernood aan het ongeluk.", "en": "He narrowly escaped the accident."},
     },
 ]
+
+try:
+    from nl_de_vocab_data import CARDS as _DE_CARDS
+    CARDS = CARDS + _DE_CARDS
+except ImportError:
+    pass

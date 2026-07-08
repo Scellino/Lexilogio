@@ -115,8 +115,39 @@ HOME_HTML = """<!DOCTYPE html>
     font-size: 13px;
     color: rgba(255,255,255,.35);
     letter-spacing: 1px;
-    margin-bottom: 48px;
+    margin-bottom: 24px;
     text-align: center;
+  }
+  .dep-bar {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 32px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .dep-label {
+    font-size: 12px;
+    color: rgba(255,255,255,.3);
+    font-family: system-ui, sans-serif;
+    letter-spacing: .5px;
+  }
+  .dep-flag {
+    background: none;
+    border: 1px solid rgba(255,255,255,.1);
+    border-radius: 20px;
+    padding: 4px 12px;
+    font-size: 12px;
+    color: rgba(255,255,255,.45);
+    cursor: pointer;
+    transition: all .15s;
+    font-family: system-ui, sans-serif;
+  }
+  .dep-flag:hover { background: rgba(255,255,255,.07); color: #fff; }
+  .dep-flag.active {
+    background: rgba(201,169,110,.15);
+    border-color: rgba(201,169,110,.5);
+    color: #c9a96e;
   }
   .cards {
     display: flex;
@@ -211,6 +242,15 @@ HOME_HTML = """<!DOCTYPE html>
     margin-bottom: 28px;
     text-align: center;
   }
+  .welcome {
+    max-width: 480px;
+    text-align: center;
+    font-size: 13px;
+    color: rgba(255,255,255,.28);
+    line-height: 1.65;
+    margin-bottom: 36px;
+    letter-spacing: .1px;
+  }
   .footer {
     margin-top: 56px;
     font-size: 11px;
@@ -255,6 +295,15 @@ HOME_HTML = """<!DOCTYPE html>
   <div class="logo">Λεξιλόγιο</div>
   <div class="tagline" id="tagline">Language Trainer</div>
 
+  <p class="welcome">Welcome to Lexilogio — a vocabulary trainer built to help you improve your language skills. No ads, no paywall, no notifications. Just a clean interface to drill the words you want to study. What sets Lexilogio apart is its simple but effective quiz format and an easy way to build custom flashcard sets. Want to add many words at once? Copy the AI prompt into any chatbot, paste your word list, and copy the output back — you'll have a polished set of flashcards ready to study in minutes.</p>
+
+  <!-- Departure language selector (logged-in users only) -->
+  <div class="dep-bar" id="dep-bar" style="display:none">
+    <span class="dep-label">I speak:</span>
+    <button class="dep-flag" data-dep="en"  onclick="setDep('en')">🇬🇧 English</button>
+    <button class="dep-flag" data-dep="de"  onclick="setDep('de')">🇩🇪 Deutsch</button>
+  </div>
+
   <!-- Step 1: language picker -->
   <div class="cards" id="step-lang">
     <div class="lang-card" onclick="pickLang('el')">
@@ -272,7 +321,7 @@ HOME_HTML = """<!DOCTYPE html>
       <div class="lang-name">Spanish</div>
       <div class="lang-sub">Español</div>
     </div>
-    <div class="lang-card" onclick="pickLang('de')">
+    <div class="lang-card" id="lang-card-de" onclick="pickLang('de')">
       <span class="flag">🇩🇪</span>
       <div class="lang-name">German</div>
       <div class="lang-sub">Deutsch</div>
@@ -393,9 +442,38 @@ function toggleMenu() {
     const name = HOME_USER.name || HOME_USER.email || '';
     mac.innerHTML =
       `<div style="padding:12px 20px 4px;font-size:13px;font-family:sans-serif;color:rgba(255,255,255,.4)">&#128100; ${name}</div>` +
+      '<a href="/profile" class="menu-item"><span class="menu-item-icon">&#128202;</span>My Stats</a>' +
       '<a href="/auth/logout" class="menu-item"><span class="menu-item-icon">&#128682;</span>Sign out</a>';
   }
 })();
+
+function _syncDepUI(code) {
+  document.querySelectorAll('.dep-flag').forEach(b => b.classList.remove('active'));
+  const btn = document.querySelector(`.dep-flag[data-dep="${code}"]`);
+  if (btn) btn.classList.add('active');
+  const deCard = document.getElementById('lang-card-de');
+  if (deCard) deCard.style.display = code === 'de' ? 'none' : '';
+}
+
+// Departure language bar
+(function _initDepBar(){
+  if (HOME_USER.guest) return;
+  const bar = document.getElementById('dep-bar');
+  if (!bar) return;
+  bar.style.display = 'flex';
+  _syncDepUI(HOME_USER.departure_lang || 'en');
+})();
+
+function setDep(code) {
+  fetch('/auth/departure', {
+    method: 'POST',
+    headers: {'Content-Type': 'application/json'},
+    body: JSON.stringify({departure_lang: code})
+  }).then(r => r.json()).then(() => {
+    HOME_USER.departure_lang = code;
+    _syncDepUI(code);
+  });
+}
 </script>
 </body>
 </html>"""
@@ -414,10 +492,117 @@ def set_cache(resp):
 def home():
     import json as _json
     if current_user.is_authenticated:
-        user_js = _json.dumps({"guest": False, "name": current_user.name, "email": current_user.email})
+        user_js = _json.dumps({
+            "guest": False,
+            "name": current_user.name,
+            "email": current_user.email,
+            "departure_lang": current_user.departure_lang or 'en',
+        })
     else:
         user_js = '{"guest":true}'
     return HOME_HTML.replace("/* __HOME_USER__ */", f"const HOME_USER={user_js};")
+
+
+@app.route("/profile")
+def profile():
+    import json as _json
+    from flask_login import current_user as cu
+    if not cu.is_authenticated:
+        return redirect("/auth/login")
+    from models import Progress
+    LANG_NAMES = {
+        'el': ('Greek',   '🇬🇷'),
+        'fr': ('French',  '🇫🇷'),
+        'nl': ('Dutch',   '🇳🇱'),
+        'it': ('Italian', '🇮🇹'),
+        'es': ('Spanish', '🇪🇸'),
+        'de': ('German',  '🇩🇪'),
+    }
+    rows = Progress.query.filter_by(user_id=cu.id).all()
+    stats = {}
+    for r in rows:
+        lang = r.lang_code
+        if lang not in LANG_NAMES:
+            continue
+        if lang not in stats:
+            stats[lang] = {'seen': 0, 'mastered': 0}
+        stats[lang]['seen'] += 1
+        w = _json.loads(r.window or '[]')
+        n = len(w)
+        acc = sum(w) / n if n else 0
+        sd = r.spaced_days or 0
+        dirs = len(_json.loads(r.dirs or '[]'))
+        if n >= 5 and acc >= 0.8 and sd >= 3 and dirs >= 2:
+            stats[lang]['mastered'] += 1
+    name = cu.name or cu.email or ''
+    rows_html = ''
+    for lang, (lname, flag) in LANG_NAMES.items():
+        s = stats.get(lang, {'seen': 0, 'mastered': 0})
+        rows_html += f'''<tr>
+          <td class="lang-cell">{flag} {lname}</td>
+          <td class="num-cell">{s["seen"]}</td>
+          <td class="num-cell mastered">{s["mastered"]}</td>
+        </tr>'''
+    total_seen     = sum(s['seen']     for s in stats.values())
+    total_mastered = sum(s['mastered'] for s in stats.values())
+    return f"""<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>My Stats · Λεξιλόγιο</title>
+<style>
+*{{box-sizing:border-box;margin:0;padding:0}}
+body{{background:#0f0f1a;font-family:system-ui,sans-serif;color:#fff;
+     min-height:100dvh;display:flex;flex-direction:column;align-items:center;
+     justify-content:flex-start;padding:48px 24px 40px}}
+.logo{{font-family:Georgia,serif;font-size:28px;color:#c9a96e;margin-bottom:8px;text-align:center}}
+.sub{{font-size:13px;color:rgba(255,255,255,.3);margin-bottom:36px;text-align:center}}
+.card{{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.09);
+       border-radius:20px;padding:32px;width:100%;max-width:440px}}
+h2{{font-size:15px;font-weight:600;color:rgba(255,255,255,.5);
+    text-transform:uppercase;letter-spacing:1.5px;margin-bottom:24px}}
+table{{width:100%;border-collapse:collapse}}
+th{{text-align:left;font-size:11px;color:rgba(255,255,255,.25);
+    text-transform:uppercase;letter-spacing:1px;padding:0 0 12px;font-weight:400}}
+th.num-cell{{text-align:right}}
+td{{padding:10px 0;border-top:1px solid rgba(255,255,255,.06);font-size:14px}}
+td.lang-cell{{color:rgba(255,255,255,.8)}}
+td.num-cell{{text-align:right;color:rgba(255,255,255,.35);font-variant-numeric:tabular-nums}}
+td.num-cell.mastered{{color:#7ac49a;font-weight:600}}
+.totals{{margin-top:24px;padding-top:20px;border-top:1px solid rgba(255,255,255,.1);
+         display:flex;gap:32px;justify-content:flex-end}}
+.tot-item{{text-align:right}}
+.tot-num{{font-size:26px;font-weight:700;color:#c9a96e;line-height:1}}
+.tot-lbl{{font-size:11px;color:rgba(255,255,255,.3);margin-top:4px;letter-spacing:.5px}}
+.tot-num.mastered{{color:#7ac49a}}
+.back{{margin-top:28px;font-size:13px;color:rgba(201,169,110,.55);text-decoration:none;
+       display:inline-block}}
+.back:hover{{color:#c9a96e}}
+</style></head><body>
+<div class="logo">Λεξιλόγιο</div>
+<div class="sub">&#128100; {name}</div>
+<div class="card">
+  <h2>Vocabulary Progress</h2>
+  <table>
+    <thead><tr>
+      <th>Language</th>
+      <th class="num-cell">Seen</th>
+      <th class="num-cell">Mastered</th>
+    </tr></thead>
+    <tbody>{rows_html}</tbody>
+  </table>
+  <div class="totals">
+    <div class="tot-item">
+      <div class="tot-num">{total_seen}</div>
+      <div class="tot-lbl">Words seen</div>
+    </div>
+    <div class="tot-item">
+      <div class="tot-num mastered">{total_mastered}</div>
+      <div class="tot-lbl">Mastered</div>
+    </div>
+  </div>
+</div>
+<a href="/" class="back">← Back to home</a>
+</body></html>"""
 
 
 @app.route("/manifest.json")
@@ -463,6 +648,68 @@ def es_vocab_redirect():
 @app.route("/de/vocab")
 def de_vocab_redirect():
     return redirect("/de/vocab/")
+
+
+@app.route("/settings")
+def settings():
+    from flask_login import current_user as cu
+    dep = (cu.departure_lang or 'en') if cu.is_authenticated else 'en'
+    dep_names = {'en':'English','de':'German','fr':'French','nl':'Dutch','es':'Spanish','it':'Italian'}
+    options = [
+        ('en','🇬🇧 English'), ('de','🇩🇪 Deutsch'), ('fr','🇫🇷 Français'),
+        ('nl','🇳🇱 Nederlands'), ('es','🇪🇸 Español'), ('it','🇮🇹 Italiano'),
+    ]
+    btns = ''.join(
+        f'<button class="dep-btn{" active" if code==dep else ""}" onclick="setDep(\'{code}\')">{label}</button>'
+        for code, label in options
+    )
+    return f"""<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Settings · Λεξιλόγιο</title>
+<style>
+*{{box-sizing:border-box;margin:0;padding:0}}
+body{{background:#0f0f1a;font-family:system-ui,sans-serif;color:#fff;
+     min-height:100dvh;display:flex;flex-direction:column;align-items:center;
+     justify-content:center;padding:24px}}
+.logo{{font-family:Georgia,serif;font-size:28px;color:#c9a96e;margin-bottom:32px}}
+.card{{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.09);
+       border-radius:16px;padding:32px;width:100%;max-width:400px}}
+h2{{font-size:16px;font-weight:600;margin-bottom:6px}}
+p{{font-size:13px;color:rgba(255,255,255,.4);margin-bottom:20px;line-height:1.5}}
+.dep-btn{{display:block;width:100%;text-align:left;background:rgba(255,255,255,.04);
+          border:1px solid rgba(255,255,255,.1);border-radius:10px;
+          padding:12px 16px;font-size:14px;color:rgba(255,255,255,.6);
+          cursor:pointer;margin-bottom:8px;transition:all .15s;font-family:inherit}}
+.dep-btn:hover{{background:rgba(255,255,255,.08);color:#fff}}
+.dep-btn.active{{background:rgba(201,169,110,.12);border-color:rgba(201,169,110,.4);color:#c9a96e;font-weight:600}}
+.back{{margin-top:20px;font-size:13px;color:rgba(201,169,110,.6);text-decoration:none}}
+.back:hover{{text-decoration:underline}}
+.toast{{position:fixed;bottom:24px;left:50%;transform:translateX(-50%);
+        background:#2a2a3a;border:1px solid rgba(255,255,255,.12);border-radius:10px;
+        padding:10px 20px;font-size:13px;opacity:0;transition:opacity .3s;pointer-events:none}}
+</style></head><body>
+<div class="logo">🧿 Λεξιλόγιο</div>
+<div class="card">
+  <h2>Language I speak</h2>
+  <p>Cards and quizzes will be in the language you choose.</p>
+  <div id="dep-btns">{btns}</div>
+  <a href="/" class="back">← Back to home</a>
+</div>
+<div class="toast" id="toast">Saved ✓</div>
+<script>
+function setDep(code){{
+  fetch('/auth/departure',{{method:'POST',headers:{{'Content-Type':'application/json'}},body:JSON.stringify({{departure_lang:code}})}})
+    .then(()=>{{
+      document.querySelectorAll('.dep-btn').forEach(b=>b.classList.remove('active'));
+      const b=document.querySelector('.dep-btn[onclick*="\\'' +code+ '\\'"]');
+      if(b)b.classList.add('active');
+      const t=document.getElementById('toast');
+      t.style.opacity='1';setTimeout(()=>t.style.opacity='0',1500);
+    }});
+}}
+</script>
+</body></html>"""
 
 
 @app.route("/sitemap.xml")

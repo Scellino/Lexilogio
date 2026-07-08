@@ -35,7 +35,7 @@ if lsof -ti :$PORT &>/dev/null; then
 fi
 
 echo ""
-echo "  🇬🇷  Λεξιλόγιο — Greek Trainer"
+echo "  🧿  Λεξιλόγιο"
 echo "  $URL"
 echo "  Press Ctrl+C to stop"
 echo ""

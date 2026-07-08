@@ -811,3 +811,9 @@ CARDS = [
         "example": {"es": "El ciclista empezó a tambalearse.", "en": "The cyclist started to wobble."},
     },
 ]
+
+try:
+    from es_de_vocab_data import CARDS as _DE_CARDS
+    CARDS = CARDS + _DE_CARDS
+except ImportError:
+    pass

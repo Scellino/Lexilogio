@@ -55,6 +55,12 @@ from flask_login import current_user
 from models import db, Progress, UserCard, CardSubmission
 
 
+DEPARTURE_NAMES = {
+    'en': 'English', 'de': 'German', 'fr': 'French',
+    'nl': 'Dutch',   'es': 'Spanish','it': 'Italian',
+    'pt': 'Portuguese', 'pl': 'Polish', 'sv': 'Swedish',
+}
+
 # ── Normalisation & checking ───────────────────────────────────────────────────
 
 def _normalise(s):
@@ -88,7 +94,7 @@ def _check(guess, correct, direction='word→en'):
         if _edit_distance(g, a) <= threshold:
             # word→en: English typo forgiveness → auto-correct
             # en→word: recall matters → retry prompt
-            return "correct" if direction == 'word→en' else "close"
+            return "correct" if direction.startswith('word→') else "close"
     return "wrong"
 
 
@@ -365,7 +371,7 @@ let browseView='list', browseSearch='';
 let browseGroups=new Set(), browseTags=new Set(), browseMastery='all';
 let browseIdx=0, browseFlipped=false, browseOpen=new Set();
 let quizPhase='setup';
-let quizDir='word→en';
+let quizDir;
 let quizGroups=new Set(), quizTags=new Set(), quizMastery=new Set(), quizCount=10;
 let quizWords=[], quizIdx=0, quizResults=[], quizRetrying=false;
 let quizPickMode=false, manualCards=new Set(), pickSearch='', pickGroups=new Set(), pickTags=new Set();
@@ -375,6 +381,11 @@ let genAddMode='form', genBulkParsed=null;
 // ── Auth / user state ─────────────────────────────────────────────────────────
 /* __USER__ */
 const isGuest=!USER.id;
+const DEP      = (USER && USER.departure_lang) || 'en';
+const DEP_NAME = (USER && USER.departure_name) || 'English';
+const DIR_FWD  = 'word→' + DEP;   // e.g. 'word→en', 'word→de'
+const DIR_REV  = DEP + '→word';   // e.g. 'en→word', 'de→word'
+quizDir = DIR_FWD;
 
 (function _initMenu(){
   const mac=document.getElementById('menu-account');
@@ -497,7 +508,7 @@ function cardBackHTML(c){
   let exHTML='';
   if(c.example){
     if(typeof c.example==='object'){
-      const l=c.example[LANG.code]||'', e=c.example.en||'';
+      const l=c.example[LANG.code]||'', e=c.example[DEP]||c.example.en||'';
       exHTML='<div class="bcard-example">';
       if(l) exHTML+=`<div class="bcard-ex-native">${esc(l)}</div>`;
       if(e) exHTML+=`<div class="bcard-ex-en">${esc(e)}</div>`;
@@ -697,8 +708,8 @@ function renderQuizSetup(){
     <div class="sec">
       <div class="sec-label">Direction</div>
       <div class="pills">
-        ${pill('w→e',LANG.name+' → English',quizDir==='word→en',"setQuizDir('word→en')")}
-        ${pill('e→w','English → '+LANG.name,quizDir==='en→word',"setQuizDir('en→word')")}
+        ${pill('w→e',LANG.name+' → '+DEP_NAME,quizDir===DIR_FWD,'setQuizDir(DIR_FWD)')}
+        ${pill('e→w',DEP_NAME+' → '+LANG.name,quizDir===DIR_REV,'setQuizDir(DIR_REV)')}
       </div>
     </div>
     <div class="sec" style="border-top:1px solid rgba(255,255,255,.06);padding-top:16px">
@@ -869,7 +880,7 @@ function renderStudyCards(){
 
 function renderQuizQuestion(){
   const card=quizWords[quizIdx];
-  const isW2E=quizDir==='word→en';
+  const isW2E=quizDir===DIR_FWD;
   const art=articleFor(card),gc=articleColorFor(card);
   const prompt=isW2E?(art?art+' ':'')+card.word:card.translation;
   const promptSize=isW2E?'36px':'22px';
@@ -881,7 +892,7 @@ function renderQuizQuestion(){
 
   document.getElementById('content').innerHTML=`
     <div class="progress-label">
-      <span>${isW2E?LANG.name+' → English':'English → '+LANG.name}</span>
+      <span>${isW2E?LANG.name+' → '+DEP_NAME:DEP_NAME+' → '+LANG.name}</span>
       <span>${quizIdx+1} / ${quizWords.length}</span>
     </div>
     <div class="progress-wrap"><div class="progress-bar" style="width:${pct}%"></div></div>
@@ -893,7 +904,7 @@ function renderQuizQuestion(){
       ${card.group?`<div class="prompt-group">${esc(card.group)}</div>`:''}
     </div>
     <input type="text" id="answer-input" autofocus
-      placeholder="${isW2E?'Type the English translation…':'Type the '+LANG.name+' word…'}"
+      placeholder="${isW2E?'Type the '+DEP_NAME+' translation…':'Type the '+LANG.name+' word…'}"
       onkeydown="if(event.key==='Enter')checkAnswer()">
     <div class="row-btns">
       <button class="btn-primary" style="margin-top:0" onclick="checkAnswer()">Check &#8629;</button>
@@ -908,7 +919,7 @@ async function checkAnswer(){
   if(!input) return;
   const guess=input.value.trim();
   const card=quizWords[quizIdx];
-  const correct=quizDir==='word→en'?card.translation:card.word;
+  const correct=quizDir===DIR_FWD?card.translation:card.word;
   const res=await apiPost('/api/check',{id:card.id,guess,correct,direction:quizDir});
   progress=(await api('/api/progress')).progress;
 
@@ -925,7 +936,7 @@ async function checkAnswer(){
 
 async function skipWord(){
   const card=quizWords[quizIdx];
-  const correct=quizDir==='word→en'?card.translation:card.word;
+  const correct=quizDir===DIR_FWD?card.translation:card.word;
   await apiPost('/api/check',{id:card.id,guess:'',correct,direction:quizDir});
   progress=(await api('/api/progress')).progress;
   const score=quizRetrying?0.5:0;
@@ -942,7 +953,7 @@ function dropWord(){
 }
 
 function showCloseFeedback(card,guess){
-  const isW2E=quizDir==='word→en';
+  const isW2E=quizDir===DIR_FWD;
   const pct=((quizIdx+1)/quizWords.length*100).toFixed(1);
   document.getElementById('content').innerHTML=`
     <div class="progress-label">
@@ -954,7 +965,7 @@ function showCloseFeedback(card,guess){
       <div class="feedback-yours">You wrote: ${esc(guess)}</div>
     </div>
     <input type="text" id="answer-input" autofocus
-      placeholder="${isW2E?'Try again in English…':'Try again in '+LANG.name+'…'}"
+      placeholder="${isW2E?'Try again in '+DEP_NAME+'…':'Try again in '+LANG.name+'…'}"
       onkeydown="if(event.key==='Enter')checkAnswer()">
     <div class="row-btns">
       <button class="btn-primary" style="margin-top:0" onclick="checkAnswer()">Try Again &#8629;</button>
@@ -964,7 +975,7 @@ function showCloseFeedback(card,guess){
 }
 
 function showFeedback(card,guess,result){
-  const isW2E=quizDir==='word→en';
+  const isW2E=quizDir===DIR_FWD;
   const correct=result==='correct';
   const gc=articleColorFor(card),art=articleFor(card);
   const correctAnswer=isW2E?card.translation:(art?art+' ':'')+card.word;
@@ -986,11 +997,11 @@ function showFeedback(card,guess,result){
     <div class="feedback ${fbClass}">
       <div class="feedback-verdict">${verdict}</div>
       <div class="feedback-answer">
-        <span style="color:rgba(255,255,255,.4);font-size:11px">${isW2E?LANG.name:'English'}: </span>
+        <span style="color:rgba(255,255,255,.4);font-size:11px">${isW2E?LANG.name:DEP_NAME}: </span>
         <strong style="font-family:Georgia,serif;${gc&&!isW2E?`color:${gc}`:''}">${esc(isW2E?(art?art+' ':'')+card.word:card.translation)}</strong>
       </div>
       <div class="feedback-answer">
-        <span style="color:rgba(255,255,255,.4);font-size:11px">${isW2E?'English':LANG.name}: </span>
+        <span style="color:rgba(255,255,255,.4);font-size:11px">${isW2E?DEP_NAME:LANG.name}: </span>
         <strong style="font-family:Georgia,serif;${gc&&isW2E?`color:${gc}`:''}">${esc(correctAnswer)}</strong>
       </div>
       ${!correct&&guess?`<div class="feedback-yours">You wrote: ${esc(guess)}</div>`:''}
@@ -1051,7 +1062,7 @@ function renderQuizResults(){
 
 function restartQuiz(){quizWords=shuffle([...quizWords]);quizIdx=0;quizResults=[];quizRetrying=false;quizPhase='quiz';renderQuizQuestion();}
 function flipQuizDir(){
-  quizDir=quizDir==='word→en'?'en→word':'word→en';
+  quizDir=quizDir===DIR_FWD?DIR_REV:DIR_FWD;
   quizWords=shuffle([...quizWords]);quizIdx=0;quizResults=[];quizRetrying=false;quizPhase='quiz';renderQuizQuestion();
 }
 
@@ -1073,6 +1084,14 @@ function renderAdd(prefillCard){
   if(prefillCard) addEditingCard=prefillCard;
   const isEditing=addEditingCard!=null;
   const wrap=mkel('div','');
+
+  // Departure language banner
+  if(!isEditing&&!isGuest){
+    const depBanner=mkel('div','');
+    depBanner.style.cssText='font-size:12px;color:rgba(255,255,255,.35);font-family:sans-serif;text-align:center;margin-bottom:10px';
+    depBanner.innerHTML='Adding cards in <strong style="color:rgba(255,255,255,.55)">'+esc(DEP_NAME)+'</strong> &nbsp;·&nbsp; <a href="/settings" style="color:rgba(201,169,110,.6);text-decoration:none">change</a>';
+    wrap.appendChild(depBanner);
+  }
 
   // Community browse link (not shown when editing)
   if(!isEditing){
@@ -1123,7 +1142,7 @@ function renderAdd(prefillCard){
 
     const prefill=isEditing?addEditingCard:null;
     addFormText(form,LANG.name+' word','word','Dictionary / base form',prefill?.word||'');
-    addFormText(form,'English translation','translation','Separate alternatives with a comma',prefill?.translation||'');
+    addFormText(form,DEP_NAME+' translation','translation','Separate alternatives with a comma',prefill?.translation||'');
     if(!isEditing) addFormText(form,'Group','group','e.g. Food, Daily life, Travel…',prefill?.group||'');
 
     renderGrammarFields(addType,form,prefill);
@@ -1138,8 +1157,8 @@ function renderAdd(prefillCard){
 
     const exEnLbl=mkel('div','sec-field-label','Example (English)');form.appendChild(exEnLbl);
     const exEn=document.createElement('input');exEn.type='text';exEn.name='example_en';
-    exEn.placeholder='English translation of example';
-    if(prefill?.example&&typeof prefill.example==='object') exEn.value=prefill.example.en||'';
+    exEn.placeholder=DEP_NAME+' translation of example';
+    if(prefill?.example&&typeof prefill.example==='object') exEn.value=prefill.example[DEP]||prefill.example.en||'';
     form.appendChild(exEn);
 
     addFormText(form,'Note','note','Usage notes, register, idioms',prefill?.note||'');
@@ -1160,7 +1179,7 @@ function renderAdd(prefillCard){
     // Bulk / manual mode
     const ta=document.createElement('textarea');
     ta.id='gen-bulk-textarea';ta.spellcheck=false;ta.style.minHeight='180px';
-    ta.placeholder='word: example word\\ntranslation: meaning\\ntype: noun\\ngroup: daily life\\ngrammar.Gender: de\\nexample.'+LANG.code+': Example sentence.\\nexample.en: English translation.\\nnote: usage note\\netymology: word origin\\ntags: common\\npriority: yes\\n//\\n(next card here)';
+    ta.placeholder='word: example word\\ntranslation: meaning\\ntype: noun\\ngroup: daily life\\ngrammar.Gender: de\\nexample.'+LANG.code+': Example sentence.\\nexample.'+DEP+': '+DEP_NAME+' translation.\\nnote: usage note\\netymology: word origin\\ntags: common\\npriority: yes\\n//\\n(next card here)';
     ta.oninput=()=>{
       genBulkParsed=null;
       const pb=document.getElementById('gen-bulk-preview');if(pb)pb.innerHTML='';
@@ -1188,13 +1207,13 @@ function renderAdd(prefillCard){
       '<strong style="color:rgba(255,255,255,.4)">Fields &mdash; separate cards with <code style="color:#c9a96e">---</code> or <code style="color:#c9a96e">//</code></strong><br><br>'+
       '<span style="color:rgba(255,255,255,.35)">Required</span><br>'+
       '<span style="color:#c9a96e">word:</span> '+esc(LANG.name)+' dictionary form<br>'+
-      '<span style="color:#c9a96e">translation:</span> English gloss &mdash; comma-separate multiple meanings<br>'+
+      '<span style="color:#c9a96e">translation:</span> '+DEP_NAME+' gloss &mdash; comma-separate multiple meanings<br>'+
       '<br><span style="color:rgba(255,255,255,.35)">Optional</span><br>'+
       '<span style="color:rgba(201,169,110,.7)">type:</span> '+esc((LANG.word_types||[]).join(' &middot; '))+'<br>'+
       '<span style="color:rgba(201,169,110,.7)">group:</span> topic group name<br>'+
       '<span style="color:rgba(201,169,110,.7)">pronunciation:</span> IPA or phonetic<br>'+
       '<span style="color:rgba(201,169,110,.7)">example.'+esc(LANG.code)+':</span> example sentence in '+esc(LANG.name)+'<br>'+
-      '<span style="color:rgba(201,169,110,.7)">example.en:</span> English translation of example<br>'+
+      '<span style="color:rgba(201,169,110,.7)">example.'+DEP+':</span> '+DEP_NAME+' translation of example<br>'+
       '<span style="color:rgba(201,169,110,.7)">note:</span> usage notes or register<br>'+
       '<span style="color:rgba(201,169,110,.7)">etymology:</span> word origin<br>'+
       '<span style="color:rgba(201,169,110,.7)">tags:</span> comma-separated<br>'+
@@ -1228,7 +1247,7 @@ function renderAdd(prefillCard){
       :'Always prefix each tag with a fitting emoji (e.g. ⭐ common, 🍽️ food, ✈️ travel, 💼 work, 🌿 nature).';
 
     const aiPrompt=
-      'Generate '+LANG.name+' vocabulary flashcards. Separate multiple cards with // on its own line.\\n'+
+      'Generate '+LANG.name+' vocabulary flashcards for '+DEP_NAME+' speakers. Separate multiple cards with // on its own line.\\n'+
       'Fill in ALL applicable fields, especially grammar fields — they drive colour-coding.\\n\\n'+
       '── RULES ────────────────────────────────────\\n'+
       '• group: the user provides the group for their request (use it for all cards in the batch).\\n'+
@@ -1240,12 +1259,12 @@ function renderAdd(prefillCard){
       '  Do not translate them, rename them, or add parenthetical clarifications.\\n\\n'+
       '── EXAMPLE CARD (noun) ─────────────────────\\n'+
       'word: [dictionary form — no article prefix]\\n'+
-      'translation: [primary English meaning; comma-separate up to 3 senses]\\n'+
+      'translation: [primary '+DEP_NAME+' meaning; comma-separate up to 3 senses]\\n'+
       'type: noun\\n'+
       'group: [provided by user, e.g. Daily life / Food / Travel]\\n'+
       'pronunciation: [IPA or phonetic]\\n'+
       'example.'+LANG.code+': [one natural '+LANG.name+' sentence using the word]\\n'+
-      'example.en: [English translation of that sentence]\\n'+
+      'example.'+DEP+': ['+DEP_NAME+' translation of that sentence]\\n'+
       'etymology: [word origin — omit if uncertain]\\n'+
       'note: [register, collocations, set phrases, pitfalls]\\n'+
       'tags: ⭐ common, [🏷️ topic-tag]\\n'+
@@ -1566,35 +1585,45 @@ def make_vocab_blueprint(lang, check_fn=None):
         return normalized
 
     def _all_cards():
-        preset_ids = {str(p["id"]) for p in preset_cards}
+        dep = (current_user.departure_lang or 'en') if current_user.is_authenticated else 'en'
+        # Filter preset cards for the current departure language.
+        # Cards without a departure_lang field are treated as English departure.
+        dep_preset = [c for c in preset_cards if c.get('departure_lang', 'en') == dep]
+        if not dep_preset:
+            # Fall back to English if no preset cards exist for this departure language.
+            dep_preset = [c for c in preset_cards if c.get('departure_lang', 'en') == 'en']
+        preset_ids = {str(p["id"]) for p in dep_preset}
         # User cards: logged-in user's own cards + community-approved cards (user_id=0)
         user_rows = []
         if current_user.is_authenticated:
             user_rows = UserCard.query.filter(
                 UserCard.lang_code == lang_code,
+                UserCard.departure_lang == dep,
                 db.or_(UserCard.user_id == current_user.id, UserCard.user_id == 0)
             ).all()
         else:
-            # Guests see only community-approved cards (user_id=0)
-            user_rows = UserCard.query.filter_by(lang_code=lang_code, user_id=0).all()
+            user_rows = UserCard.query.filter_by(lang_code=lang_code, user_id=0, departure_lang='en').all()
         user_cards = []
         for r in user_rows:
             c = r.card()
             if str(c.get("id")) not in preset_ids:
                 c["_user"] = True
                 user_cards.append(c)
-        return _normalize_cards(preset_cards + user_cards)
+        return _normalize_cards(dep_preset + user_cards)
 
     # ── Routes ─────────────────────────────────────────────────────────────────
     @bp.route("/")
     def index():
         user_data = {}
         if current_user.is_authenticated:
+            dep = current_user.departure_lang or 'en'
             user_data = {
-                "id":       current_user.id,
-                "name":     current_user.display_name,
-                "email":    current_user.email,
-                "is_admin": current_user.is_admin,
+                "id":             current_user.id,
+                "name":           current_user.display_name,
+                "email":          current_user.email,
+                "is_admin":       current_user.is_admin,
+                "departure_lang": dep,
+                "departure_name": DEPARTURE_NAMES.get(dep, dep.upper()),
             }
         page = html.replace("/* __USER__ */",
                             "const USER = " + json.dumps(user_data, ensure_ascii=False) + ";")
@@ -1633,6 +1662,20 @@ def make_vocab_blueprint(lang, check_fn=None):
             if not row:
                 row = Progress(user_id=current_user.id, lang_code=lang_code,
                                card_id=cid, window="[]", dirs="[]")
+                # Carry-over: copy progress from same word in another departure lang
+                parts = cid.split('-', 2)
+                if len(parts) == 3:
+                    slug = parts[2]
+                    prior = Progress.query.filter(
+                        Progress.user_id == current_user.id,
+                        Progress.lang_code == lang_code,
+                        Progress.card_id.like(f'%-{slug}'),
+                        Progress.card_id != cid,
+                    ).first()
+                    if prior:
+                        row.window      = prior.window
+                        row.spaced_days = prior.spaced_days
+                        row.last_day    = prior.last_day
                 db.session.add(row)
             window      = json.loads(row.window or "[]")
             spaced_days = row.spaced_days or 0
@@ -1657,11 +1700,14 @@ def make_vocab_blueprint(lang, check_fn=None):
             return jsonify({"error": "login required"}), 401
         card = request.get_json()
         card["id"] = str(uuid.uuid4())[:8]   # server-side unique ID
+        dep = current_user.departure_lang or 'en'
+        card["departure_lang"] = dep
         row = UserCard(
             user_id=current_user.id,
             lang_code=lang_code,
             card_id=card["id"],
             card_data=json.dumps(card, ensure_ascii=False),
+            departure_lang=dep,
         )
         db.session.add(row)
         db.session.commit()

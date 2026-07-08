@@ -414,6 +414,20 @@ def reset(token):
     return _page("Reset password", body, error, show_google=False), (400 if error else 200)
 
 
+_VALID_DEPARTURES = {'en', 'de', 'fr', 'nl', 'es', 'it', 'pt', 'pl', 'sv'}
+
+@auth_bp.route("/departure", methods=["POST"])
+@login_required
+def set_departure():
+    data = request.get_json(silent=True) or {}
+    dep  = data.get("departure_lang", "").strip().lower()
+    if dep not in _VALID_DEPARTURES:
+        return {"error": "invalid"}, 400
+    current_user.departure_lang = dep
+    db.session.commit()
+    return {"ok": True}
+
+
 @auth_bp.route("/logout")
 @login_required
 def logout():

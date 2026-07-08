@@ -1,0 +1,702 @@
+word: ψωμί
+translation: Brot
+type: noun
+group: Essen & Trinken
+pronunciation: [psoˈmi]
+grammar.Gender: n
+grammar.Plural: τα ψωμιά
+example.el: Θέλω μια φέτα ψωμί, παρακαλώ.
+example.de: Ich möchte bitte eine Scheibe Brot.
+etymology: Vom altgriechischen ψωμίον (bissen).
+note: Bezieht sich im Alltag auf jede Art von Brot.
+tags: ⭐ common, 🍕 Essen
+priority: yes
+//
+word: νερό
+translation: Wasser
+type: noun
+group: Essen & Trinken
+pronunciation: [neˈro]
+grammar.Gender: n
+grammar.Plural: τα νερά
+example.el: Ένα μπουκάλι νερό, παρακαλώ.
+example.de: Eine Flasche Wasser, bitte.
+etymology: Vom altgriechischen νεαρόν (ύδωρ) - frisches Wasser.
+note: Grundwort, unverzichtbar im Alltag.
+tags: ⭐ common, 🥤 Getränke
+priority: yes
+//
+word: γάλα
+translation: Milch
+type: noun
+group: Essen & Trinken
+pronunciation: [ˈɣala]
+grammar.Gender: n
+grammar.Plural: τα γάλατα
+example.el: Πίνω καφέ με γάλα.
+example.de: Ich trinke Kaffee mit Milch.
+etymology: Aus dem altgriechischen γάλα.
+note: Unregelmäßige Pluralbildung (γάλατα).
+tags: ⭐ common, 🥤 Getränke
+priority: yes
+//
+word: τυρί
+translation: Käse
+type: noun
+group: Essen & Trinken
+pronunciation: [tiˈri]
+grammar.Gender: n
+grammar.Plural: τα τυριά
+example.el: Μου αρέσει το ελληνικό τυρί.
+example.de: Ich mag griechischen Käse.
+etymology: Aus dem altgriechischen τυρίον.
+note: Wird oft generisch für Feta verwendet, wenn kein anderer Name genannt wird.
+tags: ⭐ common, 🍕 Essen
+priority: yes
+//
+word: λάδι
+translation: Öl, Olivenöl
+type: noun
+group: Essen & Trinken
+pronunciation: [ˈlaði]
+grammar.Gender: n
+grammar.Plural: τα λάδια
+example.el: Η σαλάτα χρειάζεται λίγο λάδι.
+example.de: Der Salat braucht etwas Öl.
+etymology: Aus dem altgriechischen έλαιον.
+note: In Griechenland versteht man darunter fast immer Olivenöl (ελαιόλαδο).
+tags: ⭐ common, 🍕 Essen
+priority: yes
+//
+word: κρέας
+translation: Fleisch
+type: noun
+group: Essen & Trinken
+pronunciation: [ˈkreas]
+grammar.Gender: n
+grammar.Plural: τα κρέατα
+example.el: Δεν τρώω κρέας, είμαι χορτοφάγος.
+example.de: Ich esse kein Fleisch, ich bin Vegetarier.
+etymology: Aus dem altgriechischen κρέας.
+note: Überg Begriff für alle Fleischsorten.
+tags: ⭐ common, 🥩 Fleisch
+priority: yes
+//
+word: ψάρι
+translation: Fisch
+type: noun
+group: Essen & Trinken
+pronunciation: [ˈpsari]
+grammar.Gender: n
+grammar.Plural: τα ψάρια
+example.el: Το φρέσκο ψάρι είναι ακριβό.
+example.de: Frischer Fisch ist teuer.
+etymology: Vom altgriechischen ὀψάριον.
+note: Sehr wichtiges Element der mediterranen Küche.
+tags: ⭐ common, 🐟 Fisch
+priority: yes
+//
+word: κοτόπουλο
+translation: Hähnchen, Geflügel
+type: noun
+group: Essen & Trinken
+pronunciation: [koˈtopulo]
+grammar.Gender: n
+grammar.Plural: τα κοτόπουλα
+example.el: Σήμερα μαγειρεύω κοτόπουλο στο φούρνο.
+example.de: Heute koche ich Hähnchen im Ofen.
+etymology: Zusammengesetzt aus κότα (Huhn) und -πουλο (Jungtier).
+note: Beliebtes Alltagsgericht in Griechenland.
+tags: ⭐ common, 🥩 Fleisch
+priority: yes
+//
+word: φρούτο
+translation: Frucht, Obst
+type: noun
+group: Essen & Trinken
+pronunciation: [ˈfruto]
+grammar.Gender: n
+grammar.Plural: τα φρούτα
+example.el: Το καλοκαίρι τρώμε πολλά φρούτα.
+example.de: Im Sommer essen wir viel Obst.
+etymology: Aus dem Italienischen (frutto).
+note: Wird meistens im Plural verwendet (τα φρούτα).
+tags: ⭐ common, 🍎 Obst
+priority: yes
+//
+word: λαχανικό
+translation: Gemüse
+type: noun
+group: Essen & Trinken
+pronunciation: [laxaniˈko]
+grammar.Gender: n
+grammar.Plural: τα λαχανικά
+example.el: Πρέπει να τρως περισσότερα λαχανικά.
+example.de: Du musst mehr Gemüse essen.
+etymology: Von λάχανο (Kohl).
+note: Meistens im Plural verwendet.
+tags: ⭐ common, 🥦 Gemüse
+priority: yes
+//
+word: κρασί
+translation: Wein
+type: noun
+group: Essen & Trinken
+pronunciation: [kraˈsi]
+grammar.Gender: n
+grammar.Plural: τα κρασιά
+example.el: Θέλετε κόκκινο ή λευκό κρασί;
+example.de: Möchten Sie Rot- oder Weißwein?
+etymology: Vom altgriechischen κράσις (Mischung).
+note: Traditionell wird Wein in Griechenland oft mit Wasser gemischt getrunken (historisch).
+tags: ⭐ common, 🥤 Getränke
+priority: yes
+//
+word: μπίρα
+translation: Bier
+type: noun
+group: Essen & Trinken
+pronunciation: [ˈbira]
+grammar.Gender: f
+grammar.Plural: οι μπίρες
+example.el: Μια παγωμένη μπίρα, παρακαλώ!
+example.de: Ein eisgekühltes Bier, bitte!
+etymology: Aus dem Italienischen (birra).
+note: Wird auch oft "μπύρα" geschrieben.
+tags: ⭐ common, 🥤 Getränke
+priority: yes
+//
+word: καφές
+translation: Kaffee
+type: noun
+group: Essen & Trinken
+pronunciation: [kaˈfes]
+grammar.Gender: m
+grammar.Plural: οι καφέδες
+example.el: Πίνω τον καφέ μου χωρίς ζάχαρη.
+example.de: Ich trinke meinen Kaffee ohne Zucker.
+etymology: Aus dem Türkischen (kahve).
+note: Maskulinum mit unregelmäßigem Plural (-ές -> -έδες).
+tags: ⭐ common, 🥤 Getränke, loanword:turkish
+priority: yes
+//
+word: ζάχαρη
+translation: Zucker
+type: noun
+group: Essen & Trinken
+pronunciation: [ˈzaxari]
+grammar.Gender: f
+grammar.Plural: οι ζάχαρες
+example.el: Πόση ζάχαρη θέλεις στον καφέ σου;
+example.de: Wie viel Zucker möchtest du in deinem Kaffee?
+etymology: Aus dem Arabischen über das Altgriechische σάκχαρον.
+note: Plural wird selten benutzt, nur bei Zuckersorten.
+tags: ⭐ common, 🍕 Essen
+priority: yes
+//
+word: αλάτι
+translation: Salz
+type: noun
+group: Essen & Trinken
+pronunciation: [aˈlati]
+grammar.Gender: n
+grammar.Plural: τα αλάτια
+example.el: Το φαγητό δεν έχει αλάτι.
+example.de: Das Essen hat kein Salz.
+etymology: Aus dem altgriechischen ἅλας.
+note: Wichtiges Gewürz in der Küche.
+tags: ⭐ common, 🍕 Essen
+priority: yes
+//
+word: πιπέρι
+translation: Pfeffer
+type: noun
+group: Essen & Trinken
+pronunciation: [piˈperi]
+grammar.Gender: n
+grammar.Plural: τα πιπέρια
+example.el: Βάλε λίγο πιπέρι στη σούπα.
+example.de: Gib etwas Pfeffer in die Suppe.
+etymology: Aus dem altgriechischen πέπερι.
+note: Bezieht sich sowohl auf das Gewürzpulver als auch auf Paprikaschoten (in manchen Regionen).
+tags: ⚙️ neutral, 🍕 Essen
+priority: no
+//
+word: ρύζι
+translation: Reis
+type: noun
+group: Essen & Trinken
+pronunciation: [ˈrizi]
+grammar.Gender: n
+grammar.Plural: τα ρύζια
+example.el: Το κρέας συνοδεύεται με ρύζι.
+example.de: Das Fleisch wird von Reis begleitet.
+etymology: Aus dem altgriechischen ὄρυζα.
+note: Pluralform existiert, wird aber kaum genutzt.
+tags: ⚙️ neutral, 🍕 Essen
+priority: no
+//
+word: μακαρόνια
+translation: Nudeln, Pasta
+type: noun
+group: Essen & Trinken
+pronunciation: [makaˈrona]
+grammar.Gender: n
+grammar.Plural: τα μακαρόνια
+example.el: Σήμερα έχουμε μακαρόνια με κιμά.
+example.de: Heute haben wir Nudeln mit Hackfleisch.
+etymology: Aus dem Italienischen (maccheroni).
+note: Wird fast ausschließlich im Plural verwendet. Das Singular "μακαρόνι" bezeichnet eine einzelne Nudel.
+tags: ⭐ common, 🍕 Essen, loanword:italian
+priority: yes
+//
+word: σαλάτα
+translation: Salat
+type: noun
+group: Essen & Trinken
+pronunciation: [saˈlata]
+grammar.Gender: f
+grammar.Plural: οι σαλάτες
+example.el: Παρήγγειλα μια χωριάτικη σαλάτα.
+example.de: Ich habe einen griechischen Bauernsalat bestellt.
+etymology: Aus dem Italienischen (insalata).
+note: "Χωριάτικη σαλάτα" ist der berühmte griechische Bauernsalat.
+tags: ⭐ common, 🥦 Gemüse
+priority: yes
+//
+word: ντομάτα
+translation: Tomate
+type: noun
+group: Essen & Trinken
+pronunciation: [ntoˈmata]
+grammar.Gender: f
+grammar.Plural: οι ντομάτες
+example.el: Οι ντομάτες το καλοκαίρι είναι πολύ γλυκές.
+example.de: Die Tomaten im Sommer sind sehr süß.
+etymology: Über europäische Sprachen vom aztekischen tomatl.
+note: Basisbestandteil fast jeder griechischen Mahlzeit.
+tags: ⭐ common, 🥦 Gemüse
+priority: yes
+//
+word: αγγούρι
+translation: Gurke
+type: noun
+group: Essen & Trinken
+pronunciation: [aˈŋguri]
+grammar.Gender: n
+grammar.Plural: τα αγγούρια
+example.el: Κόψε το αγγούρι για τη σαλάτα.
+example.de: Schneide die Gurke für den Salat.
+etymology: Aus dem mittelalterlichen αγγούριον.
+note: Zweiter Hauptbestandteil des Bauernsalats.
+tags: ⚙️ neutral, 🥦 Gemüse
+priority: no
+//
+word: κρεμμύδι
+translation: Zwiebel
+type: noun
+group: Essen & Trinken
+pronunciation: [kreˈmiði]
+grammar.Gender: n
+grammar.Plural: τα κρεμμύδια
+example.el: Κλαίω όταν κόβω κρεμμύδια.
+example.de: Ich weine, wenn ich Zwiebeln schneide.
+etymology: Aus dem altgriechischen κρομμύδιον.
+note: Essentiell für fast alle griechischen Schmorgerichte.
+tags: ⚙️ neutral, 🥦 Gemüse
+priority: no
+//
+word: σκόρδο
+translation: Knoblauch
+type: noun
+group: Essen & Trinken
+pronunciation: [ˈskorðo]
+grammar.Gender: n
+grammar.Plural: τα σκόρδα
+example.el: Το τζατζίκι έχει πολύ σκόρδο.
+example.de: Das Tzatziki hat viel Knoblauch.
+etymology: Aus dem altgriechischen σκόροδον.
+note: Unverzichtbar für Tzatziki.
+tags: ⭐ common, 🥦 Gemüse
+priority: yes
+//
+word: πατάτα
+translation: Kartoffel
+type: noun
+group: Essen & Trinken
+pronunciation: [paˈtata]
+grammar.Gender: f
+grammar.Plural: οι πατάτες
+example.el: Θέλω τηγανητές πατάτες.
+example.de: Ich möchte Pommes frites (frittierte Kartoffeln).
+etymology: Aus dem Spanischen (patata).
+note: "Πατάτες τηγανητές" sind extrem populär in griechischen Tavernen.
+tags: ⭐ common, 🥦 Gemüse
+priority: yes
+//
+word: μήλο
+translation: Apfel
+type: noun
+group: Essen & Trinken
+pronunciation: [ˈmilo]
+grammar.Gender: n
+grammar.Plural: τα μήλα
+example.el: Ένα μήλο την ημέρα το γιατρό τον κάνει πέρα.
+example.de: Ein Apfel am Tag hält den Doktor fern.
+etymology: Aus dem altgriechischen μῆλον.
+note: Sprichwort-Klassiker existiert auch im Griechischen.
+tags: ⭐ common, 🍎 Obst
+priority: yes
+//
+word: πορτοκάλι
+translation: Orange
+type: noun
+group: Essen & Trinken
+pronunciation: [porkoˈtali]
+grammar.Gender: n
+grammar.Plural: τα πορτοκάλια
+example.el: Το πρωί πίνω χυμό πορτοκάλι.
+example.de: Morgens trinke ich Orangensaft.
+etymology: Benannt nach Portugal, von wo die Frucht importiert wurde.
+note: Sehr günstig und süß in Griechenland.
+tags: ⭐ common, 🍎 Obst
+priority: yes
+//
+word: λεμόνι
+translation: Zitrone
+type: noun
+group: Essen & Trinken
+pronunciation: [leˈmoni]
+grammar.Gender: n
+grammar.Plural: τα λεμόνια
+example.el: Βάλε λεμόνι στο ψάρι.
+example.de: Tu Zitrone auf den Fisch.
+etymology: Aus dem Arabischen über das Italienische (limone).
+note: Zitronensaft wird in Griechenland auf fast alles (Fleisch, Fisch, Suppen) geträufelt.
+tags: ⭐ common, 🍎 Obst
+priority: yes
+//
+word: λάχανο
+translation: Kohl, Weißkohl
+type: noun
+group: Essen & Trinken
+pronunciation: [ˈlaxano]
+grammar.Gender: n
+grammar.Plural: τα λάχανα
+example.el: Το χειμώνα τρώμε σαλάτα λάχανο.
+example.de: Im Winter essen wir Kohlsalat.
+etymology: Aus dem altgriechischen λάχανον.
+note: Wird oft für den typischen Wintersalat (λαχανοσαλάτα) genutzt.
+tags: ⚙️ neutral, 🥦 Gemüse
+priority: no
+//
+word: αυγό
+translation: Ei
+type: noun
+group: Essen & Trinken
+pronunciation: [avˈɣo]
+grammar.Gender: n
+grammar.Plural: τα αυγά
+example.el: Θέλω δύο αυγά μάτια για πρωινό.
+example.de: Ich möchte zwei Spiegeleier zum Frühstück.
+etymology: Aus dem altgriechischen ὠόν.
+note: Wird manchmal auch "αβγό" geschrieben. "Αυγά μάτια" bedeutet Spiegeleier.
+tags: ⭐ common, 🍕 Essen
+priority: yes
+//
+word: γλυκό
+translation: Süßigkeit, Dessert, Kuchen
+type: noun
+group: Essen & Trinken
+pronunciation: [ɣliˈko]
+grammar.Gender: n
+grammar.Plural: τα γλυκά
+example.el: Μετά το φαγητό θέλω ένα γλυκό.
+example.de: Nach dem Essen möchte ich ein Dessert.
+etymology: Substantiviertes Adjektiv γλυκός (süß).
+note: Kann jede Art von Nachspeise bezeichnen.
+tags: ⭐ common, 🍰 Süßes
+priority: yes
+//
+word: παγωτό
+translation: Eis, Speiseeis
+type: noun
+group: Essen & Trinken
+pronunciation: [paɣoˈto]
+grammar.Gender: n
+grammar.Plural: τα παγωτά
+example.el: Τα παιδιά θέλουν παγωτό σοκολάτα.
+example.de: Die Kinder wollen Schokoladeneis.
+etymology: Von παγώνω (frieren, gefrieren).
+note: Essentiell im griechischen Sommer.
+tags: ⭐ common, 🍰 Süßes
+priority: yes
+//
+word: μέλι
+translation: Honig
+type: noun
+group: Essen & Trinken
+pronunciation: [ˈmeli]
+grammar.Gender: n
+grammar.Plural: τα μέλια
+example.el: Το γιαούρτι με μέλι είναι υπέροχο.
+example.de: Joghurt mit Honig ist herrlich.
+etymology: Aus dem altgriechischen μέλι.
+note: Pluralform extrem selten. Berühmt in Kombination mit griechischem Joghurt.
+tags: ⭐ common, 🍰 Süßes
+priority: yes
+//
+word: γιαούρτι
+translation: Joghurt
+type: noun
+group: Essen & Trinken
+pronunciation: [ʝaˈurti]
+grammar.Gender: n
+grammar.Plural: τα γιαούρτια
+example.el: Αγοράζω πάντα στραγγιστό γιαούρτι.
+example.de: Ich kaufe immer abgetropften (griechischen) Joghurt.
+etymology: Aus dem Türkischen (yoğurt).
+note: "Στραγγιστό γιαούρτι" ist der traditionelle, dickflüssige griechische Joghurt.
+tags: ⭐ common, 🍕 Essen, loanword:turkish
+priority: yes
+//
+word: σούπα
+translation: Suppe
+type: noun
+group: Essen & Trinken
+pronunciation: [ˈsupa]
+grammar.Gender: f
+grammar.Plural: οι σούπες
+example.el: Η κοτόσουπα είναι μια ζεστή σούπα.
+example.de: Die Hühnersuppe ist eine heiße Suppe.
+etymology: Aus dem Französischen (soupe) oder Italienischen (zuppa).
+note: Wird besonders im Winter oder bei Erkältungen gegessen.
+tags: ⚙️ neutral, 🍕 Essen
+priority: no
+//
+word: χυμός
+translation: Saft
+type: noun
+group: Essen & Trinken
+pronunciation: [çiˈmos]
+grammar.Gender: m
+grammar.Plural: οι χυμοί
+example.el: Θέλω έναν φυσικό χυμό πορτοκάλι.
+example.de: Ich möchte einen frisch gepressten Orangensaft.
+etymology: Aus dem altgriechischen χυμός.
+note: "Φυσικός χυμός" bedeutet frisch gepresster Saft.
+tags: ⭐ common, 🥤 Getränke
+priority: yes
+//
+word: τσάι
+translation: Tee
+type: noun
+group: Essen & Trinken
+pronunciation: [ˈt͡sai]
+grammar.Gender: n
+grammar.Plural: τα τσάγια
+example.el: Το χειμώνα πίνω τσάι του βουνού.
+example.de: Im Winter trinke ich griechischen Bergtee.
+etymology: Aus dem Sinitischen (chá) über das Türkische (çay).
+note: "Τσάι του βουνού" (Bergtee) ist hochgradig traditionell in Griechenland.
+tags: ⭐ common, 🥤 Getränke, loanword:turkish
+priority: yes
+//
+word: λογαριασμός
+translation: Rechnung
+type: noun
+group: Essen & Trinken
+pronunciation: [loɣarʝazˈmos]
+grammar.Gender: m
+grammar.Plural: οι λογαριασμοί
+example.el: Το λογαριασμό, παρακαλώ!
+example.de: Die Rechnung, bitte!
+etymology: Von λογαριάζω (rechnen).
+note: Unverzichtbarer Satz am Ende eines Tavernenbesuchs.
+tags: ⭐ common, ✈️ Travel
+priority: yes
+//
+word: μενού
+translation: Speisekarte, Menü
+type: noun
+group: Essen & Trinken
+pronunciation: [meˈnu]
+grammar.Gender: n
+grammar.Plural: τα μενού
+example.el: Μπορώ να έχω το μενού, παρακαλώ;
+example.de: Kann ich bitte die Speisekarte haben?
+etymology: Aus dem Französischen (menu).
+note: Das Wort ist im Griechischen indeklinabel (bleibt in allen Fällen gleich). Man sagt oft auch "κατάλογος".
+tags: ⭐ common, ✈️ Travel
+priority: yes
+//
+word: τρώω
+translation: essen
+type: verb
+group: Essen & Trinken
+pronunciation: [ˈtroo]
+grammar.Present (all persons): τρώω / τρως / τρώει / τρώμε / τρώτε / τρώνε
+grammar.Simple past: έφαγα
+example.el: Τι θα φάμε σήμερα το βράδυ;
+example.de: Was werden wir heute Abend essen?
+etymology: Aus dem altgriechischen τρώγω.
+note: Sehr unregelmäßiges Verb, besonders im Aorist (έφαγα).
+tags: ⭐ common, 🍕 Essen
+priority: yes
+//
+word: πίνω
+translation: trinken
+type: verb
+group: Essen & Trinken
+pronunciation: [ˈpino]
+grammar.Present (all persons): πίνω / πίνεις / πίνει / πίνουμε / πίνετε / πίνουν
+grammar.Simple past: ήπια
+example.el: Πίνεις αλκοόλ;
+example.de: Trinkst du Alkohol?
+etymology: Aus dem altgriechischen πίνω.
+note: Unregelmäßiger Aorist (ήπια).
+tags: ⭐ common, 🥤 Getränke
+priority: yes
+//
+word: μαγειρεύω
+translation: kochen
+type: verb
+group: Essen & Trinken
+pronunciation: [maʝiˈrevo]
+grammar.Present (all persons): μαγειρεύω / μαγειρεύεις / μαγειρεύει / μαγειρεύουμε / μαγειρεύετε / μαγειρεύουν
+grammar.Simple past: μαγείρεψα
+example.el: Μου αρέσει να μαγειρεύω για τους φίλους μου.
+example.de: Ich koche gerne für meine Freunde.
+etymology: Von μάγειρας (Koch), altgriechisch μάγειρος.
+note: Regelmäßige Konjugation der Klasse A (-εύω -> -εψα).
+tags: ⭐ common, 🍕 Essen
+priority: yes
+//
+word: παραγγέλνω
+translation: bestellen
+type: verb
+group: Essen & Trinken
+pronunciation: [paranˈgʲelno]
+grammar.Present (all persons): παραγγέλνω / παραγγέλνεις / παραγγέλλει / παραγγέλνουμε / παραγγέλνετε / παραγγέλνουν
+grammar.Simple past: παράγγειλα
+example.el: Θέλεις να παραγγείλουμε πίτσα;
+example.de: Möchtest du, dass wir Pizza bestellen?
+etymology: Aus dem altgriechischen παραγγέλλω.
+note: Wichtig im Restaurant oder beim Lieferservice.
+tags: ⭐ common, ✈️ Travel
+priority: yes
+//
+word: πεινάω
+translation: hungrig sein, Hunger haben
+type: verb
+group: Essen & Trinken
+pronunciation: [piˈnao]
+grammar.Present (all persons): πεινάω (πεινώ) / πεινάς / πεινάει / πεινάμε / πεινάτε / πεινάνε
+grammar.Simple past: πείνασα
+example.el: Πεινάω πολύ, πάμε να φάμε;
+example.de: Ich habe großen Hunger, gehen wir essen?
+etymology: Aus dem altgriechischen πεινῶ.
+note: Verb der Klasse B1 (Kontrahiertes Verb auf -άω).
+tags: ⭐ common, 🍕 Essen
+priority: yes
+//
+word: διψάω
+translation: durstig sein, Durst haben
+type: verb
+group: Essen & Trinken
+pronunciation: [ðiˈpsao]
+grammar.Present (all persons): διψάω (διψώ) / διψάς / διψάει / διψάμε / διψάτε / διψάνε
+grammar.Simple past: δίψασα
+example.el: Διψάω, θέλω ένα ποτήρι νερό.
+example.de: Ich habe Durst, ich möchte ein Glas Wasser.
+etymology: Aus dem altgriechischen διψῶ.
+note: Verb der Klasse B1 (Kontrahiertes Verb auf -άω).
+tags: ⭐ common, 🥤 Getränke
+priority: yes
+//
+word: νόστιμος
+translation: lecker, schmackhaft
+type: adjective
+group: Essen & Trinken
+pronunciation: [ˈnostimos]
+grammar.Masculine: νόστιμος
+grammar.Feminine: νόστιμη
+grammar.Neuter: νόστιμο
+example.el: Αυτό το φαγητό είναι πολύ νόστιμο.
+example.de: Dieses Essen ist sehr lecker.
+etymology: Vom altgriechischen νόστος (Heimkehr) - ursprünglich "zur Heimkehr gehörig", später im Sinne von "angenehm".
+note: Das Standardwort, um Lob für das Essen auszudrücken.
+tags: ⭐ common, 🍕 Essen
+priority: yes
+//
+word: φρέσκος
+translation: frisch
+type: adjective
+group: Essen & Trinken
+pronunciation: [ˈfreskos]
+grammar.Masculine: φρέσκος
+grammar.Feminine: φρέσκια
+grammar.Neuter: φρέσκο
+example.el: Θέλουμε φρέσκο ψάρι.
+example.de: Wir wollen frischen Fisch.
+etymology: Aus dem Italienischen (fresco).
+note: Die feminine Form ist unregelmäßig (φρέσκια statt φρέσκιας).
+tags: ⭐ common, 🍕 Essen, loanword:italian
+priority: yes
+//
+word: γλυκός
+translation: süß
+type: adjective
+group: Essen & Trinken
+pronunciation: [ɣliˈkos]
+grammar.Masculine: γλυκός
+grammar.Feminine: γλυκιά
+grammar.Neuter: γλυκό
+example.el: Ο καφές είναι πολύ γλυκός.
+example.de: Der Kaffee ist sehr süß.
+etymology: Aus dem altgriechischen γλυκύς.
+note: Die feminine Form lautet γλυκιά. Auch figurativ genutzt ("süß/nett").
+tags: ⭐ common, 🍰 Süßes
+priority: yes
+//
+word: ξινός
+translation: sauer
+type: adjective
+group: Essen & Trinken
+pronunciation: [ksiˈnos]
+grammar.Masculine: ξινός
+grammar.Feminine: ξινή
+grammar.Neuter: ξινό
+example.el: Το λεμόνι είναι ξινό.
+example.de: Die Zitrone ist sauer.
+etymology: Aus dem altgriechischen ξυλινός/ὀξινός.
+note: Kann auch für schlecht gewordene Milch oder Wein stehen.
+tags: ⚙️ neutral, 🍕 Essen
+priority: no
+//
+word: αλμυρός
+translation: salzig
+type: adjective
+group: Essen & Trinken
+pronunciation: [almiˈros]
+grammar.Masculine: αλμυρός
+grammar.Feminine: αλμυρή
+grammar.Neuter: αλμυρό
+example.el: Η σούπα είναι πολύ αλμυρή.
+example.de: Die Suppe ist sehr salzig.
+etymology: Vom altgriechischen ἅλμη (Salzwasser).
+note: Kann im übertragenen Sinne auch "teuer" (gesalzene Preise) bedeuten.
+tags: ⚙️ neutral, 🍕 Essen, 💬 figurative
+priority: no
+//
+word: καλημέρα
+translation: Guten Morgen, Guten Tag
+type: interjection
+group: Essen & Trinken
+pronunciation: [kaliˈmera]
+example.el: Καλημέρα! Έναν καφέ, παρακαλώ.
+example.de: Guten Morgen! Einen Kaffee, bitte.
+etymology: Zusammengesetzt aus καλή (gute) und μέρα (Tag).
+note: Wird bis ca. 12:00-14:00 Uhr zur Begrüßung genutzt, oft der Einstieg beim Bäcker oder im Café.
+tags: ⭐ common, 💬 formal
+priority: yes

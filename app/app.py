@@ -527,11 +527,11 @@ def profile():
         if lang not in stats:
             stats[lang] = {'seen': 0, 'mastered': 0}
         stats[lang]['seen'] += 1
-        w = _json.loads(r.window or '[]')
-        n = len(w)
-        acc = sum(w) / n if n else 0
+        rw = _json.loads(r.rev_window or '[]')
+        rn = len(rw)
+        racc = sum(rw) / rn if rn else 0
         sd = r.spaced_days or 0
-        if n >= 5 and acc >= 0.8 and sd >= 3:
+        if rn >= 5 and racc >= 0.8 and sd >= 3:
             stats[lang]['mastered'] += 1
     name = cu.name or cu.email or ''
     rows_html = ''

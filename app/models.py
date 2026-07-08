@@ -36,7 +36,8 @@ class Progress(db.Model):
     user_id     = db.Column(db.Integer, db.ForeignKey("users.id"), nullable=False)
     lang_code   = db.Column(db.String(10), nullable=False)
     card_id     = db.Column(db.String(64), nullable=False)
-    window      = db.Column(db.Text, default="[]")   # JSON bool array
+    window      = db.Column(db.Text, default="[]")   # JSON bool array (all directions)
+    rev_window  = db.Column(db.Text, default="[]")   # JSON bool array (DEP→word only)
     last_day    = db.Column(db.String(10))            # ISO date "YYYY-MM-DD"
     spaced_days = db.Column(db.Integer, default=0)
     dirs        = db.Column(db.Text, default="[]")   # JSON string array
@@ -48,6 +49,7 @@ class Progress(db.Model):
     def to_dict(self):
         return {
             "window":      json.loads(self.window or "[]"),
+            "rev_window":  json.loads(self.rev_window or "[]"),
             "last_day":    self.last_day,
             "spaced_days": self.spaced_days or 0,
             "dirs":        json.loads(self.dirs or "[]"),

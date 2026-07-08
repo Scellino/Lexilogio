@@ -435,12 +435,13 @@ async function init(){
 // ── Mastery ────────────────────────────────────────────────────────────────────
 function cardMastery(c){
   const e=(progress[String(c.id)]||{});
-  const w=e.window||[];
-  const n=w.length,acc=n?w.filter(Boolean).length/n:0;
+  const rw=e.rev_window||[];
+  const rn=rw.length,racc=rn?rw.filter(Boolean).length/rn:0;
   const sd=e.spaced_days||0;
-  if(n>=5&&acc>=0.8&&sd>=3) return 'mastered';
-  if(n>=3&&acc<0.4)  return 'struggling';
-  if(n>0)            return 'learning';
+  if(rn>=5&&racc>=0.8&&sd>=3) return 'mastered';
+  const w=e.window||[];
+  if(w.length>=3&&w.filter(Boolean).length/w.length<0.4) return 'struggling';
+  if(w.length>0)     return 'learning';
   return 'new';
 }
 function allGroups(){
@@ -1678,17 +1679,24 @@ def make_vocab_blueprint(lang, check_fn=None):
                         row.last_day    = prior.last_day
                 db.session.add(row)
             window      = json.loads(row.window or "[]")
+            rev_window  = json.loads(row.rev_window or "[]")
             spaced_days = row.spaced_days or 0
             dirs        = json.loads(row.dirs or "[]")
-            window.append(result == "correct")
+            correct_bool = result == "correct"
+            window.append(correct_bool)
             if len(window) > 10:
                 window = window[-10:]
+            if not direction.startswith('word→'):
+                rev_window.append(correct_bool)
+                if len(rev_window) > 10:
+                    rev_window = rev_window[-10:]
             if row.last_day != today:
                 spaced_days = min(spaced_days + 1, 3)
                 row.last_day = today
             if direction not in dirs and len(dirs) < 2:
                 dirs.append(direction)
             row.window      = json.dumps(window)
+            row.rev_window  = json.dumps(rev_window)
             row.spaced_days = spaced_days
             row.dirs        = json.dumps(dirs)
             db.session.commit()

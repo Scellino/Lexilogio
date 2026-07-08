@@ -1411,3 +1411,712 @@ note: Beschreibt eine generell negative Erwartungshaltung.
 tags: ⚙️ neutral, 😢 Gefühle
 priority: no
 //
+word: δουλειά
+translation: Arbeit, Job, Beschäftigung
+type: noun
+group: Berufe & Arbeit
+pronunciation: [ðuˈlʲa]
+grammar.Gender: f
+grammar.Plural: οι δουλειές
+example.el: Ψάχνω για μια καινούργια δουλειά.
+example.de: Ich suche nach einer neuen Arbeit.
+etymology: Aus dem altgriechischen δουλεία (Sklaverei) – hat im Neugriechischen seine negative Bedeutung verloren und ist das Standardwort für Arbeit.
+note: Sehr umgangssprachlich und allgegenwärtig. Für formellere Kontexte nutzt man „εργασία“.
+tags: ⭐ common, 💼 work
+priority: yes
+//
+word: επάγγελμα
+translation: Beruf, Profession
+type: noun
+group: Berufe & Arbeit
+pronunciation: [eˈpaŋgʲelma]
+grammar.Gender: n
+grammar.Plural: τα επαγγέλματα
+example.el: Ποιο είναι το επάγγελμά σου;
+example.de: Was ist dein Beruf?
+etymology: Aus dem altgriechischen ἐπάγγελμα.
+note: Bezieht sich auf den erlernten Beruf oder die offizielle Berufsbezeichnung.
+tags: ⭐ common, 💼 work
+priority: yes
+//
+word: εταιρεία
+translation: Firma, Unternehmen, Gesellschaft
+type: noun
+group: Berufe & Arbeit
+pronunciation: [eteˈria]
+grammar.Gender: f
+grammar.Plural: οι εταιρείες
+example.el: Δουλεύει σε μια μεγάλη εταιρεία πληροφορικής.
+example.de: Er arbeitet στην einer großen IT-Firma.
+etymology: Aus dem altgriechischen ἑταιρεία (Genossenschaft, Bund).
+note: Kann für GmbHs, AGs oder jegliche Form von Unternehmen stehen.
+tags: ⭐ common, 💼 work
+priority: yes
+//
+word: μισθός
+translation: Gehalt, Lohn
+type: noun
+group: Berufe & Arbeit
+pronunciation: [misˈθos]
+grammar.Gender: m
+grammar.Plural: οι μισθοί
+example.el: Ο μισθός μου κατατίθεται κάθε πρώτη του μηνός.
+example.de: Mein Gehalt wird jeden Ersten des Monats eingezahlt.
+etymology: Aus dem altgriechischen μισθός.
+note: Bezieht sich meist auf das monatliche Festgehalt von Angestellten.
+tags: ⭐ common, 💼 work
+priority: yes
+//
+word: συνάδελφος
+translation: Kollege, Kollegin
+type: noun
+group: Berufe & Arbeit
+pronunciation: [siˈnaðelfos]
+grammar.Gender: m
+grammar.Plural: οι συνάδελφοι
+example.el: Οι συνάδελφοί μου στο γραφείο είναι πολύ εξυπηρετικοί.
+example.de: Meine Kollegen im Büro sind sehr hilfsbereit.
+etymology: Aus σύν (mit) und ἀδελφός (Bruder).
+note: Das Wort ist im Nominativ für Männer und Frauen gleich (ο/η συνάδελφος).
+tags: ⭐ common, 💼 work
+priority: yes
+//
+word: διευθυντής
+translation: Direktor, Manager, Chef
+type: noun
+group: Berufe & Arbeit
+pronunciation: [ðjefθinˈdis]
+grammar.Gender: m
+grammar.Plural: οι διευθυντές
+example.el: Ο διευθυντής κάλεσε συνέλευση για το απόγευμα.
+example.de: Der Direktor hat ein Treffen für den Nachmittag einberufen.
+etymology: Von διευθύνω (leiten, führen).
+note: Die weibliche Form lautet „η διευθύντρια“.
+tags: ⭐ common, 💼 work
+priority: yes
+//
+word: υπάλληλος
+translation: Angestellter, Angestellte, Beamter
+type: noun
+group: Berufe & Arbeit
+pronunciation: [iˈpalilos]
+grammar.Gender: m
+grammar.Plural: οι υπάλληλοι
+example.el: Είναι υπάλληλος σε τράπεζα.
+example.de: Er ist Angestellter bei einer Bank.
+etymology: Aus υπό (unter) und άλλων (anderer) – im Sinne von „jemandem unterstellt“.
+note: Gilt im Nominativ für beide Geschlechter (ο/η υπάλληλος). „Δημόσιος υπάλληλος“ ist der Beamte im öffentlichen Dienst.
+tags: ⭐ common, 💼 work
+priority: yes
+//
+word: άνεργος
+translation: Arbeitsloser
+type: noun
+group: Berufe & Arbeit
+pronunciation: [ˈanerɣos]
+grammar.Gender: m
+grammar.Plural: οι άνεργοι
+example.el: Το ποσοστό των ανέργων μειώθηκε φέτος.
+example.de: Die Arbeitslosenquote ist dieses Jahr gesunken.
+etymology: Aus αν- (un-) und έργο (Arbeit).
+note: Eigentlich ein Adjektiv, das sehr häufig substantiviert wird (ο άνεργος / η άνεργη).
+tags: ⚙️ neutral, 💼 work
+priority: no
+//
+word: γιατρός
+translation: Arzt, Ärztin
+type: noun
+group: Berufe & Arbeit
+pronunciation: [ʝaˈtros]
+grammar.Gender: m
+grammar.Plural: οι γιατροί
+example.el: Πρέπει να κλείσω ραντεβού με τον γιατρό.
+example.de: Ich muss einen Termin mit dem Arzt vereinbaren.
+etymology: Aus dem altgriechischen ἰατρός.
+note: Maskulines Nomen, wird aber mit femininem Artikel auch für Ärztinnen genutzt (η γιατρός). Die rein feminine Form „γιατρίνα“ ist eher familiär.
+tags: ⭐ common, 💼 work
+priority: yes
+//
+word: δάσκαλος
+translation: Lehrer, Grundschullehrer
+type: noun
+group: Berufe & Arbeit
+pronunciation: [ˈðaskalos]
+grammar.Gender: m
+grammar.Plural: οι δάσκαλοι
+example.el: Ο δάσκαλος εξηγεί το μάθημα στα παιδιά.
+example.de: Der Lehrer erklärt den Kindern den Unterricht.
+etymology: Aus dem altgriechischen διδάσκαλος.
+note: Bezieht sich spezifisch auf Grundschullehrer. Lehrer an weiterführenden Schulen heißen „καθηγητής“. Die weibliche Form ist „η δασκάλα“.
+tags: ⭐ common, 💼 work
+priority: yes
+//
+word: καθηγητής
+translation: Professor, Lehrer (höhere Schulen)
+type: noun
+group: Berufe & Arbeit
+pronunciation: [kaθiʝiˈdis]
+grammar.Gender: m
+grammar.Plural: οι καθηγητές
+example.el: Ο καθηγητής του πανεπιστημίου είναι πολύ αυστηρός.
+example.de: Der Universitätsprofessor ist sehr streng.
+etymology: Aus dem altgriechischen καθηγητής (Führer, Lehrer).
+note: Die weibliche Form lautet „η καθηγήτρια“.
+tags: ⭐ common, 💼 work
+priority: yes
+//
+word: δικηγόρος
+translation: Rechtsanwalt, Anwalt
+type: noun
+group: Berufe & Arbeit
+pronunciation: [ðiciˈɣoros]
+grammar.Gender: m
+grammar.Plural: οι δικηγόροι
+example.el: Μίλησα με τον δικηγόρο μου για το συμβόλαιο.
+example.de: Ich habe mit meinem Anwalt über den Vertrag gesprochen.
+etymology: Aus δίκη (Gerichtsprozess) und αγορεύω (öffentlich sprechen).
+note: Formgleich für beide Geschlechter (ο/η δικηγόρος).
+tags: ⭐ common, 💼 work
+priority: yes
+//
+word: μηχανικός
+translation: Ingenieur, Mechaniker
+type: noun
+group: Berufe & Arbeit
+pronunciation: [mixaniˈkos]
+grammar.Gender: m
+grammar.Plural: οι μηχανικοί
+example.el: Ο πολιτικός μηχανικός ελέγχει την οικοδομή.
+example.de: Der Bauingenieur kontrolliert den Bau.
+etymology: Aus dem altgriechischen μηχανικός.
+note: Formgleich für beide Geschlechter (ο/η μηχανικός). „Πολιτικός μηχανικός“ bedeutet Bauingenieur.
+tags: ⚙️ neutral, 💼 work
+priority: no
+//
+word: προγραμματιστής
+translation: Programmierer, Softwareentwickler
+type: noun
+group: Berufe & Arbeit
+pronunciation: [proɣramatisˈdis]
+grammar.Gender: m
+grammar.Plural: οι προγραμματιστές
+example.el: Η εταιρεία μας ψάχνει για έναν έμπειρο προγραμματιστή.
+example.de: Unsere Firma sucht nach einem erfahrenen Programmierer.
+etymology: Von προγραμματίζω (programmieren).
+note: Die weibliche Form lautet „η προγραμματίστρια“.
+tags: ⭐ common, 💼 work
+priority: yes
+//
+word: λογιστής
+translation: Buchhalter, Steuerberater
+type: noun
+group: Berufe & Arbeit
+pronunciation: [loʝisˈdis]
+grammar.Gender: m
+grammar.Plural: οι λογιστές
+example.el: Ο λογιστής μου είπε πότε πρέπει να πληρώσω τους φόρους.
+example.de: Mein Buchhalter hat mir gesagt, wann ich die Steuern zahlen muss.
+etymology: Aus λογίζομαι (rechnen, kalkulieren).
+note: Die weibliche Form lautet „η λογίστρια“. Ein extrem wichtiger Beruf im griechischen Alltag aufgrund des Steuersystems.
+tags: ⭐ common, 💼 work
+priority: yes
+//
+word: πωλητής
+translation: Verkäufer
+type: noun
+group: Berufe & Arbeit
+pronunciation: [poliˈdis]
+grammar.Gender: m
+grammar.Plural: οι πωλητές
+example.el: Ο πωλητής μου έδειξε τα καινούργια μοντέλα.
+example.de: Der Verkäufer zeigte mir die neuen Modelle.
+etymology: Von πωλώ (verkaufen).
+note: Die weibliche Form lautet „η πωλήτρια“.
+tags: ⭐ common, 💼 work
+priority: yes
+//
+word: σερβιτόρος
+translation: Kellner, Kellnerin
+type: noun
+group: Berufe & Arbeit
+pronunciation: [serviˈtoros]
+grammar.Gender: m
+grammar.Plural: οι σερβιτόροι
+example.el: Φωνάξαμε τον σερβιτόρο για να παραγγείλουμε.
+example.de: Wir haben den Kellner gerufen, um zu bestellen.
+etymology: Aus dem Italienischen (servitore).
+note: Die weibliche Form lautet „η σερβιτόρα“. Extrem häufiger Beruf im Tourismussektor.
+tags: ⭐ common, 💼 work, loanword:italian
+priority: yes
+//
+word: μάγειρας
+translation: Koch
+type: noun
+group: Berufe & Arbeit
+pronunciation: [ˈmaʝiras]
+grammar.Gender: m
+grammar.Plural: οι μάγειροι
+example.el: Ο μάγειρας ετοιμάζει το δείπνο.
+example.de: Der Koch bereitet das Abendessen vor.
+etymology: Aus dem altgriechischen μάγειρος.
+note: Manchmal lautet der neugriechische Plural auch umgangssprachlich „οι μαγείροι“ oder „οι μάγειρες“. Die weibliche Form ist „η μαγείρισσα“.
+tags: ⭐ common, 💼 work
+priority: yes
+//
+word: αστυνομικός
+translation: Polizist, Polizistin
+type: noun
+group: Berufe & Arbeit
+pronunciation: [astinoˈmikos]
+grammar.Gender: m
+grammar.Plural: οι αστυνομικοί
+example.el: Ο αστυνομικός του ζήτησε την ταυτότητα.
+example.de: Der Polizist bat ihn um den Ausweis.
+etymology: Aus αστυνομία (Polizei), altgriechisch ἄστυ (Stadt) und νόμος (Gesetz).
+note: Formgleich für beide Geschlechter (ο/η αστυνομικός).
+tags: ⭐ common, 💼 work
+priority: yes
+//
+word: πυροσβέστης
+translation: Feuerwehrmann
+type: noun
+group: Berufe & Arbeit
+pronunciation: [pirozˈvestis]
+grammar.Gender: m
+grammar.Plural: οι πυροσβέστες
+example.el: Οι πυροσβέστες έσβησαν τη φωτιά στο δάσος.
+example.de: Die Feuerwehrleute haben das Feuer im Wald gelöscht.
+etymology: Aus πύρ (Feuer) und σβήνω (löschen).
+note: Die weibliche Form lautet „η πυροσβέστρια“.
+tags: ⚙️ neutral, 💼 work
+priority: no
+//
+word: οδηγός
+translation: Fahrer, Busfahrer, Taxifahrer
+type: noun
+group: Berufe & Arbeit
+pronunciation: [oðiˈɣos]
+grammar.Gender: m
+grammar.Plural: οι οδηγοί
+example.el: Ο οδηγός του λεωφορείου σταμάτησε στην επόμενη στάση.
+example.de: Der Busfahrer hielt an der nächsten Haltestelle an.
+etymology: Aus dem altgriechischen ὁδηγός (Führer, Wegweiser).
+note: Formgleich für beide Geschlechter (ο/η οδηγός). Kann auch Reiseführer („ξεναγός“) oder Handbuch bedeuten.
+tags: ⭐ common, 💼 work
+priority: yes
+//
+word: εργάτης
+translation: Arbeiter, Handwerker
+type: noun
+group: Berufe & Arbeit
+pronunciation: [erˈɣatis]
+grammar.Gender: m
+grammar.Plural: οι εργάτες
+example.el: Οι εργάτες δουλεύουν στο εργοστάσιο.
+example.de: Die Arbeiter arbeiten in der Fabrik.
+etymology: Aus εργάζομαι (arbeiten).
+note: Bezieht sich meist auf körperliche oder manuelle Arbeit. Die weibliche Form lautet „η εργάτρια“.
+tags: ⭐ common, 💼 work
+priority: yes
+//
+word: γεωργός
+translation: Bauer, Landwirt
+type: noun
+group: Berufe & Arbeit
+pronunciation: [ʝeorˈɣos]
+grammar.Gender: m
+grammar.Plural: οι γεωργοί
+example.el: Ο γεωργός μαζεύει τις ελιές.
+example.de: Der Bauer erntet die Oliven.
+etymology: Aus γη (Erde) und ἔργον (Arbeit).
+note: Ein synonymer Begriff ist „ο αγρότης“. Formgleich im Nominativ für Frauen (η γεωργός).
+tags: ⚙️ neutral, 💼 work
+priority: no
+//
+word: καλλιτέχνης
+translation: Künstler, Künstlerin
+type: noun
+group: Berufe & Arbeit
+pronunciation: [kaliˈtexnis]
+grammar.Gender: m
+grammar.Plural: οι καλλιτέχνες
+example.el: Αυτός ο ζωγράφος είναι σπουδαίος καλλιτέχνης.
+example.de: Dieser Maler ist ein großartiger Künstler.
+etymology: Aus καλός (schön) und τέχνη (Kunst).
+note: Formgleich für beide Geschlechter (ο/η καλλιτέχνης).
+tags: ⚙️ neutral, 💼 work
+priority: no
+//
+word: γραφείο
+translation: Büro, Schreibtisch
+type: noun
+group: Berufe & Arbeit
+pronunciation: [ɣraˈfio]
+grammar.Gender: n
+grammar.Plural: τα γραφεία
+example.el: Πηγαίνω στο γραφείο κάθε μέρα στις εννέα.
+example.de: Ich gehe jeden Tag um neun Uhr ins Büro.
+etymology: Aus γράφω (schreiben).
+note: Bezeichnet sowohl das Möbelstück (Schreibtisch) als auch den Raum oder die Arbeitsstätte (Büro).
+tags: ⭐ common, 💼 work
+priority: yes
+//
+word: συνέντευξη
+translation: Vorstellungsgespräch, Interview
+type: noun
+group: Berufe & Arbeit
+pronunciation: [siˈnentefksi]
+grammar.Gender: f
+grammar.Plural: οι συνεντεύξεις
+example.el: Έχω μια συνέντευξη για δουλειά αύριο το πρωί.
+example.de: Ich habe morgen früh ein Vorstellungsgespräch.
+etymology: Aus σύν (mit) und έντευξις (Zusammenkunft, Treffen).
+note: Wird sowohl für journalistische Interviews als auch für Job-Interviews genutzt.
+tags: ⭐ common, 💼 work
+priority: yes
+//
+word: σύμβαση
+translation: Vertrag, Arbeitsvertrag
+type: noun
+group: Berufe & Arbeit
+pronunciation: [ˈsimvasi]
+grammar.Gender: f
+grammar.Plural: οι συμβάσεις
+example.el: Υπέγραψα τη σύμβαση εργασίας μου χθες.
+example.de: Ich habe gestern meinen Arbeitsvertrag unterschrieben.
+etymology: Aus συμβαίνω (übereinkommen).
+note: Ein formelles Wort. Im Alltag wird oft auch einfach „συμβόλαιο“ genutzt.
+tags: 💬 formal, 💼 work
+priority: no
+//
+word: ωράριο
+translation: Arbeitszeit, Arbeitsplan
+type: noun
+group: Berufe & Arbeit
+pronunciation: [oˈrario]
+grammar.Gender: n
+grammar.Plural: τα ωράρια
+example.el: Το ωράριο εργασίας μου είναι πολύ ελαστικό.
+example.de: Meine Arbeitszeit ist sehr flexibel.
+etymology: Vom altgriechischen ὥρα (Stunde).
+note: „Ωράριο καταστημάτων“ bezeichnet die Ladenöffnungszeiten.
+tags: ⚙️ neutral, 💼 work
+priority: no
+//
+word: άδεια
+translation: Urlaub, Erlaubnis, Lizenz
+type: noun
+group: Berufe & Arbeit
+pronunciation: [ˈaðia]
+grammar.Gender: f
+grammar.Plural: οι άδειες
+example.el: Τον Αύγουστο θα πάρω δύο εβδομάδες άδεια.
+example.de: Im August werde ich zwei Wochen Urlaub nehmen.
+etymology: Aus dem altgriechischen ἄδεια (Straffreiheit, Sicherheit).
+note: „Άδεια οδήγησης“ bedeutet Führerschein. Im Arbeitskontext ist es der genehmigte Urlaub.
+tags: ⭐ common, 💼 work
+priority: yes
+//
+word: σύνταξη
+translation: Rente, Pension
+type: noun
+group: Berufe & Arbeit
+pronunciation: [ˈsindaksi]
+grammar.Gender: f
+grammar.Plural: οι συντάξεις
+example.el: Ο παππούς μου βγήκε στη σύνταξη πέρυσι.
+example.de: Mein Opa ist letztes Jahr in Rente gegangen.
+etymology: Aus σύν (mit) und τάξη (Ordnung). In der Grammatik bedeutet es auch „Syntax“.
+note: Die Phrase „βγαίνω στη σύνταξη“ bedeutet in Rente gehen.
+tags: ⚙️ neutral, 💼 work
+priority: no
+//
+word: εργάζομαι
+translation: arbeiten
+type: verb
+group: Berufe & Arbeit
+pronunciation: [erˈɣazome]
+grammar.Present (all persons): εργάζομαι / εργάζεσαι / εργάζεται / εργαζόμαστε / εργάζεστε / εργάζονται
+grammar.Simple past: εργάστηκα
+example.el: Εργάζεται ως ελεύθερος επαγγελματίας.
+example.de: Er arbeitet als Freiberufler.
+etymology: Aus dem altgriechischen ἐργάζομαι.
+note: Das formellere Pendant zu „δουλεύω“. Ein Deponens (passiv konjugiert, aktive Bedeutung).
+tags: ⭐ common, 💼 work
+priority: yes
+//
+word: δουλεύω
+translation: arbeiten, funktionieren
+type: verb
+group: Berufe & Arbeit
+pronunciation: [ðuˈlevo]
+grammar.Present (all persons): δουλεύω / δουλεύεις / δουλεύει / δουλεύουμε / δουλεύετε / δουλεύουν
+grammar.Simple past: δούλεψα
+example.el: Πού δουλεύεις;
+example.de: Wo arbeitest du?
+etymology: Vom Substantiv δουλειά.
+note: Das absolute Standardwort im Alltag. Kann auch für Maschinen genutzt werden („Το ρολόι δεν δουλεύει“ = Die Uhr funktioniert nicht).
+tags: ⭐ common, 💼 work
+priority: yes
+//
+word: προσλαμβάνω
+translation: einstellen, anstellen
+type: verb
+group: Berufe & Arbeit
+pronunciation: [proslamˈvano]
+grammar.Present (all persons): προσλαμβάνω / προσλαμβάνεις / προσλαμβάνει / προσλαμβάνουμε / προσλαμβάνετε / προσλαμβάνουν
+grammar.Simple past: προσέλαβα
+example.el: Η εταιρεία αποφάσισε να προσλάβει νέο προσωπικό.
+example.de: Die Firma hat beschlossen, neues Personal einzustellen.
+etymology: Aus πρός (zu) und λαμβάνω (nehmen).
+note: Der Aorist hat ein internes Augment (προσέλαβα).
+tags: ⚙️ neutral, 💼 work
+priority: no
+//
+word: απολύω
+translation: entlassen, kündigen (seitens des Arbeitgebers)
+type: verb
+group: Berufe & Arbeit
+pronunciation: [apoˈlio]
+grammar.Present (all persons): απολύω / απολύεις / απολύει / απολύουμε / απολύετε / απολύουν
+grammar.Simple past: απέλυσα
+example.el: Τον απέλυσαν λόγω των περικοπών.
+example.de: Er wurde wegen der Kürzungen entlassen.
+etymology: Aus από (von) und λύω (lösen).
+note: Der Aorist lautet „απέλυσα“ (mit internem Augment).
+tags: ⚙️ neutral, 💼 work
+priority: no
+//
+word: παραιτούμαι
+translation: kündigen, zurücktreten (seitens des Arbeitnehmers)
+type: verb
+group: Berufe & Arbeit
+pronunciation: [pareˈtume]
+grammar.Present (all persons): παραιτούμαι / παραιτείσαι / παραιτείται / παραιτούμαστε / παραιτείστε / παραιτούνται
+grammar.Simple past: παραιτήθηκα
+example.el: Αποφάσισε να παραιτηθεί από τη θέση του.
+example.de: Er hat beschlossen, von seiner Position zurückzutreten.
+etymology: Aus παρά (neben) und αιτούμαι (fordern, bitten).
+note: Kontrahiertes Verb der Klasse B2 in passiver Form. Drückt die Eigenkündigung aus.
+tags: ⚙️ neutral, 💼 work
+priority: no
+//
+word: πληρώνω
+translation: bezahlen, zahlen
+type: verb
+group: Berufe & Arbeit
+pronunciation: [pliˈrono]
+grammar.Present (all persons): πληρώνω / πληρώνεις / πληρώνει / πληρώνουμε / πληρώνετε / πληρώνουν
+grammar.Simple past: πλήρωσα
+example.el: Η εταιρεία με πληρώνει κάθε τέλος του μήνα.
+example.de: Die Firma bezahlt mich jedes Monatsende.
+etymology: Aus dem altgriechischen πληρώ (anfüllen, voll machen).
+note: Regelmäßiges Verb der Klasse A.
+tags: ⭐ common, 💼 work
+priority: yes
+//
+word: κερδίζω
+translation: verdienen, gewinnen
+type: verb
+group: Berufe & Arbeit
+pronunciation: [cerˈðizo]
+grammar.Present (all persons): κερδίζω / κερδίζεις / κερδίζει / κερδίζουμε / κερδίζετε / κερδίζουν
+grammar.Simple past: κέρδισα
+example.el: Κερδίζει πολλά χρήματα από τη δουλειά του.
+example.de: Er verdient viel Geld mit seiner Arbeit.
+etymology: Aus dem altgriechischen κερδαίνω.
+note: Bedeutet sowohl „Geld verdienen“ im Job als auch „im Lotto gewinnen“.
+tags: ⭐ common, 💼 work
+priority: yes
+//
+word: διευθύνω
+translation: leiten, managen, führen
+type: verb
+group: Berufe & Arbeit
+pronunciation: [ðjefˈθino]
+grammar.Present (all persons): διευθύνω / διευθύνεις / διευθύνει / διευθύνουμε / διευθύνετε / διευθύνουν
+grammar.Simple past: διηύθυνα
+example.el: Διευθύνει ένα μικρό ξενοδοχείο στο νησί.
+example.de: Er leitet ein kleines Hotel auf der Insel.
+etymology: Aus dem altgriechischen διευθύνω.
+note: Der Aorist „διηύθυνα“ hat ein seltenes doppeltes Augment und wird im Alltag oft durch Umschreibungen ersetzt.
+tags: 💬 formal, 💼 work
+priority: no
+//
+word: υπογράφω
+translation: unterschreiben, signieren
+type: verb
+group: Berufe & Arbeit
+pronunciation: [ipoˈɣrafo]
+grammar.Present (all persons): υπογράφω / υπογράφεις / υπογράφει / υπογράφουμε / υπογράφετε / υπογράφουν
+grammar.Simple past: υπέγραψα
+example.el: Πρέπει να υπογράψεις εδώ.
+example.de: Du musst hier unterschreiben.
+etymology: Aus υπό (unter) und γράφω (schreiben).
+note: Der Aorist lautet „υπέγραψα“. Essenziell für Verträge.
+tags: ⭐ common, 💼 work
+priority: yes
+//
+word: απεργώ
+translation: streiken
+type: verb
+group: Berufe & Arbeit
+pronunciation: [aperˈɣo]
+grammar.Present (all persons): απεργώ / απεργείς / απεργεί / απεργούμε / απεργείτε / απεργούν
+grammar.Simple past: απέργησα
+example.el: Οι υπάλληλοι των τρένων απεργούν σήμερα.
+example.de: Die Bahnangestellten streiken heute.
+etymology: Aus απ- (un-) und έργο (Arbeit).
+note: Verb der Klasse B2 (-ώ, -είς). Streiks („η απεργία“) kommen in Griechenland regelmäßig vor.
+tags: ⚙️ neutral, 💼 work
+priority: no
+//
+word: επαγγελματικός
+translation: beruflich, professionell, geschäftlich
+type: adjective
+group: Berufe & Arbeit
+pronunciation: [epaŋgʲelmatiˈkos]
+grammar.Masculine: επαγγελματικός
+grammar.Feminine: επαγγελματική
+grammar.Neuter: επαγγελματικό
+example.el: Αυτό είναι ένα επαγγελματικό μυστικό.
+example.de: Das ist ein Berufsgeheimnis.
+etymology: Vom Substantiv επάγγελμα.
+note: Wird für alles genutzt, was mit der Arbeitswelt zu tun hat (z.B. επαγγελματικό ταξίδι = Geschäftsreise).
+tags: ⭐ common, 💼 work
+priority: yes
+//
+word: εργατικός
+translation: fleißig, arbeitsam
+type: adjective
+group: Berufe & Arbeit
+pronunciation: [erɣatiˈkos]
+grammar.Masculine: εργατικός
+grammar.Feminine: εργατική
+grammar.Neuter: εργατικό
+example.el: Είναι ένας πολύ εργατικός άνθρωπος.
+example.de: Er ist ein sehr fleißiger Mensch.
+etymology: Vom Stamm εργ- (Arbeit).
+note: Beschreibt eine positive Arbeitseinstellung. Nicht zu verwechseln mit „Arbeiter-“ im politischen Sinne.
+tags: ⭐ common, 💼 work
+priority: yes
+//
+word: άνεργος
+translation: arbeitslos
+type: adjective
+group: Berufe & Arbeit
+pronunciation: [ˈanerɣos]
+grammar.Masculine: άνεργος
+grammar.Feminine: άνεργη
+grammar.Neuter: άνεργο
+example.el: Έμεινε άνεργος μετά το κλείσιμο του εργοστασίου.
+example.de: Er wurde nach der Schließung der Fabrik arbeitslos.
+etymology: Aus αν- (ohne) und έργο (Arbeit).
+note: Wird, wie oben genannt, meist direkt als Nomen verwendet, funktioniert aber grammatikalisch als Adjektiv.
+tags: ⭐ common, 💼 work
+priority: yes
+//
+word: μόνιμος
+translation: fest, unbefristet, dauerhaft
+type: adjective
+group: Berufe & Arbeit
+pronunciation: [ˈmonimos]
+grammar.Masculine: μόνιμος
+grammar.Feminine: μόνιμη
+grammar.Neuter: μόνιμο
+example.el: Βρήκε επιτέλους μια μόνιμη δουλειά.
+example.de: Er hat endlich eine feste Arbeit gefunden.
+etymology: Aus dem altgriechischen μόνιμος (bleibend).
+note: „Μόνιμος υπάλληλος“ beschreibt jemanden mit einem unbefristeten Arbeitsvertrag.
+tags: ⭐ common, 💼 work
+priority: yes
+//
+word: προσωρινός
+translation: temporär, befristet, vorübergehend
+type: adjective
+group: Berufe & Arbeit
+pronunciation: [prosoriˈnos]
+grammar.Masculine: προσωρινός
+grammar.Feminine: προσωρινή
+grammar.Neuter: προσωρινό
+example.el: Αυτή είναι μια προσωρινή λύση.
+example.de: Das ist eine vorübergehende Lösung.
+etymology: Aus πρός (zu) und ώρα (Zeit).
+note: Das Antonym zu μόνιμος. Wird oft für Zeitarbeit oder befristete Verträge genutzt.
+tags: ⚙️ neutral, 💼 work
+priority: no
+//
+word: υπεύθυνος
+translation: verantwortlich, zuständig
+type: adjective
+group: Berufe & Arbeit
+pronunciation: [iˈpefθinos]
+grammar.Masculine: υπεύθυνος
+grammar.Feminine: υπεύθυνη
+grammar.Neuter: υπεύθυνο
+example.el: Ποιος είναι υπεύθυνος για αυτό το έργο;
+example.de: Wer ist für dieses Projekt verantwortlich?
+etymology: Aus υπό (unter) und εύθυνα (Rechenschaft).
+note: Kann auch substantiviert werden: „ο υπεύθυνος“ = der Verantwortliche / der Leiter.
+tags: ⭐ common, 💼 work
+priority: yes
+//
+word: ειδικευμένος
+translation: qualifiziert, spezialisiert, ausgebildet
+type: adjective
+group: Berufe & Arbeit
+pronunciation: [iðicefˈmenos]
+grammar.Masculine: ειδικευμένος
+grammar.Feminine: ειδικευμένη
+grammar.Neuter: ειδικευμένο
+example.el: Χρειαζόμαστε ειδικευμένο προσωπικό.
+example.de: Wir brauchen qualifiziertes Personal.
+etymology: Partizip Perfekt Passiv von ειδικεύω (spezialisieren).
+note: Entspricht dem deutschen Begriff „Facharbeiter“ oder „spezialisiert“.
+tags: ⚙️ neutral, 💼 work
+priority: no
+//
+word: κουραστικός
+translation: anstrengend, ermüdend
+type: adjective
+group: Berufe & Arbeit
+pronunciation: [kurastiˈkos]
+grammar.Masculine: κουραστικός
+grammar.Feminine: κουραστική
+grammar.Neuter: κουραστικό
+example.el: Ήταν μια πολύ κουραστική μέρα στο γραφείο.
+example.de: Es war ein sehr anstrengender Tag im Büro.
+etymology: Von κουράζω (ermüden).
+note: Bezieht sich auf die Sache, die müde macht (nicht auf die Person selbst, diese wäre „κουρασμένος“).
+tags: ⭐ common, 💼 work
+priority: yes
+//
+word: επιτυχημένος
+translation: erfolgreich
+type: adjective
+group: Berufe & Arbeit
+pronunciation: [epitixiˈmenos]
+grammar.Masculine: επιτυχημένος
+grammar.Feminine: επιτυχημένη
+grammar.Neuter: επιτυχημένο
+example.el: Είναι ένας επιτυχημένος επιχειρηματίας.
+example.de: Er ist ein erfolgreicher Geschäftsmann.
+etymology: Partizip Perfekt Passiv von επιτυγχάνω (erreichen, gelingen).
+note: Sehr positiv besetztes Wort für Karriereerfolge.
+tags: ⚙️ neutral, 💼 work
+priority: no
+//
+word: παραγωγικός
+translation: produktiv
+type: adjective
+group: Berufe & Arbeit
+pronunciation: [paraɣoʝiˈkos]
+grammar.Masculine: παραγωγικός
+grammar.Feminine: παραγωγική
+grammar.Neuter: παραγωγικό
+example.el: Σήμερα ήταν μια πολύ παραγωγική μέρα.
+example.de: Heute war ein sehr produktiver Tag.
+etymology: Από το παράγω (produzieren, herstellen).
+note: Häufig in modernen Unternehmensstrukturen genutzt.
+tags: ⚙️ neutral, 💼 work
+priority: no

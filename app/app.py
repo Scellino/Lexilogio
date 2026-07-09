@@ -41,6 +41,12 @@ from es_vocab_app import es_vocab_bp
 from de_vocab_app import de_vocab_bp
 from community_bp import community_bp
 from preset_loader import load_presets
+from generic_verb_bp import make_verb_blueprint
+fr_verb_bp = make_verb_blueprint("fr")
+de_verb_bp = make_verb_blueprint("de")
+it_verb_bp = make_verb_blueprint("it")
+es_verb_bp = make_verb_blueprint("es")
+nl_verb_bp = make_verb_blueprint("nl")
 
 _DIR = Path(__file__).parent
 
@@ -72,6 +78,11 @@ app.register_blueprint(it_vocab_bp, url_prefix="/it/vocab")
 app.register_blueprint(es_vocab_bp, url_prefix="/es/vocab")
 app.register_blueprint(de_vocab_bp,   url_prefix="/de/vocab")
 app.register_blueprint(community_bp,  url_prefix="/community")
+app.register_blueprint(fr_verb_bp,    url_prefix="/fr/verb")
+app.register_blueprint(de_verb_bp,    url_prefix="/de/verb")
+app.register_blueprint(it_verb_bp,    url_prefix="/it/verb")
+app.register_blueprint(es_verb_bp,    url_prefix="/es/verb")
+app.register_blueprint(nl_verb_bp,    url_prefix="/nl/verb")
 
 with app.app_context():
     db.create_all()

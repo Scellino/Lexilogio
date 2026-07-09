@@ -157,9 +157,9 @@ def make_verb_blueprint(lang):
                 1 for ti in range(len(tenses)) for pi in range(len(persons))
                 if len(progress.get(f"{inf}|{ti}|{pi}", [])) >= 3
             )
-            entry = conj[inf]
-        grp = entry.get("group", "") if isinstance(entry, dict) else ""
-        result.append({"verb": inf, "done": done, "total": total, "group": grp})
+            e = conj[inf]
+            grp = e.get("group", "") if isinstance(e, dict) else ""
+            result.append({"verb": inf, "done": done, "total": total, "group": grp})
         return jsonify(result)
 
     @bp.route("/api/verb/<path:inf>")

@@ -376,6 +376,8 @@ function toggleSelect(inf) {{
   if (selected.has(inf)) selected.delete(inf); else selected.add(inf);
   render();
 }}
+function toggleSelectI(i) {{ toggleSelect(verbList[i].verb); }}
+function viewVerbI(i)      {{ viewVerb(verbList[i].verb); }}
 function selectAllVisible() {{ _lastFiltered.forEach(v => selected.add(v.verb)); render(); }}
 function clearSelected()    {{ selected.clear(); render(); }}
 function viewVerb(inf) {{
@@ -417,13 +419,13 @@ function dotStatus(v) {{
 function renderVerbRow(v) {{
   const isSel = selected.has(v.verb);
   const dot   = dotStatus(v);
-  const safeInf = v.verb.replace(/\\/g, '\\\\').replace(/'/g, "\\'");
-  return `<div class="verb-row${{isSel?' sel':''}}" onclick="toggleSelect('${{safeInf}}')">
-    <input type="checkbox" ${{isSel?'checked':''}} onclick="event.stopPropagation()" onchange="toggleSelect('${{safeInf}}')">
+  const i     = v._i;
+  return `<div class="verb-row${{isSel?' sel':''}}" onclick="toggleSelectI(${{i}})">
+    <input type="checkbox" ${{isSel?'checked':''}} onclick="event.stopPropagation()" onchange="toggleSelectI(${{i}})">
     <span class="vname">${{v.verb}}</span>
     <span class="vtran">${{v.translation||''}}</span>
     ${{dot ? `<span class="vdot ${{dot}}"></span>` : '<span class="vdot"></span>'}}
-    <button class="btn-ghost" onclick="event.stopPropagation();viewVerb('${{safeInf}}')">Study →</button>
+    <button class="btn-ghost" onclick="event.stopPropagation();viewVerbI(${{i}})">Study →</button>
   </div>`;
 }}
 
@@ -715,7 +717,7 @@ function submitQuiz() {{
     render();
     // refresh verb list progress
     api('/api/verb_list').then(l => {{
-      verbList = l;
+      verbList = stampIndices(l);
       if (verbData && verbData.verb === item.inf) loadVerbData(item.inf);
     }});
   }});
@@ -738,8 +740,10 @@ function restartQuiz() {{
 }}
 
 // ── Init ──────────────────────────────────────────────────────────────────────
+function stampIndices(list) {{ list.forEach((v, i) => v._i = i); return list; }}
+
 api('/api/verb_list').then(l => {{
-  verbList = l;
+  verbList = stampIndices(l);
   api('/api/progress').then(p => {{
     progress = p;
     render();

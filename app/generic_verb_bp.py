@@ -260,7 +260,8 @@ body{{background:#0f0f1a;font-family:Georgia,serif;color:#fff;min-height:100vh}}
 #app{{padding:18px 14px 60px;display:flex;flex-direction:column;align-items:center}}
 .content{{width:100%;max-width:560px}}
 .empty-msg{{color:rgba(255,255,255,.3);text-align:center;padding:60px 0;font-family:sans-serif;font-size:13px;line-height:1.7}}
-.card{{background:linear-gradient(145deg,#1a1a2e 0%,#16213e 100%);border-radius:16px;padding:20px;margin-bottom:12px;border:1px solid rgba(255,255,255,.07);cursor:pointer;transition:border-color .15s}}
+.card{{background:linear-gradient(145deg,#1a1a2e 0%,#16213e 100%);border-radius:16px;padding:20px;margin-bottom:12px;border:1px solid rgba(255,255,255,.07);transition:border-color .15s}}
+.card.clickable{{cursor:pointer}}
 .card:hover{{border-color:rgba(201,169,110,.3)}}
 .card.active{{border-color:#c9a96e}}
 .card-head{{display:flex;justify-content:space-between;align-items:center}}
@@ -289,13 +290,41 @@ input[type=text]:focus{{border-color:#c9a96e}}
 .conj-table tr:last-child td{{border-bottom:none}}
 .tense-block{{margin-bottom:16px;background:rgba(255,255,255,.03);border-radius:12px;padding:14px;border:1px solid rgba(255,255,255,.06)}}
 .tense-name{{font-size:11px;color:#c9a96e;text-transform:uppercase;letter-spacing:1.5px;font-family:sans-serif;font-weight:700;margin-bottom:8px}}
-.quiz-panel{{background:linear-gradient(145deg,#1a1a2e,#16213e);border-radius:16px;padding:22px;border:1px solid rgba(255,255,255,.07)}}
-.quiz-prompt{{font-size:22px;text-align:center;margin-bottom:6px}}
-.quiz-sub{{font-size:13px;color:rgba(255,255,255,.4);text-align:center;font-family:sans-serif;margin-bottom:20px}}
-.result-correct{{color:#4caf50;font-family:sans-serif;font-size:14px;text-align:center;margin-top:8px}}
-.result-close{{color:#ff9800;font-family:sans-serif;font-size:14px;text-align:center;margin-top:8px}}
-.result-wrong{{color:#f44336;font-family:sans-serif;font-size:14px;text-align:center;margin-top:8px}}
-.correct-show{{font-size:15px;text-align:center;color:#c9a96e;margin-top:4px}}
+.quiz-meta{{font-size:10px;color:rgba(255,255,255,.25);font-family:sans-serif;margin-bottom:18px;text-transform:uppercase;letter-spacing:1px}}
+.quiz-verb{{font-family:Georgia,serif;font-size:34px;color:#e8c98a;margin-bottom:6px;line-height:1.15}}
+.quiz-en{{font-size:13px;color:rgba(255,255,255,.3);font-style:italic;font-family:sans-serif;margin-bottom:20px}}
+.quiz-tense{{font-size:11px;color:rgba(201,169,110,.75);font-family:sans-serif;margin-bottom:5px;text-transform:uppercase;letter-spacing:.5px}}
+.quiz-person{{font-size:16px;color:#fff;font-family:Georgia,serif;margin-bottom:18px}}
+.quiz-input{{width:100%;padding:13px 14px;border-radius:10px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.15);color:#fff;font-size:19px;outline:none;margin-bottom:12px;font-family:Georgia,serif;box-sizing:border-box}}
+.quiz-input:focus{{border-color:#c9a96e}}
+.feedback{{border-radius:12px;padding:14px 16px;margin-bottom:14px}}
+.feedback.correct{{background:rgba(122,196,154,.1);border:1px solid #7ac49a}}
+.feedback.accent,.feedback.close{{background:rgba(230,180,80,.08);border:1px solid #e6b450}}
+.feedback.wrong{{background:rgba(212,122,143,.1);border:1px solid #d47a8f}}
+.feedback-verdict{{font-size:13px;font-weight:700;font-family:sans-serif;margin-bottom:5px}}
+.feedback.correct .feedback-verdict{{color:#7ac49a}}
+.feedback.accent .feedback-verdict,.feedback.close .feedback-verdict{{color:#e6b450}}
+.feedback.wrong .feedback-verdict{{color:#d47a8f}}
+.feedback-form{{font-size:16px;color:#f0ebe0;font-family:Georgia,serif;margin-top:6px}}
+.score-big{{font-size:54px;font-weight:700;font-family:Georgia,serif;text-align:center;color:#e8c98a;margin-bottom:4px}}
+.score-sub{{font-size:13px;color:rgba(255,255,255,.35);font-family:sans-serif;text-align:center;margin-bottom:20px}}
+.result-row{{display:flex;align-items:center;gap:8px;background:rgba(255,255,255,.03);border-radius:10px;padding:8px 12px;margin-bottom:5px}}
+.result-icon{{font-size:13px;min-width:16px;font-family:sans-serif;flex-shrink:0}}
+.result-verb{{font-family:Georgia,serif;font-size:14px;color:#e8c98a;min-width:110px;flex-shrink:0}}
+.result-tense{{font-size:11px;color:rgba(255,255,255,.28);font-family:sans-serif;min-width:90px;flex-shrink:0}}
+.result-person{{font-size:11px;color:rgba(255,255,255,.28);font-family:sans-serif;min-width:60px;flex-shrink:0}}
+.result-guess{{font-family:Georgia,serif;font-size:13px;flex:1}}
+.result-guess.correct{{color:#7ac49a}}
+.result-guess.accent,.result-guess.close{{color:#e6b450}}
+.result-guess.wrong{{color:#d47a8f}}
+.result-guess.skip{{color:rgba(255,255,255,.25)}}
+.mini-table-wrap{{margin-top:22px;border-top:1px solid rgba(255,255,255,.07);padding-top:18px}}
+.mini-label{{font-size:10px;color:rgba(201,169,110,.6);text-transform:uppercase;letter-spacing:1.5px;font-family:sans-serif;font-weight:700;margin-bottom:12px}}
+.setup-tense-overview{{display:flex;flex-wrap:wrap;gap:4px;margin-top:8px}}
+.tov-chip{{background:rgba(201,169,110,.12);border:1px solid rgba(201,169,110,.3);border-radius:10px;padding:4px 10px;font-size:11px;color:#c9a96e;font-family:sans-serif}}
+.setup-summary{{text-align:center;padding:14px;background:rgba(255,255,255,.03);border-radius:10px;margin-top:6px;font-family:sans-serif}}
+.setup-summary-big{{font-family:Georgia,serif;font-size:26px;color:#e8c98a}}
+.setup-summary-sub{{font-size:11px;color:rgba(255,255,255,.3);margin-top:3px}}
 .prog-wrap{{height:2px;background:rgba(255,255,255,.08);border-radius:2px;margin-bottom:22px;overflow:hidden;width:100%;max-width:560px}}
 .prog-bar{{height:100%;background:#c9a96e;border-radius:2px;transition:width .3s}}
 .btn-row{{display:flex;gap:8px;margin-top:12px;flex-wrap:wrap}}
@@ -343,13 +372,25 @@ let verbList   = [];
 let progress   = {{}};
 let activeVerb = null;
 let verbData   = null;
-let quizState  = null;
 let searchQ     = '';
 let activeTense = null;
 let browseMode  = 'alpha';
 let selected    = new Set();
-let expandedGroups = {{}};  // model → 'all' | 'hidden' | undefined (= show 3)
+let expandedGroups = {{}};
 let _lastFiltered = [];
+
+// ── Quiz state ────────────────────────────────────────────────────────────────
+const DEFAULT_QUIZ_TENSES = TENSES.slice(0, 3);
+let quizPhase        = 'setup';
+let quizTenses       = new Set(DEFAULT_QUIZ_TENSES);
+let quizType         = 'standard';
+let quizPersons      = 'all';
+let quizRandom       = false;
+let quizCount        = 20;
+let quizSession      = {{ questions: [], idx: 0, results: [] }};
+let quizFeedback     = null;
+let quizTableSession = {{ pairs: [], idx: 0, results: [] }};
+let quizTableFeedback = null;
 
 function api(path, opts) {{
   return fetch('/' + LANG + '/verb' + path, opts).then(r => r.json());
@@ -360,15 +401,31 @@ function switchTab(t) {{
   document.querySelectorAll('.nav-tab').forEach((el, i) => {{
     el.classList.toggle('active', ['browse','study','quiz'][i] === t);
   }});
+  if (t === 'quiz') quizPhase = 'setup';
   render();
 }}
 
 function render() {{
   const el = document.getElementById('content');
-  if (tab === 'browse') el.innerHTML = renderBrowse();
-  else if (tab === 'study') el.innerHTML = renderStudy();
-  else el.innerHTML = renderQuiz();
+  el.innerHTML = '';
+  if (tab === 'browse') {{ el.innerHTML = renderBrowse(); }}
+  else if (tab === 'study') {{ el.innerHTML = renderStudy(); }}
+  else {{
+    const node = renderQuizPane();
+    if (node) el.appendChild(node);
+  }}
   attachBrowseHandlers();
+}}
+
+function renderQuizPane() {{
+  if (quizPhase === 'setup')           return renderSetup();
+  if (quizPhase === 'quiz')            return renderQuizQ();
+  if (quizPhase === 'feedback')        return renderFeedback();
+  if (quizPhase === 'results')         return renderResults();
+  if (quizPhase === 'table-quiz')      return renderTableQuiz();
+  if (quizPhase === 'table-feedback')  return renderTableFeedback();
+  if (quizPhase === 'table-results')   return renderTableResults();
+  return mkdiv('');
 }}
 
 // ── Browse helpers ────────────────────────────────────────────────────────────
@@ -391,23 +448,24 @@ function collapseGroup(model) {{
 }}
 function showAllGroup(model) {{ expandedGroups[model] = 'all'; render(); }}
 
+function mkdiv(cls, text) {{
+  const e = document.createElement('div');
+  if (cls) e.className = cls;
+  if (text !== undefined) e.textContent = text;
+  return e;
+}}
+function mkel(tag, attrs, text) {{
+  const e = document.createElement(tag);
+  if (attrs) Object.assign(e, attrs);
+  if (text !== undefined) e.textContent = text;
+  return e;
+}}
+
 function startQuizSelected() {{
-  const infs = [...selected];
-  if (!infs.length) return;
-  Promise.all(infs.map(inf => api('/api/verb/' + encodeURIComponent(inf)))).then(datas => {{
-    const pairs = [];
-    datas.forEach(data => {{
-      if (!data.tenses) return;
-      data.tenses.forEach((t, ti) => t.cells.forEach((c, pi) => {{
-        if (c.form) pairs.push({{inf: data.verb, ti, pi, tense: t.tense, person: c.person, form: c.form}});
-      }}));
-    }});
-    if (!pairs.length) return;
-    quizState = {{ items: pairs.sort(() => Math.random() - 0.5), idx: 0, result: null }};
-    tab = 'quiz';
-    document.querySelectorAll('.nav-tab').forEach((el, i) => el.classList.toggle('active', i === 2));
-    render();
-  }});
+  quizPhase = 'setup';
+  tab = 'quiz';
+  document.querySelectorAll('.nav-tab').forEach((el, i) => el.classList.toggle('active', i === 2));
+  render();
 }}
 
 function dotStatus(v) {{
@@ -620,123 +678,577 @@ function renderStudy() {{
     return `<div class="tense-block${{isActive?' active':''}}">
       <div class="tense-name" style="cursor:pointer" onclick="activeTense=${{isActive?'null':ti}};render()">${{t.tense}}</div>
       <table class="conj-table"><tbody>${{rows}}</tbody></table>
-      <button class="btn-secondary" style="margin-top:10px;width:100%" onclick="startQuiz('${{activeVerb}}',${{ti}})">Quiz this tense</button>
     </div>`;
   }}).join('');
   return `
     <div class="btn-row" style="margin-bottom:14px">
       <button class="btn-secondary" onclick="activeVerb=null;verbData=null;render()">← All verbs</button>
-      <button class="btn-secondary" onclick="startQuiz('${{activeVerb}}',null)">Quiz all tenses</button>
+      <button class="btn-secondary" onclick="selected.clear();selected.add('${{activeVerb}}');switchTab('quiz')">Quiz →</button>
     </div>
     <div class="sec-label">${{activeVerb}}</div>
     ${{blocks}}
   `;
 }}
 
-// ── Quiz ──────────────────────────────────────────────────────────────────────
-function startQuiz(inf, tenseIdx) {{
-  if (!inf) return;
-  const load = verbData && verbData.verb === inf ? Promise.resolve() : loadVerbData(inf);
-  load.then(() => {{
-    const pairs = [];
-    verbData.tenses.forEach((t, ti) => {{
-      if (tenseIdx !== null && ti !== tenseIdx) return;
-      t.cells.forEach((c, pi) => {{
-        if (c.form) pairs.push({{inf, ti, pi, tense: t.tense, person: c.person, form: c.form}});
+// ── Quiz setup ────────────────────────────────────────────────────────────────
+function renderSetup() {{
+  const wrap = mkdiv('');
+
+  const c1 = mkdiv('card');
+  c1.appendChild(mkdiv('sec-label', 'Verbs'));
+  const totalVerbs = verbList.length;
+  const usingAll = selected.size === 0;
+  const verbCount = usingAll ? totalVerbs : selected.size;
+  const vInfo = mkdiv('');
+  vInfo.innerHTML = '<span style="font-family:Georgia,serif;font-size:20px;color:#e8c98a">' + verbCount + '</span>'
+    + '<span style="font-size:13px;color:rgba(255,255,255,.4);font-family:sans-serif"> verb' + (verbCount !== 1 ? 's' : '')
+    + (usingAll ? ' <span style="color:rgba(201,169,110,.5)">(all)</span>' : '') + '</span>'
+    + ' <a style="font-size:12px;color:#c9a96e;cursor:pointer;font-family:sans-serif;text-decoration:underline" onclick="switchTab(\'browse\')">browse</a>';
+  if (!usingAll) {{
+    vInfo.innerHTML += ' <a style="font-size:12px;color:rgba(255,255,255,.3);cursor:pointer;font-family:sans-serif;text-decoration:underline" onclick="selected.clear();render()">unselect all</a>';
+  }}
+  c1.appendChild(vInfo);
+  wrap.appendChild(c1);
+
+  const c2 = mkdiv('card');
+  c2.appendChild(mkdiv('sec-label', 'Tenses to practise'));
+  const chips = mkdiv('');
+  chips.style.cssText = 'display:flex;flex-wrap:wrap;gap:3px;margin-bottom:10px';
+  for (const t of TENSES) {{
+    const chip = mkel('button', {{className: 'pill' + (quizTenses.has(t) ? ' on' : '')}}, t);
+    chip.onclick = () => {{ quizTenses.has(t) ? quizTenses.delete(t) : quizTenses.add(t); render(); }};
+    chips.appendChild(chip);
+  }}
+  c2.appendChild(chips);
+  const qr = mkdiv('');
+  qr.style.cssText = 'display:flex;gap:8px;margin-top:4px';
+  [['All', () => {{ TENSES.forEach(t => quizTenses.add(t)); render(); }}],
+   ['None', () => {{ quizTenses.clear(); render(); }}]].forEach(([lbl, act]) => {{
+    const b = mkel('button', {{className:'btn-ghost'}}, lbl);
+    b.onclick = act; qr.appendChild(b);
+  }});
+  c2.appendChild(qr);
+  wrap.appendChild(c2);
+
+  const cMode = mkdiv('card');
+  cMode.appendChild(mkdiv('sec-label', 'Quiz mode'));
+  const modeRow = mkdiv('');
+  modeRow.style.cssText = 'display:flex;gap:8px;margin-top:6px';
+  [['standard','Standard'],['table','Table']].forEach(([val, lbl]) => {{
+    const b = mkel('button', {{className: quizType === val ? 'btn-primary' : 'btn-ghost'}}, lbl);
+    b.style.flex = '1';
+    b.onclick = () => {{ quizType = val; render(); }};
+    modeRow.appendChild(b);
+  }});
+  cMode.appendChild(modeRow);
+  const modeDesc = mkdiv('');
+  modeDesc.style.cssText = 'font-size:12px;color:rgba(255,255,255,.3);margin-top:8px;font-family:sans-serif';
+  modeDesc.textContent = quizType === 'table'
+    ? 'Fill in all conjugations for each verb/tense at once.'
+    : 'One conjugation prompt at a time, in random order.';
+  cMode.appendChild(modeDesc);
+
+  const cCount = mkdiv('card');
+  cCount.appendChild(mkdiv('sec-label', 'Questions'));
+  const countRow = mkdiv('');
+  countRow.style.cssText = 'display:flex;gap:6px;margin-top:6px;flex-wrap:wrap';
+  const allBtn = mkel('button', {{className: !quizRandom ? 'btn-primary' : 'btn-ghost'}}, 'All');
+  allBtn.style.flex = '1';
+  allBtn.onclick = () => {{ quizRandom = false; render(); }};
+  countRow.appendChild(allBtn);
+  [10, 20, 30, 50, 100].forEach(n => {{
+    const b = mkel('button', {{className: quizRandom && quizCount === n ? 'btn-primary' : 'btn-ghost'}}, String(n));
+    b.style.flex = '1';
+    b.onclick = () => {{ quizRandom = true; quizCount = n; render(); }};
+    countRow.appendChild(b);
+  }});
+  cCount.appendChild(countRow);
+  cMode.appendChild(cCount);
+  wrap.appendChild(cMode);
+
+  const cPersons = mkdiv('card');
+  cPersons.appendChild(mkdiv('sec-label', 'Persons'));
+  const persRow = mkdiv('');
+  persRow.style.cssText = 'display:flex;gap:8px;margin-top:6px';
+  [['all','All'],['singular','Singular'],['plural','Plural']].forEach(([val, lbl]) => {{
+    const b = mkel('button', {{className: quizPersons === val ? 'btn-primary' : 'btn-ghost'}}, lbl);
+    b.style.flex = '1';
+    b.onclick = () => {{ quizPersons = val; render(); }};
+    persRow.appendChild(b);
+  }});
+  cPersons.appendChild(persRow);
+  wrap.appendChild(cPersons);
+
+  const c4 = mkdiv('card');
+  c4.appendChild(mkdiv('sec-label', 'Session overview'));
+  const tenseList = TENSES.filter(t => quizTenses.has(t));
+  if (tenseList.length === 0) {{
+    const msg = mkdiv('');
+    msg.innerHTML = '<span style="font-size:13px;color:rgba(255,255,255,.3);font-family:sans-serif">No tenses selected.</span>';
+    c4.appendChild(msg);
+  }} else {{
+    const overview = mkdiv('setup-tense-overview');
+    tenseList.forEach(t => overview.appendChild(mkdiv('tov-chip', t)));
+    c4.appendChild(overview);
+    const isTable = quizType === 'table';
+    const personsMult = quizPersons === 'all' ? 6 : 3;
+    const personsLabel = quizPersons === 'all' ? '6 persons' : quizPersons === 'singular' ? '3 singular' : '3 plural';
+    const rawCount = isTable ? verbCount * tenseList.length : verbCount * tenseList.length * personsMult;
+    const count = quizRandom ? Math.min(quizCount, rawCount) : rawCount;
+    const unit = isTable ? 'table' : 'question';
+    const vStr = verbCount + ' verb' + (verbCount !== 1 ? 's' : '');
+    const tStr = tenseList.length + ' tense' + (tenseList.length !== 1 ? 's' : '');
+    const formula = isTable ? vStr + ' \xd7 ' + tStr : vStr + ' \xd7 ' + tStr + ' \xd7 ' + personsLabel;
+    const summ = mkdiv('setup-summary');
+    summ.innerHTML = '<div class="setup-summary-big">' + (quizRandom && count < rawCount ? '' : '∼') + count + '</div>'
+      + '<div class="setup-summary-sub">' + (quizRandom ? 'random ' + unit + 's from ' : '') + formula + '</div>';
+    c4.appendChild(summ);
+  }}
+  wrap.appendChild(c4);
+
+  const startBtn = mkel('button', {{className:'btn-primary'}},
+    quizTenses.size ? 'Start Quiz' : 'Select at least one tense');
+  startBtn.disabled = !quizTenses.size;
+  startBtn.onclick = startQuiz;
+  wrap.appendChild(startBtn);
+  return wrap;
+}}
+
+// ── Build questions ────────────────────────────────────────────────────────────
+async function startQuiz() {{
+  if (quizType === 'table') {{ await startTableQuiz(); return; }}
+  const infs = selected.size > 0 ? [...selected] : verbList.map(v => v.verb);
+  const translationMap = {{}};
+  verbList.forEach(v => {{ translationMap[v.verb] = v.translation || ''; }});
+  const verbDataArr = await Promise.all(infs.map(inf => api('/api/verb/' + encodeURIComponent(inf))));
+  const questions = [];
+  for (const vd of verbDataArr) {{
+    if (!vd || !vd.tenses) continue;
+    const tra = translationMap[vd.verb] || '';
+    vd.tenses.forEach((td, ti) => {{
+      if (!quizTenses.has(td.tense)) return;
+      const maxIdx = td.cells.length;
+      const personRange = quizPersons === 'singular' ? [0,1,2].filter(i => i < maxIdx)
+                        : quizPersons === 'plural'   ? [3,4,5].filter(i => i < maxIdx)
+                        : [...Array(maxIdx).keys()];
+      for (const pi of personRange) {{
+        const cell = td.cells[pi];
+        if (!cell || !cell.form) continue;
+        questions.push({{
+          inf: vd.verb, translation: tra, tense: td.tense,
+          tenseIdx: ti, personIdx: pi, person: cell.person, answer: cell.form,
+        }});
+      }}
+    }});
+  }}
+  questions.sort(() => Math.random() - 0.5);
+  const finalQ = quizRandom ? questions.slice(0, quizCount) : questions;
+  quizSession = {{ questions: finalQ, idx: 0, results: [] }};
+  quizPhase = 'quiz';
+  render();
+}}
+
+async function startTableQuiz() {{
+  const infs = selected.size > 0 ? [...selected] : verbList.map(v => v.verb);
+  const translationMap = {{}};
+  verbList.forEach(v => {{ translationMap[v.verb] = v.translation || ''; }});
+  const verbDataArr = await Promise.all(infs.map(inf => api('/api/verb/' + encodeURIComponent(inf))));
+  const pairs = [];
+  for (const vd of verbDataArr) {{
+    if (!vd || !vd.tenses) continue;
+    const tra = translationMap[vd.verb] || '';
+    vd.tenses.forEach((td, ti) => {{
+      if (!quizTenses.has(td.tense)) return;
+      if (!td.cells.some(c => c.form)) return;
+      pairs.push({{ inf: vd.verb, translation: tra, tense: td.tense, tenseIdx: ti, cells: td.cells }});
+    }});
+  }}
+  pairs.sort(() => Math.random() - 0.5);
+  const finalPairs = quizRandom ? pairs.slice(0, quizCount) : pairs;
+  quizTableSession = {{ pairs: finalPairs, idx: 0, results: [] }};
+  quizPhase = 'table-quiz';
+  render();
+}}
+
+// ── Standard quiz question ─────────────────────────────────────────────────────
+function renderQuizQ() {{
+  const {{ questions, idx }} = quizSession;
+  if (!questions.length) {{ quizPhase = 'setup'; render(); return mkdiv(''); }}
+  const q = questions[idx];
+  const wrap = mkdiv('');
+
+  const progBar = mkdiv('prog-bar');
+  progBar.style.width = Math.round(idx / questions.length * 100) + '%';
+  const progWrap = mkdiv('prog-wrap');
+  progWrap.appendChild(progBar);
+  wrap.appendChild(progWrap);
+
+  const card = mkdiv('card');
+  card.appendChild(mkdiv('quiz-meta', (idx+1) + ' / ' + questions.length));
+  card.appendChild(mkdiv('quiz-verb', q.inf));
+  if (q.translation) card.appendChild(mkdiv('quiz-en', q.translation));
+  card.appendChild(mkdiv('quiz-tense', q.tense));
+  card.appendChild(mkdiv('quiz-person', q.person + ' →'));
+
+  const inp = mkel('input', {{type:'text', className:'quiz-input', placeholder:'type the conjugation…'}});
+  inp.setAttribute('autocorrect','off'); inp.setAttribute('autocapitalize','none');
+  inp.setAttribute('autocomplete','off'); inp.spellcheck = false;
+  setTimeout(() => inp.focus(), 0);
+  card.appendChild(inp);
+
+  const br = mkdiv('');
+  br.style.cssText = 'display:flex;gap:8px;margin-top:0;flex-wrap:wrap';
+  const checkBtn = mkel('button', {{className:'btn-primary'}}, 'Check');
+  checkBtn.style.flex = '1';
+  const skipBtn = mkel('button', {{className:'btn-secondary'}}, 'Skip');
+  const endBtn = mkel('button', {{className:'btn-ghost'}}, 'End');
+
+  async function submitQ() {{
+    const guess = inp.value.trim();
+    if (!guess) return;
+    const res = await api('/api/check', {{
+      method: 'POST', headers: {{'Content-Type':'application/json'}},
+      body: JSON.stringify({{verb: q.inf, tense_idx: q.tenseIdx, person_idx: q.personIdx, guess, correct: q.answer}})
+    }});
+    quizSession.results.push({{...q, guess, result: res.result}});
+    quizFeedback = {{q, guess, result: res.result}};
+    quizPhase = 'feedback';
+    render();
+  }}
+
+  checkBtn.onclick = submitQ;
+  skipBtn.onclick = () => {{ quizSession.results.push({{...q, guess:'', result:'skip'}}); advanceQuiz(); }};
+  endBtn.onclick = () => {{ quizPhase = 'results'; render(); }};
+  inp.onkeydown = e => {{ if (e.key === 'Enter') {{ e.preventDefault(); submitQ(); }} }};
+  br.appendChild(checkBtn); br.appendChild(skipBtn); br.appendChild(endBtn);
+  card.appendChild(br);
+  wrap.appendChild(card);
+  return wrap;
+}}
+
+// ── Feedback ───────────────────────────────────────────────────────────────────
+function renderFeedback() {{
+  const {{ q, guess, result }} = quizFeedback;
+  const wrap = mkdiv('');
+
+  const progBar = mkdiv('prog-bar');
+  progBar.style.width = Math.round((quizSession.idx+1) / quizSession.questions.length * 100) + '%';
+  const progWrap = mkdiv('prog-wrap');
+  progWrap.appendChild(progBar);
+  wrap.appendChild(progWrap);
+
+  const card = mkdiv('card');
+  card.appendChild(mkdiv('quiz-meta', (quizSession.idx+1) + ' / ' + quizSession.questions.length));
+  card.appendChild(mkdiv('quiz-verb', q.inf));
+  if (q.translation) card.appendChild(mkdiv('quiz-en', q.translation));
+  card.appendChild(mkdiv('quiz-tense', q.tense));
+  card.appendChild(mkdiv('quiz-person', q.person + ' →'));
+
+  const msgs = {{correct:'✓ Correct!', accent:'⟳ Right word — check accent', close:'≈ Almost there', wrong:'✗ Wrong'}};
+  const fb = mkdiv('feedback ' + result);
+  fb.appendChild(mkdiv('feedback-verdict', msgs[result] || ''));
+  if (result !== 'correct') {{
+    const ff = mkdiv('feedback-form');
+    ff.textContent = '→ ' + q.answer;
+    fb.appendChild(ff);
+  }}
+  card.appendChild(fb);
+
+  const br = mkdiv('');
+  br.style.cssText = 'display:flex;gap:8px;flex-wrap:wrap';
+  const nextBtn = mkel('button', {{className:'btn-primary'}}, 'Next →');
+  nextBtn.style.flex = '1';
+  nextBtn.onclick = advanceQuiz;
+  const endBtn = mkel('button', {{className:'btn-ghost'}}, 'End session');
+  endBtn.onclick = () => {{ quizPhase = 'results'; render(); }};
+  br.appendChild(nextBtn); br.appendChild(endBtn);
+  card.appendChild(br);
+  wrap.appendChild(card);
+
+  if (verbData && verbData.verb === q.inf) {{
+    const tw = mkdiv('mini-table-wrap');
+    tw.appendChild(mkdiv('mini-label', 'Full conjugation'));
+    const tbl = document.createElement('table');
+    tbl.className = 'conj-table';
+    const tbody = document.createElement('tbody');
+    verbData.tenses.forEach(td => {{
+      if (td.tense !== q.tense) return;
+      td.cells.forEach(c => {{
+        const tr = document.createElement('tr');
+        const td1 = document.createElement('td'); td1.textContent = c.person;
+        const td2 = document.createElement('td');
+        td2.textContent = c.form || '—';
+        if (c.person === q.person) td2.style.color = '#e8c98a';
+        tr.appendChild(td1); tr.appendChild(td2); tbody.appendChild(tr);
       }});
     }});
-    if (!pairs.length) return;
-    quizState = {{
-      items: pairs.sort(() => Math.random() - 0.5),
-      idx: 0,
-      result: null,
-      revealed: false,
-    }};
-    tab = 'quiz';
-    document.querySelectorAll('.nav-tab').forEach((el, i) => el.classList.toggle('active', i === 2));
-    render();
-  }});
-}}
-
-function renderQuiz() {{
-  if (!verbList.length) return `<div class="empty-msg">No verbs loaded yet.</div>`;
-  if (!quizState) return `
-    <div class="empty-msg">Choose a verb in Study tab<br>and click "Quiz this tense".</div>
-  `;
-  const qs = quizState;
-  if (qs.idx >= qs.items.length) {{
-    const correct = qs.items.filter((_, i) => qs.results && qs.results[i]).length;
-    return `
-      <div class="quiz-panel">
-        <div class="quiz-prompt">Done!</div>
-        <div class="quiz-sub">${{correct}}/${{qs.items.length}} correct</div>
-        <button class="btn-primary" onclick="quizState=null;tab='study';render()">Back to Study</button>
-        <button class="btn-primary" style="margin-top:8px" onclick="restartQuiz()">Retry</button>
-      </div>
-    `;
+    tbl.appendChild(tbody);
+    tw.appendChild(tbl);
+    wrap.appendChild(tw);
   }}
-  const item = qs.items[qs.idx];
-  const resultEl = qs.result
-    ? (qs.result === 'correct'
-        ? `<div class="result-correct">✓ Correct</div>`
-        : qs.result === 'close'
-          ? `<div class="result-close">Almost! <span class="correct-show">${{item.form}}</span></div>`
-          : `<div class="result-wrong">✗ <span class="correct-show">${{item.form}}</span></div>`)
-    : '';
-  const pct = Math.round(100 * qs.idx / qs.items.length);
-  document.getElementById('prog-bar').style.width = pct + '%';
-  return `
-    <div class="quiz-panel">
-      <div class="quiz-sub" style="margin-bottom:4px">${{item.tense}}</div>
-      <div class="quiz-prompt">${{item.person}} — ${{item.inf}}</div>
-      <div class="quiz-sub">${{qs.idx + 1}} / ${{qs.items.length}}</div>
-      <input type="text" id="quiz-inp" placeholder="Type the form…" onkeydown="if(event.key==='Enter')submitQuiz()"
-             ${{qs.result ? 'disabled' : ''}}>
-      ${{resultEl}}
-      ${{qs.result
-        ? `<button class="btn-primary" onclick="nextQuestion()">Next</button>`
-        : `<button class="btn-primary" onclick="submitQuiz()">Check</button>`
-      }}
-    </div>
-  `;
+
+  const handler = e => {{
+    if (e.key === 'Enter') {{ e.preventDefault(); document.removeEventListener('keydown', handler); advanceQuiz(); }}
+  }};
+  document.addEventListener('keydown', handler);
+  return wrap;
 }}
 
-function submitQuiz() {{
-  if (!quizState || quizState.result) return;
-  const guess = (document.getElementById('quiz-inp')?.value || '').trim();
-  if (!guess) return;
-  const item = quizState.items[quizState.idx];
-  api('/api/check', {{
-    method: 'POST',
-    headers: {{'Content-Type':'application/json'}},
-    body: JSON.stringify({{verb: item.inf, tense_idx: item.ti, person_idx: item.pi, guess, correct: item.form}}),
-  }}).then(d => {{
-    if (!quizState.results) quizState.results = {{}};
-    quizState.results[quizState.idx] = d.result === 'correct';
-    quizState.result = d.result;
+function advanceQuiz() {{
+  quizSession.idx++;
+  const done = quizSession.idx >= quizSession.questions.length;
+  quizPhase = done ? 'results' : 'quiz';
+  if (done) api('/api/verb_list').then(l => {{ verbList = stampIndices(l); }});
+  render();
+}}
+
+// ── Results ────────────────────────────────────────────────────────────────────
+function renderResults() {{
+  const {{ results }} = quizSession;
+  const wrap = mkdiv('');
+  const total   = results.length;
+  const correct = results.filter(r => r.result === 'correct').length;
+  const close   = results.filter(r => ['accent','close'].includes(r.result)).length;
+  const wrong   = results.filter(r => r.result === 'wrong').length;
+  const skipped = total - correct - close - wrong;
+
+  wrap.appendChild(mkdiv('score-big', correct + '/' + total));
+  wrap.appendChild(mkdiv('score-sub', correct + ' correct \xb7 ' + close + ' close \xb7 ' + wrong + ' wrong \xb7 ' + skipped + ' skipped'));
+
+  const icons = {{correct:'✓', accent:'⟳', close:'≈', wrong:'✗', skip:'–'}};
+  for (const r of results) {{
+    const row = mkdiv('result-row');
+    row.appendChild(mkdiv('result-icon', icons[r.result] || '?'));
+    row.appendChild(mkdiv('result-verb', r.inf));
+    row.appendChild(mkdiv('result-tense', r.tense));
+    row.appendChild(mkdiv('result-person', r.person));
+    const g = mkdiv('result-guess ' + r.result, r.guess || '(skipped)');
+    if (r.result !== 'correct' && r.result !== 'skip') g.title = 'Correct: ' + r.answer;
+    row.appendChild(g);
+    wrap.appendChild(row);
+  }}
+
+  const br = mkdiv('');
+  br.style.cssText = 'display:flex;gap:8px;margin-top:12px;flex-wrap:wrap';
+  const retryBtn = mkel('button', {{className:'btn-primary'}}, 'New Quiz →');
+  retryBtn.style.flex = '1';
+  retryBtn.onclick = () => {{ quizPhase = 'setup'; render(); }};
+  const browseBtn = mkel('button', {{className:'btn-secondary'}}, 'Browse verbs');
+  browseBtn.onclick = () => {{ switchTab('browse'); }};
+  br.appendChild(retryBtn); br.appendChild(browseBtn);
+  wrap.appendChild(br);
+  return wrap;
+}}
+
+// ── Table quiz ─────────────────────────────────────────────────────────────────
+function renderTableQuiz() {{
+  const {{ pairs, idx }} = quizTableSession;
+  if (!pairs.length) {{ quizPhase = 'setup'; render(); return mkdiv(''); }}
+  const q = pairs[idx];
+  const wrap = mkdiv('');
+
+  const progBar = mkdiv('prog-bar');
+  progBar.style.width = Math.round(idx / pairs.length * 100) + '%';
+  const progWrap = mkdiv('prog-wrap');
+  progWrap.appendChild(progBar);
+  wrap.appendChild(progWrap);
+
+  const card = mkdiv('card');
+  card.appendChild(mkdiv('quiz-meta', (idx+1) + ' / ' + pairs.length));
+  card.appendChild(mkdiv('quiz-verb', q.inf));
+  if (q.translation) card.appendChild(mkdiv('quiz-en', q.translation));
+  card.appendChild(mkdiv('quiz-tense', q.tense));
+
+  const maxIdx = q.cells.length;
+  const personRange = quizPersons === 'singular' ? [0,1,2].filter(i => i < maxIdx)
+                    : quizPersons === 'plural'   ? [3,4,5].filter(i => i < maxIdx)
+                    : [...Array(maxIdx).keys()];
+  const grid = mkdiv('');
+  grid.style.cssText = 'display:grid;grid-template-columns:auto 1fr;gap:8px 12px;align-items:center;margin:16px 0';
+  const inputs = [];
+  for (const pi of personRange) {{
+    const cell = q.cells[pi];
+    if (!cell || !cell.form) continue;
+    const lbl = mkel('label', {{}}, cell.person);
+    lbl.style.cssText = 'font-size:13px;color:rgba(255,255,255,.5);font-family:sans-serif;white-space:nowrap';
+    grid.appendChild(lbl);
+    const inp = mkel('input', {{type:'text', className:'quiz-input'}});
+    inp.style.cssText = 'margin:0;width:100%';
+    inp.placeholder = '…';
+    inp.setAttribute('autocorrect','off'); inp.setAttribute('autocapitalize','none');
+    inp.setAttribute('autocomplete','off'); inp.spellcheck = false;
+    inputs.push({{inp, pi, answer: cell.form, person: cell.person}});
+    grid.appendChild(inp);
+  }}
+  card.appendChild(grid);
+  if (inputs.length) setTimeout(() => inputs[0].inp.focus(), 50);
+
+  const br = mkdiv('');
+  br.style.cssText = 'display:flex;gap:8px;flex-wrap:wrap';
+  const checkBtn = mkel('button', {{className:'btn-primary'}}, 'Check');
+  checkBtn.style.flex = '1';
+  const skipBtn = mkel('button', {{className:'btn-secondary'}}, 'Skip');
+  const endBtn = mkel('button', {{className:'btn-ghost'}}, 'End');
+
+  async function submitTable() {{
+    const checks = await Promise.all(inputs.map(item =>
+      item.inp.value.trim()
+        ? api('/api/check', {{method:'POST', headers:{{'Content-Type':'application/json'}},
+            body: JSON.stringify({{verb: q.inf, tense_idx: q.tenseIdx, person_idx: item.pi, guess: item.inp.value.trim(), correct: item.answer}})
+          }}).then(res => ({{pi: item.pi, guess: item.inp.value.trim(), answer: item.answer, result: res.result, person: item.person}}))
+        : Promise.resolve({{pi: item.pi, guess:'', answer: item.answer, result:'skip', person: item.person}})
+    ));
+    const tableResult = {{inf: q.inf, translation: q.translation, tense: q.tense, checks}};
+    quizTableSession.results.push(tableResult);
+    quizTableFeedback = tableResult;
+    quizPhase = 'table-feedback';
     render();
-    // refresh verb list progress
-    api('/api/verb_list').then(l => {{
-      verbList = stampIndices(l);
-      if (verbData && verbData.verb === item.inf) loadVerbData(item.inf);
-    }});
+  }}
+
+  checkBtn.onclick = submitTable;
+  skipBtn.onclick = () => {{ quizTableSession.results.push({{inf:q.inf, tense:q.tense, result:'skip'}}); advanceTableQuiz(); }};
+  endBtn.onclick = () => {{ quizPhase = 'table-results'; render(); }};
+  inputs.forEach((item, i) => {{
+    item.inp.onkeydown = e => {{
+      if (e.key === 'Enter') {{ e.preventDefault(); i < inputs.length-1 ? inputs[i+1].inp.focus() : submitTable(); }}
+      if (e.key === 'Tab' && !e.shiftKey) {{ e.preventDefault(); if (i < inputs.length-1) inputs[i+1].inp.focus(); }}
+    }};
   }});
+  br.appendChild(checkBtn); br.appendChild(skipBtn); br.appendChild(endBtn);
+  card.appendChild(br);
+  wrap.appendChild(card);
+  return wrap;
 }}
 
-function nextQuestion() {{
-  if (!quizState) return;
-  quizState.idx++;
-  quizState.result = null;
-  render();
-  setTimeout(() => document.getElementById('quiz-inp')?.focus(), 50);
+// ── Table feedback ─────────────────────────────────────────────────────────────
+function renderTableFeedback() {{
+  const fb = quizTableFeedback;
+  const {{ pairs, idx }} = quizTableSession;
+  const wrap = mkdiv('');
+
+  const progBar = mkdiv('prog-bar');
+  progBar.style.width = Math.round((idx+1) / pairs.length * 100) + '%';
+  const progWrap = mkdiv('prog-wrap');
+  progWrap.appendChild(progBar);
+  wrap.appendChild(progWrap);
+
+  const card = mkdiv('card');
+  card.appendChild(mkdiv('quiz-meta', (idx+1) + ' / ' + pairs.length));
+  card.appendChild(mkdiv('quiz-verb', fb.inf));
+  if (fb.translation) card.appendChild(mkdiv('quiz-en', fb.translation));
+  card.appendChild(mkdiv('quiz-tense', fb.tense));
+
+  const resColors = {{correct:'#4caf88', accent:'#f0b429', close:'#f0b429', wrong:'#e57373', skip:'#888'}};
+  const resIcons  = {{correct:'✓', accent:'≈', close:'≈', wrong:'✗', skip:'–'}};
+  const grid = mkdiv('');
+  grid.style.cssText = 'display:grid;grid-template-columns:auto 1fr auto;gap:7px 12px;align-items:baseline;margin:14px 0';
+  for (const chk of fb.checks) {{
+    const lbl = mkel('span', {{}}, chk.person);
+    lbl.style.cssText = 'font-size:12px;color:rgba(255,255,255,.4);font-family:sans-serif;white-space:nowrap';
+    grid.appendChild(lbl);
+    const ans = document.createElement('div');
+    ans.style.cssText = 'font-family:Georgia,serif;font-size:15px;display:flex;align-items:baseline;gap:5px;flex-wrap:wrap';
+    const needsCorrection = (chk.result === 'wrong' || chk.result === 'accent' || chk.result === 'close') && chk.guess;
+    if (needsCorrection) {{
+      const g = mkel('span', {{}}, chk.guess);
+      g.style.cssText = 'color:#e57373;text-decoration:line-through;opacity:.75';
+      const arr = mkel('span', {{}}, '→');
+      arr.style.cssText = 'color:rgba(255,255,255,.3);font-size:11px;font-family:sans-serif';
+      const cor = mkel('span', {{}}, chk.answer);
+      cor.style.cssText = 'color:#e8c98a';
+      ans.appendChild(g); ans.appendChild(arr); ans.appendChild(cor);
+    }} else {{
+      const cor = mkel('span', {{}}, chk.answer);
+      cor.style.cssText = chk.result === 'correct' ? 'color:#7ac49a' : 'color:#e8c98a';
+      ans.appendChild(cor);
+    }}
+    grid.appendChild(ans);
+    const icon = mkel('span', {{}}, resIcons[chk.result] || '?');
+    icon.style.cssText = 'color:' + (resColors[chk.result] || '#fff') + ';font-weight:bold;font-size:14px';
+    grid.appendChild(icon);
+  }}
+  card.appendChild(grid);
+
+  const br = mkdiv('');
+  br.style.cssText = 'display:flex;gap:8px;flex-wrap:wrap';
+  const nextBtn = mkel('button', {{className:'btn-primary'}},
+    idx + 1 >= pairs.length ? 'See results →' : 'Next →');
+  nextBtn.style.flex = '1';
+  nextBtn.onclick = advanceTableQuiz;
+  const endBtn = mkel('button', {{className:'btn-ghost'}}, 'End session');
+  endBtn.onclick = () => {{ quizPhase = 'table-results'; render(); }};
+  br.appendChild(nextBtn); br.appendChild(endBtn);
+  card.appendChild(br);
+
+  const handler = e => {{
+    if (e.key==='Enter') {{ e.preventDefault(); document.removeEventListener('keydown', handler); advanceTableQuiz(); }}
+  }};
+  document.addEventListener('keydown', handler);
+
+  wrap.appendChild(card);
+  return wrap;
 }}
 
-function restartQuiz() {{
-  quizState.items.sort(() => Math.random() - 0.5);
-  quizState.idx = 0;
-  quizState.result = null;
-  quizState.results = {{}};
+function advanceTableQuiz() {{
+  quizTableSession.idx++;
+  const done = quizTableSession.idx >= quizTableSession.pairs.length;
+  quizPhase = done ? 'table-results' : 'table-quiz';
+  if (done) api('/api/verb_list').then(l => {{ verbList = stampIndices(l); }});
   render();
+}}
+
+// ── Table results ──────────────────────────────────────────────────────────────
+function renderTableResults() {{
+  const {{ results }} = quizTableSession;
+  const wrap = mkdiv('');
+  let totalItems = 0, correctItems = 0;
+  for (const r of results) {{
+    if (r.result === 'skip') continue;
+    if (r.checks) {{
+      for (const c of r.checks) {{
+        totalItems++;
+        if (c.result === 'correct' || c.result === 'accent') correctItems++;
+      }}
+    }}
+  }}
+  const pct = totalItems > 0 ? Math.round(correctItems / totalItems * 100) : 0;
+  wrap.appendChild(mkdiv('score-big', pct + '%'));
+  wrap.appendChild(mkdiv('score-sub', correctItems + ' / ' + totalItems + ' correct \xb7 ' + results.length + ' tables'));
+
+  for (const r of results) {{
+    if (r.result === 'skip') {{
+      const row = mkdiv('result-row');
+      row.appendChild(mkdiv('result-icon', '–'));
+      row.appendChild(mkdiv('result-verb', r.inf));
+      row.appendChild(mkdiv('result-tense', r.tense));
+      row.appendChild(mkdiv('result-person', '(skipped)'));
+      row.appendChild(mkdiv('result-guess skip', ''));
+      wrap.appendChild(row);
+      continue;
+    }}
+    if (!r.checks) continue;
+    const allOk = r.checks.every(c => c.result === 'correct' || c.result === 'accent');
+    const row = mkdiv('result-row');
+    row.appendChild(mkdiv('result-icon', allOk ? '✓' : '✗'));
+    row.appendChild(mkdiv('result-verb', r.inf));
+    row.appendChild(mkdiv('result-tense', r.tense));
+    row.appendChild(mkdiv('result-person', 'all'));
+    const errors = r.checks.filter(c => c.result !== 'correct' && c.result !== 'accent').length;
+    row.appendChild(mkdiv('result-guess ' + (allOk ? 'correct' : 'wrong'),
+      allOk ? '✓ all correct' : errors + ' error' + (errors !== 1 ? 's' : '')));
+    wrap.appendChild(row);
+  }}
+
+  const br = mkdiv('');
+  br.style.cssText = 'display:flex;gap:8px;margin-top:12px;flex-wrap:wrap';
+  const retryBtn = mkel('button', {{className:'btn-primary'}}, 'New Quiz →');
+  retryBtn.style.flex = '1';
+  retryBtn.onclick = () => {{ quizPhase = 'setup'; render(); }};
+  const browseBtn = mkel('button', {{className:'btn-secondary'}}, 'Browse verbs');
+  browseBtn.onclick = () => {{ switchTab('browse'); }};
+  br.appendChild(retryBtn); br.appendChild(browseBtn);
+  wrap.appendChild(br);
+  return wrap;
 }}
 
 // ── Init ──────────────────────────────────────────────────────────────────────

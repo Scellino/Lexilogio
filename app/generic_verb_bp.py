@@ -584,7 +584,7 @@ function verbCard(v) {{
 
 function attachBrowseHandlers() {{
   const inp = document.getElementById('search-inp');
-  if (inp) inp.focus();
+  if (inp) {{ inp.focus(); inp.setSelectionRange(inp.value.length, inp.value.length); }}
 }}
 
 function selectVerb(inf) {{

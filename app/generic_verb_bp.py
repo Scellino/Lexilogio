@@ -700,12 +700,22 @@ function renderSetup() {{
   const usingAll = selected.size === 0;
   const verbCount = usingAll ? totalVerbs : selected.size;
   const vInfo = mkdiv('');
-  vInfo.innerHTML = '<span style="font-family:Georgia,serif;font-size:20px;color:#e8c98a">' + verbCount + '</span>'
-    + '<span style="font-size:13px;color:rgba(255,255,255,.4);font-family:sans-serif"> verb' + (verbCount !== 1 ? 's' : '')
-    + (usingAll ? ' <span style="color:rgba(201,169,110,.5)">(all)</span>' : '') + '</span>'
-    + ' <a style="font-size:12px;color:#c9a96e;cursor:pointer;font-family:sans-serif;text-decoration:underline" onclick="switchTab(\'browse\')">browse</a>';
+  const vSpan = mkel('span', {{}}, String(verbCount));
+  vSpan.style.cssText = 'font-family:Georgia,serif;font-size:20px;color:#e8c98a';
+  const vLabel = mkel('span', {{}});
+  vLabel.style.cssText = 'font-size:13px;color:rgba(255,255,255,.4);font-family:sans-serif';
+  vLabel.textContent = ' verb' + (verbCount !== 1 ? 's' : '') + (usingAll ? ' (all)' : '');
+  const bLink = mkel('a', {{}});
+  bLink.style.cssText = 'font-size:12px;color:#c9a96e;cursor:pointer;font-family:sans-serif;text-decoration:underline;margin-left:6px';
+  bLink.textContent = 'browse';
+  bLink.onclick = () => {{ switchTab('browse'); }};
+  vInfo.appendChild(vSpan); vInfo.appendChild(vLabel); vInfo.appendChild(bLink);
   if (!usingAll) {{
-    vInfo.innerHTML += ' <a style="font-size:12px;color:rgba(255,255,255,.3);cursor:pointer;font-family:sans-serif;text-decoration:underline" onclick="selected.clear();render()">unselect all</a>';
+    const uLink = mkel('a', {{}});
+    uLink.style.cssText = 'font-size:12px;color:rgba(255,255,255,.3);cursor:pointer;font-family:sans-serif;text-decoration:underline;margin-left:6px';
+    uLink.textContent = 'unselect all';
+    uLink.onclick = () => {{ selected.clear(); render(); }};
+    vInfo.appendChild(uLink);
   }}
   c1.appendChild(vInfo);
   wrap.appendChild(c1);

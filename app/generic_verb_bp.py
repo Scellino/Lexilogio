@@ -160,7 +160,8 @@ def make_verb_blueprint(lang):
             e   = conj[inf] if isinstance(conj[inf], dict) else {}
             grp = e.get("group", "")
             mdl = e.get("model", "")
-            result.append({"verb": inf, "done": done, "total": total, "group": grp, "model": mdl})
+            tra = e.get("translation", "")
+            result.append({"verb": inf, "done": done, "total": total, "group": grp, "model": mdl, "translation": tra})
         return jsonify(result)
 
     @bp.route("/api/verb/<path:inf>")
@@ -298,10 +299,23 @@ input[type=text]:focus{{border-color:#c9a96e}}
 .prog-wrap{{height:2px;background:rgba(255,255,255,.08);border-radius:2px;margin-bottom:22px;overflow:hidden;width:100%;max-width:560px}}
 .prog-bar{{height:100%;background:#c9a96e;border-radius:2px;transition:width .3s}}
 .btn-row{{display:flex;gap:8px;margin-top:12px;flex-wrap:wrap}}
-.browse-toggle{{display:flex;gap:6px;margin-bottom:12px}}
-.group-major-header{{font-size:13px;color:#c9a96e;text-transform:uppercase;letter-spacing:2px;font-family:sans-serif;font-weight:700;padding:28px 0 6px;display:flex;align-items:baseline;gap:8px;border-bottom:2px solid rgba(201,169,110,.25);margin-bottom:10px}}
-.group-header{{font-size:11px;color:rgba(201,169,110,.55);text-transform:uppercase;letter-spacing:1.5px;font-family:sans-serif;font-weight:700;padding:14px 0 6px;border-bottom:1px solid rgba(255,255,255,.05);margin-bottom:8px;display:flex;align-items:baseline;gap:8px}}
+.browse-toggle{{display:flex;gap:6px;margin-bottom:10px}}
+.browse-toolbar{{display:flex;gap:6px;align-items:center;margin-bottom:10px;flex-wrap:wrap;min-height:28px}}
+.verb-row{{display:flex;align-items:center;gap:10px;padding:8px 10px;border-radius:9px;border:1px solid transparent;cursor:pointer;transition:background .12s,border-color .12s}}
+.verb-row:hover{{background:rgba(255,255,255,.04);border-color:rgba(255,255,255,.07)}}
+.verb-row.sel{{background:rgba(201,169,110,.07);border-color:rgba(201,169,110,.2)}}
+.verb-row input[type=checkbox]{{accent-color:#c9a96e;cursor:pointer;width:14px;height:14px;flex-shrink:0}}
+.vname{{font-size:15px;color:#fff;font-family:Georgia,serif;min-width:110px}}
+.vtran{{font-size:12px;color:rgba(255,255,255,.35);font-family:sans-serif;flex:1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}}
+.vdot{{width:7px;height:7px;border-radius:50%;flex-shrink:0}}
+.vdot.started{{background:#f0b429}}.vdot.mastered{{background:#4caf88}}
+.btn-ghost{{padding:4px 10px;border-radius:7px;background:transparent;border:1px solid rgba(255,255,255,.12);color:rgba(255,255,255,.45);font-size:11px;font-family:sans-serif;cursor:pointer;white-space:nowrap;transition:all .12s}}
+.btn-ghost:hover{{border-color:rgba(201,169,110,.5);color:#c9a96e}}
+.group-major-header{{font-size:13px;color:#c9a96e;text-transform:uppercase;letter-spacing:2px;font-family:sans-serif;font-weight:700;padding:24px 0 6px;display:flex;align-items:center;gap:8px;border-bottom:2px solid rgba(201,169,110,.2);margin-bottom:8px;cursor:pointer;user-select:none}}
+.group-header{{font-size:11px;color:rgba(201,169,110,.55);text-transform:uppercase;letter-spacing:1.5px;font-family:sans-serif;font-weight:700;padding:12px 0 5px;border-bottom:1px solid rgba(255,255,255,.05);margin-bottom:6px;display:flex;align-items:center;gap:6px;cursor:pointer;user-select:none}}
 .group-header-count{{color:rgba(255,255,255,.3);font-weight:400;text-transform:none;letter-spacing:0;font-size:11px}}
+.show-all-btn{{width:100%;padding:7px;border-radius:8px;background:rgba(255,255,255,.03);border:1px dashed rgba(255,255,255,.1);color:rgba(255,255,255,.35);font-size:11px;font-family:sans-serif;cursor:pointer;text-align:center;margin:4px 0 10px;transition:all .12s}}
+.show-all-btn:hover{{border-color:rgba(201,169,110,.4);color:#c9a96e}}
 </style>
 </head>
 <body>
@@ -330,9 +344,12 @@ let progress   = {{}};
 let activeVerb = null;
 let verbData   = null;
 let quizState  = null;
-let searchQ    = '';
+let searchQ     = '';
 let activeTense = null;
-let browseMode = 'alpha';
+let browseMode  = 'alpha';
+let selected    = new Set();
+let expandedGroups = {{}};  // model → 'all' | 'hidden' | undefined (= show 3)
+let _lastFiltered = [];
 
 function api(path, opts) {{
   return fetch('/' + LANG + '/verb' + path, opts).then(r => r.json());
@@ -354,32 +371,102 @@ function render() {{
   attachBrowseHandlers();
 }}
 
+// ── Browse helpers ────────────────────────────────────────────────────────────
+function toggleSelect(inf) {{
+  if (selected.has(inf)) selected.delete(inf); else selected.add(inf);
+  render();
+}}
+function selectAllVisible() {{ _lastFiltered.forEach(v => selected.add(v.verb)); render(); }}
+function clearSelected()    {{ selected.clear(); render(); }}
+function viewVerb(inf) {{
+  activeVerb  = inf; activeTense = null; tab = 'study';
+  document.querySelectorAll('.nav-tab').forEach((el, i) => el.classList.toggle('active', i === 1));
+  loadVerbData(inf).then(render);
+}}
+function collapseGroup(model) {{
+  expandedGroups[model] = expandedGroups[model] === 'hidden' ? undefined : 'hidden';
+  render();
+}}
+function showAllGroup(model) {{ expandedGroups[model] = 'all'; render(); }}
+
+function startQuizSelected() {{
+  const infs = [...selected];
+  if (!infs.length) return;
+  Promise.all(infs.map(inf => api('/api/verb/' + encodeURIComponent(inf)))).then(datas => {{
+    const pairs = [];
+    datas.forEach(data => {{
+      if (!data.tenses) return;
+      data.tenses.forEach((t, ti) => t.cells.forEach((c, pi) => {{
+        if (c.form) pairs.push({{inf: data.verb, ti, pi, tense: t.tense, person: c.person, form: c.form}});
+      }}));
+    }});
+    if (!pairs.length) return;
+    quizState = {{ items: pairs.sort(() => Math.random() - 0.5), idx: 0, result: null }};
+    tab = 'quiz';
+    document.querySelectorAll('.nav-tab').forEach((el, i) => el.classList.toggle('active', i === 2));
+    render();
+  }});
+}}
+
+function dotStatus(v) {{
+  if (!v.total) return '';
+  const r = v.done / v.total;
+  return r >= 0.8 ? 'mastered' : v.done > 0 ? 'started' : '';
+}}
+
+function renderVerbRow(v) {{
+  const isSel = selected.has(v.verb);
+  const dot   = dotStatus(v);
+  const safeInf = v.verb.replace(/\\/g, '\\\\').replace(/'/g, "\\'");
+  return `<div class="verb-row${{isSel?' sel':''}}" onclick="toggleSelect('${{safeInf}}')">
+    <input type="checkbox" ${{isSel?'checked':''}} onclick="event.stopPropagation()" onchange="toggleSelect('${{safeInf}}')">
+    <span class="vname">${{v.verb}}</span>
+    <span class="vtran">${{v.translation||''}}</span>
+    ${{dot ? `<span class="vdot ${{dot}}"></span>` : '<span class="vdot"></span>'}}
+    <button class="btn-ghost" onclick="event.stopPropagation();viewVerb('${{safeInf}}')">Study →</button>
+  </div>`;
+}}
+
 // ── Browse ────────────────────────────────────────────────────────────────────
 function renderBrowse() {{
   if (!verbList.length) return `<div class="empty-msg">No verbs loaded yet.<br><br>Add conjugation data to<br><code>{lang}_verb_conjugations.json</code></div>`;
   const hasGroups = verbList.some(v => v.group);
   const q = searchQ.toLowerCase();
-  const filtered = verbList.filter(v => v.verb.toLowerCase().includes(q));
+  _lastFiltered = verbList.filter(v =>
+    v.verb.toLowerCase().includes(q) || (v.translation||'').toLowerCase().includes(q)
+  );
   const totalDone = verbList.reduce((s, v) => s + v.done, 0);
   const totalAll  = verbList.reduce((s, v) => s + v.total, 0);
-  const pct = totalAll ? Math.round(100 * totalDone / totalAll) : 0;
-  document.getElementById('prog-bar').style.width = pct + '%';
+  document.getElementById('prog-bar').style.width = (totalAll ? Math.round(100*totalDone/totalAll) : 0) + '%';
 
   const toggle = hasGroups ? `<div class="browse-toggle">
     <button class="pill${{browseMode==='alpha'?' on':''}}" onclick="browseMode='alpha';render()">A – Z</button>
     <button class="pill${{browseMode==='group'?' on':''}}" onclick="browseMode='group';render()">By Group</button>
   </div>` : '';
 
+  const toolbar = selected.size
+    ? `<div class="browse-toolbar">
+        <span style="font-size:12px;color:#c9a96e;font-family:sans-serif">${{selected.size}} selected</span>
+        <button class="btn-secondary" onclick="startQuizSelected()">Quiz selected →</button>
+        <button class="pill" onclick="clearSelected()">Clear</button>
+       </div>`
+    : `<div class="browse-toolbar">
+        <button class="pill" onclick="selectAllVisible()">Select all</button>
+        <span style="font-size:12px;color:rgba(255,255,255,.3);font-family:sans-serif">${{_lastFiltered.length}} verb${{_lastFiltered.length!==1?'s':''}}</span>
+       </div>`;
+
   const list = hasGroups && browseMode === 'group'
-    ? renderBrowseByGroup(filtered)
-    : `<div class="sec-label">${{filtered.length}} verb${{filtered.length!==1?'s':''}}</div>` + filtered.map(v => verbCard(v)).join('');
+    ? renderBrowseByGroup(_lastFiltered)
+    : _lastFiltered.map(v => renderVerbRow(v)).join('');
 
   return `
     <div class="search-wrap">
       <span class="search-icon">🔍</span>
-      <input type="text" placeholder="Search verbs…" value="${{searchQ}}" oninput="searchQ=this.value;render()" id="search-inp">
+      <input type="text" placeholder="Search verbs or translation…" value="${{searchQ}}"
+             oninput="searchQ=this.value;render()" id="search-inp">
     </div>
     ${{toggle}}
+    ${{toolbar}}
     ${{list}}
   `;
 }}
@@ -427,35 +514,58 @@ const MAJOR_LABELS = {{'aux':'Auxiliaries','1':'1st Group','2':'2nd Group','3':'
 
 function modelMajor(m) {{ return MODEL_MAJOR[m] || '3'; }}
 
+const GROUP_DEFAULT_SHOW = 3;
+
 function renderBrowseByGroup(filtered) {{
-  // Build model → verb[] buckets
   const byModel = {{}};
   filtered.forEach(v => {{
-    const m = v.model || (MODEL_MAJOR[v.group] ? v.group : 'IRR');
+    const m = v.model || 'IRR';
     (byModel[m] = byModel[m] || []).push(v);
   }});
 
-  // Sort models by MODEL_ORDER, unknown models appended at end
   const orderedModels = [
     ...MODEL_ORDER.filter(m => byModel[m]),
     ...Object.keys(byModel).filter(m => !MODEL_ORDER.includes(m)).sort(),
   ];
 
-  // Render: group-major dividers, then model sub-sections
   const parts = [];
   let currentMajor = null;
+
   orderedModels.forEach(m => {{
     const major = modelMajor(m);
     if (major !== currentMajor) {{
       currentMajor = major;
-      const majorVerbs = filtered.filter(v => modelMajor(v.model || 'IRR') === major);
-      parts.push(`<div class="group-major-header">${{MAJOR_LABELS[major] || major}}<span class="group-header-count">${{majorVerbs.length}} verb${{majorVerbs.length!==1?'s':''}}</span></div>`);
+      const majorCount = filtered.filter(v => modelMajor(v.model || 'IRR') === major).length;
+      parts.push(`<div class="group-major-header">
+        ${{MAJOR_LABELS[major] || major}}
+        <span class="group-header-count">${{majorCount}} verb${{majorCount!==1?'s':''}}</span>
+      </div>`);
     }}
-    const verbs = byModel[m];
-    const label = MODEL_LABELS[m] || m;
-    parts.push(`<div class="group-header" style="padding-left:6px">${{label}}<span class="group-header-count">${{verbs.length}}</span></div>`);
-    parts.push(verbs.map(v => verbCard(v)).join(''));
+
+    const verbs   = byModel[m];
+    const state   = expandedGroups[m];   // 'all' | 'hidden' | undefined
+    const label   = MODEL_LABELS[m] || m;
+    const chevron = state === 'hidden' ? '▸' : '▾';
+
+    parts.push(`<div class="group-header" onclick="collapseGroup('${{m}}')">
+      <span style="font-size:9px;opacity:.5">${{chevron}}</span>
+      ${{label}}
+      <span class="group-header-count">${{verbs.length}}</span>
+    </div>`);
+
+    if (state === 'hidden') return;
+
+    const show = state === 'all' ? verbs : verbs.slice(0, GROUP_DEFAULT_SHOW);
+    parts.push(show.map(v => renderVerbRow(v)).join(''));
+
+    if (state !== 'all' && verbs.length > GROUP_DEFAULT_SHOW) {{
+      const remaining = verbs.length - GROUP_DEFAULT_SHOW;
+      parts.push(`<button class="show-all-btn" onclick="showAllGroup('${{m}}')">
+        Show all · ${{remaining}} more
+      </button>`);
+    }}
   }});
+
   return parts.join('');
 }}
 
@@ -493,9 +603,9 @@ function loadVerbData(inf) {{
 function renderStudy() {{
   if (!verbList.length) return `<div class="empty-msg">No verbs loaded yet.</div>`;
   if (!activeVerb || !verbData) return `
-    <div class="sec-label">Select a verb</div>
-    ${{verbList.slice(0,8).map(v => `<div class="card" onclick="selectVerb('${{v.verb}}')"><div class="card-head"><span class="card-inf">${{v.verb}}</span></div></div>`).join('')}}
-    ${{verbList.length > 8 ? `<div class="empty-msg" style="padding:20px 0">Switch to Browse to see all ${{verbList.length}} verbs</div>` : ''}}
+    <div class="sec-label" style="margin-bottom:8px">Select a verb to study</div>
+    ${{verbList.slice(0,12).map(v => renderVerbRow(v)).join('')}}
+    ${{verbList.length > 12 ? `<div class="empty-msg" style="padding:16px 0">Switch to Browse to find all ${{verbList.length}} verbs</div>` : ''}}
   `;
   const blocks = verbData.tenses.map((t, ti) => {{
     const rows = t.cells.map((c, pi) => {{

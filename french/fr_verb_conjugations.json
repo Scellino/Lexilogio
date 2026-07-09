@@ -78,7 +78,8 @@
       "Abaissons !",
       "Abaissez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Abattre": {
     "translation": "To knock down -",
@@ -159,7 +160,8 @@
       "Battons !",
       "Battez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "BATTRE"
   },
   "Accepter": {
     "translation": "To accept",
@@ -240,7 +242,8 @@
       "Acceptons !",
       "Acceptez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Accompagner": {
     "translation": "To accompany",
@@ -321,7 +324,8 @@
       "Accompagnons !",
       "Accompagnez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Accorder": {
     "translation": "To admit - To grant",
@@ -402,7 +406,8 @@
       "Accordons !",
       "Accordez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Accrocher": {
     "translation": "To hang",
@@ -483,7 +488,8 @@
       "Accrochons !",
       "Accrochez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Accueillir": {
     "translation": "To welcome",
@@ -564,7 +570,8 @@
       "Cueillons !",
       "Cueillez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "CUEILLIR"
   },
   "Accuser": {
     "translation": "To accuse",
@@ -645,7 +652,8 @@
       "Accusons !",
       "Accusez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Acheter": {
     "translation": "To buy",
@@ -726,7 +734,8 @@
       "Achetons !",
       "Achetez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ETER"
   },
   "Achever": {
     "translation": "To complete",
@@ -807,7 +816,8 @@
       "Achevons !",
       "Achevez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "EVER"
   },
   "Acquérir": {
     "translation": "To acquire",
@@ -888,7 +898,8 @@
       "Acquérons !",
       "Acquérez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "ÉRIR"
   },
   "Admettre": {
     "translation": "To admit",
@@ -969,7 +980,8 @@
       "Mettons !",
       "Mettez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "METTRE"
   },
   "Admirer": {
     "translation": "To admire",
@@ -1050,7 +1062,8 @@
       "Admirons !",
       "Admirez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Adorer": {
     "translation": "To adore",
@@ -1131,7 +1144,8 @@
       "Adorons !",
       "Adorez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Adresser": {
     "translation": "To address",
@@ -1212,7 +1226,8 @@
       "Adressons !",
       "Adressez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Affaiblir": {
     "translation": "To weaken",
@@ -1293,7 +1308,8 @@
       "Affaiblissons !",
       "Affaiblissez !"
     ],
-    "group": "2"
+    "group": "2",
+    "model": "IR"
   },
   "Agacer": {
     "translation": "To annoy",
@@ -1374,7 +1390,8 @@
       "Plaçons !",
       "Agacez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "CER"
   },
   "Agir": {
     "translation": "To act",
@@ -1455,7 +1472,8 @@
       "Agissons !",
       "Agissez !"
     ],
-    "group": "2"
+    "group": "2",
+    "model": "IR"
   },
   "Aider": {
     "translation": "To help",
@@ -1536,7 +1554,8 @@
       "Aidons !",
       "Aidez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Aimer": {
     "translation": "To like - To love",
@@ -1617,7 +1636,8 @@
       "Aimons !",
       "Aimez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Ajouter": {
     "translation": "To add",
@@ -1698,7 +1718,8 @@
       "Ajoutons !",
       "Ajoutez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Aller": {
     "translation": "To go",
@@ -1779,7 +1800,8 @@
       "Allons !",
       "Allez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "ALLER"
   },
   "Amener": {
     "translation": "To bring",
@@ -1860,7 +1882,8 @@
       "Amenons !",
       "Amenez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ENER"
   },
   "Amuser": {
     "translation": "To amuse",
@@ -1941,7 +1964,8 @@
       "Amusons !",
       "Amusez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Aménager": {
     "translation": "To furnish",
@@ -2022,7 +2046,8 @@
       "Aménageons !",
       "Aménagez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "GER"
   },
   "Annoncer": {
     "translation": "To announce",
@@ -2103,7 +2128,8 @@
       "Plaçons !",
       "Annoncez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "CER"
   },
   "Apercevoir": {
     "translation": "To see",
@@ -2184,7 +2210,8 @@
       "Apercevons !",
       "Décevez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "CEVOIR"
   },
   "Apparaître": {
     "translation": "To appear",
@@ -2265,7 +2292,8 @@
       "Connaissons !",
       "Connaissez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "AÎTRE"
   },
   "Appartenir": {
     "translation": "To belong",
@@ -2346,7 +2374,8 @@
       "Apparappartenons !",
       "Apparappartenez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "ENIR"
   },
   "Appeler": {
     "translation": "To call",
@@ -2427,7 +2456,8 @@
       "Appelons !",
       "Appelez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "APPELER"
   },
   "Apporter": {
     "translation": "To bring",
@@ -2508,7 +2538,8 @@
       "Apportons !",
       "Apportez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Apprendre": {
     "translation": "To learn",
@@ -2589,7 +2620,8 @@
       "Prenons !",
       "Prenez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "PRENDRE"
   },
   "Approcher": {
     "translation": "To approach",
@@ -2670,7 +2702,8 @@
       "Approchons !",
       "Approchez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Approuver": {
     "translation": "To approve",
@@ -2751,7 +2784,8 @@
       "Approuvons !",
       "Approuvez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Armer": {
     "translation": "To arm",
@@ -2832,7 +2866,8 @@
       "Armons !",
       "Armez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Arracher": {
     "translation": "To pull up - out",
@@ -2913,7 +2948,8 @@
       "Arrachons !",
       "Arrachez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Arranger": {
     "translation": "To arrange",
@@ -2994,7 +3030,8 @@
       "Arrangeons !",
       "Arrangez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "GER"
   },
   "Arriver": {
     "translation": "To arrive",
@@ -3075,7 +3112,8 @@
       "Arrivons !",
       "Arrivez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Arrêter": {
     "translation": "To stop",
@@ -3156,7 +3194,8 @@
       "Arrêtons !",
       "Arrêtez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Asseoir": {
     "translation": "To sit down",
@@ -3237,7 +3276,8 @@
       "Asseyons !",
       "Asseyez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "IRR"
   },
   "Assister": {
     "translation": "To attend",
@@ -3318,7 +3358,8 @@
       "Assistons !",
       "Assistez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Assurer": {
     "translation": "To assure",
@@ -3399,7 +3440,8 @@
       "Assurons !",
       "Assurez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Attaquer": {
     "translation": "To attack",
@@ -3480,7 +3522,8 @@
       "Attaquons !",
       "Attaquez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Atteindre": {
     "translation": "To reach",
@@ -3561,7 +3604,8 @@
       "Atteignons !",
       "Atteignez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "EINDRE"
   },
   "Attendre": {
     "translation": "To wait",
@@ -3642,7 +3686,8 @@
       "Attendons !",
       "Attendez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "DRE"
   },
   "Attirer": {
     "translation": "To attract",
@@ -3723,7 +3768,8 @@
       "Attirons !",
       "Attirez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Attraper": {
     "translation": "To catch",
@@ -3804,7 +3850,8 @@
       "Attrapons !",
       "Attrapez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Augmenter": {
     "translation": "To increase",
@@ -3885,7 +3932,8 @@
       "Augmentons !",
       "Augmentez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Avancer": {
     "translation": "To advance",
@@ -3966,7 +4014,8 @@
       "Plaçons !",
       "Avancez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "CER"
   },
   "Aventurer": {
     "translation": "To venture",
@@ -4047,7 +4096,8 @@
       "Aventurons !",
       "Aventurez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Avoir": {
     "translation": "To have",
@@ -4128,7 +4178,8 @@
       "Ayons !",
       "Ayez !"
     ],
-    "group": "aux"
+    "group": "aux",
+    "model": "AUX"
   },
   "Baisser": {
     "translation": "To lower",
@@ -4209,7 +4260,8 @@
       "Baissons !",
       "Baissez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Balancer": {
     "translation": "To sway - To swing",
@@ -4290,7 +4342,8 @@
       "Plaçons !",
       "Balancez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "CER"
   },
   "Balayer": {
     "translation": "To sweep",
@@ -4371,7 +4424,8 @@
       "Balayons !",
       "Balayez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "YER"
   },
   "Battre": {
     "translation": "To beat",
@@ -4452,7 +4506,8 @@
       "Battons !",
       "Battez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "BATTRE"
   },
   "Bavarder": {
     "translation": "To chat",
@@ -4533,7 +4588,8 @@
       "Bavardons !",
       "Bavardez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Blaguer": {
     "translation": "To joke",
@@ -4614,7 +4670,8 @@
       "Blaguons !",
       "Blaguez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Blanchir": {
     "translation": "To whiten",
@@ -4695,7 +4752,8 @@
       "Blanchissons !",
       "Blanchissez !"
     ],
-    "group": "2"
+    "group": "2",
+    "model": "IR"
   },
   "Blesser": {
     "translation": "To hurt - To offend",
@@ -4776,7 +4834,8 @@
       "Blessons !",
       "Blessez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Blâmer": {
     "translation": "To blame",
@@ -4857,7 +4916,8 @@
       "Blâmons !",
       "Blâmez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Boire": {
     "translation": "To drink",
@@ -4938,7 +4998,8 @@
       "Buvons !",
       "Buvez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "BOIRE"
   },
   "Bouger": {
     "translation": "To move",
@@ -5019,7 +5080,8 @@
       "Bougeons !",
       "Bougez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "GER"
   },
   "Bouillir": {
     "translation": "To boil",
@@ -5100,7 +5162,8 @@
       "Bouillons !",
       "Bouillez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "BOUILLIR"
   },
   "Briser": {
     "translation": "To break",
@@ -5181,7 +5244,8 @@
       "Brisons !",
       "Brisez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Brosser": {
     "translation": "To brush",
@@ -5262,7 +5326,8 @@
       "Brossons !",
       "Brossez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Brûler": {
     "translation": "To burn",
@@ -5343,7 +5408,8 @@
       "Brûlons !",
       "Brûlez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Bâtir": {
     "translation": "To build",
@@ -5424,7 +5490,8 @@
       "Bâtissons !",
       "Bâtissez !"
     ],
-    "group": "2"
+    "group": "2",
+    "model": "IR"
   },
   "Cacher": {
     "translation": "To hide",
@@ -5505,7 +5572,8 @@
       "Cachons !",
       "Cachez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Casser": {
     "translation": "To break",
@@ -5586,7 +5654,8 @@
       "Cassons !",
       "Cassez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Causer": {
     "translation": "To cause",
@@ -5667,7 +5736,8 @@
       "Causons !",
       "Causez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Cesser": {
     "translation": "To cease",
@@ -5748,7 +5818,8 @@
       "Cessons !",
       "Cessez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Changer": {
     "translation": "To change",
@@ -5829,7 +5900,8 @@
       "Changeons !",
       "Changez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "GER"
   },
   "Chanter": {
     "translation": "To sing",
@@ -5910,7 +5982,8 @@
       "Chantons !",
       "Chantez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Charger": {
     "translation": "To charge - To load",
@@ -5991,7 +6064,8 @@
       "Chargeons !",
       "Chargez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "GER"
   },
   "Chasser": {
     "translation": "To hunt",
@@ -6072,7 +6146,8 @@
       "Chassons !",
       "Chassez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Chercher": {
     "translation": "To look for - To search",
@@ -6153,7 +6228,8 @@
       "Cherchons !",
       "Cherchez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Choisir": {
     "translation": "To choose",
@@ -6234,7 +6310,8 @@
       "Choisissons !",
       "Choisissez !"
     ],
-    "group": "2"
+    "group": "2",
+    "model": "IR"
   },
   "Chuchoter": {
     "translation": "To whisper",
@@ -6315,7 +6392,8 @@
       "Chuchotons !",
       "Chuchotez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Coller": {
     "translation": "To stick",
@@ -6396,7 +6474,8 @@
       "Collons !",
       "Collez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Combattre": {
     "translation": "To combat",
@@ -6477,7 +6556,8 @@
       "Battons !",
       "Battez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "BATTRE"
   },
   "Commander": {
     "translation": "To order",
@@ -6558,7 +6638,8 @@
       "Commandons !",
       "Commandez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Commencer": {
     "translation": "To begin - To start",
@@ -6639,7 +6720,8 @@
       "Plaçons !",
       "Commencez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "CER"
   },
   "Comparaître": {
     "translation": "To appear",
@@ -6720,7 +6802,8 @@
       "Connaissons !",
       "Connaissez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "AÎTRE"
   },
   "Comparer": {
     "translation": "To compare",
@@ -6801,7 +6884,8 @@
       "Comparons !",
       "Comparez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Compléter": {
     "translation": "To complete",
@@ -6882,7 +6966,8 @@
       "Complétons !",
       "Complétez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ÉTER"
   },
   "Comprendre": {
     "translation": "To understand",
@@ -6963,7 +7048,8 @@
       "Prenons !",
       "Prenez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "PRENDRE"
   },
   "Compter": {
     "translation": "To count - To intend",
@@ -7044,7 +7130,8 @@
       "Comptons !",
       "Comptez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Concerner": {
     "translation": "To concern",
@@ -7125,7 +7212,8 @@
       "Concernons !",
       "Concernez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Concevoir": {
     "translation": "To conceive",
@@ -7206,7 +7294,8 @@
       "Concevons !",
       "Décevez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "CEVOIR"
   },
   "Conclure": {
     "translation": "To conclude",
@@ -7287,7 +7376,8 @@
       "Concluons !",
       "Concluez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "URE"
   },
   "Conduire": {
     "translation": "To drive",
@@ -7368,7 +7458,8 @@
       "Conduisons !",
       "Conduisez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "UIRE"
   },
   "Confondre": {
     "translation": "To confuse",
@@ -7449,7 +7540,8 @@
       "Confondons !",
       "Confondez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "DRE"
   },
   "Connaître": {
     "translation": "To know",
@@ -7530,7 +7622,8 @@
       "Connaissons !",
       "Connaissez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "AÎTRE"
   },
   "Conquérir": {
     "translation": "To conquer",
@@ -7611,7 +7704,8 @@
       "Conquérons !",
       "Conquérez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "ÉRIR"
   },
   "Conseiller": {
     "translation": "To recommend",
@@ -7692,7 +7786,8 @@
       "Conseillons !",
       "Conseillez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Consentir": {
     "translation": "To consent",
@@ -7773,7 +7868,8 @@
       "Consentons !",
       "Consentez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "TIR"
   },
   "Considérer": {
     "translation": "To consider",
@@ -7854,7 +7950,8 @@
       "Considérons !",
       "Considérez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ÉRER"
   },
   "Consommer": {
     "translation": "To consume",
@@ -7935,7 +8032,8 @@
       "Consommons !",
       "Consommez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Construire": {
     "translation": "To build -",
@@ -8016,7 +8114,8 @@
       "Construisons !",
       "Construisez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "UIRE"
   },
   "Contenir": {
     "translation": "To contain -",
@@ -8097,7 +8196,8 @@
       "Concontenons !",
       "Concontenez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "ENIR"
   },
   "Continuer": {
     "translation": "To continue",
@@ -8178,7 +8278,8 @@
       "Continuons !",
       "Continuez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Contraindre": {
     "translation": "To compel",
@@ -8259,7 +8360,8 @@
       "Craignons !",
       "Craignez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "AINDRE"
   },
   "Contredire": {
     "translation": "To contradict",
@@ -8340,7 +8442,8 @@
       "Disons !",
       "Dites !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "DIRE"
   },
   "Contrevenir": {
     "translation": "To contravene",
@@ -8421,7 +8524,8 @@
       "Contrevenons !",
       "Contrevenez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "ENIR"
   },
   "Contrôler": {
     "translation": "To control",
@@ -8502,7 +8606,8 @@
       "Contrôlons !",
       "Contrôlez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Convaincre": {
     "translation": "To convince",
@@ -8583,7 +8688,8 @@
       "Vainquons !",
       "Vainquez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "VAINCRE"
   },
   "Convenir": {
     "translation": "To suit",
@@ -8664,7 +8770,8 @@
       "Convenons !",
       "Convenez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "ENIR"
   },
   "Correspondre": {
     "translation": "To correspond",
@@ -8745,7 +8852,8 @@
       "Correspondons !",
       "Correspondez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "DRE"
   },
   "Corriger": {
     "translation": "To correct",
@@ -8826,7 +8934,8 @@
       "Corrigeons !",
       "Corrigez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "GER"
   },
   "Coucher": {
     "translation": "To put to bed",
@@ -8907,7 +9016,8 @@
       "Couchons !",
       "Couchez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Coudre": {
     "translation": "To sew",
@@ -8988,7 +9098,8 @@
       "Cousons !",
       "Cousez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "COUDRE"
   },
   "Couper": {
     "translation": "To cut",
@@ -9069,7 +9180,8 @@
       "Coupons !",
       "Coupez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Courir": {
     "translation": "To run",
@@ -9150,7 +9262,8 @@
       "Courons !",
       "Courez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "COURIR"
   },
   "Couvrir": {
     "translation": "To cover",
@@ -9231,7 +9344,8 @@
       "Ccouvrez !",
       "Ccouvrons !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "VRIR"
   },
   "Coûter": {
     "translation": "To cost",
@@ -9312,7 +9426,8 @@
       "Coûtons !",
       "Coûtez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Craindre": {
     "translation": "To fear",
@@ -9393,7 +9508,8 @@
       "Craignons !",
       "Craignez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "AINDRE"
   },
   "Crier": {
     "translation": "To shout",
@@ -9474,7 +9590,8 @@
       "Crions !",
       "Criez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Croire": {
     "translation": "To believe",
@@ -9555,7 +9672,8 @@
       "Croyons !",
       "Croyez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "CROIRE"
   },
   "Créer": {
     "translation": "To create",
@@ -9636,7 +9754,8 @@
       "Créons !",
       "Créez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "CRÉER"
   },
   "Cueillir": {
     "translation": "To pick",
@@ -9717,7 +9836,8 @@
       "Cueillons !",
       "Cueillez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "CUEILLIR"
   },
   "Cuire": {
     "translation": "To cook",
@@ -9798,7 +9918,8 @@
       "Cuisons !",
       "Cuisez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "UIRE"
   },
   "Culpabiliser": {
     "translation": "To make one feel",
@@ -9879,7 +10000,8 @@
       "Culpabilisons !",
       "Culpabilisez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Céder": {
     "translation": "To give",
@@ -9960,7 +10082,8 @@
       "Cédons !",
       "Cédez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ÉDER"
   },
   "Célébrer": {
     "translation": "To celebrate",
@@ -10041,7 +10164,8 @@
       "Célébrons !",
       "Célébrez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Danser": {
     "translation": "To dance",
@@ -10122,7 +10246,8 @@
       "Dansons !",
       "Dansez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Demander": {
     "translation": "To ask",
@@ -10203,7 +10328,8 @@
       "Demandons !",
       "Demandez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Demeurer": {
     "translation": "To live - To stay",
@@ -10284,7 +10410,8 @@
       "Demeurons !",
       "Demeurez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Descendre": {
     "translation": "To go down -",
@@ -10365,7 +10492,8 @@
       "Descendons !",
       "Descendez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "DRE"
   },
   "Dessiner": {
     "translation": "To draw",
@@ -10446,7 +10574,8 @@
       "Dessinons !",
       "Dessinez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Devenir": {
     "translation": "To become",
@@ -10527,7 +10656,8 @@
       "Devenons !",
       "Devenez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "ENIR"
   },
   "Deviner": {
     "translation": "To guess",
@@ -10608,7 +10738,8 @@
       "Devinons !",
       "Devinez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Devoir": {
     "translation": "To have to",
@@ -10689,7 +10820,8 @@
       "Devons !",
       "Devez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "DEVOIR"
   },
   "Diminuer": {
     "translation": "To diminish",
@@ -10770,7 +10902,8 @@
       "Diminuons !",
       "Diminuez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Dire": {
     "translation": "To say / To tell",
@@ -10851,7 +10984,8 @@
       "Disons !",
       "Dites !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "DIRE"
   },
   "Diriger": {
     "translation": "To direct",
@@ -10932,7 +11066,8 @@
       "Dirigeons !",
       "Dirigez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "GER"
   },
   "Discuter": {
     "translation": "To discuss",
@@ -11013,7 +11148,8 @@
       "Discutons !",
       "Discutez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Disparaître": {
     "translation": "To disappear",
@@ -11094,7 +11230,8 @@
       "Connaissons !",
       "Connaissez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "AÎTRE"
   },
   "Dissoudre": {
     "translation": "To dissolve",
@@ -11175,7 +11312,8 @@
       "Résolvons !",
       "Résolvez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "SOUDRE"
   },
   "Divorcer": {
     "translation": "To divorce",
@@ -11256,7 +11394,8 @@
       "Plaçons !",
       "Divorcez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "CER"
   },
   "Donner": {
     "translation": "To give",
@@ -11337,7 +11476,8 @@
       "Donnons !",
       "Donnez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Dormir": {
     "translation": "To sleep",
@@ -11418,7 +11558,8 @@
       "Dormons !",
       "Dormez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "DORMIR"
   },
   "Doubler": {
     "translation": "To double",
@@ -11499,7 +11640,8 @@
       "Doublons !",
       "Doublez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Douter": {
     "translation": "To doubt",
@@ -11580,7 +11722,8 @@
       "Doutons !",
       "Doutez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Décevoir": {
     "translation": "To disappoint",
@@ -11661,7 +11804,8 @@
       "Décevons !",
       "Décevez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "CEVOIR"
   },
   "Déchirer": {
     "translation": "To rip",
@@ -11742,7 +11886,8 @@
       "Déchirons !",
       "Déchirez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Décider": {
     "translation": "To decide",
@@ -11823,7 +11968,8 @@
       "Décidons !",
       "Décidez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Décourager": {
     "translation": "To discourage",
@@ -11904,7 +12050,8 @@
       "Décourageons !",
       "Découragez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "GER"
   },
   "Découvrir": {
     "translation": "To discover",
@@ -11985,7 +12132,8 @@
       "Décdécouvrez !",
       "Décdécouvrons !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "VRIR"
   },
   "Décrire": {
     "translation": "To describe",
@@ -12066,7 +12214,8 @@
       "Écrivons !",
       "Écrivez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "ÉCRIRE"
   },
   "Défaire": {
     "translation": "To undo",
@@ -12147,7 +12296,8 @@
       "Faisons !",
       "Faites !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "FAIRE"
   },
   "Défendre": {
     "translation": "To defend",
@@ -12228,7 +12378,8 @@
       "Défendons !",
       "Défendez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "DRE"
   },
   "Dégager": {
     "translation": "To free",
@@ -12309,7 +12460,8 @@
       "Dégageons !",
       "Dégagez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "GER"
   },
   "Déjeuner": {
     "translation": "To have lunch",
@@ -12390,7 +12542,8 @@
       "Déjeunons !",
       "Déjeunez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Démolir": {
     "translation": "To demolish",
@@ -12471,7 +12624,8 @@
       "Démolissons !",
       "Démolissez !"
     ],
-    "group": "2"
+    "group": "2",
+    "model": "IR"
   },
   "Déménager": {
     "translation": "To move",
@@ -12552,7 +12706,8 @@
       "Déménageons !",
       "Déménagez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "GER"
   },
   "Dénoncer": {
     "translation": "To denounce",
@@ -12633,7 +12788,8 @@
       "Plaçons !",
       "Dénoncez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "CER"
   },
   "Dépasser": {
     "translation": "To exceed",
@@ -12714,7 +12870,8 @@
       "Dépassons !",
       "Dépassez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Dépendre": {
     "translation": "To depend",
@@ -12795,7 +12952,8 @@
       "Dépendons !",
       "Dépendez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "DRE"
   },
   "Dépenser": {
     "translation": "To spend",
@@ -12876,7 +13034,8 @@
       "Dépensons !",
       "Dépensez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Déplaire": {
     "translation": "To displease",
@@ -12957,7 +13116,8 @@
       "Déplaisons !",
       "Déplaisez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "DÉPLAIRE"
   },
   "Dépêcher": {
     "translation": "To hurry",
@@ -13038,7 +13198,8 @@
       "Dépêchons !",
       "Dépêchez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Déranger": {
     "translation": "To disturb",
@@ -13119,7 +13280,8 @@
       "Dérangeons !",
       "Dérangez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "GER"
   },
   "Désirer": {
     "translation": "To desire - To wish",
@@ -13200,7 +13362,8 @@
       "Désirons !",
       "Désirez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Désobéir": {
     "translation": "To disobey",
@@ -13281,7 +13444,8 @@
       "Désobéissons !",
       "Désobéissez !"
     ],
-    "group": "2"
+    "group": "2",
+    "model": "IR"
   },
   "Détenir": {
     "translation": "To hold",
@@ -13362,7 +13526,8 @@
       "Dédétenons !",
       "Dédétenez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "ENIR"
   },
   "Détester": {
     "translation": "To hate",
@@ -13443,7 +13608,8 @@
       "Détestons !",
       "Détestez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Détourner": {
     "translation": "To divert",
@@ -13524,7 +13690,8 @@
       "Détournons !",
       "Détournez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Développer": {
     "translation": "To develop",
@@ -13605,7 +13772,8 @@
       "Développons !",
       "Développez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Dévêtir": {
     "translation": "To undress",
@@ -13686,7 +13854,8 @@
       "Dévêtons !",
       "Dévêtez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "TIR"
   },
   "Dîner": {
     "translation": "To have dinner",
@@ -13767,7 +13936,8 @@
       "Dînons !",
       "Dînez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Effacer": {
     "translation": "To erase - To delete",
@@ -13848,7 +14018,8 @@
       "Plaçons !",
       "Effacez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "CER"
   },
   "Effrayer": {
     "translation": "To frighten",
@@ -13929,7 +14100,8 @@
       "Effrayons !",
       "Effrayez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "YER"
   },
   "Embrasser": {
     "translation": "To kiss - To embrace",
@@ -14010,7 +14182,8 @@
       "Embrassons !",
       "Embrassez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Emmener": {
     "translation": "To take",
@@ -14091,7 +14264,8 @@
       "Emmenons !",
       "Emmenez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ENER"
   },
   "Employer": {
     "translation": "To employ - To use",
@@ -14172,7 +14346,8 @@
       "Employons !",
       "Employez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "YER"
   },
   "Emprunter": {
     "translation": "To borrow",
@@ -14253,7 +14428,8 @@
       "Empruntons !",
       "Empruntez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Empêcher": {
     "translation": "To prevent",
@@ -14334,7 +14510,8 @@
       "Empêchons !",
       "Empêchez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Encourager": {
     "translation": "To encourage",
@@ -14415,7 +14592,8 @@
       "Encourageons !",
       "Encouragez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "GER"
   },
   "Endormir": {
     "translation": "To fall asleep",
@@ -14496,7 +14674,8 @@
       "Dormons !",
       "Dormez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "DORMIR"
   },
   "Enduire": {
     "translation": "To coat",
@@ -14577,7 +14756,8 @@
       "Enduisons !",
       "Enduisez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "UIRE"
   },
   "Engager": {
     "translation": "To engage",
@@ -14658,7 +14838,8 @@
       "Engageons !",
       "Engagez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "GER"
   },
   "Enlever": {
     "translation": "To remove",
@@ -14739,7 +14920,8 @@
       "Enlevons !",
       "Enlevez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "EVER"
   },
   "Ennuyer": {
     "translation": "To bore - To annoy",
@@ -14820,7 +15002,8 @@
       "Ennuyons !",
       "Ennuyez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "YER"
   },
   "Enregistrer": {
     "translation": "To record - To save",
@@ -14901,7 +15084,8 @@
       "Enregistrons !",
       "Enregistrez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Enseigner": {
     "translation": "To teach",
@@ -14982,7 +15166,8 @@
       "Enseignons !",
       "Enseignez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Entendre": {
     "translation": "To hear",
@@ -15063,7 +15248,8 @@
       "Entendons !",
       "Entendez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "DRE"
   },
   "Enterrer": {
     "translation": "To burry",
@@ -15144,7 +15330,8 @@
       "Enterrons !",
       "Enterrez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Entraîner": {
     "translation": "To train - To cause",
@@ -15225,7 +15412,8 @@
       "Entraînons !",
       "Entraînez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Entreprendre": {
     "translation": "To undertake",
@@ -15306,7 +15494,8 @@
       "Prenons !",
       "Prenez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "PRENDRE"
   },
   "Entrer": {
     "translation": "To enter",
@@ -15387,7 +15576,8 @@
       "Entrons !",
       "Entrez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Entretenir": {
     "translation": "To look after",
@@ -15468,7 +15658,8 @@
       "Entreentretenons !",
       "Entreentretenez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "ENIR"
   },
   "Envoyer": {
     "translation": "To send",
@@ -15549,7 +15740,8 @@
       "Envoyons !",
       "Envoyez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "YER"
   },
   "Espérer": {
     "translation": "To hope",
@@ -15630,7 +15822,8 @@
       "Espérons !",
       "Espérez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ÉRER"
   },
   "Essayer": {
     "translation": "To try",
@@ -15711,7 +15904,8 @@
       "Essayons !",
       "Essayez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "YER"
   },
   "Essuyer": {
     "translation": "To wipe",
@@ -15792,7 +15986,8 @@
       "Essuyons !",
       "Essuyez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "YER"
   },
   "Exagérer": {
     "translation": "To exaggerate",
@@ -15873,7 +16068,8 @@
       "Exagérons !",
       "Exagérez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ÉRER"
   },
   "Excuser": {
     "translation": "To excuse",
@@ -15954,7 +16150,8 @@
       "Excusons !",
       "Excusez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Exiger": {
     "translation": "To demand",
@@ -16035,7 +16232,8 @@
       "Exigeons !",
       "Exigez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "GER"
   },
   "Exister": {
     "translation": "To exist",
@@ -16116,7 +16314,8 @@
       "Existons !",
       "Existez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Expliquer": {
     "translation": "To explain",
@@ -16197,7 +16396,8 @@
       "Expliquons !",
       "Expliquez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Explorer": {
     "translation": "To explore",
@@ -16278,7 +16478,8 @@
       "Explorons !",
       "Explorez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Exprimer": {
     "translation": "To express",
@@ -16359,7 +16560,8 @@
       "Exprimons !",
       "Exprimez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Faire": {
     "translation": "To do / To make",
@@ -16440,7 +16642,8 @@
       "Faisons !",
       "Faites !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "FAIRE"
   },
   "Falloir": {
     "translation": "To be necessary (il faut)",
@@ -16474,7 +16677,8 @@
     ],
     "Conditionnel passé": [
       "Il aurait fallu"
-    ]
+    ],
+    "model": "FALLOIR"
   },
   "Fermer": {
     "translation": "To close",
@@ -16555,7 +16759,8 @@
       "Fermons !",
       "Fermez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Finir": {
     "translation": "To finish",
@@ -16636,7 +16841,8 @@
       "Finissons !",
       "Finissez !"
     ],
-    "group": "2"
+    "group": "2",
+    "model": "IR"
   },
   "Fixer": {
     "translation": "To fix",
@@ -16717,7 +16923,8 @@
       "Fixons !",
       "Fixez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Fonder": {
     "translation": "To found",
@@ -16798,7 +17005,8 @@
       "Fondons !",
       "Fondez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Fondre": {
     "translation": "To melt",
@@ -16879,7 +17087,8 @@
       "Fondons !",
       "Fondez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "DRE"
   },
   "Forcer": {
     "translation": "To force",
@@ -16960,7 +17169,8 @@
       "Plaçons !",
       "Forcez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "CER"
   },
   "Fouiller": {
     "translation": "To search",
@@ -17041,7 +17251,8 @@
       "Fouillons !",
       "Fouillez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Fournir": {
     "translation": "To provide",
@@ -17122,7 +17333,8 @@
       "Fournissons !",
       "Fournissez !"
     ],
-    "group": "2"
+    "group": "2",
+    "model": "IR"
   },
   "Frapper": {
     "translation": "To knock - To hit",
@@ -17203,7 +17415,8 @@
       "Frappons !",
       "Frappez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Fuir": {
     "translation": "To flee",
@@ -17284,7 +17497,8 @@
       "Fuyons !",
       "Fuyez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "FUIR"
   },
   "Fumer": {
     "translation": "To smoke",
@@ -17365,7 +17579,8 @@
       "Fumons !",
       "Fumez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Féliciter": {
     "translation": "To congratulate",
@@ -17446,7 +17661,8 @@
       "Félicitons !",
       "Félicitez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Gagner": {
     "translation": "To win - To earn -",
@@ -17527,7 +17743,8 @@
       "Gagnons !",
       "Gagnez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Garder": {
     "translation": "To keep",
@@ -17608,7 +17825,8 @@
       "Gardons !",
       "Gardez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Gaspiller": {
     "translation": "To waste",
@@ -17689,7 +17907,8 @@
       "Gaspillons !",
       "Gaspillez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Geler": {
     "translation": "To freeze",
@@ -17770,7 +17989,8 @@
       "Gelons !",
       "Gelez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ELER"
   },
   "Goûter": {
     "translation": "To taste",
@@ -17851,7 +18071,8 @@
       "Goûtons !",
       "Goûtez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Grandir": {
     "translation": "To grow up",
@@ -17932,7 +18153,8 @@
       "Grandissons !",
       "Grandissez !"
     ],
-    "group": "2"
+    "group": "2",
+    "model": "IR"
   },
   "Gratter": {
     "translation": "To scratch",
@@ -18013,7 +18235,8 @@
       "Grattons !",
       "Grattez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Grimper": {
     "translation": "To climb",
@@ -18094,7 +18317,8 @@
       "Grimpons !",
       "Grimpez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Guérir": {
     "translation": "To heal",
@@ -18175,7 +18399,8 @@
       "Guérissons !",
       "Guérissez !"
     ],
-    "group": "2"
+    "group": "2",
+    "model": "IR"
   },
   "Gérer": {
     "translation": "To manage",
@@ -18256,7 +18481,8 @@
       "Gérons !",
       "Gérez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ÉRER"
   },
   "Habiller": {
     "translation": "To dress",
@@ -18337,7 +18563,8 @@
       "Habillons !",
       "Habillez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Habiter": {
     "translation": "To live",
@@ -18418,7 +18645,8 @@
       "Habitons !",
       "Habitez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Haïr": {
     "translation": "To hate",
@@ -18499,7 +18727,8 @@
       "Haïssons !",
       "Haïssez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "HAÏR"
   },
   "Hésiter": {
     "translation": "To hesitate",
@@ -18580,7 +18809,8 @@
       "Hésitons !",
       "Hésitez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Ignorer": {
     "translation": "To ignore",
@@ -18661,7 +18891,8 @@
       "Ignorons !",
       "Ignorez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Importer": {
     "translation": "To import",
@@ -18742,7 +18973,8 @@
       "Importons !",
       "Importez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Indiquer": {
     "translation": "To indicate",
@@ -18823,7 +19055,8 @@
       "Indiquons !",
       "Indiquez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Informer": {
     "translation": "To inform",
@@ -18904,7 +19137,8 @@
       "Informons !",
       "Informez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Inquiéter": {
     "translation": "To worry",
@@ -18985,7 +19219,8 @@
       "Inquiétons !",
       "Inquiétez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ÉTER"
   },
   "Inscrire": {
     "translation": "To write down",
@@ -19066,7 +19301,8 @@
       "Écrivons !",
       "Écrivez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "ÉCRIRE"
   },
   "Insister": {
     "translation": "To insist",
@@ -19147,7 +19383,8 @@
       "Insistons !",
       "Insistez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Interdire": {
     "translation": "To forbid",
@@ -19228,7 +19465,8 @@
       "Disons !",
       "Dites !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "DIRE"
   },
   "Interroger": {
     "translation": "To interrogate -",
@@ -19309,7 +19547,8 @@
       "Interrogeons !",
       "Interrogez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "GER"
   },
   "Intervenir": {
     "translation": "To intervene",
@@ -19390,7 +19629,8 @@
       "Intervenons !",
       "Intervenez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "ENIR"
   },
   "Introduire": {
     "translation": "To introduce",
@@ -19471,7 +19711,8 @@
       "Introduisons !",
       "Introduisez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "UIRE"
   },
   "Intéresser": {
     "translation": "To interest",
@@ -19552,7 +19793,8 @@
       "Intéressons !",
       "Intéressez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Inventer": {
     "translation": "To invent",
@@ -19633,7 +19875,8 @@
       "Inventons !",
       "Inventez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Inviter": {
     "translation": "To invite",
@@ -19714,7 +19957,8 @@
       "Invitons !",
       "Invitez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Jaunir": {
     "translation": "To turn yellow",
@@ -19795,7 +20039,8 @@
       "Jaunissons !",
       "Jaunissez !"
     ],
-    "group": "2"
+    "group": "2",
+    "model": "IR"
   },
   "Jeter": {
     "translation": "To throw",
@@ -19876,7 +20121,8 @@
       "Jetons !",
       "Jetez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "JETER"
   },
   "Jouer": {
     "translation": "To play",
@@ -19957,7 +20203,8 @@
       "Jouons !",
       "Jouez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Jouir": {
     "translation": "To enjoy",
@@ -20038,7 +20285,8 @@
       "Jouissons !",
       "Jouissez !"
     ],
-    "group": "2"
+    "group": "2",
+    "model": "IR"
   },
   "Juger": {
     "translation": "To judge",
@@ -20119,7 +20367,8 @@
       "Jugeons !",
       "Jugez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "GER"
   },
   "Jurer": {
     "translation": "To swear - To vow",
@@ -20200,7 +20449,8 @@
       "Jurons !",
       "Jurez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Klaxonner": {
     "translation": "To honk",
@@ -20281,7 +20531,8 @@
       "Klaxonnons !",
       "Klaxonnez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Laisser": {
     "translation": "To leave",
@@ -20362,7 +20613,8 @@
       "Laissons !",
       "Laissez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Lancer": {
     "translation": "To throw",
@@ -20443,7 +20695,8 @@
       "Plaçons !",
       "Lancez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "CER"
   },
   "Laver": {
     "translation": "To wash",
@@ -20524,7 +20777,8 @@
       "Lavons !",
       "Lavez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Lever": {
     "translation": "To lift - To stand",
@@ -20605,7 +20859,8 @@
       "Levons !",
       "Levez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "EVER"
   },
   "Lire": {
     "translation": "To read",
@@ -20686,7 +20941,8 @@
       "Lisons !",
       "Lisez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "LIRE"
   },
   "Loger": {
     "translation": "To lodge",
@@ -20767,7 +21023,8 @@
       "Logeons !",
       "Logez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "GER"
   },
   "Louer": {
     "translation": "To rent",
@@ -20848,7 +21105,8 @@
       "Louons !",
       "Louez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Maigrir": {
     "translation": "To lose weight",
@@ -20929,7 +21187,8 @@
       "Maigrissons !",
       "Maigrissez !"
     ],
-    "group": "2"
+    "group": "2",
+    "model": "IR"
   },
   "Manger": {
     "translation": "To eat",
@@ -21010,7 +21269,8 @@
       "Mangeons !",
       "Mangez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "GER"
   },
   "Manquer": {
     "translation": "To miss",
@@ -21091,7 +21351,8 @@
       "Manquons !",
       "Manquez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Marcher": {
     "translation": "To walk",
@@ -21172,7 +21433,8 @@
       "Marchons !",
       "Marchez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Menacer": {
     "translation": "To threaten",
@@ -21253,7 +21515,8 @@
       "Plaçons !",
       "Menacez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "CER"
   },
   "Mener": {
     "translation": "To lead",
@@ -21334,7 +21597,8 @@
       "Menons !",
       "Menez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ENER"
   },
   "Mentir": {
     "translation": "To lie",
@@ -21415,7 +21679,8 @@
       "Mentons !",
       "Mentez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "TIR"
   },
   "Mesurer": {
     "translation": "To measure",
@@ -21496,7 +21761,8 @@
       "Mesurons !",
       "Mesurez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Mettre": {
     "translation": "To put",
@@ -21577,7 +21843,8 @@
       "Mettons !",
       "Mettez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "METTRE"
   },
   "Monter": {
     "translation": "To climb - To go up",
@@ -21658,7 +21925,8 @@
       "Montons !",
       "Montez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Montrer": {
     "translation": "To show",
@@ -21739,7 +22007,8 @@
       "Montrons !",
       "Montrez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Moquer": {
     "translation": "To mock",
@@ -21820,7 +22089,8 @@
       "Moquons !",
       "Moquez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Mourir": {
     "translation": "To die",
@@ -21901,7 +22171,8 @@
       "Mourons !",
       "Mourez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "MOURIR"
   },
   "Mélanger": {
     "translation": "To mix",
@@ -21982,7 +22253,8 @@
       "Mélangeons !",
       "Mélangez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "GER"
   },
   "Mériter": {
     "translation": "To merit",
@@ -22063,7 +22335,8 @@
       "Méritons !",
       "Méritez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Nager": {
     "translation": "To swim",
@@ -22144,7 +22417,8 @@
       "Nageons !",
       "Nagez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "GER"
   },
   "Naître": {
     "translation": "To be born",
@@ -22225,7 +22499,8 @@
       "Naissons !",
       "Naissez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "NAÎTRE"
   },
   "Neiger": {
     "translation": "To snow",
@@ -22306,7 +22581,8 @@
       "Neigeons !",
       "Neigez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "GER"
   },
   "Nettoyer": {
     "translation": "To clean",
@@ -22387,7 +22663,8 @@
       "Nettoyons !",
       "Nettoyez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "YER"
   },
   "Nier": {
     "translation": "To deny",
@@ -22468,7 +22745,8 @@
       "Nions !",
       "Niez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Nommer": {
     "translation": "To name - To appoint",
@@ -22549,7 +22827,8 @@
       "Nommons !",
       "Nommez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Noter": {
     "translation": "To write down",
@@ -22630,7 +22909,8 @@
       "Notons !",
       "Notez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Nourrir": {
     "translation": "To feed",
@@ -22711,7 +22991,8 @@
       "Nourrissons !",
       "Nourrissez !"
     ],
-    "group": "2"
+    "group": "2",
+    "model": "IR"
   },
   "Négocier": {
     "translation": "To negociate",
@@ -22792,7 +23073,8 @@
       "Négocions !",
       "Négociez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Obliger": {
     "translation": "To force",
@@ -22873,7 +23155,8 @@
       "Obligeons !",
       "Obligez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "GER"
   },
   "Obtenir": {
     "translation": "To obtain - To get",
@@ -22954,7 +23237,8 @@
       "Obobtenons !",
       "Obobtenez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "ENIR"
   },
   "Obéir": {
     "translation": "To obey",
@@ -23035,7 +23319,8 @@
       "Obéissons !",
       "Obéissez !"
     ],
-    "group": "2"
+    "group": "2",
+    "model": "IR"
   },
   "Occuper": {
     "translation": "To occupy",
@@ -23116,7 +23401,8 @@
       "Occupons !",
       "Occupez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Offrir": {
     "translation": "To offer",
@@ -23197,7 +23483,8 @@
       "Offrons !",
       "Offrez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "FRIR"
   },
   "Oublier": {
     "translation": "To forget",
@@ -23278,7 +23565,8 @@
       "Oublions !",
       "Oubliez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Ouvrir": {
     "translation": "To open",
@@ -23359,7 +23647,8 @@
       "Ouvrez !",
       "Ouvrons !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "VRIR"
   },
   "Parcourir": {
     "translation": "To cover - To travel",
@@ -23440,7 +23729,8 @@
       "Courons !",
       "Courez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "COURIR"
   },
   "Pardonner": {
     "translation": "To forgive",
@@ -23521,7 +23811,8 @@
       "Pardonnons !",
       "Pardonnez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Parler": {
     "translation": "To speak - To talk",
@@ -23602,7 +23893,8 @@
       "Parlons !",
       "Parlez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Partager": {
     "translation": "To share",
@@ -23683,7 +23975,8 @@
       "Partageons !",
       "Partagez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "GER"
   },
   "Participer": {
     "translation": "To participate",
@@ -23764,7 +24057,8 @@
       "Participons !",
       "Participez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Partir": {
     "translation": "To leave",
@@ -23845,7 +24139,8 @@
       "Partons !",
       "Partez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "TIR"
   },
   "Parvenir": {
     "translation": "To reach",
@@ -23926,7 +24221,8 @@
       "Parvenons !",
       "Parvenez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "ENIR"
   },
   "Passer": {
     "translation": "To pass",
@@ -24007,7 +24303,8 @@
       "Passons !",
       "Passez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Payer": {
     "translation": "To pay",
@@ -24088,7 +24385,8 @@
       "Payons !",
       "Payez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "YER"
   },
   "Peigner": {
     "translation": "To comb",
@@ -24169,7 +24467,8 @@
       "Peignons !",
       "Peignez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Peindre": {
     "translation": "To paint",
@@ -24250,7 +24549,8 @@
       "Atteignons !",
       "Atteignez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "EINDRE"
   },
   "Pendre": {
     "translation": "To hang",
@@ -24331,7 +24631,8 @@
       "Pendons !",
       "Pendez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "DRE"
   },
   "Penser": {
     "translation": "To think",
@@ -24412,7 +24713,8 @@
       "Pensons !",
       "Pensez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Perdre": {
     "translation": "To lose",
@@ -24493,7 +24795,8 @@
       "Perdons !",
       "Perdez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "DRE"
   },
   "Permettre": {
     "translation": "To allow",
@@ -24574,7 +24877,8 @@
       "Mettons !",
       "Mettez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "METTRE"
   },
   "Persuader": {
     "translation": "To persuade",
@@ -24655,7 +24959,8 @@
       "Persuadons !",
       "Persuadez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Peser": {
     "translation": "To weigh",
@@ -24736,7 +25041,8 @@
       "Pesons !",
       "Pesez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ESER"
   },
   "Placer": {
     "translation": "To place",
@@ -24817,7 +25123,8 @@
       "Plaçons !",
       "Placez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "CER"
   },
   "Plaindre": {
     "translation": "To pity",
@@ -24898,7 +25205,8 @@
       "Craignons !",
       "Craignez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "AINDRE"
   },
   "Plaisanter": {
     "translation": "To joke",
@@ -24979,7 +25287,8 @@
       "Plaisantons !",
       "Plaisantez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Planter": {
     "translation": "To plant",
@@ -25060,7 +25369,8 @@
       "Plantons !",
       "Plantez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Pleurer": {
     "translation": "To cry",
@@ -25141,7 +25451,8 @@
       "Pleurons !",
       "Pleurez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Pleuvoir": {
     "translation": "To rain (il pleut)",
@@ -25175,7 +25486,8 @@
     ],
     "Conditionnel passé": [
       "Il aurait plu"
-    ]
+    ],
+    "model": "PLEUVOIR"
   },
   "Plier": {
     "translation": "To fold",
@@ -25256,7 +25568,8 @@
       "Plions !",
       "Pliez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Plonger": {
     "translation": "To dive",
@@ -25337,7 +25650,8 @@
       "Plongeons !",
       "Plongez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "GER"
   },
   "Porter": {
     "translation": "To carry - To wear",
@@ -25418,7 +25732,8 @@
       "Portons !",
       "Portez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Poser": {
     "translation": "To put down",
@@ -25499,7 +25814,8 @@
       "Posons !",
       "Posez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Posséder": {
     "translation": "To possess",
@@ -25580,7 +25896,8 @@
       "Possédons !",
       "Possédez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ÉDER"
   },
   "Poursuivre": {
     "translation": "To pursue",
@@ -25661,7 +25978,8 @@
       "Suivons !",
       "Suivez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "SUIVRE"
   },
   "Pousser": {
     "translation": "To push",
@@ -25742,7 +26060,8 @@
       "Poussons !",
       "Poussez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Pouvoir": {
     "translation": "To be able to - Can",
@@ -25823,7 +26142,8 @@
       "-",
       "-"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "POUVOIR"
   },
   "Prendre": {
     "translation": "To take",
@@ -25904,7 +26224,8 @@
       "Prenons !",
       "Prenez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "PRENDRE"
   },
   "Prier": {
     "translation": "To pray",
@@ -25985,7 +26306,8 @@
       "Prions !",
       "Priez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Produire": {
     "translation": "To produce",
@@ -26066,7 +26388,8 @@
       "Produisons !",
       "Produisez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "UIRE"
   },
   "Promener": {
     "translation": "To walk",
@@ -26147,7 +26470,8 @@
       "Promenons !",
       "Promenez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ENER"
   },
   "Promettre": {
     "translation": "To promise",
@@ -26228,7 +26552,8 @@
       "Mettons !",
       "Mettez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "METTRE"
   },
   "Prononcer": {
     "translation": "To pronounce",
@@ -26309,7 +26634,8 @@
       "Plaçons !",
       "Prononcez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "CER"
   },
   "Proposer": {
     "translation": "To suggest",
@@ -26390,7 +26716,8 @@
       "Proposons !",
       "Proposez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Protéger": {
     "translation": "To protect",
@@ -26471,7 +26798,8 @@
       "Protégeons !",
       "Protégez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "GER"
   },
   "Prouver": {
     "translation": "To prove",
@@ -26552,7 +26880,8 @@
       "Prouvons !",
       "Prouvez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Préférer": {
     "translation": "To prefer",
@@ -26633,7 +26962,8 @@
       "Préférons !",
       "Préférez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ÉRER"
   },
   "Préparer": {
     "translation": "To prepare",
@@ -26714,7 +27044,8 @@
       "Préparons !",
       "Préparez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Présenter": {
     "translation": "To present -",
@@ -26795,7 +27126,8 @@
       "Présentons !",
       "Présentez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Prévenir": {
     "translation": "To prevent",
@@ -26876,7 +27208,8 @@
       "Prévenons !",
       "Prévenez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "ENIR"
   },
   "Prêter": {
     "translation": "To lend",
@@ -26957,7 +27290,8 @@
       "Prêtons !",
       "Prêtez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Puer": {
     "translation": "To stink",
@@ -27038,7 +27372,8 @@
       "Puons !",
       "Puez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Pénétrer": {
     "translation": "To penetrate",
@@ -27119,7 +27454,8 @@
       "Pénétrons !",
       "Pénétrez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ÉTRER"
   },
   "Pêcher": {
     "translation": "To fish",
@@ -27200,7 +27536,8 @@
       "Pêchons !",
       "Pêchez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Quitter": {
     "translation": "To leave",
@@ -27281,7 +27618,8 @@
       "Quittons !",
       "Quittez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Raconter": {
     "translation": "To tell",
@@ -27362,7 +27700,8 @@
       "Racontons !",
       "Racontez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Ralentir": {
     "translation": "To slow down",
@@ -27443,7 +27782,8 @@
       "Ralentissons !",
       "Ralentissez !"
     ],
-    "group": "2"
+    "group": "2",
+    "model": "IR"
   },
   "Ranger": {
     "translation": "To tidy",
@@ -27524,7 +27864,8 @@
       "Rangeons !",
       "Rangez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "GER"
   },
   "Rappeler": {
     "translation": "To call back",
@@ -27605,7 +27946,8 @@
       "Appelons !",
       "Appelez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "APPELER"
   },
   "Rassurer": {
     "translation": "To reassure",
@@ -27686,7 +28028,8 @@
       "Rassurons !",
       "Rassurez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Recevoir": {
     "translation": "To receive",
@@ -27767,7 +28110,8 @@
       "Recevons !",
       "Décevez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "CEVOIR"
   },
   "Reconduire": {
     "translation": "To renew",
@@ -27848,7 +28192,8 @@
       "Rereconduisons !",
       "Rereconduisez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "UIRE"
   },
   "Reconnaître": {
     "translation": "To recognize",
@@ -27929,7 +28274,8 @@
       "Connaissons !",
       "Connaissez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "AÎTRE"
   },
   "Reconstruire": {
     "translation": "To rebuild",
@@ -28010,7 +28356,8 @@
       "Reconstruisons !",
       "Reconstruisez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "UIRE"
   },
   "Recourir": {
     "translation": "To resort",
@@ -28091,7 +28438,8 @@
       "Courons !",
       "Courez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "COURIR"
   },
   "Recouvrir": {
     "translation": "To cover",
@@ -28172,7 +28520,8 @@
       "Recrecouvrez !",
       "Recrecouvrons !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "VRIR"
   },
   "Recueillir": {
     "translation": "To collect - To gather",
@@ -28253,7 +28602,8 @@
       "Cueillons !",
       "Cueillez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "CUEILLIR"
   },
   "Redire": {
     "translation": "To repeat",
@@ -28334,7 +28684,8 @@
       "Disons !",
       "Dites !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "DIRE"
   },
   "Refaire": {
     "translation": "To redo",
@@ -28415,7 +28766,8 @@
       "Faisons !",
       "Faites !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "FAIRE"
   },
   "Refuser": {
     "translation": "To refuse",
@@ -28496,7 +28848,8 @@
       "Refusons !",
       "Refusez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Regarder": {
     "translation": "To look at",
@@ -28577,7 +28930,8 @@
       "Regardons !",
       "Regardez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Regretter": {
     "translation": "To regret",
@@ -28658,7 +29012,8 @@
       "Regrettons !",
       "Regrettez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Rejeter": {
     "translation": "To reject",
@@ -28739,7 +29094,8 @@
       "Je tons re!",
       "Je tez re!"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "JETER"
   },
   "Rejoindre": {
     "translation": "To join",
@@ -28820,7 +29176,8 @@
       "Rejoignons !",
       "Rejoignez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "OINDRE"
   },
   "Relever": {
     "translation": "To raise",
@@ -28901,7 +29258,8 @@
       "Relevons !",
       "Relevez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "EVER"
   },
   "Relire": {
     "translation": "To read over",
@@ -28982,7 +29340,8 @@
       "Lisons !",
       "Lisez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "LIRE"
   },
   "Remarquer": {
     "translation": "To notice",
@@ -29063,7 +29422,8 @@
       "Remarquons !",
       "Remarquez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Remercier": {
     "translation": "To thank",
@@ -29144,7 +29504,8 @@
       "Remercions !",
       "Remerciez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Remettre": {
     "translation": "To put back",
@@ -29225,7 +29586,8 @@
       "Mettons !",
       "Mettez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "METTRE"
   },
   "Remplacer": {
     "translation": "To replace",
@@ -29306,7 +29668,8 @@
       "Plaçons !",
       "Remremplacez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "CER"
   },
   "Remplir": {
     "translation": "To fill up",
@@ -29387,7 +29750,8 @@
       "Remplissons !",
       "Remplissez !"
     ],
-    "group": "2"
+    "group": "2",
+    "model": "IR"
   },
   "Rencontrer": {
     "translation": "To meet",
@@ -29468,7 +29832,8 @@
       "Rencontrons !",
       "Rencontrez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Rendre": {
     "translation": "To give back",
@@ -29549,7 +29914,8 @@
       "Rendons !",
       "Rendez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "DRE"
   },
   "Renoncer": {
     "translation": "To renounce",
@@ -29630,7 +29996,8 @@
       "Plaçons !",
       "Renoncez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "CER"
   },
   "Renouveler": {
     "translation": "To renew",
@@ -29711,7 +30078,8 @@
       "Renouvelons !",
       "Renouvelez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ELER"
   },
   "Rentrer": {
     "translation": "To return",
@@ -29792,7 +30160,8 @@
       "Rentrons !",
       "Rentrez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Renvoyer": {
     "translation": "To dismiss - To return",
@@ -29873,7 +30242,8 @@
       "Envoyons !",
       "Envoyez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ENVOYER"
   },
   "Repasser": {
     "translation": "To iron",
@@ -29954,7 +30324,8 @@
       "Repassons !",
       "Repassez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Reprendre": {
     "translation": "To take back",
@@ -30035,7 +30406,8 @@
       "Prenons !",
       "Prenez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "PRENDRE"
   },
   "Reproduire": {
     "translation": "To reproduce",
@@ -30116,7 +30488,8 @@
       "Reproduisons !",
       "Reproduisez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "UIRE"
   },
   "Représenter": {
     "translation": "To represent",
@@ -30197,7 +30570,8 @@
       "Représentons !",
       "Représentez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Ressembler": {
     "translation": "To look like",
@@ -30278,7 +30652,8 @@
       "Ressemblons !",
       "Ressemblez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Ressentir": {
     "translation": "To feel",
@@ -30359,7 +30734,8 @@
       "Ressentons !",
       "Ressentez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "TIR"
   },
   "Rester": {
     "translation": "To stay",
@@ -30440,7 +30816,8 @@
       "Restons !",
       "Restez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Retenir": {
     "translation": "To retain",
@@ -30521,7 +30898,8 @@
       "Reretenons !",
       "Reretenez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "ENIR"
   },
   "Retourner": {
     "translation": "To return",
@@ -30602,7 +30980,8 @@
       "Retournons !",
       "Retournez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Retrouver": {
     "translation": "To find",
@@ -30683,7 +31062,8 @@
       "Retrouvons !",
       "Retrouvez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Revenir": {
     "translation": "To come back",
@@ -30764,7 +31144,8 @@
       "Revenons !",
       "Revenez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "ENIR"
   },
   "Revoir": {
     "translation": "To see again",
@@ -30845,7 +31226,8 @@
       "Voyons !",
       "Voyez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "VOIR"
   },
   "Revêtir": {
     "translation": "To dress up",
@@ -30926,7 +31308,8 @@
       "Revêtons !",
       "Revêtez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "TIR"
   },
   "Rire": {
     "translation": "To laugh",
@@ -31007,7 +31390,8 @@
       "Rions !",
       "Riez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "RIRE"
   },
   "Risquer": {
     "translation": "To risk",
@@ -31088,7 +31472,8 @@
       "Risquons !",
       "Risquez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Rougir": {
     "translation": "To blush",
@@ -31169,7 +31554,8 @@
       "Rougissons !",
       "Rougissez !"
     ],
-    "group": "2"
+    "group": "2",
+    "model": "IR"
   },
   "Rouler": {
     "translation": "To roll - To drive",
@@ -31250,7 +31636,8 @@
       "Roulons !",
       "Roulez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Rédiger": {
     "translation": "To write",
@@ -31331,7 +31718,8 @@
       "Rédigeons !",
       "Rédigez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "GER"
   },
   "Réduire": {
     "translation": "To reduce",
@@ -31412,7 +31800,8 @@
       "Réduisons !",
       "Réduisez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "UIRE"
   },
   "Réfléchir": {
     "translation": "To think",
@@ -31493,7 +31882,8 @@
       "Réfléchissons !",
       "Réfléchissez !"
     ],
-    "group": "2"
+    "group": "2",
+    "model": "IR"
   },
   "Réparer": {
     "translation": "To repair",
@@ -31574,7 +31964,8 @@
       "Réparons !",
       "Réparez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Répondre": {
     "translation": "To answer",
@@ -31655,7 +32046,8 @@
       "Répondons !",
       "Répondez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "DRE"
   },
   "Répéter": {
     "translation": "To repeat",
@@ -31736,7 +32128,8 @@
       "Répétons !",
       "Répétez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ÉTER"
   },
   "Résoudre": {
     "translation": "To resolve",
@@ -31817,7 +32210,8 @@
       "Résolvons !",
       "Résolvez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "SOUDRE"
   },
   "Réussir": {
     "translation": "To succeed",
@@ -31898,7 +32292,8 @@
       "Réussissons !",
       "Réussissez !"
     ],
-    "group": "2"
+    "group": "2",
+    "model": "IR"
   },
   "Réveiller": {
     "translation": "To wake up",
@@ -31979,7 +32374,8 @@
       "Réveillons !",
       "Réveillez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Rêver": {
     "translation": "To dream",
@@ -32060,7 +32456,8 @@
       "Rêvons !",
       "Rêvez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Saisir": {
     "translation": "To seize",
@@ -32141,7 +32538,8 @@
       "Saisissons !",
       "Saisissez !"
     ],
-    "group": "2"
+    "group": "2",
+    "model": "IR"
   },
   "Salir": {
     "translation": "To soil",
@@ -32222,7 +32620,8 @@
       "Salissons !",
       "Salissez !"
     ],
-    "group": "2"
+    "group": "2",
+    "model": "IR"
   },
   "Satisfaire": {
     "translation": "To satisfy",
@@ -32303,7 +32702,8 @@
       "Faisons !",
       "Faites !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "FAIRE"
   },
   "Sauter": {
     "translation": "To jump",
@@ -32384,7 +32784,8 @@
       "Sautons !",
       "Sautez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Sauver": {
     "translation": "To save",
@@ -32465,7 +32866,8 @@
       "Sauvons !",
       "Sauvez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Savoir": {
     "translation": "To know",
@@ -32546,7 +32948,8 @@
       "Sachons !",
       "Sachez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "SAVOIR"
   },
   "Secouer": {
     "translation": "To shake",
@@ -32627,7 +33030,8 @@
       "Secouons !",
       "Secouez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Secourir": {
     "translation": "To rescue",
@@ -32708,7 +33112,8 @@
       "Courons !",
       "Courez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "COURIR"
   },
   "Sembler": {
     "translation": "To seem",
@@ -32789,7 +33194,8 @@
       "Semblons !",
       "Semblez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Sentir": {
     "translation": "To feel - To smell",
@@ -32870,7 +33276,8 @@
       "Sentons !",
       "Sentez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "TIR"
   },
   "Servir": {
     "translation": "To serve",
@@ -32951,7 +33358,8 @@
       "Servons !",
       "Servez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "SERVIR"
   },
   "Siffler": {
     "translation": "To whistle",
@@ -33032,7 +33440,8 @@
       "Sifflons !",
       "Sifflez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Signaler": {
     "translation": "To signal",
@@ -33113,7 +33522,8 @@
       "Signalons !",
       "Signalez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Signer": {
     "translation": "To sign",
@@ -33194,7 +33604,8 @@
       "Signons !",
       "Signez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Signifier": {
     "translation": "To mean",
@@ -33275,7 +33686,8 @@
       "Signifions !",
       "Signifiez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Skier": {
     "translation": "To ski",
@@ -33356,7 +33768,8 @@
       "Skions !",
       "Skiez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Songer": {
     "translation": "To think",
@@ -33437,7 +33850,8 @@
       "Songeons !",
       "Songez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "GER"
   },
   "Sonner": {
     "translation": "To ring",
@@ -33518,7 +33932,8 @@
       "Sonnons !",
       "Sonnez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Sortir": {
     "translation": "To go out",
@@ -33599,7 +34014,8 @@
       "Sortons !",
       "Sortez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "TIR"
   },
   "Souffler": {
     "translation": "To blow",
@@ -33680,7 +34096,8 @@
       "Soufflons !",
       "Soufflez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Souffrir": {
     "translation": "To suffer",
@@ -33761,7 +34178,8 @@
       "Souffrons !",
       "Souffrez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "FRIR"
   },
   "Souhaiter": {
     "translation": "To wish",
@@ -33842,7 +34260,8 @@
       "Souhaitons !",
       "Souhaitez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Sourire": {
     "translation": "To smile",
@@ -33923,7 +34342,8 @@
       "Rions !",
       "Riez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "RIRE"
   },
   "Souscrire": {
     "translation": "To subscribe",
@@ -34004,7 +34424,8 @@
       "Écrivons !",
       "Écrivez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "ÉCRIRE"
   },
   "Soutenir": {
     "translation": "To support",
@@ -34085,7 +34506,8 @@
       "Sousoutenons !",
       "Sousoutenez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "ENIR"
   },
   "Subir": {
     "translation": "To undergo",
@@ -34166,7 +34588,8 @@
       "Subissons !",
       "Subissez !"
     ],
-    "group": "2"
+    "group": "2",
+    "model": "IR"
   },
   "Subvenir": {
     "translation": "To support",
@@ -34247,7 +34670,8 @@
       "Subvenons !",
       "Subvenez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "ENIR"
   },
   "Sucer": {
     "translation": "To suck",
@@ -34328,7 +34752,8 @@
       "Plaçons !",
       "Sucez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "CER"
   },
   "Suggérer": {
     "translation": "To suggest",
@@ -34409,7 +34834,8 @@
       "Suggérons !",
       "Suggérez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ÉRER"
   },
   "Suivre": {
     "translation": "To follow",
@@ -34490,7 +34916,8 @@
       "Suivons !",
       "Suivez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "SUIVRE"
   },
   "Supporter": {
     "translation": "To support",
@@ -34571,7 +34998,8 @@
       "Supportons !",
       "Supportez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Supposer": {
     "translation": "To suppose",
@@ -34652,7 +35080,8 @@
       "Supposons !",
       "Supposez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Surprendre": {
     "translation": "To surprise",
@@ -34733,7 +35162,8 @@
       "Prenons !",
       "Prenez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "PRENDRE"
   },
   "Survenir": {
     "translation": "To occur",
@@ -34814,7 +35244,8 @@
       "Survenons !",
       "Survenez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "ENIR"
   },
   "Survivre": {
     "translation": "To survive",
@@ -34895,7 +35326,8 @@
       "Vivons !",
       "Vivez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "VIVRE"
   },
   "Séduire": {
     "translation": "To seduce",
@@ -34976,7 +35408,8 @@
       "Séduisons !",
       "Séduisez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "UIRE"
   },
   "Séjourner": {
     "translation": "To stay",
@@ -35057,7 +35490,8 @@
       "Séjournons !",
       "Séjournez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Séparer": {
     "translation": "To separate",
@@ -35138,7 +35572,8 @@
       "Séparons !",
       "Séparez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Tendre": {
     "translation": "To tend",
@@ -35219,7 +35654,8 @@
       "Tendons !",
       "Tendez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "DRE"
   },
   "Tenir": {
     "translation": "To hold",
@@ -35300,7 +35736,8 @@
       "Tenons !",
       "Tenez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "ENIR"
   },
   "Tenter": {
     "translation": "To try",
@@ -35381,7 +35818,8 @@
       "Tentons !",
       "Tentez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Terminer": {
     "translation": "To end",
@@ -35462,7 +35900,8 @@
       "Terminons !",
       "Terminez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Tirer": {
     "translation": "To pull",
@@ -35543,7 +35982,8 @@
       "Tirons !",
       "Tirez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Tomber": {
     "translation": "To fall",
@@ -35624,7 +36064,8 @@
       "Tombons !",
       "Tombez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Tondre": {
     "translation": "To mow",
@@ -35705,7 +36146,8 @@
       "Tondons !",
       "Tondez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "DRE"
   },
   "Tordre": {
     "translation": "To twist",
@@ -35786,7 +36228,8 @@
       "Tordons !",
       "Tordez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "DRE"
   },
   "Toucher": {
     "translation": "To touch - To affect",
@@ -35867,7 +36310,8 @@
       "Touchons !",
       "Touchez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Tourner": {
     "translation": "To turn",
@@ -35948,7 +36392,8 @@
       "Tournons !",
       "Tournez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Tousser": {
     "translation": "To cough",
@@ -36029,7 +36474,8 @@
       "Toussons !",
       "Toussez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Tracer": {
     "translation": "To draw",
@@ -36110,7 +36556,8 @@
       "Plaçons !",
       "Tracez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "CER"
   },
   "Traduire": {
     "translation": "To translate",
@@ -36191,7 +36638,8 @@
       "Traduisons !",
       "Traduisez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "UIRE"
   },
   "Trahir": {
     "translation": "To betray",
@@ -36272,7 +36720,8 @@
       "Trahissons !",
       "Trahissez !"
     ],
-    "group": "2"
+    "group": "2",
+    "model": "IR"
   },
   "Traiter": {
     "translation": "To treat",
@@ -36353,7 +36802,8 @@
       "Traitons !",
       "Traitez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Transmettre": {
     "translation": "To transmit",
@@ -36434,7 +36884,8 @@
       "Mettons !",
       "Mettez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "METTRE"
   },
   "Travailler": {
     "translation": "To work",
@@ -36515,7 +36966,8 @@
       "Travaillons !",
       "Travaillez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Traverser": {
     "translation": "To cross",
@@ -36596,7 +37048,8 @@
       "Traversons !",
       "Traversez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Tromper": {
     "translation": "To mislead",
@@ -36677,7 +37130,8 @@
       "Trompons !",
       "Trompez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Trouver": {
     "translation": "To find",
@@ -36758,7 +37212,8 @@
       "Trouvons !",
       "Trouvez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Tuer": {
     "translation": "To kill",
@@ -36839,7 +37294,8 @@
       "Tuons !",
       "Tuez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Tutoyer": {
     "translation": "To use \"tu\"",
@@ -36920,7 +37376,8 @@
       "Tutoyons !",
       "Tutoyez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "YER"
   },
   "Téléphoner": {
     "translation": "To call",
@@ -37001,7 +37458,8 @@
       "Téléphonons !",
       "Téléphonez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Unir": {
     "translation": "To join",
@@ -37082,7 +37540,8 @@
       "Unissons !",
       "Unissez !"
     ],
-    "group": "2"
+    "group": "2",
+    "model": "IR"
   },
   "User": {
     "translation": "To wear out - To use",
@@ -37163,7 +37622,8 @@
       "Usons !",
       "Usez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Utiliser": {
     "translation": "To use",
@@ -37244,7 +37704,8 @@
       "Utilisons !",
       "Utilisez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Vaincre": {
     "translation": "To overcome",
@@ -37325,7 +37786,8 @@
       "Vainquons !",
       "Vainquez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "VAINCRE"
   },
   "Varier": {
     "translation": "To vary",
@@ -37406,7 +37868,8 @@
       "Varions !",
       "Variez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Vendre": {
     "translation": "To sell",
@@ -37487,7 +37950,8 @@
       "Vendons !",
       "Vendez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "DRE"
   },
   "Venger": {
     "translation": "To avenge",
@@ -37568,7 +38032,8 @@
       "Vengeons !",
       "Vengez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "GER"
   },
   "Venir": {
     "translation": "To come",
@@ -37649,7 +38114,8 @@
       "Venons !",
       "Venez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "ENIR"
   },
   "Verser": {
     "translation": "To pour",
@@ -37730,7 +38196,8 @@
       "Versons !",
       "Versez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Vieillir": {
     "translation": "To age",
@@ -37811,7 +38278,8 @@
       "Vieillissons !",
       "Vieillissez !"
     ],
-    "group": "2"
+    "group": "2",
+    "model": "IR"
   },
   "Viser": {
     "translation": "To aim",
@@ -37892,7 +38360,8 @@
       "Visons !",
       "Visez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Visiter": {
     "translation": "To visit",
@@ -37973,7 +38442,8 @@
       "Visitons !",
       "Visitez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Vivre": {
     "translation": "To live",
@@ -38054,7 +38524,8 @@
       "Vivons !",
       "Vivez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "VIVRE"
   },
   "Voir": {
     "translation": "To see",
@@ -38135,7 +38606,8 @@
       "Voyons !",
       "Voyez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "VOIR"
   },
   "Voler": {
     "translation": "To steal - To fly",
@@ -38216,7 +38688,8 @@
       "Volons !",
       "Volez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Voter": {
     "translation": "To vote",
@@ -38297,7 +38770,8 @@
       "Votons !",
       "Votez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Vouloir": {
     "translation": "To want",
@@ -38378,7 +38852,8 @@
       "Voulons !",
       "Voulez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "VOULOIR"
   },
   "Vouvoyer": {
     "translation": "To use \"vous\"",
@@ -38459,7 +38934,8 @@
       "Vouvoyons !",
       "Vouvoyez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "YER"
   },
   "Voyager": {
     "translation": "To travel",
@@ -38540,7 +39016,8 @@
       "Voyageons !",
       "Voyagez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "GER"
   },
   "Vérifier": {
     "translation": "To verify",
@@ -38621,7 +39098,8 @@
       "Vérifions !",
       "Vérifiez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Échapper": {
     "translation": "To escape",
@@ -38702,7 +39180,8 @@
       "Échappons !",
       "Échappez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Échouer": {
     "translation": "To fail",
@@ -38783,7 +39262,8 @@
       "Échouons !",
       "Échouez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Écouter": {
     "translation": "To listen",
@@ -38864,7 +39344,8 @@
       "Écoutons !",
       "Écoutez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Écraser": {
     "translation": "To crush",
@@ -38945,7 +39426,8 @@
       "Écrasons !",
       "Écrasez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Écrire": {
     "translation": "To write",
@@ -39026,7 +39508,8 @@
       "Écrivons !",
       "Écrivez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "ÉCRIRE"
   },
   "Égayer": {
     "translation": "To entertain",
@@ -39107,7 +39590,8 @@
       "Égayons !",
       "Égayez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "YER"
   },
   "Élever": {
     "translation": "To raise",
@@ -39188,7 +39672,8 @@
       "Élevons !",
       "Élevez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "EVER"
   },
   "Élire": {
     "translation": "To elect",
@@ -39269,7 +39754,8 @@
       "Lisons !",
       "Lisez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "LIRE"
   },
   "Éloigner": {
     "translation": "To move away",
@@ -39350,7 +39836,8 @@
       "Éloignons !",
       "Éloignez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Épeler": {
     "translation": "To spell",
@@ -39431,7 +39918,8 @@
       "Épelons !",
       "Épelez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ELER"
   },
   "Épouser": {
     "translation": "To marry",
@@ -39512,7 +40000,8 @@
       "Épousons !",
       "Épousez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Éteindre": {
     "translation": "To turn off -",
@@ -39593,7 +40082,8 @@
       "Atteignons !",
       "Atteignez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "EINDRE"
   },
   "Étendre": {
     "translation": "To stretch",
@@ -39674,7 +40164,8 @@
       "Étendons !",
       "Étendez !"
     ],
-    "group": "3"
+    "group": "3",
+    "model": "DRE"
   },
   "Étonner": {
     "translation": "To astonish",
@@ -39755,7 +40246,8 @@
       "Étonnons !",
       "Étonnez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Étudier": {
     "translation": "To study",
@@ -39836,7 +40328,8 @@
       "Étudions !",
       "Étudiez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Éviter": {
     "translation": "To avoid",
@@ -39917,7 +40410,8 @@
       "Évitons !",
       "Évitez !"
     ],
-    "group": "1"
+    "group": "1",
+    "model": "ER"
   },
   "Être": {
     "translation": "To be",
@@ -39998,6 +40492,7 @@
       "Soyons !",
       "Soyez !"
     ],
-    "group": "aux"
+    "group": "aux",
+    "model": "AUX"
   }
 }

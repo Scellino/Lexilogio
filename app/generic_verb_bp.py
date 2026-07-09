@@ -157,9 +157,10 @@ def make_verb_blueprint(lang):
                 1 for ti in range(len(tenses)) for pi in range(len(persons))
                 if len(progress.get(f"{inf}|{ti}|{pi}", [])) >= 3
             )
-            e = conj[inf]
-            grp = e.get("group", "") if isinstance(e, dict) else ""
-            result.append({"verb": inf, "done": done, "total": total, "group": grp})
+            e   = conj[inf] if isinstance(conj[inf], dict) else {}
+            grp = e.get("group", "")
+            mdl = e.get("model", "")
+            result.append({"verb": inf, "done": done, "total": total, "group": grp, "model": mdl})
         return jsonify(result)
 
     @bp.route("/api/verb/<path:inf>")
@@ -298,7 +299,8 @@ input[type=text]:focus{{border-color:#c9a96e}}
 .prog-bar{{height:100%;background:#c9a96e;border-radius:2px;transition:width .3s}}
 .btn-row{{display:flex;gap:8px;margin-top:12px;flex-wrap:wrap}}
 .browse-toggle{{display:flex;gap:6px;margin-bottom:12px}}
-.group-header{{font-size:11px;color:rgba(201,169,110,.7);text-transform:uppercase;letter-spacing:1.5px;font-family:sans-serif;font-weight:700;padding:18px 0 8px;border-bottom:1px solid rgba(255,255,255,.06);margin-bottom:10px;display:flex;align-items:baseline;gap:8px}}
+.group-major-header{{font-size:13px;color:#c9a96e;text-transform:uppercase;letter-spacing:2px;font-family:sans-serif;font-weight:700;padding:28px 0 6px;display:flex;align-items:baseline;gap:8px;border-bottom:2px solid rgba(201,169,110,.25);margin-bottom:10px}}
+.group-header{{font-size:11px;color:rgba(201,169,110,.55);text-transform:uppercase;letter-spacing:1.5px;font-family:sans-serif;font-weight:700;padding:14px 0 6px;border-bottom:1px solid rgba(255,255,255,.05);margin-bottom:8px;display:flex;align-items:baseline;gap:8px}}
 .group-header-count{{color:rgba(255,255,255,.3);font-weight:400;text-transform:none;letter-spacing:0;font-size:11px}}
 </style>
 </head>
@@ -382,22 +384,79 @@ function renderBrowse() {{
   `;
 }}
 
+const MODEL_MAJOR = {{
+  'AUX':'aux','AVOIR':'aux','ÊTRE':'aux',
+  'ER':'1','GER':'1','CER':'1','YER':'1','EVER':'1','ENER':'1',
+  'ÉDER':'1','ÉTER':'1','ÉRER':'1','ELER':'1','APPELER':'1',
+  'ETER':'1','JETER':'1','CRÉER':'1','ESER':'1','ÉTRER':'1',
+  'IR':'2',
+}};
+const MODEL_ORDER = [
+  'AUX',
+  'ER','GER','CER','YER','EVER','ENER','ÉDER','ÉTER','ÉRER','ELER','APPELER','ETER','JETER','CRÉER','ESER','ÉTRER',
+  'IR',
+  'ENIR','DRE','UIRE','TIR','AÎTRE','ÉRIR','VRIR','FRIR','FUIR','URE','AINDRE','EINDRE','CEVOIR','DIRE','COURIR',
+  'ALLER','BATTRE','BOIRE','BOUILLIR','COUDRE','CROIRE','CUEILLIR','DEVOIR','DÉPLAIRE','DORMIR','ÉCRIRE',
+  'ENVOYER','FAIRE','FALLOIR','HAÏR','LIRE','METTRE','MOURIR','NAÎTRE','OINDRE','PLEUVOIR',
+  'POUVOIR','PRENDRE','RIRE','SAVOIR','SERVIR','SOUDRE','SUIVRE','VAINCRE','VIVRE','VOIR','VOULOIR','IRR',
+];
+const MODEL_LABELS = {{
+  'AUX':'Auxiliaries',
+  'ER':'Regular -ER','GER':'-GER · manger','CER':'-CER · avancer','YER':'-YER · employer',
+  'EVER':'-EVER · lever','ENER':'-ENER · mener','ÉDER':'-ÉDER · céder',
+  'ÉTER':'-ÉTER · compléter','ÉRER':'-ÉRER · considérer',
+  'ELER':'-ELER · rappeler','APPELER':'-ELER doublement · appeler',
+  'ETER':'-ETER · acheter','JETER':'-ETER doublement · jeter',
+  'CRÉER':'-CRÉER · créer','ESER':'-ESER · peser','ÉTRER':'-ÉTRER',
+  'IR':'Regular -IR',
+  'ENIR':'-ENIR · tenir / venir','DRE':'-DRE · vendre','UIRE':'-UIRE · conduire',
+  'TIR':'-TIR · partir','AÎTRE':'-AÎTRE · connaître','ÉRIR':'-ÉRIR · acquérir',
+  'VRIR':'-VRIR · ouvrir','FRIR':'-FRIR · offrir','FUIR':'-FUIR · fuir',
+  'URE':'-URE · conclure','AINDRE':'-AINDRE · contraindre','EINDRE':'-EINDRE · atteindre',
+  'CEVOIR':'-CEVOIR · recevoir','DIRE':'-DIRE · contredire','COURIR':'Courir',
+  'ALLER':'Aller','BATTRE':'Battre','BOIRE':'Boire','BOUILLIR':'Bouillir',
+  'COUDRE':'Coudre','CROIRE':'Croire','CUEILLIR':'Cueillir','DEVOIR':'Devoir',
+  'DÉPLAIRE':'Déplaire','DORMIR':'Dormir','ÉCRIRE':'Écrire','ENVOYER':'Envoyer',
+  'FAIRE':'Faire','FALLOIR':'Falloir','HAÏR':'Haïr','LIRE':'Lire','METTRE':'Mettre',
+  'MOURIR':'Mourir','NAÎTRE':'Naître','OINDRE':'-OINDRE · joindre','PLEUVOIR':'Pleuvoir',
+  'POUVOIR':'Pouvoir','PRENDRE':'Prendre','RIRE':'Rire','SAVOIR':'Savoir',
+  'SERVIR':'Servir','SOUDRE':'-SOUDRE · résoudre','SUIVRE':'Suivre',
+  'VAINCRE':'Vaincre','VIVRE':'Vivre','VOIR':'Voir','VOULOIR':'Vouloir','IRR':'Other irregular',
+}};
+const MAJOR_LABELS = {{'aux':'Auxiliaries','1':'1st Group','2':'2nd Group','3':'3rd Group'}};
+
+function modelMajor(m) {{ return MODEL_MAJOR[m] || '3'; }}
+
 function renderBrowseByGroup(filtered) {{
-  const ORDER  = ['aux', '1', '2', '3'];
-  const LABELS = {{
-    'aux': 'Auxiliaries',
-    '1':   '1st Group · -ER',
-    '2':   '2nd Group · -IR',
-    '3':   '3rd Group · Irregular',
-  }};
-  const buckets = {{}};
-  filtered.forEach(v => {{ const g = v.group || '3'; (buckets[g] = buckets[g] || []).push(v); }});
-  return ORDER
-    .filter(g => buckets[g])
-    .map(g => `
-      <div class="group-header">${{LABELS[g] || g}}<span class="group-header-count">${{buckets[g].length}} verb${{buckets[g].length!==1?'s':''}}</span></div>
-      ${{buckets[g].map(v => verbCard(v)).join('')}}
-    `).join('');
+  // Build model → verb[] buckets
+  const byModel = {{}};
+  filtered.forEach(v => {{
+    const m = v.model || (MODEL_MAJOR[v.group] ? v.group : 'IRR');
+    (byModel[m] = byModel[m] || []).push(v);
+  }});
+
+  // Sort models by MODEL_ORDER, unknown models appended at end
+  const orderedModels = [
+    ...MODEL_ORDER.filter(m => byModel[m]),
+    ...Object.keys(byModel).filter(m => !MODEL_ORDER.includes(m)).sort(),
+  ];
+
+  // Render: group-major dividers, then model sub-sections
+  const parts = [];
+  let currentMajor = null;
+  orderedModels.forEach(m => {{
+    const major = modelMajor(m);
+    if (major !== currentMajor) {{
+      currentMajor = major;
+      const majorVerbs = filtered.filter(v => modelMajor(v.model || 'IRR') === major);
+      parts.push(`<div class="group-major-header">${{MAJOR_LABELS[major] || major}}<span class="group-header-count">${{majorVerbs.length}} verb${{majorVerbs.length!==1?'s':''}}</span></div>`);
+    }}
+    const verbs = byModel[m];
+    const label = MODEL_LABELS[m] || m;
+    parts.push(`<div class="group-header" style="padding-left:6px">${{label}}<span class="group-header-count">${{verbs.length}}</span></div>`);
+    parts.push(verbs.map(v => verbCard(v)).join(''));
+  }});
+  return parts.join('');
 }}
 
 function verbCard(v) {{

@@ -376,6 +376,8 @@ const LANGS = {
     apps: [
       { icon: '📖', name: 'Vocab Trainer', href: '/fr/vocab/',
         desc: 'Flashcards &amp; quizzes for French vocabulary and grammar' },
+      { icon: '🔤', name: 'Verb Trainer',  href: '/fr/verb/',
+        desc: 'Conjugation practice across all tenses for 495 French verbs' },
     ]
   },
   nl: {

@@ -77,14 +77,15 @@
       "Abaisse !",
       "Abaissons !",
       "Abaissez !"
-    ]
+    ],
+    "group": "1"
   },
   "Abattre": {
     "translation": "To knock down -",
     "Présent": [
-      "Je bats",
-      "Tu bats",
-      "Il/elle bat",
+      "J'abats",
+      "Tu abats",
+      "Il/elle abat",
       "Nous abattons",
       "Vous abattez",
       "Ils/elles abattent"
@@ -146,7 +147,7 @@
       "Ils/elles auraient abattu"
     ],
     "Subjonctif présent": [
-      "je abatte",
+      "j'abatte",
       "tu abattes",
       "il/elle abatte",
       "nous abattions",
@@ -155,9 +156,10 @@
     ],
     "Impératif présent": [
       "Bats !",
-      "Aabattons !",
-      "Aabattez !"
-    ]
+      "Battons !",
+      "Battez !"
+    ],
+    "group": "3"
   },
   "Accepter": {
     "translation": "To accept",
@@ -237,7 +239,8 @@
       "Accepte !",
       "Acceptons !",
       "Acceptez !"
-    ]
+    ],
+    "group": "1"
   },
   "Accompagner": {
     "translation": "To accompany",
@@ -317,7 +320,8 @@
       "Accompagne !",
       "Accompagnons !",
       "Accompagnez !"
-    ]
+    ],
+    "group": "1"
   },
   "Accorder": {
     "translation": "To admit - To grant",
@@ -397,7 +401,8 @@
       "Accorde !",
       "Accordons !",
       "Accordez !"
-    ]
+    ],
+    "group": "1"
   },
   "Accrocher": {
     "translation": "To hang",
@@ -477,7 +482,8 @@
       "Accroche !",
       "Accrochons !",
       "Accrochez !"
-    ]
+    ],
+    "group": "1"
   },
   "Accueillir": {
     "translation": "To welcome",
@@ -546,7 +552,7 @@
       "Ils/elles auraient accueilli"
     ],
     "Subjonctif présent": [
-      "je accueille",
+      "j'accueille",
       "tu accueilles",
       "il/elle accueille",
       "nous accueillions",
@@ -554,10 +560,11 @@
       "ils/elles accueillent"
     ],
     "Impératif présent": [
-      "Acaccueille !",
-      "Acaccueillons !",
-      "Acaccueillez !"
-    ]
+      "Cueille !",
+      "Cueillons !",
+      "Cueillez !"
+    ],
+    "group": "3"
   },
   "Accuser": {
     "translation": "To accuse",
@@ -637,7 +644,8 @@
       "Accuse !",
       "Accusons !",
       "Accusez !"
-    ]
+    ],
+    "group": "1"
   },
   "Acheter": {
     "translation": "To buy",
@@ -717,7 +725,8 @@
       "Achète !",
       "Achetons !",
       "Achetez !"
-    ]
+    ],
+    "group": "1"
   },
   "Achever": {
     "translation": "To complete",
@@ -797,7 +806,8 @@
       "Achève !",
       "Achevons !",
       "Achevez !"
-    ]
+    ],
+    "group": "1"
   },
   "Acquérir": {
     "translation": "To acquire",
@@ -877,25 +887,26 @@
       "Acquiers !",
       "Acquérons !",
       "Acquérez !"
-    ]
+    ],
+    "group": "3"
   },
   "Admettre": {
     "translation": "To admit",
     "Présent": [
-      "Je mets",
-      "Tu mets",
-      "Il/elle met",
+      "J'admets",
+      "Tu admets",
+      "Il/elle admet",
       "Nous admettons",
       "Vous admettez",
       "Ils/elles admettent"
     ],
     "Passé composé": [
-      "J'ai mis",
-      "Tu as mis",
-      "Il/elle a mis",
-      "Nous avons mis",
-      "Vous avez mis",
-      "Ils/elles ont mis"
+      "J'ai admis",
+      "Tu as admis",
+      "Il/elle a admis",
+      "Nous avons admis",
+      "Vous avez admis",
+      "Ils/elles ont admis"
     ],
     "Imparfait": [
       "J'admettais",
@@ -906,12 +917,12 @@
       "Ils/elles admettaient"
     ],
     "Plus-que-parfait": [
-      "J'avais mis",
-      "Tu avais mis",
-      "Il/elle avait mis",
-      "Nous avions mis",
-      "Vous aviez mis",
-      "Ils/elles avaient mis"
+      "J'avais admis",
+      "Tu avais admis",
+      "Il/elle avait admis",
+      "Nous avions admis",
+      "Vous aviez admis",
+      "Ils/elles avaient admis"
     ],
     "Futur simple": [
       "J'admettrai",
@@ -922,12 +933,12 @@
       "Ils/elles admettront"
     ],
     "Futur antérieur": [
-      "J'aurai mis",
-      "Tu auras mis",
-      "Il/elle aura mis",
-      "Nous aurons mis",
-      "Vous aurez mis",
-      "Ils/elles auront mis"
+      "J'aurai admis",
+      "Tu auras admis",
+      "Il/elle aura admis",
+      "Nous aurons admis",
+      "Vous aurez admis",
+      "Ils/elles auront admis"
     ],
     "Conditionnel présent": [
       "J'admettrais",
@@ -938,15 +949,15 @@
       "Ils/elles admettraient"
     ],
     "Conditionnel passé": [
-      "J'aurais mis",
-      "Tu aurais mis",
-      "Il/elle aurait mis",
-      "Nous aurions mis",
-      "Vous auriez mis",
-      "Ils/elles auraient mis"
+      "J'aurais admis",
+      "Tu aurais admis",
+      "Il/elle aurait admis",
+      "Nous aurions admis",
+      "Vous auriez admis",
+      "Ils/elles auraient admis"
     ],
     "Subjonctif présent": [
-      "je admette",
+      "j'admette",
       "tu admettes",
       "il/elle admette",
       "nous admettions",
@@ -955,9 +966,10 @@
     ],
     "Impératif présent": [
       "Mets !",
-      "Adadmettons !",
-      "Adadmettez !"
-    ]
+      "Mettons !",
+      "Mettez !"
+    ],
+    "group": "3"
   },
   "Admirer": {
     "translation": "To admire",
@@ -1037,7 +1049,8 @@
       "Admire !",
       "Admirons !",
       "Admirez !"
-    ]
+    ],
+    "group": "1"
   },
   "Adorer": {
     "translation": "To adore",
@@ -1117,7 +1130,8 @@
       "Adore !",
       "Adorons !",
       "Adorez !"
-    ]
+    ],
+    "group": "1"
   },
   "Adresser": {
     "translation": "To address",
@@ -1197,7 +1211,8 @@
       "Adresse !",
       "Adressons !",
       "Adressez !"
-    ]
+    ],
+    "group": "1"
   },
   "Affaiblir": {
     "translation": "To weaken",
@@ -1277,7 +1292,8 @@
       "Affaiblis !",
       "Affaiblissons !",
       "Affaiblissez !"
-    ]
+    ],
+    "group": "2"
   },
   "Agacer": {
     "translation": "To annoy",
@@ -1357,7 +1373,8 @@
       "Agace !",
       "Plaçons !",
       "Agacez !"
-    ]
+    ],
+    "group": "1"
   },
   "Agir": {
     "translation": "To act",
@@ -1437,7 +1454,8 @@
       "Agis !",
       "Agissons !",
       "Agissez !"
-    ]
+    ],
+    "group": "2"
   },
   "Aider": {
     "translation": "To help",
@@ -1517,7 +1535,8 @@
       "Aide !",
       "Aidons !",
       "Aidez !"
-    ]
+    ],
+    "group": "1"
   },
   "Aimer": {
     "translation": "To like - To love",
@@ -1597,7 +1616,8 @@
       "Aime !",
       "Aimons !",
       "Aimez !"
-    ]
+    ],
+    "group": "1"
   },
   "Ajouter": {
     "translation": "To add",
@@ -1677,7 +1697,8 @@
       "Ajoute !",
       "Ajoutons !",
       "Ajoutez !"
-    ]
+    ],
+    "group": "1"
   },
   "Aller": {
     "translation": "To go",
@@ -1757,7 +1778,8 @@
       "Va !",
       "Allons !",
       "Allez !"
-    ]
+    ],
+    "group": "3"
   },
   "Amener": {
     "translation": "To bring",
@@ -1837,7 +1859,8 @@
       "Amène !",
       "Amenons !",
       "Amenez !"
-    ]
+    ],
+    "group": "1"
   },
   "Amuser": {
     "translation": "To amuse",
@@ -1917,7 +1940,8 @@
       "Amuse !",
       "Amusons !",
       "Amusez !"
-    ]
+    ],
+    "group": "1"
   },
   "Aménager": {
     "translation": "To furnish",
@@ -1997,7 +2021,8 @@
       "Aménage !",
       "Aménageons !",
       "Aménagez !"
-    ]
+    ],
+    "group": "1"
   },
   "Annoncer": {
     "translation": "To announce",
@@ -2077,7 +2102,8 @@
       "Annonce !",
       "Plaçons !",
       "Annoncez !"
-    ]
+    ],
+    "group": "1"
   },
   "Apercevoir": {
     "translation": "To see",
@@ -2157,7 +2183,8 @@
       "Déçois !",
       "Apercevons !",
       "Décevez !"
-    ]
+    ],
+    "group": "3"
   },
   "Apparaître": {
     "translation": "To appear",
@@ -2237,7 +2264,8 @@
       "Connais !",
       "Connaissons !",
       "Connaissez !"
-    ]
+    ],
+    "group": "1"
   },
   "Appartenir": {
     "translation": "To belong",
@@ -2317,7 +2345,8 @@
       "Tiens !",
       "Apparappartenons !",
       "Apparappartenez !"
-    ]
+    ],
+    "group": "3"
   },
   "Appeler": {
     "translation": "To call",
@@ -2397,7 +2426,8 @@
       "Appelle !",
       "Appelons !",
       "Appelez !"
-    ]
+    ],
+    "group": "1"
   },
   "Apporter": {
     "translation": "To bring",
@@ -2477,7 +2507,8 @@
       "Apporte !",
       "Apportons !",
       "Apportez !"
-    ]
+    ],
+    "group": "1"
   },
   "Apprendre": {
     "translation": "To learn",
@@ -2485,33 +2516,33 @@
       "J'apprends",
       "Tu apprends",
       "Il/elle apprend",
-      "Nous prenons",
-      "Vous prenez",
-      "Ils/elles prennent"
+      "Nous apprenons",
+      "Vous apprenez",
+      "Ils/elles apprennent"
     ],
     "Passé composé": [
-      "J'ai pris",
-      "Tu as pris",
-      "Il/elle a pris",
-      "Nous avons pris",
-      "Vous avez pris",
-      "Ils/elles ont pris"
+      "J'ai appris",
+      "Tu as appris",
+      "Il/elle a appris",
+      "Nous avons appris",
+      "Vous avez appris",
+      "Ils/elles ont appris"
     ],
     "Imparfait": [
-      "Je prenais",
-      "Tu prenais",
-      "Il/elle prenait",
-      "Nous prenions",
-      "Vous preniez",
-      "Ils/elles prenaient"
+      "J'apprenais",
+      "Tu apprenais",
+      "Il/elle apprenait",
+      "Nous apprenions",
+      "Vous appreniez",
+      "Ils/elles apprenaient"
     ],
     "Plus-que-parfait": [
-      "J'avais pris",
-      "Tu avais pris",
-      "Il/elle avait pris",
-      "Nous avions pris",
-      "Vous aviez pris",
-      "Ils/elles avaient pris"
+      "J'avais appris",
+      "Tu avais appris",
+      "Il/elle avait appris",
+      "Nous avions appris",
+      "Vous aviez appris",
+      "Ils/elles avaient appris"
     ],
     "Futur simple": [
       "J'apprendrai",
@@ -2522,12 +2553,12 @@
       "Ils/elles apprendront"
     ],
     "Futur antérieur": [
-      "J'aurai pris",
-      "Tu auras pris",
-      "Il/elle aura pris",
-      "Nous aurons pris",
-      "Vous aurez pris",
-      "Ils/elles auront pris"
+      "J'aurai appris",
+      "Tu auras appris",
+      "Il/elle aura appris",
+      "Nous aurons appris",
+      "Vous aurez appris",
+      "Ils/elles auront appris"
     ],
     "Conditionnel présent": [
       "J'apprendrais",
@@ -2538,26 +2569,27 @@
       "Ils/elles apprendraient"
     ],
     "Conditionnel passé": [
-      "J'aurais pris",
-      "Tu aurais pris",
-      "Il/elle aurait pris",
-      "Nous aurions pris",
-      "Vous auriez pris",
-      "Ils/elles auraient pris"
+      "J'aurais appris",
+      "Tu aurais appris",
+      "Il/elle aurait appris",
+      "Nous aurions appris",
+      "Vous auriez appris",
+      "Ils/elles auraient appris"
     ],
     "Subjonctif présent": [
-      "je prenne",
-      "tu prennes",
-      "il/elle prenne",
-      "nous prenions",
-      "vous preniez",
-      "ils/elles prennent"
+      "j'apprenne",
+      "tu apprennes",
+      "il/elle apprenne",
+      "nous apprenions",
+      "vous appreniez",
+      "ils/elles apprennent"
     ],
     "Impératif présent": [
-      "Apapprends !",
+      "Prends !",
       "Prenons !",
       "Prenez !"
-    ]
+    ],
+    "group": "3"
   },
   "Approcher": {
     "translation": "To approach",
@@ -2637,7 +2669,8 @@
       "Approche !",
       "Approchons !",
       "Approchez !"
-    ]
+    ],
+    "group": "1"
   },
   "Approuver": {
     "translation": "To approve",
@@ -2717,7 +2750,8 @@
       "Approuve !",
       "Approuvons !",
       "Approuvez !"
-    ]
+    ],
+    "group": "1"
   },
   "Armer": {
     "translation": "To arm",
@@ -2797,7 +2831,8 @@
       "Arme !",
       "Armons !",
       "Armez !"
-    ]
+    ],
+    "group": "1"
   },
   "Arracher": {
     "translation": "To pull up - out",
@@ -2877,7 +2912,8 @@
       "Arrache !",
       "Arrachons !",
       "Arrachez !"
-    ]
+    ],
+    "group": "1"
   },
   "Arranger": {
     "translation": "To arrange",
@@ -2957,7 +2993,8 @@
       "Arrange !",
       "Arrangeons !",
       "Arrangez !"
-    ]
+    ],
+    "group": "1"
   },
   "Arriver": {
     "translation": "To arrive",
@@ -3037,7 +3074,8 @@
       "Arrive !",
       "Arrivons !",
       "Arrivez !"
-    ]
+    ],
+    "group": "1"
   },
   "Arrêter": {
     "translation": "To stop",
@@ -3117,7 +3155,8 @@
       "Arrête !",
       "Arrêtons !",
       "Arrêtez !"
-    ]
+    ],
+    "group": "1"
   },
   "Asseoir": {
     "translation": "To sit down",
@@ -3197,7 +3236,8 @@
       "Assieds !",
       "Asseyons !",
       "Asseyez !"
-    ]
+    ],
+    "group": "3"
   },
   "Assister": {
     "translation": "To attend",
@@ -3277,7 +3317,8 @@
       "Assiste !",
       "Assistons !",
       "Assistez !"
-    ]
+    ],
+    "group": "1"
   },
   "Assurer": {
     "translation": "To assure",
@@ -3357,7 +3398,8 @@
       "Assure !",
       "Assurons !",
       "Assurez !"
-    ]
+    ],
+    "group": "1"
   },
   "Attaquer": {
     "translation": "To attack",
@@ -3437,7 +3479,8 @@
       "Attaque !",
       "Attaquons !",
       "Attaquez !"
-    ]
+    ],
+    "group": "1"
   },
   "Atteindre": {
     "translation": "To reach",
@@ -3517,7 +3560,8 @@
       "Atteins !",
       "Atteignons !",
       "Atteignez !"
-    ]
+    ],
+    "group": "3"
   },
   "Attendre": {
     "translation": "To wait",
@@ -3597,7 +3641,8 @@
       "Attends !",
       "Attendons !",
       "Attendez !"
-    ]
+    ],
+    "group": "3"
   },
   "Attirer": {
     "translation": "To attract",
@@ -3677,7 +3722,8 @@
       "Attire !",
       "Attirons !",
       "Attirez !"
-    ]
+    ],
+    "group": "1"
   },
   "Attraper": {
     "translation": "To catch",
@@ -3757,7 +3803,8 @@
       "Attrape !",
       "Attrapons !",
       "Attrapez !"
-    ]
+    ],
+    "group": "1"
   },
   "Augmenter": {
     "translation": "To increase",
@@ -3837,7 +3884,8 @@
       "Augmente !",
       "Augmentons !",
       "Augmentez !"
-    ]
+    ],
+    "group": "1"
   },
   "Avancer": {
     "translation": "To advance",
@@ -3917,7 +3965,8 @@
       "Avance !",
       "Plaçons !",
       "Avancez !"
-    ]
+    ],
+    "group": "1"
   },
   "Aventurer": {
     "translation": "To venture",
@@ -3997,7 +4046,8 @@
       "Aventure !",
       "Aventurons !",
       "Aventurez !"
-    ]
+    ],
+    "group": "1"
   },
   "Avoir": {
     "translation": "To have",
@@ -4077,7 +4127,8 @@
       "Aie !",
       "Ayons !",
       "Ayez !"
-    ]
+    ],
+    "group": "aux"
   },
   "Baisser": {
     "translation": "To lower",
@@ -4157,7 +4208,8 @@
       "Baisse !",
       "Baissons !",
       "Baissez !"
-    ]
+    ],
+    "group": "1"
   },
   "Balancer": {
     "translation": "To sway - To swing",
@@ -4237,7 +4289,8 @@
       "Balance !",
       "Plaçons !",
       "Balancez !"
-    ]
+    ],
+    "group": "1"
   },
   "Balayer": {
     "translation": "To sweep",
@@ -4317,7 +4370,8 @@
       "Nettoie !",
       "Balayons !",
       "Balayez !"
-    ]
+    ],
+    "group": "1"
   },
   "Battre": {
     "translation": "To beat",
@@ -4397,7 +4451,8 @@
       "Bats !",
       "Battons !",
       "Battez !"
-    ]
+    ],
+    "group": "3"
   },
   "Bavarder": {
     "translation": "To chat",
@@ -4477,7 +4532,8 @@
       "Bavarde !",
       "Bavardons !",
       "Bavardez !"
-    ]
+    ],
+    "group": "1"
   },
   "Blaguer": {
     "translation": "To joke",
@@ -4557,7 +4613,8 @@
       "Blague !",
       "Blaguons !",
       "Blaguez !"
-    ]
+    ],
+    "group": "1"
   },
   "Blanchir": {
     "translation": "To whiten",
@@ -4637,7 +4694,8 @@
       "Blanchis !",
       "Blanchissons !",
       "Blanchissez !"
-    ]
+    ],
+    "group": "2"
   },
   "Blesser": {
     "translation": "To hurt - To offend",
@@ -4717,7 +4775,8 @@
       "Blesse !",
       "Blessons !",
       "Blessez !"
-    ]
+    ],
+    "group": "1"
   },
   "Blâmer": {
     "translation": "To blame",
@@ -4797,7 +4856,8 @@
       "Blâme !",
       "Blâmons !",
       "Blâmez !"
-    ]
+    ],
+    "group": "1"
   },
   "Boire": {
     "translation": "To drink",
@@ -4877,7 +4937,8 @@
       "Bois !",
       "Buvons !",
       "Buvez !"
-    ]
+    ],
+    "group": "3"
   },
   "Bouger": {
     "translation": "To move",
@@ -4957,7 +5018,8 @@
       "Bouge !",
       "Bougeons !",
       "Bougez !"
-    ]
+    ],
+    "group": "1"
   },
   "Bouillir": {
     "translation": "To boil",
@@ -5037,7 +5099,8 @@
       "Bous !",
       "Bouillons !",
       "Bouillez !"
-    ]
+    ],
+    "group": "3"
   },
   "Briser": {
     "translation": "To break",
@@ -5117,7 +5180,8 @@
       "Brise !",
       "Brisons !",
       "Brisez !"
-    ]
+    ],
+    "group": "1"
   },
   "Brosser": {
     "translation": "To brush",
@@ -5197,7 +5261,8 @@
       "Brosse !",
       "Brossons !",
       "Brossez !"
-    ]
+    ],
+    "group": "1"
   },
   "Brûler": {
     "translation": "To burn",
@@ -5277,7 +5342,8 @@
       "Brûle !",
       "Brûlons !",
       "Brûlez !"
-    ]
+    ],
+    "group": "1"
   },
   "Bâtir": {
     "translation": "To build",
@@ -5357,7 +5423,8 @@
       "Bâtis !",
       "Bâtissons !",
       "Bâtissez !"
-    ]
+    ],
+    "group": "2"
   },
   "Cacher": {
     "translation": "To hide",
@@ -5437,7 +5504,8 @@
       "Cache !",
       "Cachons !",
       "Cachez !"
-    ]
+    ],
+    "group": "1"
   },
   "Casser": {
     "translation": "To break",
@@ -5517,7 +5585,8 @@
       "Casse !",
       "Cassons !",
       "Cassez !"
-    ]
+    ],
+    "group": "1"
   },
   "Causer": {
     "translation": "To cause",
@@ -5597,7 +5666,8 @@
       "Cause !",
       "Causons !",
       "Causez !"
-    ]
+    ],
+    "group": "1"
   },
   "Cesser": {
     "translation": "To cease",
@@ -5677,7 +5747,8 @@
       "Cesse !",
       "Cessons !",
       "Cessez !"
-    ]
+    ],
+    "group": "1"
   },
   "Changer": {
     "translation": "To change",
@@ -5757,7 +5828,8 @@
       "Change !",
       "Changeons !",
       "Changez !"
-    ]
+    ],
+    "group": "1"
   },
   "Chanter": {
     "translation": "To sing",
@@ -5837,7 +5909,8 @@
       "Chante !",
       "Chantons !",
       "Chantez !"
-    ]
+    ],
+    "group": "1"
   },
   "Charger": {
     "translation": "To charge - To load",
@@ -5917,7 +5990,8 @@
       "Charge !",
       "Chargeons !",
       "Chargez !"
-    ]
+    ],
+    "group": "1"
   },
   "Chasser": {
     "translation": "To hunt",
@@ -5997,7 +6071,8 @@
       "Chasse !",
       "Chassons !",
       "Chassez !"
-    ]
+    ],
+    "group": "1"
   },
   "Chercher": {
     "translation": "To look for - To search",
@@ -6077,7 +6152,8 @@
       "Cherche !",
       "Cherchons !",
       "Cherchez !"
-    ]
+    ],
+    "group": "1"
   },
   "Choisir": {
     "translation": "To choose",
@@ -6157,7 +6233,8 @@
       "Choisis !",
       "Choisissons !",
       "Choisissez !"
-    ]
+    ],
+    "group": "2"
   },
   "Chuchoter": {
     "translation": "To whisper",
@@ -6237,7 +6314,8 @@
       "Chuchote !",
       "Chuchotons !",
       "Chuchotez !"
-    ]
+    ],
+    "group": "1"
   },
   "Coller": {
     "translation": "To stick",
@@ -6317,14 +6395,15 @@
       "Colle !",
       "Collons !",
       "Collez !"
-    ]
+    ],
+    "group": "1"
   },
   "Combattre": {
     "translation": "To combat",
     "Présent": [
-      "Je bats",
-      "Tu bats",
-      "Il/elle bat",
+      "Je combats",
+      "Tu combats",
+      "Il/elle combat",
       "Nous combattons",
       "Vous combattez",
       "Ils/elles combattent"
@@ -6395,9 +6474,10 @@
     ],
     "Impératif présent": [
       "Bats !",
-      "Comcombattons !",
-      "Comcombattez !"
-    ]
+      "Battons !",
+      "Battez !"
+    ],
+    "group": "3"
   },
   "Commander": {
     "translation": "To order",
@@ -6477,7 +6557,8 @@
       "Commande !",
       "Commandons !",
       "Commandez !"
-    ]
+    ],
+    "group": "1"
   },
   "Commencer": {
     "translation": "To begin - To start",
@@ -6557,41 +6638,42 @@
       "Commence !",
       "Plaçons !",
       "Commencez !"
-    ]
+    ],
+    "group": "1"
   },
   "Comparaître": {
     "translation": "To appear",
     "Présent": [
-      "Je connais",
-      "Tu connais",
+      "Je comparais",
+      "Tu comparais",
       "Il/elle comparaît",
-      "Nous connaissons",
-      "Vous connaissez",
-      "Ils/elles connaissent"
+      "Nous comparaissons",
+      "Vous comparaissez",
+      "Ils/elles comparaissent"
     ],
     "Passé composé": [
-      "J'ai connu",
-      "Tu as connu",
-      "Il/elle a connu",
-      "Nous avons connu",
-      "Vous avez connu",
-      "Ils/elles ont connu"
+      "J'ai comparu",
+      "Tu as comparu",
+      "Il/elle a comparu",
+      "Nous avons comparu",
+      "Vous avez comparu",
+      "Ils/elles ont comparu"
     ],
     "Imparfait": [
-      "Je connaissais",
-      "Tu connaissais",
-      "Il/elle connaissait",
-      "Nous connaissions",
-      "Vous connaissiez",
-      "Ils/elles connaissaient"
+      "Je comparaissais",
+      "Tu comparaissais",
+      "Il/elle comparaissait",
+      "Nous comparaissions",
+      "Vous comparaissiez",
+      "Ils/elles comparaissaient"
     ],
     "Plus-que-parfait": [
-      "J'avais connu",
-      "Tu avais connu",
-      "Il/elle avait connu",
-      "Nous avions connu",
-      "Vous aviez connu",
-      "Ils/elles avaient connu"
+      "J'avais comparu",
+      "Tu avais comparu",
+      "Il/elle avait comparu",
+      "Nous avions comparu",
+      "Vous aviez comparu",
+      "Ils/elles avaient comparu"
     ],
     "Futur simple": [
       "Je comparaîtrai",
@@ -6602,12 +6684,12 @@
       "Ils/elles comparaîtront"
     ],
     "Futur antérieur": [
-      "J'aurai connu",
-      "Tu auras connu",
-      "Il/elle aura connu",
-      "Nous aurons connu",
-      "Vous aurez connu",
-      "Ils/elles auront connu"
+      "J'aurai comparu",
+      "Tu auras comparu",
+      "Il/elle aura comparu",
+      "Nous aurons comparu",
+      "Vous aurez comparu",
+      "Ils/elles auront comparu"
     ],
     "Conditionnel présent": [
       "Je comparaîtrais",
@@ -6618,26 +6700,27 @@
       "Ils/elles comparaîtraient"
     ],
     "Conditionnel passé": [
-      "J'aurais connu",
-      "Tu aurais connu",
-      "Il/elle aurait connu",
-      "Nous aurions connu",
-      "Vous auriez connu",
-      "Ils/elles auraient connu"
+      "J'aurais comparu",
+      "Tu aurais comparu",
+      "Il/elle aurait comparu",
+      "Nous aurions comparu",
+      "Vous auriez comparu",
+      "Ils/elles auraient comparu"
     ],
     "Subjonctif présent": [
-      "je connaisse",
-      "tu connaisses",
-      "il/elle connaisse",
-      "nous connaissions",
-      "vous connaissiez",
-      "ils/elles connaissent"
+      "je comparaisse",
+      "tu comparaisses",
+      "il/elle comparaisse",
+      "nous comparaissions",
+      "vous comparaissiez",
+      "ils/elles comparaissent"
     ],
     "Impératif présent": [
       "Connais !",
       "Connaissons !",
       "Connaissez !"
-    ]
+    ],
+    "group": "3"
   },
   "Comparer": {
     "translation": "To compare",
@@ -6717,7 +6800,8 @@
       "Compare !",
       "Comparons !",
       "Comparez !"
-    ]
+    ],
+    "group": "1"
   },
   "Compléter": {
     "translation": "To complete",
@@ -6797,7 +6881,8 @@
       "Complète !",
       "Complétons !",
       "Complétez !"
-    ]
+    ],
+    "group": "1"
   },
   "Comprendre": {
     "translation": "To understand",
@@ -6805,33 +6890,33 @@
       "Je comprends",
       "Tu comprends",
       "Il/elle comprend",
-      "Nous prenons",
-      "Vous prenez",
-      "Ils/elles prennent"
+      "Nous comprenons",
+      "Vous comprenez",
+      "Ils/elles comprennent"
     ],
     "Passé composé": [
-      "J'ai pris",
-      "Tu as pris",
-      "Il/elle a pris",
-      "Nous avons pris",
-      "Vous avez pris",
-      "Ils/elles ont pris"
+      "J'ai compris",
+      "Tu as compris",
+      "Il/elle a compris",
+      "Nous avons compris",
+      "Vous avez compris",
+      "Ils/elles ont compris"
     ],
     "Imparfait": [
-      "Je prenais",
-      "Tu prenais",
-      "Il/elle prenait",
-      "Nous prenions",
-      "Vous preniez",
-      "Ils/elles prenaient"
+      "Je comprenais",
+      "Tu comprenais",
+      "Il/elle comprenait",
+      "Nous comprenions",
+      "Vous compreniez",
+      "Ils/elles comprenaient"
     ],
     "Plus-que-parfait": [
-      "J'avais pris",
-      "Tu avais pris",
-      "Il/elle avait pris",
-      "Nous avions pris",
-      "Vous aviez pris",
-      "Ils/elles avaient pris"
+      "J'avais compris",
+      "Tu avais compris",
+      "Il/elle avait compris",
+      "Nous avions compris",
+      "Vous aviez compris",
+      "Ils/elles avaient compris"
     ],
     "Futur simple": [
       "Je comprendrai",
@@ -6842,12 +6927,12 @@
       "Ils/elles comprendront"
     ],
     "Futur antérieur": [
-      "J'aurai pris",
-      "Tu auras pris",
-      "Il/elle aura pris",
-      "Nous aurons pris",
-      "Vous aurez pris",
-      "Ils/elles auront pris"
+      "J'aurai compris",
+      "Tu auras compris",
+      "Il/elle aura compris",
+      "Nous aurons compris",
+      "Vous aurez compris",
+      "Ils/elles auront compris"
     ],
     "Conditionnel présent": [
       "Je comprendrais",
@@ -6858,26 +6943,27 @@
       "Ils/elles comprendraient"
     ],
     "Conditionnel passé": [
-      "J'aurais pris",
-      "Tu aurais pris",
-      "Il/elle aurait pris",
-      "Nous aurions pris",
-      "Vous auriez pris",
-      "Ils/elles auraient pris"
+      "J'aurais compris",
+      "Tu aurais compris",
+      "Il/elle aurait compris",
+      "Nous aurions compris",
+      "Vous auriez compris",
+      "Ils/elles auraient compris"
     ],
     "Subjonctif présent": [
-      "je prenne",
-      "tu prennes",
-      "il/elle prenne",
-      "nous prenions",
-      "vous preniez",
-      "ils/elles prennent"
+      "je comprenne",
+      "tu comprennes",
+      "il/elle comprenne",
+      "nous comprenions",
+      "vous compreniez",
+      "ils/elles comprennent"
     ],
     "Impératif présent": [
-      "Comcomprends !",
+      "Prends !",
       "Prenons !",
       "Prenez !"
-    ]
+    ],
+    "group": "3"
   },
   "Compter": {
     "translation": "To count - To intend",
@@ -6957,7 +7043,8 @@
       "Compte !",
       "Comptons !",
       "Comptez !"
-    ]
+    ],
+    "group": "1"
   },
   "Concerner": {
     "translation": "To concern",
@@ -7037,7 +7124,8 @@
       "Concerne !",
       "Concernons !",
       "Concernez !"
-    ]
+    ],
+    "group": "1"
   },
   "Concevoir": {
     "translation": "To conceive",
@@ -7117,7 +7205,8 @@
       "Déçois !",
       "Concevons !",
       "Décevez !"
-    ]
+    ],
+    "group": "3"
   },
   "Conclure": {
     "translation": "To conclude",
@@ -7197,7 +7286,8 @@
       "Conclus !",
       "Concluons !",
       "Concluez !"
-    ]
+    ],
+    "group": "3"
   },
   "Conduire": {
     "translation": "To drive",
@@ -7277,7 +7367,8 @@
       "Conduis !",
       "Conduisons !",
       "Conduisez !"
-    ]
+    ],
+    "group": "3"
   },
   "Confondre": {
     "translation": "To confuse",
@@ -7357,7 +7448,8 @@
       "Confonds !",
       "Confondons !",
       "Confondez !"
-    ]
+    ],
+    "group": "3"
   },
   "Connaître": {
     "translation": "To know",
@@ -7437,7 +7529,8 @@
       "Connais !",
       "Connaissons !",
       "Connaissez !"
-    ]
+    ],
+    "group": "3"
   },
   "Conquérir": {
     "translation": "To conquer",
@@ -7517,7 +7610,8 @@
       "Acquiers !",
       "Conquérons !",
       "Conquérez !"
-    ]
+    ],
+    "group": "3"
   },
   "Conseiller": {
     "translation": "To recommend",
@@ -7597,7 +7691,8 @@
       "Conseille !",
       "Conseillons !",
       "Conseillez !"
-    ]
+    ],
+    "group": "1"
   },
   "Consentir": {
     "translation": "To consent",
@@ -7677,7 +7772,8 @@
       "Mens !",
       "Consentons !",
       "Consentez !"
-    ]
+    ],
+    "group": "3"
   },
   "Considérer": {
     "translation": "To consider",
@@ -7757,7 +7853,8 @@
       "Espère !",
       "Considérons !",
       "Considérez !"
-    ]
+    ],
+    "group": "1"
   },
   "Consommer": {
     "translation": "To consume",
@@ -7837,7 +7934,8 @@
       "Consomme !",
       "Consommons !",
       "Consommez !"
-    ]
+    ],
+    "group": "1"
   },
   "Construire": {
     "translation": "To build -",
@@ -7917,7 +8015,8 @@
       "Construis !",
       "Construisons !",
       "Construisez !"
-    ]
+    ],
+    "group": "3"
   },
   "Contenir": {
     "translation": "To contain -",
@@ -7997,7 +8096,8 @@
       "Tiens !",
       "Concontenons !",
       "Concontenez !"
-    ]
+    ],
+    "group": "3"
   },
   "Continuer": {
     "translation": "To continue",
@@ -8077,7 +8177,8 @@
       "Continue !",
       "Continuons !",
       "Continuez !"
-    ]
+    ],
+    "group": "1"
   },
   "Contraindre": {
     "translation": "To compel",
@@ -8157,7 +8258,8 @@
       "Crains !",
       "Craignons !",
       "Craignez !"
-    ]
+    ],
+    "group": "3"
   },
   "Contredire": {
     "translation": "To contradict",
@@ -8234,10 +8336,11 @@
       "ils/elles contredisent"
     ],
     "Impératif présent": [
-      "Contrecontredis !",
-      "Contrecontredisons !",
-      "Contrecontredites !"
-    ]
+      "Dis !",
+      "Disons !",
+      "Dites !"
+    ],
+    "group": "3"
   },
   "Contrevenir": {
     "translation": "To contravene",
@@ -8317,7 +8420,8 @@
       "Tiens !",
       "Contrevenons !",
       "Contrevenez !"
-    ]
+    ],
+    "group": "3"
   },
   "Contrôler": {
     "translation": "To control",
@@ -8397,7 +8501,8 @@
       "Contrôle !",
       "Contrôlons !",
       "Contrôlez !"
-    ]
+    ],
+    "group": "1"
   },
   "Convaincre": {
     "translation": "To convince",
@@ -8405,9 +8510,9 @@
       "Je convaincs",
       "Tu convaincs",
       "Il/elle convainc",
-      "Nous vainquons",
-      "Vous vainquez",
-      "Ils/elles vainquent"
+      "Nous convainquons",
+      "Vous convainquez",
+      "Ils/elles convainquent"
     ],
     "Passé composé": [
       "J'ai convaincu",
@@ -8418,12 +8523,12 @@
       "Ils/elles ont convaincu"
     ],
     "Imparfait": [
-      "Je vainquais",
-      "Tu vainquais",
-      "Il/elle vainquit",
-      "Nous vainquions",
-      "Vous vainquiez",
-      "Ils/elles vainquaient"
+      "Je convainquais",
+      "Tu convainquais",
+      "Il/elle convainquit",
+      "Nous convainquions",
+      "Vous convainquiez",
+      "Ils/elles convainquaient"
     ],
     "Plus-que-parfait": [
       "J'avais convaincu",
@@ -8466,18 +8571,19 @@
       "Ils/elles auraient convaincu"
     ],
     "Subjonctif présent": [
-      "je vainque",
-      "tu vainques",
-      "il/elle vainque",
-      "nous vainquions",
-      "vous vainquiez",
-      "ils/elles vainquent"
+      "je convainque",
+      "tu convainques",
+      "il/elle convainque",
+      "nous convainquions",
+      "vous convainquiez",
+      "ils/elles convainquent"
     ],
     "Impératif présent": [
-      "Conconvaincs !",
+      "Vaincs !",
       "Vainquons !",
       "Vainquez !"
-    ]
+    ],
+    "group": "3"
   },
   "Convenir": {
     "translation": "To suit",
@@ -8557,7 +8663,8 @@
       "Tiens !",
       "Convenons !",
       "Convenez !"
-    ]
+    ],
+    "group": "3"
   },
   "Correspondre": {
     "translation": "To correspond",
@@ -8637,7 +8744,8 @@
       "Corresponds !",
       "Correspondons !",
       "Correspondez !"
-    ]
+    ],
+    "group": "3"
   },
   "Corriger": {
     "translation": "To correct",
@@ -8717,7 +8825,8 @@
       "Corrige !",
       "Corrigeons !",
       "Corrigez !"
-    ]
+    ],
+    "group": "1"
   },
   "Coucher": {
     "translation": "To put to bed",
@@ -8797,7 +8906,8 @@
       "Couche !",
       "Couchons !",
       "Couchez !"
-    ]
+    ],
+    "group": "1"
   },
   "Coudre": {
     "translation": "To sew",
@@ -8877,7 +8987,8 @@
       "Couds !",
       "Cousons !",
       "Cousez !"
-    ]
+    ],
+    "group": "3"
   },
   "Couper": {
     "translation": "To cut",
@@ -8957,7 +9068,8 @@
       "Coupe !",
       "Coupons !",
       "Coupez !"
-    ]
+    ],
+    "group": "1"
   },
   "Courir": {
     "translation": "To run",
@@ -9037,7 +9149,8 @@
       "Cours !",
       "Courons !",
       "Courez !"
-    ]
+    ],
+    "group": "3"
   },
   "Couvrir": {
     "translation": "To cover",
@@ -9117,7 +9230,8 @@
       "Ccouvre !",
       "Ccouvrez !",
       "Ccouvrons !"
-    ]
+    ],
+    "group": "3"
   },
   "Coûter": {
     "translation": "To cost",
@@ -9197,7 +9311,8 @@
       "Coûte !",
       "Coûtons !",
       "Coûtez !"
-    ]
+    ],
+    "group": "1"
   },
   "Craindre": {
     "translation": "To fear",
@@ -9277,7 +9392,8 @@
       "Crains !",
       "Craignons !",
       "Craignez !"
-    ]
+    ],
+    "group": "3"
   },
   "Crier": {
     "translation": "To shout",
@@ -9357,7 +9473,8 @@
       "Crie !",
       "Crions !",
       "Criez !"
-    ]
+    ],
+    "group": "1"
   },
   "Croire": {
     "translation": "To believe",
@@ -9437,7 +9554,8 @@
       "Crois !",
       "Croyons !",
       "Croyez !"
-    ]
+    ],
+    "group": "3"
   },
   "Créer": {
     "translation": "To create",
@@ -9517,7 +9635,8 @@
       "Crée !",
       "Créons !",
       "Créez !"
-    ]
+    ],
+    "group": "1"
   },
   "Cueillir": {
     "translation": "To pick",
@@ -9597,7 +9716,8 @@
       "Cueille !",
       "Cueillons !",
       "Cueillez !"
-    ]
+    ],
+    "group": "3"
   },
   "Cuire": {
     "translation": "To cook",
@@ -9677,7 +9797,8 @@
       "Cuis !",
       "Cuisons !",
       "Cuisez !"
-    ]
+    ],
+    "group": "3"
   },
   "Culpabiliser": {
     "translation": "To make one feel",
@@ -9757,7 +9878,8 @@
       "Culpabilise !",
       "Culpabilisons !",
       "Culpabilisez !"
-    ]
+    ],
+    "group": "1"
   },
   "Céder": {
     "translation": "To give",
@@ -9837,7 +9959,8 @@
       "Cède !",
       "Cédons !",
       "Cédez !"
-    ]
+    ],
+    "group": "1"
   },
   "Célébrer": {
     "translation": "To celebrate",
@@ -9917,7 +10040,8 @@
       "Célébre !",
       "Célébrons !",
       "Célébrez !"
-    ]
+    ],
+    "group": "1"
   },
   "Danser": {
     "translation": "To dance",
@@ -9997,7 +10121,8 @@
       "Danse !",
       "Dansons !",
       "Dansez !"
-    ]
+    ],
+    "group": "1"
   },
   "Demander": {
     "translation": "To ask",
@@ -10077,7 +10202,8 @@
       "Demande !",
       "Demandons !",
       "Demandez !"
-    ]
+    ],
+    "group": "1"
   },
   "Demeurer": {
     "translation": "To live - To stay",
@@ -10157,7 +10283,8 @@
       "Demeure !",
       "Demeurons !",
       "Demeurez !"
-    ]
+    ],
+    "group": "1"
   },
   "Descendre": {
     "translation": "To go down -",
@@ -10237,7 +10364,8 @@
       "Descends !",
       "Descendons !",
       "Descendez !"
-    ]
+    ],
+    "group": "3"
   },
   "Dessiner": {
     "translation": "To draw",
@@ -10317,7 +10445,8 @@
       "Dessine !",
       "Dessinons !",
       "Dessinez !"
-    ]
+    ],
+    "group": "1"
   },
   "Devenir": {
     "translation": "To become",
@@ -10397,7 +10526,8 @@
       "Tiens !",
       "Devenons !",
       "Devenez !"
-    ]
+    ],
+    "group": "3"
   },
   "Deviner": {
     "translation": "To guess",
@@ -10477,7 +10607,8 @@
       "Devine !",
       "Devinons !",
       "Devinez !"
-    ]
+    ],
+    "group": "1"
   },
   "Devoir": {
     "translation": "To have to",
@@ -10557,7 +10688,8 @@
       "Dois !",
       "Devons !",
       "Devez !"
-    ]
+    ],
+    "group": "3"
   },
   "Diminuer": {
     "translation": "To diminish",
@@ -10637,7 +10769,8 @@
       "Diminue !",
       "Diminuons !",
       "Diminuez !"
-    ]
+    ],
+    "group": "1"
   },
   "Dire": {
     "translation": "To say / To tell",
@@ -10717,7 +10850,8 @@
       "Dis !",
       "Disons !",
       "Dites !"
-    ]
+    ],
+    "group": "3"
   },
   "Diriger": {
     "translation": "To direct",
@@ -10797,7 +10931,8 @@
       "Dirige !",
       "Dirigeons !",
       "Dirigez !"
-    ]
+    ],
+    "group": "1"
   },
   "Discuter": {
     "translation": "To discuss",
@@ -10877,7 +11012,8 @@
       "Discute !",
       "Discutons !",
       "Discutez !"
-    ]
+    ],
+    "group": "1"
   },
   "Disparaître": {
     "translation": "To disappear",
@@ -10957,7 +11093,8 @@
       "Connais !",
       "Connaissons !",
       "Connaissez !"
-    ]
+    ],
+    "group": "3"
   },
   "Dissoudre": {
     "translation": "To dissolve",
@@ -11037,7 +11174,8 @@
       "Résous !",
       "Résolvons !",
       "Résolvez !"
-    ]
+    ],
+    "group": "3"
   },
   "Divorcer": {
     "translation": "To divorce",
@@ -11117,7 +11255,8 @@
       "Divorce !",
       "Plaçons !",
       "Divorcez !"
-    ]
+    ],
+    "group": "1"
   },
   "Donner": {
     "translation": "To give",
@@ -11197,7 +11336,8 @@
       "Donne !",
       "Donnons !",
       "Donnez !"
-    ]
+    ],
+    "group": "1"
   },
   "Dormir": {
     "translation": "To sleep",
@@ -11277,7 +11417,8 @@
       "Dors !",
       "Dormons !",
       "Dormez !"
-    ]
+    ],
+    "group": "3"
   },
   "Doubler": {
     "translation": "To double",
@@ -11357,7 +11498,8 @@
       "Double !",
       "Doublons !",
       "Doublez !"
-    ]
+    ],
+    "group": "1"
   },
   "Douter": {
     "translation": "To doubt",
@@ -11437,7 +11579,8 @@
       "Doute !",
       "Doutons !",
       "Doutez !"
-    ]
+    ],
+    "group": "1"
   },
   "Décevoir": {
     "translation": "To disappoint",
@@ -11517,7 +11660,8 @@
       "Déçois !",
       "Décevons !",
       "Décevez !"
-    ]
+    ],
+    "group": "3"
   },
   "Déchirer": {
     "translation": "To rip",
@@ -11597,7 +11741,8 @@
       "Déchire !",
       "Déchirons !",
       "Déchirez !"
-    ]
+    ],
+    "group": "1"
   },
   "Décider": {
     "translation": "To decide",
@@ -11677,7 +11822,8 @@
       "Décide !",
       "Décidons !",
       "Décidez !"
-    ]
+    ],
+    "group": "1"
   },
   "Décourager": {
     "translation": "To discourage",
@@ -11757,7 +11903,8 @@
       "Décourage !",
       "Décourageons !",
       "Découragez !"
-    ]
+    ],
+    "group": "1"
   },
   "Découvrir": {
     "translation": "To discover",
@@ -11837,12 +11984,13 @@
       "Décdécouvre !",
       "Décdécouvrez !",
       "Décdécouvrons !"
-    ]
+    ],
+    "group": "3"
   },
   "Décrire": {
     "translation": "To describe",
     "Présent": [
-      "J'décris",
+      "Je décris",
       "Tu décris",
       "Il/elle décrit",
       "Nous décrivons",
@@ -11858,7 +12006,7 @@
       "Ils/elles ont décrit"
     ],
     "Imparfait": [
-      "J'décrivais",
+      "Je décrivais",
       "Tu décrivais",
       "Il/elle décrivait",
       "Nous décrivions",
@@ -11874,7 +12022,7 @@
       "Ils/elles avaient décrit"
     ],
     "Futur simple": [
-      "J'décrirai",
+      "Je décrirai",
       "Tu décriras",
       "Il/elle décrira",
       "Nous décrirons",
@@ -11890,7 +12038,7 @@
       "Ils/elles auront décrit"
     ],
     "Conditionnel présent": [
-      "J'décrirais",
+      "Je décrirais",
       "Tu décrirais",
       "Il/elle décrirait",
       "Nous décririons",
@@ -11906,7 +12054,7 @@
       "Ils/elles auraient décrit"
     ],
     "Subjonctif présent": [
-      "j'décrive",
+      "je décrive",
       "tu décrives",
       "il/elle décrive",
       "nous décrivions",
@@ -11914,10 +12062,11 @@
       "ils/elles décrivent"
     ],
     "Impératif présent": [
-      "Ddécris !",
-      "Ddécrivons !",
-      "Ddécrivez !"
-    ]
+      "Écris !",
+      "Écrivons !",
+      "Écrivez !"
+    ],
+    "group": "3"
   },
   "Défaire": {
     "translation": "To undo",
@@ -11927,7 +12076,7 @@
       "Il/elle défait",
       "Nous défaisons",
       "Vous défaites",
-      "Ils/elles font"
+      "Ils/elles défont"
     ],
     "Passé composé": [
       "J'ai défait",
@@ -11954,12 +12103,12 @@
       "Ils/elles avaient défait"
     ],
     "Futur simple": [
-      "Je ferai",
-      "Tu feras",
-      "Il/elle fera",
-      "Nous ferons",
-      "Vous ferez",
-      "Ils/elles feront"
+      "Je déferai",
+      "Tu déferas",
+      "Il/elle défera",
+      "Nous déferons",
+      "Vous déferez",
+      "Ils/elles déferont"
     ],
     "Futur antérieur": [
       "J'aurai défait",
@@ -11970,12 +12119,12 @@
       "Ils/elles auront défait"
     ],
     "Conditionnel présent": [
-      "Je ferais",
-      "Tu ferais",
-      "Il/elle ferait",
-      "Nous ferions",
-      "Vous feriez",
-      "Ils/elles feraient"
+      "Je déferais",
+      "Tu déferais",
+      "Il/elle déferait",
+      "Nous déferions",
+      "Vous déferiez",
+      "Ils/elles déferaient"
     ],
     "Conditionnel passé": [
       "J'aurais défait",
@@ -11986,18 +12135,19 @@
       "Ils/elles auraient défait"
     ],
     "Subjonctif présent": [
-      "je fasse",
-      "tu fasses",
-      "il/elle fasse",
+      "je défasse",
+      "tu défasses",
+      "il/elle défasse",
       "nous défaisons",
-      "vous fassiez",
-      "ils/elles fassent"
+      "vous défassiez",
+      "ils/elles défassent"
     ],
     "Impératif présent": [
-      "Dédéfais !",
-      "Dédéfaisons !",
-      "Dédéfaites !"
-    ]
+      "Fais !",
+      "Faisons !",
+      "Faites !"
+    ],
+    "group": "3"
   },
   "Défendre": {
     "translation": "To defend",
@@ -12077,7 +12227,8 @@
       "Défends !",
       "Défendons !",
       "Défendez !"
-    ]
+    ],
+    "group": "3"
   },
   "Dégager": {
     "translation": "To free",
@@ -12157,7 +12308,8 @@
       "Dégage !",
       "Dégageons !",
       "Dégagez !"
-    ]
+    ],
+    "group": "1"
   },
   "Déjeuner": {
     "translation": "To have lunch",
@@ -12237,7 +12389,8 @@
       "Déjeune !",
       "Déjeunons !",
       "Déjeunez !"
-    ]
+    ],
+    "group": "1"
   },
   "Démolir": {
     "translation": "To demolish",
@@ -12317,7 +12470,8 @@
       "Démolis !",
       "Démolissons !",
       "Démolissez !"
-    ]
+    ],
+    "group": "2"
   },
   "Déménager": {
     "translation": "To move",
@@ -12397,7 +12551,8 @@
       "Déménage !",
       "Déménageons !",
       "Déménagez !"
-    ]
+    ],
+    "group": "1"
   },
   "Dénoncer": {
     "translation": "To denounce",
@@ -12477,7 +12632,8 @@
       "Dénonce !",
       "Plaçons !",
       "Dénoncez !"
-    ]
+    ],
+    "group": "1"
   },
   "Dépasser": {
     "translation": "To exceed",
@@ -12557,7 +12713,8 @@
       "Dépasse !",
       "Dépassons !",
       "Dépassez !"
-    ]
+    ],
+    "group": "1"
   },
   "Dépendre": {
     "translation": "To depend",
@@ -12637,7 +12794,8 @@
       "Dépends !",
       "Dépendons !",
       "Dépendez !"
-    ]
+    ],
+    "group": "3"
   },
   "Dépenser": {
     "translation": "To spend",
@@ -12717,7 +12875,8 @@
       "Dépense !",
       "Dépensons !",
       "Dépensez !"
-    ]
+    ],
+    "group": "1"
   },
   "Déplaire": {
     "translation": "To displease",
@@ -12797,7 +12956,8 @@
       "Déplais !",
       "Déplaisons !",
       "Déplaisez !"
-    ]
+    ],
+    "group": "3"
   },
   "Dépêcher": {
     "translation": "To hurry",
@@ -12877,7 +13037,8 @@
       "Dépêche !",
       "Dépêchons !",
       "Dépêchez !"
-    ]
+    ],
+    "group": "1"
   },
   "Déranger": {
     "translation": "To disturb",
@@ -12957,7 +13118,8 @@
       "Dérange !",
       "Dérangeons !",
       "Dérangez !"
-    ]
+    ],
+    "group": "1"
   },
   "Désirer": {
     "translation": "To desire - To wish",
@@ -13037,7 +13199,8 @@
       "Désire !",
       "Désirons !",
       "Désirez !"
-    ]
+    ],
+    "group": "1"
   },
   "Désobéir": {
     "translation": "To disobey",
@@ -13117,7 +13280,8 @@
       "Désobéis !",
       "Désobéissons !",
       "Désobéissez !"
-    ]
+    ],
+    "group": "2"
   },
   "Détenir": {
     "translation": "To hold",
@@ -13197,7 +13361,8 @@
       "Tiens !",
       "Dédétenons !",
       "Dédétenez !"
-    ]
+    ],
+    "group": "3"
   },
   "Détester": {
     "translation": "To hate",
@@ -13277,7 +13442,8 @@
       "Déteste !",
       "Détestons !",
       "Détestez !"
-    ]
+    ],
+    "group": "1"
   },
   "Détourner": {
     "translation": "To divert",
@@ -13357,7 +13523,8 @@
       "Détourne !",
       "Détournons !",
       "Détournez !"
-    ]
+    ],
+    "group": "1"
   },
   "Développer": {
     "translation": "To develop",
@@ -13437,7 +13604,8 @@
       "Développe !",
       "Développons !",
       "Développez !"
-    ]
+    ],
+    "group": "1"
   },
   "Dévêtir": {
     "translation": "To undress",
@@ -13517,7 +13685,8 @@
       "Mens !",
       "Dévêtons !",
       "Dévêtez !"
-    ]
+    ],
+    "group": "3"
   },
   "Dîner": {
     "translation": "To have dinner",
@@ -13597,7 +13766,8 @@
       "Dîne !",
       "Dînons !",
       "Dînez !"
-    ]
+    ],
+    "group": "1"
   },
   "Effacer": {
     "translation": "To erase - To delete",
@@ -13677,7 +13847,8 @@
       "Efface !",
       "Plaçons !",
       "Effacez !"
-    ]
+    ],
+    "group": "1"
   },
   "Effrayer": {
     "translation": "To frighten",
@@ -13757,7 +13928,8 @@
       "Nettoie !",
       "Effrayons !",
       "Effrayez !"
-    ]
+    ],
+    "group": "1"
   },
   "Embrasser": {
     "translation": "To kiss - To embrace",
@@ -13837,7 +14009,8 @@
       "Embrasse !",
       "Embrassons !",
       "Embrassez !"
-    ]
+    ],
+    "group": "1"
   },
   "Emmener": {
     "translation": "To take",
@@ -13917,7 +14090,8 @@
       "Amène !",
       "Emmenons !",
       "Emmenez !"
-    ]
+    ],
+    "group": "1"
   },
   "Employer": {
     "translation": "To employ - To use",
@@ -13997,7 +14171,8 @@
       "Nettoie !",
       "Employons !",
       "Employez !"
-    ]
+    ],
+    "group": "1"
   },
   "Emprunter": {
     "translation": "To borrow",
@@ -14077,7 +14252,8 @@
       "Emprunte !",
       "Empruntons !",
       "Empruntez !"
-    ]
+    ],
+    "group": "1"
   },
   "Empêcher": {
     "translation": "To prevent",
@@ -14157,7 +14333,8 @@
       "Empêche !",
       "Empêchons !",
       "Empêchez !"
-    ]
+    ],
+    "group": "1"
   },
   "Encourager": {
     "translation": "To encourage",
@@ -14237,14 +14414,15 @@
       "Encourage !",
       "Encourageons !",
       "Encouragez !"
-    ]
+    ],
+    "group": "1"
   },
   "Endormir": {
     "translation": "To fall asleep",
     "Présent": [
-      "Je dors",
-      "Tu dors",
-      "Il/elle dort",
+      "J'endors",
+      "Tu endors",
+      "Il/elle endort",
       "Nous endormons",
       "Vous endormez",
       "Ils/elles endorment"
@@ -14306,7 +14484,7 @@
       "Ils/elles auraient endormi"
     ],
     "Subjonctif présent": [
-      "je endorme",
+      "j'endorme",
       "tu endormes",
       "il/elle endorme",
       "nous endormons",
@@ -14315,9 +14493,10 @@
     ],
     "Impératif présent": [
       "Dors !",
-      "Enendormons !",
-      "Enendormez !"
-    ]
+      "Dormons !",
+      "Dormez !"
+    ],
+    "group": "3"
   },
   "Enduire": {
     "translation": "To coat",
@@ -14397,7 +14576,8 @@
       "Enduis !",
       "Enduisons !",
       "Enduisez !"
-    ]
+    ],
+    "group": "3"
   },
   "Engager": {
     "translation": "To engage",
@@ -14477,7 +14657,8 @@
       "Engage !",
       "Engageons !",
       "Engagez !"
-    ]
+    ],
+    "group": "1"
   },
   "Enlever": {
     "translation": "To remove",
@@ -14557,7 +14738,8 @@
       "Achève !",
       "Enlevons !",
       "Enlevez !"
-    ]
+    ],
+    "group": "1"
   },
   "Ennuyer": {
     "translation": "To bore - To annoy",
@@ -14637,7 +14819,8 @@
       "Nettoie !",
       "Ennuyons !",
       "Ennuyez !"
-    ]
+    ],
+    "group": "1"
   },
   "Enregistrer": {
     "translation": "To record - To save",
@@ -14717,7 +14900,8 @@
       "Enregistre !",
       "Enregistrons !",
       "Enregistrez !"
-    ]
+    ],
+    "group": "1"
   },
   "Enseigner": {
     "translation": "To teach",
@@ -14797,7 +14981,8 @@
       "Enseigne !",
       "Enseignons !",
       "Enseignez !"
-    ]
+    ],
+    "group": "1"
   },
   "Entendre": {
     "translation": "To hear",
@@ -14877,7 +15062,8 @@
       "Entends !",
       "Entendons !",
       "Entendez !"
-    ]
+    ],
+    "group": "3"
   },
   "Enterrer": {
     "translation": "To burry",
@@ -14957,7 +15143,8 @@
       "Enterre !",
       "Enterrons !",
       "Enterrez !"
-    ]
+    ],
+    "group": "1"
   },
   "Entraîner": {
     "translation": "To train - To cause",
@@ -15037,7 +15224,8 @@
       "Entraîne !",
       "Entraînons !",
       "Entraînez !"
-    ]
+    ],
+    "group": "1"
   },
   "Entreprendre": {
     "translation": "To undertake",
@@ -15045,33 +15233,33 @@
       "J'entreprends",
       "Tu entreprends",
       "Il/elle entreprend",
-      "Nous prenons",
-      "Vous prenez",
-      "Ils/elles prennent"
+      "Nous entreprenons",
+      "Vous entreprenez",
+      "Ils/elles entreprennent"
     ],
     "Passé composé": [
-      "J'ai pris",
-      "Tu as pris",
-      "Il/elle a pris",
-      "Nous avons pris",
-      "Vous avez pris",
-      "Ils/elles ont pris"
+      "J'ai entrepris",
+      "Tu as entrepris",
+      "Il/elle a entrepris",
+      "Nous avons entrepris",
+      "Vous avez entrepris",
+      "Ils/elles ont entrepris"
     ],
     "Imparfait": [
-      "Je prenais",
-      "Tu prenais",
-      "Il/elle prenait",
-      "Nous prenions",
-      "Vous preniez",
-      "Ils/elles prenaient"
+      "J'entreprenais",
+      "Tu entreprenais",
+      "Il/elle entreprenait",
+      "Nous entreprenions",
+      "Vous entrepreniez",
+      "Ils/elles entreprenaient"
     ],
     "Plus-que-parfait": [
-      "J'avais pris",
-      "Tu avais pris",
-      "Il/elle avait pris",
-      "Nous avions pris",
-      "Vous aviez pris",
-      "Ils/elles avaient pris"
+      "J'avais entrepris",
+      "Tu avais entrepris",
+      "Il/elle avait entrepris",
+      "Nous avions entrepris",
+      "Vous aviez entrepris",
+      "Ils/elles avaient entrepris"
     ],
     "Futur simple": [
       "J'entreprendrai",
@@ -15082,12 +15270,12 @@
       "Ils/elles entreprendront"
     ],
     "Futur antérieur": [
-      "J'aurai pris",
-      "Tu auras pris",
-      "Il/elle aura pris",
-      "Nous aurons pris",
-      "Vous aurez pris",
-      "Ils/elles auront pris"
+      "J'aurai entrepris",
+      "Tu auras entrepris",
+      "Il/elle aura entrepris",
+      "Nous aurons entrepris",
+      "Vous aurez entrepris",
+      "Ils/elles auront entrepris"
     ],
     "Conditionnel présent": [
       "J'entreprendrais",
@@ -15098,26 +15286,27 @@
       "Ils/elles entreprendraient"
     ],
     "Conditionnel passé": [
-      "J'aurais pris",
-      "Tu aurais pris",
-      "Il/elle aurait pris",
-      "Nous aurions pris",
-      "Vous auriez pris",
-      "Ils/elles auraient pris"
+      "J'aurais entrepris",
+      "Tu aurais entrepris",
+      "Il/elle aurait entrepris",
+      "Nous aurions entrepris",
+      "Vous auriez entrepris",
+      "Ils/elles auraient entrepris"
     ],
     "Subjonctif présent": [
-      "je prenne",
-      "tu prennes",
-      "il/elle prenne",
-      "nous prenions",
-      "vous preniez",
-      "ils/elles prennent"
+      "j'entreprenne",
+      "tu entreprennes",
+      "il/elle entreprenne",
+      "nous entreprenions",
+      "vous entrepreniez",
+      "ils/elles entreprennent"
     ],
     "Impératif présent": [
-      "Entreentreprends !",
+      "Prends !",
       "Prenons !",
       "Prenez !"
-    ]
+    ],
+    "group": "3"
   },
   "Entrer": {
     "translation": "To enter",
@@ -15197,7 +15386,8 @@
       "Entre !",
       "Entrons !",
       "Entrez !"
-    ]
+    ],
+    "group": "1"
   },
   "Entretenir": {
     "translation": "To look after",
@@ -15277,7 +15467,8 @@
       "Tiens !",
       "Entreentretenons !",
       "Entreentretenez !"
-    ]
+    ],
+    "group": "3"
   },
   "Envoyer": {
     "translation": "To send",
@@ -15357,7 +15548,8 @@
       "Envoie !",
       "Envoyons !",
       "Envoyez !"
-    ]
+    ],
+    "group": "1"
   },
   "Espérer": {
     "translation": "To hope",
@@ -15437,7 +15629,8 @@
       "Espère !",
       "Espérons !",
       "Espérez !"
-    ]
+    ],
+    "group": "1"
   },
   "Essayer": {
     "translation": "To try",
@@ -15517,7 +15710,8 @@
       "Nettoie !",
       "Essayons !",
       "Essayez !"
-    ]
+    ],
+    "group": "1"
   },
   "Essuyer": {
     "translation": "To wipe",
@@ -15597,7 +15791,8 @@
       "Nettoie !",
       "Essuyons !",
       "Essuyez !"
-    ]
+    ],
+    "group": "1"
   },
   "Exagérer": {
     "translation": "To exaggerate",
@@ -15677,7 +15872,8 @@
       "Espère !",
       "Exagérons !",
       "Exagérez !"
-    ]
+    ],
+    "group": "1"
   },
   "Excuser": {
     "translation": "To excuse",
@@ -15757,7 +15953,8 @@
       "Excuse !",
       "Excusons !",
       "Excusez !"
-    ]
+    ],
+    "group": "1"
   },
   "Exiger": {
     "translation": "To demand",
@@ -15837,7 +16034,8 @@
       "Exige !",
       "Exigeons !",
       "Exigez !"
-    ]
+    ],
+    "group": "1"
   },
   "Exister": {
     "translation": "To exist",
@@ -15917,7 +16115,8 @@
       "Existe !",
       "Existons !",
       "Existez !"
-    ]
+    ],
+    "group": "1"
   },
   "Expliquer": {
     "translation": "To explain",
@@ -15997,7 +16196,8 @@
       "Explique !",
       "Expliquons !",
       "Expliquez !"
-    ]
+    ],
+    "group": "1"
   },
   "Explorer": {
     "translation": "To explore",
@@ -16077,7 +16277,8 @@
       "Explore !",
       "Explorons !",
       "Explorez !"
-    ]
+    ],
+    "group": "1"
   },
   "Exprimer": {
     "translation": "To express",
@@ -16157,7 +16358,8 @@
       "Exprime !",
       "Exprimons !",
       "Exprimez !"
-    ]
+    ],
+    "group": "1"
   },
   "Faire": {
     "translation": "To do / To make",
@@ -16237,15 +16439,41 @@
       "Fais !",
       "Faisons !",
       "Faites !"
-    ]
+    ],
+    "group": "3"
   },
   "Falloir": {
-    "translation": "To be necessary",
+    "translation": "To be necessary (il faut)",
     "Subjonctif présent": [
       "il faille"
     ],
     "Impératif présent": [
       "-"
+    ],
+    "group": "3",
+    "Présent": [
+      "Il faut"
+    ],
+    "Passé composé": [
+      "Il a fallu"
+    ],
+    "Imparfait": [
+      "Il fallait"
+    ],
+    "Plus-que-parfait": [
+      "Il avait fallu"
+    ],
+    "Futur simple": [
+      "Il faudra"
+    ],
+    "Futur antérieur": [
+      "Il aura fallu"
+    ],
+    "Conditionnel présent": [
+      "Il faudrait"
+    ],
+    "Conditionnel passé": [
+      "Il aurait fallu"
     ]
   },
   "Fermer": {
@@ -16326,7 +16554,8 @@
       "Ferme !",
       "Fermons !",
       "Fermez !"
-    ]
+    ],
+    "group": "1"
   },
   "Finir": {
     "translation": "To finish",
@@ -16406,7 +16635,8 @@
       "Finis !",
       "Finissons !",
       "Finissez !"
-    ]
+    ],
+    "group": "2"
   },
   "Fixer": {
     "translation": "To fix",
@@ -16486,7 +16716,8 @@
       "Fixe !",
       "Fixons !",
       "Fixez !"
-    ]
+    ],
+    "group": "1"
   },
   "Fonder": {
     "translation": "To found",
@@ -16566,7 +16797,8 @@
       "Fonde !",
       "Fondons !",
       "Fondez !"
-    ]
+    ],
+    "group": "1"
   },
   "Fondre": {
     "translation": "To melt",
@@ -16646,7 +16878,8 @@
       "Fonds !",
       "Fondons !",
       "Fondez !"
-    ]
+    ],
+    "group": "3"
   },
   "Forcer": {
     "translation": "To force",
@@ -16726,7 +16959,8 @@
       "Force !",
       "Plaçons !",
       "Forcez !"
-    ]
+    ],
+    "group": "1"
   },
   "Fouiller": {
     "translation": "To search",
@@ -16806,7 +17040,8 @@
       "Fouille !",
       "Fouillons !",
       "Fouillez !"
-    ]
+    ],
+    "group": "1"
   },
   "Fournir": {
     "translation": "To provide",
@@ -16886,7 +17121,8 @@
       "Fournis !",
       "Fournissons !",
       "Fournissez !"
-    ]
+    ],
+    "group": "2"
   },
   "Frapper": {
     "translation": "To knock - To hit",
@@ -16966,7 +17202,8 @@
       "Frappe !",
       "Frappons !",
       "Frappez !"
-    ]
+    ],
+    "group": "1"
   },
   "Fuir": {
     "translation": "To flee",
@@ -17046,7 +17283,8 @@
       "Fuis !",
       "Fuyons !",
       "Fuyez !"
-    ]
+    ],
+    "group": "3"
   },
   "Fumer": {
     "translation": "To smoke",
@@ -17126,7 +17364,8 @@
       "Fume !",
       "Fumons !",
       "Fumez !"
-    ]
+    ],
+    "group": "1"
   },
   "Féliciter": {
     "translation": "To congratulate",
@@ -17206,7 +17445,8 @@
       "Félicite !",
       "Félicitons !",
       "Félicitez !"
-    ]
+    ],
+    "group": "1"
   },
   "Gagner": {
     "translation": "To win - To earn -",
@@ -17286,7 +17526,8 @@
       "Gagne !",
       "Gagnons !",
       "Gagnez !"
-    ]
+    ],
+    "group": "1"
   },
   "Garder": {
     "translation": "To keep",
@@ -17366,7 +17607,8 @@
       "Garde !",
       "Gardons !",
       "Gardez !"
-    ]
+    ],
+    "group": "1"
   },
   "Gaspiller": {
     "translation": "To waste",
@@ -17446,7 +17688,8 @@
       "Gaspille !",
       "Gaspillons !",
       "Gaspillez !"
-    ]
+    ],
+    "group": "1"
   },
   "Geler": {
     "translation": "To freeze",
@@ -17526,7 +17769,8 @@
       "Gèle !",
       "Gelons !",
       "Gelez !"
-    ]
+    ],
+    "group": "1"
   },
   "Goûter": {
     "translation": "To taste",
@@ -17606,7 +17850,8 @@
       "Goûte !",
       "Goûtons !",
       "Goûtez !"
-    ]
+    ],
+    "group": "1"
   },
   "Grandir": {
     "translation": "To grow up",
@@ -17686,7 +17931,8 @@
       "Grandis !",
       "Grandissons !",
       "Grandissez !"
-    ]
+    ],
+    "group": "2"
   },
   "Gratter": {
     "translation": "To scratch",
@@ -17766,7 +18012,8 @@
       "Gratte !",
       "Grattons !",
       "Grattez !"
-    ]
+    ],
+    "group": "1"
   },
   "Grimper": {
     "translation": "To climb",
@@ -17846,7 +18093,8 @@
       "Grimpe !",
       "Grimpons !",
       "Grimpez !"
-    ]
+    ],
+    "group": "1"
   },
   "Guérir": {
     "translation": "To heal",
@@ -17926,7 +18174,8 @@
       "Guéris !",
       "Guérissons !",
       "Guérissez !"
-    ]
+    ],
+    "group": "2"
   },
   "Gérer": {
     "translation": "To manage",
@@ -18006,7 +18255,8 @@
       "Espère !",
       "Gérons !",
       "Gérez !"
-    ]
+    ],
+    "group": "1"
   },
   "Habiller": {
     "translation": "To dress",
@@ -18086,7 +18336,8 @@
       "Habille !",
       "Habillons !",
       "Habillez !"
-    ]
+    ],
+    "group": "1"
   },
   "Habiter": {
     "translation": "To live",
@@ -18166,7 +18417,8 @@
       "Habite !",
       "Habitons !",
       "Habitez !"
-    ]
+    ],
+    "group": "1"
   },
   "Haïr": {
     "translation": "To hate",
@@ -18246,7 +18498,8 @@
       "Hais !",
       "Haïssons !",
       "Haïssez !"
-    ]
+    ],
+    "group": "3"
   },
   "Hésiter": {
     "translation": "To hesitate",
@@ -18326,7 +18579,8 @@
       "Hésite !",
       "Hésitons !",
       "Hésitez !"
-    ]
+    ],
+    "group": "1"
   },
   "Ignorer": {
     "translation": "To ignore",
@@ -18406,7 +18660,8 @@
       "Ignore !",
       "Ignorons !",
       "Ignorez !"
-    ]
+    ],
+    "group": "1"
   },
   "Importer": {
     "translation": "To import",
@@ -18486,7 +18741,8 @@
       "Importe !",
       "Importons !",
       "Importez !"
-    ]
+    ],
+    "group": "1"
   },
   "Indiquer": {
     "translation": "To indicate",
@@ -18566,7 +18822,8 @@
       "Indique !",
       "Indiquons !",
       "Indiquez !"
-    ]
+    ],
+    "group": "1"
   },
   "Informer": {
     "translation": "To inform",
@@ -18646,7 +18903,8 @@
       "Informe !",
       "Informons !",
       "Informez !"
-    ]
+    ],
+    "group": "1"
   },
   "Inquiéter": {
     "translation": "To worry",
@@ -18726,7 +18984,8 @@
       "Complète !",
       "Inquiétons !",
       "Inquiétez !"
-    ]
+    ],
+    "group": "1"
   },
   "Inscrire": {
     "translation": "To write down",
@@ -18803,10 +19062,11 @@
       "ils/elles inscrivent"
     ],
     "Impératif présent": [
-      "Inscris !",
-      "Inscrivons !",
-      "Inscrivez !"
-    ]
+      "Écris !",
+      "Écrivons !",
+      "Écrivez !"
+    ],
+    "group": "3"
   },
   "Insister": {
     "translation": "To insist",
@@ -18886,7 +19146,8 @@
       "Insiste !",
       "Insistons !",
       "Insistez !"
-    ]
+    ],
+    "group": "1"
   },
   "Interdire": {
     "translation": "To forbid",
@@ -18955,7 +19216,7 @@
       "Ils/elles auraient interdit"
     ],
     "Subjonctif présent": [
-      "je interdise",
+      "j'interdise",
       "tu interdises",
       "il/elle interdise",
       "nous interdisons",
@@ -18963,10 +19224,11 @@
       "ils/elles interdisent"
     ],
     "Impératif présent": [
-      "Interinterdis !",
-      "Interinterdisons !",
-      "Interinterdites !"
-    ]
+      "Dis !",
+      "Disons !",
+      "Dites !"
+    ],
+    "group": "3"
   },
   "Interroger": {
     "translation": "To interrogate -",
@@ -19046,7 +19308,8 @@
       "Interroge !",
       "Interrogeons !",
       "Interrogez !"
-    ]
+    ],
+    "group": "1"
   },
   "Intervenir": {
     "translation": "To intervene",
@@ -19126,7 +19389,8 @@
       "Tiens !",
       "Intervenons !",
       "Intervenez !"
-    ]
+    ],
+    "group": "3"
   },
   "Introduire": {
     "translation": "To introduce",
@@ -19206,7 +19470,8 @@
       "Introduis !",
       "Introduisons !",
       "Introduisez !"
-    ]
+    ],
+    "group": "3"
   },
   "Intéresser": {
     "translation": "To interest",
@@ -19286,7 +19551,8 @@
       "Intéresse !",
       "Intéressons !",
       "Intéressez !"
-    ]
+    ],
+    "group": "1"
   },
   "Inventer": {
     "translation": "To invent",
@@ -19366,7 +19632,8 @@
       "Invente !",
       "Inventons !",
       "Inventez !"
-    ]
+    ],
+    "group": "1"
   },
   "Inviter": {
     "translation": "To invite",
@@ -19446,7 +19713,8 @@
       "Invite !",
       "Invitons !",
       "Invitez !"
-    ]
+    ],
+    "group": "1"
   },
   "Jaunir": {
     "translation": "To turn yellow",
@@ -19526,7 +19794,8 @@
       "Jaunis !",
       "Jaunissons !",
       "Jaunissez !"
-    ]
+    ],
+    "group": "2"
   },
   "Jeter": {
     "translation": "To throw",
@@ -19606,7 +19875,8 @@
       "Jette !",
       "Jetons !",
       "Jetez !"
-    ]
+    ],
+    "group": "1"
   },
   "Jouer": {
     "translation": "To play",
@@ -19686,7 +19956,8 @@
       "Joue !",
       "Jouons !",
       "Jouez !"
-    ]
+    ],
+    "group": "1"
   },
   "Jouir": {
     "translation": "To enjoy",
@@ -19766,7 +20037,8 @@
       "Jouis !",
       "Jouissons !",
       "Jouissez !"
-    ]
+    ],
+    "group": "2"
   },
   "Juger": {
     "translation": "To judge",
@@ -19846,7 +20118,8 @@
       "Juge !",
       "Jugeons !",
       "Jugez !"
-    ]
+    ],
+    "group": "1"
   },
   "Jurer": {
     "translation": "To swear - To vow",
@@ -19926,7 +20199,8 @@
       "Jure !",
       "Jurons !",
       "Jurez !"
-    ]
+    ],
+    "group": "1"
   },
   "Klaxonner": {
     "translation": "To honk",
@@ -20006,7 +20280,8 @@
       "Klaxonne !",
       "Klaxonnons !",
       "Klaxonnez !"
-    ]
+    ],
+    "group": "1"
   },
   "Laisser": {
     "translation": "To leave",
@@ -20086,7 +20361,8 @@
       "Laisse !",
       "Laissons !",
       "Laissez !"
-    ]
+    ],
+    "group": "1"
   },
   "Lancer": {
     "translation": "To throw",
@@ -20166,7 +20442,8 @@
       "Lance !",
       "Plaçons !",
       "Lancez !"
-    ]
+    ],
+    "group": "1"
   },
   "Laver": {
     "translation": "To wash",
@@ -20246,7 +20523,8 @@
       "Lave !",
       "Lavons !",
       "Lavez !"
-    ]
+    ],
+    "group": "1"
   },
   "Lever": {
     "translation": "To lift - To stand",
@@ -20326,7 +20604,8 @@
       "Achève !",
       "Levons !",
       "Levez !"
-    ]
+    ],
+    "group": "1"
   },
   "Lire": {
     "translation": "To read",
@@ -20406,7 +20685,8 @@
       "Lis !",
       "Lisons !",
       "Lisez !"
-    ]
+    ],
+    "group": "3"
   },
   "Loger": {
     "translation": "To lodge",
@@ -20486,7 +20766,8 @@
       "Loge !",
       "Logeons !",
       "Logez !"
-    ]
+    ],
+    "group": "1"
   },
   "Louer": {
     "translation": "To rent",
@@ -20566,7 +20847,8 @@
       "Loue !",
       "Louons !",
       "Louez !"
-    ]
+    ],
+    "group": "1"
   },
   "Maigrir": {
     "translation": "To lose weight",
@@ -20646,7 +20928,8 @@
       "Maigris !",
       "Maigrissons !",
       "Maigrissez !"
-    ]
+    ],
+    "group": "2"
   },
   "Manger": {
     "translation": "To eat",
@@ -20726,7 +21009,8 @@
       "Mange !",
       "Mangeons !",
       "Mangez !"
-    ]
+    ],
+    "group": "1"
   },
   "Manquer": {
     "translation": "To miss",
@@ -20806,7 +21090,8 @@
       "Manque !",
       "Manquons !",
       "Manquez !"
-    ]
+    ],
+    "group": "1"
   },
   "Marcher": {
     "translation": "To walk",
@@ -20886,7 +21171,8 @@
       "Marche !",
       "Marchons !",
       "Marchez !"
-    ]
+    ],
+    "group": "1"
   },
   "Menacer": {
     "translation": "To threaten",
@@ -20966,7 +21252,8 @@
       "Menace !",
       "Plaçons !",
       "Menacez !"
-    ]
+    ],
+    "group": "1"
   },
   "Mener": {
     "translation": "To lead",
@@ -21046,7 +21333,8 @@
       "Amène !",
       "Menons !",
       "Menez !"
-    ]
+    ],
+    "group": "1"
   },
   "Mentir": {
     "translation": "To lie",
@@ -21126,7 +21414,8 @@
       "Mens !",
       "Mentons !",
       "Mentez !"
-    ]
+    ],
+    "group": "3"
   },
   "Mesurer": {
     "translation": "To measure",
@@ -21206,7 +21495,8 @@
       "Mesure !",
       "Mesurons !",
       "Mesurez !"
-    ]
+    ],
+    "group": "1"
   },
   "Mettre": {
     "translation": "To put",
@@ -21286,7 +21576,8 @@
       "Mets !",
       "Mettons !",
       "Mettez !"
-    ]
+    ],
+    "group": "3"
   },
   "Monter": {
     "translation": "To climb - To go up",
@@ -21366,7 +21657,8 @@
       "Monte !",
       "Montons !",
       "Montez !"
-    ]
+    ],
+    "group": "1"
   },
   "Montrer": {
     "translation": "To show",
@@ -21446,7 +21738,8 @@
       "Montre !",
       "Montrons !",
       "Montrez !"
-    ]
+    ],
+    "group": "1"
   },
   "Moquer": {
     "translation": "To mock",
@@ -21526,7 +21819,8 @@
       "Moque !",
       "Moquons !",
       "Moquez !"
-    ]
+    ],
+    "group": "1"
   },
   "Mourir": {
     "translation": "To die",
@@ -21606,7 +21900,8 @@
       "Meurs !",
       "Mourons !",
       "Mourez !"
-    ]
+    ],
+    "group": "3"
   },
   "Mélanger": {
     "translation": "To mix",
@@ -21686,7 +21981,8 @@
       "Mélange !",
       "Mélangeons !",
       "Mélangez !"
-    ]
+    ],
+    "group": "1"
   },
   "Mériter": {
     "translation": "To merit",
@@ -21766,7 +22062,8 @@
       "Mérite !",
       "Méritons !",
       "Méritez !"
-    ]
+    ],
+    "group": "1"
   },
   "Nager": {
     "translation": "To swim",
@@ -21846,7 +22143,8 @@
       "Nage !",
       "Nageons !",
       "Nagez !"
-    ]
+    ],
+    "group": "1"
   },
   "Naître": {
     "translation": "To be born",
@@ -21926,7 +22224,8 @@
       "Nais !",
       "Naissons !",
       "Naissez !"
-    ]
+    ],
+    "group": "3"
   },
   "Neiger": {
     "translation": "To snow",
@@ -22006,7 +22305,8 @@
       "Neige !",
       "Neigeons !",
       "Neigez !"
-    ]
+    ],
+    "group": "1"
   },
   "Nettoyer": {
     "translation": "To clean",
@@ -22086,7 +22386,8 @@
       "Nettoie !",
       "Nettoyons !",
       "Nettoyez !"
-    ]
+    ],
+    "group": "1"
   },
   "Nier": {
     "translation": "To deny",
@@ -22166,7 +22467,8 @@
       "Nie !",
       "Nions !",
       "Niez !"
-    ]
+    ],
+    "group": "1"
   },
   "Nommer": {
     "translation": "To name - To appoint",
@@ -22246,7 +22548,8 @@
       "Nomme !",
       "Nommons !",
       "Nommez !"
-    ]
+    ],
+    "group": "1"
   },
   "Noter": {
     "translation": "To write down",
@@ -22326,7 +22629,8 @@
       "Note !",
       "Notons !",
       "Notez !"
-    ]
+    ],
+    "group": "1"
   },
   "Nourrir": {
     "translation": "To feed",
@@ -22406,7 +22710,8 @@
       "Nourris !",
       "Nourrissons !",
       "Nourrissez !"
-    ]
+    ],
+    "group": "2"
   },
   "Négocier": {
     "translation": "To negociate",
@@ -22486,7 +22791,8 @@
       "Négocie !",
       "Négocions !",
       "Négociez !"
-    ]
+    ],
+    "group": "1"
   },
   "Obliger": {
     "translation": "To force",
@@ -22566,7 +22872,8 @@
       "Oblige !",
       "Obligeons !",
       "Obligez !"
-    ]
+    ],
+    "group": "1"
   },
   "Obtenir": {
     "translation": "To obtain - To get",
@@ -22646,7 +22953,8 @@
       "Tiens !",
       "Obobtenons !",
       "Obobtenez !"
-    ]
+    ],
+    "group": "3"
   },
   "Obéir": {
     "translation": "To obey",
@@ -22726,7 +23034,8 @@
       "Obéis !",
       "Obéissons !",
       "Obéissez !"
-    ]
+    ],
+    "group": "2"
   },
   "Occuper": {
     "translation": "To occupy",
@@ -22806,7 +23115,8 @@
       "Occupe !",
       "Occupons !",
       "Occupez !"
-    ]
+    ],
+    "group": "1"
   },
   "Offrir": {
     "translation": "To offer",
@@ -22886,7 +23196,8 @@
       "Offre !",
       "Offrons !",
       "Offrez !"
-    ]
+    ],
+    "group": "3"
   },
   "Oublier": {
     "translation": "To forget",
@@ -22966,7 +23277,8 @@
       "Oublie !",
       "Oublions !",
       "Oubliez !"
-    ]
+    ],
+    "group": "1"
   },
   "Ouvrir": {
     "translation": "To open",
@@ -23046,7 +23358,8 @@
       "Ouvre !",
       "Ouvrez !",
       "Ouvrons !"
-    ]
+    ],
+    "group": "3"
   },
   "Parcourir": {
     "translation": "To cover - To travel",
@@ -23123,10 +23436,11 @@
       "ils/elles parcourent"
     ],
     "Impératif présent": [
-      "Parparcours !",
-      "Parparcourons !",
-      "Parparcourez !"
-    ]
+      "Cours !",
+      "Courons !",
+      "Courez !"
+    ],
+    "group": "3"
   },
   "Pardonner": {
     "translation": "To forgive",
@@ -23206,7 +23520,8 @@
       "Pardonne !",
       "Pardonnons !",
       "Pardonnez !"
-    ]
+    ],
+    "group": "1"
   },
   "Parler": {
     "translation": "To speak - To talk",
@@ -23286,7 +23601,8 @@
       "Parle !",
       "Parlons !",
       "Parlez !"
-    ]
+    ],
+    "group": "1"
   },
   "Partager": {
     "translation": "To share",
@@ -23366,7 +23682,8 @@
       "Partage !",
       "Partageons !",
       "Partagez !"
-    ]
+    ],
+    "group": "1"
   },
   "Participer": {
     "translation": "To participate",
@@ -23446,7 +23763,8 @@
       "Participe !",
       "Participons !",
       "Participez !"
-    ]
+    ],
+    "group": "1"
   },
   "Partir": {
     "translation": "To leave",
@@ -23526,7 +23844,8 @@
       "Mens !",
       "Partons !",
       "Partez !"
-    ]
+    ],
+    "group": "3"
   },
   "Parvenir": {
     "translation": "To reach",
@@ -23606,7 +23925,8 @@
       "Tiens !",
       "Parvenons !",
       "Parvenez !"
-    ]
+    ],
+    "group": "3"
   },
   "Passer": {
     "translation": "To pass",
@@ -23686,7 +24006,8 @@
       "Passe !",
       "Passons !",
       "Passez !"
-    ]
+    ],
+    "group": "1"
   },
   "Payer": {
     "translation": "To pay",
@@ -23766,7 +24087,8 @@
       "Nettoie !",
       "Payons !",
       "Payez !"
-    ]
+    ],
+    "group": "1"
   },
   "Peigner": {
     "translation": "To comb",
@@ -23846,7 +24168,8 @@
       "Peigne !",
       "Peignons !",
       "Peignez !"
-    ]
+    ],
+    "group": "1"
   },
   "Peindre": {
     "translation": "To paint",
@@ -23926,7 +24249,8 @@
       "Atteins !",
       "Atteignons !",
       "Atteignez !"
-    ]
+    ],
+    "group": "3"
   },
   "Pendre": {
     "translation": "To hang",
@@ -24006,7 +24330,8 @@
       "Pends !",
       "Pendons !",
       "Pendez !"
-    ]
+    ],
+    "group": "3"
   },
   "Penser": {
     "translation": "To think",
@@ -24086,7 +24411,8 @@
       "Pense !",
       "Pensons !",
       "Pensez !"
-    ]
+    ],
+    "group": "1"
   },
   "Perdre": {
     "translation": "To lose",
@@ -24166,25 +24492,26 @@
       "Perds !",
       "Perdons !",
       "Perdez !"
-    ]
+    ],
+    "group": "3"
   },
   "Permettre": {
     "translation": "To allow",
     "Présent": [
-      "Je mets",
-      "Tu mets",
-      "Il/elle met",
+      "Je permets",
+      "Tu permets",
+      "Il/elle permet",
       "Nous permettons",
       "Vous permettez",
       "Ils/elles permettent"
     ],
     "Passé composé": [
-      "J'ai mis",
-      "Tu as mis",
-      "Il/elle a mis",
-      "Nous avons mis",
-      "Vous avez mis",
-      "Ils/elles ont mis"
+      "J'ai permis",
+      "Tu as permis",
+      "Il/elle a permis",
+      "Nous avons permis",
+      "Vous avez permis",
+      "Ils/elles ont permis"
     ],
     "Imparfait": [
       "Je permettais",
@@ -24195,12 +24522,12 @@
       "Ils/elles permettaient"
     ],
     "Plus-que-parfait": [
-      "J'avais mis",
-      "Tu avais mis",
-      "Il/elle avait mis",
-      "Nous avions mis",
-      "Vous aviez mis",
-      "Ils/elles avaient mis"
+      "J'avais permis",
+      "Tu avais permis",
+      "Il/elle avait permis",
+      "Nous avions permis",
+      "Vous aviez permis",
+      "Ils/elles avaient permis"
     ],
     "Futur simple": [
       "Je permettrai",
@@ -24211,12 +24538,12 @@
       "Ils/elles permettront"
     ],
     "Futur antérieur": [
-      "J'aurai mis",
-      "Tu auras mis",
-      "Il/elle aura mis",
-      "Nous aurons mis",
-      "Vous aurez mis",
-      "Ils/elles auront mis"
+      "J'aurai permis",
+      "Tu auras permis",
+      "Il/elle aura permis",
+      "Nous aurons permis",
+      "Vous aurez permis",
+      "Ils/elles auront permis"
     ],
     "Conditionnel présent": [
       "Je permettrais",
@@ -24227,12 +24554,12 @@
       "Ils/elles permettraient"
     ],
     "Conditionnel passé": [
-      "J'aurais mis",
-      "Tu aurais mis",
-      "Il/elle aurait mis",
-      "Nous aurions mis",
-      "Vous auriez mis",
-      "Ils/elles auraient mis"
+      "J'aurais permis",
+      "Tu aurais permis",
+      "Il/elle aurait permis",
+      "Nous aurions permis",
+      "Vous auriez permis",
+      "Ils/elles auraient permis"
     ],
     "Subjonctif présent": [
       "je permette",
@@ -24244,9 +24571,10 @@
     ],
     "Impératif présent": [
       "Mets !",
-      "Perpermettons !",
-      "Perpermettez !"
-    ]
+      "Mettons !",
+      "Mettez !"
+    ],
+    "group": "3"
   },
   "Persuader": {
     "translation": "To persuade",
@@ -24326,7 +24654,8 @@
       "Persuade !",
       "Persuadons !",
       "Persuadez !"
-    ]
+    ],
+    "group": "1"
   },
   "Peser": {
     "translation": "To weigh",
@@ -24406,7 +24735,8 @@
       "Pèse !",
       "Pesons !",
       "Pesez !"
-    ]
+    ],
+    "group": "1"
   },
   "Placer": {
     "translation": "To place",
@@ -24486,7 +24816,8 @@
       "Place !",
       "Plaçons !",
       "Placez !"
-    ]
+    ],
+    "group": "1"
   },
   "Plaindre": {
     "translation": "To pity",
@@ -24566,7 +24897,8 @@
       "Crains !",
       "Craignons !",
       "Craignez !"
-    ]
+    ],
+    "group": "3"
   },
   "Plaisanter": {
     "translation": "To joke",
@@ -24646,7 +24978,8 @@
       "Plaisante !",
       "Plaisantons !",
       "Plaisantez !"
-    ]
+    ],
+    "group": "1"
   },
   "Planter": {
     "translation": "To plant",
@@ -24726,7 +25059,8 @@
       "Plante !",
       "Plantons !",
       "Plantez !"
-    ]
+    ],
+    "group": "1"
   },
   "Pleurer": {
     "translation": "To cry",
@@ -24806,15 +25140,41 @@
       "Pleure !",
       "Pleurons !",
       "Pleurez !"
-    ]
+    ],
+    "group": "1"
   },
   "Pleuvoir": {
-    "translation": "To rain",
+    "translation": "To rain (il pleut)",
     "Subjonctif présent": [
       "il pleuve"
     ],
     "Impératif présent": [
       "-"
+    ],
+    "group": "3",
+    "Présent": [
+      "Il pleut"
+    ],
+    "Passé composé": [
+      "Il a plu"
+    ],
+    "Imparfait": [
+      "Il pleuvait"
+    ],
+    "Plus-que-parfait": [
+      "Il avait plu"
+    ],
+    "Futur simple": [
+      "Il pleuvra"
+    ],
+    "Futur antérieur": [
+      "Il aura plu"
+    ],
+    "Conditionnel présent": [
+      "Il pleuvrait"
+    ],
+    "Conditionnel passé": [
+      "Il aurait plu"
     ]
   },
   "Plier": {
@@ -24895,7 +25255,8 @@
       "Plie !",
       "Plions !",
       "Pliez !"
-    ]
+    ],
+    "group": "1"
   },
   "Plonger": {
     "translation": "To dive",
@@ -24975,7 +25336,8 @@
       "Plonge !",
       "Plongeons !",
       "Plongez !"
-    ]
+    ],
+    "group": "1"
   },
   "Porter": {
     "translation": "To carry - To wear",
@@ -25055,7 +25417,8 @@
       "Porte !",
       "Portons !",
       "Portez !"
-    ]
+    ],
+    "group": "1"
   },
   "Poser": {
     "translation": "To put down",
@@ -25135,7 +25498,8 @@
       "Pose !",
       "Posons !",
       "Posez !"
-    ]
+    ],
+    "group": "1"
   },
   "Posséder": {
     "translation": "To possess",
@@ -25215,14 +25579,15 @@
       "Cède !",
       "Possédons !",
       "Possédez !"
-    ]
+    ],
+    "group": "1"
   },
   "Poursuivre": {
     "translation": "To pursue",
     "Présent": [
-      "Je suis",
-      "Tu suis",
-      "Il/elle suit",
+      "Je poursuis",
+      "Tu poursuis",
+      "Il/elle poursuit",
       "Nous poursuivons",
       "Vous poursuivez",
       "Ils/elles poursuivent"
@@ -25293,9 +25658,10 @@
     ],
     "Impératif présent": [
       "Suis !",
-      "Pourpoursuivons !",
-      "Pourpoursuivez !"
-    ]
+      "Suivons !",
+      "Suivez !"
+    ],
+    "group": "3"
   },
   "Pousser": {
     "translation": "To push",
@@ -25375,7 +25741,8 @@
       "Pousse !",
       "Poussons !",
       "Poussez !"
-    ]
+    ],
+    "group": "1"
   },
   "Pouvoir": {
     "translation": "To be able to - Can",
@@ -25455,7 +25822,8 @@
       "-",
       "-",
       "-"
-    ]
+    ],
+    "group": "3"
   },
   "Prendre": {
     "translation": "To take",
@@ -25535,7 +25903,8 @@
       "Prends !",
       "Prenons !",
       "Prenez !"
-    ]
+    ],
+    "group": "3"
   },
   "Prier": {
     "translation": "To pray",
@@ -25615,7 +25984,8 @@
       "Prie !",
       "Prions !",
       "Priez !"
-    ]
+    ],
+    "group": "1"
   },
   "Produire": {
     "translation": "To produce",
@@ -25695,7 +26065,8 @@
       "Produis !",
       "Produisons !",
       "Produisez !"
-    ]
+    ],
+    "group": "3"
   },
   "Promener": {
     "translation": "To walk",
@@ -25775,25 +26146,26 @@
       "Amène !",
       "Promenons !",
       "Promenez !"
-    ]
+    ],
+    "group": "1"
   },
   "Promettre": {
     "translation": "To promise",
     "Présent": [
-      "Je mets",
-      "Tu mets",
-      "Il/elle met",
+      "Je promets",
+      "Tu promets",
+      "Il/elle promet",
       "Nous promettons",
       "Vous promettez",
       "Ils/elles promettent"
     ],
     "Passé composé": [
-      "J'ai mis",
-      "Tu as mis",
-      "Il/elle a mis",
-      "Nous avons mis",
-      "Vous avez mis",
-      "Ils/elles ont mis"
+      "J'ai promis",
+      "Tu as promis",
+      "Il/elle a promis",
+      "Nous avons promis",
+      "Vous avez promis",
+      "Ils/elles ont promis"
     ],
     "Imparfait": [
       "Je promettais",
@@ -25804,12 +26176,12 @@
       "Ils/elles promettaient"
     ],
     "Plus-que-parfait": [
-      "J'avais mis",
-      "Tu avais mis",
-      "Il/elle avait mis",
-      "Nous avions mis",
-      "Vous aviez mis",
-      "Ils/elles avaient mis"
+      "J'avais promis",
+      "Tu avais promis",
+      "Il/elle avait promis",
+      "Nous avions promis",
+      "Vous aviez promis",
+      "Ils/elles avaient promis"
     ],
     "Futur simple": [
       "Je promettrai",
@@ -25820,12 +26192,12 @@
       "Ils/elles promettront"
     ],
     "Futur antérieur": [
-      "J'aurai mis",
-      "Tu auras mis",
-      "Il/elle aura mis",
-      "Nous aurons mis",
-      "Vous aurez mis",
-      "Ils/elles auront mis"
+      "J'aurai promis",
+      "Tu auras promis",
+      "Il/elle aura promis",
+      "Nous aurons promis",
+      "Vous aurez promis",
+      "Ils/elles auront promis"
     ],
     "Conditionnel présent": [
       "Je promettrais",
@@ -25836,12 +26208,12 @@
       "Ils/elles promettraient"
     ],
     "Conditionnel passé": [
-      "J'aurais mis",
-      "Tu aurais mis",
-      "Il/elle aurait mis",
-      "Nous aurions mis",
-      "Vous auriez mis",
-      "Ils/elles auraient mis"
+      "J'aurais promis",
+      "Tu aurais promis",
+      "Il/elle aurait promis",
+      "Nous aurions promis",
+      "Vous auriez promis",
+      "Ils/elles auraient promis"
     ],
     "Subjonctif présent": [
       "je promette",
@@ -25853,9 +26225,10 @@
     ],
     "Impératif présent": [
       "Mets !",
-      "Propromettons !",
-      "Propromettez !"
-    ]
+      "Mettons !",
+      "Mettez !"
+    ],
+    "group": "3"
   },
   "Prononcer": {
     "translation": "To pronounce",
@@ -25935,7 +26308,8 @@
       "Prononce !",
       "Plaçons !",
       "Prononcez !"
-    ]
+    ],
+    "group": "1"
   },
   "Proposer": {
     "translation": "To suggest",
@@ -26015,7 +26389,8 @@
       "Propose !",
       "Proposons !",
       "Proposez !"
-    ]
+    ],
+    "group": "1"
   },
   "Protéger": {
     "translation": "To protect",
@@ -26095,7 +26470,8 @@
       "Protége !",
       "Protégeons !",
       "Protégez !"
-    ]
+    ],
+    "group": "1"
   },
   "Prouver": {
     "translation": "To prove",
@@ -26175,7 +26551,8 @@
       "Prouve !",
       "Prouvons !",
       "Prouvez !"
-    ]
+    ],
+    "group": "1"
   },
   "Préférer": {
     "translation": "To prefer",
@@ -26255,7 +26632,8 @@
       "Espère !",
       "Préférons !",
       "Préférez !"
-    ]
+    ],
+    "group": "1"
   },
   "Préparer": {
     "translation": "To prepare",
@@ -26335,7 +26713,8 @@
       "Prépare !",
       "Préparons !",
       "Préparez !"
-    ]
+    ],
+    "group": "1"
   },
   "Présenter": {
     "translation": "To present -",
@@ -26415,7 +26794,8 @@
       "Présente !",
       "Présentons !",
       "Présentez !"
-    ]
+    ],
+    "group": "1"
   },
   "Prévenir": {
     "translation": "To prevent",
@@ -26495,7 +26875,8 @@
       "Tiens !",
       "Prévenons !",
       "Prévenez !"
-    ]
+    ],
+    "group": "3"
   },
   "Prêter": {
     "translation": "To lend",
@@ -26575,7 +26956,8 @@
       "Prête !",
       "Prêtons !",
       "Prêtez !"
-    ]
+    ],
+    "group": "1"
   },
   "Puer": {
     "translation": "To stink",
@@ -26655,7 +27037,8 @@
       "Pue !",
       "Puons !",
       "Puez !"
-    ]
+    ],
+    "group": "1"
   },
   "Pénétrer": {
     "translation": "To penetrate",
@@ -26735,7 +27118,8 @@
       "Pénètre !",
       "Pénétrons !",
       "Pénétrez !"
-    ]
+    ],
+    "group": "1"
   },
   "Pêcher": {
     "translation": "To fish",
@@ -26815,7 +27199,8 @@
       "Pêche !",
       "Pêchons !",
       "Pêchez !"
-    ]
+    ],
+    "group": "1"
   },
   "Quitter": {
     "translation": "To leave",
@@ -26895,7 +27280,8 @@
       "Quitte !",
       "Quittons !",
       "Quittez !"
-    ]
+    ],
+    "group": "1"
   },
   "Raconter": {
     "translation": "To tell",
@@ -26975,7 +27361,8 @@
       "Raconte !",
       "Racontons !",
       "Racontez !"
-    ]
+    ],
+    "group": "1"
   },
   "Ralentir": {
     "translation": "To slow down",
@@ -27055,7 +27442,8 @@
       "Ralentis !",
       "Ralentissons !",
       "Ralentissez !"
-    ]
+    ],
+    "group": "2"
   },
   "Ranger": {
     "translation": "To tidy",
@@ -27135,12 +27523,13 @@
       "Range !",
       "Rangeons !",
       "Rangez !"
-    ]
+    ],
+    "group": "1"
   },
   "Rappeler": {
     "translation": "To call back",
     "Présent": [
-      "J'rappelle",
+      "Je rappelle",
       "Tu rappelles",
       "Il/elle rappelle",
       "Nous rappelons",
@@ -27156,7 +27545,7 @@
       "Ils/elles ont rappelé"
     ],
     "Imparfait": [
-      "J'rappelais",
+      "Je rappelais",
       "Tu rappelais",
       "Il/elle rappelait",
       "Nous rappelions",
@@ -27172,7 +27561,7 @@
       "Ils/elles avaient rappelé"
     ],
     "Futur simple": [
-      "J'rappellerai",
+      "Je rappellerai",
       "Tu rappelleras",
       "Il/elle rappellera",
       "Nous rappellerons",
@@ -27188,7 +27577,7 @@
       "Ils/elles auront rappelé"
     ],
     "Conditionnel présent": [
-      "J'rappellerais",
+      "Je rappellerais",
       "Tu rappellerais",
       "Il/elle rappellerait",
       "Nous rappellerions",
@@ -27204,7 +27593,7 @@
       "Ils/elles auraient rappelé"
     ],
     "Subjonctif présent": [
-      "j'rappelle",
+      "je rappelle",
       "tu rappelles",
       "il/elle rappelle",
       "nous rappelions",
@@ -27212,10 +27601,11 @@
       "ils/elles rappellent"
     ],
     "Impératif présent": [
-      "Rrappelle !",
-      "Rrappelons !",
-      "Rrappelez !"
-    ]
+      "Appelle !",
+      "Appelons !",
+      "Appelez !"
+    ],
+    "group": "1"
   },
   "Rassurer": {
     "translation": "To reassure",
@@ -27295,7 +27685,8 @@
       "Rassure !",
       "Rassurons !",
       "Rassurez !"
-    ]
+    ],
+    "group": "1"
   },
   "Recevoir": {
     "translation": "To receive",
@@ -27375,7 +27766,8 @@
       "Déçois !",
       "Recevons !",
       "Décevez !"
-    ]
+    ],
+    "group": "3"
   },
   "Reconduire": {
     "translation": "To renew",
@@ -27455,7 +27847,8 @@
       "Rereconduis !",
       "Rereconduisons !",
       "Rereconduisez !"
-    ]
+    ],
+    "group": "3"
   },
   "Reconnaître": {
     "translation": "To recognize",
@@ -27535,7 +27928,8 @@
       "Connais !",
       "Connaissons !",
       "Connaissez !"
-    ]
+    ],
+    "group": "3"
   },
   "Reconstruire": {
     "translation": "To rebuild",
@@ -27615,7 +28009,8 @@
       "Reconstruis !",
       "Reconstruisons !",
       "Reconstruisez !"
-    ]
+    ],
+    "group": "3"
   },
   "Recourir": {
     "translation": "To resort",
@@ -27692,10 +28087,11 @@
       "ils/elles recourent"
     ],
     "Impératif présent": [
-      "Rerecours !",
-      "Rerecourons !",
-      "Rerecourez !"
-    ]
+      "Cours !",
+      "Courons !",
+      "Courez !"
+    ],
+    "group": "3"
   },
   "Recouvrir": {
     "translation": "To cover",
@@ -27775,7 +28171,8 @@
       "Recrecouvre !",
       "Recrecouvrez !",
       "Recrecouvrons !"
-    ]
+    ],
+    "group": "3"
   },
   "Recueillir": {
     "translation": "To collect - To gather",
@@ -27852,10 +28249,11 @@
       "ils/elles recueillent"
     ],
     "Impératif présent": [
-      "Rerecueille !",
-      "Rerecueillons !",
-      "Rerecueillez !"
-    ]
+      "Cueille !",
+      "Cueillons !",
+      "Cueillez !"
+    ],
+    "group": "3"
   },
   "Redire": {
     "translation": "To repeat",
@@ -27932,10 +28330,11 @@
       "ils/elles redisent"
     ],
     "Impératif présent": [
-      "Reredis !",
-      "Reredisons !",
-      "Reredites !"
-    ]
+      "Dis !",
+      "Disons !",
+      "Dites !"
+    ],
+    "group": "3"
   },
   "Refaire": {
     "translation": "To redo",
@@ -27945,7 +28344,7 @@
       "Il/elle refait",
       "Nous refaisons",
       "Vous refaites",
-      "Ils/elles font"
+      "Ils/elles refont"
     ],
     "Passé composé": [
       "J'ai refait",
@@ -27972,12 +28371,12 @@
       "Ils/elles avaient refait"
     ],
     "Futur simple": [
-      "Je ferai",
-      "Tu feras",
-      "Il/elle fera",
-      "Nous ferons",
-      "Vous ferez",
-      "Ils/elles feront"
+      "Je referai",
+      "Tu referas",
+      "Il/elle refera",
+      "Nous referons",
+      "Vous referez",
+      "Ils/elles referont"
     ],
     "Futur antérieur": [
       "J'aurai refait",
@@ -27988,12 +28387,12 @@
       "Ils/elles auront refait"
     ],
     "Conditionnel présent": [
-      "Je ferais",
-      "Tu ferais",
-      "Il/elle ferait",
-      "Nous ferions",
-      "Vous feriez",
-      "Ils/elles feraient"
+      "Je referais",
+      "Tu referais",
+      "Il/elle referait",
+      "Nous referions",
+      "Vous referiez",
+      "Ils/elles referaient"
     ],
     "Conditionnel passé": [
       "J'aurais refait",
@@ -28004,18 +28403,19 @@
       "Ils/elles auraient refait"
     ],
     "Subjonctif présent": [
-      "je fasse",
-      "tu fasses",
-      "il/elle fasse",
+      "je refasse",
+      "tu refasses",
+      "il/elle refasse",
       "nous refaisons",
-      "vous fassiez",
-      "ils/elles fassent"
+      "vous refassiez",
+      "ils/elles refassent"
     ],
     "Impératif présent": [
-      "Rerefais !",
-      "Rerefaisons !",
-      "Rerefaites !"
-    ]
+      "Fais !",
+      "Faisons !",
+      "Faites !"
+    ],
+    "group": "3"
   },
   "Refuser": {
     "translation": "To refuse",
@@ -28095,7 +28495,8 @@
       "Refuse !",
       "Refusons !",
       "Refusez !"
-    ]
+    ],
+    "group": "1"
   },
   "Regarder": {
     "translation": "To look at",
@@ -28175,7 +28576,8 @@
       "Regarde !",
       "Regardons !",
       "Regardez !"
-    ]
+    ],
+    "group": "1"
   },
   "Regretter": {
     "translation": "To regret",
@@ -28255,7 +28657,8 @@
       "Regrette !",
       "Regrettons !",
       "Regrettez !"
-    ]
+    ],
+    "group": "1"
   },
   "Rejeter": {
     "translation": "To reject",
@@ -28332,10 +28735,11 @@
       "ils/elles rejettent"
     ],
     "Impératif présent": [
-      "Rerejette !",
-      "Rerejetons !",
-      "Rerejetez !"
-    ]
+      "Je tte re!",
+      "Je tons re!",
+      "Je tez re!"
+    ],
+    "group": "1"
   },
   "Rejoindre": {
     "translation": "To join",
@@ -28415,7 +28819,8 @@
       "Rejoins !",
       "Rejoignons !",
       "Rejoignez !"
-    ]
+    ],
+    "group": "3"
   },
   "Relever": {
     "translation": "To raise",
@@ -28495,7 +28900,8 @@
       "Achève !",
       "Relevons !",
       "Relevez !"
-    ]
+    ],
+    "group": "1"
   },
   "Relire": {
     "translation": "To read over",
@@ -28508,12 +28914,12 @@
       "Ils/elles relisent"
     ],
     "Passé composé": [
-      "J'ai lu",
-      "Tu as lu",
-      "Il/elle a lu",
-      "Nous avons lu",
-      "Vous avez lu",
-      "Ils/elles ont lu"
+      "J'ai relu",
+      "Tu as relu",
+      "Il/elle a relu",
+      "Nous avons relu",
+      "Vous avez relu",
+      "Ils/elles ont relu"
     ],
     "Imparfait": [
       "Je relisais",
@@ -28524,12 +28930,12 @@
       "Ils/elles relisaient"
     ],
     "Plus-que-parfait": [
-      "J'avais lu",
-      "Tu avais lu",
-      "Il/elle avait lu",
-      "Nous avions lu",
-      "Vous aviez lu",
-      "Ils/elles avaient lu"
+      "J'avais relu",
+      "Tu avais relu",
+      "Il/elle avait relu",
+      "Nous avions relu",
+      "Vous aviez relu",
+      "Ils/elles avaient relu"
     ],
     "Futur simple": [
       "Je relirai",
@@ -28540,12 +28946,12 @@
       "Ils/elles reliront"
     ],
     "Futur antérieur": [
-      "J'aurai lu",
-      "Tu auras lu",
-      "Il/elle aura lu",
-      "Nous aurons lu",
-      "Vous aurez lu",
-      "Ils/elles auront lu"
+      "J'aurai relu",
+      "Tu auras relu",
+      "Il/elle aura relu",
+      "Nous aurons relu",
+      "Vous aurez relu",
+      "Ils/elles auront relu"
     ],
     "Conditionnel présent": [
       "Je relirais",
@@ -28556,12 +28962,12 @@
       "Ils/elles reliraient"
     ],
     "Conditionnel passé": [
-      "J'aurais lu",
-      "Tu aurais lu",
-      "Il/elle aurait lu",
-      "Nous aurions lu",
-      "Vous auriez lu",
-      "Ils/elles auraient lu"
+      "J'aurais relu",
+      "Tu aurais relu",
+      "Il/elle aurait relu",
+      "Nous aurions relu",
+      "Vous auriez relu",
+      "Ils/elles auraient relu"
     ],
     "Subjonctif présent": [
       "je relise",
@@ -28572,10 +28978,11 @@
       "ils/elles relisent"
     ],
     "Impératif présent": [
-      "Rerelis !",
-      "Rerelisons !",
-      "Rerelisez !"
-    ]
+      "Lis !",
+      "Lisons !",
+      "Lisez !"
+    ],
+    "group": "3"
   },
   "Remarquer": {
     "translation": "To notice",
@@ -28655,7 +29062,8 @@
       "Remarque !",
       "Remarquons !",
       "Remarquez !"
-    ]
+    ],
+    "group": "1"
   },
   "Remercier": {
     "translation": "To thank",
@@ -28735,25 +29143,26 @@
       "Remercie !",
       "Remercions !",
       "Remerciez !"
-    ]
+    ],
+    "group": "1"
   },
   "Remettre": {
     "translation": "To put back",
     "Présent": [
-      "Je mets",
-      "Tu mets",
-      "Il/elle met",
+      "Je remets",
+      "Tu remets",
+      "Il/elle remet",
       "Nous remettons",
       "Vous remettez",
       "Ils/elles remettent"
     ],
     "Passé composé": [
-      "J'ai mis",
-      "Tu as mis",
-      "Il/elle a mis",
-      "Nous avons mis",
-      "Vous avez mis",
-      "Ils/elles ont mis"
+      "J'ai remis",
+      "Tu as remis",
+      "Il/elle a remis",
+      "Nous avons remis",
+      "Vous avez remis",
+      "Ils/elles ont remis"
     ],
     "Imparfait": [
       "Je remettais",
@@ -28764,12 +29173,12 @@
       "Ils/elles remettaient"
     ],
     "Plus-que-parfait": [
-      "J'avais mis",
-      "Tu avais mis",
-      "Il/elle avait mis",
-      "Nous avions mis",
-      "Vous aviez mis",
-      "Ils/elles avaient mis"
+      "J'avais remis",
+      "Tu avais remis",
+      "Il/elle avait remis",
+      "Nous avions remis",
+      "Vous aviez remis",
+      "Ils/elles avaient remis"
     ],
     "Futur simple": [
       "Je remettrai",
@@ -28780,12 +29189,12 @@
       "Ils/elles remettront"
     ],
     "Futur antérieur": [
-      "J'aurai mis",
-      "Tu auras mis",
-      "Il/elle aura mis",
-      "Nous aurons mis",
-      "Vous aurez mis",
-      "Ils/elles auront mis"
+      "J'aurai remis",
+      "Tu auras remis",
+      "Il/elle aura remis",
+      "Nous aurons remis",
+      "Vous aurez remis",
+      "Ils/elles auront remis"
     ],
     "Conditionnel présent": [
       "Je remettrais",
@@ -28796,12 +29205,12 @@
       "Ils/elles remettraient"
     ],
     "Conditionnel passé": [
-      "J'aurais mis",
-      "Tu aurais mis",
-      "Il/elle aurait mis",
-      "Nous aurions mis",
-      "Vous auriez mis",
-      "Ils/elles auraient mis"
+      "J'aurais remis",
+      "Tu aurais remis",
+      "Il/elle aurait remis",
+      "Nous aurions remis",
+      "Vous auriez remis",
+      "Ils/elles auraient remis"
     ],
     "Subjonctif présent": [
       "je remette",
@@ -28813,9 +29222,10 @@
     ],
     "Impératif présent": [
       "Mets !",
-      "Reremettons !",
-      "Reremettez !"
-    ]
+      "Mettons !",
+      "Mettez !"
+    ],
+    "group": "3"
   },
   "Remplacer": {
     "translation": "To replace",
@@ -28895,7 +29305,8 @@
       "Remremplace !",
       "Plaçons !",
       "Remremplacez !"
-    ]
+    ],
+    "group": "1"
   },
   "Remplir": {
     "translation": "To fill up",
@@ -28975,7 +29386,8 @@
       "Remplis !",
       "Remplissons !",
       "Remplissez !"
-    ]
+    ],
+    "group": "2"
   },
   "Rencontrer": {
     "translation": "To meet",
@@ -29055,7 +29467,8 @@
       "Rencontre !",
       "Rencontrons !",
       "Rencontrez !"
-    ]
+    ],
+    "group": "1"
   },
   "Rendre": {
     "translation": "To give back",
@@ -29135,7 +29548,8 @@
       "Rends !",
       "Rendons !",
       "Rendez !"
-    ]
+    ],
+    "group": "3"
   },
   "Renoncer": {
     "translation": "To renounce",
@@ -29215,7 +29629,8 @@
       "Renonce !",
       "Plaçons !",
       "Renoncez !"
-    ]
+    ],
+    "group": "1"
   },
   "Renouveler": {
     "translation": "To renew",
@@ -29295,7 +29710,8 @@
       "Gèle !",
       "Renouvelons !",
       "Renouvelez !"
-    ]
+    ],
+    "group": "1"
   },
   "Rentrer": {
     "translation": "To return",
@@ -29375,17 +29791,18 @@
       "Rentre !",
       "Rentrons !",
       "Rentrez !"
-    ]
+    ],
+    "group": "1"
   },
   "Renvoyer": {
     "translation": "To dismiss - To return",
     "Présent": [
-      "J'envoie",
-      "Tu envoies",
-      "Il/elle envoie",
+      "Je renvoie",
+      "Tu renvoies",
+      "Il/elle renvoie",
       "Nous renvoyons",
       "Vous renvoyez",
-      "Ils/elles envoient"
+      "Ils/elles renvoient"
     ],
     "Passé composé": [
       "J'ai renvoyé",
@@ -29396,7 +29813,7 @@
       "Ils/elles ont renvoyé"
     ],
     "Imparfait": [
-      "J'renvoyais",
+      "Je renvoyais",
       "Tu renvoyais",
       "Il/elle renvoyait",
       "Nous renvoyions",
@@ -29412,12 +29829,12 @@
       "Ils/elles avaient renvoyé"
     ],
     "Futur simple": [
-      "J'enverrai",
-      "Tu enverras",
-      "Il/elle enverra",
-      "Nous enverrons",
-      "Vous enverrez",
-      "Ils/elles enverront"
+      "Je renverrai",
+      "Tu renverras",
+      "Il/elle renverra",
+      "Nous renverrons",
+      "Vous renverrez",
+      "Ils/elles renverront"
     ],
     "Futur antérieur": [
       "J'aurai renvoyé",
@@ -29428,12 +29845,12 @@
       "Ils/elles auront renvoyé"
     ],
     "Conditionnel présent": [
-      "J'enverrais",
-      "Tu enverrais",
-      "Il/elle enverrait",
-      "Nous enverrions",
-      "Vous enverriez",
-      "Ils/elles enverraient"
+      "Je renverrais",
+      "Tu renverrais",
+      "Il/elle renverrait",
+      "Nous renverrions",
+      "Vous renverriez",
+      "Ils/elles renverraient"
     ],
     "Conditionnel passé": [
       "J'aurais renvoyé",
@@ -29444,18 +29861,19 @@
       "Ils/elles auraient renvoyé"
     ],
     "Subjonctif présent": [
-      "j'envoie",
-      "tu envoies",
-      "il/elle envoie",
+      "je renvoie",
+      "tu renvoies",
+      "il/elle renvoie",
       "nous renvoyions",
       "vous renvoyiez",
-      "ils/elles envoient"
+      "ils/elles renvoient"
     ],
     "Impératif présent": [
       "Envoie !",
-      "Rrenvoyons !",
-      "Rrenvoyez !"
-    ]
+      "Envoyons !",
+      "Envoyez !"
+    ],
+    "group": "1"
   },
   "Repasser": {
     "translation": "To iron",
@@ -29535,7 +29953,8 @@
       "Repasse !",
       "Repassons !",
       "Repassez !"
-    ]
+    ],
+    "group": "1"
   },
   "Reprendre": {
     "translation": "To take back",
@@ -29543,33 +29962,33 @@
       "Je reprends",
       "Tu reprends",
       "Il/elle reprend",
-      "Nous prenons",
-      "Vous prenez",
-      "Ils/elles prennent"
+      "Nous reprenons",
+      "Vous reprenez",
+      "Ils/elles reprennent"
     ],
     "Passé composé": [
-      "J'ai pris",
-      "Tu as pris",
-      "Il/elle a pris",
-      "Nous avons pris",
-      "Vous avez pris",
-      "Ils/elles ont pris"
+      "J'ai repris",
+      "Tu as repris",
+      "Il/elle a repris",
+      "Nous avons repris",
+      "Vous avez repris",
+      "Ils/elles ont repris"
     ],
     "Imparfait": [
-      "Je prenais",
-      "Tu prenais",
-      "Il/elle prenait",
-      "Nous prenions",
-      "Vous preniez",
-      "Ils/elles prenaient"
+      "Je reprenais",
+      "Tu reprenais",
+      "Il/elle reprenait",
+      "Nous reprenions",
+      "Vous repreniez",
+      "Ils/elles reprenaient"
     ],
     "Plus-que-parfait": [
-      "J'avais pris",
-      "Tu avais pris",
-      "Il/elle avait pris",
-      "Nous avions pris",
-      "Vous aviez pris",
-      "Ils/elles avaient pris"
+      "J'avais repris",
+      "Tu avais repris",
+      "Il/elle avait repris",
+      "Nous avions repris",
+      "Vous aviez repris",
+      "Ils/elles avaient repris"
     ],
     "Futur simple": [
       "Je reprendrai",
@@ -29580,12 +29999,12 @@
       "Ils/elles reprendront"
     ],
     "Futur antérieur": [
-      "J'aurai pris",
-      "Tu auras pris",
-      "Il/elle aura pris",
-      "Nous aurons pris",
-      "Vous aurez pris",
-      "Ils/elles auront pris"
+      "J'aurai repris",
+      "Tu auras repris",
+      "Il/elle aura repris",
+      "Nous aurons repris",
+      "Vous aurez repris",
+      "Ils/elles auront repris"
     ],
     "Conditionnel présent": [
       "Je reprendrais",
@@ -29596,26 +30015,27 @@
       "Ils/elles reprendraient"
     ],
     "Conditionnel passé": [
-      "J'aurais pris",
-      "Tu aurais pris",
-      "Il/elle aurait pris",
-      "Nous aurions pris",
-      "Vous auriez pris",
-      "Ils/elles auraient pris"
+      "J'aurais repris",
+      "Tu aurais repris",
+      "Il/elle aurait repris",
+      "Nous aurions repris",
+      "Vous auriez repris",
+      "Ils/elles auraient repris"
     ],
     "Subjonctif présent": [
-      "je prenne",
-      "tu prennes",
-      "il/elle prenne",
-      "nous prenions",
-      "vous preniez",
-      "ils/elles prennent"
+      "je reprenne",
+      "tu reprennes",
+      "il/elle reprenne",
+      "nous reprenions",
+      "vous repreniez",
+      "ils/elles reprennent"
     ],
     "Impératif présent": [
-      "Rereprends !",
+      "Prends !",
       "Prenons !",
       "Prenez !"
-    ]
+    ],
+    "group": "3"
   },
   "Reproduire": {
     "translation": "To reproduce",
@@ -29695,7 +30115,8 @@
       "Reproduis !",
       "Reproduisons !",
       "Reproduisez !"
-    ]
+    ],
+    "group": "3"
   },
   "Représenter": {
     "translation": "To represent",
@@ -29775,7 +30196,8 @@
       "Représente !",
       "Représentons !",
       "Représentez !"
-    ]
+    ],
+    "group": "1"
   },
   "Ressembler": {
     "translation": "To look like",
@@ -29855,7 +30277,8 @@
       "Ressemble !",
       "Ressemblons !",
       "Ressemblez !"
-    ]
+    ],
+    "group": "1"
   },
   "Ressentir": {
     "translation": "To feel",
@@ -29935,7 +30358,8 @@
       "Mens !",
       "Ressentons !",
       "Ressentez !"
-    ]
+    ],
+    "group": "3"
   },
   "Rester": {
     "translation": "To stay",
@@ -30015,7 +30439,8 @@
       "Reste !",
       "Restons !",
       "Restez !"
-    ]
+    ],
+    "group": "1"
   },
   "Retenir": {
     "translation": "To retain",
@@ -30095,7 +30520,8 @@
       "Tiens !",
       "Reretenons !",
       "Reretenez !"
-    ]
+    ],
+    "group": "3"
   },
   "Retourner": {
     "translation": "To return",
@@ -30175,7 +30601,8 @@
       "Retourne !",
       "Retournons !",
       "Retournez !"
-    ]
+    ],
+    "group": "1"
   },
   "Retrouver": {
     "translation": "To find",
@@ -30255,7 +30682,8 @@
       "Retrouve !",
       "Retrouvons !",
       "Retrouvez !"
-    ]
+    ],
+    "group": "1"
   },
   "Revenir": {
     "translation": "To come back",
@@ -30335,7 +30763,8 @@
       "Tiens !",
       "Revenons !",
       "Revenez !"
-    ]
+    ],
+    "group": "3"
   },
   "Revoir": {
     "translation": "To see again",
@@ -30344,78 +30773,79 @@
       "Tu revois",
       "Il/elle revoit",
       "Nous revoyons",
-      "Rerevous revoyez",
+      "Vous revoyez",
       "Ils/elles revoient"
     ],
     "Passé composé": [
-      "J'ai vu",
-      "Tu as vu",
-      "Il/elle a vu",
-      "Nous arevons vu",
-      "Rerevous avez vu",
-      "Ils/elles ont vu"
+      "J'ai revu",
+      "Tu as revu",
+      "Il/elle a revu",
+      "Nous avons revu",
+      "Vous avez revu",
+      "Ils/elles ont revu"
     ],
     "Imparfait": [
       "Je revoyais",
       "Tu revoyais",
       "Il/elle revoyait",
       "Nous revoyions",
-      "Rerevous revoyiez",
+      "Vous revoyiez",
       "Ils/elles revoyaient"
     ],
     "Plus-que-parfait": [
-      "J'avais vu",
-      "Tu avais vu",
-      "Il/elle avait vu",
-      "Nous avions vu",
-      "Rerevous aviez vu",
-      "Ils/elles avaient vu"
+      "J'avais revu",
+      "Tu avais revu",
+      "Il/elle avait revu",
+      "Nous avions revu",
+      "Vous aviez revu",
+      "Ils/elles avaient revu"
     ],
     "Futur simple": [
-      "Je verrai",
-      "Tu verras",
-      "Il/elle verra",
-      "Nous verrons",
-      "Rerevous verrez",
-      "Ils/elles verront"
+      "Je reverrai",
+      "Tu reverras",
+      "Il/elle reverra",
+      "Nous reverrons",
+      "Vous reverrez",
+      "Ils/elles reverront"
     ],
     "Futur antérieur": [
-      "J'aurai vu",
-      "Tu auras vu",
-      "Il/elle aura vu",
-      "Nous aurons vu",
-      "Rerevous aurez vu",
-      "Ils/elles auront vu"
+      "J'aurai revu",
+      "Tu auras revu",
+      "Il/elle aura revu",
+      "Nous aurons revu",
+      "Vous aurez revu",
+      "Ils/elles auront revu"
     ],
     "Conditionnel présent": [
-      "Je verrais",
-      "Tu verrais",
-      "Il/elle verrait",
-      "Nous verrions",
-      "Rerevous verriez",
-      "Ils/elles verraient"
+      "Je reverrais",
+      "Tu reverrais",
+      "Il/elle reverrait",
+      "Nous reverrions",
+      "Vous reverriez",
+      "Ils/elles reverraient"
     ],
     "Conditionnel passé": [
-      "J'aurais vu",
-      "Tu aurais vu",
-      "Il/elle aurait vu",
-      "Nous aurions vu",
-      "Rerevous auriez vu",
-      "Ils/elles auraient vu"
+      "J'aurais revu",
+      "Tu aurais revu",
+      "Il/elle aurait revu",
+      "Nous aurions revu",
+      "Vous auriez revu",
+      "Ils/elles auraient revu"
     ],
     "Subjonctif présent": [
       "je revoie",
       "tu revoies",
       "il/elle revoie",
       "nous revoyions",
-      "revous revoyiez",
+      "vous revoyiez",
       "ils/elles revoient"
     ],
     "Impératif présent": [
-      "Rerevois !",
-      "Rerevoyons !",
-      "Rerevoyez !"
-    ]
+      "Vois !",
+      "Voyons !",
+      "Voyez !"
+    ],
+    "group": "3"
   },
   "Revêtir": {
     "translation": "To dress up",
@@ -30495,7 +30925,8 @@
       "Mens !",
       "Revêtons !",
       "Revêtez !"
-    ]
+    ],
+    "group": "3"
   },
   "Rire": {
     "translation": "To laugh",
@@ -30575,7 +31006,8 @@
       "Ris !",
       "Rions !",
       "Riez !"
-    ]
+    ],
+    "group": "3"
   },
   "Risquer": {
     "translation": "To risk",
@@ -30655,7 +31087,8 @@
       "Risque !",
       "Risquons !",
       "Risquez !"
-    ]
+    ],
+    "group": "1"
   },
   "Rougir": {
     "translation": "To blush",
@@ -30735,7 +31168,8 @@
       "Rougis !",
       "Rougissons !",
       "Rougissez !"
-    ]
+    ],
+    "group": "2"
   },
   "Rouler": {
     "translation": "To roll - To drive",
@@ -30815,7 +31249,8 @@
       "Roule !",
       "Roulons !",
       "Roulez !"
-    ]
+    ],
+    "group": "1"
   },
   "Rédiger": {
     "translation": "To write",
@@ -30895,7 +31330,8 @@
       "Rédige !",
       "Rédigeons !",
       "Rédigez !"
-    ]
+    ],
+    "group": "1"
   },
   "Réduire": {
     "translation": "To reduce",
@@ -30975,7 +31411,8 @@
       "Réduis !",
       "Réduisons !",
       "Réduisez !"
-    ]
+    ],
+    "group": "3"
   },
   "Réfléchir": {
     "translation": "To think",
@@ -31055,7 +31492,8 @@
       "Réfléchis !",
       "Réfléchissons !",
       "Réfléchissez !"
-    ]
+    ],
+    "group": "2"
   },
   "Réparer": {
     "translation": "To repair",
@@ -31135,7 +31573,8 @@
       "Répare !",
       "Réparons !",
       "Réparez !"
-    ]
+    ],
+    "group": "1"
   },
   "Répondre": {
     "translation": "To answer",
@@ -31215,7 +31654,8 @@
       "Réponds !",
       "Répondons !",
       "Répondez !"
-    ]
+    ],
+    "group": "3"
   },
   "Répéter": {
     "translation": "To repeat",
@@ -31295,7 +31735,8 @@
       "Complète !",
       "Répétons !",
       "Répétez !"
-    ]
+    ],
+    "group": "1"
   },
   "Résoudre": {
     "translation": "To resolve",
@@ -31375,7 +31816,8 @@
       "Résous !",
       "Résolvons !",
       "Résolvez !"
-    ]
+    ],
+    "group": "3"
   },
   "Réussir": {
     "translation": "To succeed",
@@ -31455,7 +31897,8 @@
       "Réussis !",
       "Réussissons !",
       "Réussissez !"
-    ]
+    ],
+    "group": "2"
   },
   "Réveiller": {
     "translation": "To wake up",
@@ -31535,7 +31978,8 @@
       "Réveille !",
       "Réveillons !",
       "Réveillez !"
-    ]
+    ],
+    "group": "1"
   },
   "Rêver": {
     "translation": "To dream",
@@ -31615,7 +32059,8 @@
       "Rêve !",
       "Rêvons !",
       "Rêvez !"
-    ]
+    ],
+    "group": "1"
   },
   "Saisir": {
     "translation": "To seize",
@@ -31695,7 +32140,8 @@
       "Saisis !",
       "Saisissons !",
       "Saisissez !"
-    ]
+    ],
+    "group": "2"
   },
   "Salir": {
     "translation": "To soil",
@@ -31775,7 +32221,8 @@
       "Salis !",
       "Salissons !",
       "Salissez !"
-    ]
+    ],
+    "group": "2"
   },
   "Satisfaire": {
     "translation": "To satisfy",
@@ -31785,7 +32232,7 @@
       "Il/elle satisfait",
       "Nous satisfaisons",
       "Vous satisfaites",
-      "Ils/elles font"
+      "Ils/elles satisfont"
     ],
     "Passé composé": [
       "J'ai satisfait",
@@ -31812,12 +32259,12 @@
       "Ils/elles avaient satisfait"
     ],
     "Futur simple": [
-      "Je ferai",
-      "Tu feras",
-      "Il/elle fera",
-      "Nous ferons",
-      "Vous ferez",
-      "Ils/elles feront"
+      "Je satisferai",
+      "Tu satisferas",
+      "Il/elle satisfera",
+      "Nous satisferons",
+      "Vous satisferez",
+      "Ils/elles satisferont"
     ],
     "Futur antérieur": [
       "J'aurai satisfait",
@@ -31828,12 +32275,12 @@
       "Ils/elles auront satisfait"
     ],
     "Conditionnel présent": [
-      "Je ferais",
-      "Tu ferais",
-      "Il/elle ferait",
-      "Nous ferions",
-      "Vous feriez",
-      "Ils/elles feraient"
+      "Je satisferais",
+      "Tu satisferais",
+      "Il/elle satisferait",
+      "Nous satisferions",
+      "Vous satisferiez",
+      "Ils/elles satisferaient"
     ],
     "Conditionnel passé": [
       "J'aurais satisfait",
@@ -31844,18 +32291,19 @@
       "Ils/elles auraient satisfait"
     ],
     "Subjonctif présent": [
-      "je fasse",
-      "tu fasses",
-      "il/elle fasse",
+      "je satisfasse",
+      "tu satisfasses",
+      "il/elle satisfasse",
       "nous satisfaisons",
-      "vous fassiez",
-      "ils/elles fassent"
+      "vous satisfassiez",
+      "ils/elles satisfassent"
     ],
     "Impératif présent": [
-      "Satissatisfais !",
-      "Satissatisfaisons !",
-      "Satissatisfaites !"
-    ]
+      "Fais !",
+      "Faisons !",
+      "Faites !"
+    ],
+    "group": "3"
   },
   "Sauter": {
     "translation": "To jump",
@@ -31935,7 +32383,8 @@
       "Saute !",
       "Sautons !",
       "Sautez !"
-    ]
+    ],
+    "group": "1"
   },
   "Sauver": {
     "translation": "To save",
@@ -32015,7 +32464,8 @@
       "Sauve !",
       "Sauvons !",
       "Sauvez !"
-    ]
+    ],
+    "group": "1"
   },
   "Savoir": {
     "translation": "To know",
@@ -32095,7 +32545,8 @@
       "Sache !",
       "Sachons !",
       "Sachez !"
-    ]
+    ],
+    "group": "3"
   },
   "Secouer": {
     "translation": "To shake",
@@ -32175,7 +32626,8 @@
       "Secoue !",
       "Secouons !",
       "Secouez !"
-    ]
+    ],
+    "group": "1"
   },
   "Secourir": {
     "translation": "To rescue",
@@ -32252,10 +32704,11 @@
       "ils/elles secourent"
     ],
     "Impératif présent": [
-      "Sesecours !",
-      "Sesecourons !",
-      "Sesecourez !"
-    ]
+      "Cours !",
+      "Courons !",
+      "Courez !"
+    ],
+    "group": "3"
   },
   "Sembler": {
     "translation": "To seem",
@@ -32335,7 +32788,8 @@
       "Semble !",
       "Semblons !",
       "Semblez !"
-    ]
+    ],
+    "group": "1"
   },
   "Sentir": {
     "translation": "To feel - To smell",
@@ -32415,7 +32869,8 @@
       "Mens !",
       "Sentons !",
       "Sentez !"
-    ]
+    ],
+    "group": "3"
   },
   "Servir": {
     "translation": "To serve",
@@ -32495,7 +32950,8 @@
       "Sers !",
       "Servons !",
       "Servez !"
-    ]
+    ],
+    "group": "3"
   },
   "Siffler": {
     "translation": "To whistle",
@@ -32575,7 +33031,8 @@
       "Siffle !",
       "Sifflons !",
       "Sifflez !"
-    ]
+    ],
+    "group": "1"
   },
   "Signaler": {
     "translation": "To signal",
@@ -32655,7 +33112,8 @@
       "Signale !",
       "Signalons !",
       "Signalez !"
-    ]
+    ],
+    "group": "1"
   },
   "Signer": {
     "translation": "To sign",
@@ -32735,7 +33193,8 @@
       "Signe !",
       "Signons !",
       "Signez !"
-    ]
+    ],
+    "group": "1"
   },
   "Signifier": {
     "translation": "To mean",
@@ -32815,7 +33274,8 @@
       "Signifie !",
       "Signifions !",
       "Signifiez !"
-    ]
+    ],
+    "group": "1"
   },
   "Skier": {
     "translation": "To ski",
@@ -32895,7 +33355,8 @@
       "Skie !",
       "Skions !",
       "Skiez !"
-    ]
+    ],
+    "group": "1"
   },
   "Songer": {
     "translation": "To think",
@@ -32975,7 +33436,8 @@
       "Songe !",
       "Songeons !",
       "Songez !"
-    ]
+    ],
+    "group": "1"
   },
   "Sonner": {
     "translation": "To ring",
@@ -33055,7 +33517,8 @@
       "Sonne !",
       "Sonnons !",
       "Sonnez !"
-    ]
+    ],
+    "group": "1"
   },
   "Sortir": {
     "translation": "To go out",
@@ -33135,7 +33598,8 @@
       "Mens !",
       "Sortons !",
       "Sortez !"
-    ]
+    ],
+    "group": "3"
   },
   "Souffler": {
     "translation": "To blow",
@@ -33215,7 +33679,8 @@
       "Souffle !",
       "Soufflons !",
       "Soufflez !"
-    ]
+    ],
+    "group": "1"
   },
   "Souffrir": {
     "translation": "To suffer",
@@ -33295,7 +33760,8 @@
       "Souffre !",
       "Souffrons !",
       "Souffrez !"
-    ]
+    ],
+    "group": "3"
   },
   "Souhaiter": {
     "translation": "To wish",
@@ -33375,7 +33841,8 @@
       "Souhaite !",
       "Souhaitons !",
       "Souhaitez !"
-    ]
+    ],
+    "group": "1"
   },
   "Sourire": {
     "translation": "To smile",
@@ -33431,16 +33898,16 @@
       "Je sourirais",
       "Tu sourirais",
       "Il/elle sourirait",
-      "Nous sourisourions",
-      "Vous sourisouriez",
+      "Nous souririons",
+      "Vous souririez",
       "Ils/elles souriraient"
     ],
     "Conditionnel passé": [
       "J'aurais souri",
       "Tu aurais souri",
       "Il/elle aurait souri",
-      "Nous ausourions souri",
-      "Vous ausouriez souri",
+      "Nous aurions souri",
+      "Vous auriez souri",
       "Ils/elles auraient souri"
     ],
     "Subjonctif présent": [
@@ -33452,15 +33919,16 @@
       "ils/elles sourient"
     ],
     "Impératif présent": [
-      "Sousouris !",
-      "Sousourions !",
-      "Sousouriez !"
-    ]
+      "Ris !",
+      "Rions !",
+      "Riez !"
+    ],
+    "group": "3"
   },
   "Souscrire": {
     "translation": "To subscribe",
     "Présent": [
-      "J'souscris",
+      "Je souscris",
       "Tu souscris",
       "Il/elle souscrit",
       "Nous souscrivons",
@@ -33476,7 +33944,7 @@
       "Ils/elles ont souscrit"
     ],
     "Imparfait": [
-      "J'souscrivais",
+      "Je souscrivais",
       "Tu souscrivais",
       "Il/elle souscrivait",
       "Nous souscrivions",
@@ -33492,7 +33960,7 @@
       "Ils/elles avaient souscrit"
     ],
     "Futur simple": [
-      "J'souscrirai",
+      "Je souscrirai",
       "Tu souscriras",
       "Il/elle souscrira",
       "Nous souscrirons",
@@ -33508,7 +33976,7 @@
       "Ils/elles auront souscrit"
     ],
     "Conditionnel présent": [
-      "J'souscrirais",
+      "Je souscrirais",
       "Tu souscrirais",
       "Il/elle souscrirait",
       "Nous souscririons",
@@ -33524,7 +33992,7 @@
       "Ils/elles auraient souscrit"
     ],
     "Subjonctif présent": [
-      "j'souscrive",
+      "je souscrive",
       "tu souscrives",
       "il/elle souscrive",
       "nous souscrivions",
@@ -33532,10 +34000,11 @@
       "ils/elles souscrivent"
     ],
     "Impératif présent": [
-      "Souscris !",
-      "Souscrivons !",
-      "Souscrivez !"
-    ]
+      "Écris !",
+      "Écrivons !",
+      "Écrivez !"
+    ],
+    "group": "3"
   },
   "Soutenir": {
     "translation": "To support",
@@ -33615,7 +34084,8 @@
       "Tiens !",
       "Sousoutenons !",
       "Sousoutenez !"
-    ]
+    ],
+    "group": "3"
   },
   "Subir": {
     "translation": "To undergo",
@@ -33695,7 +34165,8 @@
       "Subis !",
       "Subissons !",
       "Subissez !"
-    ]
+    ],
+    "group": "2"
   },
   "Subvenir": {
     "translation": "To support",
@@ -33775,7 +34246,8 @@
       "Tiens !",
       "Subvenons !",
       "Subvenez !"
-    ]
+    ],
+    "group": "3"
   },
   "Sucer": {
     "translation": "To suck",
@@ -33855,7 +34327,8 @@
       "Suce !",
       "Plaçons !",
       "Sucez !"
-    ]
+    ],
+    "group": "1"
   },
   "Suggérer": {
     "translation": "To suggest",
@@ -33935,7 +34408,8 @@
       "Espère !",
       "Suggérons !",
       "Suggérez !"
-    ]
+    ],
+    "group": "1"
   },
   "Suivre": {
     "translation": "To follow",
@@ -34015,7 +34489,8 @@
       "Suis !",
       "Suivons !",
       "Suivez !"
-    ]
+    ],
+    "group": "3"
   },
   "Supporter": {
     "translation": "To support",
@@ -34095,7 +34570,8 @@
       "Supporte !",
       "Supportons !",
       "Supportez !"
-    ]
+    ],
+    "group": "1"
   },
   "Supposer": {
     "translation": "To suppose",
@@ -34175,7 +34651,8 @@
       "Suppose !",
       "Supposons !",
       "Supposez !"
-    ]
+    ],
+    "group": "1"
   },
   "Surprendre": {
     "translation": "To surprise",
@@ -34183,33 +34660,33 @@
       "Je surprends",
       "Tu surprends",
       "Il/elle surprend",
-      "Nous prenons",
-      "Vous prenez",
-      "Ils/elles prennent"
+      "Nous surprenons",
+      "Vous surprenez",
+      "Ils/elles surprennent"
     ],
     "Passé composé": [
-      "J'ai pris",
-      "Tu as pris",
-      "Il/elle a pris",
-      "Nous avons pris",
-      "Vous avez pris",
-      "Ils/elles ont pris"
+      "J'ai surpris",
+      "Tu as surpris",
+      "Il/elle a surpris",
+      "Nous avons surpris",
+      "Vous avez surpris",
+      "Ils/elles ont surpris"
     ],
     "Imparfait": [
-      "Je prenais",
-      "Tu prenais",
-      "Il/elle prenait",
-      "Nous prenions",
-      "Vous preniez",
-      "Ils/elles prenaient"
+      "Je surprenais",
+      "Tu surprenais",
+      "Il/elle surprenait",
+      "Nous surprenions",
+      "Vous surpreniez",
+      "Ils/elles surprenaient"
     ],
     "Plus-que-parfait": [
-      "J'avais pris",
-      "Tu avais pris",
-      "Il/elle avait pris",
-      "Nous avions pris",
-      "Vous aviez pris",
-      "Ils/elles avaient pris"
+      "J'avais surpris",
+      "Tu avais surpris",
+      "Il/elle avait surpris",
+      "Nous avions surpris",
+      "Vous aviez surpris",
+      "Ils/elles avaient surpris"
     ],
     "Futur simple": [
       "Je surprendrai",
@@ -34220,12 +34697,12 @@
       "Ils/elles surprendront"
     ],
     "Futur antérieur": [
-      "J'aurai pris",
-      "Tu auras pris",
-      "Il/elle aura pris",
-      "Nous aurons pris",
-      "Vous aurez pris",
-      "Ils/elles auront pris"
+      "J'aurai surpris",
+      "Tu auras surpris",
+      "Il/elle aura surpris",
+      "Nous aurons surpris",
+      "Vous aurez surpris",
+      "Ils/elles auront surpris"
     ],
     "Conditionnel présent": [
       "Je surprendrais",
@@ -34236,26 +34713,27 @@
       "Ils/elles surprendraient"
     ],
     "Conditionnel passé": [
-      "J'aurais pris",
-      "Tu aurais pris",
-      "Il/elle aurait pris",
-      "Nous aurions pris",
-      "Vous auriez pris",
-      "Ils/elles auraient pris"
+      "J'aurais surpris",
+      "Tu aurais surpris",
+      "Il/elle aurait surpris",
+      "Nous aurions surpris",
+      "Vous auriez surpris",
+      "Ils/elles auraient surpris"
     ],
     "Subjonctif présent": [
-      "je prenne",
-      "tu prennes",
-      "il/elle prenne",
-      "nous prenions",
-      "vous preniez",
-      "ils/elles prennent"
+      "je surprenne",
+      "tu surprennes",
+      "il/elle surprenne",
+      "nous surprenions",
+      "vous surpreniez",
+      "ils/elles surprennent"
     ],
     "Impératif présent": [
-      "Sursurprends !",
+      "Prends !",
       "Prenons !",
       "Prenez !"
-    ]
+    ],
+    "group": "3"
   },
   "Survenir": {
     "translation": "To occur",
@@ -34335,25 +34813,26 @@
       "Tiens !",
       "Survenons !",
       "Survenez !"
-    ]
+    ],
+    "group": "3"
   },
   "Survivre": {
     "translation": "To survive",
     "Présent": [
-      "Je vis",
-      "Tu vis",
-      "Il/elle vit",
+      "Je survis",
+      "Tu survis",
+      "Il/elle survit",
       "Nous survivons",
       "Vous survivez",
       "Ils/elles survivent"
     ],
     "Passé composé": [
-      "J'ai vécu",
-      "Tu as vécu",
-      "Il/elle a vécu",
-      "Nous avons vécu",
-      "Vous avez vécu",
-      "Ils/elles ont vécu"
+      "J'ai survécu",
+      "Tu as survécu",
+      "Il/elle a survécu",
+      "Nous avons survécu",
+      "Vous avez survécu",
+      "Ils/elles ont survécu"
     ],
     "Imparfait": [
       "Je survivais",
@@ -34364,12 +34843,12 @@
       "Ils/elles survivaient"
     ],
     "Plus-que-parfait": [
-      "J'avais vécu",
-      "Tu avais vécu",
-      "Il/elle avait vécu",
-      "Nous avions vécu",
-      "Vous aviez vécu",
-      "Ils/elles avaient vécu"
+      "J'avais survécu",
+      "Tu avais survécu",
+      "Il/elle avait survécu",
+      "Nous avions survécu",
+      "Vous aviez survécu",
+      "Ils/elles avaient survécu"
     ],
     "Futur simple": [
       "Je survivrai",
@@ -34380,12 +34859,12 @@
       "Ils/elles survivront"
     ],
     "Futur antérieur": [
-      "J'aurai vécu",
-      "Tu auras vécu",
-      "Il/elle aura vécu",
-      "Nous aurons vécu",
-      "Vous aurez vécu",
-      "Ils/elles auront vécu"
+      "J'aurai survécu",
+      "Tu auras survécu",
+      "Il/elle aura survécu",
+      "Nous aurons survécu",
+      "Vous aurez survécu",
+      "Ils/elles auront survécu"
     ],
     "Conditionnel présent": [
       "Je survivrais",
@@ -34396,12 +34875,12 @@
       "Ils/elles survivraient"
     ],
     "Conditionnel passé": [
-      "J'aurais vécu",
-      "Tu aurais vécu",
-      "Il/elle aurait vécu",
-      "Nous aurions vécu",
-      "Vous auriez vécu",
-      "Ils/elles auraient vécu"
+      "J'aurais survécu",
+      "Tu aurais survécu",
+      "Il/elle aurait survécu",
+      "Nous aurions survécu",
+      "Vous auriez survécu",
+      "Ils/elles auraient survécu"
     ],
     "Subjonctif présent": [
       "je survive",
@@ -34413,9 +34892,10 @@
     ],
     "Impératif présent": [
       "Vis !",
-      "Sursurvivons !",
-      "Sursurvivez !"
-    ]
+      "Vivons !",
+      "Vivez !"
+    ],
+    "group": "3"
   },
   "Séduire": {
     "translation": "To seduce",
@@ -34495,7 +34975,8 @@
       "Séduis !",
       "Séduisons !",
       "Séduisez !"
-    ]
+    ],
+    "group": "3"
   },
   "Séjourner": {
     "translation": "To stay",
@@ -34575,7 +35056,8 @@
       "Séjourne !",
       "Séjournons !",
       "Séjournez !"
-    ]
+    ],
+    "group": "1"
   },
   "Séparer": {
     "translation": "To separate",
@@ -34655,7 +35137,8 @@
       "Sépare !",
       "Séparons !",
       "Séparez !"
-    ]
+    ],
+    "group": "1"
   },
   "Tendre": {
     "translation": "To tend",
@@ -34735,7 +35218,8 @@
       "Tends !",
       "Tendons !",
       "Tendez !"
-    ]
+    ],
+    "group": "3"
   },
   "Tenir": {
     "translation": "To hold",
@@ -34815,7 +35299,8 @@
       "Tiens !",
       "Tenons !",
       "Tenez !"
-    ]
+    ],
+    "group": "3"
   },
   "Tenter": {
     "translation": "To try",
@@ -34895,7 +35380,8 @@
       "Tente !",
       "Tentons !",
       "Tentez !"
-    ]
+    ],
+    "group": "1"
   },
   "Terminer": {
     "translation": "To end",
@@ -34975,7 +35461,8 @@
       "Termine !",
       "Terminons !",
       "Terminez !"
-    ]
+    ],
+    "group": "1"
   },
   "Tirer": {
     "translation": "To pull",
@@ -35055,7 +35542,8 @@
       "Tire !",
       "Tirons !",
       "Tirez !"
-    ]
+    ],
+    "group": "1"
   },
   "Tomber": {
     "translation": "To fall",
@@ -35135,7 +35623,8 @@
       "Tombe !",
       "Tombons !",
       "Tombez !"
-    ]
+    ],
+    "group": "1"
   },
   "Tondre": {
     "translation": "To mow",
@@ -35215,7 +35704,8 @@
       "Tonds !",
       "Tondons !",
       "Tondez !"
-    ]
+    ],
+    "group": "3"
   },
   "Tordre": {
     "translation": "To twist",
@@ -35295,7 +35785,8 @@
       "Tords !",
       "Tordons !",
       "Tordez !"
-    ]
+    ],
+    "group": "3"
   },
   "Toucher": {
     "translation": "To touch - To affect",
@@ -35375,7 +35866,8 @@
       "Touche !",
       "Touchons !",
       "Touchez !"
-    ]
+    ],
+    "group": "1"
   },
   "Tourner": {
     "translation": "To turn",
@@ -35455,7 +35947,8 @@
       "Tourne !",
       "Tournons !",
       "Tournez !"
-    ]
+    ],
+    "group": "1"
   },
   "Tousser": {
     "translation": "To cough",
@@ -35535,7 +36028,8 @@
       "Tousse !",
       "Toussons !",
       "Toussez !"
-    ]
+    ],
+    "group": "1"
   },
   "Tracer": {
     "translation": "To draw",
@@ -35615,7 +36109,8 @@
       "Trace !",
       "Plaçons !",
       "Tracez !"
-    ]
+    ],
+    "group": "1"
   },
   "Traduire": {
     "translation": "To translate",
@@ -35695,7 +36190,8 @@
       "Traduis !",
       "Traduisons !",
       "Traduisez !"
-    ]
+    ],
+    "group": "3"
   },
   "Trahir": {
     "translation": "To betray",
@@ -35775,7 +36271,8 @@
       "Trahis !",
       "Trahissons !",
       "Trahissez !"
-    ]
+    ],
+    "group": "2"
   },
   "Traiter": {
     "translation": "To treat",
@@ -35855,25 +36352,26 @@
       "Traite !",
       "Traitons !",
       "Traitez !"
-    ]
+    ],
+    "group": "1"
   },
   "Transmettre": {
     "translation": "To transmit",
     "Présent": [
-      "Je mets",
-      "Tu mets",
-      "Il/elle met",
+      "Je transmets",
+      "Tu transmets",
+      "Il/elle transmet",
       "Nous transmettons",
       "Vous transmettez",
       "Ils/elles transmettent"
     ],
     "Passé composé": [
-      "J'ai mis",
-      "Tu as mis",
-      "Il/elle a mis",
-      "Nous avons mis",
-      "Vous avez mis",
-      "Ils/elles ont mis"
+      "J'ai transmis",
+      "Tu as transmis",
+      "Il/elle a transmis",
+      "Nous avons transmis",
+      "Vous avez transmis",
+      "Ils/elles ont transmis"
     ],
     "Imparfait": [
       "Je transmettais",
@@ -35884,12 +36382,12 @@
       "Ils/elles transmettaient"
     ],
     "Plus-que-parfait": [
-      "J'avais mis",
-      "Tu avais mis",
-      "Il/elle avait mis",
-      "Nous avions mis",
-      "Vous aviez mis",
-      "Ils/elles avaient mis"
+      "J'avais transmis",
+      "Tu avais transmis",
+      "Il/elle avait transmis",
+      "Nous avions transmis",
+      "Vous aviez transmis",
+      "Ils/elles avaient transmis"
     ],
     "Futur simple": [
       "Je transmettrai",
@@ -35900,12 +36398,12 @@
       "Ils/elles transmettront"
     ],
     "Futur antérieur": [
-      "J'aurai mis",
-      "Tu auras mis",
-      "Il/elle aura mis",
-      "Nous aurons mis",
-      "Vous aurez mis",
-      "Ils/elles auront mis"
+      "J'aurai transmis",
+      "Tu auras transmis",
+      "Il/elle aura transmis",
+      "Nous aurons transmis",
+      "Vous aurez transmis",
+      "Ils/elles auront transmis"
     ],
     "Conditionnel présent": [
       "Je transmettrais",
@@ -35916,12 +36414,12 @@
       "Ils/elles transmettraient"
     ],
     "Conditionnel passé": [
-      "J'aurais mis",
-      "Tu aurais mis",
-      "Il/elle aurait mis",
-      "Nous aurions mis",
-      "Vous auriez mis",
-      "Ils/elles auraient mis"
+      "J'aurais transmis",
+      "Tu aurais transmis",
+      "Il/elle aurait transmis",
+      "Nous aurions transmis",
+      "Vous auriez transmis",
+      "Ils/elles auraient transmis"
     ],
     "Subjonctif présent": [
       "je transmette",
@@ -35933,9 +36431,10 @@
     ],
     "Impératif présent": [
       "Mets !",
-      "Transtransmettons !",
-      "Transtransmettez !"
-    ]
+      "Mettons !",
+      "Mettez !"
+    ],
+    "group": "3"
   },
   "Travailler": {
     "translation": "To work",
@@ -36015,7 +36514,8 @@
       "Travaille !",
       "Travaillons !",
       "Travaillez !"
-    ]
+    ],
+    "group": "1"
   },
   "Traverser": {
     "translation": "To cross",
@@ -36095,7 +36595,8 @@
       "Traverse !",
       "Traversons !",
       "Traversez !"
-    ]
+    ],
+    "group": "1"
   },
   "Tromper": {
     "translation": "To mislead",
@@ -36175,7 +36676,8 @@
       "Trompe !",
       "Trompons !",
       "Trompez !"
-    ]
+    ],
+    "group": "1"
   },
   "Trouver": {
     "translation": "To find",
@@ -36255,7 +36757,8 @@
       "Trouve !",
       "Trouvons !",
       "Trouvez !"
-    ]
+    ],
+    "group": "1"
   },
   "Tuer": {
     "translation": "To kill",
@@ -36335,7 +36838,8 @@
       "Tue !",
       "Tuons !",
       "Tuez !"
-    ]
+    ],
+    "group": "1"
   },
   "Tutoyer": {
     "translation": "To use \"tu\"",
@@ -36415,7 +36919,8 @@
       "Nettoie !",
       "Tutoyons !",
       "Tutoyez !"
-    ]
+    ],
+    "group": "1"
   },
   "Téléphoner": {
     "translation": "To call",
@@ -36495,7 +37000,8 @@
       "Téléphone !",
       "Téléphonons !",
       "Téléphonez !"
-    ]
+    ],
+    "group": "1"
   },
   "Unir": {
     "translation": "To join",
@@ -36575,7 +37081,8 @@
       "Unis !",
       "Unissons !",
       "Unissez !"
-    ]
+    ],
+    "group": "2"
   },
   "User": {
     "translation": "To wear out - To use",
@@ -36655,7 +37162,8 @@
       "Use !",
       "Usons !",
       "Usez !"
-    ]
+    ],
+    "group": "1"
   },
   "Utiliser": {
     "translation": "To use",
@@ -36735,7 +37243,8 @@
       "Utilise !",
       "Utilisons !",
       "Utilisez !"
-    ]
+    ],
+    "group": "1"
   },
   "Vaincre": {
     "translation": "To overcome",
@@ -36815,7 +37324,8 @@
       "Vaincs !",
       "Vainquons !",
       "Vainquez !"
-    ]
+    ],
+    "group": "3"
   },
   "Varier": {
     "translation": "To vary",
@@ -36895,7 +37405,8 @@
       "Varie !",
       "Varions !",
       "Variez !"
-    ]
+    ],
+    "group": "1"
   },
   "Vendre": {
     "translation": "To sell",
@@ -36975,7 +37486,8 @@
       "Vends !",
       "Vendons !",
       "Vendez !"
-    ]
+    ],
+    "group": "3"
   },
   "Venger": {
     "translation": "To avenge",
@@ -37055,7 +37567,8 @@
       "Venge !",
       "Vengeons !",
       "Vengez !"
-    ]
+    ],
+    "group": "1"
   },
   "Venir": {
     "translation": "To come",
@@ -37135,7 +37648,8 @@
       "Tiens !",
       "Venons !",
       "Venez !"
-    ]
+    ],
+    "group": "3"
   },
   "Verser": {
     "translation": "To pour",
@@ -37215,7 +37729,8 @@
       "Verse !",
       "Versons !",
       "Versez !"
-    ]
+    ],
+    "group": "1"
   },
   "Vieillir": {
     "translation": "To age",
@@ -37295,7 +37810,8 @@
       "Vieillis !",
       "Vieillissons !",
       "Vieillissez !"
-    ]
+    ],
+    "group": "2"
   },
   "Viser": {
     "translation": "To aim",
@@ -37375,7 +37891,8 @@
       "Vise !",
       "Visons !",
       "Visez !"
-    ]
+    ],
+    "group": "1"
   },
   "Visiter": {
     "translation": "To visit",
@@ -37455,7 +37972,8 @@
       "Visite !",
       "Visitons !",
       "Visitez !"
-    ]
+    ],
+    "group": "1"
   },
   "Vivre": {
     "translation": "To live",
@@ -37535,7 +38053,8 @@
       "Vis !",
       "Vivons !",
       "Vivez !"
-    ]
+    ],
+    "group": "3"
   },
   "Voir": {
     "translation": "To see",
@@ -37615,7 +38134,8 @@
       "Vois !",
       "Voyons !",
       "Voyez !"
-    ]
+    ],
+    "group": "3"
   },
   "Voler": {
     "translation": "To steal - To fly",
@@ -37695,7 +38215,8 @@
       "Vole !",
       "Volons !",
       "Volez !"
-    ]
+    ],
+    "group": "1"
   },
   "Voter": {
     "translation": "To vote",
@@ -37775,7 +38296,8 @@
       "Vote !",
       "Votons !",
       "Votez !"
-    ]
+    ],
+    "group": "1"
   },
   "Vouloir": {
     "translation": "To want",
@@ -37855,7 +38377,8 @@
       "Veux !",
       "Voulons !",
       "Voulez !"
-    ]
+    ],
+    "group": "3"
   },
   "Vouvoyer": {
     "translation": "To use \"vous\"",
@@ -37935,7 +38458,8 @@
       "Nettoie !",
       "Vouvoyons !",
       "Vouvoyez !"
-    ]
+    ],
+    "group": "1"
   },
   "Voyager": {
     "translation": "To travel",
@@ -38015,7 +38539,8 @@
       "Voyage !",
       "Voyageons !",
       "Voyagez !"
-    ]
+    ],
+    "group": "1"
   },
   "Vérifier": {
     "translation": "To verify",
@@ -38095,7 +38620,8 @@
       "Vérifie !",
       "Vérifions !",
       "Vérifiez !"
-    ]
+    ],
+    "group": "1"
   },
   "Échapper": {
     "translation": "To escape",
@@ -38175,7 +38701,8 @@
       "Échappe !",
       "Échappons !",
       "Échappez !"
-    ]
+    ],
+    "group": "1"
   },
   "Échouer": {
     "translation": "To fail",
@@ -38255,7 +38782,8 @@
       "Échoue !",
       "Échouons !",
       "Échouez !"
-    ]
+    ],
+    "group": "1"
   },
   "Écouter": {
     "translation": "To listen",
@@ -38335,7 +38863,8 @@
       "Écoute !",
       "Écoutons !",
       "Écoutez !"
-    ]
+    ],
+    "group": "1"
   },
   "Écraser": {
     "translation": "To crush",
@@ -38415,7 +38944,8 @@
       "Écrase !",
       "Écrasons !",
       "Écrasez !"
-    ]
+    ],
+    "group": "1"
   },
   "Écrire": {
     "translation": "To write",
@@ -38495,7 +39025,8 @@
       "Écris !",
       "Écrivons !",
       "Écrivez !"
-    ]
+    ],
+    "group": "3"
   },
   "Égayer": {
     "translation": "To entertain",
@@ -38575,7 +39106,8 @@
       "Nettoie !",
       "Égayons !",
       "Égayez !"
-    ]
+    ],
+    "group": "1"
   },
   "Élever": {
     "translation": "To raise",
@@ -38655,7 +39187,8 @@
       "Achève !",
       "Élevons !",
       "Élevez !"
-    ]
+    ],
+    "group": "1"
   },
   "Élire": {
     "translation": "To elect",
@@ -38668,12 +39201,12 @@
       "Ils/elles élisent"
     ],
     "Passé composé": [
-      "J'ai lu",
-      "Tu as lu",
-      "Il/elle a lu",
-      "Nous avons lu",
-      "Vous avez lu",
-      "Ils/elles ont lu"
+      "J'ai élu",
+      "Tu as élu",
+      "Il/elle a élu",
+      "Nous avons élu",
+      "Vous avez élu",
+      "Ils/elles ont élu"
     ],
     "Imparfait": [
       "J'élisais",
@@ -38684,12 +39217,12 @@
       "Ils/elles élisaient"
     ],
     "Plus-que-parfait": [
-      "J'avais lu",
-      "Tu avais lu",
-      "Il/elle avait lu",
-      "Nous avions lu",
-      "Vous aviez lu",
-      "Ils/elles avaient lu"
+      "J'avais élu",
+      "Tu avais élu",
+      "Il/elle avait élu",
+      "Nous avions élu",
+      "Vous aviez élu",
+      "Ils/elles avaient élu"
     ],
     "Futur simple": [
       "J'élirai",
@@ -38700,12 +39233,12 @@
       "Ils/elles éliront"
     ],
     "Futur antérieur": [
-      "J'aurai lu",
-      "Tu auras lu",
-      "Il/elle aura lu",
-      "Nous aurons lu",
-      "Vous aurez lu",
-      "Ils/elles auront lu"
+      "J'aurai élu",
+      "Tu auras élu",
+      "Il/elle aura élu",
+      "Nous aurons élu",
+      "Vous aurez élu",
+      "Ils/elles auront élu"
     ],
     "Conditionnel présent": [
       "J'élirais",
@@ -38716,15 +39249,15 @@
       "Ils/elles éliraient"
     ],
     "Conditionnel passé": [
-      "J'aurais lu",
-      "Tu aurais lu",
-      "Il/elle aurait lu",
-      "Nous aurions lu",
-      "Vous auriez lu",
-      "Ils/elles auraient lu"
+      "J'aurais élu",
+      "Tu aurais élu",
+      "Il/elle aurait élu",
+      "Nous aurions élu",
+      "Vous auriez élu",
+      "Ils/elles auraient élu"
     ],
     "Subjonctif présent": [
-      "je élise",
+      "j'élise",
       "tu élises",
       "il/elle élise",
       "nous élisions",
@@ -38732,10 +39265,11 @@
       "ils/elles élisent"
     ],
     "Impératif présent": [
-      "Éélis !",
-      "Éélisons !",
-      "Éélisez !"
-    ]
+      "Lis !",
+      "Lisons !",
+      "Lisez !"
+    ],
+    "group": "3"
   },
   "Éloigner": {
     "translation": "To move away",
@@ -38815,7 +39349,8 @@
       "Éloigne !",
       "Éloignons !",
       "Éloignez !"
-    ]
+    ],
+    "group": "1"
   },
   "Épeler": {
     "translation": "To spell",
@@ -38895,7 +39430,8 @@
       "Gèle !",
       "Épelons !",
       "Épelez !"
-    ]
+    ],
+    "group": "1"
   },
   "Épouser": {
     "translation": "To marry",
@@ -38975,7 +39511,8 @@
       "Épouse !",
       "Épousons !",
       "Épousez !"
-    ]
+    ],
+    "group": "1"
   },
   "Éteindre": {
     "translation": "To turn off -",
@@ -39055,7 +39592,8 @@
       "Atteins !",
       "Atteignons !",
       "Atteignez !"
-    ]
+    ],
+    "group": "3"
   },
   "Étendre": {
     "translation": "To stretch",
@@ -39135,7 +39673,8 @@
       "Étends !",
       "Étendons !",
       "Étendez !"
-    ]
+    ],
+    "group": "3"
   },
   "Étonner": {
     "translation": "To astonish",
@@ -39215,7 +39754,8 @@
       "Étonne !",
       "Étonnons !",
       "Étonnez !"
-    ]
+    ],
+    "group": "1"
   },
   "Étudier": {
     "translation": "To study",
@@ -39295,7 +39835,8 @@
       "Étudie !",
       "Étudions !",
       "Étudiez !"
-    ]
+    ],
+    "group": "1"
   },
   "Éviter": {
     "translation": "To avoid",
@@ -39375,7 +39916,8 @@
       "Évite !",
       "Évitons !",
       "Évitez !"
-    ]
+    ],
+    "group": "1"
   },
   "Être": {
     "translation": "To be",
@@ -39455,6 +39997,7 @@
       "Sois !",
       "Soyons !",
       "Soyez !"
-    ]
+    ],
+    "group": "aux"
   }
 }

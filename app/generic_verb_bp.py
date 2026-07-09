@@ -157,7 +157,9 @@ def make_verb_blueprint(lang):
                 1 for ti in range(len(tenses)) for pi in range(len(persons))
                 if len(progress.get(f"{inf}|{ti}|{pi}", [])) >= 3
             )
-            result.append({"verb": inf, "done": done, "total": total})
+            entry = conj[inf]
+        grp = entry.get("group", "") if isinstance(entry, dict) else ""
+        result.append({"verb": inf, "done": done, "total": total, "group": grp})
         return jsonify(result)
 
     @bp.route("/api/verb/<path:inf>")
@@ -295,6 +297,9 @@ input[type=text]:focus{{border-color:#c9a96e}}
 .prog-wrap{{height:2px;background:rgba(255,255,255,.08);border-radius:2px;margin-bottom:22px;overflow:hidden;width:100%;max-width:560px}}
 .prog-bar{{height:100%;background:#c9a96e;border-radius:2px;transition:width .3s}}
 .btn-row{{display:flex;gap:8px;margin-top:12px;flex-wrap:wrap}}
+.browse-toggle{{display:flex;gap:6px;margin-bottom:12px}}
+.group-header{{font-size:11px;color:rgba(201,169,110,.7);text-transform:uppercase;letter-spacing:1.5px;font-family:sans-serif;font-weight:700;padding:18px 0 8px;border-bottom:1px solid rgba(255,255,255,.06);margin-bottom:10px;display:flex;align-items:baseline;gap:8px}}
+.group-header-count{{color:rgba(255,255,255,.3);font-weight:400;text-transform:none;letter-spacing:0;font-size:11px}}
 </style>
 </head>
 <body>
@@ -325,6 +330,7 @@ let verbData   = null;
 let quizState  = null;
 let searchQ    = '';
 let activeTense = null;
+let browseMode = 'alpha';
 
 function api(path, opts) {{
   return fetch('/' + LANG + '/verb' + path, opts).then(r => r.json());
@@ -349,20 +355,49 @@ function render() {{
 // ── Browse ────────────────────────────────────────────────────────────────────
 function renderBrowse() {{
   if (!verbList.length) return `<div class="empty-msg">No verbs loaded yet.<br><br>Add conjugation data to<br><code>{lang}_verb_conjugations.json</code></div>`;
+  const hasGroups = verbList.some(v => v.group);
   const q = searchQ.toLowerCase();
   const filtered = verbList.filter(v => v.verb.toLowerCase().includes(q));
   const totalDone = verbList.reduce((s, v) => s + v.done, 0);
   const totalAll  = verbList.reduce((s, v) => s + v.total, 0);
   const pct = totalAll ? Math.round(100 * totalDone / totalAll) : 0;
   document.getElementById('prog-bar').style.width = pct + '%';
+
+  const toggle = hasGroups ? `<div class="browse-toggle">
+    <button class="pill${{browseMode==='alpha'?' on':''}}" onclick="browseMode='alpha';render()">A – Z</button>
+    <button class="pill${{browseMode==='group'?' on':''}}" onclick="browseMode='group';render()">By Group</button>
+  </div>` : '';
+
+  const list = hasGroups && browseMode === 'group'
+    ? renderBrowseByGroup(filtered)
+    : `<div class="sec-label">${{filtered.length}} verb${{filtered.length!==1?'s':''}}</div>` + filtered.map(v => verbCard(v)).join('');
+
   return `
     <div class="search-wrap">
       <span class="search-icon">🔍</span>
       <input type="text" placeholder="Search verbs…" value="${{searchQ}}" oninput="searchQ=this.value;render()" id="search-inp">
     </div>
-    <div class="sec-label">${{filtered.length}} verb${{filtered.length!==1?'s':''}}</div>
-    ${{filtered.map(v => verbCard(v)).join('')}}
+    ${{toggle}}
+    ${{list}}
   `;
+}}
+
+function renderBrowseByGroup(filtered) {{
+  const ORDER  = ['aux', '1', '2', '3'];
+  const LABELS = {{
+    'aux': 'Auxiliaries',
+    '1':   '1st Group · -ER',
+    '2':   '2nd Group · -IR',
+    '3':   '3rd Group · Irregular',
+  }};
+  const buckets = {{}};
+  filtered.forEach(v => {{ const g = v.group || '3'; (buckets[g] = buckets[g] || []).push(v); }});
+  return ORDER
+    .filter(g => buckets[g])
+    .map(g => `
+      <div class="group-header">${{LABELS[g] || g}}<span class="group-header-count">${{buckets[g].length}} verb${{buckets[g].length!==1?'s':''}}</span></div>
+      ${{buckets[g].map(v => verbCard(v)).join('')}}
+    `).join('');
 }}
 
 function verbCard(v) {{

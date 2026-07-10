@@ -447,6 +447,17 @@ function cardMastery(c){
 function allGroups(){
   const s=new Set();allCards.forEach(c=>{if(c.group)s.add(c.group);});return[...s].sort();
 }
+function _stripGroup(s){{
+  // Remove leading emoji/symbols — anything that isn't a letter, digit, or space
+  return s.replace(/^\S+\s+/,'').trim().toLowerCase()||s.replace(/[^\w\sÀ-ɏͰ-Ͽ]/g,'').trim().toLowerCase();
+}}
+function resolveGroup(raw){{
+  if(!raw) return raw;
+  const t=_stripGroup(raw);
+  if(!t) return raw;
+  const match=allGroups().find(g=>_stripGroup(g)===t);
+  return match||raw;
+}}
 function allTagsList(){
   const m=new Map();
   allCards.forEach(c=>(c.tags||[]).forEach(t=>m.set(t,(m.get(t)||0)+1)));
@@ -525,14 +536,29 @@ function cardBackHTML(c){
     +(c.etymology?`<div class="bcard-section"><div class="bcard-section-label">Etymology</div><div class="bcard-etym">&#128279; ${esc(c.etymology)}</div></div>`:'');
 }
 
+// ── Navigation history (mouse back/forward) ────────────────────────────────────
+let _navHist=[],_navFwd=[];
+function _navSnap(){{return{{tab,browseIdx}};}}
+function _navPush(){{_navHist.push(_navSnap());_navFwd=[];}}
+function _navRestore(s){{
+  tab=s.tab;browseIdx=s.browseIdx;
+  document.querySelectorAll('.tab').forEach((b,i)=>b.classList.toggle('active',['browse','study','add'][i]===tab));
+  render();
+}}
+function navBack(){{if(!_navHist.length)return;_navFwd.push(_navSnap());_navRestore(_navHist.pop());}}
+function navForward(){{if(!_navFwd.length)return;_navHist.push(_navSnap());_navRestore(_navFwd.pop());}}
+document.addEventListener('mouseup',e=>{{if(e.button===3){{e.preventDefault();navBack();}}else if(e.button===4){{e.preventDefault();navForward();}}}});
+document.addEventListener('mousedown',e=>{{if(e.button===3||e.button===4)e.preventDefault();}});
+
 // ── Routing ────────────────────────────────────────────────────────────────────
-function switchTab(t){
+function switchTab(t){{
+  _navPush();
   tab=t;
   document.querySelectorAll('.tab').forEach((b,i)=>
     b.classList.toggle('active',['browse','study','add'][i]===t));
-  if(t==='study'){quizPhase='setup';studyFlipped=false;}
+  if(t==='study'){{quizPhase='setup';studyFlipped=false;}}
   render();
-}
+}}
 function render(){
   if(tab==='study')       renderQuiz();
   else if(tab==='browse') renderBrowse();
@@ -642,7 +668,7 @@ function renderBrowse(){
 
 function setBrowseView(v){browseView=v;browseFlipped=false;browseIdx=0;renderBrowse();}
 function fcFlip(){browseFlipped=!browseFlipped;const el=document.getElementById('fc-inner');if(el)el.classList.toggle('flipped',browseFlipped);}
-function fcNav(dir){const f=browseFilter();browseIdx=Math.max(0,Math.min(browseIdx+dir,f.length-1));browseFlipped=false;renderBrowse();}
+function fcNav(dir){_navPush();const f=browseFilter();browseIdx=Math.max(0,Math.min(browseIdx+dir,f.length-1));browseFlipped=false;renderBrowse();}
 function toggleBCard(id){browseOpen.has(id)?browseOpen.delete(id):browseOpen.add(id);renderBrowse();}
 function toggleBrowseGroup(g){browseGroups.has(g)?browseGroups.delete(g):browseGroups.add(g);browseIdx=0;renderBrowse();}
 function toggleBrowseTag(t){browseTags.has(t)?browseTags.delete(t):browseTags.add(t);browseIdx=0;renderBrowse();}
@@ -1144,7 +1170,47 @@ function renderAdd(prefillCard){
     const prefill=isEditing?addEditingCard:null;
     addFormText(form,LANG.name+' word','word','Dictionary / base form',prefill?.word||'');
     addFormText(form,DEP_NAME+' translation','translation','Separate alternatives with a comma',prefill?.translation||'');
-    if(!isEditing) addFormText(form,'Group','group','e.g. Food, Daily life, Travel…',prefill?.group||'');
+    if(!isEditing){{
+      form.appendChild(mkel('div','sec-field-label','Group'));
+      const _gWrap=document.createElement('div');
+      _gWrap.style.cssText='position:relative;display:flex;gap:6px;align-items:center';
+      const _gInp=document.createElement('input');
+      _gInp.type='text';_gInp.name='group';_gInp.placeholder='e.g. 📚 Reading, 🍽️ Food…';
+      _gInp.style.flex='1';
+      _gInp.setAttribute('autocorrect','off');_gInp.setAttribute('autocapitalize','none');
+      _gInp.setAttribute('autocomplete','off');_gInp.spellcheck=false;
+      if(prefill?.group) _gInp.value=prefill.group;
+      const _gBtn=mkel('button','btn-ghost','🙂');
+      _gBtn.type='button';_gBtn.title='Pick emoji';
+      _gBtn.style.cssText='padding:5px 8px;font-size:16px;line-height:1;flex-shrink:0';
+      const _gPicker=document.createElement('div');
+      _gPicker.style.cssText='display:none;position:absolute;top:calc(100% + 4px);left:0;z-index:99;background:#1e1e30;border:1px solid rgba(255,255,255,.15);border-radius:10px;padding:8px;flex-wrap:wrap;gap:2px;width:216px';
+      ['📚','📖','🎭','📰','🎬','🎮','🗺️','🏛️',
+       '🍽️','🥘','🍕','☕','🍷','🥂',
+       '🏠','🏙️','🛒','💊','🧹',
+       '✈️','🌍','🚂','⛵',
+       '💼','🔧','💻','🎓','🔬',
+       '❤️','🌿','⭐','🐾','💰','🎵',
+       '🏃','⚽','⚡','🌅','🎯','🌸'
+      ].forEach(em=>{{
+        const b=document.createElement('button');b.type='button';b.textContent=em;
+        b.style.cssText='background:none;border:none;font-size:18px;cursor:pointer;padding:3px;border-radius:4px;width:28px;height:28px;line-height:1';
+        b.onmouseenter=()=>{{b.style.background='rgba(255,255,255,.1)';}};
+        b.onmouseleave=()=>{{b.style.background='none';}};
+        b.onclick=()=>{{
+          let cur=_gInp.value.trim();
+          if(cur&&!/^[a-zA-Z0-9\xC0-ɏͰ-Ͽ]/.test(cur)) cur=cur.replace(/^\S+\s*/,'');
+          _gInp.value=em+' '+cur;
+          _gPicker.style.display='none';
+          _gInp.focus();
+        }};
+        _gPicker.appendChild(b);
+      }});
+      _gBtn.onclick=e=>{{e.stopPropagation();_gPicker.style.display=_gPicker.style.display==='none'?'flex':'none';}};
+      document.addEventListener('click',()=>{{_gPicker.style.display='none';}});
+      _gWrap.appendChild(_gInp);_gWrap.appendChild(_gBtn);_gWrap.appendChild(_gPicker);
+      form.appendChild(_gWrap);
+    }}
 
     renderGrammarFields(addType,form,prefill);
 
@@ -1247,7 +1313,7 @@ function renderAdd(prefillCard){
       :'Always prefix each tag with a fitting emoji (e.g. ⭐ common, 🍽️ food, ✈️ travel, 💼 work, 🌿 nature).';
 
     const aiPrompt=
-      'Generate '+LANG.name+' vocabulary flashcards for '+DEP_NAME+' speakers. Separate multiple cards with // on its own line.\\n'+
+      'Generate input for '+LANG.name+' vocabulary flashcards for '+DEP_NAME+' speakers. Separate multiple cards with // on its own line.\\n'+
       'Fill in ALL applicable fields, especially grammar fields — they drive colour-coding.\\n\\n'+
       '── RULES ────────────────────────────────────\\n'+
       '• group: the user provides the group for their request (use it for all cards in the batch).\\n'+
@@ -1255,6 +1321,8 @@ function renderAdd(prefillCard){
       '• tags: prefix every tag with a fitting Unicode emoji. '+tagsGuidance+'\\n'+
       '• type: use "phrase" for multi-word expressions and idioms, even if grammatically nominal.\\n'+
       '• word: dictionary/base form only — never include the article in this field.\\n'+
+      '  For nouns whose standard/citation form is the plural (e.g. Greek πληροφορίες — "information"),\\n'+
+      '  use the plural as the main word and note the singular in grammar or note fields.\\n'+
       '• grammar fields: use EXACTLY the label names listed in the GRAMMAR FIELDS section below.\\n'+
       '  Do not translate them, rename them, or add parenthetical clarifications.\\n\\n'+
       '── EXAMPLE CARD (noun) ─────────────────────\\n'+
@@ -1392,7 +1460,7 @@ async function saveCard(form){
     word:        (d.word||'').trim(),
     translation: (d.translation||'').trim(),
     type:        addType,
-    group:       isEditing?(addEditingCard.group||''):(d.group||'').trim(),
+    group:       isEditing?(addEditingCard.group||''):resolveGroup((d.group||'').trim()),
     pronunciation:(d.pronunciation||'').trim(),
     grammar,
     example,
@@ -1403,6 +1471,11 @@ async function saveCard(form){
     ...topLevel,
   };
   if(!card.word||!card.translation) return;
+
+  if(!isEditing){{
+    const dupe=allCards.find(c=>c.word.trim().toLowerCase()===card.word.toLowerCase());
+    if(dupe&&!confirm('"'+card.word+'" is already in your library ('+dupe.group+' — '+dupe.translation+'). Save anyway?')) return;
+  }}
 
   if(isEditing){
     await apiPost('/api/edit',card);
@@ -1434,7 +1507,7 @@ function parseGenVocabText(text){
       if     (key==='word')         card.word=val;
       else if(key==='translation')  card.translation=val;
       else if(key==='type')         card.type=val;
-      else if(key==='group')        card.group=val;
+      else if(key==='group')        card.group=resolveGroup(val);
       else if(key==='pronunciation') card.pronunciation=val;
       else if(key==='example'||key==='example.'+LANG.code){
         if(typeof card.example==='object') card.example[LANG.code]=val;
@@ -1498,7 +1571,7 @@ async function saveGenBulk(){
       word:         card.word||'',
       translation:  card.translation||'',
       type:         card.type||addType,
-      group:        card.group||'',
+      group:        resolveGroup(card.group||''),
       pronunciation:card.pronunciation||'',
       grammar:      card.grammar||[],
       example:      card.example||'',

@@ -1822,10 +1822,10 @@ async function renderAdd(prefillCard) {
       <div class="add-tip"><span class="tip-bullet">▸</span><strong>Tags</strong> help with filtering and discovery. Use <em>colloquial</em> for words that would sound odd in formal writing, <em>figurative</em> for non-literal senses, <em>loanword:X</em> for borrowed words (common in Greek: Turkish, Italian, French). You can also invent new tags freely — they appear in the filter list automatically.</div>
     </div>`;
 
-  const AI_PROMPT = `You are helping build Greek vocabulary flashcards. For each word in my list, produce a card in the text format below. Separate multiple cards with --- or // (both work).
+  const AI_PROMPT = `Generate input for Greek vocabulary flashcards. For each word in my list, produce a card in the text format below. Separate multiple cards with --- or // (both work).
 
 Rules:
-- greek: base/dictionary form. Verbs: active present 1sg (e.g. γράφω). Nouns: nominative sg. Adjectives: masculine sg.
+- greek: base/dictionary form. Verbs: active present 1sg (e.g. γράφω). Nouns: nominative sg (but if the plural is the standard/citation form — e.g. πληροφορίες — use the plural and note the singular). Adjectives: masculine sg.
 - translation: concise English gloss (1–4 words); slash-separate multiple senses
 - group: [I will specify the group name]
 - pronunciation: syllables split by hyphens, stressed syllable in ALL CAPS (e.g. GRA-fo, ka-te-VAI-no)

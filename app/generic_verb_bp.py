@@ -217,6 +217,32 @@ def make_verb_blueprint(lang):
     def api_progress():
         return jsonify(_get_progress())
 
+    @bp.route("/api/quiz_data")
+    def api_quiz_data():
+        conj = _load()
+        tense_arg = request.args.get("tenses", "")
+        verb_arg  = request.args.get("verbs", "")
+        sel_tenses = set(tense_arg.split(",")) if tense_arg else set(tenses)
+        sel_infs   = set(verb_arg.split(","))  if verb_arg  else set(conj.keys())
+        result = []
+        for inf in sorted(conj.keys()):
+            if inf not in sel_infs:
+                continue
+            data = conj.get(inf)
+            if not data:
+                continue
+            tra = data.get("translation", "")
+            for ti, tense in enumerate(tenses):
+                if tense not in sel_tenses:
+                    continue
+                forms = data.get(tense, [""] * len(persons))
+                cells = [{"person": p, "form": f} for p, f in zip(persons, forms)]
+                result.append({
+                    "inf": inf, "translation": tra,
+                    "tense": tense, "tenseIdx": ti, "cells": cells,
+                })
+        return jsonify(result)
+
     # ── Page ─────────────────────────────────────────────────────────────────
 
     @bp.route("/")
@@ -819,7 +845,11 @@ function renderSetup() {{
   const startBtn = mkel('button', {{className:'btn-primary'}},
     quizTenses.size ? 'Start Quiz' : 'Select at least one tense');
   startBtn.disabled = !quizTenses.size;
-  startBtn.onclick = startQuiz;
+  startBtn.onclick = () => {{
+    startBtn.disabled = true;
+    startBtn.textContent = 'Loading…';
+    startQuiz();
+  }};
   wrap.appendChild(startBtn);
   return wrap;
 }}
@@ -827,29 +857,24 @@ function renderSetup() {{
 // ── Build questions ────────────────────────────────────────────────────────────
 async function startQuiz() {{
   if (quizType === 'table') {{ await startTableQuiz(); return; }}
-  const infs = selected.size > 0 ? [...selected] : verbList.map(v => v.verb);
-  const translationMap = {{}};
-  verbList.forEach(v => {{ translationMap[v.verb] = v.translation || ''; }});
-  const verbDataArr = await Promise.all(infs.map(inf => api('/api/verb/' + encodeURIComponent(inf))));
+  const tenseParam = [...quizTenses].join(',');
+  const verbParam  = selected.size > 0 ? [...selected].join(',') : '';
+  const qs = '/api/quiz_data?tenses=' + encodeURIComponent(tenseParam) + (verbParam ? '&verbs=' + encodeURIComponent(verbParam) : '');
+  const entries = await api(qs);
   const questions = [];
-  for (const vd of verbDataArr) {{
-    if (!vd || !vd.tenses) continue;
-    const tra = translationMap[vd.verb] || '';
-    vd.tenses.forEach((td, ti) => {{
-      if (!quizTenses.has(td.tense)) return;
-      const maxIdx = td.cells.length;
-      const personRange = quizPersons === 'singular' ? [0,1,2].filter(i => i < maxIdx)
-                        : quizPersons === 'plural'   ? [3,4,5].filter(i => i < maxIdx)
-                        : [...Array(maxIdx).keys()];
-      for (const pi of personRange) {{
-        const cell = td.cells[pi];
-        if (!cell || !cell.form) continue;
-        questions.push({{
-          inf: vd.verb, translation: tra, tense: td.tense,
-          tenseIdx: ti, personIdx: pi, person: cell.person, answer: cell.form,
-        }});
-      }}
-    }});
+  for (const entry of entries) {{
+    const maxIdx = entry.cells.length;
+    const personRange = quizPersons === 'singular' ? [0,1,2].filter(i => i < maxIdx)
+                      : quizPersons === 'plural'   ? [3,4,5].filter(i => i < maxIdx)
+                      : [...Array(maxIdx).keys()];
+    for (const pi of personRange) {{
+      const cell = entry.cells[pi];
+      if (!cell || !cell.form) continue;
+      questions.push({{
+        inf: entry.inf, translation: entry.translation, tense: entry.tense,
+        tenseIdx: entry.tenseIdx, personIdx: pi, person: cell.person, answer: cell.form,
+      }});
+    }}
   }}
   questions.sort(() => Math.random() - 0.5);
   const finalQ = quizRandom ? questions.slice(0, quizCount) : questions;
@@ -859,19 +884,14 @@ async function startQuiz() {{
 }}
 
 async function startTableQuiz() {{
-  const infs = selected.size > 0 ? [...selected] : verbList.map(v => v.verb);
-  const translationMap = {{}};
-  verbList.forEach(v => {{ translationMap[v.verb] = v.translation || ''; }});
-  const verbDataArr = await Promise.all(infs.map(inf => api('/api/verb/' + encodeURIComponent(inf))));
+  const tenseParam = [...quizTenses].join(',');
+  const verbParam  = selected.size > 0 ? [...selected].join(',') : '';
+  const qs = '/api/quiz_data?tenses=' + encodeURIComponent(tenseParam) + (verbParam ? '&verbs=' + encodeURIComponent(verbParam) : '');
+  const entries = await api(qs);
   const pairs = [];
-  for (const vd of verbDataArr) {{
-    if (!vd || !vd.tenses) continue;
-    const tra = translationMap[vd.verb] || '';
-    vd.tenses.forEach((td, ti) => {{
-      if (!quizTenses.has(td.tense)) return;
-      if (!td.cells.some(c => c.form)) return;
-      pairs.push({{ inf: vd.verb, translation: tra, tense: td.tense, tenseIdx: ti, cells: td.cells }});
-    }});
+  for (const entry of entries) {{
+    if (!entry.cells.some(c => c.form)) continue;
+    pairs.push({{ inf: entry.inf, translation: entry.translation, tense: entry.tense, tenseIdx: entry.tenseIdx, cells: entry.cells }});
   }}
   pairs.sort(() => Math.random() - 0.5);
   const finalPairs = quizRandom ? pairs.slice(0, quizCount) : pairs;

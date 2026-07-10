@@ -27,7 +27,7 @@ from flask import (Blueprint, render_template_string, request,
                    redirect, url_for, flash, session)
 from flask_login import login_user, logout_user, login_required, current_user
 from authlib.integrations.flask_client import OAuth
-from models import db, User
+from models import db, User, Progress, UserCard, CardSubmission
 
 auth_bp = Blueprint("auth", __name__)
 oauth    = OAuth()
@@ -433,6 +433,20 @@ def set_departure():
 def logout():
     logout_user()
     return redirect("/")
+
+
+@auth_bp.route("/delete-account", methods=["POST"])
+@login_required
+def delete_account():
+    user = current_user._get_current_object()
+    uid  = user.id
+    Progress.query.filter_by(user_id=uid).delete()
+    UserCard.query.filter_by(user_id=uid).delete()
+    CardSubmission.query.filter_by(user_id=uid).delete()
+    db.session.delete(user)
+    db.session.commit()
+    logout_user()
+    return redirect("/?deleted=1")
 
 
 @auth_bp.route("/google")

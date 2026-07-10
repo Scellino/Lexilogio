@@ -602,6 +602,22 @@ td.num-cell.mastered{{color:#7ac49a;font-weight:600}}
 .back{{margin-top:28px;font-size:13px;color:rgba(201,169,110,.55);text-decoration:none;
        display:inline-block}}
 .back:hover{{color:#c9a96e}}
+.danger-zone{{margin-top:16px;width:100%;max-width:440px;text-align:right}}
+.btn-delete{{background:none;border:none;font-size:12px;color:rgba(212,122,143,.45);
+             cursor:pointer;padding:4px 0;letter-spacing:.3px}}
+.btn-delete:hover{{color:#d47a8f}}
+.modal-overlay{{display:none;position:fixed;inset:0;background:rgba(0,0,0,.7);
+                z-index:100;align-items:center;justify-content:center}}
+.modal-overlay.open{{display:flex}}
+.modal{{background:#1a1a2e;border:1px solid rgba(255,255,255,.12);border-radius:16px;
+        padding:32px;max-width:360px;width:90%;text-align:center}}
+.modal h3{{font-size:16px;color:#fff;margin-bottom:10px}}
+.modal p{{font-size:13px;color:rgba(255,255,255,.45);line-height:1.6;margin-bottom:24px}}
+.modal-btns{{display:flex;gap:12px;justify-content:center}}
+.btn-cancel{{padding:10px 22px;border-radius:8px;border:1px solid rgba(255,255,255,.15);
+             background:none;color:rgba(255,255,255,.6);font-size:14px;cursor:pointer}}
+.btn-confirm-delete{{padding:10px 22px;border-radius:8px;border:none;
+                     background:#d47a8f;color:#fff;font-size:14px;cursor:pointer;font-weight:600}}
 </style></head><body>
 <div class="logo">Λεξιλόγιο</div>
 <div class="sub">&#128100; {name}</div>
@@ -627,6 +643,23 @@ td.num-cell.mastered{{color:#7ac49a;font-weight:600}}
   </div>
 </div>
 <a href="/" class="back">← Back to home</a>
+<div class="danger-zone">
+  <button class="btn-delete" onclick="document.getElementById('del-modal').classList.add('open')">
+    Delete my account
+  </button>
+</div>
+<div class="modal-overlay" id="del-modal">
+  <div class="modal">
+    <h3>Delete account?</h3>
+    <p>This will permanently delete your account and all your progress data. There's no undo.</p>
+    <div class="modal-btns">
+      <button class="btn-cancel" onclick="document.getElementById('del-modal').classList.remove('open')">Cancel</button>
+      <form method="POST" action="/auth/delete-account" style="display:inline">
+        <button type="submit" class="btn-confirm-delete">Yes, delete</button>
+      </form>
+    </div>
+  </div>
+</div>
 </body></html>"""
 
 

@@ -4,7 +4,11 @@ Registered in app.py at /vocab (replacing the old vocab_app.py Blueprint).
 """
 import re
 import unicodedata
+import html as html_mod
+import urllib.parse
+import urllib.request
 from pathlib import Path
+from flask import request, jsonify
 from generic_vocab_bp import make_vocab_blueprint
 
 # ── Data ─────────────────────────────────────────────────────────────────────
@@ -33,6 +37,143 @@ _user_scenes, _user_alts = _load_greek_user_extras()
 # Merge user alts into ACCEPTED_ALTS so the check function sees them
 for _cid, _alt_list in _user_alts.items():
     ACCEPTED_ALTS.setdefault(_cid, []).extend(_alt_list)
+
+# ── Wiktionary lookup ────────────────────────────────────────────────────────
+
+_POS_MAP = {
+    "Noun": "Ουσιαστικό", "Verb": "Ρήμα", "Adjective": "Επίθετο",
+    "Adverb": "Επιρρήματα", "Conjunction": "Φράση", "Preposition": "Φράση",
+    "Particle": "Φράση", "Interjection": "Επιφώνημα",
+}
+_GRAM_FORM_RE = re.compile(
+    r"\b(?:variant|form|spelling|synonym|diminutive|augmentative|feminine|masculine|"
+    r"plural|singular|genitive|dative|accusative|nominative|vocative|participle|"
+    r"imperative)\s+of\b", re.IGNORECASE,
+)
+_QUOTED = re.compile(r'[“”‘’"]([^“”‘’"]+)[“”‘’"]')
+
+
+def _strip_html(text):
+    text = re.sub(r"<[^>]+>", "", text)
+    return html_mod.unescape(text).strip()
+
+
+def _clean_wikitext(text):
+    def sub_template(m):
+        parts = [p.strip() for p in m.group(1).split("|")]
+        meaningful = [p for p in parts[1:] if " " in p or not re.match(r"^[a-z\-]{2,8}$", p) and "=" not in p]
+        return meaningful[-1] if meaningful else ""
+    text = re.sub(r"\{\{([^{}]+)\}\}", sub_template, text)
+    text = re.sub(r"\[\[(?:[^\]|]*\|)?([^\]]*)\]\]", r"\1", text)
+    text = re.sub(r"'''?([^']+)'''?", r"\1", text)
+    text = re.sub(r"<[^>]+>", "", text)
+    return re.sub(r"\s+", " ", text).strip() or None
+
+
+def _clean_definition(text):
+    text = text.strip().rstrip(".")
+    if _GRAM_FORM_RE.search(text):
+        quotes = _QUOTED.findall(text)
+        english = [q for q in quotes if not re.search(r"[Ͱ-Ͽ]", q) and len(q) < 100]
+        if english:
+            meanings = [m.strip() for m in re.split(r"[,/]", english[0]) if m.strip()]
+            return " / ".join(meanings[:4]), None
+        return None, None
+    def strip_paren(m):
+        content = m.group(1)
+        english = [q for q in _QUOTED.findall(content) if not re.search(r"[Ͱ-Ͽ]", q)]
+        if english:
+            return " / ".join(p.strip() for p in re.split(r"[,/]", english[0]) if p.strip())
+        if re.match(r"^[A-Za-zÀ-ÿ\s,;.\-'']+$", content):
+            return ""
+        return m.group(0)
+    cleaned = re.sub(r"\s*\(([^)]{3,150})\)", strip_paren, text)
+    cleaned = re.sub(r"\s+", " ", cleaned).strip().rstrip(".,;")
+    if not cleaned:
+        return None, None
+    parts = [p.strip() for p in re.split(r"[,/]", cleaned) if p.strip()]
+    if all(len(p) < 35 for p in parts):
+        return " / ".join(parts[:5]), None
+    return cleaned, None
+
+
+def _fetch_wiktionary(word):
+    encoded = urllib.parse.quote(word)
+    headers = {"User-Agent": "LexilogioVocabTrainer/1.0 (personal learning app)"}
+    result = {}
+    try:
+        url = f"https://en.wiktionary.org/api/rest_v1/page/definition/{encoded}"
+        req = urllib.request.Request(url, headers=headers)
+        with urllib.request.urlopen(req, timeout=7) as r:
+            data = __import__("json").loads(r.read())
+        entries = data.get("el", [])
+        if not entries:
+            return {"not_found": True}
+        entry = entries[0]
+        result["type"] = _POS_MAP.get(entry.get("partOfSpeech", ""), "")
+        defs = entry.get("definitions", [])
+        if defs:
+            translations = []
+            for d in defs[:5]:
+                raw = _strip_html(d.get("definition", ""))
+                if not raw:
+                    continue
+                trans, _ = _clean_definition(raw)
+                if trans:
+                    translations.append(trans)
+            if translations:
+                all_parts = []
+                seen = set()
+                for t in translations:
+                    for part in t.split(" / "):
+                        part = part.strip()
+                        if part and part.lower() not in seen:
+                            seen.add(part.lower())
+                            all_parts.append(part)
+                result["translation"] = " / ".join(all_parts[:3])
+            for d in defs:
+                for ex in d.get("examples", []):
+                    gr = _strip_html(ex.get("example", ""))
+                    en = _strip_html(ex.get("translation", ""))
+                    if gr:
+                        result["example_native"] = gr
+                    if en:
+                        result["example_en"] = en
+                    if gr:
+                        break
+                if result.get("example_native"):
+                    break
+    except urllib.error.HTTPError as e:
+        if e.code == 404:
+            return {"not_found": True}
+    except Exception:
+        pass
+    try:
+        url = (f"https://en.wiktionary.org/w/api.php?action=parse&page={encoded}"
+               f"&prop=wikitext&format=json")
+        req = urllib.request.Request(url, headers=headers)
+        with urllib.request.urlopen(req, timeout=7) as r:
+            data = __import__("json").loads(r.read())
+        wikitext = data.get("parse", {}).get("wikitext", {}).get("*", "")
+        gm = re.search(r"==Greek==(.+?)(?:\n==[^=]|\Z)", wikitext, re.DOTALL)
+        if gm:
+            greek_sec = gm.group(1)
+            em = re.search(r"===Etymology(?:\s*\d*)?===\s*\n(.+?)(?:\n===|\Z)", greek_sec, re.DOTALL)
+            if em:
+                result["etymology"] = _clean_wikitext(em.group(1))
+            nm = re.search(r"\{\{el-noun\|([mfn])(?:\|([^|}\n]*))?", greek_sec)
+            if nm:
+                result["grammar_gender"] = nm.group(1)  # "m"/"f"/"n"
+                pl = (nm.group(2) or "").strip()
+                if pl and not pl.startswith("-"):
+                    result["plural"] = pl
+            vm = re.search(r"\{\{el-verb[^}]*?\|(?:aor(?:ist)?|past)=([^|}\n]+)", greek_sec)
+            if vm:
+                result["past"] = vm.group(1).strip()
+    except Exception:
+        pass
+    return result
+
 
 # ── Answer-checking helpers ───────────────────────────────────────────────────
 
@@ -164,6 +305,7 @@ EL_LANG = {
     "data_module":  "vocab_data",
 
     # Field mapping: Greek cards use different field names than the generic schema
+    "has_lookup":            True,
     "word_field":            "greek",        # card.greek → card.word
     "group_field":           "scene_label",   # card.scene_label → card.group (already has emoji)
     "example_native_code":   "gr",           # card.example.gr → card.example.el
@@ -273,3 +415,14 @@ EL_LANG = {
 }
 
 el_vocab_bp = make_vocab_blueprint(EL_LANG, check_fn=_make_greek_check_fn(ACCEPTED_ALTS))
+
+
+@el_vocab_bp.route("/api/lookup")
+def api_lookup():
+    word = request.args.get("word", "").strip()
+    if not word:
+        return jsonify({"error": "no word provided"}), 400
+    result = _fetch_wiktionary(word)
+    if result.get("not_found"):
+        return jsonify({"error": f'"{word}" not found on Wiktionary. Try the base/dictionary form.'}), 404
+    return jsonify(result)

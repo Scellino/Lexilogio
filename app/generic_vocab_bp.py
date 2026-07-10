@@ -1158,7 +1158,7 @@ function renderAdd(prefillCard){
       (LANG.word_types||['noun','verb']).forEach(t=>{
         const btn=mkel('button','radio-btn'+(addType===t?' selected':''));
         btn.type='button';btn.textContent=t;
-        btn.onclick=()=>{addType=t;render();};
+        btn.onclick=()=>{addType=t;render();if(_wikiData)_applyWikiData();};
         typeRow.appendChild(btn);
       });
       wrap.appendChild(typeRow);
@@ -1168,7 +1168,30 @@ function renderAdd(prefillCard){
     form.onsubmit=async e=>{e.preventDefault();await saveCard(form);};
 
     const prefill=isEditing?addEditingCard:null;
-    addFormText(form,LANG.name+' word','word','Dictionary / base form',prefill?.word||'');
+    form.appendChild(mkel('div','sec-field-label',LANG.name+' word'));
+    const _wWrap=document.createElement('div');
+    _wWrap.style.cssText='display:flex;gap:6px;align-items:center';
+    const _wInp=document.createElement('input');
+    _wInp.type='text';_wInp.name='word';_wInp.placeholder='Dictionary / base form';
+    _wInp.style.flex='1';
+    _wInp.setAttribute('autocorrect','off');_wInp.setAttribute('autocapitalize','none');
+    _wInp.setAttribute('autocomplete','off');_wInp.spellcheck=false;
+    if(prefill?.word) _wInp.value=prefill.word;
+    const _wBtn=mkel('button','btn-ghost',LANG.has_lookup?'🔍 Wiktionary':'🔍');
+    _wBtn.type='button';_wBtn.title='Look up on Wiktionary';
+    _wBtn.style.cssText='padding:5px 8px;font-size:13px;line-height:1;flex-shrink:0;white-space:nowrap';
+    if(LANG.has_lookup){{
+      const _wSt=mkel('span','');
+      _wSt.id='wiki-lookup-status';
+      _wSt.style.cssText='font-size:10px;font-family:sans-serif;color:rgba(255,255,255,.3);margin-top:3px;display:block';
+      _wBtn.onclick=()=>wikiLookupFill(_wInp,form,_wSt);
+      _wWrap.appendChild(_wInp);_wWrap.appendChild(_wBtn);
+      form.appendChild(_wWrap);form.appendChild(_wSt);
+    }}else{{
+      _wBtn.onclick=()=>{{const w=_wInp.value.trim();window.open('https://en.wiktionary.org/wiki/'+encodeURIComponent(w||''),'_blank');}};
+      _wWrap.appendChild(_wInp);_wWrap.appendChild(_wBtn);
+      form.appendChild(_wWrap);
+    }}
     addFormText(form,DEP_NAME+' translation','translation','Separate alternatives with a comma',prefill?.translation||'');
     if(!isEditing){{
       form.appendChild(mkel('div','sec-field-label','Group'));
@@ -1441,6 +1464,54 @@ function collectGrammar(form,type){
   return{grammar,topLevel};
 }
 
+// ── Wiktionary prefill ─────────────────────────────────────────────────────────
+let _wikiData=null;
+async function wikiLookupFill(wordInp,form,statusEl){{
+  const w=(wordInp?.value||'').trim();
+  if(!w){{if(wordInp)wordInp.focus();return;}}
+  if(statusEl){{statusEl.textContent='Looking up…';statusEl.style.color='rgba(255,255,255,.3)';}}
+  try{{
+    const res=await api('/api/lookup?word='+encodeURIComponent(w));
+    if(res.error){{
+      if(statusEl){{statusEl.textContent=res.error;statusEl.style.color='#d47a8f';}}
+      return;
+    }}
+    _wikiData=res;
+    if(res.type&&res.type!==addType&&(LANG.word_types||[]).includes(res.type)){{
+      addType=res.type;render();
+    }}
+    _applyWikiData();
+    if(statusEl){{statusEl.textContent='✓ Prefilled from Wiktionary';statusEl.style.color='rgba(122,196,154,.7)';}}
+  }}catch(e){{
+    if(statusEl){{statusEl.textContent='Lookup failed';statusEl.style.color='#d47a8f';}}
+  }}
+}}
+function _applyWikiData(){{
+  if(!_wikiData)return;
+  const form=document.querySelector('#content form');
+  if(!form)return;
+  const setInp=(name,val)=>{{
+    if(!val)return;
+    const el=form.querySelector('input[name="'+name+'"],textarea[name="'+name+'"]');
+    if(el&&!el.value)el.value=val;
+  }};
+  setInp('translation',_wikiData.translation);
+  setInp('example_native',_wikiData.example_native);
+  setInp('example_en',_wikiData.example_en);
+  setInp('etymology',_wikiData.etymology);
+  setInp('plural',_wikiData.plural);
+  setInp('past',_wikiData.past);
+  setInp('masculine',_wikiData.masculine);
+  setInp('feminine',_wikiData.feminine);
+  setInp('neuter',_wikiData.neuter);
+  if(_wikiData.grammar_gender){{
+    const row=form.querySelector('[data-fieldname="gender"]');
+    if(row)row.querySelectorAll('.radio-btn').forEach(b=>{{
+      b.classList.toggle('selected',b.dataset.value===_wikiData.grammar_gender);
+    }});
+  }}
+}}
+
 async function saveCard(form){
   const d=Object.fromEntries(new FormData(form));
   const{grammar,topLevel}=collectGrammar(form,addType);
@@ -1484,6 +1555,7 @@ async function saveCard(form){
   }
   allCards=(await api('/api/cards')).cards;
   addEditingCard=null;
+  _wikiData=null;
   // Show success then return to browse
   document.getElementById('content').innerHTML=
     `<div style="background:rgba(122,196,154,.12);border:1px solid #7ac49a;border-radius:10px;padding:14px;font-family:sans-serif;font-size:13px;color:#7ac49a;text-align:center;margin-bottom:16px">

@@ -447,17 +447,16 @@ function cardMastery(c){
 function allGroups(){
   const s=new Set();allCards.forEach(c=>{if(c.group)s.add(c.group);});return[...s].sort();
 }
-function _stripGroup(s){{
-  // Remove leading emoji/symbols — anything that isn't a letter, digit, or space
+function _stripGroup(s){
   return s.replace(/^\S+\s+/,'').trim().toLowerCase()||s.replace(/[^\w\sÀ-ɏͰ-Ͽ]/g,'').trim().toLowerCase();
-}}
-function resolveGroup(raw){{
+}
+function resolveGroup(raw){
   if(!raw) return raw;
   const t=_stripGroup(raw);
   if(!t) return raw;
   const match=allGroups().find(g=>_stripGroup(g)===t);
   return match||raw;
-}}
+}
 function allTagsList(){
   const m=new Map();
   allCards.forEach(c=>(c.tags||[]).forEach(t=>m.set(t,(m.get(t)||0)+1)));
@@ -538,27 +537,27 @@ function cardBackHTML(c){
 
 // ── Navigation history (mouse back/forward) ────────────────────────────────────
 let _navHist=[],_navFwd=[];
-function _navSnap(){{return{{tab,browseIdx}};}}
-function _navPush(){{_navHist.push(_navSnap());_navFwd=[];}}
-function _navRestore(s){{
+function _navSnap(){return{tab,browseIdx};}
+function _navPush(){_navHist.push(_navSnap());_navFwd=[];}
+function _navRestore(s){
   tab=s.tab;browseIdx=s.browseIdx;
   document.querySelectorAll('.tab').forEach((b,i)=>b.classList.toggle('active',['browse','study','add'][i]===tab));
   render();
-}}
-function navBack(){{if(!_navHist.length)return;_navFwd.push(_navSnap());_navRestore(_navHist.pop());}}
-function navForward(){{if(!_navFwd.length)return;_navHist.push(_navSnap());_navRestore(_navFwd.pop());}}
-document.addEventListener('mouseup',e=>{{if(e.button===3){{e.preventDefault();navBack();}}else if(e.button===4){{e.preventDefault();navForward();}}}});
-document.addEventListener('mousedown',e=>{{if(e.button===3||e.button===4)e.preventDefault();}});
+}
+function navBack(){if(!_navHist.length)return;_navFwd.push(_navSnap());_navRestore(_navHist.pop());}
+function navForward(){if(!_navFwd.length)return;_navHist.push(_navSnap());_navRestore(_navFwd.pop());}
+document.addEventListener('mouseup',e=>{if(e.button===3){e.preventDefault();navBack();}else if(e.button===4){e.preventDefault();navForward();}});
+document.addEventListener('mousedown',e=>{if(e.button===3||e.button===4)e.preventDefault();});
 
 // ── Routing ────────────────────────────────────────────────────────────────────
-function switchTab(t){{
+function switchTab(t){
   _navPush();
   tab=t;
   document.querySelectorAll('.tab').forEach((b,i)=>
     b.classList.toggle('active',['browse','study','add'][i]===t));
-  if(t==='study'){{quizPhase='setup';studyFlipped=false;}}
+  if(t==='study'){quizPhase='setup';studyFlipped=false;}
   render();
-}}
+}
 function render(){
   if(tab==='study')       renderQuiz();
   else if(tab==='browse') renderBrowse();
@@ -1180,20 +1179,20 @@ function renderAdd(prefillCard){
     const _wBtn=mkel('button','btn-ghost',LANG.has_lookup?'🔍 Wiktionary':'🔍');
     _wBtn.type='button';_wBtn.title='Look up on Wiktionary';
     _wBtn.style.cssText='padding:5px 8px;font-size:13px;line-height:1;flex-shrink:0;white-space:nowrap';
-    if(LANG.has_lookup){{
+    if(LANG.has_lookup){
       const _wSt=mkel('span','');
       _wSt.id='wiki-lookup-status';
       _wSt.style.cssText='font-size:10px;font-family:sans-serif;color:rgba(255,255,255,.3);margin-top:3px;display:block';
       _wBtn.onclick=()=>wikiLookupFill(_wInp,form,_wSt);
       _wWrap.appendChild(_wInp);_wWrap.appendChild(_wBtn);
       form.appendChild(_wWrap);form.appendChild(_wSt);
-    }}else{{
-      _wBtn.onclick=()=>{{const w=_wInp.value.trim();window.open('https://en.wiktionary.org/wiki/'+encodeURIComponent(w||''),'_blank');}};
+    }else{
+      _wBtn.onclick=()=>{const w=_wInp.value.trim();window.open('https://en.wiktionary.org/wiki/'+encodeURIComponent(w||''),'_blank');};
       _wWrap.appendChild(_wInp);_wWrap.appendChild(_wBtn);
       form.appendChild(_wWrap);
-    }}
+    }
     addFormText(form,DEP_NAME+' translation','translation','Separate alternatives with a comma',prefill?.translation||'');
-    if(!isEditing){{
+    if(!isEditing){
       form.appendChild(mkel('div','sec-field-label','Group'));
       const _gWrap=document.createElement('div');
       _gWrap.style.cssText='position:relative;display:flex;gap:6px;align-items:center';
@@ -1215,25 +1214,25 @@ function renderAdd(prefillCard){
        '💼','🔧','💻','🎓','🔬',
        '❤️','🌿','⭐','🐾','💰','🎵',
        '🏃','⚽','⚡','🌅','🎯','🌸'
-      ].forEach(em=>{{
+      ].forEach(em=>{
         const b=document.createElement('button');b.type='button';b.textContent=em;
         b.style.cssText='background:none;border:none;font-size:18px;cursor:pointer;padding:3px;border-radius:4px;width:28px;height:28px;line-height:1';
-        b.onmouseenter=()=>{{b.style.background='rgba(255,255,255,.1)';}};
-        b.onmouseleave=()=>{{b.style.background='none';}};
-        b.onclick=()=>{{
+        b.onmouseenter=()=>{b.style.background='rgba(255,255,255,.1)';};
+        b.onmouseleave=()=>{b.style.background='none';};
+        b.onclick=()=>{
           let cur=_gInp.value.trim();
           if(cur&&!/^[a-zA-Z0-9\xC0-ɏͰ-Ͽ]/.test(cur)) cur=cur.replace(/^\S+\s*/,'');
           _gInp.value=em+' '+cur;
           _gPicker.style.display='none';
           _gInp.focus();
-        }};
+        };
         _gPicker.appendChild(b);
-      }});
-      _gBtn.onclick=e=>{{e.stopPropagation();_gPicker.style.display=_gPicker.style.display==='none'?'flex':'none';}};
-      document.addEventListener('click',()=>{{_gPicker.style.display='none';}});
+      });
+      _gBtn.onclick=e=>{e.stopPropagation();_gPicker.style.display=_gPicker.style.display==='none'?'flex':'none';};
+      document.addEventListener('click',()=>{_gPicker.style.display='none';});
       _gWrap.appendChild(_gInp);_gWrap.appendChild(_gBtn);_gWrap.appendChild(_gPicker);
       form.appendChild(_gWrap);
-    }}
+    }
 
     renderGrammarFields(addType,form,prefill);
 
@@ -1466,35 +1465,35 @@ function collectGrammar(form,type){
 
 // ── Wiktionary prefill ─────────────────────────────────────────────────────────
 let _wikiData=null;
-async function wikiLookupFill(wordInp,form,statusEl){{
+async function wikiLookupFill(wordInp,form,statusEl){
   const w=(wordInp?.value||'').trim();
-  if(!w){{if(wordInp)wordInp.focus();return;}}
-  if(statusEl){{statusEl.textContent='Looking up…';statusEl.style.color='rgba(255,255,255,.3)';}}
-  try{{
+  if(!w){if(wordInp)wordInp.focus();return;}
+  if(statusEl){statusEl.textContent='Looking up…';statusEl.style.color='rgba(255,255,255,.3)';}
+  try{
     const res=await api('/api/lookup?word='+encodeURIComponent(w));
-    if(res.error){{
-      if(statusEl){{statusEl.textContent=res.error;statusEl.style.color='#d47a8f';}}
+    if(res.error){
+      if(statusEl){statusEl.textContent=res.error;statusEl.style.color='#d47a8f';}
       return;
-    }}
+    }
     _wikiData=res;
-    if(res.type&&res.type!==addType&&(LANG.word_types||[]).includes(res.type)){{
+    if(res.type&&res.type!==addType&&(LANG.word_types||[]).includes(res.type)){
       addType=res.type;render();
-    }}
+    }
     _applyWikiData();
-    if(statusEl){{statusEl.textContent='✓ Prefilled from Wiktionary';statusEl.style.color='rgba(122,196,154,.7)';}}
-  }}catch(e){{
-    if(statusEl){{statusEl.textContent='Lookup failed';statusEl.style.color='#d47a8f';}}
-  }}
-}}
-function _applyWikiData(){{
+    if(statusEl){statusEl.textContent='✓ Prefilled from Wiktionary';statusEl.style.color='rgba(122,196,154,.7)';}
+  }catch(e){
+    if(statusEl){statusEl.textContent='Lookup failed';statusEl.style.color='#d47a8f';}
+  }
+}
+function _applyWikiData(){
   if(!_wikiData)return;
   const form=document.querySelector('#content form');
   if(!form)return;
-  const setInp=(name,val)=>{{
+  const setInp=(name,val)=>{
     if(!val)return;
     const el=form.querySelector('input[name="'+name+'"],textarea[name="'+name+'"]');
     if(el&&!el.value)el.value=val;
-  }};
+  };
   setInp('translation',_wikiData.translation);
   setInp('example_native',_wikiData.example_native);
   setInp('example_en',_wikiData.example_en);
@@ -1504,13 +1503,13 @@ function _applyWikiData(){{
   setInp('masculine',_wikiData.masculine);
   setInp('feminine',_wikiData.feminine);
   setInp('neuter',_wikiData.neuter);
-  if(_wikiData.grammar_gender){{
+  if(_wikiData.grammar_gender){
     const row=form.querySelector('[data-fieldname="gender"]');
-    if(row)row.querySelectorAll('.radio-btn').forEach(b=>{{
+    if(row)row.querySelectorAll('.radio-btn').forEach(b=>{
       b.classList.toggle('selected',b.dataset.value===_wikiData.grammar_gender);
-    }});
-  }}
-}}
+    });
+  }
+}
 
 async function saveCard(form){
   const d=Object.fromEntries(new FormData(form));
@@ -1543,10 +1542,10 @@ async function saveCard(form){
   };
   if(!card.word||!card.translation) return;
 
-  if(!isEditing){{
+  if(!isEditing){
     const dupe=allCards.find(c=>c.word.trim().toLowerCase()===card.word.toLowerCase());
     if(dupe&&!confirm('"'+card.word+'" is already in your library ('+dupe.group+' — '+dupe.translation+'). Save anyway?')) return;
-  }}
+  }
 
   if(isEditing){
     await apiPost('/api/edit',card);

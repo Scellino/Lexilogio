@@ -183,6 +183,8 @@ input[type=text]:focus{border-color:rgba(201,169,110,.5)}
 .feedback.close   .feedback-verdict{color:#e6b450}
 .feedback-answer{font-size:13px;color:#f0ebe0;font-family:sans-serif;margin-bottom:4px}
 .feedback-yours{font-size:12px;color:rgba(255,255,255,.35);font-family:sans-serif}
+.feedback-correction{font-size:12px;color:rgba(230,180,80,.75);font-family:sans-serif;margin-top:5px}
+.feedback-correction em{font-style:italic;font-family:Georgia,serif}
 .window-dots{display:flex;gap:3px;align-items:center;margin-top:8px}
 .dot{width:8px;height:8px;border-radius:50%}
 /* Results */
@@ -1017,6 +1019,21 @@ function showCloseFeedback(card,guess){
   document.getElementById('answer-input')?.focus();
 }
 
+function _normStr(s){
+  return s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,'');
+}
+function _spellNote(guess,correctAnswer){
+  if(!guess) return '';
+  const g=guess.trim();
+  const alts=correctAnswer.split(/[,\/]/).map(s=>s.trim()).filter(Boolean);
+  if(alts.some(a=>a.toLowerCase()===g.toLowerCase())) return '';
+  const gn=_normStr(g);
+  const accentMatch=alts.find(a=>_normStr(a)===gn);
+  if(accentMatch){
+    return `<div class="feedback-correction">Watch the spelling: you typed <em>${esc(g)}</em>, correct form is <em>${esc(accentMatch)}</em></div>`;
+  }
+  return `<div class="feedback-correction">You typed <em>${esc(g)}</em>, correct spelling is <em>${esc(alts[0])}</em></div>`;
+}
 function showFeedback(card,guess,result){
   const isW2E=quizDir===DIR_FWD;
   const correct=result==='correct';
@@ -1047,7 +1064,7 @@ function showFeedback(card,guess,result){
         <span style="color:rgba(255,255,255,.4);font-size:11px">${isW2E?DEP_NAME:LANG.name}: </span>
         <strong style="font-family:Georgia,serif;${gc&&isW2E?`color:${gc}`:''}">${esc(correctAnswer)}</strong>
       </div>
-      ${!correct&&guess?`<div class="feedback-yours">You wrote: ${esc(guess)}</div>`:''}
+      ${correct?_spellNote(guess,correctAnswer):guess?`<div class="feedback-yours">You wrote: ${esc(guess)}</div>`:''}
       ${w.length?`<div class="window-dots"><span style="font-size:9px;color:rgba(255,255,255,.25);font-family:sans-serif;margin-right:2px">last ${w.length}:</span>${dots}</div>`:''}
     </div>
     <div style="padding:0 0 12px">${cardBackHTML(card)}</div>

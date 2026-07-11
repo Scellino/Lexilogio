@@ -1120,13 +1120,63 @@ def tutorial():
         <span class="coming">Full tutorial coming soon</span>""")
 
 
+_PAYPAL_ME = "https://www.paypal.com/paypalme/scellino"
+
 @app.route("/donate")
 def donate():
-    return _stub_page("Donate", "☕", "Support Lexilogio",
-        """<p>Lexilogio is free and non-commercial. If it helps you learn, a small voluntary donation helps cover server costs.</p>
-        <p>Suggested: €2 / year — completely optional, no commitment, no perks withheld.</p>
-        <p>Donation links coming soon.</p>
-        <span class="coming">Donation page coming soon</span>""")
+    return f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Donate · Λεξιλόγιο</title>
+<style>
+  *, *::before, *::after {{ box-sizing: border-box; margin: 0; padding: 0; }}
+  body {{ min-height: 100dvh; background: #0f0f1a; font-family: system-ui, sans-serif;
+          color: #fff; padding: 48px 24px; max-width: 560px; margin: 0 auto; }}
+  h1 {{ font-family: Georgia, serif; color: #c9a96e; font-size: 28px;
+        letter-spacing: 1px; margin-bottom: 18px; }}
+  p {{ font-size: 15px; color: rgba(255,255,255,.65); line-height: 1.8; margin-bottom: 20px; }}
+  .back {{ display: inline-block; margin-bottom: 36px; font-size: 13px;
+           color: rgba(255,255,255,.35); text-decoration: none; }}
+  .back:hover {{ color: #c9a96e; }}
+  .amounts {{ display: flex; gap: 12px; flex-wrap: wrap; margin: 28px 0; }}
+  .amount {{ flex: 1; min-width: 120px; text-align: center; padding: 18px 12px;
+             background: rgba(201,169,110,.08); border: 1px solid rgba(201,169,110,.3);
+             border-radius: 14px; text-decoration: none; color: #c9a96e;
+             transition: background .15s, transform .15s;
+             -webkit-tap-highlight-color: transparent; }}
+  .amount:hover {{ background: rgba(201,169,110,.16); transform: translateY(-2px); }}
+  .amount .sum {{ font-size: 22px; font-weight: 700; display: block; margin-bottom: 4px; }}
+  .amount .lbl {{ font-size: 11px; color: rgba(255,255,255,.4); letter-spacing: .5px; }}
+  .note {{ font-size: 12px; color: rgba(255,255,255,.3); line-height: 1.7;
+           border-top: 1px solid rgba(255,255,255,.07); padding-top: 20px; margin-top: 32px; }}
+</style>
+</head>
+<body>
+  <a class="back" href="/">🧿 Λεξιλόγιο</a>
+  <h1>☕ Support Lexilogio</h1>
+  <p>Lexilogio is free and will stay free — no ads, no premium tier, no locked features.
+     If it helps you learn and you'd like to chip in for the server costs, a small
+     donation via PayPal is warmly appreciated.</p>
+  <p>Suggested: <strong style="color:rgba(255,255,255,.85)">€2 a year</strong>.
+     Completely optional — donating changes nothing about what you can use.</p>
+
+  <div class="amounts">
+    <a class="amount" href="{_PAYPAL_ME}/2EUR" target="_blank" rel="noopener">
+      <span class="sum">€2</span><span class="lbl">A YEAR OF LEXILOGIO</span></a>
+    <a class="amount" href="{_PAYPAL_ME}/5EUR" target="_blank" rel="noopener">
+      <span class="sum">€5</span><span class="lbl">EXTRA GENEROUS</span></a>
+    <a class="amount" href="{_PAYPAL_ME}" target="_blank" rel="noopener">
+      <span class="sum">···</span><span class="lbl">YOU CHOOSE</span></a>
+  </div>
+
+  <p class="note">Donations are voluntary gifts to the person running this site and grant
+     no rights to specific services or features (see the <a href="/terms"
+     style="color:rgba(201,169,110,.6)">Terms</a>). Payments are handled entirely by
+     PayPal — Lexilogio never sees your payment details.</p>
+</body>
+</html>"""
 
 
 if __name__ == "__main__":

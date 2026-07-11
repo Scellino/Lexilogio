@@ -26,6 +26,14 @@ from pathlib import Path
 from dotenv import load_dotenv
 load_dotenv()
 
+# Error monitoring — active only when SENTRY_DSN is set (production).
+# send_default_pii=False: crash reports carry no user identities or IPs,
+# in line with the privacy policy.
+_SENTRY_DSN = os.environ.get("SENTRY_DSN", "")
+if _SENTRY_DSN:
+    import sentry_sdk
+    sentry_sdk.init(dsn=_SENTRY_DSN, traces_sample_rate=0, send_default_pii=False)
+
 from flask import Flask, redirect, request, send_from_directory, Response
 from werkzeug.middleware.proxy_fix import ProxyFix
 from flask_login import LoginManager, current_user
@@ -969,6 +977,9 @@ def privacy():
         name, and account ID with Lexilogio. Governed by Google's own privacy policy.</li>
     <li><strong>CAPTCHA:</strong> the login and signup pages use Cloudflare Turnstile to
         block bots; Cloudflare may process technical browser data for that purpose.</li>
+    <li><strong>Error monitoring:</strong> if the server hits an error, a technical crash
+        report (stack trace, requested page — no account data, no IP address) is sent to
+        Sentry (Functional Software, Inc., USA) so the problem can be fixed.</li>
   </ul>
   <p>No data is sold or shared with anyone else.</p>
 

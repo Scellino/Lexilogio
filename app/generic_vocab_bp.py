@@ -374,6 +374,7 @@ let quizPhase='setup';
 let quizDir;
 let quizGroups=new Set(), quizTags=new Set(), quizMastery=new Set(), quizCount=10;
 let quizWords=[], quizIdx=0, quizResults=[], quizRetrying=false;
+let quizOrigSet=[], droppedByDir=new Map();
 let quizPickMode=false, manualCards=new Set(), pickSearch='', pickGroups=new Set(), pickTags=new Set();
 let addType=(LANG.word_types||['noun'])[0];
 let genAddMode='bulk', genBulkParsed=null;
@@ -841,6 +842,8 @@ function _buildQuizWords(){
 }
 function startQuiz(){
   quizWords=_buildQuizWords();
+  quizOrigSet=[...quizWords];
+  droppedByDir=new Map();
   quizIdx=0;quizResults=[];quizRetrying=false;quizPhase='quiz';renderQuizQuestion();
 }
 function startStudy(){
@@ -935,7 +938,12 @@ function renderQuizQuestion(){
     <div class="row-btns">
       <button class="btn-primary" style="margin-top:0" onclick="checkAnswer()">Check &#8629;</button>
       <button class="btn-secondary" onclick="skipWord()">Skip</button>
-      <button class="btn-secondary" onclick="dropWord()" title="Remove this word from session">Drop &#10005;</button>
+      <button class="btn-secondary" onclick="dropWord()" title="Remove this word from this direction">Drop &#10005;</button>
+    </div>
+    <div style="text-align:center;margin-top:8px">
+      <a onclick="switchQuizDir()" style="font-size:12px;color:rgba(255,255,255,.35);cursor:pointer;text-decoration:underline">
+        &#8645; Switch to ${isW2E?DEP_NAME+' &rarr; '+LANG.name:LANG.name+' &rarr; '+DEP_NAME}
+      </a>
     </div>`;
   document.getElementById('answer-input')?.focus();
 }
@@ -972,9 +980,19 @@ async function skipWord(){
 }
 
 function dropWord(){
+  const card=quizWords[quizIdx];
+  if(!droppedByDir.has(quizDir)) droppedByDir.set(quizDir,new Set());
+  droppedByDir.get(quizDir).add(card.id);
   quizWords.splice(quizIdx,1);quizRetrying=false;
   if(!quizWords.length){quizPhase='results';renderQuiz();return;}
   if(quizIdx>=quizWords.length) quizIdx=quizWords.length-1;
+  renderQuizQuestion();
+}
+function switchQuizDir(){
+  quizDir=quizDir===DIR_FWD?DIR_REV:DIR_FWD;
+  const dropped=droppedByDir.get(quizDir)||new Set();
+  quizWords=shuffle(quizOrigSet.filter(c=>!dropped.has(c.id)));
+  quizIdx=0;quizRetrying=false;
   renderQuizQuestion();
 }
 

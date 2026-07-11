@@ -1,0 +1,55 @@
+word: rood translation: red type: adjective group: 🎨 Colors & shapes example.nl: De tulpen zijn rood. example.en: The tulips are red. grammar.Inflected form: rode tags: ⭐ common, 🎨 colors priority: yes
+//
+word: blauw translation: blue type: adjective group: 🎨 Colors & shapes example.nl: De lucht is vandaag helderblauw. example.en: The sky is bright blue today. grammar.Inflected form: blauwe tags: ⭐ common, 🎨 colors priority: yes
+//
+word: groen translation: green type: adjective group: 🎨 Colors & shapes example.nl: Het gras is groen. example.en: The grass is green. grammar.Inflected form: groene tags: ⭐ common, 🎨 colors priority: yes
+//
+word: geel translation: yellow type: adjective group: 🎨 Colors & shapes example.nl: De kaas is geel. example.en: The cheese is yellow. grammar.Inflected form: gele tags: ⭐ common, 🎨 colors priority: yes
+//
+word: oranje translation: orange type: adjective group: 🎨 Colors & shapes example.nl: Op Koningsdag draagt iedereen oranje. example.en: On King's Day everyone wears orange. note: The Dutch national colour, after the royal house of Oranje. Never inflects. tags: ⭐ common, 🎨 colors priority: yes
+//
+word: paars translation: purple type: adjective group: 🎨 Colors & shapes example.nl: Ze heeft een paarse jas. example.en: She has a purple coat. grammar.Inflected form: paarse tags: 🎨 colors priority: yes
+//
+word: roze translation: pink type: adjective group: 🎨 Colors & shapes example.nl: De baby heeft roze wangen. example.en: The baby has pink cheeks. note: Does not inflect: de roze muur. tags: 🎨 colors priority: yes
+//
+word: bruin translation: brown type: adjective group: 🎨 Colors & shapes example.nl: Een bruin café is een gezellige oude kroeg. example.en: A "brown café" is a cosy old pub. grammar.Inflected form: bruine tags: ⭐ common, 🎨 colors priority: yes
+//
+word: zwart translation: black type: adjective group: 🎨 Colors & shapes example.nl: Hij drinkt zijn koffie zwart. example.en: He drinks his coffee black. grammar.Inflected form: zwarte tags: ⭐ common, 🎨 colors priority: yes
+//
+word: wit translation: white type: adjective group: 🎨 Colors & shapes example.nl: In de winter is het dak soms wit. example.en: In winter the roof is sometimes white. grammar.Inflected form: witte tags: ⭐ common, 🎨 colors priority: yes
+//
+word: grijs translation: grey type: adjective group: 🎨 Colors & shapes example.nl: De lucht is grijs, het gaat regenen. example.en: The sky is grey, it's going to rain. grammar.Inflected form: grijze tags: ⭐ common, 🎨 colors priority: yes
+//
+word: donker translation: dark type: adjective group: 🎨 Colors & shapes example.nl: In de winter is het vroeg donker. example.en: In winter it gets dark early. grammar.Inflected form: donkere tags: ⭐ common, 🎨 colors priority: yes
+//
+word: licht translation: light type: adjective group: 🎨 Colors & shapes example.nl: Ze draagt graag lichte kleuren. example.en: She likes wearing light colours. note: Also a noun: het licht (the light). grammar.Inflected form: lichte tags: ⭐ common, 🎨 colors priority: yes
+//
+word: fel translation: bright type: adjective group: 🎨 Colors & shapes example.nl: Dat is een felle kleur! example.en: That's a bright colour! grammar.Inflected form: felle tags: 🎨 colors priority: yes
+//
+word: bleek translation: pale type: adjective group: 🎨 Colors & shapes example.nl: Je ziet bleek, voel je je wel goed? example.en: You look pale, are you feeling okay? grammar.Inflected form: bleke tags: 🎨 colors priority: yes
+//
+word: groot translation: big type: adjective group: 🎨 Colors & shapes example.nl: Ze wonen in een groot huis. example.en: They live in a big house. grammar.Inflected form: grote grammar.Comparative: groter grammar.Superlative: grootst tags: ⭐ common, 🔷 shapes priority: yes
+//
+word: klein translation: small type: adjective group: 🎨 Colors & shapes example.nl: Nederland is een klein land. example.en: The Netherlands is a small country. grammar.Inflected form: kleine tags: ⭐ common, 🔷 shapes priority: yes
+//
+word: lang translation: long type: adjective group: 🎨 Colors & shapes example.nl: Het was een lange dag. example.en: It was a long day. note: Also means "tall" for people: hij is erg lang. grammar.Inflected form: lange tags: ⭐ common, 🔷 shapes priority: yes
+//
+word: kort translation: short type: adjective group: 🎨 Colors & shapes example.nl: Een kort gesprek is soms genoeg. example.en: A short conversation is sometimes enough. grammar.Inflected form: korte tags: ⭐ common, 🔷 shapes priority: yes
+//
+word: breed translation: wide type: adjective group: 🎨 Colors & shapes example.nl: De rivier is hier heel breed. example.en: The river is very wide here. grammar.Inflected form: brede tags: 🔷 shapes priority: yes
+//
+word: smal translation: narrow type: adjective group: 🎨 Colors & shapes example.nl: De grachtenpanden zijn hoog en smal. example.en: The canal houses are tall and narrow. grammar.Inflected form: smalle tags: 🔷 shapes priority: yes
+//
+word: rond translation: round type: adjective group: 🎨 Colors & shapes example.nl: De aarde is rond. example.en: The earth is round. grammar.Inflected form: ronde tags: 🔷 shapes priority: yes
+//
+word: cirkel translation: circle type: noun group: 🎨 Colors & shapes example.nl: De kinderen zitten in een cirkel. example.en: The children sit in a circle. grammar.Article / Gender: de grammar.Plural: cirkels tags: 🔷 shapes priority: yes
+//
+word: vierkant translation: square type: noun group: 🎨 Colors & shapes example.nl: Een vierkant heeft vier gelijke zijden. example.en: A square has four equal sides. note: Also an adjective: een vierkante tafel. grammar.Article / Gender: het grammar.Plural: vierkanten tags: 🔷 shapes priority: yes
+//
+word: driehoek translation: triangle type: noun group: 🎨 Colors & shapes example.nl: Een driehoek heeft drie hoeken. example.en: A triangle has three corners. grammar.Article / Gender: de grammar.Plural: driehoeken tags: 🔷 shapes priority: yes
+//
+word: rechthoek translation: rectangle type: noun group: 🎨 Colors & shapes example.nl: Het scherm heeft de vorm van een rechthoek. example.en: The screen has the shape of a rectangle. grammar.Article / Gender: de grammar.Plural: rechthoeken tags: 🔷 shapes priority: yes
+//
+word: lijn translation: line type: noun group: 🎨 Colors & shapes example.nl: Trek een rechte lijn. example.en: Draw a straight line. note: Also a tram/bus line: lijn 5. grammar.Article / Gender: de grammar.Plural: lijnen tags: 🔷 shapes priority: yes
+//
+word: punt translation: point, dot type: noun group: 🎨 Colors & shapes example.nl: Zet een punt aan het einde van de zin. example.en: Put a full stop at the end of the sentence. note: De punt = dot/full stop; het punt = point in a discussion. grammar.Article / Gender: de grammar.Plural: punten tags: 🔷 shapes priority: yes

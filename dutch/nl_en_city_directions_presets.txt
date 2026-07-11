@@ -1,0 +1,63 @@
+word: stad translation: city type: noun group: 🗺️ City & directions example.nl: Rotterdam is een moderne stad. example.en: Rotterdam is a modern city. grammar.Article / Gender: de grammar.Plural: steden tags: ⭐ common, 🗺️ city priority: yes
+//
+word: dorp translation: village, town type: noun group: 🗺️ City & directions example.nl: Ze komt uit een klein dorp in Zeeland. example.en: She comes from a small village in Zeeland. grammar.Article / Gender: het grammar.Plural: dorpen tags: ⭐ common, 🗺️ city priority: yes
+//
+word: straat translation: street type: noun group: 🗺️ City & directions example.nl: In welke straat woon je? example.en: Which street do you live on? grammar.Article / Gender: de grammar.Plural: straten tags: ⭐ common, 🗺️ city priority: yes
+//
+word: weg translation: road type: noun group: 🗺️ City & directions example.nl: Deze weg gaat naar het strand. example.en: This road goes to the beach. note: Also "away": hij is weg = he's gone. De weg vragen = to ask directions. grammar.Article / Gender: de grammar.Plural: wegen tags: ⭐ common, 🗺️ city priority: yes
+//
+word: plein translation: square type: noun group: 🗺️ City & directions example.nl: Op het plein is elke zaterdag markt. example.en: There's a market on the square every Saturday. grammar.Article / Gender: het grammar.Plural: pleinen tags: ⭐ common, 🗺️ city priority: yes
+//
+word: park translation: park type: noun group: 🗺️ City & directions example.nl: We picknicken in het park. example.en: We're having a picnic in the park. grammar.Article / Gender: het grammar.Plural: parken tags: ⭐ common, 🗺️ city priority: yes
+//
+word: brug translation: bridge type: noun group: 🗺️ City & directions example.nl: De Erasmusbrug is het symbool van Rotterdam. example.en: The Erasmus Bridge is the symbol of Rotterdam. grammar.Article / Gender: de grammar.Plural: bruggen tags: ⭐ common, 🗺️ city priority: yes
+//
+word: links translation: left type: adverb group: 🗺️ City & directions example.nl: Bij het stoplicht ga je links. example.en: At the traffic light you turn left. note: Linksaf slaan = to turn left. tags: ⭐ common, 🗺️ city priority: yes
+//
+word: rechts translation: right type: adverb group: 🗺️ City & directions example.nl: De ingang is rechts van de deur. example.en: The entrance is to the right of the door. note: Rechtsaf slaan = to turn right. tags: ⭐ common, 🗺️ city priority: yes
+//
+word: rechtdoor translation: straight ahead type: adverb group: 🗺️ City & directions example.nl: Ga rechtdoor tot aan de kerk. example.en: Go straight ahead until the church. tags: ⭐ common, 🗺️ city priority: yes
+//
+word: noorden translation: north type: noun group: 🗺️ City & directions example.nl: Groningen ligt in het noorden van Nederland. example.en: Groningen is in the north of the Netherlands. note: Adjective: noord-. Ten noorden van = to the north of. grammar.Article / Gender: het tags: 🗺️ city priority: yes
+//
+word: zuiden translation: south type: noun group: 🗺️ City & directions example.nl: Limburg ligt in het zuiden. example.en: Limburg is in the south. grammar.Article / Gender: het tags: 🗺️ city priority: yes
+//
+word: oosten translation: east type: noun group: 🗺️ City & directions example.nl: De zon komt op in het oosten. example.en: The sun rises in the east. grammar.Article / Gender: het tags: 🗺️ city priority: yes
+//
+word: westen translation: west type: noun group: 🗺️ City & directions example.nl: De grote steden liggen in het westen. example.en: The big cities are in the west. grammar.Article / Gender: het tags: 🗺️ city priority: yes
+//
+word: afslaan translation: to turn (off) type: verb group: 🗺️ City & directions example.nl: Sla bij de rotonde rechtsaf. example.en: Turn right at the roundabout. note: Separable verb: ik sla af. grammar.Past tense (sg.): sloeg af grammar.Past participle: afgeslagen grammar.Auxiliary: zijn tags: 🗺️ city priority: yes
+//
+word: dichtbij translation: near, nearby type: adverb group: 🗺️ City & directions example.nl: Het station is dichtbij. example.en: The station is nearby. note: Vlakbij = very close. tags: ⭐ common, 🗺️ city priority: yes
+//
+word: ver translation: far type: adverb group: 🗺️ City & directions example.nl: Is het ver lopen? example.en: Is it far to walk? grammar.Inflected form: verre tags: ⭐ common, 🗺️ city priority: yes
+//
+word: naast translation: next to type: preposition group: 🗺️ City & directions example.nl: De bakker zit naast de supermarkt. example.en: The bakery is next to the supermarket. tags: ⭐ common, 🗺️ city priority: yes
+//
+word: tegenover translation: opposite type: preposition group: 🗺️ City & directions example.nl: Het café ligt tegenover het station. example.en: The café is opposite the station. tags: ⭐ common, 🗺️ city priority: yes
+//
+word: tussen translation: between type: preposition group: 🗺️ City & directions example.nl: Het museum ligt tussen de kerk en het park. example.en: The museum is between the church and the park. tags: ⭐ common, 🗺️ city priority: yes
+//
+word: hoek translation: corner type: noun group: 🗺️ City & directions example.nl: De winkel zit om de hoek. example.en: The shop is around the corner. grammar.Article / Gender: de grammar.Plural: hoeken tags: ⭐ common, 🗺️ city priority: yes
+//
+word: stoplicht translation: traffic lights type: noun group: 🗺️ City & directions example.nl: Bij het stoplicht steek je over. example.en: You cross at the traffic lights. note: Officially: het verkeerslicht. grammar.Article / Gender: het grammar.Plural: stoplichten tags: ⭐ common, 🗺️ city priority: yes
+//
+word: rotonde translation: roundabout type: noun group: 🗺️ City & directions example.nl: Neem de tweede afslag op de rotonde. example.en: Take the second exit at the roundabout. grammar.Article / Gender: de grammar.Plural: rotondes tags: 🗺️ city priority: yes
+//
+word: kerk translation: church type: noun group: 🗺️ City & directions example.nl: De oude kerk staat midden in het dorp. example.en: The old church stands in the middle of the village. grammar.Article / Gender: de grammar.Plural: kerken tags: ⭐ common, 🗺️ city priority: yes
+//
+word: museum translation: museum type: noun group: 🗺️ City & directions example.nl: Het Van Gogh Museum is erg populair. example.en: The Van Gogh Museum is very popular. grammar.Article / Gender: het grammar.Plural: musea tags: ⭐ common, 🗺️ city priority: yes
+//
+word: bibliotheek translation: library type: noun group: 🗺️ City & directions example.nl: Ik leen boeken bij de bibliotheek. example.en: I borrow books from the library. note: Colloquially: de bieb. grammar.Article / Gender: de grammar.Plural: bibliotheken tags: 🗺️ city priority: yes
+//
+word: bank translation: bank type: noun group: 🗺️ City & directions example.nl: Ik moet even naar de bank. example.en: I have to go to the bank. note: Also means couch/sofa and bench — context is everything! grammar.Article / Gender: de grammar.Plural: banken tags: ⭐ common, 🗺️ city priority: yes
+//
+word: postkantoor translation: post office type: noun group: 🗺️ City & directions example.nl: Is er nog een postkantoor in de buurt? example.en: Is there still a post office nearby? note: Most Dutch post offices are now service points in shops. grammar.Article / Gender: het grammar.Plural: postkantoren tags: 🗺️ city priority: yes
+//
+word: bushalte translation: bus stop type: noun group: 🗺️ City & directions example.nl: De bushalte is voor de deur. example.en: The bus stop is right outside. grammar.Article / Gender: de grammar.Plural: bushaltes tags: ⭐ common, 🗺️ city priority: yes
+//
+word: haven translation: port, harbour type: noun group: 🗺️ City & directions example.nl: De haven van Rotterdam is de grootste van Europa. example.en: The port of Rotterdam is the biggest in Europe. grammar.Article / Gender: de grammar.Plural: havens tags: 🗺️ city priority: yes
+//
+word: centrum translation: centre type: noun group: 🗺️ City & directions example.nl: We gaan zaterdag naar het centrum. example.en: We're going to the city centre on Saturday. grammar.Article / Gender: het grammar.Plural: centra tags: ⭐ common, 🗺️ city priority: yes
+//
+word: fietspad translation: bicycle path type: noun group: 🗺️ City & directions example.nl: Pas op, je loopt op het fietspad! example.en: Watch out, you're walking on the bike path! note: Essential Dutch survival knowledge. grammar.Article / Gender: het grammar.Plural: fietspaden tags: ⭐ common, 🗺️ city priority: yes

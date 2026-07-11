@@ -1,0 +1,55 @@
+word: familie translation: family type: noun group: 👨‍👩‍👧 Family & relationships example.nl: Mijn hele familie komt met Kerst. example.en: My whole family comes at Christmas. note: Familie = extended family; het gezin = the household family (parents + kids). grammar.Article / Gender: de grammar.Plural: families tags: ⭐ common, 👪 family priority: yes
+//
+word: gezin translation: family (household) type: noun group: 👨‍👩‍👧 Family & relationships example.nl: Ze hebben een gezin met drie kinderen. example.en: They have a family with three children. note: The nuclear family. A very Dutch distinction from familie! grammar.Article / Gender: het grammar.Plural: gezinnen tags: ⭐ common, 👪 family priority: yes
+//
+word: moeder translation: mother type: noun group: 👨‍👩‍👧 Family & relationships example.nl: Mijn moeder belt me elke zondag. example.en: My mother calls me every Sunday. note: Mama is the everyday word. grammar.Article / Gender: de grammar.Plural: moeders tags: ⭐ common, 👪 family priority: yes
+//
+word: vader translation: father type: noun group: 👨‍👩‍👧 Family & relationships example.nl: Mijn vader werkt in Rotterdam. example.en: My father works in Rotterdam. note: Papa is the everyday word. grammar.Article / Gender: de grammar.Plural: vaders tags: ⭐ common, 👪 family priority: yes
+//
+word: ouders translation: parents type: noun group: 👨‍👩‍👧 Family & relationships example.nl: Mijn ouders wonen nog in hetzelfde huis. example.en: My parents still live in the same house. note: Singular: de ouder. grammar.Article / Gender: de tags: ⭐ common, 👪 family priority: yes
+//
+word: zus translation: sister type: noun group: 👨‍👩‍👧 Family & relationships example.nl: Mijn zus is twee jaar ouder. example.en: My sister is two years older. note: Also: de zuster (more formal, also means nurse/nun). grammar.Article / Gender: de grammar.Plural: zussen tags: ⭐ common, 👪 family priority: yes
+//
+word: broer translation: brother type: noun group: 👨‍👩‍👧 Family & relationships example.nl: Ik heb één broer en twee zussen. example.en: I have one brother and two sisters. grammar.Article / Gender: de grammar.Plural: broers tags: ⭐ common, 👪 family priority: yes
+//
+word: zoon translation: son type: noun group: 👨‍👩‍👧 Family & relationships example.nl: Hun zoon studeert in Delft. example.en: Their son studies in Delft. grammar.Article / Gender: de grammar.Plural: zonen tags: ⭐ common, 👪 family priority: yes
+//
+word: dochter translation: daughter type: noun group: 👨‍👩‍👧 Family & relationships example.nl: Onze dochter is in mei geboren. example.en: Our daughter was born in May. grammar.Article / Gender: de grammar.Plural: dochters tags: ⭐ common, 👪 family priority: yes
+//
+word: baby translation: baby type: noun group: 👨‍👩‍👧 Family & relationships example.nl: De baby slaapt eindelijk. example.en: The baby is finally sleeping. grammar.Article / Gender: de grammar.Plural: baby's tags: ⭐ common, 👪 family priority: yes
+//
+word: kind translation: child type: noun group: 👨‍👩‍👧 Family & relationships example.nl: Ze hebben drie kinderen. example.en: They have three children. grammar.Article / Gender: het grammar.Plural: kinderen tags: ⭐ common, 👪 family priority: yes
+//
+word: oma translation: grandmother type: noun group: 👨‍👩‍👧 Family & relationships example.nl: Oma bakt de lekkerste appeltaart. example.en: Grandma bakes the best apple pie. note: Formal: de grootmoeder. grammar.Article / Gender: de grammar.Plural: oma's tags: ⭐ common, 👪 family priority: yes
+//
+word: opa translation: grandfather type: noun group: 👨‍👩‍👧 Family & relationships example.nl: Opa vertelt altijd verhalen van vroeger. example.en: Grandpa always tells stories from the old days. note: Formal: de grootvader. grammar.Article / Gender: de grammar.Plural: opa's tags: ⭐ common, 👪 family priority: yes
+//
+word: grootouders translation: grandparents type: noun group: 👨‍👩‍👧 Family & relationships example.nl: Mijn grootouders komen uit Friesland. example.en: My grandparents come from Friesland. grammar.Article / Gender: de tags: 👪 family priority: yes
+//
+word: oom translation: uncle type: noun group: 👨‍👩‍👧 Family & relationships example.nl: Oom Jan komt op bezoek. example.en: Uncle Jan is coming to visit. grammar.Article / Gender: de grammar.Plural: ooms tags: ⭐ common, 👪 family priority: yes
+//
+word: tante translation: aunt type: noun group: 👨‍👩‍👧 Family & relationships example.nl: Mijn tante woont naast ons. example.en: My aunt lives next door. grammar.Article / Gender: de grammar.Plural: tantes tags: ⭐ common, 👪 family priority: yes
+//
+word: neef translation: cousin (male), nephew type: noun group: 👨‍👩‍👧 Family & relationships example.nl: Mijn neef is even oud als ik. example.en: My cousin is the same age as me. note: Dutch uses one word for both cousin and nephew! Context decides. grammar.Article / Gender: de grammar.Plural: neven tags: ⭐ common, 👪 family priority: yes
+//
+word: nicht translation: cousin (female), niece type: noun group: 👨‍👩‍👧 Family & relationships example.nl: Mijn nicht werd gisteren vijf jaar. example.en: My niece turned five yesterday. note: Like neef: one word for both cousin and niece. grammar.Article / Gender: de grammar.Plural: nichten tags: ⭐ common, 👪 family priority: yes
+//
+word: man translation: husband, man type: noun group: 👨‍👩‍👧 Family & relationships example.nl: Haar man werkt in het buitenland. example.en: Her husband works abroad. note: Mijn man = my husband. Formal: de echtgenoot. grammar.Article / Gender: de grammar.Plural: mannen tags: ⭐ common, 💞 relationships priority: yes
+//
+word: vrouw translation: wife, woman type: noun group: 👨‍👩‍👧 Family & relationships example.nl: Zijn vrouw is advocaat. example.en: His wife is a lawyer. note: Mijn vrouw = my wife. Formal: de echtgenote. grammar.Article / Gender: de grammar.Plural: vrouwen tags: ⭐ common, 💞 relationships priority: yes
+//
+word: partner translation: partner type: noun group: 👨‍👩‍👧 Family & relationships example.nl: Ze komt samen met haar partner. example.en: She's coming together with her partner. note: Neutral word for a romantic partner, very common in the Netherlands. grammar.Article / Gender: de grammar.Plural: partners tags: 💞 relationships priority: yes
+//
+word: vriend translation: friend, boyfriend type: noun group: 👨‍👩‍👧 Family & relationships pronunciation: /vrint/ example.nl: Hij is een goede vriend van mij. example.en: He is a good friend of mine. note: Mijn vriend (with possessive) usually means boyfriend! "Een vriend" = a friend. grammar.Article / Gender: de grammar.Plural: vrienden tags: ⭐ common, 💞 relationships priority: yes
+//
+word: vriendin translation: (female) friend, girlfriend type: noun group: 👨‍👩‍👧 Family & relationships example.nl: Mijn vriendin en ik wonen samen. example.en: My girlfriend and I live together. note: Same ambiguity as vriend: possessive usually means girlfriend. grammar.Article / Gender: de grammar.Plural: vriendinnen tags: ⭐ common, 💞 relationships priority: yes
+//
+word: buurman translation: neighbor (male) type: noun group: 👨‍👩‍👧 Family & relationships example.nl: De buurman heeft onze pakketjes aangenomen. example.en: The neighbor took in our parcels. note: Female: de buurvrouw. The neighbourhood: de buurt. grammar.Article / Gender: de grammar.Plural: buurmannen tags: ⭐ common, 💞 relationships priority: yes
+//
+word: buurvrouw translation: neighbor (female) type: noun group: 👨‍👩‍👧 Family & relationships example.nl: Onze buurvrouw geeft de planten water als we weg zijn. example.en: Our neighbor waters the plants when we're away. grammar.Article / Gender: de grammar.Plural: buurvrouwen tags: 💞 relationships priority: yes
+//
+word: getrouwd translation: married type: adjective group: 👨‍👩‍👧 Family & relationships example.nl: Ze zijn tien jaar getrouwd. example.en: They've been married for ten years. note: Trouwen = to marry; de bruiloft = the wedding. grammar.Inflected form: getrouwde tags: ⭐ common, 💞 relationships priority: yes
+//
+word: gescheiden translation: divorced, separated type: adjective group: 👨‍👩‍👧 Family & relationships example.nl: Mijn ouders zijn gescheiden. example.en: My parents are divorced. note: From scheiden (to separate) — also used for separating waste! grammar.Inflected form: gescheiden tags: 💞 relationships priority: yes
+//
+word: vrijgezel translation: single type: noun group: 👨‍👩‍👧 Family & relationships example.nl: Hij is al jaren vrijgezel. example.en: He's been single for years. note: Noun ("a bachelor/single person"). As adjective: single or alleenstaand. grammar.Article / Gender: de grammar.Plural: vrijgezellen tags: 💞 relationships priority: yes

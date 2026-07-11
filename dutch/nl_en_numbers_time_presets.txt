@@ -1,0 +1,115 @@
+word: een translation: one type: numeral group: 🕐 Numbers & time example.nl: Ik heb maar één vraag. example.en: I have just one question. note: Written één when it could be confused with the article "een" (a). tags: ⭐ common, 🔢 numbers priority: yes
+//
+word: twee translation: two type: numeral group: 🕐 Numbers & time example.nl: Twee koffie, alstublieft. example.en: Two coffees, please. tags: ⭐ common, 🔢 numbers priority: yes
+//
+word: drie translation: three type: numeral group: 🕐 Numbers & time example.nl: We zijn met z'n drieën. example.en: There are three of us. tags: ⭐ common, 🔢 numbers priority: yes
+//
+word: vier translation: four type: numeral group: 🕐 Numbers & time example.nl: De trein vertrekt om vier uur. example.en: The train leaves at four o'clock. tags: ⭐ common, 🔢 numbers priority: yes
+//
+word: vijf translation: five type: numeral group: 🕐 Numbers & time example.nl: Nog vijf minuten wachten. example.en: Five more minutes to wait. tags: ⭐ common, 🔢 numbers priority: yes
+//
+word: zes translation: six type: numeral group: 🕐 Numbers & time example.nl: Het feest begint om zes uur. example.en: The party starts at six. tags: ⭐ common, 🔢 numbers priority: yes
+//
+word: zeven translation: seven type: numeral group: 🕐 Numbers & time example.nl: Een week heeft zeven dagen. example.en: A week has seven days. tags: ⭐ common, 🔢 numbers priority: yes
+//
+word: acht translation: eight type: numeral group: 🕐 Numbers & time example.nl: Ik werk acht uur per dag. example.en: I work eight hours a day. tags: ⭐ common, 🔢 numbers priority: yes
+//
+word: negen translation: nine type: numeral group: 🕐 Numbers & time example.nl: De winkel opent om negen uur. example.en: The shop opens at nine. tags: ⭐ common, 🔢 numbers priority: yes
+//
+word: tien translation: ten type: numeral group: 🕐 Numbers & time example.nl: Tel tot tien en haal diep adem. example.en: Count to ten and take a deep breath. tags: ⭐ common, 🔢 numbers priority: yes
+//
+word: twintig translation: twenty type: numeral group: 🕐 Numbers & time example.nl: Het kost twintig euro. example.en: It costs twenty euros. note: 21 = eenentwintig — units come first in Dutch! tags: ⭐ common, 🔢 numbers priority: yes
+//
+word: dertig translation: thirty type: numeral group: 🕐 Numbers & time example.nl: Hij is dertig jaar oud. example.en: He is thirty years old. tags: 🔢 numbers priority: yes
+//
+word: veertig translation: forty type: numeral group: 🕐 Numbers & time example.nl: De les duurt veertig minuten. example.en: The lesson lasts forty minutes. note: Spelled with v but pronounced with f. tags: 🔢 numbers priority: yes
+//
+word: vijftig translation: fifty type: numeral group: 🕐 Numbers & time example.nl: Maximaal vijftig kilometer per uur. example.en: Fifty kilometres per hour maximum. tags: 🔢 numbers priority: yes
+//
+word: zestig translation: sixty type: numeral group: 🕐 Numbers & time example.nl: Een uur heeft zestig minuten. example.en: An hour has sixty minutes. tags: 🔢 numbers priority: yes
+//
+word: zeventig translation: seventy type: numeral group: 🕐 Numbers & time example.nl: Mijn oma is zeventig geworden. example.en: My grandma turned seventy. tags: 🔢 numbers priority: yes
+//
+word: tachtig translation: eighty type: numeral group: 🕐 Numbers & time example.nl: De Tachtigjarige Oorlog duurde tachtig jaar. example.en: The Eighty Years' War lasted eighty years. note: Note the t- at the start (not "achttig"). tags: 🔢 numbers priority: yes
+//
+word: negentig translation: ninety type: numeral group: 🕐 Numbers & time example.nl: Ze is negentig en nog fit. example.en: She is ninety and still fit. tags: 🔢 numbers priority: yes
+//
+word: honderd translation: hundred type: numeral group: 🕐 Numbers & time example.nl: Meer dan honderd mensen kwamen. example.en: More than a hundred people came. tags: ⭐ common, 🔢 numbers priority: yes
+//
+word: duizend translation: thousand type: numeral group: 🕐 Numbers & time example.nl: De stad bestaat duizend jaar. example.en: The city is a thousand years old. tags: 🔢 numbers priority: yes
+//
+word: miljoen translation: million type: numeral group: 🕐 Numbers & time example.nl: Amsterdam heeft bijna een miljoen inwoners. example.en: Amsterdam has almost a million inhabitants. grammar.Article / Gender: het grammar.Plural: miljoenen tags: 🔢 numbers priority: yes
+//
+word: eerste translation: first type: adjective group: 🕐 Numbers & time example.nl: Dit is mijn eerste les Nederlands. example.en: This is my first Dutch lesson. tags: ⭐ common, 🔢 numbers priority: yes
+//
+word: tweede translation: second type: adjective group: 🕐 Numbers & time example.nl: We wonen op de tweede verdieping. example.en: We live on the second floor. tags: 🔢 numbers priority: yes
+//
+word: derde translation: third type: adjective group: 🕐 Numbers & time example.nl: Het is al de derde keer deze week. example.en: It's already the third time this week. tags: 🔢 numbers priority: yes
+//
+word: maandag translation: Monday type: noun group: 🕐 Numbers & time example.nl: Op maandag begin ik vroeg. example.en: On Monday I start early. note: Days of the week are written lowercase in Dutch. grammar.Article / Gender: de tags: ⭐ common, 🕐 time priority: yes
+//
+word: dinsdag translation: Tuesday type: noun group: 🕐 Numbers & time example.nl: Dinsdag is het markt in het centrum. example.en: On Tuesday there's a market in the centre. grammar.Article / Gender: de tags: ⭐ common, 🕐 time priority: yes
+//
+word: woensdag translation: Wednesday type: noun group: 🕐 Numbers & time example.nl: Woensdagmiddag zijn de kinderen vrij. example.en: On Wednesday afternoon the kids are off school. grammar.Article / Gender: de tags: ⭐ common, 🕐 time priority: yes
+//
+word: donderdag translation: Thursday type: noun group: 🕐 Numbers & time example.nl: Donderdag heb ik een afspraak. example.en: On Thursday I have an appointment. grammar.Article / Gender: de tags: ⭐ common, 🕐 time priority: yes
+//
+word: vrijdag translation: Friday type: noun group: 🕐 Numbers & time example.nl: Vrijdagavond eten we vaak friet. example.en: On Friday evening we often eat fries. grammar.Article / Gender: de tags: ⭐ common, 🕐 time priority: yes
+//
+word: zaterdag translation: Saturday type: noun group: 🕐 Numbers & time example.nl: Zaterdag doen we boodschappen. example.en: On Saturday we do the shopping. grammar.Article / Gender: de tags: ⭐ common, 🕐 time priority: yes
+//
+word: zondag translation: Sunday type: noun group: 🕐 Numbers & time example.nl: Op zondag zijn veel winkels dicht. example.en: On Sunday many shops are closed. grammar.Article / Gender: de tags: ⭐ common, 🕐 time priority: yes
+//
+word: januari translation: January type: noun group: 🕐 Numbers & time example.nl: In januari is het koud. example.en: In January it is cold. note: Months are written lowercase in Dutch. grammar.Article / Gender: de tags: 🕐 time priority: yes
+//
+word: februari translation: February type: noun group: 🕐 Numbers & time example.nl: Februari is de kortste maand. example.en: February is the shortest month. grammar.Article / Gender: de tags: 🕐 time priority: yes
+//
+word: maart translation: March type: noun group: 🕐 Numbers & time example.nl: In maart begint de lente. example.en: Spring begins in March. grammar.Article / Gender: de tags: 🕐 time priority: yes
+//
+word: april translation: April type: noun group: 🕐 Numbers & time example.nl: In april bloeien de tulpen. example.en: In April the tulips bloom. grammar.Article / Gender: de tags: 🕐 time priority: yes
+//
+word: mei translation: May type: noun group: 🕐 Numbers & time example.nl: In mei vieren we Bevrijdingsdag. example.en: In May we celebrate Liberation Day. grammar.Article / Gender: de tags: 🕐 time priority: yes
+//
+word: juni translation: June type: noun group: 🕐 Numbers & time example.nl: In juni zijn de dagen het langst. example.en: In June the days are longest. grammar.Article / Gender: de tags: 🕐 time priority: yes
+//
+word: juli translation: July type: noun group: 🕐 Numbers & time example.nl: In juli begint de zomervakantie. example.en: The summer holidays start in July. grammar.Article / Gender: de tags: 🕐 time priority: yes
+//
+word: augustus translation: August type: noun group: 🕐 Numbers & time example.nl: In augustus is het vaak warm. example.en: In August it is often warm. grammar.Article / Gender: de tags: 🕐 time priority: yes
+//
+word: september translation: September type: noun group: 🕐 Numbers & time example.nl: In september begint het schooljaar. example.en: The school year starts in September. grammar.Article / Gender: de tags: 🕐 time priority: yes
+//
+word: oktober translation: October type: noun group: 🕐 Numbers & time example.nl: In oktober vallen de bladeren. example.en: In October the leaves fall. grammar.Article / Gender: de tags: 🕐 time priority: yes
+//
+word: november translation: November type: noun group: 🕐 Numbers & time example.nl: In november regent het veel. example.en: In November it rains a lot. grammar.Article / Gender: de tags: 🕐 time priority: yes
+//
+word: december translation: December type: noun group: 🕐 Numbers & time example.nl: In december vieren we Sinterklaas en Kerst. example.en: In December we celebrate Sinterklaas and Christmas. grammar.Article / Gender: de tags: 🕐 time priority: yes
+//
+word: ochtend translation: morning type: noun group: 🕐 Numbers & time example.nl: Ik sport altijd in de ochtend. example.en: I always exercise in the morning. note: 's Ochtends = in the morning. Also: de morgen. grammar.Article / Gender: de grammar.Plural: ochtenden tags: ⭐ common, 🕐 time priority: yes
+//
+word: middag translation: afternoon type: noun group: 🕐 Numbers & time example.nl: In de middag drink ik geen koffie meer. example.en: In the afternoon I don't drink coffee anymore. note: 's Middags = in the afternoon. Tussen de middag = at lunchtime. grammar.Article / Gender: de grammar.Plural: middagen tags: ⭐ common, 🕐 time priority: yes
+//
+word: avond translation: evening type: noun group: 🕐 Numbers & time example.nl: Vanavond blijven we thuis. example.en: Tonight we're staying home. note: 's Avonds = in the evening. Vanavond = tonight. grammar.Article / Gender: de grammar.Plural: avonden tags: ⭐ common, 🕐 time priority: yes
+//
+word: nacht translation: night type: noun group: 🕐 Numbers & time example.nl: De baby sliep de hele nacht door. example.en: The baby slept through the whole night. note: 's Nachts = at night. grammar.Article / Gender: de grammar.Plural: nachten tags: ⭐ common, 🕐 time priority: yes
+//
+word: vandaag translation: today type: adverb group: 🕐 Numbers & time pronunciation: /fanˈdaːx/ example.nl: Vandaag werk ik thuis. example.en: Today I work from home. tags: ⭐ common, 🕐 time priority: yes
+//
+word: morgen translation: tomorrow type: adverb group: 🕐 Numbers & time pronunciation: /ˈmɔr.ɣə(n)/ example.nl: Morgen ga ik naar de stad. example.en: Tomorrow I am going to the city. note: Can also mean "morning" depending on context: de morgen. tags: ⭐ common, 🕐 time priority: yes
+//
+word: gisteren translation: yesterday type: adverb group: 🕐 Numbers & time pronunciation: /ˈɣɪstə.rə(n)/ example.nl: Gisteren heb ik een film gekeken. example.en: Yesterday I watched a movie. tags: ⭐ common, 🕐 time priority: yes
+//
+word: uur translation: hour type: noun group: 🕐 Numbers & time example.nl: De reis duurt twee uur. example.en: The journey takes two hours. note: Stays singular after numbers: twee uur, not twee uren. grammar.Article / Gender: het grammar.Plural: uren tags: ⭐ common, 🕐 time priority: yes
+//
+word: minuut translation: minute type: noun group: 🕐 Numbers & time example.nl: Het duurt nog vijf minuten. example.en: It takes five more minutes. grammar.Article / Gender: de grammar.Plural: minuten tags: ⭐ common, 🕐 time priority: yes
+//
+word: week translation: week type: noun group: 🕐 Numbers & time example.nl: Volgende week heb ik vakantie. example.en: Next week I'm on holiday. grammar.Article / Gender: de grammar.Plural: weken tags: ⭐ common, 🕐 time priority: yes
+//
+word: weekend translation: weekend type: noun group: 🕐 Numbers & time pronunciation: /ˈʋik.ɛnt/ example.nl: In het weekend slaap ik langer. example.en: On the weekend I sleep longer. grammar.Article / Gender: het grammar.Plural: weekenden tags: ⭐ common, 🕐 time priority: yes
+//
+word: maand translation: month type: noun group: 🕐 Numbers & time example.nl: Ik woon hier nu drie maanden. example.en: I've been living here for three months now. grammar.Article / Gender: de grammar.Plural: maanden tags: ⭐ common, 🕐 time priority: yes
+//
+word: jaar translation: year type: noun group: 🕐 Numbers & time example.nl: Gelukkig nieuwjaar! example.en: Happy New Year! note: Stays singular after numbers: vijf jaar. grammar.Article / Gender: het grammar.Plural: jaren tags: ⭐ common, 🕐 time priority: yes
+//
+word: nu translation: now type: adverb group: 🕐 Numbers & time example.nl: We moeten nu vertrekken. example.en: We have to leave now. tags: ⭐ common, 🕐 time priority: yes
+//
+word: later translation: later type: adverb group: 🕐 Numbers & time example.nl: Ik bel je later terug. example.en: I'll call you back later. tags: ⭐ common, 🕐 time priority: yes

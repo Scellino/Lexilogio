@@ -1,0 +1,85 @@
+word: hoofd translation: head type: noun group: 🩺 Body & Doctor example.nl: Ik heb pijn in mijn hoofd. example.en: I have a pain in my head. note: Hoofdpijn = headache. grammar.Article / Gender: het grammar.Plural: hoofden tags: ⭐ common, 🩺 body priority: yes
+//
+word: oog translation: eye type: noun group: 🩺 Body & Doctor example.nl: Ze heeft blauwe ogen. example.en: She has blue eyes. grammar.Article / Gender: het grammar.Plural: ogen tags: ⭐ common, 🩺 body priority: yes
+//
+word: oor translation: ear type: noun group: 🩺 Body & Doctor example.nl: Ik hoor slecht met mijn linkeroor. example.en: I hear poorly with my left ear. grammar.Article / Gender: het grammar.Plural: oren tags: ⭐ common, 🩺 body priority: yes
+//
+word: neus translation: nose type: noun group: 🩺 Body & Doctor example.nl: Mijn neus zit verstopt. example.en: My nose is blocked. grammar.Article / Gender: de grammar.Plural: neuzen tags: ⭐ common, 🩺 body priority: yes
+//
+word: mond translation: mouth type: noun group: 🩺 Body & Doctor example.nl: Doe je mond open, zegt de tandarts. example.en: Open your mouth, says the dentist. grammar.Article / Gender: de grammar.Plural: monden tags: ⭐ common, 🩺 body priority: yes
+//
+word: tand translation: tooth type: noun group: 🩺 Body & Doctor example.nl: Ik heb pijn aan een tand. example.en: I have a toothache. note: Back teeth are called kiezen (molars); de tandarts = dentist. grammar.Article / Gender: de grammar.Plural: tanden tags: ⭐ common, 🩺 body priority: yes
+//
+word: tong translation: tongue type: noun group: 🩺 Body & Doctor example.nl: De dokter kijkt naar je tong. example.en: The doctor looks at your tongue. grammar.Article / Gender: de grammar.Plural: tongen tags: 🩺 body priority: yes
+//
+word: nek translation: neck type: noun group: 🩺 Body & Doctor example.nl: Mijn nek is stijf van het computerwerk. example.en: My neck is stiff from computer work. note: De hals = the front of the neck/throat area. grammar.Article / Gender: de grammar.Plural: nekken tags: 🩺 body priority: yes
+//
+word: schouder translation: shoulder type: noun group: 🩺 Body & Doctor example.nl: Hij droeg de tas op zijn schouder. example.en: He carried the bag on his shoulder. grammar.Article / Gender: de grammar.Plural: schouders tags: 🩺 body priority: yes
+//
+word: arm translation: arm type: noun group: 🩺 Body & Doctor example.nl: Ze brak haar arm bij het schaatsen. example.en: She broke her arm while ice skating. grammar.Article / Gender: de grammar.Plural: armen tags: ⭐ common, 🩺 body priority: yes
+//
+word: elleboog translation: elbow type: noun group: 🩺 Body & Doctor example.nl: Ik stootte mijn elleboog tegen de deur. example.en: I bumped my elbow against the door. grammar.Article / Gender: de grammar.Plural: ellebogen tags: 🩺 body priority: yes
+//
+word: pols translation: wrist type: noun group: 🩺 Body & Doctor example.nl: Ze draagt een horloge om haar pols. example.en: She wears a watch on her wrist. note: Also means pulse: de dokter voelt je pols. grammar.Article / Gender: de grammar.Plural: polsen tags: 🩺 body priority: yes
+//
+word: hand translation: hand type: noun group: 🩺 Body & Doctor example.nl: Was je handen voor het eten. example.en: Wash your hands before eating. grammar.Article / Gender: de grammar.Plural: handen tags: ⭐ common, 🩺 body priority: yes
+//
+word: vinger translation: finger type: noun group: 🩺 Body & Doctor example.nl: Ik heb in mijn vinger gesneden. example.en: I cut my finger. grammar.Article / Gender: de grammar.Plural: vingers tags: ⭐ common, 🩺 body priority: yes
+//
+word: duim translation: thumb type: noun group: 🩺 Body & Doctor example.nl: De baby zuigt op haar duim. example.en: The baby sucks her thumb. note: Duimen voor iemand = to keep one's fingers crossed for someone. grammar.Article / Gender: de grammar.Plural: duimen tags: 🩺 body priority: yes
+//
+word: rug translation: back type: noun group: 🩺 Body & Doctor example.nl: Ik heb last van mijn rug. example.en: My back is bothering me. grammar.Article / Gender: de grammar.Plural: ruggen tags: ⭐ common, 🩺 body priority: yes
+//
+word: borst translation: chest type: noun group: 🩺 Body & Doctor example.nl: De dokter luistert naar je borst. example.en: The doctor listens to your chest. grammar.Article / Gender: de grammar.Plural: borsten tags: 🩺 body priority: yes
+//
+word: buik translation: stomach, belly type: noun group: 🩺 Body & Doctor example.nl: Ik heb buikpijn. example.en: I have a stomachache. note: De maag = the stomach organ; de buik = the belly. grammar.Article / Gender: de grammar.Plural: buiken tags: ⭐ common, 🩺 body priority: yes
+//
+word: been translation: leg type: noun group: 🩺 Body & Doctor example.nl: Hij brak zijn been bij het voetballen. example.en: He broke his leg playing football. note: Also means "bone" in some contexts (het bot is more common). grammar.Article / Gender: het grammar.Plural: benen tags: ⭐ common, 🩺 body priority: yes
+//
+word: knie translation: knee type: noun group: 🩺 Body & Doctor example.nl: Mijn knie doet pijn na het hardlopen. example.en: My knee hurts after running. grammar.Article / Gender: de grammar.Plural: knieën tags: ⭐ common, 🩺 body priority: yes
+//
+word: enkel translation: ankle type: noun group: 🩺 Body & Doctor example.nl: Ze verzwikte haar enkel. example.en: She sprained her ankle. note: Also an adjective meaning "single": een enkele reis (one-way trip). grammar.Article / Gender: de grammar.Plural: enkels tags: 🩺 body priority: yes
+//
+word: voet translation: foot type: noun group: 🩺 Body & Doctor example.nl: We gaan te voet naar het centrum. example.en: We go to the centre on foot. grammar.Article / Gender: de grammar.Plural: voeten tags: ⭐ common, 🩺 body priority: yes
+//
+word: teen translation: toe type: noun group: 🩺 Body & Doctor example.nl: Ik stootte mijn kleine teen. example.en: I stubbed my little toe. grammar.Article / Gender: de grammar.Plural: tenen tags: 🩺 body priority: yes
+//
+word: huid translation: skin type: noun group: 🩺 Body & Doctor example.nl: Smeer je huid in tegen de zon. example.en: Put sunscreen on your skin. grammar.Article / Gender: de grammar.Plural: huiden tags: 🩺 body priority: yes
+//
+word: haar translation: hair type: noun group: 🩺 Body & Doctor example.nl: Ze heeft lang blond haar. example.en: She has long blonde hair. note: Het haar (head of hair); een haar (a single hair, de). grammar.Article / Gender: het grammar.Plural: haren tags: ⭐ common, 🩺 body priority: yes
+//
+word: hart translation: heart type: noun group: 🩺 Body & Doctor example.nl: Mijn hart klopt snel na het rennen. example.en: My heart beats fast after running. grammar.Article / Gender: het grammar.Plural: harten tags: ⭐ common, 🩺 body priority: yes
+//
+word: long translation: lung type: noun group: 🩺 Body & Doctor example.nl: Roken is slecht voor je longen. example.en: Smoking is bad for your lungs. grammar.Article / Gender: de grammar.Plural: longen tags: 🩺 body priority: yes
+//
+word: bloed translation: blood type: noun group: 🩺 Body & Doctor example.nl: De verpleegkundige prikt wat bloed. example.en: The nurse draws some blood. grammar.Article / Gender: het tags: ⭐ common, 🩺 body priority: yes
+//
+word: bot translation: bone type: noun group: 🩺 Body & Doctor example.nl: Gelukkig is er geen bot gebroken. example.en: Luckily no bone is broken. grammar.Article / Gender: het grammar.Plural: botten tags: 🩺 body priority: yes
+//
+word: dokter translation: doctor type: noun group: 🩺 Body & Doctor example.nl: Ik moet naar de dokter. example.en: I have to see the doctor. note: The GP is de huisarts — in the Netherlands always your first stop. grammar.Article / Gender: de grammar.Plural: dokters tags: ⭐ common, 🩺 medical priority: yes
+//
+word: verpleegkundige translation: nurse type: noun group: 🩺 Body & Doctor example.nl: De verpleegkundige geeft je een prik. example.en: The nurse gives you an injection. note: Older word: verpleegster (f) / verpleger (m). grammar.Article / Gender: de grammar.Plural: verpleegkundigen tags: 🩺 medical priority: yes
+//
+word: ziekenhuis translation: hospital type: noun group: 🩺 Body & Doctor example.nl: Hij ligt in het ziekenhuis. example.en: He is in hospital. note: Literally "sick house." grammar.Article / Gender: het grammar.Plural: ziekenhuizen tags: ⭐ common, 🩺 medical priority: yes
+//
+word: apotheek translation: pharmacy type: noun group: 🩺 Body & Doctor example.nl: Je kunt de medicijnen bij de apotheek ophalen. example.en: You can pick up the medicine at the pharmacy. note: A drogist sells non-prescription products only. grammar.Article / Gender: de grammar.Plural: apotheken tags: ⭐ common, 🩺 medical priority: yes
+//
+word: medicijn translation: medicine type: noun group: 🩺 Body & Doctor example.nl: Neem dit medicijn twee keer per dag. example.en: Take this medicine twice a day. grammar.Article / Gender: het grammar.Plural: medicijnen tags: ⭐ common, 🩺 medical priority: yes
+//
+word: pijn translation: pain type: noun group: 🩺 Body & Doctor example.nl: Waar doet het pijn? example.en: Where does it hurt? note: Pijn doen = to hurt. Hoofdpijn, buikpijn, keelpijn: compound freely! grammar.Article / Gender: de tags: ⭐ common, 🩺 medical priority: yes
+//
+word: koorts translation: fever type: noun group: 🩺 Body & Doctor example.nl: Ze heeft 39 graden koorts. example.en: She has a fever of 39 degrees. grammar.Article / Gender: de tags: ⭐ common, 🩺 medical priority: yes
+//
+word: ziek translation: ill, sick type: adjective group: 🩺 Body & Doctor example.nl: Ik ben ziek, ik blijf vandaag thuis. example.en: I'm ill, I'm staying home today. note: Zich ziek melden = to call in sick. grammar.Inflected form: zieke tags: ⭐ common, 🩺 medical priority: yes
+//
+word: afspraak translation: appointment type: noun group: 🩺 Body & Doctor example.nl: Ik heb morgen een afspraak bij de huisarts. example.en: I have an appointment with the GP tomorrow. note: Also means agreement: afspraak is afspraak (a deal is a deal). grammar.Article / Gender: de grammar.Plural: afspraken tags: ⭐ common, 🩺 medical priority: yes
+//
+word: allergie translation: allergy type: noun group: 🩺 Body & Doctor example.nl: Ik heb een allergie voor noten. example.en: I have a nut allergy. note: Allergisch voor = allergic to. grammar.Article / Gender: de grammar.Plural: allergieën tags: 🩺 medical priority: yes
+//
+word: symptoom translation: symptom type: noun group: 🩺 Body & Doctor example.nl: Wat zijn de symptomen? example.en: What are the symptoms? grammar.Article / Gender: het grammar.Plural: symptomen tags: 🩺 medical priority: yes
+//
+word: prik translation: injection type: noun group: 🩺 Body & Doctor example.nl: De baby krijgt vandaag een prik. example.en: The baby gets an injection today. note: Everyday word; formal: de injectie. Prikken = to jab. grammar.Article / Gender: de grammar.Plural: prikken tags: 🩺 medical priority: yes
+//
+word: recept translation: prescription type: noun group: 🩺 Body & Doctor example.nl: Dit medicijn is alleen op recept verkrijgbaar. example.en: This medicine is only available on prescription. note: Also means recipe — same double meaning as in Greek and French! grammar.Article / Gender: het grammar.Plural: recepten tags: 🩺 medical priority: yes
+//
+word: ambulance translation: ambulance type: noun group: 🩺 Body & Doctor example.nl: Bel 112 voor een ambulance! example.en: Call 112 for an ambulance! note: 112 is the emergency number in the Netherlands and the whole EU. grammar.Article / Gender: de grammar.Plural: ambulances tags: 🩺 medical priority: yes

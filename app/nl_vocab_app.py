@@ -43,6 +43,9 @@ NL_LANG = {
         "culture":       "🎭 Culture",
     },
 
+    # Lets preset cards set their article class via grammar.Article / Gender: de|het
+    "gender_grammar_label": "Article / Gender",
+
     # Dutch has two article classes: "de" (common) and "het" (neuter).
     # No vowel elision, so vowel_start == otherwise for both genders.
     "article_rule": {

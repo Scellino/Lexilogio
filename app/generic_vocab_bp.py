@@ -305,6 +305,8 @@ select option{background:#1a1a2e;color:#fff}
 .spk-btn:hover{opacity:.95}
 .spk-btn.spk-sm{font-size:13px;padding:1px 4px}
 .no-tts .spk-btn{display:none}
+.pack-nudge{background:rgba(122,196,154,.07);border:1px solid rgba(122,196,154,.25);border-radius:12px;padding:10px 16px;font-family:sans-serif;font-size:12px;color:rgba(122,196,154,.85);text-align:center;margin-bottom:18px;width:100%;max-width:520px}
+.pack-nudge a{color:#7ac49a;font-weight:600}
 /* ── What's new modal ── */
 .wn-overlay{position:fixed;inset:0;background:rgba(0,0,0,.6);z-index:400;display:flex;align-items:center;justify-content:center;backdrop-filter:blur(2px);-webkit-backdrop-filter:blur(2px)}
 .wn-modal{background:#16162a;border:1px solid rgba(201,169,110,.25);border-radius:18px;padding:26px 24px 20px;max-width:420px;width:90%;max-height:80dvh;overflow-y:auto;font-family:sans-serif}
@@ -346,6 +348,7 @@ select option{background:#1a1a2e;color:#fff}
     <div class="header-title">__HEADER_TITLE__</div>
   </div>
   <div id="preview-banner"></div>
+  <div id="pack-nudge"></div>
 </div>
 <div class="tabs" id="tabs">
   <button class="tab active" onclick="switchTab('browse')">&#128218; Browse</button>
@@ -506,6 +509,12 @@ async function init(){
   ]);
   render();
   maybeShowWhatsNew();
+  // Nudge logged-in users with an empty deck toward the ready-made packs
+  const nudge=document.getElementById('pack-nudge');
+  if(nudge&&USER.id&&!allCards.some(c=>c._user)){
+    nudge.className='pack-nudge';
+    nudge.innerHTML='&#128230; New here? <a href="/community">Add a ready-made word pack</a> and start studying right away';
+  }
 }
 
 // ── What's new ─────────────────────────────────────────────────────────────────

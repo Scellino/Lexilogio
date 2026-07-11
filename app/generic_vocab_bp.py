@@ -301,6 +301,15 @@ select option{background:#1a1a2e;color:#fff}
 .add-hint{background:rgba(255,255,255,.025);border:1px solid rgba(255,255,255,.06);border-radius:12px;padding:16px;font-family:sans-serif;font-size:12px;line-height:1.7;color:rgba(255,255,255,.5);margin-top:14px}
 .add-tips{background:rgba(255,255,255,.02);border:1px solid rgba(255,255,255,.05);border-radius:12px;padding:14px 16px;font-family:sans-serif;font-size:11px;line-height:1.6;margin-top:10px}
 .add-tips-title{font-size:10px;color:rgba(201,169,110,.6);letter-spacing:1px;text-transform:uppercase;font-weight:700;margin-bottom:10px;display:flex;justify-content:space-between;align-items:center}
+/* ── What's new modal ── */
+.wn-overlay{position:fixed;inset:0;background:rgba(0,0,0,.6);z-index:400;display:flex;align-items:center;justify-content:center;backdrop-filter:blur(2px);-webkit-backdrop-filter:blur(2px)}
+.wn-modal{background:#16162a;border:1px solid rgba(201,169,110,.25);border-radius:18px;padding:26px 24px 20px;max-width:420px;width:90%;max-height:80dvh;overflow-y:auto;font-family:sans-serif}
+.wn-title{font-family:Georgia,serif;font-size:20px;color:#c9a96e;margin-bottom:2px}
+.wn-date{font-size:11px;color:rgba(255,255,255,.3);margin-bottom:18px;letter-spacing:.5px}
+.wn-item{display:flex;gap:12px;margin-bottom:14px;font-size:13px;line-height:1.55;color:rgba(255,255,255,.55)}
+.wn-item b{color:rgba(255,255,255,.85);font-weight:600}
+.wn-icon{font-size:17px;flex-shrink:0;line-height:1.3}
+.wn-btn{width:100%;margin-top:8px;padding:12px;border-radius:10px;border:none;background:linear-gradient(135deg,#c9a96e,#e8c98a);color:#1a1a2e;font-size:13px;font-weight:700;font-family:sans-serif;letter-spacing:.5px;cursor:pointer}
 @media(max-width:430px){
   .app{padding-left:10px;padding-right:10px;padding-top:56px}
   .prompt-card{padding:22px 14px 18px}
@@ -455,6 +464,35 @@ async function init(){
     api('/api/progress').then(d=>d.progress),
   ]);
   render();
+  maybeShowWhatsNew();
+}
+
+// ── What's new ─────────────────────────────────────────────────────────────────
+// Bump v and swap the items whenever a release has user-visible changes.
+const WHATS_NEW={v:1,date:'July 2026',items:[
+  ['🎯','Smarter quizzes','Words you struggle with now come up more often than ones you\\'ve mastered.'],
+  ['📦','New Greek packs','Body &amp; Doctor and Family &amp; relationships are in the Community hub, every card with grammar and etymology.'],
+  ['🏷️','Tidier filters','Group and tag filters now fold away neatly on small screens.'],
+  ['☕','Support Lexilogio','The donate page is live. Entirely optional, as always.'],
+]};
+function maybeShowWhatsNew(){
+  if(!USER||!USER.id) return;   // logged-in users only
+  let seen=0; try{seen=parseInt(localStorage.getItem('wn_seen')||'0',10)||0;}catch(e){}
+  if(seen>=WHATS_NEW.v) return;
+  const ov=document.createElement('div');
+  ov.className='wn-overlay';ov.id='wn-overlay';
+  ov.innerHTML=`<div class="wn-modal">
+    <div class="wn-title">&#10024; What's new</div>
+    <div class="wn-date">${WHATS_NEW.date}</div>
+    ${WHATS_NEW.items.map(([ic,t,d])=>`<div class="wn-item"><span class="wn-icon">${ic}</span><div><b>${t}</b> &middot; ${d}</div></div>`).join('')}
+    <button class="wn-btn" onclick="dismissWhatsNew()">Nice, got it</button>
+  </div>`;
+  ov.addEventListener('click',e=>{if(e.target===ov)dismissWhatsNew();});
+  document.body.appendChild(ov);
+}
+function dismissWhatsNew(){
+  try{localStorage.setItem('wn_seen',String(WHATS_NEW.v));}catch(e){}
+  const o=document.getElementById('wn-overlay');if(o)o.remove();
 }
 
 // ── Mastery ────────────────────────────────────────────────────────────────────

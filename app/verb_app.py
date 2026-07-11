@@ -4,6 +4,7 @@
 import json, re, threading, unicodedata
 from pathlib import Path
 from flask import Blueprint, Flask, jsonify, request
+from flask_login import current_user
 
 verb_bp = Blueprint('verb', __name__)
 
@@ -585,21 +586,31 @@ def api_verb(page_num: int):
         parsed = {**parsed, 'tenses': enriched}
     return jsonify(parsed)
 
+_MAX_PROGRESS_KEYS = 50_000  # cap growth of the shared progress file
+
 @verb_bp.route('/api/check', methods=['POST'])
 def api_check():
-    d      = request.json
-    result = check_answer(d.get('guess', ''), d.get('correct', ''))
+    d = request.get_json(silent=True)
+    if not isinstance(d, dict):
+        d = {}
+    result = check_answer(str(d.get('guess', '')), str(d.get('correct', '')))
 
     verb   = d.get('verb')
     tense  = d.get('tense')
     person = d.get('person')
     page   = d.get('page')
-    if verb and tense and person:
+    # The progress file is shared (single-user legacy) — validate the key
+    # parts so anonymous POSTs can't grow it without bound
+    valid = (isinstance(verb, str) and isinstance(tense, str) and isinstance(person, str)
+             and 0 < len(verb) <= 64 and 0 < len(tense) <= 64 and 0 < len(person) <= 64)
+    if valid:
         with _progress_lock:
             p   = load_progress()
 
             # Per-person counts (existing format, kept for backward compat)
             key = f"{verb}:{tense}:{person}"
+            if key not in p and len(p) >= _MAX_PROGRESS_KEYS:
+                return jsonify({'result': result, 'correct_form': _normalize(str(d.get('correct', '')))})
             e   = p.setdefault(key, {'attempts': 0, 'correct': 0, 'close': 0})
             e['attempts'] += 1
             if result == 'correct':
@@ -616,7 +627,7 @@ def api_check():
 
             save_progress(p)
 
-    return jsonify({'result': result, 'correct_form': _normalize(d.get('correct', ''))})
+    return jsonify({'result': result, 'correct_form': _normalize(str(d.get('correct', '')))})
 
 @verb_bp.route('/api/progress')
 def api_progress():
@@ -626,9 +637,16 @@ def api_progress():
 def api_get_presets():
     return jsonify(load_presets())
 
+def _presets_writable():
+    # Presets are a single global file shown to every visitor — only an
+    # admin may change them
+    return current_user.is_authenticated and current_user.is_admin
+
 @verb_bp.route('/api/presets/save', methods=['POST'])
 def api_save_preset():
-    d = request.json
+    if not _presets_writable():
+        return jsonify({'error': 'admin required'}), 403
+    d = request.get_json(silent=True) or {}
     name = (d.get('name') or '').strip()
     if not name:
         return jsonify({'error': 'name required'}), 400
@@ -639,7 +657,9 @@ def api_save_preset():
 
 @verb_bp.route('/api/presets/delete', methods=['POST'])
 def api_delete_preset():
-    name = (request.json or {}).get('name', '')
+    if not _presets_writable():
+        return jsonify({'error': 'admin required'}), 403
+    name = (request.get_json(silent=True) or {}).get('name', '')
     save_presets([p for p in load_presets() if p['name'] != name])
     return jsonify({'ok': True})
 

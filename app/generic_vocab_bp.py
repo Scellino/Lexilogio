@@ -61,6 +61,20 @@ DEPARTURE_NAMES = {
     'pt': 'Portuguese', 'pl': 'Polish', 'sv': 'Swedish',
 }
 
+# Caps on user-supplied card payloads (stored verbatim as JSON)
+MAX_CARD_BYTES = 20_000   # richest curated cards are ~2 KB
+MAX_USER_CARDS = 5_000    # per user per language
+
+
+def _card_payload():
+    """Parsed JSON body if it is a dict within size limits, else None."""
+    data = request.get_json(silent=True)
+    if not isinstance(data, dict):
+        return None
+    if len(json.dumps(data, ensure_ascii=False).encode()) > MAX_CARD_BYTES:
+        return None
+    return data
+
 # ── Normalisation & checking ───────────────────────────────────────────────────
 
 def _normalise(s):
@@ -1824,7 +1838,7 @@ def make_vocab_blueprint(lang, check_fn=None):
 
     @bp.route("/api/check", methods=["POST"])
     def check():
-        body      = request.get_json()
+        body      = request.get_json(silent=True) or {}
         guess     = body.get("guess", "")
         correct   = body.get("correct", "")
         direction = body.get("direction", "word→en")
@@ -1887,7 +1901,13 @@ def make_vocab_blueprint(lang, check_fn=None):
     def save():
         if not current_user.is_authenticated:
             return jsonify({"error": "login required"}), 401
-        card = request.get_json()
+        card = _card_payload()
+        if card is None:
+            return jsonify({"error": "invalid card"}), 400
+        n_cards = UserCard.query.filter_by(
+            user_id=current_user.id, lang_code=lang_code).count()
+        if n_cards >= MAX_USER_CARDS:
+            return jsonify({"error": "card limit reached"}), 400
         card["id"] = str(uuid.uuid4())[:8]   # server-side unique ID
         dep = current_user.departure_lang or 'en'
         card["departure_lang"] = dep
@@ -1906,7 +1926,9 @@ def make_vocab_blueprint(lang, check_fn=None):
     def edit():
         if not current_user.is_authenticated:
             return jsonify({"error": "login required"}), 401
-        card = request.get_json()
+        card = _card_payload()
+        if card is None:
+            return jsonify({"error": "invalid card"}), 400
         cid  = str(card.get("id"))
         row  = UserCard.query.filter_by(
             user_id=current_user.id, lang_code=lang_code, card_id=cid
@@ -1924,7 +1946,7 @@ def make_vocab_blueprint(lang, check_fn=None):
     def delete():
         if not current_user.is_authenticated:
             return jsonify({"error": "login required"}), 401
-        cid = str(request.get_json().get("id"))
+        cid = str((request.get_json(silent=True) or {}).get("id"))
         UserCard.query.filter_by(
             user_id=current_user.id, lang_code=lang_code, card_id=cid
         ).delete()
@@ -1936,7 +1958,13 @@ def make_vocab_blueprint(lang, check_fn=None):
         """Submit a card to the community pool for admin review."""
         if not current_user.is_authenticated:
             return jsonify({"error": "login required"}), 401
-        card = request.get_json()
+        card = _card_payload()
+        if card is None:
+            return jsonify({"error": "invalid card"}), 400
+        n_pending = CardSubmission.query.filter_by(
+            user_id=current_user.id, status="pending").count()
+        if n_pending >= 200:
+            return jsonify({"error": "too many pending submissions"}), 400
         sub  = CardSubmission(
             user_id=current_user.id,
             lang_code=lang_code,

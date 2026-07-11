@@ -18,13 +18,15 @@ Routes:
 """
 import os
 import json
+import time
 import urllib.request
 import urllib.parse
 import bcrypt
 import resend
+from collections import defaultdict, deque
 from itsdangerous import URLSafeTimedSerializer, BadSignature, SignatureExpired
 from flask import (Blueprint, render_template_string, request,
-                   redirect, url_for, flash, session)
+                   redirect, url_for, flash, session, current_app)
 from flask_login import login_user, logout_user, login_required, current_user
 from authlib.integrations.flask_client import OAuth
 from models import db, User, Progress, UserCard, CardSubmission
@@ -39,6 +41,28 @@ _TURNSTILE_SECRET_KEY = os.environ.get("TURNSTILE_SECRET_KEY", "")
 _TURNSTILE_ENABLED    = bool(_TURNSTILE_SITE_KEY and _TURNSTILE_SECRET_KEY)
 
 _FROM_EMAIL = "Λεξιλόγιο <noreply@lexilogio.org>"
+
+
+# ── Rate limiting ─────────────────────────────────────────────────────────────
+# In-memory sliding window, per gunicorn worker. Not exact across workers, but
+# tight enough to stop credential brute-force and email bombing.
+
+_RATE_BUCKETS: dict = defaultdict(deque)
+
+def _rate_limited(bucket: str, limit: int, per_seconds: int) -> bool:
+    """True if `bucket` has exceeded `limit` hits in the last `per_seconds`."""
+    now = time.time()
+    q = _RATE_BUCKETS[bucket]
+    while q and q[0] < now - per_seconds:
+        q.popleft()
+    if len(q) >= limit:
+        return True
+    q.append(now)
+    return False
+
+
+def _client_ip() -> str:
+    return request.remote_addr or "?"
 
 
 # ── Turnstile ─────────────────────────────────────────────────────────────────
@@ -100,7 +124,8 @@ def _email_html(heading: str, body: str, btn_url: str, btn_text: str) -> str:
 # ── Tokens ────────────────────────────────────────────────────────────────────
 
 def _serializer():
-    return URLSafeTimedSerializer(os.environ.get("SECRET_KEY", "dev-secret"))
+    # Same key as session signing — avoids a divergent hardcoded fallback
+    return URLSafeTimedSerializer(current_app.config["SECRET_KEY"])
 
 
 def _make_token(email: str, salt: str) -> str:
@@ -252,7 +277,9 @@ def login():
 
     error = ""
     if request.method == "POST":
-        if not _verify_turnstile(request.form.get("cf-turnstile-response", "")):
+        if _rate_limited(f"login:{_client_ip()}", limit=10, per_seconds=300):
+            error = "Too many attempts. Please wait a few minutes and try again."
+        elif not _verify_turnstile(request.form.get("cf-turnstile-response", "")):
             error = "CAPTCHA verification failed. Please try again."
         else:
             email    = request.form.get("email", "").strip().lower()
@@ -289,7 +316,9 @@ def signup():
 
     error = ""
     if request.method == "POST":
-        if not _verify_turnstile(request.form.get("cf-turnstile-response", "")):
+        if _rate_limited(f"signup:{_client_ip()}", limit=5, per_seconds=3600):
+            error = "Too many signups from this address. Please try again later."
+        elif not _verify_turnstile(request.form.get("cf-turnstile-response", "")):
             error = "CAPTCHA verification failed. Please try again."
         else:
             name     = request.form.get("name", "").strip()
@@ -350,9 +379,15 @@ def verify(token):
 def resend_verification():
     email = request.args.get("email", "").strip().lower()
     if email:
-        user = User.query.filter_by(email=email).first()
-        if user and not user.is_verified:
-            _send_verification_email(user)
+        # Two buckets: per-IP stops one attacker, per-target-email stops a
+        # distributed flood at a single victim's inbox.
+        if (_rate_limited(f"resend:{_client_ip()}", limit=3, per_seconds=900)
+                or _rate_limited(f"resend-to:{email}", limit=3, per_seconds=900)):
+            email = None
+        else:
+            user = User.query.filter_by(email=email).first()
+            if user and not user.is_verified:
+                _send_verification_email(user)
     body = '<p class="info">If that email is registered and unverified, we\'ve sent a new link. Check your inbox.</p><div class="footer-link" style="margin-top:20px"><a href="/auth/login">Back to sign in</a></div>'
     return _page("Verification sent", body, show_google=False)
 
@@ -361,9 +396,11 @@ def resend_verification():
 def forgot():
     if request.method == "POST":
         email = request.form.get("email", "").strip().lower()
-        user  = User.query.filter_by(email=email).first()
-        if user and user.password_hash:
-            _send_reset_email(user)
+        if not (_rate_limited(f"forgot:{_client_ip()}", limit=3, per_seconds=900)
+                or _rate_limited(f"forgot-to:{email}", limit=3, per_seconds=900)):
+            user = User.query.filter_by(email=email).first()
+            if user and user.password_hash:
+                _send_reset_email(user)
         body = '<p class="info">If that email is registered, we\'ve sent a password reset link. It expires in 1 hour.</p><div class="footer-link" style="margin-top:20px"><a href="/auth/login">Back to sign in</a></div>'
         return _page("Check your email", body, show_google=False)
 
@@ -438,6 +475,9 @@ def logout():
 @auth_bp.route("/delete-account", methods=["POST"])
 @login_required
 def delete_account():
+    # CSRF guard: cross-site HTML forms cannot set custom headers
+    if request.headers.get("X-Requested-With") != "XMLHttpRequest":
+        return {"error": "bad request"}, 400
     user = current_user._get_current_object()
     uid  = user.id
     Progress.query.filter_by(user_id=uid).delete()

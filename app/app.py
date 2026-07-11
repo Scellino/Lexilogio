@@ -56,6 +56,17 @@ app.config["SECRET_KEY"]             = os.environ.get("SECRET_KEY", "dev-secret-
 app.config["SQLALCHEMY_DATABASE_URI"]= os.environ.get("DATABASE_URL", f"sqlite:///{_DIR / 'lexilogio.db'}")
 app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
 
+# Session hardening. COOKIE_SECURE=1 is set in the production .env; it stays
+# off locally so login still works over plain http.
+_COOKIE_SECURE = os.environ.get("COOKIE_SECURE", "").lower() in ("1", "true", "yes")
+app.config["SESSION_COOKIE_SECURE"]   = _COOKIE_SECURE
+app.config["SESSION_COOKIE_HTTPONLY"] = True
+app.config["SESSION_COOKIE_SAMESITE"] = "Lax"
+app.config["REMEMBER_COOKIE_SECURE"]   = _COOKIE_SECURE
+app.config["REMEMBER_COOKIE_HTTPONLY"] = True
+app.config["REMEMBER_COOKIE_SAMESITE"] = "Lax"
+app.config["MAX_CONTENT_LENGTH"] = 1024 * 1024  # community copy-batch of a full pack is the largest legitimate payload
+
 db.init_app(app)
 
 login_manager = LoginManager()
@@ -512,6 +523,11 @@ def set_cache(resp):
         resp.headers["Cache-Control"] = "public, max-age=3600"
     else:
         resp.headers["Cache-Control"] = "no-store"
+    resp.headers["X-Content-Type-Options"] = "nosniff"
+    resp.headers["X-Frame-Options"] = "DENY"
+    resp.headers["Referrer-Policy"] = "strict-origin-when-cross-origin"
+    if _COOKIE_SECURE:
+        resp.headers["Strict-Transport-Security"] = "max-age=31536000"
     return resp
 
 @app.route("/")
@@ -526,6 +542,8 @@ def home():
         })
     else:
         user_js = '{"guest":true}'
+    # "</" would let a name like "</script>..." break out of the script block
+    user_js = user_js.replace("</", "<\\/")
     return HOME_HTML.replace("/* __HOME_USER__ */", f"const HOME_USER={user_js};")
 
 
@@ -559,7 +577,8 @@ def profile():
         sd = r.spaced_days or 0
         if rn >= 5 and racc >= 0.8 and sd >= 3:
             stats[lang]['mastered'] += 1
-    name = cu.name or cu.email or ''
+    from markupsafe import escape
+    name = escape(cu.name or cu.email or '')
     rows_html = ''
     for lang, (lname, flag) in LANG_NAMES.items():
         s = stats.get(lang, {'seen': 0, 'mastered': 0})
@@ -654,12 +673,18 @@ td.num-cell.mastered{{color:#7ac49a;font-weight:600}}
     <p>This will permanently delete your account and all your progress data. There's no undo.</p>
     <div class="modal-btns">
       <button class="btn-cancel" onclick="document.getElementById('del-modal').classList.remove('open')">Cancel</button>
-      <form method="POST" action="/auth/delete-account" style="display:inline">
-        <button type="submit" class="btn-confirm-delete">Yes, delete</button>
-      </form>
+      <button class="btn-confirm-delete" onclick="deleteAccount()">Yes, delete</button>
     </div>
   </div>
 </div>
+<script>
+function deleteAccount() {{
+  fetch('/auth/delete-account', {{
+    method: 'POST',
+    headers: {{'X-Requested-With': 'XMLHttpRequest'}}
+  }}).then(r => {{ if (r.ok) window.location = '/?deleted=1'; }});
+}}
+</script>
 </body></html>"""
 
 

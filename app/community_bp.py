@@ -69,7 +69,9 @@ def api_copy():
     if not current_user.is_authenticated:
         return jsonify({"ok": False, "error": "login_required"}), 401
 
-    data = request.get_json(force=True)
+    data = request.get_json(silent=True)
+    if not isinstance(data, dict):
+        return jsonify({"ok": False, "error": "invalid_card"}), 400
     card = data.get("card")
     if not card or not card.get("language"):
         return jsonify({"ok": False, "error": "invalid_card"}), 400
@@ -102,9 +104,13 @@ def api_copy_batch():
     if not current_user.is_authenticated:
         return jsonify({"ok": False, "error": "login_required"}), 401
 
-    data         = request.get_json(force=True)
+    data = request.get_json(silent=True)
+    if not isinstance(data, dict):
+        return jsonify({"ok": False, "error": "invalid_request"}), 400
     cards        = data.get("cards", [])
-    group_override = data.get("group", "").strip() or None
+    group_override = (data.get("group") or "").strip() or None
+    if not isinstance(cards, list) or len(cards) > 1000:
+        return jsonify({"ok": False, "error": "invalid_request"}), 400
 
     # Build existing-card index for this user (by card_id and by word+lang)
     user_cards   = UserCard.query.filter_by(user_id=current_user.id).all()

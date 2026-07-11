@@ -183,10 +183,15 @@ def make_verb_blueprint(lang):
 
     @bp.route("/api/check", methods=["POST"])
     def api_check():
-        data       = request.get_json(force=True)
-        inf        = data.get("verb", "")
-        tense_idx  = int(data.get("tense_idx", 0))
-        person_idx = int(data.get("person_idx", 0))
+        data = request.get_json(silent=True)
+        if not isinstance(data, dict):
+            data = {}
+        inf = data.get("verb", "")
+        try:
+            tense_idx  = int(data.get("tense_idx", 0))
+            person_idx = int(data.get("person_idx", 0))
+        except (TypeError, ValueError):
+            tense_idx = person_idx = 0
         guess      = data.get("guess", "")
         correct    = data.get("correct", "")
 

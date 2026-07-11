@@ -9,6 +9,7 @@ Routes (all require is_admin=True):
 import json
 from datetime import datetime
 from functools import wraps
+from markupsafe import escape
 from flask import Blueprint, jsonify, request, abort, render_template_string
 from flask_login import login_required, current_user
 from models import db, CardSubmission, UserCard
@@ -77,13 +78,15 @@ def submissions():
     items = ""
     for sub in subs:
         card = sub.card()
-        word  = card.get("word") or card.get("greek") or "?"
-        trans = card.get("translation") or ""
-        raw   = json.dumps(card, ensure_ascii=False, indent=2)
+        # All of these are attacker-controlled (submitted by any user) and
+        # render in an admin's browser — escape before interpolating
+        word  = escape(card.get("word") or card.get("greek") or "?")
+        trans = escape(card.get("translation") or "")
+        raw   = escape(json.dumps(card, ensure_ascii=False, indent=2))
         items += f"""
         <div class="sub" id="sub-{sub.id}">
           <div class="sub-meta">
-            #{sub.id} · {sub.lang_code} · by {sub.user.display_name}
+            #{sub.id} · {escape(sub.lang_code)} · by {escape(sub.user.display_name)}
             · {sub.submitted_at.strftime('%Y-%m-%d %H:%M') if sub.submitted_at else '?'}
             {badge(sub.status)}
           </div>

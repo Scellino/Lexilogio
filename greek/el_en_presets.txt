@@ -1,0 +1,56 @@
+word: γεια σου translation: hello, hi type: interjection group: 👋 Greetings & phrases pronunciation: /ˈʝa su/ example.el: Γεια σου! Πώς είσαι; example.en: Hello! How are you? note: Informal (singular). Use γεια σας for formal or plural. tags: ⭐ common, 💬 communication priority: yes
+//
+word: γεια translation: hi type: interjection group: 👋 Greetings & phrases pronunciation: /ˈʝa/ example.el: Γεια! Τι κάνεις; example.en: Hi! What are you up to? note: Very casual shortened form. Often repeated — γεια γεια — when waving goodbye. tags: ⭐ common, 💬 communication priority: yes
+//
+word: αντίο translation: goodbye type: interjection group: 👋 Greetings & phrases pronunciation: /aˈndi.o/ example.el: Αντίο! Καλή συνέχεια. example.en: Goodbye! Have a good rest of the day. note: Neutral to formal farewell. Informal alternatives: τα λέμε, γεια σου. tags: ⭐ common, 💬 communication priority: yes
+//
+word: καλημέρα translation: good morning type: interjection group: 👋 Greetings & phrases pronunciation: /ka.liˈme.ra/ example.el: Καλημέρα! Τι θα πιείτε; example.en: Good morning! What will you have to drink? note: Used until around noon. Compound of καλή (good) + ημέρα (day). tags: ⭐ common, 💬 communication priority: yes
+//
+word: καλό απόγευμα translation: good afternoon type: phrase group: 👋 Greetings & phrases pronunciation: /kaˈlo aˈpo.ʝev.ma/ example.el: Καλό απόγευμα! Τα λέμε αύριο. example.en: Good afternoon! See you tomorrow. note: Less common in practice — Greeks use καλησπέρα from early afternoon onward. tags: 💬 communication priority: no
+//
+word: καλησπέρα translation: good evening type: interjection group: 👋 Greetings & phrases pronunciation: /ka.liˈspe.ra/ example.el: Καλησπέρα! Καλώς ορίσατε. example.en: Good evening! Welcome. note: Used from early afternoon onwards, not just at night. Compound of καλή (good) + εσπέρα (evening). tags: ⭐ common, 💬 communication priority: yes
+//
+word: καληνύχτα translation: good night type: interjection group: 👋 Greetings & phrases pronunciation: /ka.liˈnix.ta/ example.el: Καληνύχτα! Ήταν ωραία βραδιά. example.en: Good night! It was a lovely evening. note: Used when parting at night or going to bed. Compound of καλή (good) + νύχτα (night). tags: ⭐ common, 💬 communication priority: yes
+//
+word: παρακαλώ translation: please, you're welcome type: interjection group: 👋 Greetings & phrases pronunciation: /pa.ra.kaˈlo/ example.el: Ένα καφέ, παρακαλώ. example.en: A coffee, please. note: The same word covers both "please" and "you're welcome" — context makes the meaning clear. tags: ⭐ common, 💬 communication priority: yes
+//
+word: ευχαριστώ translation: thank you type: interjection group: 👋 Greetings & phrases pronunciation: /ef.xa.riˈsto/ example.el: Ευχαριστώ πολύ! Ήσουν υπέροχος. example.en: Thank you very much! You were wonderful. note: Add πολύ for emphasis: ευχαριστώ πολύ. The ευ is pronounced /ef/ before an unvoiced consonant. tags: ⭐ common, 💬 communication priority: yes
+//
+word: τίποτα translation: you're welcome, it's nothing type: interjection group: 👋 Greetings & phrases pronunciation: /ˈti.po.ta/ example.el: — Ευχαριστώ! — Τίποτα, χαρά μου. example.en: — Thank you! — You're welcome, my pleasure. note: Informal response to thank you. Literally "nothing." Παρακαλώ is slightly more formal. tags: ⭐ common, 💬 communication priority: yes
+//
+word: συγγνώμη translation: sorry, excuse me type: interjection group: 👋 Greetings & phrases pronunciation: /siɡˈno.mi/ example.el: Συγγνώμη, δεν ήξερα. example.en: Sorry, I didn't know. note: Used both as an apology and to get someone's attention. For deeper remorse, use λυπάμαι (I'm sorry). tags: ⭐ common, 💬 communication priority: yes
+//
+word: με συγχωρείτε translation: excuse me (formal) type: phrase group: 👋 Greetings & phrases pronunciation: /me siŋ.xoˈri.te/ example.el: Με συγχωρείτε, ξέρετε πού είναι η στάση; example.en: Excuse me, do you know where the bus stop is? note: More polite than συγγνώμη. Used to interrupt someone or ask for help from a stranger. tags: 💬 communication priority: no
+//
+word: ναι translation: yes type: interjection group: 👋 Greetings & phrases pronunciation: /ne/ example.el: Ναι, θα ήθελα ένα παγωτό. example.en: Yes, I would like an ice cream. note: Careful — sounds like English "no" but means "yes"! One of the most common stumbling blocks for learners. tags: ⭐ common, 💬 communication priority: yes
+//
+word: όχι translation: no type: interjection group: 👋 Greetings & phrases pronunciation: /ˈo.xi/ example.el: Όχι, ευχαριστώ, δεν θέλω. example.en: No, thank you, I don't want any. note: Greeks sometimes say "no" with a short upward head tilt — don't mistake it for a nod! tags: ⭐ common, 💬 communication priority: yes
+//
+word: δεν καταλαβαίνω translation: I don't understand type: phrase group: 👋 Greetings & phrases pronunciation: /ðen ka.ta.laˈve.no/ example.el: Συγγνώμη, δεν καταλαβαίνω. Μιλάτε πιο αργά; example.en: Sorry, I don't understand. Could you speak more slowly? note: Δεν = not, καταλαβαίνω = I understand. An essential survival phrase for learners. δ is pronounced like English "th" in "the". tags: ⭐ common, 💬 communication priority: yes
+//
+word: με λένε translation: my name is, they call me type: phrase group: 👋 Greetings & phrases pronunciation: /me ˈle.ne/ example.el: Με λένε Σοφία. Και εσένα; example.en: My name is Sofia. And you? note: Literally "they call me." More natural than το όνομά μου είναι. Followed directly by the name. tags: ⭐ common, 💬 communication priority: yes
+//
+word: πώς είσαι translation: how are you type: phrase group: 👋 Greetings & phrases pronunciation: /pos ˈi.se/ example.el: Πώς είσαι; Όλα καλά; example.en: How are you? All good? note: Informal singular. Formal/plural: πώς είστε. Typical reply: καλά, ευχαριστώ! tags: ⭐ common, 💬 communication priority: yes
+//
+word: είμαι καλά translation: I'm fine, I'm well type: phrase group: 👋 Greetings & phrases pronunciation: /ˈi.me kaˈla/ example.el: Είμαι καλά, ευχαριστώ! Εσύ; example.en: I'm fine, thank you! And you? note: Είμαι = I am, καλά = well/fine. Upgrade to πολύ καλά for "very well." tags: ⭐ common, 💬 communication priority: yes
+//
+word: χάρηκα translation: nice to meet you type: interjection group: 👋 Greetings & phrases pronunciation: /ˈxa.ri.ka/ example.el: — Με λένε Νίκος. — Χάρηκα! example.en: — My name is Nikos. — Nice to meet you! note: Short for χάρηκα για τη γνωριμία. Literally "I was pleased." Χαίρω πολύ is the slightly more formal version. tags: ⭐ common, 💬 communication priority: yes
+//
+word: τα λέμε translation: see you later, bye for now type: phrase group: 👋 Greetings & phrases pronunciation: /ta ˈle.me/ example.el: Εντάξει, τα λέμε αργότερα! example.en: Alright, see you later! note: Literally "we'll tell each other things." The most common informal farewell among friends. tags: ⭐ common, 💬 communication priority: yes
+//
+word: τα λέμε αύριο translation: see you tomorrow type: phrase group: 👋 Greetings & phrases pronunciation: /ta ˈle.me ˈav.ri.o/ example.el: Ήταν ωραία! Τα λέμε αύριο. example.en: It was lovely! See you tomorrow. note: Αύριο = tomorrow. Swap it for any time: τα λέμε σε λίγο (in a bit), τα λέμε την Παρασκευή (on Friday). tags: 💬 communication priority: no
+//
+word: στην υγειά σου translation: cheers, to your health type: phrase group: 👋 Greetings & phrases pronunciation: /stin iˈʝa su/ example.el: Στην υγειά σου! Ωραίο κρασί. example.en: Cheers! Nice wine. note: Literally "to your health." Formal/plural: στην υγειά σας. Shortened among friends: γεια μας! (to our health!). tags: ⭐ common, 💬 communication priority: yes
+//
+word: συγχαρητήρια translation: congratulations type: interjection group: 👋 Greetings & phrases pronunciation: /siŋ.xa.riˈti.ri.a/ example.el: Συγχαρητήρια για τη νέα σου δουλειά! example.en: Congratulations on your new job! note: Informally you can also say μπράβο! for any achievement. tags: 💬 communication priority: yes
+//
+word: χρόνια πολλά translation: happy birthday, many happy returns type: phrase group: 👋 Greetings & phrases pronunciation: /ˈxro.nja poˈla/ example.el: Χρόνια πολλά! Πόσο χρονών είσαι; example.en: Happy birthday! How old are you? note: Literally "many years." Used for birthdays, name days, New Year, and Easter — Greek all-purpose celebration phrase. tags: ⭐ common, 💬 communication priority: yes
+//
+word: καλώς ήρθες translation: welcome type: phrase group: 👋 Greetings & phrases pronunciation: /kaˈlos ˈir.θes/ example.el: Καλώς ήρθες στην Ελλάδα! example.en: Welcome to Greece! note: Informal singular. Formal/plural: καλώς ορίσατε. The guest traditionally replies: καλώς σε βρήκα (glad to be here). tags: 💬 communication priority: yes
+//
+word: κανένα πρόβλημα translation: no problem type: phrase group: 👋 Greetings & phrases pronunciation: /kaˈne.na ˈprov.li.ma/ example.el: — Συγγνώμη που άργησα! — Κανένα πρόβλημα. example.en: — Sorry I'm late! — No problem. note: Also: δεν πειράζει (it doesn't matter) for a softer "don't worry about it." tags: ⭐ common, 💬 communication priority: yes
+//
+word: φυσικά translation: of course, naturally type: adverb group: 👋 Greetings & phrases pronunciation: /fi.siˈka/ example.el: — Μπορείς να με βοηθήσεις; — Φυσικά! example.en: — Can you help me? — Of course! note: Βεβαίως is more formal. Φυσικά is the everyday choice. φ is pronounced like English "f". tags: ⭐ common, 💬 communication priority: yes
+//
+word: ορίστε translation: here you go, can I help you, pardon type: interjection group: 👋 Greetings & phrases pronunciation: /oˈris.te/ example.el: Ορίστε το μενού σας. example.en: Here is your menu. note: Extremely versatile: "here you go" when handing something, "yes?" or "can I help you?" in a shop, and "pardon?" when you didn't hear something. tags: ⭐ common, 💬 communication priority: yes
+//

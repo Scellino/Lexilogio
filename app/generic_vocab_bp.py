@@ -423,7 +423,8 @@ quizDir = DIR_FWD;
   }
   const b=document.getElementById('preview-banner');
   if(b&&isGuest){
-    b.innerHTML='&#128065;&#128068;&#128065; Preview mode &mdash; <a href="/auth/signup">create a free account</a> to save progress and add cards';
+    b.className='preview-banner';
+    b.innerHTML='&#129535; Preview mode: <a href="/auth/signup">create a free account</a> to save progress and add cards';
   }
 })();
 

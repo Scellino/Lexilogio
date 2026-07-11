@@ -281,20 +281,59 @@ HOME_HTML = """<!DOCTYPE html>
     text-align: center;
   }
   .welcome {
-    max-width: 480px;
+    max-width: 440px;
     text-align: center;
-    font-size: 13px;
-    color: rgba(255,255,255,.28);
-    line-height: 1.65;
-    margin-bottom: 36px;
+    font-size: 14px;
+    color: rgba(255,255,255,.45);
+    line-height: 1.7;
+    margin-bottom: 20px;
     letter-spacing: .1px;
   }
+  .features {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    margin-bottom: 34px;
+    align-items: center;
+  }
+  .feat {
+    font-size: 12.5px;
+    color: rgba(255,255,255,.32);
+    letter-spacing: .2px;
+    text-align: center;
+    max-width: 340px;
+  }
+  .feat a { color: rgba(201,169,110,.55); text-decoration: none; }
+  .feat a:hover { color: #c9a96e; }
+  .feat-icon { margin-right: 8px; }
+  .corner-signin {
+    position: fixed;
+    top: 14px;
+    right: 56px;
+    z-index: 200;
+    font-size: 12.5px;
+    color: rgba(201,169,110,.65);
+    text-decoration: none;
+    letter-spacing: .4px;
+    padding: 5px 8px;
+    display: none;
+  }
+  .corner-signin:hover { color: #c9a96e; }
   .footer {
     margin-top: 56px;
     font-size: 11px;
-    color: rgba(255,255,255,.15);
+    color: rgba(255,255,255,.18);
     letter-spacing: .5px;
+    display: flex;
+    gap: 14px;
+    flex-wrap: wrap;
+    justify-content: center;
   }
+  .footer a {
+    color: rgba(255,255,255,.25);
+    text-decoration: none;
+  }
+  .footer a:hover { color: #c9a96e; }
   a { -webkit-tap-highlight-color: transparent; }
   /* ── Hamburger menu ── */
   .menu-btn{position:fixed;top:8px;right:8px;z-index:200;background:transparent;border:1px solid rgba(255,255,255,.12);border-radius:9px;color:rgba(255,255,255,.45);font-size:18px;line-height:1;padding:5px 10px;cursor:pointer;-webkit-tap-highlight-color:transparent;transition:color .15s,border-color .15s;font-family:system-ui,sans-serif}
@@ -320,6 +359,7 @@ HOME_HTML = """<!DOCTYPE html>
 </head>
 <body>
   <button class="menu-btn" onclick="toggleMenu()" aria-label="Menu">&#9776;</button>
+  <a class="corner-signin" id="corner-signin" href="/auth/login">Sign in</a>
   <div class="menu-overlay" id="menu-overlay" onclick="toggleMenu()"></div>
   <nav class="menu-drawer" id="menu-drawer" aria-label="Navigation">
     <div class="menu-spacer"></div>
@@ -334,7 +374,13 @@ HOME_HTML = """<!DOCTYPE html>
   <div class="logo">Λεξιλόγιο</div>
   <div class="tagline" id="tagline">Language Trainer</div>
 
-  <p class="welcome">Welcome to Lexilogio, the vocabulary trainer built to help you improve your language skills. No ads, no paywall, no notifications. Just a clean way to drill the words you want to study. What distinguishes Lexilogio is its simple but effective quiz interface and an easy way to create custom flashcards. If you want to add many words at once, go to the bulk add section, copy the Lexilogio prompt into any chatbot, add your word list, and copy the output back. You will have a set of beautiful flashcards ready to study in no time. Additionally, I am currently working on adding curated card presets you can use to get going right away.</p>
+  <p class="welcome">Free flashcards and quizzes for Greek, Italian, Spanish, German, French,
+     and Dutch. No ads, no paywall, no gamification. You decide what to study.</p>
+  <div class="features">
+    <div class="feat"><span class="feat-icon">📦</span>Curated card packs to start instantly</div>
+    <div class="feat"><span class="feat-icon">✨</span>Paste a word list into any AI chatbot, get flashcards back</div>
+    <div class="feat"><span class="feat-icon">📱</span><a href="/tutorial">Install it on your home screen</a> like an app</div>
+  </div>
 
   <!-- Departure language selector (logged-in users only) -->
   <div class="dep-bar" id="dep-bar" style="display:none">
@@ -385,7 +431,15 @@ HOME_HTML = """<!DOCTYPE html>
     <div class="cards" id="apps-cards"></div>
   </div>
 
-  <div class="footer">lexilogio.org</div>
+  <div class="footer">
+    <a href="/about">About</a>
+    <a href="/tutorial">Tutorial</a>
+    <a href="/community">Community</a>
+    <a href="/donate">Donate</a>
+    <a href="/privacy">Privacy</a>
+    <a href="/terms">Terms</a>
+    <a href="/impressum">Impressum</a>
+  </div>
 
 <script>
 /* __HOME_USER__ */
@@ -474,6 +528,8 @@ function toggleMenu() {
 }
 
 (function _initHomeMenu(){
+  const signin = document.getElementById('corner-signin');
+  if (signin && HOME_USER.guest) signin.style.display = 'block';
   const mac = document.getElementById('menu-account');
   if (!mac) return;
   if (HOME_USER.guest) {

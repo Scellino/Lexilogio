@@ -22,3 +22,7 @@ __pycache__/
 # Old pre-migration data files (already imported to DB)
 */progress.json
 */user_cards.json
+
+# SQLite WAL sidecar files
+app/*.db-wal
+app/*.db-shm

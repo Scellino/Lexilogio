@@ -374,7 +374,7 @@ let quizPhase='setup';
 let quizDir;
 let quizGroups=new Set(), quizTags=new Set(), quizMastery=new Set(), quizCount=10;
 let quizWords=[], quizIdx=0, quizResults=[], quizRetrying=false;
-let quizOrigSet=[], droppedByDir=new Map();
+let quizOrigSet=[], droppedCards=new Set();
 let quizPickMode=false, manualCards=new Set(), pickSearch='', pickGroups=new Set(), pickTags=new Set();
 let addType=(LANG.word_types||['noun'])[0];
 let genAddMode='bulk', genBulkParsed=null;
@@ -843,7 +843,7 @@ function _buildQuizWords(){
 function startQuiz(){
   quizWords=_buildQuizWords();
   quizOrigSet=[...quizWords];
-  droppedByDir=new Map();
+  droppedCards=new Set();
   quizIdx=0;quizResults=[];quizRetrying=false;quizPhase='quiz';renderQuizQuestion();
 }
 function startStudy(){
@@ -981,8 +981,7 @@ async function skipWord(){
 
 function dropWord(){
   const card=quizWords[quizIdx];
-  if(!droppedByDir.has(quizDir)) droppedByDir.set(quizDir,new Set());
-  droppedByDir.get(quizDir).add(card.id);
+  droppedCards.add(card.id);
   quizWords.splice(quizIdx,1);quizRetrying=false;
   if(!quizWords.length){quizPhase='results';renderQuiz();return;}
   if(quizIdx>=quizWords.length) quizIdx=quizWords.length-1;
@@ -990,8 +989,8 @@ function dropWord(){
 }
 function switchQuizDir(){
   quizDir=quizDir===DIR_FWD?DIR_REV:DIR_FWD;
-  const dropped=droppedByDir.get(quizDir)||new Set();
-  quizWords=shuffle(quizOrigSet.filter(c=>!dropped.has(c.id)));
+  droppedCards=new Set();
+  quizWords=shuffle([...quizOrigSet]);
   quizIdx=0;quizRetrying=false;
   renderQuizQuestion();
 }

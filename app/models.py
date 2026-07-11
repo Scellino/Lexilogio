@@ -4,10 +4,25 @@ models.py — SQLAlchemy models for Lexilogio.
 SQLite by default; switch to PostgreSQL by changing DATABASE_URL.
 """
 import json
+import sqlite3
 from flask_sqlalchemy import SQLAlchemy
 from flask_login import UserMixin
+from sqlalchemy import event
+from sqlalchemy.engine import Engine
 
 db = SQLAlchemy()
+
+
+@event.listens_for(Engine, "connect")
+def _sqlite_pragmas(dbapi_con, _record):
+    """WAL lets the two gunicorn workers write concurrently instead of
+    throwing 'database is locked'; busy_timeout covers the rest."""
+    if isinstance(dbapi_con, sqlite3.Connection):
+        cur = dbapi_con.cursor()
+        cur.execute("PRAGMA journal_mode=WAL")
+        cur.execute("PRAGMA busy_timeout=5000")
+        cur.execute("PRAGMA synchronous=NORMAL")
+        cur.close()
 
 
 class User(UserMixin, db.Model):

@@ -1807,6 +1807,22 @@ def make_vocab_blueprint(lang, check_fn=None):
                 user_cards.append(c)
         return _normalize_cards(dep_preset + user_cards)
 
+    def _card_by_id(cid):
+        """Single-card lookup for /api/check — avoids loading and parsing
+        every user card on each quiz answer."""
+        for c in preset_cards:
+            if str(c.get("id")) == cid:
+                return _normalize_cards([c])[0]
+        q = UserCard.query.filter(UserCard.lang_code == lang_code,
+                                  UserCard.card_id == cid)
+        if current_user.is_authenticated:
+            q = q.filter(db.or_(UserCard.user_id == current_user.id,
+                                UserCard.user_id == 0))
+        else:
+            q = q.filter(UserCard.user_id == 0)
+        row = q.first()
+        return _normalize_cards([row.card()])[0] if row else {}
+
     # ── Routes ─────────────────────────────────────────────────────────────────
     @bp.route("/")
     def index():
@@ -1844,9 +1860,8 @@ def make_vocab_blueprint(lang, check_fn=None):
         direction = body.get("direction", "word→en")
         cid       = str(body.get("id", ""))
         if check_fn:
-            cards_by_id = {str(c["id"]): c for c in _all_cards()}
-            card        = cards_by_id.get(cid, {})
-            result      = check_fn(guess, correct, direction, card)
+            card   = _card_by_id(cid) if cid else {}
+            result = check_fn(guess, correct, direction, card)
         else:
             result = _check(guess, correct, direction)
         # Save progress only for logged-in users

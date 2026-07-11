@@ -5,12 +5,13 @@ import json, re, threading, unicodedata
 from pathlib import Path
 from flask import Blueprint, Flask, jsonify, request
 from flask_login import current_user
+from models import db, Progress
 
 verb_bp = Blueprint('verb', __name__)
 
 PDF_PATH     = "/Users/Christoph/Documents/greek/600-modern-greek-verbs-fully-conjugated-in-all-the-tenses-alphabetically-arranged_compress.pdf"
 APP_DIR      = Path(__file__).parent.parent / 'greek'
-PROGRESS_FILE      = APP_DIR / "verb_progress.json"
+PROGRESS_FILE      = APP_DIR / "verb_progress.json"   # legacy — read only by migrate_verb_progress.py
 INDEX_FILE         = APP_DIR / "verb_index.json"
 CONJUGATIONS_FILE  = APP_DIR / "verb_conjugations.json"
 PRESETS_FILE       = APP_DIR / "verb_presets.json"
@@ -477,16 +478,51 @@ threading.Thread(target=_build_conjugations_bg, daemon=True).start()
 
 
 # ── Progress ──────────────────────────────────────────────────────────────────
+# Per-user rows in the Progress table (lang_code "el-verb"). card_id is the
+# legacy key ("verb:tense:person" or "_t:page:tense"); the counts/history dict
+# lives as JSON in the window column. The old shared verb_progress.json was
+# migrated by migrate_verb_progress.py.
 
-_progress_lock = threading.Lock()
+VERB_PROGRESS_LANG = "el-verb"
+_MAX_PROGRESS_ROWS = 60_000   # ≈ full completion of all 600 verbs, per user
 
 def load_progress() -> dict:
-    return json.loads(PROGRESS_FILE.read_text()) if PROGRESS_FILE.exists() else {}
+    """All verb progress for the current user, in the legacy dict shape."""
+    if not current_user.is_authenticated:
+        return {}
+    rows = Progress.query.filter_by(
+        user_id=current_user.id, lang_code=VERB_PROGRESS_LANG).all()
+    out = {}
+    for r in rows:
+        try:
+            v = json.loads(r.window or "{}")
+        except ValueError:
+            continue
+        if isinstance(v, dict):
+            out[r.card_id] = v
+    return out
 
-def save_progress(p: dict):
-    tmp = PROGRESS_FILE.with_suffix('.tmp')
-    tmp.write_text(json.dumps(p, ensure_ascii=False, indent=2))
-    tmp.replace(PROGRESS_FILE)
+def _progress_row(key: str):
+    """Fetch-or-create the current user's row for one progress key.
+    Returns None when the per-user row cap is hit."""
+    row = Progress.query.filter_by(
+        user_id=current_user.id, lang_code=VERB_PROGRESS_LANG, card_id=key).first()
+    if not row:
+        n = Progress.query.filter_by(
+            user_id=current_user.id, lang_code=VERB_PROGRESS_LANG).count()
+        if n >= _MAX_PROGRESS_ROWS:
+            return None
+        row = Progress(user_id=current_user.id, lang_code=VERB_PROGRESS_LANG,
+                       card_id=key, window="{}")
+        db.session.add(row)
+    return row
+
+def _row_value(row, default: dict) -> dict:
+    try:
+        v = json.loads(row.window or "{}")
+    except ValueError:
+        v = None
+    return v if isinstance(v, dict) and v else default
 
 def load_presets() -> list:
     return json.loads(PRESETS_FILE.read_text()) if PRESETS_FILE.exists() else []
@@ -586,8 +622,6 @@ def api_verb(page_num: int):
         parsed = {**parsed, 'tenses': enriched}
     return jsonify(parsed)
 
-_MAX_PROGRESS_KEYS = 50_000  # cap growth of the shared progress file
-
 @verb_bp.route('/api/check', methods=['POST'])
 def api_check():
     d = request.get_json(silent=True)
@@ -599,33 +633,31 @@ def api_check():
     tense  = d.get('tense')
     person = d.get('person')
     page   = d.get('page')
-    # The progress file is shared (single-user legacy) — validate the key
-    # parts so anonymous POSTs can't grow it without bound
     valid = (isinstance(verb, str) and isinstance(tense, str) and isinstance(person, str)
              and 0 < len(verb) <= 64 and 0 < len(tense) <= 64 and 0 < len(person) <= 64)
-    if valid:
-        with _progress_lock:
-            p   = load_progress()
-
-            # Per-person counts (existing format, kept for backward compat)
-            key = f"{verb}:{tense}:{person}"
-            if key not in p and len(p) >= _MAX_PROGRESS_KEYS:
-                return jsonify({'result': result, 'correct_form': _normalize(str(d.get('correct', '')))})
-            e   = p.setdefault(key, {'attempts': 0, 'correct': 0, 'close': 0})
+    if valid and current_user.is_authenticated:
+        # Per-person counts (legacy key format, kept for backward compat)
+        row = _progress_row(f"{verb}:{tense}:{person}")
+        if row is not None:
+            e = _row_value(row, {'attempts': 0, 'correct': 0, 'close': 0})
             e['attempts'] += 1
             if result == 'correct':
                 e['correct'] += 1
             elif result in ('accent', 'close'):
                 e['close'] += 1
+            row.window = json.dumps(e, ensure_ascii=False)
 
-            # Tense-level sliding window (last 12 results for this verb+tense)
-            if page is not None:
-                tkey = f"_t:{page}:{tense}"
-                win  = p.setdefault(tkey, {'history': []})
-                win['history'].append(1 if result in ('correct', 'accent') else 0)
-                win['history'] = win['history'][-12:]
+        # Tense-level sliding window (last 12 results for this verb+tense)
+        if isinstance(page, int):
+            trow = _progress_row(f"_t:{page}:{tense}")
+            if trow is not None:
+                win = _row_value(trow, {'history': []})
+                hist = win.get('history') or []
+                hist.append(1 if result in ('correct', 'accent') else 0)
+                win['history'] = hist[-12:]
+                trow.window = json.dumps(win)
 
-            save_progress(p)
+        db.session.commit()
 
     return jsonify({'result': result, 'correct_form': _normalize(str(d.get('correct', '')))})
 

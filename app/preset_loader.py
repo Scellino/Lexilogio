@@ -103,7 +103,7 @@ def _parse_filename(txt_file):
 
 
 def load_presets(app):
-    """Call once at startup to import any new preset cards from txt files."""
+    """Call once at startup to upsert all preset cards from txt files."""
     from models import db, PresetCard
 
     with app.app_context():
@@ -126,10 +126,8 @@ def load_presets(app):
                     db.session.query(PresetCard.id)
                     .filter_by(lang=lang, departure_lang=departure).all()
                 }
-                new_cards = [c for c in cards if c["id"] not in existing_ids]
-                if not new_cards:
-                    continue
-                for c in new_cards:
+                new_count = sum(1 for c in cards if c["id"] not in existing_ids)
+                for c in cards:
                     ex = c.get("example")
                     db.session.merge(PresetCard(
                         id=c["id"],
@@ -149,7 +147,8 @@ def load_presets(app):
                     ))
                 try:
                     db.session.commit()
-                    print(f"[presets] {lang}/{departure}: imported {len(new_cards)} card(s) from {txt_file.name}")
+                    updated = len(cards) - new_count
+                    print(f"[presets] {lang}/{departure}: {new_count} new, {updated} updated from {txt_file.name}")
                 except Exception as e:
                     db.session.rollback()
                     print(f"[presets] {lang}/{departure}: error importing {txt_file.name}: {e}")

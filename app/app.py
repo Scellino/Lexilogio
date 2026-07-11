@@ -104,7 +104,15 @@ HOME_HTML = """<!DOCTYPE html>
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Λεξιλόγιο</title>
+<title>Λεξιλόγιο — Free Language Trainer</title>
+<meta name="description" content="Free, ad-free vocabulary and verb trainer for Greek, Italian, Spanish, German, French, and Dutch. Build your own flashcard decks or start from curated presets.">
+<meta property="og:title" content="Λεξιλόγιο — Free Language Trainer">
+<meta property="og:description" content="Free, ad-free vocabulary and verb trainer for Greek, Italian, Spanish, German, French, and Dutch.">
+<meta property="og:url" content="https://lexilogio.org/">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://lexilogio.org/icons/icon-512.png">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="/favicon.ico">
 <link rel="manifest" href="/manifest.json">
 <meta name="theme-color" content="#0f0f1a">
 <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png">
@@ -312,6 +320,7 @@ HOME_HTML = """<!DOCTYPE html>
     <a href="/about" class="menu-item"><span class="menu-item-icon">&#127760;</span>About Lexilogio</a>
     <a href="/tutorial" class="menu-item"><span class="menu-item-icon">&#128218;</span>Tutorial</a>
     <a href="/donate" class="menu-item"><span class="menu-item-icon">&#9749;</span>Donate</a>
+    <a href="/privacy" class="menu-item"><span class="menu-item-icon">&#128274;</span>Privacy</a>
     <a href="/impressum" class="menu-item"><span class="menu-item-icon">&#128196;</span>Legal Notice</a>
   </nav>
   <div class="logo">Λεξιλόγιο</div>
@@ -519,7 +528,8 @@ def touch_last_seen():
 @app.after_request
 def set_cache(resp):
     # Static assets can be cached; HTML pages must not (prevents iOS PWA stale views)
-    if request.path.startswith("/icons/") or request.path == "/manifest.json":
+    if (request.path.startswith("/icons/")
+            or request.path in ("/manifest.json", "/favicon.ico", "/robots.txt")):
         resp.headers["Cache-Control"] = "public, max-age=3600"
     else:
         resp.headers["Cache-Control"] = "no-store"
@@ -812,6 +822,8 @@ def sitemap():
         (base + "/about",       "monthly", "0.4"),
         (base + "/tutorial",    "monthly", "0.4"),
         (base + "/donate",      "yearly",  "0.3"),
+        (base + "/privacy",     "yearly",  "0.3"),
+        (base + "/terms",       "yearly",  "0.3"),
         (base + "/impressum",   "yearly",  "0.3"),
     ]
     lines = ['<?xml version="1.0" encoding="UTF-8"?>',
@@ -886,6 +898,161 @@ _IMPRESSUM_HTML = """<!DOCTYPE html>
 @app.route("/impressum")
 def impressum():
     return _IMPRESSUM_HTML
+
+
+_LEGAL_CSS = """
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body { min-height: 100dvh; background: #0f0f1a; font-family: system-ui, sans-serif;
+         color: #fff; padding: 48px 24px; max-width: 640px; margin: 0 auto; }
+  h1 { font-family: Georgia, serif; color: #c9a96e; font-size: 28px;
+       letter-spacing: 1px; margin-bottom: 8px; }
+  .updated { font-size: 12px; color: rgba(255,255,255,.3); margin-bottom: 32px; }
+  h2 { font-size: 13px; color: rgba(255,255,255,.45); letter-spacing: 2px;
+       text-transform: uppercase; margin: 30px 0 10px; }
+  p, li { font-size: 14px; color: rgba(255,255,255,.7); line-height: 1.7; }
+  p { margin-bottom: 12px; }
+  ul { margin: 0 0 12px 20px; }
+  li { margin-bottom: 6px; }
+  a { color: #c9a96e; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .back { display: inline-block; margin-bottom: 36px; font-size: 13px;
+          color: rgba(255,255,255,.35); }
+  .back:hover { color: #c9a96e; }
+"""
+
+
+@app.route("/privacy")
+def privacy():
+    return f"""<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Privacy Policy · Λεξιλόγιο</title>
+<style>{_LEGAL_CSS}</style>
+</head><body>
+  <a class="back" href="/">🧿 Λεξιλόγιο</a>
+  <h1>Privacy Policy</h1>
+  <div class="updated">Last updated: 11 July 2026</div>
+
+  <p>Lexilogio is a free, non-commercial language learning site. This page explains
+     what data it stores and why, in plain language. The short version: only what is
+     needed to run the service — no ads, no tracking, no selling of data.</p>
+
+  <h2>Who is responsible</h2>
+  <p>Christoph Schilling, Gorderlweg 47B, 3037 AD Rotterdam, Netherlands —
+     <a href="mailto:info@lexilogio.org">info@lexilogio.org</a>
+     (see the <a href="/impressum">Impressum</a>).</p>
+
+  <h2>What is stored, and why</h2>
+  <ul>
+    <li><strong>Account data</strong> — your email address, an optional display name, and a
+        hashed password (or your Google account ID if you sign in with Google). Needed to
+        provide your account. Legal basis: performance of a contract (Art. 6(1)(b) GDPR).</li>
+    <li><strong>Study data</strong> — your flashcards, decks, and quiz progress. This is the
+        service itself.</li>
+    <li><strong>Community submissions</strong> — cards you choose to share are stored with
+        your account and shown to other users after review.</li>
+    <li><strong>Technical logs</strong> — the web server keeps standard access logs
+        (IP address, requested page, time) for security and debugging, deleted on rotation.</li>
+  </ul>
+  <p>Guest visitors can use the trainers without an account; no personal data is stored for them.</p>
+
+  <h2>Cookies</h2>
+  <p>Lexilogio uses only an essential session cookie to keep you signed in. There are no
+     analytics, advertising, or tracking cookies — which is why there is no cookie banner.</p>
+
+  <h2>Where data lives, and who processes it</h2>
+  <ul>
+    <li><strong>Hosting:</strong> a server operated by OVH in Frankfurt, Germany (EU).</li>
+    <li><strong>Email:</strong> verification and password-reset emails are sent via Resend
+        (Resend, Inc., USA) — they process your email address for delivery only.</li>
+    <li><strong>Google sign-in</strong> (optional): if you use it, Google shares your email,
+        name, and account ID with Lexilogio. Governed by Google's own privacy policy.</li>
+    <li><strong>CAPTCHA:</strong> the login and signup pages use Cloudflare Turnstile to
+        block bots; Cloudflare may process technical browser data for that purpose.</li>
+  </ul>
+  <p>No data is sold or shared with anyone else.</p>
+
+  <h2>How long data is kept</h2>
+  <p>Until you delete your account. Deleting your account (Profile → Delete my account)
+     immediately and permanently removes your account, cards, submissions, and progress.
+     Encrypted backups rotate out within a few weeks.</p>
+
+  <h2>Your rights</h2>
+  <p>Under the GDPR you can ask for access to, correction of, export of, or deletion of
+     your data at any time — email
+     <a href="mailto:info@lexilogio.org">info@lexilogio.org</a>. Deletion is also available
+     self-service in your profile. You may lodge a complaint with your data protection
+     authority; in the Netherlands that is the Autoriteit Persoonsgegevens.</p>
+</body></html>"""
+
+
+@app.route("/terms")
+def terms():
+    return f"""<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Terms of Use · Λεξιλόγιο</title>
+<style>{_LEGAL_CSS}</style>
+</head><body>
+  <a class="back" href="/">🧿 Λεξιλόγιο</a>
+  <h1>Terms of Use</h1>
+  <div class="updated">Last updated: 11 July 2026</div>
+
+  <p>Lexilogio is a free, non-commercial language learning service, offered as-is by a
+     private individual. By using it you agree to these short terms.</p>
+
+  <h2>The service</h2>
+  <p>Lexilogio is provided free of charge, without warranty of any kind. It may change,
+     break, or be discontinued at any time, though reasonable care is taken to keep it
+     running and to preserve your data. Voluntary donations grant no additional rights.</p>
+
+  <h2>Your content</h2>
+  <p>Cards you create remain yours. If you submit a card to the community pool, you grant
+     Lexilogio a non-exclusive, royalty-free right to review, edit, display, and
+     redistribute it to other users within the service. Do not submit content that you do
+     not have the right to share, or that is offensive or unlawful — such content may be
+     removed and repeat abuse may lead to account termination.</p>
+
+  <h2>Fair use</h2>
+  <p>Do not attempt to disrupt the service, access other users' data, or use automated
+     tools to scrape or flood it. Accounts used for abuse may be removed.</p>
+
+  <h2>Liability</h2>
+  <p>To the extent permitted by law, liability is limited to intent and gross negligence.
+     Card content is provided for learning purposes without guarantee of accuracy.</p>
+
+  <h2>Governing law</h2>
+  <p>These terms are governed by the laws of the Netherlands.</p>
+
+  <p style="margin-top:28px">Questions? <a href="mailto:info@lexilogio.org">info@lexilogio.org</a> ·
+     <a href="/privacy">Privacy Policy</a> · <a href="/impressum">Impressum</a></p>
+</body></html>"""
+
+
+@app.route("/favicon.ico")
+def favicon():
+    return send_from_directory(_DIR / "icons", "favicon-32.png", mimetype="image/png")
+
+
+@app.route("/robots.txt")
+def robots():
+    return Response("User-agent: *\nAllow: /\nSitemap: https://lexilogio.org/sitemap.xml\n",
+                    mimetype="text/plain")
+
+
+@app.errorhandler(404)
+def not_found(_e):
+    return _stub_page("Not found", "🧭", "Page not found",
+        """<p>This page doesn't exist — maybe the link is old, or there's a typo in the address.</p>
+        <p><a href="/" style="color:#c9a96e">← Back to the home page</a></p>"""), 404
+
+
+@app.errorhandler(500)
+def server_error(_e):
+    return _stub_page("Error", "⚠️", "Something went wrong",
+        """<p>An unexpected error occurred. It's not you, it's the server. Please try again
+        in a moment.</p>
+        <p><a href="/" style="color:#c9a96e">← Back to the home page</a></p>"""), 500
 
 
 def _stub_page(title, icon, heading, body_html):

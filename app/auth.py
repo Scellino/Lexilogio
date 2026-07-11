@@ -355,6 +355,8 @@ def signup():
       {_turnstile_widget()}
       <button type="submit" class="btn-primary">Create account</button>
     </form>
+    <div class="footer-link" style="font-size:11px;margin-top:14px">By creating an account you agree to the
+      <a href="/terms">Terms of Use</a> and <a href="/privacy">Privacy Policy</a>.</div>
     <div class="footer-link">Already have an account? <a href="/auth/login">Sign in</a></div>"""
     return _page("Create account", body, error), (400 if error else 200)
 

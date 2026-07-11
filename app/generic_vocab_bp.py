@@ -808,7 +808,7 @@ function renderQuizSetup(){
           <div class="stat-lbl">${MASTERY_LABELS[lvl]}</div>
         </div>`).join('')}
     </div>
-    <div class="meta">Based on last 10 attempts &middot; ${allCards.length} words total</div>`;
+    <div class="meta">Based on last 10 attempts &middot; ${allCards.length} words total &middot; struggling &amp; new words appear more often in quizzes</div>`;
 }
 
 function setQuizDir(d){quizDir=d;renderQuiz();}
@@ -861,10 +861,19 @@ function renderPickPanel(){
   </div>`;
 }
 
+// Words you struggle with (or haven't seen yet) come up more often than
+// mastered ones. Weighted sampling without replacement (Efraimidis-Spirakis:
+// key = random^(1/weight), keep the highest keys).
+const QUIZ_WEIGHTS={struggling:3,new:2,learning:2,mastered:1};
 function _buildQuizWords(){
   if(quizPickMode&&manualCards.size)
     return shuffle(allCards.filter(c=>manualCards.has(c.id)));
-  return shuffle([...quizPool()]).slice(0,quizCount);
+  const picked=[...quizPool()]
+    .map(c=>({c,k:Math.pow(Math.random(),1/(QUIZ_WEIGHTS[cardMastery(c)]||1))}))
+    .sort((a,b)=>b.k-a.k)
+    .slice(0,quizCount)
+    .map(x=>x.c);
+  return shuffle(picked);
 }
 function startQuiz(){
   quizWords=_buildQuizWords();

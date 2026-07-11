@@ -1114,10 +1114,130 @@ def about():
 
 @app.route("/tutorial")
 def tutorial():
-    return _stub_page("Tutorial", "📖", "Tutorial",
-        """<p>A step-by-step guide to getting the most out of Lexilogio is on its way.</p>
-        <p>In the meantime: pick a language on the home page, choose Vocab Trainer, and start with the Study tab.</p>
-        <span class="coming">Full tutorial coming soon</span>""")
+    return """<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tutorial · Λεξιλόγιο</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body { min-height: 100dvh; background: #0f0f1a; font-family: system-ui, sans-serif;
+         color: #fff; padding: 48px 24px 64px; max-width: 620px; margin: 0 auto; }
+  h1 { font-family: Georgia, serif; color: #c9a96e; font-size: 28px;
+       letter-spacing: 1px; margin-bottom: 10px; }
+  .intro { font-size: 14px; color: rgba(255,255,255,.45); line-height: 1.7; margin-bottom: 36px; }
+  h2 { font-size: 13px; color: #c9a96e; letter-spacing: 2px; text-transform: uppercase;
+       margin: 38px 0 14px; padding-top: 26px; border-top: 1px solid rgba(255,255,255,.07); }
+  h2:first-of-type { border-top: none; padding-top: 0; margin-top: 0; }
+  p, li { font-size: 14px; color: rgba(255,255,255,.7); line-height: 1.75; }
+  p { margin-bottom: 12px; }
+  ul, ol { margin: 0 0 14px 20px; }
+  li { margin-bottom: 8px; }
+  strong { color: rgba(255,255,255,.9); font-weight: 600; }
+  .key { display: inline-block; background: rgba(201,169,110,.12);
+         border: 1px solid rgba(201,169,110,.3); border-radius: 6px;
+         padding: 1px 8px; font-size: 12.5px; color: #c9a96e; white-space: nowrap; }
+  .tip { background: rgba(201,169,110,.06); border-left: 3px solid rgba(201,169,110,.4);
+         border-radius: 0 10px 10px 0; padding: 12px 16px; margin: 16px 0;
+         font-size: 13px; color: rgba(255,255,255,.55); line-height: 1.7; }
+  .back { display: inline-block; margin-bottom: 36px; font-size: 13px;
+          color: rgba(255,255,255,.35); text-decoration: none; }
+  .back:hover { color: #c9a96e; }
+  a { color: #c9a96e; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+</style>
+</head>
+<body>
+  <a class="back" href="/">🧿 Λεξιλόγιο</a>
+  <h1>📖 How Lexilogio works</h1>
+  <p class="intro">Five minutes from zero to your first quiz. Lexilogio is a flashcard
+     trainer where <em>you</em> decide what to study — collect words you come across,
+     grab ready-made decks, and drill them until they stick.</p>
+
+  <h2>1 · Getting started</h2>
+  <ol>
+    <li>On the home page, pick the <strong>language you're learning</strong> — say, Greek 🇬🇷.</li>
+    <li>Choose a trainer: <strong>📖 Vocab Trainer</strong> for words and phrases, or
+        <strong>🔤 Verb Trainer</strong> for conjugation drills (Greek &amp; French so far).</li>
+    <li>That's it — you can use everything as a guest. Create a free account when you
+        want your progress and cards saved across devices.</li>
+  </ol>
+  <p>Signed in, you can also set the language <strong>you speak</strong> ("I speak" on the
+     home page) — English, German, or Greek — and cards and quizzes will use it.</p>
+
+  <h2>2 · The three tabs</h2>
+  <ul>
+    <li><span class="key">📚 Browse</span> — your card collection. Tap a card to flip it
+        open: translation, pronunciation, example sentence, grammar (gender, plural,
+        conjugations…), etymology, and usage notes. Switch between list and card view;
+        edit or delete the cards you created.</li>
+    <li><span class="key">📝 Study</span> — the quiz. Choose what to include
+        (<strong>🎲 All</strong>, <strong>🔍 Filter</strong> by group or tag, or
+        <strong>☑ Browse &amp; pick</strong> exact cards), choose the direction, and start.
+        You type the answer — no multiple choice, because recall is what makes it stick.</li>
+    <li><span class="key">➕ Add</span> — create cards. One at a time with the form, or in
+        bulk (see below).</li>
+  </ul>
+
+  <h2>3 · Filling your deck</h2>
+  <p><strong>The fast way — preset packs:</strong> in Browse, tap
+     <span class="key">🌍 Browse community &amp; preset cards</span>. There you'll find
+     themed decks (Greetings, Numbers, Colors &amp; Shapes, Body &amp; Doctor…) with rich
+     grammar and etymology, plus cards shared by other learners. One tap copies a card —
+     or a whole pack — into your deck.</p>
+  <p><strong>The custom way — bulk add:</strong> in the Add tab, switch to bulk mode and
+     copy the <strong>Lexilogio prompt</strong>. Paste it into any AI chatbot (ChatGPT,
+     Claude…), add your word list — "the 30 words from today's lesson" — and paste the
+     chatbot's output back. Lexilogio turns it into finished flashcards, pronunciation
+     and examples included.</p>
+  <p><strong>Sharing back:</strong> you can submit your own cards to the community pool;
+     they appear for everyone once reviewed.</p>
+
+  <h2>4 · How the quiz thinks</h2>
+  <ul>
+    <li><strong>Two directions.</strong> Recognising a word (Greek → English) and recalling
+        it (English → Greek) are different skills — train both.</li>
+    <li><strong>Accents are forgiven.</strong> Typing <em>καρδια</em> for <em>καρδιά</em>
+        counts. Small typos in your own language are auto-corrected.</li>
+    <li><strong>"Close" answers.</strong> Right word, wrong article (<em>ο κεφάλι</em>
+        instead of <em>το κεφάλι</em>)? Near-miss spelling in the language you're learning?
+        You'll get a retry rather than a pass — that's deliberate.</li>
+    <li><strong>Alternative spellings count.</strong> Where Greek has two accepted forms
+        (εφτά / επτά), both are correct.</li>
+    <li><strong>Mastery dots.</strong> Each card's dot goes from new → learning → mastered
+        based on your recent answers, so weak cards are easy to spot. Star ⭐ priority
+        cards to see them more often.</li>
+  </ul>
+
+  <h2>5 · Add Lexilogio to your home screen</h2>
+  <p>Lexilogio works as an app — no app store needed, no notifications, ~0&nbsp;MB.</p>
+  <p><strong>iPhone / iPad (Safari):</strong></p>
+  <ol>
+    <li>Open <strong>lexilogio.org</strong> in Safari.</li>
+    <li>Tap the <strong>Share</strong> button <span class="key">⬆</span> (the square with
+        an arrow, bottom of the screen).</li>
+    <li>Scroll down and tap <strong>"Add to Home Screen"</strong>, then
+        <strong>Add</strong>.</li>
+  </ol>
+  <p><strong>Android (Chrome):</strong></p>
+  <ol>
+    <li>Open <strong>lexilogio.org</strong> in Chrome.</li>
+    <li>Tap the <strong>⋮ menu</strong> (top right).</li>
+    <li>Tap <strong>"Add to home screen"</strong> (on some phones: <strong>"Install
+        app"</strong>), then confirm.</li>
+  </ol>
+  <div class="tip">💡 The home-screen version opens full-screen without browser bars —
+     it feels like a native app, and your login is remembered.</div>
+
+  <h2>6 · A suggested routine</h2>
+  <p>Little and often beats long and rare. A workable rhythm: when you meet new words,
+     add them (or grab the matching preset pack) — then each day, one quick quiz of your
+     starred and weakest cards in each direction. Ten minutes is plenty. The mastery dots
+     will tell you what needs another pass.</p>
+  <p style="margin-top:26px">Questions or ideas? <a href="mailto:info@lexilogio.org">info@lexilogio.org</a></p>
+</body>
+</html>"""
 
 
 _PAYPAL_ME = "https://www.paypal.com/paypalme/scellino"

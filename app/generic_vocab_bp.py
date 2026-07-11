@@ -301,6 +301,9 @@ select option{background:#1a1a2e;color:#fff}
 .add-hint{background:rgba(255,255,255,.025);border:1px solid rgba(255,255,255,.06);border-radius:12px;padding:16px;font-family:sans-serif;font-size:12px;line-height:1.7;color:rgba(255,255,255,.5);margin-top:14px}
 .add-tips{background:rgba(255,255,255,.02);border:1px solid rgba(255,255,255,.05);border-radius:12px;padding:14px 16px;font-family:sans-serif;font-size:11px;line-height:1.6;margin-top:10px}
 .add-tips-title{font-size:10px;color:rgba(201,169,110,.6);letter-spacing:1px;text-transform:uppercase;font-weight:700;margin-bottom:10px;display:flex;justify-content:space-between;align-items:center}
+.spk-btn{background:none;border:none;cursor:pointer;font-size:17px;opacity:.45;padding:2px 6px;vertical-align:middle;line-height:1;transition:opacity .15s;flex-shrink:0}
+.spk-btn:hover{opacity:.95}
+.spk-btn.spk-sm{font-size:13px;padding:1px 4px}
 /* ── What's new modal ── */
 .wn-overlay{position:fixed;inset:0;background:rgba(0,0,0,.6);z-index:400;display:flex;align-items:center;justify-content:center;backdrop-filter:blur(2px);-webkit-backdrop-filter:blur(2px)}
 .wn-modal{background:#16162a;border:1px solid rgba(201,169,110,.25);border-radius:18px;padding:26px 24px 20px;max-width:420px;width:90%;max-height:80dvh;overflow-y:auto;font-family:sans-serif}
@@ -355,6 +358,30 @@ select option{background:#1a1a2e;color:#fff}
 // ── Helpers ────────────────────────────────────────────────────────────────────
 function esc(s) {
   return String(s??'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+// ── Pronunciation via browser TTS (free, on-device, no server involved) ────────
+const TTS_LANG=({el:'el-GR',fr:'fr-FR',nl:'nl-NL',it:'it-IT',es:'es-ES',de:'de-DE'})[LANG.code]||LANG.code;
+const TTS_OK=('speechSynthesis' in window);
+if(TTS_OK) speechSynthesis.getVoices();  // kick off async voice loading early
+function _ttsVoice(){
+  const vs=speechSynthesis.getVoices();
+  return vs.find(v=>v.lang.replace('_','-')===TTS_LANG)
+      || vs.find(v=>v.lang.toLowerCase().startsWith(LANG.code))
+      || null;
+}
+function speak(text,ev){
+  if(ev)ev.stopPropagation();
+  if(!TTS_OK||!text) return;
+  speechSynthesis.cancel();
+  const u=new SpeechSynthesisUtterance(text);
+  u.lang=TTS_LANG; u.rate=0.88;
+  const v=_ttsVoice(); if(v)u.voice=v;
+  speechSynthesis.speak(u);
+}
+function spkBtn(word,sm){
+  if(!TTS_OK)return'';
+  return `<button class="spk-btn${sm?' spk-sm':''}" title="Listen" data-w="${esc(word)}" onclick="speak(this.dataset.w,event)">&#128266;</button>`;
 }
 function pill(key, label, active, onclick) {
   return `<span class="pill${active?' active':''}" onclick="${onclick}">${esc(String(label))}</span>`;
@@ -470,6 +497,7 @@ async function init(){
 // ── What's new ─────────────────────────────────────────────────────────────────
 // Bump v and swap the items whenever a release has user-visible changes.
 const WHATS_NEW={v:1,date:'July 2026',items:[
+  ['🔊','Hear every word','Tap the speaker on any card to hear it pronounced with your device\\'s own voices.'],
   ['🎯','Smarter quizzes','Words you struggle with now come up more often than ones you\\'ve mastered.'],
   ['📦','New Greek packs','Body &amp; Doctor and Family &amp; relationships are in the Community hub, every card with grammar and etymology.'],
   ['🏷️','Tidier filters','Group and tag filters now fold away neatly on small screens.'],
@@ -690,7 +718,7 @@ function renderBrowse(){
           <div class="fc-front" style="border-color:${borderColor};${gc?'border-width:2px':''}">
             ${c.priority?'<div class="star-badge">&#11088;</div>':''}
             ${art?`<div class="fc-article" style="${gc?`color:${gc};font-size:15px;font-weight:700`:''}">${esc(art)}</div>`:''}
-            <div class="fc-word" style="${gc?`color:${gc}`:''}">${esc(c.word)}</div>
+            <div class="fc-word" style="${gc?`color:${gc}`:''}">${esc(c.word)}${spkBtn(c.word)}</div>
             ${c.pronunciation?`<div class="fc-pron">[${esc(c.pronunciation)}]</div>`:''}
             ${c.type?`<div class="fc-type">${esc(c.type)}</div>`:''}
             <div class="fc-hint">tap to flip</div>
@@ -714,7 +742,7 @@ function renderBrowse(){
           <div class="mastery-dot" style="background:${MASTERY_COLORS[lvl]}" title="${lvl}"></div>
           ${c.priority?'<span style="font-size:11px;flex-shrink:0">&#11088;</span>':''}
           <div class="bcard-left">
-            <span class="bcard-word" style="${gc?`color:${gc}`:''}">${art?esc(art)+' ':''}${esc(c.word)}</span>
+            <span class="bcard-word" style="${gc?`color:${gc}`:''}">${art?esc(art)+' ':''}${esc(c.word)}</span>${spkBtn(c.word,true)}
             ${c.pronunciation?`<span class="bcard-pron">[${esc(c.pronunciation)}]</span>`:''}
             <span class="bcard-trans">${esc(c.translation)}</span>
           </div>
@@ -958,7 +986,7 @@ function renderStudyCards(){
           ${card.priority?'<div class="star-badge">&#11088;</div>':''}
           ${mastLbl?`<div class="mastery-badge" style="color:${MASTERY_COLORS[lvl]}">${mastLbl}</div>`:''}
           ${art?`<div class="fc-article" style="${gc?`color:${gc};font-size:15px;font-weight:700`:''}">${esc(art)}</div>`:''}
-          <div class="fc-word" style="${gc?`color:${gc}`:''}"> ${esc(card.word)}</div>
+          <div class="fc-word" style="${gc?`color:${gc}`:''}"> ${esc(card.word)}${spkBtn(card.word)}</div>
 
           ${card.pronunciation?`<div class="fc-pron">[${esc(card.pronunciation)}]</div>`:''}
           ${card.type?`<div class="fc-type">${esc(card.type)}</div>`:''}
@@ -1001,7 +1029,7 @@ function renderQuizQuestion(){
     <div class="prompt-card" style="border-color:${gc?gc+'33':'rgba(255,255,255,.06)'}">
       ${card.priority?'<div class="star-badge">&#11088;</div>':''}
       ${mastLbl?`<div class="mastery-badge" style="color:${MASTERY_COLORS[lvl]}">${mastLbl}</div>`:''}
-      <div class="prompt-word" style="font-size:${promptSize};color:${promptColor}">${esc(prompt)}</div>
+      <div class="prompt-word" style="font-size:${promptSize};color:${promptColor}">${esc(prompt)}${isW2E?spkBtn(card.word):''}</div>
       ${promptSub?`<div class="prompt-sub">${esc(promptSub)}</div>`:''}
       ${card.group?`<div class="prompt-group">${esc(groupLabel(card.group))}</div>`:''}
     </div>
@@ -1129,11 +1157,11 @@ function showFeedback(card,guess,result){
       <div class="feedback-verdict">${verdict}</div>
       <div class="feedback-answer">
         <span style="color:rgba(255,255,255,.4);font-size:11px">${isW2E?LANG.name:DEP_NAME}: </span>
-        <strong style="font-family:Georgia,serif;${gc&&!isW2E?`color:${gc}`:''}">${esc(isW2E?(art?art+' ':'')+card.word:card.translation)}</strong>
+        <strong style="font-family:Georgia,serif;${gc&&!isW2E?`color:${gc}`:''}">${esc(isW2E?(art?art+' ':'')+card.word:card.translation)}</strong>${isW2E?spkBtn(card.word,true):''}
       </div>
       <div class="feedback-answer">
         <span style="color:rgba(255,255,255,.4);font-size:11px">${isW2E?DEP_NAME:LANG.name}: </span>
-        <strong style="font-family:Georgia,serif;${gc&&isW2E?`color:${gc}`:''}">${esc(correctAnswer)}</strong>
+        <strong style="font-family:Georgia,serif;${gc&&isW2E?`color:${gc}`:''}">${esc(correctAnswer)}</strong>${!isW2E?spkBtn(card.word,true):''}
       </div>
       ${correct?_spellNote(guess,correctAnswer):guess?`<div class="feedback-yours">You wrote: ${esc(guess)}</div>`:''}
       ${w.length?`<div class="window-dots"><span style="font-size:9px;color:rgba(255,255,255,.25);font-family:sans-serif;margin-right:2px">last ${w.length}:</span>${dots}</div>`:''}

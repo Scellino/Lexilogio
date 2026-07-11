@@ -22,6 +22,16 @@ LANG_NAMES = {
     "de": "German",
 }
 
+DEP_NAMES = {
+    "en": "English",
+    "de": "German",
+    "fr": "French",
+    "nl": "Dutch",
+    "es": "Spanish",
+    "it": "Italian",
+    "el": "Greek",
+}
+
 # ── API ────────────────────────────────────────────────────────────────────────
 
 @community_bp.route("/api/cards")
@@ -430,6 +440,8 @@ a { color: inherit; text-decoration: none; }
 <div class="filters" id="filters">
   <div class="filter-label">Language</div>
   <div class="pills" id="lang-pills"></div>
+  <div class="filter-label" id="dep-filter-label" style="margin-top:10px">Taught from</div>
+  <div class="pills" id="dep-pills"></div>
   <div class="search-wrap">
     <span class="search-icon">&#128269;</span>
     <input class="search-input" id="search" type="text" placeholder="Search word or translation…" oninput="render()">
@@ -473,11 +485,15 @@ a { color: inherit; text-decoration: none; }
 
 <script>
 const LANG_NAMES = __LANG_NAMES_JSON__;
+const DEP_NAMES  = __DEP_NAMES_JSON__;
 const IS_LOGGED_IN = __IS_LOGGED_IN__;
+const USER_DEP_LANG = __USER_DEP_LANG__;
 
 let allCards = [];
 const _urlLang = new URLSearchParams(window.location.search).get('lang') || '';
+const _urlDep  = new URLSearchParams(window.location.search).get('dep') || '';
 let activeLang   = Object.keys(LANG_NAMES).includes(_urlLang) ? _urlLang : '';
+let activeDep    = Object.keys(DEP_NAMES).includes(_urlDep) ? _urlDep : USER_DEP_LANG;
 let activeSource = 'all';
 let activeGroup  = '';
 let activeTags   = new Set();
@@ -494,6 +510,7 @@ async function init() {
   const res = await fetch('/community/api/cards');
   const data = await res.json();
   allCards = data.cards || [];
+  buildDepPills();
   render();
 }
 
@@ -507,6 +524,31 @@ function buildLangPills() {
     p.className = 'pill' + (code === activeLang ? ' active' : '');
     p.textContent = code ? LANG_NAMES[code] : 'All languages';
     p.onclick = () => { activeLang = code; activeGroup = ''; activeTags.clear(); buildLangPills(); render(); };
+    wrap.appendChild(p);
+  });
+}
+
+function buildDepPills() {
+  const wrap  = document.getElementById('dep-pills');
+  const label = document.getElementById('dep-filter-label');
+  wrap.innerHTML = '';
+  // Collect dep langs actually present in loaded cards (preset cards have departure_lang)
+  const available = [...new Set(allCards.map(c => c.departure_lang).filter(Boolean))].sort();
+  if (available.length <= 1) {
+    label.style.display = available.length === 1 ? '' : 'none';
+    wrap.style.display  = available.length === 1 ? '' : 'none';
+    if (available.length === 1 && activeDep !== available[0]) {
+      activeDep = available[0];
+    }
+  } else {
+    label.style.display = '';
+    wrap.style.display  = '';
+  }
+  available.forEach(code => {
+    const p = document.createElement('button');
+    p.className = 'pill' + (code === activeDep ? ' active' : '');
+    p.textContent = DEP_NAMES[code] || code;
+    p.onclick = () => { activeDep = code; buildDepPills(); render(); };
     wrap.appendChild(p);
   });
 }
@@ -574,6 +616,7 @@ function render() {
   const q = (document.getElementById('search')?.value || '').toLowerCase();
   let cards = allCards;
   if (activeLang)         cards = cards.filter(c => c.language === activeLang);
+  if (activeDep)          cards = cards.filter(c => !c.departure_lang || c.departure_lang === activeDep);
   if (activeSource !== 'all') cards = cards.filter(c => c._source === activeSource);
   if (q) cards = cards.filter(c =>
     (c.word||'').toLowerCase().includes(q) ||
@@ -815,6 +858,9 @@ init();
 @community_bp.route("")
 def community_page():
     is_logged_in = "true" if current_user.is_authenticated else "false"
+    dep_lang = current_user.departure_lang if current_user.is_authenticated else "en"
     html = _PAGE.replace("__LANG_NAMES_JSON__", json.dumps(LANG_NAMES))
+    html = html.replace("__DEP_NAMES_JSON__", json.dumps(DEP_NAMES))
     html = html.replace("__IS_LOGGED_IN__", is_logged_in)
+    html = html.replace("__USER_DEP_LANG__", json.dumps(dep_lang or "en"))
     return html

@@ -54,3 +54,103 @@ word: φυσικά translation: of course, naturally type: adverb group: 👋 Gr
 //
 word: ορίστε translation: here you go, can I help you, pardon type: interjection group: 👋 Greetings & phrases pronunciation: /oˈris.te/ example.el: Ορίστε το μενού σας. example.en: Here is your menu. note: Extremely versatile: "here you go" when handing something, "yes?" or "can I help you?" in a shop, and "pardon?" when you didn't hear something. tags: ⭐ common, 💬 communication priority: yes
 //
+word: ένα translation: one type: numeral group: 🕐 Numbers & time pronunciation: /ˈe.na/ example.el: Θέλω ένα καφέ, παρακαλώ. example.en: I want one coffee, please. note: Neuter form. Masculine: ένας, feminine: μία/μια. Greek numerals agree in gender with the noun. tags: ⭐ common, 🔢 numbers priority: yes
+//
+word: δύο translation: two type: numeral group: 🕐 Numbers & time pronunciation: /ˈði.o/ example.el: Έχω δύο αδέρφια. example.en: I have two siblings. note: Invariable — same form for all genders. tags: ⭐ common, 🔢 numbers priority: yes
+//
+word: τρία translation: three type: numeral group: 🕐 Numbers & time pronunciation: /ˈtri.a/ example.el: Θα μείνω τρία βράδια. example.en: I'll stay for three nights. note: Neuter form. Masculine: τρεις, feminine: τρεις. tags: ⭐ common, 🔢 numbers priority: yes
+//
+word: τέσσερα translation: four type: numeral group: 🕐 Numbers & time pronunciation: /ˈte.se.ra/ example.el: Το τραπέζι έχει τέσσερις καρέκλες. example.en: The table has four chairs. note: Neuter form. Masculine/feminine: τέσσερις. tags: ⭐ common, 🔢 numbers priority: yes
+//
+word: πέντε translation: five type: numeral group: 🕐 Numbers & time pronunciation: /ˈpen.de/ example.el: Είναι πέντε η ώρα. example.en: It is five o'clock. note: Invariable across genders. ντ is pronounced /nd/. tags: ⭐ common, 🔢 numbers priority: yes
+//
+word: έξι translation: six type: numeral group: 🕐 Numbers & time pronunciation: /ˈek.si/ example.el: Έχω έξι μαθήματα την εβδομάδα. example.en: I have six lessons a week. note: Invariable across genders. tags: ⭐ common, 🔢 numbers priority: yes
+//
+word: επτά translation: seven type: numeral group: 🕐 Numbers & time pronunciation: /epˈta/ example.el: Ξυπνάω στις επτά το πρωί. example.en: I wake up at seven in the morning. note: Also written εφτά in informal contexts. Both forms are standard. tags: ⭐ common, 🔢 numbers priority: yes
+//
+word: οκτώ translation: eight type: numeral group: 🕐 Numbers & time pronunciation: /okˈto/ example.el: Το μαγαζί κλείνει στις οκτώ. example.en: The shop closes at eight. note: Also written οχτώ informally. Invariable across genders. tags: ⭐ common, 🔢 numbers priority: yes
+//
+word: εννέα translation: nine type: numeral group: 🕐 Numbers & time pronunciation: /eˈne.a/ example.el: Η συνάντηση είναι στις εννέα. example.en: The meeting is at nine. note: Also written εννιά informally. Invariable across genders. tags: ⭐ common, 🔢 numbers priority: yes
+//
+word: δέκα translation: ten type: numeral group: 🕐 Numbers & time pronunciation: /ˈðe.ka/ example.el: Δέκα λεπτά ακόμα. example.en: Ten more minutes. note: Invariable across genders. δ is pronounced like English "th" in "the". tags: ⭐ common, 🔢 numbers priority: yes
+//
+word: είκοσι translation: twenty type: numeral group: 🕐 Numbers & time pronunciation: /ˈi.ko.si/ example.el: Είκοσι λεπτά με τα πόδια. example.en: Twenty minutes on foot. note: Invariable. Compound numbers: είκοσι ένα (21), είκοσι δύο (22), etc. tags: ⭐ common, 🔢 numbers priority: yes
+//
+word: πενήντα translation: fifty type: numeral group: 🕐 Numbers & time pronunciation: /peˈnin.da/ example.el: Κοστίζει πενήντα ευρώ. example.en: It costs fifty euros. note: ντ is pronounced /nd/. tags: 🔢 numbers priority: no
+//
+word: εκατό translation: hundred type: numeral group: 🕐 Numbers & time pronunciation: /e.kaˈto/ example.el: Εκατό χρόνια ιστορία. example.en: A hundred years of history. note: Used standalone. Before a noun: εκατό (invariable). Two hundred: διακόσια, three hundred: τριακόσια. tags: ⭐ common, 🔢 numbers priority: yes
+//
+word: χίλια translation: thousand type: numeral group: 🕐 Numbers & time pronunciation: /ˈxi.lja/ example.el: Χίλια ευρώ το μήνα. example.en: A thousand euros a month. note: Neuter plural form. Masculine/feminine singular: χίλιοι/χίλιες when used as adjective. χ is pronounced like German "ch" in "Bach". tags: ⭐ common, 🔢 numbers priority: yes
+//
+word: πρώτος translation: first type: adjective group: 🕐 Numbers & time pronunciation: /ˈpro.tos/ example.el: Είναι η πρώτη μου επίσκεψη στην Αθήνα. example.en: It's my first visit to Athens. note: Agrees in gender: πρώτος (m), πρώτη (f), πρώτο (n). Ordinals in Greek are adjectives. tags: ⭐ common, 🔢 numbers priority: yes
+//
+word: δεύτερος translation: second type: adjective group: 🕐 Numbers & time pronunciation: /ˈðef.te.ros/ example.el: Πάρτε τον δεύτερο δρόμο αριστερά. example.en: Take the second road on the left. note: Agrees in gender: δεύτερος (m), δεύτερη (f), δεύτερο (n). tags: ⭐ common, 🔢 numbers priority: yes
+//
+word: τρίτος translation: third type: adjective group: 🕐 Numbers & time pronunciation: /ˈtri.tos/ example.el: Στον τρίτο όροφο. example.en: On the third floor. note: Agrees in gender: τρίτος (m), τρίτη (f), τρίτο (n). tags: ⭐ common, 🔢 numbers priority: yes
+//
+word: Δευτέρα translation: Monday type: noun group: 🕐 Numbers & time pronunciation: /ðefˈte.ra/ example.el: Τη Δευτέρα έχω δουλειά. example.en: I have work on Monday. note: Days are feminine in Greek. Written with capital letter. Literally means "second (day)." tags: ⭐ common, 🗓️ days priority: yes
+//
+word: Τρίτη translation: Tuesday type: noun group: 🕐 Numbers & time pronunciation: /ˈtri.ti/ example.el: Τρίτη και Παρασκευή — κακές μέρες! example.en: Tuesday and Friday — unlucky days! note: Greek superstition: Tuesday (esp. the 13th) is considered unlucky, linked to the fall of Constantinople. tags: ⭐ common, 🗓️ days priority: yes
+//
+word: Τετάρτη translation: Wednesday type: noun group: 🕐 Numbers & time pronunciation: /teˈtar.ti/ example.el: Τετάρτη είναι η μέση της εβδομάδας. example.en: Wednesday is the middle of the week. note: Literally "fourth (day)." τ is unaspirated, closer to English "d". tags: ⭐ common, 🗓️ days priority: yes
+//
+word: Πέμπτη translation: Thursday type: noun group: 🕐 Numbers & time pronunciation: /ˈpemp.ti/ example.el: Την Πέμπτη έχουμε συνάντηση. example.en: We have a meeting on Thursday. note: Literally "fifth (day)." The μπ cluster is /mb/ or /b/ depending on speaker. tags: ⭐ common, 🗓️ days priority: yes
+//
+word: Παρασκευή translation: Friday type: noun group: 🕐 Numbers & time pronunciation: /pa.ra.skeˈvi/ example.el: Την Παρασκευή βγαίνουμε έξω. example.en: We go out on Friday. note: Literally "preparation (for the Sabbath)." A long word but very common — worth learning whole. tags: ⭐ common, 🗓️ days priority: yes
+//
+word: Σάββατο translation: Saturday type: noun group: 🕐 Numbers & time pronunciation: /ˈsa.va.to/ example.el: Το Σάββατο κοιμάμαι αργά. example.en: On Saturday I sleep in. note: Neuter gender. The β is /v/ in Modern Greek. tags: ⭐ common, 🗓️ days priority: yes
+//
+word: Κυριακή translation: Sunday type: noun group: 🕐 Numbers & time pronunciation: /ki.rjaˈki/ example.el: Την Κυριακή πάμε για καφέ. example.en: On Sunday we go for coffee. note: Literally "Lord's day." Feminine gender. The week in Greek starts on Monday. tags: ⭐ common, 🗓️ days priority: yes
+//
+word: Ιανουάριος translation: January type: noun group: 🕐 Numbers & time pronunciation: /ja.nuˈa.ri.os/ example.el: Ιανουάριος είναι ο πρώτος μήνας. example.en: January is the first month. note: Months are masculine in Greek and not capitalised in modern informal writing. tags: 🗓️ months priority: no
+//
+word: Φεβρουάριος translation: February type: noun group: 🕐 Numbers & time pronunciation: /fev.ruˈa.ri.os/ example.el: Φεβρουάριος έχει 28 ή 29 μέρες. example.en: February has 28 or 29 days. note: The shortest month. φ = /f/, β = /v/. tags: 🗓️ months priority: no
+//
+word: Μάρτιος translation: March type: noun group: 🕐 Numbers & time pronunciation: /ˈmar.ti.os/ example.el: Την 25η Μαρτίου γιορτάζουμε την Ανεξαρτησία. example.en: On March 25th we celebrate Independence Day. note: Greek Independence Day is March 25th — a major national holiday. tags: 🗓️ months priority: no
+//
+word: Απρίλιος translation: April type: noun group: 🕐 Numbers & time pronunciation: /aˈpri.li.os/ example.el: Άνοιξη ξεκινά τον Απρίλιο. example.en: Spring begins in April. note: Often pronounced /aˈpri.ljos/ in casual speech. tags: 🗓️ months priority: no
+//
+word: Μάιος translation: May type: noun group: 🕐 Numbers & time pronunciation: /ˈma.i.os/ example.el: Την Πρωτομαγιά γιορτάζουμε τους εργάτες. example.en: On May Day we celebrate workers. note: May Day (Πρωτομαγιά) is a major holiday in Greece. tags: 🗓️ months priority: no
+//
+word: Ιούνιος translation: June type: noun group: 🕐 Numbers & time pronunciation: /iˈu.ni.os/ example.el: Τον Ιούνιο τελειώνει το σχολείο. example.en: School finishes in June. note: The double vowel ου is always /u/ in Greek. tags: 🗓️ months priority: no
+//
+word: Ιούλιος translation: July type: noun group: 🕐 Numbers & time pronunciation: /iˈu.li.os/ example.el: Τον Ιούλιο πάμε παραλία. example.en: In July we go to the beach. note: Peak summer month in Greece — beaches are packed! tags: 🗓️ months priority: no
+//
+word: Αύγουστος translation: August type: noun group: 🕐 Numbers & time pronunciation: /ˈav.ɣus.tos/ example.el: Αύγουστος είναι ο πιο ζεστός μήνας. example.en: August is the hottest month. note: γ before υ/ου is /ɣ/ (voiced velar fricative). Many businesses close in August. tags: 🗓️ months priority: no
+//
+word: Σεπτέμβριος translation: September type: noun group: 🕐 Numbers & time pronunciation: /sepˈtem.vri.os/ example.el: Τον Σεπτέμβριο αρχίζει το σχολείο. example.en: School starts in September. note: β = /v/ in Modern Greek. tags: 🗓️ months priority: no
+//
+word: Οκτώβριος translation: October type: noun group: 🕐 Numbers & time pronunciation: /okˈto.vri.os/ example.el: Στις 28 Οκτωβρίου γιορτάζουμε το «Όχι». example.en: On October 28th we celebrate "Ohi Day." note: "Ohi Day" (Επέτειος του Όχι) commemorates Greece's refusal of Mussolini's ultimatum in 1940. tags: 🗓️ months priority: no
+//
+word: Νοέμβριος translation: November type: noun group: 🕐 Numbers & time pronunciation: /noˈem.vri.os/ example.el: Νοέμβριος — αρχίζουν οι βροχές. example.en: November — the rains begin. note: β = /v/. tags: 🗓️ months priority: no
+//
+word: Δεκέμβριος translation: December type: noun group: 🕐 Numbers & time pronunciation: /ðeˈkem.vri.os/ example.el: Τα Χριστούγεννα είναι τον Δεκέμβριο. example.en: Christmas is in December. note: δ = /ð/ (like "th" in "the"). β = /v/. tags: 🗓️ months priority: no
+//
+word: πρωί translation: morning type: noun group: 🕐 Numbers & time pronunciation: /proˈi/ example.el: Το πρωί πίνω καφέ. example.en: In the morning I drink coffee. note: Neuter noun. Used with the definite article το when referring to the morning in general. tags: ⭐ common, 🕰️ time priority: yes
+//
+word: απόγευμα translation: afternoon type: noun group: 🕐 Numbers & time pronunciation: /aˈpo.ʝev.ma/ example.el: Το απόγευμα κάνω βόλτα. example.en: In the afternoon I go for a walk. note: Neuter noun. γ before ε is /ʝ/ (like "y" in "yes"). tags: ⭐ common, 🕰️ time priority: yes
+//
+word: βράδυ translation: evening type: noun group: 🕐 Numbers & time pronunciation: /ˈvra.ði/ example.el: Το βράδυ τρώμε μαζί. example.en: In the evening we eat together. note: Neuter noun. Also means "night" informally (βραδιά = evening/night). δ = /ð/. tags: ⭐ common, 🕰️ time priority: yes
+//
+word: νύχτα translation: night type: noun group: 🕐 Numbers & time pronunciation: /ˈnix.ta/ example.el: Τη νύχτα δεν βλέπω καλά. example.en: At night I don't see well. note: Feminine noun. χτ = /xt/. Distinct from βράδυ (evening) — νύχτα is darker/later. tags: ⭐ common, 🕰️ time priority: yes
+//
+word: σήμερα translation: today type: adverb group: 🕐 Numbers & time pronunciation: /ˈsi.me.ra/ example.el: Σήμερα έχω πολλή δουλειά. example.en: Today I have a lot of work. note: Very common adverb. Combine: σήμερα το πρωί (this morning), σήμερα το βράδυ (tonight). tags: ⭐ common, 🕰️ time priority: yes
+//
+word: αύριο translation: tomorrow type: adverb group: 🕐 Numbers & time pronunciation: /ˈav.ri.o/ example.el: Τα λέμε αύριο! example.en: See you tomorrow! note: αύ is pronounced /av/ before voiced sounds. Combine: αύριο το πρωί (tomorrow morning). tags: ⭐ common, 🕰️ time priority: yes
+//
+word: χθες translation: yesterday type: adverb group: 🕐 Numbers & time pronunciation: /xθes/ example.el: Χθες έκανε πολλή ζέστη. example.en: Yesterday it was very hot. note: χ = /x/ and θ = /θ/, making this a challenging consonant cluster for English speakers! tags: ⭐ common, 🕰️ time priority: yes
+//
+word: ώρα translation: hour, time, o'clock type: noun group: 🕐 Numbers & time pronunciation: /ˈo.ra/ example.el: Τι ώρα είναι; example.en: What time is it? note: Feminine noun. Used for clock time: είναι τρεις η ώρα (it's three o'clock). Also means "time" in general. tags: ⭐ common, 🕰️ time priority: yes
+//
+word: λεπτό translation: minute type: noun group: 🕐 Numbers & time pronunciation: /lepˈto/ example.el: Ένα λεπτό, παρακαλώ. example.en: One minute, please. note: Neuter noun. Also means "thin" or "fine" as an adjective — context distinguishes them. tags: ⭐ common, 🕰️ time priority: yes
+//
+word: εβδομάδα translation: week type: noun group: 🕐 Numbers & time pronunciation: /ev.ðoˈma.ða/ example.el: Η εβδομάδα έχει επτά μέρες. example.en: The week has seven days. note: Feminine noun. β = /v/, δ = /ð/. Η επόμενη εβδομάδα = next week. tags: ⭐ common, 🕰️ time priority: yes
+//
+word: μήνας translation: month type: noun group: 🕐 Numbers & time pronunciation: /ˈmi.nas/ example.el: Αυτόν τον μήνα έχω πολλές υποχρεώσεις. example.en: This month I have many commitments. note: Masculine noun. Plural: μήνες. Τον μήνα = per month. tags: ⭐ common, 🕰️ time priority: yes
+//
+word: χρόνος translation: year type: noun group: 🕐 Numbers & time pronunciation: /ˈxro.nos/ example.el: Πέρυσι αυτή την εποχή. example.en: Last year at this time. note: Masculine noun. Χρόνια (plural) is used in wishes: χρόνια πολλά. Also means "time" in abstract sense. tags: ⭐ common, 🕰️ time priority: yes
+//
+word: τώρα translation: now type: adverb group: 🕐 Numbers & time pronunciation: /ˈto.ra/ example.el: Τώρα δεν μπορώ να μιλήσω. example.en: I can't talk right now. note: Very common. Opposite: μετά (later/after). Τώρα αμέσως = right now, immediately. tags: ⭐ common, 🕰️ time priority: yes
+//
+word: μετά translation: later, after, then type: adverb group: 🕐 Numbers & time pronunciation: /meˈta/ example.el: Τα λέμε μετά! example.en: Talk later! note: Extremely versatile: "later" (time), "after" (preposition), "then" (sequence). One of the most-used words in Greek. tags: ⭐ common, 🕰️ time priority: yes
+//

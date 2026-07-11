@@ -236,9 +236,10 @@ input[type=text]:focus{border-color:rgba(201,169,110,.5)}
 .bcard:hover{border-color:rgba(201,169,110,.3)}
 .bcard.open{border-color:rgba(201,169,110,.4)}
 .bcard-head{display:flex;align-items:center;gap:10px;padding:10px 14px}
-.bcard-word{font-family:Georgia,serif;font-size:17px;color:#e8c98a;flex-shrink:0}
-.bcard-pron{font-family:monospace;font-size:11px;color:rgba(255,255,255,.3);flex-shrink:0}
-.bcard-trans{font-size:12px;color:rgba(255,255,255,.5);font-style:italic;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-family:sans-serif}
+.bcard-left{display:flex;align-items:center;gap:10px;flex:1;min-width:0;overflow:hidden}
+.bcard-word{font-family:Georgia,serif;font-size:17px;color:#e8c98a;flex-shrink:0;white-space:nowrap}
+.bcard-pron{font-family:monospace;font-size:11px;color:rgba(255,255,255,.3);flex-shrink:0;white-space:nowrap}
+.bcard-trans{font-size:12px;color:rgba(255,255,255,.5);font-style:italic;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-family:sans-serif}
 .bcard-badges{display:flex;gap:4px;flex-shrink:0;align-items:center}
 .bcard-body{padding:0 14px 14px;display:none}
 .bcard.open .bcard-body{display:block}
@@ -652,14 +653,16 @@ function renderBrowse(){
       return `<div class="bcard${isOpen?' open':''}" style="${gc?`border-left:3px solid ${gc}`:''}" onclick="toggleBCard('${c.id}')">
         <div class="bcard-head">
           <div class="mastery-dot" style="background:${MASTERY_COLORS[lvl]}" title="${lvl}"></div>
-          ${c.priority?'<span style="font-size:11px">&#11088;</span>':''}
-          <span class="bcard-word" style="${gc?`color:${gc}`:''}">${art?esc(art)+' ':''}${esc(c.word)}</span>
-          ${c.pronunciation?`<span class="bcard-pron">[${esc(c.pronunciation)}]</span>`:''}
-          <span class="bcard-trans">${esc(c.translation)}</span>
+          ${c.priority?'<span style="font-size:11px;flex-shrink:0">&#11088;</span>':''}
+          <div class="bcard-left">
+            <span class="bcard-word" style="${gc?`color:${gc}`:''}">${art?esc(art)+' ':''}${esc(c.word)}</span>
+            ${c.pronunciation?`<span class="bcard-pron">[${esc(c.pronunciation)}]</span>`:''}
+            <span class="bcard-trans">${esc(c.translation)}</span>
+          </div>
           <span class="bcard-badges">${tagBadges}</span>
           ${c._user?`<button class="icon-btn" title="Edit" onclick="event.stopPropagation();editBrowseCard('${c.id}')">Edit</button>
           <button class="icon-btn del" title="Delete" onclick="event.stopPropagation();deleteBrowseCard('${c.id}')">Delete</button>`:''}
-          <span style="font-size:10px;color:rgba(255,255,255,.2)">${isOpen?'&#9650;':'&#9660;'}</span>
+          <span style="font-size:10px;color:rgba(255,255,255,.2);flex-shrink:0">${isOpen?'&#9650;':'&#9660;'}</span>
         </div>
         ${isOpen?`<div class="bcard-body">${cardBackHTML(c)}</div>`:''}
       </div>`;

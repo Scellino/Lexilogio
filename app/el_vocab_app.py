@@ -233,6 +233,11 @@ def _el_grammar_forms(card):
             val = val.split("←")[0].split("·")[0].split(",")[0].strip()
             if val:
                 forms.append(_el_normalize(val))
+        elif any(x in lbl for x in ("alt", "also written", "alternative")):
+            # Extract the Greek word before any parenthetical description
+            val = entry.get("value", "").split("(")[0].strip()
+            if val:
+                forms.append(_el_normalize(val))
     return forms
 
 

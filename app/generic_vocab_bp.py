@@ -304,6 +304,7 @@ select option{background:#1a1a2e;color:#fff}
 .spk-btn{background:none;border:none;cursor:pointer;font-size:17px;opacity:.45;padding:2px 6px;vertical-align:middle;line-height:1;transition:opacity .15s;flex-shrink:0}
 .spk-btn:hover{opacity:.95}
 .spk-btn.spk-sm{font-size:13px;padding:1px 4px}
+.no-tts .spk-btn{display:none}
 /* ── What's new modal ── */
 .wn-overlay{position:fixed;inset:0;background:rgba(0,0,0,.6);z-index:400;display:flex;align-items:center;justify-content:center;backdrop-filter:blur(2px);-webkit-backdrop-filter:blur(2px)}
 .wn-modal{background:#16162a;border:1px solid rgba(201,169,110,.25);border-radius:18px;padding:26px 24px 20px;max-width:420px;width:90%;max-height:80dvh;overflow-y:auto;font-family:sans-serif}
@@ -363,20 +364,33 @@ function esc(s) {
 // ── Pronunciation via browser TTS (free, on-device, no server involved) ────────
 const TTS_LANG=({el:'el-GR',fr:'fr-FR',nl:'nl-NL',it:'it-IT',es:'es-ES',de:'de-DE'})[LANG.code]||LANG.code;
 const TTS_OK=('speechSynthesis' in window);
-if(TTS_OK) speechSynthesis.getVoices();  // kick off async voice loading early
 function _ttsVoice(){
-  const vs=speechSynthesis.getVoices();
-  return vs.find(v=>v.lang.replace('_','-')===TTS_LANG)
-      || vs.find(v=>v.lang.toLowerCase().startsWith(LANG.code))
-      || null;
+  const vs=speechSynthesis.getVoices().filter(v=>v.lang.replace('_','-').toLowerCase().startsWith(LANG.code));
+  return vs.find(v=>v.lang.replace('_','-').toLowerCase()===TTS_LANG.toLowerCase())||vs[0]||null;
+}
+// Hide the speaker buttons when the device has no voice for this language:
+// falling back to an English voice reading Dutch/Greek/... is worse than nothing.
+function _ttsCheck(){
+  if(!speechSynthesis.getVoices().length) return;   // list not loaded yet
+  document.body.classList.toggle('no-tts',!_ttsVoice());
+}
+if(TTS_OK){
+  _ttsCheck();
+  speechSynthesis.addEventListener('voiceschanged',_ttsCheck);
 }
 function speak(text,ev){
   if(ev)ev.stopPropagation();
   if(!TTS_OK||!text) return;
+  if(!speechSynthesis.getVoices().length){
+    // voice list still loading (it's async) — retry this utterance once it lands
+    speechSynthesis.addEventListener('voiceschanged',()=>speak(text),{once:true});
+    return;
+  }
+  const v=_ttsVoice();
+  if(!v) return;                     // never read with a wrong-language voice
   speechSynthesis.cancel();
   const u=new SpeechSynthesisUtterance(text);
-  u.lang=TTS_LANG; u.rate=0.88;
-  const v=_ttsVoice(); if(v)u.voice=v;
+  u.voice=v; u.lang=v.lang; u.rate=0.88;
   speechSynthesis.speak(u);
 }
 function spkBtn(word,sm){

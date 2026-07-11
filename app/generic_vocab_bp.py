@@ -352,17 +352,23 @@ function pill(key, label, active, onclick) {
 }
 function tagLabel(t)   { return (LANG.tag_labels||{})[t]   || t; }
 function groupLabel(g) { return (LANG.group_labels||{})[g] || g; }
-function pillsWithExpand(items, renderFn, id) {
-  if(items.length<=10) return '<div class="pills">'+items.map(renderFn).join('')+'</div>';
-  const vis=items.slice(0,10).map(renderFn).join('');
-  const hid=items.slice(10).map(renderFn).join('');
-  const n=items.length-10;
-  return `<div class="pills">${vis}<span id="${id}-x" style="display:none">${hid}</span><button class="pill" id="${id}-b" onclick="xPills('${id}',${n})">+${n} &#9660;</button></div>`;
+const PILLS_VISIBLE=3;
+const expandedPills=new Set();
+function pillsWithExpand(items, renderFn, id, activeSet) {
+  // Active pills float to the front so a selected filter is never hidden
+  const ordered=activeSet?[...items.filter(i=>activeSet.has(i)),...items.filter(i=>!activeSet.has(i))]:items;
+  if(ordered.length<=PILLS_VISIBLE+1) return '<div class="pills">'+ordered.map(renderFn).join('')+'</div>';
+  const open=expandedPills.has(id);
+  const vis=ordered.slice(0,PILLS_VISIBLE).map(renderFn).join('');
+  const hid=ordered.slice(PILLS_VISIBLE).map(renderFn).join('');
+  const n=ordered.length-PILLS_VISIBLE;
+  return `<div class="pills">${vis}<span id="${id}-x" style="display:${open?'contents':'none'}">${hid}</span><button class="pill" id="${id}-b" onclick="xPills('${id}',${n})">${open?'&#9650; less':`+${n} &#9660;`}</button></div>`;
 }
 function xPills(id,n){
   const x=document.getElementById(id+'-x'),b=document.getElementById(id+'-b');
   if(!x||!b) return;
   const open=x.style.display!=='none';
+  if(open)expandedPills.delete(id);else expandedPills.add(id);
   x.style.display=open?'none':'contents';
   b.innerHTML=open?`+${n} &#9660;`:'&#9650; less';
 }
@@ -601,11 +607,11 @@ function renderBrowse(){
   const filters=`
     ${groups.length?`<div class="sec">
       <div class="sec-label">Groups <a onclick="browseGroups=new Set();browseIdx=0;renderBrowse()">clear</a></div>
-      ${pillsWithExpand(groups,g=>pill(g,groupLabel(g),browseGroups.has(g),`toggleBrowseGroup('${esc(g)}')`), 'bg-g')}
+      ${pillsWithExpand(groups,g=>pill(g,groupLabel(g),browseGroups.has(g),`toggleBrowseGroup('${esc(g)}')`), 'bg-g', browseGroups)}
     </div>`:''}
     ${tags.length?`<div class="sec">
       <div class="sec-label">Tags <a onclick="browseTags=new Set();renderBrowse()">clear</a></div>
-      ${pillsWithExpand(tags,t=>pill(t,tagLabel(t),browseTags.has(t),`toggleBrowseTag('${esc(t)}')`), 'bg-t')}
+      ${pillsWithExpand(tags,t=>pill(t,tagLabel(t),browseTags.has(t),`toggleBrowseTag('${esc(t)}')`), 'bg-t', browseTags)}
     </div>`:''}
     <div class="sec">
       <div class="sec-label">Knowledge level</div>
@@ -769,11 +775,11 @@ function renderQuizSetup(){
     ${quizPickMode ? renderPickPanel() : `
     ${groups.length?`<div class="sec">
       <div class="sec-label">Groups <a onclick="quizGroups=new Set();renderQuiz()">clear</a></div>
-      ${pillsWithExpand(groups,g=>pill(g,groupLabel(g),quizGroups.has(g),`toggleQuizGroup('${esc(g)}')`), 'qz-g')}
+      ${pillsWithExpand(groups,g=>pill(g,groupLabel(g),quizGroups.has(g),`toggleQuizGroup('${esc(g)}')`), 'qz-g', quizGroups)}
     </div>`:''}
     ${tags.length?`<div class="sec">
       <div class="sec-label">Tags</div>
-      ${pillsWithExpand(tags,t=>pill(t,tagLabel(t),quizTags.has(t),`toggleQuizTag('${esc(t)}')`), 'qz-t')}
+      ${pillsWithExpand(tags,t=>pill(t,tagLabel(t),quizTags.has(t),`toggleQuizTag('${esc(t)}')`), 'qz-t', quizTags)}
     </div>`:''}
     <div class="sec">
       <div class="sec-label">Knowledge level</div>
@@ -826,8 +832,8 @@ function _pickFiltered(){
 function renderPickPanel(){
   const filtered=_pickFiltered();
   const groups=allGroups(),tags=allTagsList();
-  const groupPills=groups.map(g=>`<span class="pill${pickGroups.has(g)?' active':''}" onclick="togglePickGroup('${esc(g)}')">${esc(groupLabel(g))}</span>`).join('');
-  const tagPills=tags.map(t=>`<span class="pill${pickTags.has(t)?' active':''}" onclick="togglePickTag('${esc(t)}')">${esc(tagLabel(t))}</span>`).join('');
+  const groupPills=pillsWithExpand(groups,g=>pill(g,groupLabel(g),pickGroups.has(g),`togglePickGroup('${esc(g)}')`), 'pk-g', pickGroups);
+  const tagPills=pillsWithExpand(tags,t=>pill(t,tagLabel(t),pickTags.has(t),`togglePickTag('${esc(t)}')`), 'pk-t', pickTags);
   const rows=filtered.slice(0,100).map(c=>{
     const checked=manualCards.has(c.id);
     return `<label style="display:flex;align-items:center;gap:8px;padding:5px 0;border-bottom:1px solid rgba(255,255,255,.04);cursor:pointer;font-family:sans-serif">
@@ -845,8 +851,8 @@ function renderPickPanel(){
         oninput="pickSearch=this.value;renderQuiz()"
         style="flex:1;background:transparent;border:none;outline:none;color:#fff;font-size:13px;font-family:sans-serif">
     </div>
-    ${groups.length?`<div class="pills" style="margin-bottom:6px">${groupPills}</div>`:''}
-    ${tags.length?`<div class="pills" style="margin-bottom:6px">${tagPills}</div>`:''}
+    ${groups.length?`<div style="margin-bottom:6px">${groupPills}</div>`:''}
+    ${tags.length?`<div style="margin-bottom:6px">${tagPills}</div>`:''}
     <div style="font-size:11px;color:rgba(255,255,255,.3);font-family:sans-serif;margin-bottom:6px">
       ${filtered.length} word${filtered.length!==1?'s':''} &middot; ${manualCards.size} selected
       ${manualCards.size?'<a onclick="manualCards=new Set();renderQuiz()" style="color:#c9a96e;cursor:pointer;margin-left:8px">clear</a>':''}

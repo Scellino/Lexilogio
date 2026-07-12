@@ -326,6 +326,9 @@ select option{background:#1a1a2e;color:#fff}
   .score-big{font-size:40px}
   .tab{padding:10px 4px;font-size:11px}
   .btn-primary{padding:13px}
+  /* Tags are the least essential info in a browse row — drop them first so
+     the word, pronunciation, and speaker button never get squeezed. */
+  .bcard-badges{display:none}
 }
 </style>
 </head>

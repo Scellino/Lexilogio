@@ -1,0 +1,458 @@
+word: film
+translation: film, movie
+type: noun
+group: 💻 Technology & media
+pronunciation: /fɪlm/
+example.de: Wir haben gestern einen tollen Film gesehen.
+example.en: We watched a great film yesterday.
+grammar.Gender: m
+grammar.Plural (with article): die Filme
+grammar.Genitive singular: des Films
+tags: ⭐ common, 💻 technology
+priority: yes
+//
+word: handy
+translation: phone
+type: noun
+group: 💻 Technology & media
+pronunciation: /ˈhɛndi/
+example.de: Ich habe mein Handy zu Hause vergessen.
+example.en: I forgot my phone at home.
+grammar.Gender: n
+grammar.Plural (with article): die Handys
+grammar.Genitive singular: des Handys
+note: A famous false friend — Handy looks English but doesn't exist in English with this meaning; it's the everyday German word for "mobile/cell phone." Telefon refers to landline phones.
+tags: ⭐ common, 💻 technology
+priority: yes
+//
+word: laptop
+translation: laptop
+type: noun
+group: 💻 Technology & media
+pronunciation: /ˈlɛptɔp/
+example.de: Ich arbeite lieber am Laptop als am Computer.
+example.en: I prefer working on my laptop than on the computer.
+grammar.Gender: m
+grammar.Plural (with article): die Laptops
+grammar.Genitive singular: des Laptops
+tags: ⭐ common, 💻 technology
+priority: yes
+//
+word: computer
+translation: computer
+type: noun
+group: 💻 Technology & media
+pronunciation: /kɔmˈpjuːtɐ/
+example.de: Der Computer ist eingefroren.
+example.en: The computer has frozen.
+grammar.Gender: m
+grammar.Plural (with article): die Computer
+grammar.Genitive singular: des Computers
+tags: ⭐ common, 💻 technology
+priority: yes
+//
+word: tablet
+translation: tablet
+type: noun
+group: 💻 Technology & media
+pronunciation: /ˈtɛblɛt/
+example.de: Die Kinder spielen gern auf dem Tablet.
+example.en: The kids like playing on the tablet.
+grammar.Gender: n
+grammar.Plural (with article): die Tablets
+grammar.Genitive singular: des Tablets
+tags: 💻 technology
+priority: yes
+//
+word: fernseher
+translation: TV
+type: noun
+group: 💻 Technology & media
+pronunciation: /ˈfɛʁnzeːɐ̯/
+example.de: Der Fernseher steht im Wohnzimmer.
+example.en: The TV is in the living room.
+grammar.Gender: m
+grammar.Plural (with article): die Fernseher
+grammar.Genitive singular: des Fernsehers
+etymology: Literally "far-seer" — fern (far) + sehen (to see) — a native German coinage rather than a loanword.
+tags: ⭐ common, 💻 technology
+priority: yes
+//
+word: kamera
+translation: camera
+type: noun
+group: 💻 Technology & media
+pronunciation: /ˈkaməʁa/
+example.de: Ich habe eine neue Kamera gekauft.
+example.en: I bought a new camera.
+grammar.Gender: f
+grammar.Plural (with article): die Kameras
+grammar.Genitive singular: der Kamera
+tags: 💻 technology
+priority: yes
+//
+word: bildschirm
+translation: screen
+type: noun
+group: 💻 Technology & media
+pronunciation: /ˈbɪltʃɪʁm/
+example.de: Der Bildschirm ist zu klein.
+example.en: The screen is too small.
+grammar.Gender: m
+grammar.Plural (with article): die Bildschirme
+grammar.Genitive singular: des Bildschirms
+etymology: Bild (image) + Schirm (screen/shield).
+tags: 💻 technology
+priority: yes
+//
+word: tastatur
+translation: keyboard
+type: noun
+group: 💻 Technology & media
+pronunciation: /tastaˈtuːɐ̯/
+example.de: Meine Tastatur ist kabellos.
+example.en: My keyboard is wireless.
+grammar.Gender: f
+grammar.Plural (with article): die Tastaturen
+grammar.Genitive singular: der Tastatur
+tags: 💻 technology
+priority: yes
+//
+word: kopfhörer
+translation: headphones
+type: noun
+group: 💻 Technology & media
+pronunciation: /ˈkɔpfhøːʁɐ/
+example.de: Ich höre Musik mit Kopfhörern.
+example.en: I listen to music with headphones.
+grammar.Gender: pl
+etymology: Kopf (head) + hören (to hear).
+note: Singular is der Kopfhörer, but the plural is used for a pair.
+tags: ⭐ common, 💻 technology
+priority: yes
+//
+word: internet
+translation: internet
+type: noun
+group: 💻 Technology & media
+pronunciation: /ˈɪntɐnɛt/
+example.de: Das Internet ist hier sehr langsam.
+example.en: The internet is very slow here.
+grammar.Gender: n
+grammar.Genitive singular: des Internets
+tags: ⭐ common, 💻 technology
+priority: yes
+//
+word: webseite
+translation: website
+type: noun
+group: 💻 Technology & media
+pronunciation: /ˈvɛpzaɪ̯tə/
+example.de: Ich habe die Information auf einer Webseite gefunden.
+example.en: I found the information on a website.
+grammar.Gender: f
+grammar.Plural (with article): die Webseiten
+grammar.Genitive singular: der Webseite
+tags: 💻 technology
+priority: yes
+//
+word: e-mail
+translation: email
+type: noun
+group: 💻 Technology & media
+pronunciation: /ˈiːmeːl/
+example.de: Ich schicke dir gleich eine E-Mail.
+example.en: I'll send you an email shortly.
+grammar.Gender: f
+grammar.Plural (with article): die E-Mails
+grammar.Genitive singular: der E-Mail
+tags: ⭐ common, 💻 technology
+priority: yes
+//
+word: soziale medien
+translation: social media
+type: noun
+group: 💻 Technology & media
+pronunciation: /zoˈtsi̯aːlə ˈmeːdi̯ən/
+example.de: Sie verbringt viel Zeit auf sozialen Medien.
+example.en: She spends a lot of time on social media.
+grammar.Gender: pl
+tags: ⭐ common, 💻 technology
+priority: yes
+//
+word: app
+translation: app
+type: noun
+group: 💻 Technology & media
+pronunciation: /ɛp/
+example.de: Ich habe eine neue App heruntergeladen.
+example.en: I downloaded a new app.
+grammar.Gender: f
+grammar.Plural (with article): die Apps
+grammar.Genitive singular: der App
+tags: ⭐ common, 💻 technology
+priority: yes
+//
+word: herunterladen
+translation: to download
+type: verb
+group: 💻 Technology & media
+pronunciation: /hɛˈʁʊntɐˌlaːdn̩/
+example.de: Ich lade die Datei gerade herunter.
+example.en: I'm downloading the file right now.
+grammar.Verb type: strong
+grammar.Separable verb?: yes
+grammar.Auxiliary (Perfekt): haben
+grammar.Partizip II: heruntergeladen
+grammar.Präteritum (ich): lud herunter
+grammar.Präsens (all 6 forms): lade herunter / lädst herunter / lädt herunter / laden herunter / ladet herunter / laden herunter
+tags: ⭐ common, 💻 technology
+priority: yes
+//
+word: hochladen
+translation: to upload
+type: verb
+group: 💻 Technology & media
+pronunciation: /ˈhoːxlaːdn̩/
+example.de: Ich lade die Fotos gleich hoch.
+example.en: I'll upload the photos shortly.
+grammar.Verb type: strong
+grammar.Separable verb?: yes
+grammar.Auxiliary (Perfekt): haben
+grammar.Partizip II: hochgeladen
+grammar.Präteritum (ich): lud hoch
+grammar.Präsens (all 6 forms): lade hoch / lädst hoch / lädt hoch / laden hoch / ladet hoch / laden hoch
+tags: 💻 technology
+priority: yes
+//
+word: passwort
+translation: password
+type: noun
+group: 💻 Technology & media
+pronunciation: /ˈpasvɔʁt/
+example.de: Ich habe mein Passwort vergessen.
+example.en: I forgot my password.
+grammar.Gender: n
+grammar.Plural (with article): die Passwörter
+grammar.Genitive singular: des Passworts
+tags: ⭐ common, 💻 technology
+priority: yes
+//
+word: konto
+translation: account
+type: noun
+group: 💻 Technology & media
+pronunciation: /ˈkɔnto/
+example.de: Ich habe ein neues Konto erstellt.
+example.en: I created a new account.
+grammar.Gender: n
+grammar.Plural (with article): die Konten
+grammar.Genitive singular: des Kontos
+note: Also the standard word for a bank account.
+tags: ⭐ common, 💻 technology
+priority: yes
+//
+word: benachrichtigung
+translation: notification
+type: noun
+group: 💻 Technology & media
+pronunciation: /bəˈnaxʁɪçtɪɡʊŋ/
+example.de: Ich bekomme zu viele Benachrichtigungen.
+example.en: I get too many notifications.
+grammar.Gender: f
+grammar.Plural (with article): die Benachrichtigungen
+grammar.Genitive singular: der Benachrichtigung
+tags: 💻 technology
+priority: yes
+//
+word: nachrichten
+translation: news
+type: noun
+group: 💻 Technology & media
+pronunciation: /ˈnaːxʁɪçtn̩/
+example.de: Ich schaue jeden Abend die Nachrichten.
+example.en: I watch the news every evening.
+grammar.Gender: pl
+note: Always plural in this sense; singular die Nachricht just means "a message."
+tags: ⭐ common, 💻 technology
+priority: yes
+//
+word: zeitung
+translation: newspaper
+type: noun
+group: 💻 Technology & media
+pronunciation: /ˈtsaɪ̯tʊŋ/
+example.de: Er liest jeden Morgen die Zeitung.
+example.en: He reads the newspaper every morning.
+grammar.Gender: f
+grammar.Plural (with article): die Zeitungen
+grammar.Genitive singular: der Zeitung
+tags: ⭐ common, 💻 technology
+priority: yes
+//
+word: zeitschrift
+translation: magazine
+type: noun
+group: 💻 Technology & media
+pronunciation: /ˈtsaɪ̯tʃʁɪft/
+example.de: Sie liest gern Modezeitschriften.
+example.en: She likes reading fashion magazines.
+grammar.Gender: f
+grammar.Plural (with article): die Zeitschriften
+grammar.Genitive singular: der Zeitschrift
+tags: 💻 technology
+priority: yes
+//
+word: serie
+translation: series
+type: noun
+group: 💻 Technology & media
+pronunciation: /ˈzeːʁi̯ə/
+example.de: Wir schauen gerade eine neue Serie.
+example.en: We're currently watching a new series.
+grammar.Gender: f
+grammar.Plural (with article): die Serien
+grammar.Genitive singular: der Serie
+tags: ⭐ common, 💻 technology
+priority: yes
+//
+word: podcast
+translation: podcast
+type: noun
+group: 💻 Technology & media
+pronunciation: /ˈpɔtkɛst/
+example.de: Ich höre diesen Podcast auf dem Weg zur Arbeit.
+example.en: I listen to this podcast on my way to work.
+grammar.Gender: m
+grammar.Plural (with article): die Podcasts
+grammar.Genitive singular: des Podcasts
+tags: 💻 technology
+priority: yes
+//
+word: senden
+translation: to send
+type: verb
+group: 💻 Technology & media
+pronunciation: /ˈzɛndn̩/
+example.de: Kannst du mir das Dokument senden?
+example.en: Can you send me the document?
+grammar.Verb type: weak
+grammar.Separable verb?: no
+grammar.Auxiliary (Perfekt): haben
+grammar.Partizip II: gesendet
+grammar.Präteritum (ich): sendete
+grammar.Präsens (all 6 forms): sende / sendest / sendet / senden / sendet / senden
+note: Also means "to broadcast" (TV/radio) — schicken is the more everyday word for sending a message or package.
+tags: ⭐ common, 💻 technology
+priority: yes
+//
+word: anrufen
+translation: to call
+type: verb
+group: 💻 Technology & media
+pronunciation: /ˈanʁuːfn̩/
+example.de: Ich rufe dich später an.
+example.en: I'll call you later.
+grammar.Verb type: strong
+grammar.Separable verb?: yes
+grammar.Auxiliary (Perfekt): haben
+grammar.Partizip II: angerufen
+grammar.Präteritum (ich): rief an
+grammar.Präsens (all 6 forms): rufe an / rufst an / ruft an / rufen an / ruft an / rufen an
+tags: ⭐ common, 💻 technology
+priority: yes
+//
+word: simsen
+translation: to text
+type: verb
+group: 💻 Technology & media
+pronunciation: /ˈzɪmzn̩/
+example.de: Ich simse dir die Adresse.
+example.en: I'll text you the address.
+grammar.Verb type: weak
+grammar.Separable verb?: no
+grammar.Auxiliary (Perfekt): haben
+grammar.Partizip II: gesimst
+grammar.Präteritum (ich): simste
+grammar.Präsens (all 6 forms): simse / simst / simst / simsen / simst / simsen
+etymology: From SMS (the text-message standard) turned into a verb.
+note: Very colloquial — eine Nachricht schreiben ("to write a message") is the more neutral alternative.
+tags: 💻 technology
+priority: yes
+//
+word: suchen
+translation: to search
+type: verb
+group: 💻 Technology & media
+pronunciation: /ˈzuːxn̩/
+example.de: Ich suche im Internet nach Informationen.
+example.en: I'm searching the internet for information.
+grammar.Verb type: weak
+grammar.Separable verb?: no
+grammar.Auxiliary (Perfekt): haben
+grammar.Partizip II: gesucht
+grammar.Präteritum (ich): suchte
+grammar.Präsens (all 6 forms): suche / suchst / sucht / suchen / sucht / suchen
+tags: ⭐ common, 💻 technology
+priority: yes
+//
+word: speichern
+translation: to save
+type: verb
+group: 💻 Technology & media
+pronunciation: /ˈʃpaɪ̯çɐn/
+example.de: Vergiss nicht, das Dokument zu speichern.
+example.en: Don't forget to save the document.
+grammar.Verb type: weak
+grammar.Separable verb?: no
+grammar.Auxiliary (Perfekt): haben
+grammar.Partizip II: gespeichert
+grammar.Präteritum (ich): speicherte
+grammar.Präsens (all 6 forms): speichere / speicherst / speichert / speichern / speichert / speichern
+tags: ⭐ common, 💻 technology
+priority: yes
+//
+word: teilen
+translation: to share
+type: verb
+group: 💻 Technology & media
+pronunciation: /ˈtaɪ̯lən/
+example.de: Sie hat das Video mit ihren Freunden geteilt.
+example.en: She shared the video with her friends.
+grammar.Verb type: weak
+grammar.Separable verb?: no
+grammar.Auxiliary (Perfekt): haben
+grammar.Partizip II: geteilt
+grammar.Präteritum (ich): teilte
+grammar.Präsens (all 6 forms): teile / teilst / teilt / teilen / teilt / teilen
+note: Also means "to divide/split" in general — teilen wir uns die Pizza (let's split the pizza).
+tags: ⭐ common, 💻 technology
+priority: yes
+//
+word: akku
+translation: battery
+type: noun
+group: 💻 Technology & media
+pronunciation: /ˈaku/
+example.de: Mein Akku ist fast leer.
+example.en: My battery is almost dead.
+grammar.Gender: m
+grammar.Plural (with article): die Akkus
+grammar.Genitive singular: des Akkus
+note: Akku is for rechargeable device batteries; Batterie is for disposable ones (remote controls, etc.).
+tags: ⭐ common, 💻 technology
+priority: yes
+//
+word: ladegerät
+translation: charger
+type: noun
+group: 💻 Technology & media
+pronunciation: /ˈlaːdəɡəʁɛːt/
+example.de: Hast du ein Ladegerät für mein Handy?
+example.en: Do you have a charger for my phone?
+grammar.Gender: n
+grammar.Plural (with article): die Ladegeräte
+grammar.Genitive singular: des Ladegeräts
+etymology: Laden (to charge/load) + Gerät (device).
+tags: ⭐ common, 💻 technology
+priority: yes

@@ -1,0 +1,451 @@
+word: fußball
+translation: football
+type: noun
+group: ⚽ Sports & hobbies
+pronunciation: /ˈfuːsbal/
+example.de: Er spielt jeden Sonntag Fußball.
+example.en: He plays football every Sunday.
+grammar.Gender: m
+grammar.Genitive singular: des Fußballs
+etymology: Fuß (foot) + Ball (ball).
+tags: ⭐ common, ⚽ sports
+priority: yes
+//
+word: tennis
+translation: tennis
+type: noun
+group: ⚽ Sports & hobbies
+pronunciation: /ˈtɛnɪs/
+example.de: Sie spielt seit Jahren Tennis.
+example.en: She's played tennis for years.
+grammar.Gender: n
+grammar.Genitive singular: des Tennis
+tags: ⚽ sports
+priority: yes
+//
+word: schwimmen
+translation: swimming
+type: noun
+group: ⚽ Sports & hobbies
+pronunciation: /ˈʃvɪmən/
+example.de: Schwimmen ist gut für den ganzen Körper.
+example.en: Swimming is good for your whole body.
+grammar.Gender: n
+grammar.Genitive singular: des Schwimmens
+note: The nominalized infinitive of schwimmen (to swim), used as a noun for the activity.
+tags: ⭐ common, ⚽ sports
+priority: yes
+//
+word: laufen
+translation: running
+type: noun
+group: ⚽ Sports & hobbies
+pronunciation: /ˈlaʊ̯fn̩/
+example.de: Laufen ist mein liebstes Hobby.
+example.en: Running is my favorite hobby.
+grammar.Gender: n
+grammar.Genitive singular: des Laufens
+note: Also the infinitive verb "to run" — German freely uses infinitives as neuter nouns this way.
+tags: ⭐ common, ⚽ sports
+priority: yes
+//
+word: radfahren
+translation: cycling
+type: noun
+group: ⚽ Sports & hobbies
+pronunciation: /ˈʁaːtfaːʁən/
+example.de: Radfahren ist in den Niederlanden sehr beliebt.
+example.en: Cycling is very popular in the Netherlands.
+grammar.Gender: n
+grammar.Genitive singular: des Radfahrens
+etymology: Rad (wheel/bike) + fahren (to drive/ride).
+tags: ⚽ sports
+priority: yes
+//
+word: basketball
+translation: basketball
+type: noun
+group: ⚽ Sports & hobbies
+pronunciation: /ˈbaːskɛtbal/
+example.de: Er spielt Basketball in der Schulmannschaft.
+example.en: He plays basketball for the school team.
+grammar.Gender: m
+grammar.Genitive singular: des Basketballs
+tags: ⚽ sports
+priority: yes
+//
+word: volleyball
+translation: volleyball
+type: noun
+group: ⚽ Sports & hobbies
+pronunciation: /ˈvɔliːbal/
+example.de: Wir spielen Volleyball am Strand.
+example.en: We play volleyball on the beach.
+grammar.Gender: m
+grammar.Genitive singular: des Volleyballs
+tags: ⚽ sports
+priority: yes
+//
+word: skifahren
+translation: skiing
+type: noun
+group: ⚽ Sports & hobbies
+pronunciation: /ˈʃiːfaːʁən/
+example.de: Skifahren macht in den Alpen besonders viel Spaß.
+example.en: Skiing is especially fun in the Alps.
+grammar.Gender: n
+grammar.Genitive singular: des Skifahrens
+tags: ⚽ sports
+priority: yes
+//
+word: boxen
+translation: boxing
+type: noun
+group: ⚽ Sports & hobbies
+pronunciation: /ˈbɔksn̩/
+example.de: Boxen erfordert viel Disziplin.
+example.en: Boxing requires a lot of discipline.
+grammar.Gender: n
+grammar.Genitive singular: des Boxens
+tags: ⚽ sports
+priority: yes
+//
+word: yoga
+translation: yoga
+type: noun
+group: ⚽ Sports & hobbies
+pronunciation: /ˈjoːɡa/
+example.de: Sie macht jeden Morgen Yoga.
+example.en: She does yoga every morning.
+grammar.Gender: n
+grammar.Genitive singular: des Yoga
+tags: ⚽ sports
+priority: yes
+//
+word: fitnessstudio
+translation: gym
+type: noun
+group: ⚽ Sports & hobbies
+pronunciation: /ˈfɪtnəsʃtuːdi̯o/
+example.de: Ich gehe dreimal die Woche ins Fitnessstudio.
+example.en: I go to the gym three times a week.
+grammar.Gender: n
+grammar.Plural (with article): die Fitnessstudios
+grammar.Genitive singular: des Fitnessstudios
+note: Often shortened to Studio in casual conversation.
+tags: ⭐ common, ⚽ sports
+priority: yes
+//
+word: wandern
+translation: hiking
+type: noun
+group: ⚽ Sports & hobbies
+pronunciation: /ˈvandɐn/
+example.de: Wandern in den Alpen ist wunderschön.
+example.en: Hiking in the Alps is beautiful.
+grammar.Gender: n
+grammar.Genitive singular: des Wanderns
+tags: ⚽ sports
+priority: yes
+//
+word: kochen
+translation: cooking
+type: noun
+group: ⚽ Sports & hobbies
+pronunciation: /ˈkɔxn̩/
+example.de: Kochen ist eines meiner liebsten Hobbys.
+example.en: Cooking is one of my favourite hobbies.
+grammar.Gender: n
+grammar.Genitive singular: des Kochens
+tags: ⭐ common, ⚽ sports
+priority: yes
+//
+word: zeichnen
+translation: drawing
+type: noun
+group: ⚽ Sports & hobbies
+pronunciation: /ˈtsaɪ̯çnən/
+example.de: Zeichnen entspannt mich sehr.
+example.en: Drawing relaxes me a lot.
+grammar.Gender: n
+grammar.Genitive singular: des Zeichnens
+tags: ⚽ sports
+priority: yes
+//
+word: malen
+translation: painting
+type: noun
+group: ⚽ Sports & hobbies
+pronunciation: /ˈmaːlən/
+example.de: Malen mit Wasserfarben macht ihr Spaß.
+example.en: She enjoys painting with watercolours.
+grammar.Gender: n
+grammar.Genitive singular: des Malens
+tags: ⚽ sports
+priority: yes
+//
+word: fotografie
+translation: photography
+type: noun
+group: ⚽ Sports & hobbies
+pronunciation: /fotoɡʁaˈfiː/
+example.de: Fotografie ist seine große Leidenschaft.
+example.en: Photography is his big passion.
+grammar.Gender: f
+grammar.Genitive singular: der Fotografie
+tags: ⚽ sports
+priority: yes
+//
+word: tanzen
+translation: dancing
+type: noun
+group: ⚽ Sports & hobbies
+pronunciation: /ˈtantsn̩/
+example.de: Tanzen macht ihr riesigen Spaß.
+example.en: She has a huge amount of fun dancing.
+grammar.Gender: n
+grammar.Genitive singular: des Tanzens
+tags: ⚽ sports
+priority: yes
+//
+word: gärtnern
+translation: gardening
+type: noun
+group: ⚽ Sports & hobbies
+pronunciation: /ˈɡɛʁtnɐn/
+example.de: Gärtnern ist ein beliebtes Hobby für Rentner.
+example.en: Gardening is a popular hobby for retirees.
+grammar.Gender: n
+grammar.Genitive singular: des Gärtnerns
+tags: ⚽ sports
+priority: yes
+//
+word: zocken
+translation: gaming
+type: noun
+group: ⚽ Sports & hobbies
+pronunciation: /ˈtsɔkn̩/
+example.de: Er zockt am liebsten am Wochenende.
+example.en: He prefers gaming on the weekend.
+grammar.Gender: n
+grammar.Genitive singular: des Zockens
+note: Slangy and very common among younger speakers; Gaming (the English loanword) also works.
+tags: ⚽ sports
+priority: yes
+//
+word: team
+translation: team
+type: noun
+group: ⚽ Sports & hobbies
+pronunciation: /tiːm/
+example.de: Unser Team hat das Finale gewonnen.
+example.en: Our team won the final.
+grammar.Gender: n
+grammar.Plural (with article): die Teams
+grammar.Genitive singular: des Teams
+tags: ⭐ common, ⚽ sports
+priority: yes
+//
+word: spieler
+translation: player
+type: noun
+group: ⚽ Sports & hobbies
+pronunciation: /ˈʃpiːlɐ/
+example.de: Er ist der beste Spieler der Mannschaft.
+example.en: He's the best player on the team.
+grammar.Gender: m
+grammar.Plural (with article): die Spieler
+grammar.Genitive singular: des Spielers
+note: Feminine form is Spielerin.
+tags: ⭐ common, ⚽ sports
+priority: yes
+//
+word: spiel
+translation: match
+type: noun
+group: ⚽ Sports & hobbies
+pronunciation: /ʃpiːl/
+example.de: Das Spiel beginnt um 15 Uhr.
+example.en: The match starts at 3pm.
+grammar.Gender: n
+grammar.Plural (with article): die Spiele
+grammar.Genitive singular: des Spiels
+note: Also the general word for "game" and "play."
+tags: ⭐ common, ⚽ sports
+priority: yes
+//
+word: tor
+translation: goal
+type: noun
+group: ⚽ Sports & hobbies
+pronunciation: /toːɐ̯/
+example.de: Er hat das entscheidende Tor geschossen.
+example.en: He scored the decisive goal.
+grammar.Gender: n
+grammar.Plural (with article): die Tore
+grammar.Genitive singular: des Tores
+note: Also means "gate" — both the goalposts and a city/building gate.
+tags: ⭐ common, ⚽ sports
+priority: yes
+//
+word: ergebnis
+translation: score
+type: noun
+group: ⚽ Sports & hobbies
+pronunciation: /ˈɛɐ̯ɡeːpnɪs/
+example.de: Wie steht das Ergebnis?
+example.en: What's the score?
+grammar.Gender: n
+grammar.Plural (with article): die Ergebnisse
+grammar.Genitive singular: des Ergebnisses
+note: Also the general word for "result" — used far beyond sports.
+tags: ⚽ sports
+priority: yes
+//
+word: spielen
+translation: to play
+type: verb
+group: ⚽ Sports & hobbies
+pronunciation: /ˈʃpiːlən/
+example.de: Die Kinder spielen im Garten.
+example.en: The children are playing in the garden.
+grammar.Verb type: weak
+grammar.Separable verb?: no
+grammar.Auxiliary (Perfekt): haben
+grammar.Partizip II: gespielt
+grammar.Präteritum (ich): spielte
+grammar.Präsens (all 6 forms): spiele / spielst / spielt / spielen / spielt / spielen
+tags: ⭐ common, ⚽ sports
+priority: yes
+//
+word: üben
+translation: to practice
+type: verb
+group: ⚽ Sports & hobbies
+pronunciation: /ˈyːbn̩/
+example.de: Ich übe jeden Tag Klavier.
+example.en: I practice piano every day.
+grammar.Verb type: weak
+grammar.Separable verb?: no
+grammar.Auxiliary (Perfekt): haben
+grammar.Partizip II: geübt
+grammar.Präteritum (ich): übte
+grammar.Präsens (all 6 forms): übe / übst / übt / üben / übt / üben
+tags: ⚽ sports
+priority: yes
+//
+word: trainieren
+translation: to train
+type: verb
+group: ⚽ Sports & hobbies
+pronunciation: /tʁɛˈniːʁən/
+example.de: Sie trainiert für den Marathon.
+example.en: She's training for the marathon.
+grammar.Verb type: weak
+grammar.Separable verb?: no
+grammar.Auxiliary (Perfekt): haben
+grammar.Partizip II: trainiert
+grammar.Präteritum (ich): trainierte
+grammar.Präsens (all 6 forms): trainiere / trainierst / trainiert / trainieren / trainiert / trainieren
+tags: ⚽ sports
+priority: yes
+//
+word: gewinnen
+translation: to win
+type: verb
+group: ⚽ Sports & hobbies
+pronunciation: /ɡəˈvɪnən/
+example.de: Unser Team hat das Spiel gewonnen.
+example.en: Our team won the game.
+grammar.Verb type: strong
+grammar.Separable verb?: no
+grammar.Auxiliary (Perfekt): haben
+grammar.Partizip II: gewonnen
+grammar.Präteritum (ich): gewann
+grammar.Präsens (all 6 forms): gewinne / gewinnst / gewinnt / gewinnen / gewinnt / gewinnen
+tags: ⭐ common, ⚽ sports
+priority: yes
+//
+word: verlieren
+translation: to lose
+type: verb
+group: ⚽ Sports & hobbies
+pronunciation: /fɛɐ̯ˈliːʁən/
+example.de: Wir haben leider das Finale verloren.
+example.en: Unfortunately we lost the final.
+grammar.Verb type: strong
+grammar.Separable verb?: no
+grammar.Auxiliary (Perfekt): haben
+grammar.Partizip II: verloren
+grammar.Präteritum (ich): verlor
+grammar.Präsens (all 6 forms): verliere / verlierst / verliert / verlieren / verliert / verlieren
+tags: ⭐ common, ⚽ sports
+priority: yes
+//
+word: meister
+translation: champion
+type: noun
+group: ⚽ Sports & hobbies
+pronunciation: /ˈmaɪ̯stɐ/
+example.de: Er wurde deutscher Meister im Schwimmen.
+example.en: He became German champion in swimming.
+grammar.Gender: m
+grammar.Plural (with article): die Meister
+grammar.Genitive singular: des Meisters
+note: Also means "master" in a trade — a Meister is a certified expert craftsman.
+tags: ⚽ sports
+priority: yes
+//
+word: schiedsrichter
+translation: referee
+type: noun
+group: ⚽ Sports & hobbies
+pronunciation: /ˈʃiːtsʁɪçtɐ/
+example.de: Der Schiedsrichter zeigte die rote Karte.
+example.en: The referee showed the red card.
+grammar.Gender: m
+grammar.Plural (with article): die Schiedsrichter
+grammar.Genitive singular: des Schiedsrichters
+etymology: Literally "judge of dispute" — Schied (from scheiden, to decide/separate) + Richter (judge).
+tags: ⚽ sports
+priority: yes
+//
+word: stadion
+translation: stadium
+type: noun
+group: ⚽ Sports & hobbies
+pronunciation: /ˈʃtaːdi̯ɔn/
+example.de: Das Stadion war komplett ausverkauft.
+example.en: The stadium was completely sold out.
+grammar.Gender: n
+grammar.Plural (with article): die Stadien
+grammar.Genitive singular: des Stadions
+tags: ⚽ sports
+priority: yes
+//
+word: trainer
+translation: coach
+type: noun
+group: ⚽ Sports & hobbies
+pronunciation: /ˈtʁɛːnɐ/
+example.de: Der Trainer ist sehr streng.
+example.en: The coach is very strict.
+grammar.Gender: m
+grammar.Plural (with article): die Trainer
+grammar.Genitive singular: des Trainers
+note: Feminine form is Trainerin.
+tags: ⚽ sports
+priority: yes
+//
+word: fan
+translation: fan
+type: noun
+group: ⚽ Sports & hobbies
+pronunciation: /fɛn/
+example.de: Ich bin ein großer Fan dieser Mannschaft.
+example.en: I'm a big fan of this team.
+grammar.Gender: m
+grammar.Plural (with article): die Fans
+grammar.Genitive singular: des Fans
+tags: ⭐ common, ⚽ sports
+priority: yes

@@ -1,0 +1,483 @@
+word: schule
+translation: school
+type: noun
+group: 📚 School & education
+pronunciation: /ˈʃuːlə/
+example.de: Die Kinder gehen zu Fuß zur Schule.
+example.en: The children walk to school.
+grammar.Gender: f
+grammar.Plural (with article): die Schulen
+grammar.Genitive singular: der Schule
+tags: ⭐ common, 📚 school
+priority: yes
+//
+word: lehrer
+translation: teacher
+type: noun
+group: 📚 School & education
+pronunciation: /ˈleːʁɐ/
+example.de: Mein Lehrer erklärt sehr gut.
+example.en: My teacher explains very well.
+grammar.Gender: m
+grammar.Plural (with article): die Lehrer
+grammar.Genitive singular: des Lehrers
+note: Feminine form is Lehrerin.
+tags: ⭐ common, 📚 school
+priority: yes
+//
+word: universität
+translation: university
+type: noun
+group: 📚 School & education
+pronunciation: /univɛʁziˈtɛːt/
+example.de: Sie studiert an der Universität Heidelberg.
+example.en: She studies at the University of Heidelberg.
+grammar.Gender: f
+grammar.Plural (with article): die Universitäten
+grammar.Genitive singular: der Universität
+note: Often shortened to Uni in everyday speech.
+tags: ⭐ common, 📚 school
+priority: yes
+//
+word: klassenzimmer
+translation: classroom
+type: noun
+group: 📚 School & education
+pronunciation: /ˈklasn̩tsɪmɐ/
+example.de: Das Klassenzimmer ist im zweiten Stock.
+example.en: The classroom is on the second floor.
+grammar.Gender: n
+grammar.Plural (with article): die Klassenzimmer
+grammar.Genitive singular: des Klassenzimmers
+etymology: Klasse (class) + Zimmer (room).
+tags: 📚 school
+priority: yes
+//
+word: schüler
+translation: student
+type: noun
+group: 📚 School & education
+pronunciation: /ˈʃyːlɐ/
+example.de: Die Schüler machen ihre Hausaufgaben.
+example.en: The students do their homework.
+grammar.Gender: m
+grammar.Plural (with article): die Schüler
+grammar.Genitive singular: des Schülers
+note: Schüler is a school-age pupil; Student refers specifically to a university student.
+tags: ⭐ common, 📚 school
+priority: yes
+//
+word: unterricht
+translation: lesson
+type: noun
+group: 📚 School & education
+pronunciation: /ˈʊntɐʁɪçt/
+example.de: Der Unterricht beginnt um acht Uhr.
+example.en: Lessons start at eight o'clock.
+grammar.Gender: m
+grammar.Genitive singular: des Unterrichts
+note: Mostly used in the singular to mean "class/teaching" collectively, rather than one specific lesson.
+tags: 📚 school
+priority: yes
+//
+word: fach
+translation: subject
+type: noun
+group: 📚 School & education
+pronunciation: /fax/
+example.de: Mathematik ist mein Lieblingsfach.
+example.en: Mathematics is my favourite subject.
+grammar.Gender: n
+grammar.Plural (with article): die Fächer
+grammar.Genitive singular: des Faches
+tags: 📚 school
+priority: yes
+//
+word: hausaufgaben
+translation: homework
+type: noun
+group: 📚 School & education
+pronunciation: /ˈhaʊ̯sʔaʊ̯fɡaːbn̩/
+example.de: Hast du deine Hausaufgaben gemacht?
+example.en: Have you done your homework?
+grammar.Gender: pl
+etymology: Haus (house) + Aufgaben (tasks) — "house tasks."
+note: Always plural, even for a single assignment.
+tags: ⭐ common, 📚 school
+priority: yes
+//
+word: prüfung
+translation: exam
+type: noun
+group: 📚 School & education
+pronunciation: /ˈpʁyːfʊŋ/
+example.de: Die Prüfung ist nächste Woche.
+example.en: The exam is next week.
+grammar.Gender: f
+grammar.Plural (with article): die Prüfungen
+grammar.Genitive singular: der Prüfung
+tags: ⭐ common, 📚 school
+priority: yes
+//
+word: note
+translation: grade
+type: noun
+group: 📚 School & education
+pronunciation: /ˈnoːtə/
+example.de: Sie hat eine gute Note bekommen.
+example.en: She got a good grade.
+grammar.Gender: f
+grammar.Plural (with article): die Noten
+grammar.Genitive singular: der Note
+note: German grades run from 1 (best) to 6 (worst) — the reverse of many other systems. Also means "musical note."
+tags: ⭐ common, 📚 school
+priority: yes
+//
+word: mathematik
+translation: mathematics
+type: noun
+group: 📚 School & education
+pronunciation: /matemaˈtiːk/
+example.de: Mathematik fällt mir leicht.
+example.en: Mathematics comes easily to me.
+grammar.Gender: f
+grammar.Genitive singular: der Mathematik
+note: Often shortened to Mathe in casual speech.
+tags: 📚 school
+priority: yes
+//
+word: wissenschaft
+translation: science
+type: noun
+group: 📚 School & education
+pronunciation: /ˈvɪsn̩ʃaft/
+example.de: Sie interessiert sich sehr für Wissenschaft.
+example.en: She's very interested in science.
+grammar.Gender: f
+grammar.Plural (with article): die Wissenschaften
+grammar.Genitive singular: der Wissenschaft
+etymology: Wissen (knowledge) + -schaft (suffix forming abstract nouns).
+tags: 📚 school
+priority: yes
+//
+word: geschichte
+translation: history
+type: noun
+group: 📚 School & education
+pronunciation: /ɡəˈʃɪçtə/
+example.de: Geschichte war mein Lieblingsfach.
+example.en: History was my favourite subject.
+grammar.Gender: f
+grammar.Plural (with article): die Geschichten
+grammar.Genitive singular: der Geschichte
+note: Also means "story" — the same word covers both senses.
+tags: ⭐ common, 📚 school
+priority: yes
+//
+word: geografie
+translation: geography
+type: noun
+group: 📚 School & education
+pronunciation: /ɡeoɡʁaˈfiː/
+example.de: In Geografie lernen wir über Kontinente.
+example.en: In geography we learn about continents.
+grammar.Gender: f
+grammar.Genitive singular: der Geografie
+tags: 📚 school
+priority: yes
+//
+word: sprache
+translation: language
+type: noun
+group: 📚 School & education
+pronunciation: /ˈʃpʁaːxə/
+example.de: Deutsch ist eine faszinierende Sprache.
+example.en: German is a fascinating language.
+grammar.Gender: f
+grammar.Plural (with article): die Sprachen
+grammar.Genitive singular: der Sprache
+tags: ⭐ common, 📚 school
+priority: yes
+//
+word: kunst
+translation: art
+type: noun
+group: 📚 School & education
+pronunciation: /kʊnst/
+example.de: Kunst macht ihr besonders viel Spaß.
+example.en: She especially enjoys art.
+grammar.Gender: f
+grammar.Plural (with article): die Künste
+grammar.Genitive singular: der Kunst
+tags: 📚 school
+priority: yes
+//
+word: musik
+translation: music
+type: noun
+group: 📚 School & education
+pronunciation: /muˈziːk/
+example.de: Wir haben zweimal pro Woche Musik.
+example.en: We have music twice a week.
+grammar.Gender: f
+grammar.Genitive singular: der Musik
+tags: ⭐ common, 📚 school
+priority: yes
+//
+word: sport
+translation: sport
+type: noun
+group: 📚 School & education
+pronunciation: /ʃpɔʁt/
+example.de: Sport ist am Freitag.
+example.en: Sport is on Friday.
+grammar.Gender: m
+grammar.Genitive singular: des Sports
+tags: ⭐ common, 📚 school
+priority: yes
+//
+word: buch
+translation: book
+type: noun
+group: 📚 School & education
+pronunciation: /buːx/
+example.de: Ich lese gerade ein spannendes Buch.
+example.en: I'm reading an exciting book right now.
+grammar.Gender: n
+grammar.Plural (with article): die Bücher
+grammar.Genitive singular: des Buches
+tags: ⭐ common, 📚 school
+priority: yes
+//
+word: heft
+translation: notebook
+type: noun
+group: 📚 School & education
+pronunciation: /hɛft/
+example.de: Schreib die Hausaufgaben in dein Heft.
+example.en: Write the homework in your notebook.
+grammar.Gender: n
+grammar.Plural (with article): die Hefte
+grammar.Genitive singular: des Heftes
+tags: 📚 school
+priority: yes
+//
+word: kugelschreiber
+translation: pen
+type: noun
+group: 📚 School & education
+pronunciation: /ˈkuːɡl̩ʃʁaɪ̯bɐ/
+example.de: Kann ich deinen Kugelschreiber ausleihen?
+example.en: Can I borrow your pen?
+grammar.Gender: m
+grammar.Plural (with article): die Kugelschreiber
+grammar.Genitive singular: des Kugelschreibers
+etymology: Literally "ball writer" — Kugel (ball) + schreiben (to write).
+note: Almost always shortened to Kuli in everyday speech.
+tags: 📚 school
+priority: yes
+//
+word: bleistift
+translation: pencil
+type: noun
+group: 📚 School & education
+pronunciation: /ˈblaɪ̯ʃtɪft/
+example.de: Ich zeichne lieber mit Bleistift.
+example.en: I prefer drawing with pencil.
+grammar.Gender: m
+grammar.Plural (with article): die Bleistifte
+grammar.Genitive singular: des Bleistiftes
+etymology: Literally "lead pen" — Blei (lead) + Stift (pen/peg) — a holdover from when pencil cores really were made of lead.
+tags: 📚 school
+priority: yes
+//
+word: lineal
+translation: ruler
+type: noun
+group: 📚 School & education
+pronunciation: /lineˈaːl/
+example.de: Zieh die Linie mit dem Lineal.
+example.en: Draw the line with the ruler.
+grammar.Gender: n
+grammar.Plural (with article): die Lineale
+grammar.Genitive singular: des Lineals
+tags: 📚 school
+priority: yes
+//
+word: tafel
+translation: board
+type: noun
+group: 📚 School & education
+pronunciation: /ˈtaːfl̩/
+example.de: Der Lehrer schreibt an die Tafel.
+example.en: The teacher writes on the board.
+grammar.Gender: f
+grammar.Plural (with article): die Tafeln
+grammar.Genitive singular: der Tafel
+note: Also means a bar of chocolate — eine Tafel Schokolade.
+tags: 📚 school
+priority: yes
+//
+word: lernen
+translation: to learn
+type: verb
+group: 📚 School & education
+pronunciation: /ˈlɛʁnən/
+example.de: Ich lerne jeden Tag ein neues Wort.
+example.en: I learn a new word every day.
+grammar.Verb type: weak
+grammar.Separable verb?: no
+grammar.Auxiliary (Perfekt): haben
+grammar.Partizip II: gelernt
+grammar.Präteritum (ich): lernte
+grammar.Präsens (all 6 forms): lerne / lernst / lernt / lernen / lernt / lernen
+tags: ⭐ common, 📚 school
+priority: yes
+//
+word: studieren
+translation: to study
+type: verb
+group: 📚 School & education
+pronunciation: /ʃtuˈdiːʁən/
+example.de: Sie studiert Medizin in Berlin.
+example.en: She's studying medicine in Berlin.
+grammar.Verb type: weak
+grammar.Separable verb?: no
+grammar.Auxiliary (Perfekt): haben
+grammar.Partizip II: studiert
+grammar.Präteritum (ich): studierte
+grammar.Präsens (all 6 forms): studiere / studierst / studiert / studieren / studiert / studieren
+note: Specifically means to study at university; lernen covers general studying/learning.
+tags: ⭐ common, 📚 school
+priority: yes
+//
+word: lesen
+translation: to read
+type: verb
+group: 📚 School & education
+pronunciation: /ˈleːzn̩/
+example.de: Ich lese jeden Abend vor dem Schlafen.
+example.en: I read every evening before sleeping.
+grammar.Verb type: strong
+grammar.Separable verb?: no
+grammar.Auxiliary (Perfekt): haben
+grammar.Partizip II: gelesen
+grammar.Präteritum (ich): las
+grammar.Präsens (all 6 forms): lese / liest / liest / lesen / lest / lesen
+note: The nominalized form das Lesen also covers "reading" as a hobby or activity.
+tags: ⭐ common, 📚 school
+priority: yes
+//
+word: schreiben
+translation: to write
+type: verb
+group: 📚 School & education
+pronunciation: /ˈʃʁaɪ̯bn̩/
+example.de: Kannst du mir eine E-Mail schreiben?
+example.en: Can you write me an email?
+grammar.Verb type: strong
+grammar.Separable verb?: no
+grammar.Auxiliary (Perfekt): haben
+grammar.Partizip II: geschrieben
+grammar.Präteritum (ich): schrieb
+grammar.Präsens (all 6 forms): schreibe / schreibst / schreibt / schreiben / schreibt / schreiben
+tags: ⭐ common, 📚 school
+priority: yes
+//
+word: verstehen
+translation: to understand
+type: verb
+group: 📚 School & education
+pronunciation: /fɛɐ̯ˈʃteːən/
+example.de: Ich verstehe die Frage nicht.
+example.en: I don't understand the question.
+grammar.Verb type: strong
+grammar.Separable verb?: no
+grammar.Auxiliary (Perfekt): haben
+grammar.Partizip II: verstanden
+grammar.Präteritum (ich): verstand
+grammar.Präsens (all 6 forms): verstehe / verstehst / versteht / verstehen / versteht / verstehen
+tags: ⭐ common, 📚 school
+priority: yes
+//
+word: erklären
+translation: to explain
+type: verb
+group: 📚 School & education
+pronunciation: /ɛɐ̯ˈklɛːʁən/
+example.de: Kannst du das noch einmal erklären?
+example.en: Can you explain that one more time?
+grammar.Verb type: weak
+grammar.Separable verb?: no
+grammar.Auxiliary (Perfekt): haben
+grammar.Partizip II: erklärt
+grammar.Präteritum (ich): erklärte
+grammar.Präsens (all 6 forms): erkläre / erklärst / erklärt / erklären / erklärt / erklären
+tags: ⭐ common, 📚 school
+priority: yes
+//
+word: fragen
+translation: to ask
+type: verb
+group: 📚 School & education
+pronunciation: /ˈfʁaːɡn̩/
+example.de: Darf ich dich etwas fragen?
+example.en: May I ask you something?
+grammar.Verb type: weak
+grammar.Separable verb?: no
+grammar.Auxiliary (Perfekt): haben
+grammar.Partizip II: gefragt
+grammar.Präteritum (ich): fragte
+grammar.Präsens (all 6 forms): frage / fragst / fragt / fragen / fragt / fragen
+tags: ⭐ common, 📚 school
+priority: yes
+//
+word: antworten
+translation: to answer
+type: verb
+group: 📚 School & education
+pronunciation: /ˈantvɔʁtn̩/
+example.de: Sie hat sofort geantwortet.
+example.en: She answered immediately.
+grammar.Verb type: weak
+grammar.Separable verb?: no
+grammar.Auxiliary (Perfekt): haben
+grammar.Partizip II: geantwortet
+grammar.Präteritum (ich): antwortete
+grammar.Präsens (all 6 forms): antworte / antwortest / antwortet / antworten / antwortet / antworten
+tags: ⭐ common, 📚 school
+priority: yes
+//
+word: bestehen
+translation: to pass
+type: verb
+group: 📚 School & education
+pronunciation: /bəˈʃteːən/
+example.de: Ich habe die Prüfung bestanden!
+example.en: I passed the exam!
+grammar.Verb type: strong
+grammar.Separable verb?: no
+grammar.Auxiliary (Perfekt): haben
+grammar.Partizip II: bestanden
+grammar.Präteritum (ich): bestand
+grammar.Präsens (all 6 forms): bestehe / bestehst / besteht / bestehen / besteht / bestehen
+note: Also means "to exist/consist of" in other contexts.
+tags: ⭐ common, 📚 school
+priority: yes
+//
+word: durchfallen
+translation: to fail
+type: verb
+group: 📚 School & education
+pronunciation: /ˈdʊʁçfalən/
+example.de: Er ist leider durch die Prüfung durchgefallen.
+example.en: Unfortunately he failed the exam.
+grammar.Verb type: strong
+grammar.Separable verb?: yes
+grammar.Auxiliary (Perfekt): sein
+grammar.Partizip II: durchgefallen
+grammar.Präteritum (ich): fiel durch
+grammar.Präsens (all 6 forms): falle durch / fällst durch / fällt durch / fallen durch / fallt durch / fallen durch
+etymology: Literally "to fall through" — durch (through) + fallen (to fall).
+tags: ⭐ common, 📚 school
+priority: yes

@@ -1,0 +1,283 @@
+word: kellner
+translation: waiter
+type: noun
+group: 🍴 Restaurants & ordering
+pronunciation: /ˈkɛlnɐ/
+example.de: Der Kellner bringt die Speisekarte.
+example.en: The waiter brings the menu.
+grammar.Gender: m
+grammar.Plural (with article): die Kellner
+grammar.Genitive singular: des Kellners
+note: Feminine form is Kellnerin.
+tags: ⭐ common, 🍴 restaurant
+priority: yes
+//
+word: trinkgeld
+translation: tip
+type: noun
+group: 🍴 Restaurants & ordering
+pronunciation: /ˈtʁɪŋkɡɛlt/
+example.de: Trinkgeld ist in Deutschland üblich, aber nicht verpflichtend.
+example.en: A tip is customary in Germany, but not obligatory.
+grammar.Gender: n
+grammar.Genitive singular: des Trinkgeldes
+etymology: Literally "drink money" — trinken (to drink) + Geld (money).
+note: Typically 5-10%, usually rounded up rather than left on the table — hand it directly to the server when paying.
+tags: ⭐ common, 🍴 restaurant
+priority: yes
+//
+word: speisekarte
+translation: menu
+type: noun
+group: 🍴 Restaurants & ordering
+pronunciation: /ˈʃpaɪ̯zəkaʁtə/
+example.de: Können wir die Speisekarte haben, bitte?
+example.en: Could we have the menu, please?
+grammar.Gender: f
+grammar.Plural (with article): die Speisekarten
+grammar.Genitive singular: der Speisekarte
+etymology: Speise (food/dish) + Karte (card).
+tags: ⭐ common, 🍴 restaurant
+priority: yes
+//
+word: rechnung
+translation: bill
+type: noun
+group: 🍴 Restaurants & ordering
+pronunciation: /ˈʁɛçnʊŋ/
+example.de: Können wir die Rechnung haben?
+example.en: Could we have the bill?
+grammar.Gender: f
+grammar.Plural (with article): die Rechnungen
+grammar.Genitive singular: der Rechnung
+note: In Germany the bill is often settled at the table, and it's normal to ask to split it — getrennt, bitte.
+tags: ⭐ common, 🍴 restaurant
+priority: yes
+//
+word: vorspeise
+translation: starter
+type: noun
+group: 🍴 Restaurants & ordering
+pronunciation: /ˈfoːɐ̯ʃpaɪ̯zə/
+example.de: Als Vorspeise nehme ich die Suppe.
+example.en: As a starter I'll have the soup.
+grammar.Gender: f
+grammar.Plural (with article): die Vorspeisen
+grammar.Genitive singular: der Vorspeise
+etymology: Vor (before) + Speise (dish).
+tags: 🍴 restaurant
+priority: yes
+//
+word: hauptgericht
+translation: main course
+type: noun
+group: 🍴 Restaurants & ordering
+pronunciation: /ˈhaʊ̯ptɡəʁɪçt/
+example.de: Was ist Ihr Hauptgericht des Tages?
+example.en: What is your main course of the day?
+grammar.Gender: n
+grammar.Plural (with article): die Hauptgerichte
+grammar.Genitive singular: des Hauptgerichts
+etymology: Haupt (main/chief) + Gericht (dish/court).
+tags: 🍴 restaurant
+priority: yes
+//
+word: nachtisch
+translation: dessert
+type: noun
+group: 🍴 Restaurants & ordering
+pronunciation: /ˈnaːxtɪʃ/
+example.de: Zum Nachtisch nehme ich das Eis.
+example.en: For dessert I'll have the ice cream.
+grammar.Gender: m
+grammar.Genitive singular: des Nachtisches
+etymology: Literally "after-table" — nach (after) + Tisch (table).
+note: Dessert (the French loanword) is also very common.
+tags: ⭐ common, 🍴 restaurant
+priority: yes
+//
+word: getränk
+translation: drink
+type: noun
+group: 🍴 Restaurants & ordering
+pronunciation: /ɡəˈtʁɛŋk/
+example.de: Was möchten Sie zu trinken? Ein Getränk?
+example.en: What would you like to drink? A drink?
+grammar.Gender: n
+grammar.Plural (with article): die Getränke
+grammar.Genitive singular: des Getränks
+tags: ⭐ common, 🍴 restaurant
+priority: yes
+//
+word: bestellen
+translation: to order
+type: verb
+group: 🍴 Restaurants & ordering
+pronunciation: /bəˈʃtɛlən/
+example.de: Möchten Sie schon bestellen?
+example.en: Would you like to order already?
+grammar.Verb type: weak
+grammar.Separable verb?: no
+grammar.Auxiliary (Perfekt): haben
+grammar.Partizip II: bestellt
+grammar.Präteritum (ich): bestellte
+grammar.Präsens (all 6 forms): bestelle / bestellst / bestellt / bestellen / bestellt / bestellen
+tags: ⭐ common, 🍴 restaurant
+priority: yes
+//
+word: empfehlen
+translation: to recommend
+type: verb
+group: 🍴 Restaurants & ordering
+pronunciation: /ɛmpˈfeːlən/
+example.de: Was können Sie mir empfehlen?
+example.en: What can you recommend to me?
+grammar.Verb type: strong
+grammar.Separable verb?: no
+grammar.Auxiliary (Perfekt): haben
+grammar.Partizip II: empfohlen
+grammar.Präteritum (ich): empfahl
+grammar.Präsens (all 6 forms): empfehle / empfiehlst / empfiehlt / empfehlen / empfehlt / empfehlen
+tags: ⭐ common, 🍴 restaurant
+priority: yes
+//
+word: servieren
+translation: to serve
+type: verb
+group: 🍴 Restaurants & ordering
+pronunciation: /zɛʁˈviːʁən/
+example.de: Das Essen wird gleich serviert.
+example.en: The food will be served shortly.
+grammar.Verb type: weak
+grammar.Separable verb?: no
+grammar.Auxiliary (Perfekt): haben
+grammar.Partizip II: serviert
+grammar.Präteritum (ich): servierte
+grammar.Präsens (all 6 forms): serviere / servierst / serviert / servieren / serviert / servieren
+tags: 🍴 restaurant
+priority: yes
+//
+word: mild
+translation: mild
+type: adjective
+group: 🍴 Restaurants & ordering
+pronunciation: /mɪlt/
+example.de: Ich hätte gern etwas Mildes, bitte.
+example.en: I'd like something mild, please.
+grammar.Comparative: milder
+grammar.Superlative: am mildesten
+tags: 🍴 restaurant
+priority: yes
+//
+word: lecker
+translation: delicious
+type: adjective
+group: 🍴 Restaurants & ordering
+pronunciation: /ˈlɛkɐ/
+example.de: Das Essen war wirklich lecker.
+example.en: The food was really delicious.
+grammar.Comparative: leckerer
+grammar.Superlative: am leckersten
+tags: ⭐ common, 🍴 restaurant
+priority: yes
+//
+word: zum mitnehmen
+translation: take away
+type: phrase
+group: 🍴 Restaurants & ordering
+pronunciation: /tsʊm ˈmɪtneːmən/
+example.de: Können Sie das zum Mitnehmen einpacken?
+example.en: Could you pack that to take away?
+etymology: Zum (to the/for) + mitnehmen (to take with you).
+tags: 🍴 restaurant
+priority: yes
+//
+word: lieferung
+translation: delivery
+type: noun
+group: 🍴 Restaurants & ordering
+pronunciation: /ˈliːfəʁʊŋ/
+example.de: Die Lieferung dauert etwa dreißig Minuten.
+example.en: Delivery takes about thirty minutes.
+grammar.Gender: f
+grammar.Plural (with article): die Lieferungen
+grammar.Genitive singular: der Lieferung
+tags: 🍴 restaurant
+priority: yes
+//
+word: portion
+translation: portion
+type: noun
+group: 🍴 Restaurants & ordering
+pronunciation: /pɔʁˈtsi̯oːn/
+example.de: Die Portionen hier sind sehr großzügig.
+example.en: The portions here are very generous.
+grammar.Gender: f
+grammar.Plural (with article): die Portionen
+grammar.Genitive singular: der Portion
+tags: 🍴 restaurant
+priority: yes
+//
+word: flasche
+translation: bottle
+type: noun
+group: 🍴 Restaurants & ordering
+pronunciation: /ˈflaʃə/
+example.de: Eine Flasche Wasser, bitte.
+example.en: A bottle of water, please.
+grammar.Gender: f
+grammar.Plural (with article): die Flaschen
+grammar.Genitive singular: der Flasche
+tags: ⭐ common, 🍴 restaurant
+priority: yes
+//
+word: probieren
+translation: to taste
+type: verb
+group: 🍴 Restaurants & ordering
+pronunciation: /pʁoˈbiːʁən/
+example.de: Möchten Sie den Wein probieren?
+example.en: Would you like to taste the wine?
+grammar.Verb type: weak
+grammar.Separable verb?: no
+grammar.Auxiliary (Perfekt): haben
+grammar.Partizip II: probiert
+grammar.Präteritum (ich): probierte
+grammar.Präsens (all 6 forms): probiere / probierst / probiert / probieren / probiert / probieren
+note: Also means "to try" more generally, beyond just food.
+tags: 🍴 restaurant
+priority: yes
+//
+word: durchgebraten
+translation: well done
+type: adjective
+group: 🍴 Restaurants & ordering
+pronunciation: /ˈdʊʁçɡəbʁaːtn̩/
+example.de: Ich hätte mein Steak gerne durchgebraten.
+example.en: I'd like my steak well done.
+etymology: Durch (through) + gebraten (fried/roasted, past participle of braten).
+note: For less-done: englisch (rare) or medium (medium) — both borrowed straight from English.
+tags: 🍴 restaurant
+priority: yes
+//
+word: guten appetit
+translation: enjoy your meal
+type: phrase
+group: 🍴 Restaurants & ordering
+pronunciation: /ˈɡuːtn̩ apeˈtiːt/
+example.de: Guten Appetit euch allen!
+example.en: Enjoy your meal, everyone!
+etymology: Guten (good) + Appetit (appetite, from French/Latin).
+note: Said before eating, almost like a mini-ritual — expected at the table in German-speaking countries.
+tags: ⭐ common, 🍴 restaurant
+priority: yes
+//
+word: die rechnung, bitte
+translation: the bill please
+type: phrase
+group: 🍴 Restaurants & ordering
+pronunciation: /diː ˈʁɛçnʊŋ ˈbɪtə/
+example.de: Entschuldigung, die Rechnung, bitte!
+example.en: Excuse me, the bill please!
+tags: ⭐ common, 🍴 restaurant
+priority: yes

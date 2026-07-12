@@ -248,20 +248,26 @@ def _make_greek_check_fn(accepted_alts):
             return "wrong"
 
         if direction == "word→en":
-            # Greek → English: spelling tolerance → auto-correct
-            options = [_el_normalize(o) for o in re.split(r"[/,]", card.get("translation", "")) if o.strip()]
+            # Greek → English: spelling tolerance → auto-correct.
+            # Strip a leading "the " on both sides so "house" and "the house"
+            # are treated as the same answer.
+            def _strip_the(s):
+                return s[4:] if s.startswith("the ") else s
+            en_guess = _strip_the(norm_guess)
+            options = [_strip_the(_el_normalize(o))
+                       for o in re.split(r"[/,]", card.get("translation", "")) if o.strip()]
             for opt in options:
-                if norm_guess == opt:
+                if en_guess == opt:
                     return "correct"
-                opt_w   = [w for w in opt.split()       if len(w) > 2]
-                guess_w = [w for w in norm_guess.split() if len(w) > 2]
+                opt_w   = [w for w in opt.split()      if len(w) > 2]
+                guess_w = [w for w in en_guess.split() if len(w) > 2]
                 if opt_w and guess_w and opt_w[0] == guess_w[0]:
                     return "correct"
             for opt in options:
-                if _el_is_close(norm_guess, opt):
+                if _el_is_close(en_guess, opt):
                     return "correct"
-                opt_w   = [w for w in opt.split()       if len(w) > 2]
-                guess_w = [w for w in norm_guess.split() if len(w) > 2]
+                opt_w   = [w for w in opt.split()      if len(w) > 2]
+                guess_w = [w for w in en_guess.split() if len(w) > 2]
                 if opt_w and guess_w and _el_is_close(guess_w[0], opt_w[0]):
                     return "correct"
             return "wrong"

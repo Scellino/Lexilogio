@@ -92,13 +92,20 @@ def _edit_distance(a, b):
     return dp[n]
 
 
-def _strip_to(s):
-    return s[3:] if s.startswith("to ") else s
+def _strip_particles(s):
+    """Strip a leading verb-infinitive 'to ' or English article 'the ', so
+    e.g. 'to run'/'run' and 'the house'/'house' are treated as equivalent
+    answers regardless of which form the card or the learner uses."""
+    if s.startswith("to "):
+        return s[3:]
+    if s.startswith("the "):
+        return s[4:]
+    return s
 
 
 def _check(guess, correct, direction='word→en'):
-    g    = _strip_to(_normalise(guess))
-    alts = [_strip_to(_normalise(a.strip())) for a in correct.split(",")]
+    g    = _strip_particles(_normalise(guess))
+    alts = [_strip_particles(_normalise(a.strip())) for a in correct.split(",")]
     if g in alts:
         return "correct"
     for a in alts:

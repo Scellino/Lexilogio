@@ -48,9 +48,13 @@ def _es_is_close(guess, target):
     return d <= 3
 
 
+def _strip_the(s):
+    return s[4:] if s.startswith("the ") else s
+
+
 def _es_check_fn(guess, correct, direction, card):
-    g_norm = _es_normalize(guess)
-    c_norm = _es_normalize(correct)
+    g_norm = _strip_the(_es_normalize(guess))
+    c_norm = _strip_the(_es_normalize(correct))
     if g_norm == c_norm:
         return "correct"
 

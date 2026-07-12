@@ -3,6 +3,9 @@ product decisions (accent tolerance, typo forgiveness asymmetry, article
 handling), so a failure here means user-visible behavior changed."""
 from generic_vocab_bp import _check, _normalise
 from el_vocab_app import _el_grammar_forms, _make_greek_check_fn
+from de_vocab_app import _de_check_fn
+from it_vocab_app import _it_check_fn
+from es_vocab_app import _es_check_fn
 
 
 # ── Generic checker ───────────────────────────────────────────────────────────
@@ -37,6 +40,34 @@ def test_wrong_answer():
 def test_short_words_no_fuzzy():
     # 2-letter words must match exactly — edit distance would make 'de'≈'le'
     assert _check("de", "le") == "wrong"
+
+def test_leading_the_stripped_both_ways():
+    assert _check("house", "the house", direction="word→en") == "correct"
+    assert _check("the house", "house", direction="word→en") == "correct"
+
+
+# ── "the" article on English-side answers, all trainers ────────────────────────
+# grammar.Gender labels differ per language checker so a bare {} card is safe:
+# none of these checkers touch card fields on the word→en branch.
+
+def test_the_stripped_german():
+    assert _de_check_fn("house", "the house", "word→en", {}) == "correct"
+    assert _de_check_fn("the house", "house", "word→en", {}) == "correct"
+
+def test_the_stripped_italian():
+    assert _it_check_fn("house", "the house", "word→en", {}) == "correct"
+    assert _it_check_fn("the house", "house", "word→en", {}) == "correct"
+
+def test_the_stripped_spanish():
+    assert _es_check_fn("house", "the house", "word→en", {}) == "correct"
+    assert _es_check_fn("the house", "house", "word→en", {}) == "correct"
+
+def test_the_stripped_greek():
+    check = _make_greek_check_fn({})
+    card = {"id": "x", "word": "σπίτι", "translation": "the house"}
+    assert check("house", "", "word→en", card) == "correct"
+    card2 = {"id": "y", "word": "σπίτι", "translation": "house"}
+    assert check("the house", "", "word→en", card2) == "correct"
 
 
 # ── Greek checker ─────────────────────────────────────────────────────────────

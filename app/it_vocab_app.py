@@ -51,9 +51,13 @@ def _it_is_close(guess, target):
     return d <= 3
 
 
+def _strip_the(s):
+    return s[4:] if s.startswith("the ") else s
+
+
 def _it_check_fn(guess, correct, direction, card):
-    g_norm = _it_normalize(guess)
-    c_norm = _it_normalize(correct)
+    g_norm = _strip_the(_it_normalize(guess))
+    c_norm = _strip_the(_it_normalize(correct))
     if g_norm == c_norm:
         return "correct"
 

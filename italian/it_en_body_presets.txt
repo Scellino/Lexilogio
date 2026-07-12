@@ -1,0 +1,558 @@
+word: testa
+translation: head
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /ˈtɛs.ta/
+example.it: Mi fa male la testa.
+example.en: My head hurts.
+tags: 🩺 common, 👤 body
+priority: yes
+grammar.Gender: f
+grammar.Article override: la
+grammar.Plural: teste
+//
+word: occhio
+translation: eye
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /ˈɔk.kjo/
+example.it: Ho un occhio rosso.
+example.en: I have a red eye.
+tags: 🩺 common, 👤 body
+priority: yes
+grammar.Gender: m
+grammar.Article override: l'
+grammar.Plural: occhi
+//
+word: orecchio
+translation: ear
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /oˈrɛk.kjo/
+example.it: Mi fa male l'orecchio.
+example.en: My ear hurts.
+tags: 🩺 common, 👤 body
+priority: yes
+grammar.Gender: m
+grammar.Article override: l'
+grammar.Plural: orecchie (f)
+//
+word: naso
+translation: nose
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /ˈnaː.zo/
+example.it: Ho il naso chiuso.
+example.en: My nose is stuffed up.
+tags: 🩺 common, 👤 body
+priority: yes
+grammar.Gender: m
+grammar.Article override: il
+grammar.Plural: nasi
+//
+word: bocca
+translation: mouth
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /ˈbɔk.ka/
+example.it: Apri la bocca.
+example.en: Open your mouth.
+tags: 🩺 common, 👤 body
+priority: yes
+grammar.Gender: f
+grammar.Article override: la
+grammar.Plural: bocche
+//
+word: dente
+translation: tooth
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /ˈdɛn.te/
+example.it: Ho mal di denti.
+example.en: I have a toothache.
+tags: 🩺 common, 👤 body
+priority: yes
+grammar.Gender: m
+grammar.Article override: il
+grammar.Plural: denti
+//
+note: Same word for the body part and for a spoken language.
+word: lingua
+translation: tongue, language
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /ˈliŋ.ɡwa/
+example.it: La lingua è un muscolo.
+example.en: The tongue is a muscle.
+tags: 🩺 common, 👤 body
+priority: yes
+grammar.Gender: f
+grammar.Article override: la
+grammar.Plural: lingue
+//
+word: collo
+translation: neck
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /ˈkɔl.lo/
+example.it: Ho dolore al collo.
+example.en: I have neck pain.
+tags: 🩺 common, 👤 body
+priority: yes
+grammar.Gender: m
+grammar.Article override: il
+grammar.Plural: colli
+//
+word: spalla
+translation: shoulder
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /ˈspal.la/
+example.it: Mi sono fatto male alla spalla.
+example.en: I hurt my shoulder.
+tags: 🩺 common, 👤 body
+priority: yes
+grammar.Gender: f
+grammar.Article override: la
+grammar.Plural: spalle
+//
+word: braccio
+translation: arm
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /ˈbrat.tʃo/
+example.it: Ho il braccio rotto.
+example.en: My arm is broken.
+tags: 🩺 common, 👤 body
+priority: yes
+grammar.Gender: m
+grammar.Article override: il
+grammar.Plural: braccia (f)
+//
+word: gomito
+translation: elbow
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /ˈɡɔ.mi.to/
+example.it: Mi sono sbattuto il gomito.
+example.en: I bumped my elbow.
+tags: 🩺 common, 👤 body
+priority: yes
+grammar.Gender: m
+grammar.Article override: il
+grammar.Plural: gomiti
+//
+word: polso
+translation: wrist
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /ˈpol.zo/
+example.it: Mi fa male il polso.
+example.en: My wrist hurts.
+tags: 🩺 common, 👤 body
+priority: yes
+grammar.Gender: m
+grammar.Article override: il
+grammar.Plural: polsi
+//
+word: mano
+translation: hand
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /ˈmaː.no/
+example.it: Lavati le mani.
+example.en: Wash your hands.
+tags: 🩺 common, 👤 body
+priority: yes
+grammar.Gender: f
+grammar.Article override: la
+grammar.Plural: mani
+//
+word: dito
+translation: finger
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /ˈdiː.to/
+example.it: Mi sono tagliato un dito.
+example.en: I cut my finger.
+tags: 🩺 common, 👤 body
+priority: yes
+grammar.Gender: m
+grammar.Article override: il
+grammar.Plural: dita (f)
+//
+word: pollice
+translation: thumb
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /ˈpol.li.tʃe/
+example.it: Mi fa male il pollice.
+example.en: My thumb hurts.
+tags: 🩺 common, 👤 body
+priority: yes
+grammar.Gender: m
+grammar.Article override: il
+grammar.Plural: pollici
+//
+word: schiena
+translation: back
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /ˈskjeː.na/
+example.it: Ho mal di schiena.
+example.en: I have back pain.
+tags: 🩺 common, 👤 body
+priority: yes
+grammar.Gender: f
+grammar.Article override: la
+grammar.Plural: schiene
+//
+word: petto
+translation: chest
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /ˈpɛt.to/
+example.it: Sento dolore al petto.
+example.en: I feel pain in my chest.
+tags: 🩺 common, 👤 body
+priority: yes
+grammar.Gender: m
+grammar.Article override: il
+grammar.Plural: petti
+//
+word: stomaco
+translation: stomach
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /ˈstɔ.ma.ko/
+example.it: Ho mal di stomaco.
+example.en: I have a stomachache.
+tags: 🩺 common, 👤 body
+priority: yes
+grammar.Gender: m
+grammar.Article override: lo
+grammar.Plural: stomaci
+//
+word: gamba
+translation: leg
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /ˈɡam.ba/
+example.it: Mi fa male la gamba.
+example.en: My leg hurts.
+tags: 🩺 common, 👤 body
+priority: yes
+grammar.Gender: f
+grammar.Article override: la
+grammar.Plural: gambe
+//
+word: ginocchio
+translation: knee
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /dʒiˈnɔk.kjo/
+example.it: Mi sono sbucciato il ginocchio.
+example.en: I scraped my knee.
+tags: 🩺 common, 👤 body
+priority: yes
+grammar.Gender: m
+grammar.Article override: il
+grammar.Plural: ginocchia (f)
+//
+word: caviglia
+translation: ankle
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /kaˈvi.ʎa/
+example.it: Mi sono storto la caviglia.
+example.en: I twisted my ankle.
+tags: 🩺 common, 👤 body
+priority: yes
+grammar.Gender: f
+grammar.Article override: la
+grammar.Plural: caviglie
+//
+word: piede
+translation: foot
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /ˈpjɛː.de/
+example.it: Ho i piedi freddi.
+example.en: My feet are cold.
+tags: 🩺 common, 👤 body
+priority: yes
+grammar.Gender: m
+grammar.Article override: il
+grammar.Plural: piedi
+//
+word: dito del piede
+translation: toe
+type: phrase
+group: 🩺 Body & Doctor
+pronunciation: /ˈdi.to del ˈpjɛ.de/
+example.it: Mi sono rotto un dito del piede.
+example.en: I broke a toe.
+tags: 🩺 common, 👤 body
+priority: yes
+grammar.Register: neutral
+//
+word: pelle
+translation: skin
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /ˈpɛl.le/
+example.it: Ho la pelle secca.
+example.en: I have dry skin.
+tags: 🩺 common, 👤 body
+priority: yes
+grammar.Gender: f
+grammar.Article override: la
+grammar.Plural: pelli
+//
+word: capelli
+translation: hair
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /kaˈpɛl.li/
+example.it: Ho i capelli lunghi.
+example.en: I have long hair.
+note: Often used in the plural. Singular "capello" refers to a single strand.
+tags: 🩺 common, 👤 body
+priority: yes
+grammar.Gender: m
+grammar.Article override: i
+grammar.Plural: capelli
+//
+word: cuore
+translation: heart
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /ˈkwɔː.re/
+example.it: Il cuore batte forte.
+example.en: My heart is beating fast.
+tags: 🩺 common, 👤 body
+priority: yes
+grammar.Gender: m
+grammar.Article override: il
+grammar.Plural: cuori
+//
+word: polmone
+translation: lung
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /polˈmoː.ne/
+example.it: Ho un dolore ai polmoni.
+example.en: I have pain in my lungs.
+tags: 🩺 common, 👤 body
+priority: yes
+grammar.Gender: m
+grammar.Article override: il
+grammar.Plural: polmoni
+//
+word: sangue
+translation: blood
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /ˈsan.ɡwe/
+example.it: Ho perso del sangue.
+example.en: I lost some blood.
+tags: 🩺 common, 👤 body
+priority: yes
+grammar.Gender: m
+grammar.Article override: il
+grammar.Plural: -
+//
+word: osso
+translation: bone
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /ˈɔs.so/
+example.it: Mi sono rotto un osso.
+example.en: I broke a bone.
+tags: 🩺 common, 👤 body
+priority: yes
+grammar.Gender: m
+grammar.Article override: l'
+grammar.Plural: ossa (f)
+//
+word: medico
+translation: doctor
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /ˈmɛː.di.ko/
+example.it: Devo andare dal medico.
+example.en: I need to go to the doctor.
+tags: 🩺 common, 🏥 work
+priority: yes
+grammar.Gender: m
+grammar.Article override: il
+grammar.Plural: medici
+//
+word: infermiere
+translation: nurse
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /in.ferˈmjeː.re/
+example.it: L'infermiere mi ha fatto la fasciatura.
+example.en: The nurse bandaged me.
+tags: 🩺 common, 🏥 work
+priority: yes
+grammar.Gender: m
+grammar.Article override: l'
+grammar.Plural: infermieri
+//
+word: ospedale
+translation: hospital
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /os.peˈdaː.le/
+example.it: Mi hanno portato in ospedale.
+example.en: They took me to the hospital.
+tags: 🩺 common, 🏥 work
+priority: yes
+grammar.Gender: m
+grammar.Article override: l'
+grammar.Plural: ospedali
+//
+word: farmacia
+translation: pharmacy
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /far.maˈtʃiː.a/
+example.it: Vado in farmacia a comprare le medicine.
+example.en: I am going to the pharmacy to buy medicine.
+tags: 🩺 common, 🏥 work
+priority: yes
+grammar.Gender: f
+grammar.Article override: la
+grammar.Plural: farmacie
+//
+word: medicina
+translation: medicine
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /me.diˈtʃiː.na/
+example.it: Devi prendere la medicina.
+example.en: You must take your medicine.
+tags: 🩺 common, 🏥 work
+priority: yes
+grammar.Gender: f
+grammar.Article override: la
+grammar.Plural: medicine
+//
+word: dolore
+translation: pain
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /doˈloː.re/
+example.it: Sento un dolore forte.
+example.en: I feel strong pain.
+tags: 🩺 common, 👤 body
+priority: yes
+grammar.Gender: m
+grammar.Article override: il
+grammar.Plural: dolori
+//
+word: febbre
+translation: fever
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /ˈfɛb.bre/
+example.it: Ho un po' di febbre.
+example.en: I have a little fever.
+tags: 🩺 common, 👤 body
+priority: yes
+grammar.Gender: f
+grammar.Article override: la
+grammar.Plural: febbre
+//
+word: malato
+translation: ill
+type: adjective
+group: 🩺 Body & Doctor
+pronunciation: /maˈlaː.to/
+example.it: Oggi mi sento malato.
+example.en: I feel ill today.
+tags: 🩺 common, 👤 body
+priority: yes
+grammar.Feminine form: malata
+grammar.Plural (masc.): malati
+grammar.Plural (fem.): malate
+//
+word: appuntamento
+translation: appointment
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /ap.pun.taˈmen.to/
+example.it: Ho un appuntamento con il medico.
+example.en: I have an appointment with the doctor.
+tags: 🩺 common, 💼 work
+priority: yes
+grammar.Gender: m
+grammar.Article override: l'
+grammar.Plural: appuntamenti
+//
+word: allergia
+translation: allergy
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /al.lerˈdʒiː.a/
+example.it: Ho un'allergia al polline.
+example.en: I have a pollen allergy.
+tags: 🩺 common, 👤 body
+priority: yes
+grammar.Gender: f
+grammar.Article override: l'
+grammar.Plural: allergie
+//
+word: sintomo
+translation: symptom
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /ˈsin.to.mo/
+example.it: Quali sono i tuoi sintomi?
+example.en: What are your symptoms?
+tags: 🩺 common, 👤 body
+priority: yes
+grammar.Gender: m
+grammar.Article override: il
+grammar.Plural: sintomi
+//
+word: iniezione
+translation: injection
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /i.njeˈtʃoː.ne/
+example.it: Il medico mi ha fatto un'iniezione.
+example.en: The doctor gave me an injection.
+tags: 🩺 common, 🏥 work
+priority: yes
+grammar.Gender: f
+grammar.Article override: l'
+grammar.Plural: iniezioni
+//
+word: ricetta
+translation: prescription
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /riˈtʃet.ta/
+example.it: Il medico mi ha fatto la ricetta.
+example.en: The doctor gave me a prescription.
+tags: 🩺 common, 🏥 work
+priority: yes
+grammar.Gender: f
+grammar.Article override: la
+grammar.Plural: ricette
+//
+word: ambulanza
+translation: ambulance
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /am.buˈlan.tsa/
+example.it: Hanno chiamato l'ambulanza.
+example.en: They called an ambulance.
+tags: 🩺 common, 🏥 work
+priority: yes
+grammar.Gender: f
+grammar.Article override: l'
+grammar.Plural: ambulanze

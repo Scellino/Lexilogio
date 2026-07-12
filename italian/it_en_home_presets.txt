@@ -1,0 +1,511 @@
+word: camera da letto
+translation: bedroom
+type: noun
+group: 🏠 My home
+pronunciation: /ˈkamera da ˈlɛtto/
+example.it: La mia camera da letto è molto luminosa.
+example.en: My bedroom is very bright.
+note: Often shortened to "camera".
+tags: ⭐ common, 🏠 home
+priority: yes
+grammar.Gender: f
+grammar.Plural: camere da letto
+//
+word: soggiorno
+translation: living room
+type: noun
+group: 🏠 My home
+pronunciation: /sodˈdʒorno/
+example.it: Ci rilassiamo sempre in soggiorno.
+example.en: We always relax in the living room.
+etymology: From "soggiornare" (to stay/reside)
+tags: ⭐ common, 🏠 home
+priority: yes
+grammar.Gender: m
+grammar.Plural: soggiorni
+//
+note: Also the everyday word for cooking as a hobby/cuisine.
+word: cucina
+translation: kitchen, cooking
+type: noun
+group: 🏠 My home
+pronunciation: /kuˈtʃina/
+example.it: La cucina è il cuore della casa.
+example.en: The kitchen is the heart of the house.
+etymology: Latin "coquina"
+tags: ⭐ common, 🏠 home
+priority: yes
+grammar.Gender: f
+grammar.Plural: cucine
+//
+word: bagno
+translation: bathroom
+type: noun
+group: 🏠 My home
+pronunciation: /ˈbaɲɲo/
+example.it: Il bagno è appena stato ristrutturato.
+example.en: The bathroom has just been renovated.
+etymology: From "bagnare" (to bathe)
+tags: ⭐ common, 🏠 home
+priority: yes
+grammar.Gender: m
+grammar.Plural: bagni
+//
+word: toilette
+translation: toilet
+type: noun
+group: 🏠 My home
+pronunciation: /toaˈlɛt/
+example.it: Dov'è la toilette?
+example.en: Where is the toilet?
+etymology: From French
+note: Commonly used in public/formal contexts; "bagno" is more common at home.
+tags: ⭐ common, 🏠 home
+priority: yes
+grammar.Gender: f
+grammar.Article override: la
+grammar.Plural: toilette (invariable)
+//
+word: ingresso
+translation: hall, entrance
+type: noun
+group: 🏠 My home
+pronunciation: /inˈɡrɛsso/
+example.it: Lascia le chiavi nell'ingresso.
+example.en: Leave the keys in the hall.
+etymology: From "entrare"
+tags: 🏠 home
+priority: yes
+grammar.Gender: m
+grammar.Plural: ingressi
+//
+word: balcone
+translation: balcony
+type: noun
+group: 🏠 My home
+pronunciation: /balˈkone/
+example.it: Mi piace bere il caffè sul balcone.
+example.en: I like to drink coffee on the balcony.
+etymology: From German "balko"
+tags: 🏠 home
+priority: yes
+grammar.Gender: m
+grammar.Plural: balconi
+//
+word: giardino
+translation: garden
+type: noun
+group: 🏠 My home
+pronunciation: /dʒarˈdino/
+example.it: Il giardino è pieno di fiori.
+example.en: The garden is full of flowers.
+etymology: From Germanic "gard"
+tags: ⭐ common, 🏠 home
+priority: yes
+grammar.Gender: m
+grammar.Plural: giardini
+//
+word: garage
+translation: garage
+type: noun
+group: 🏠 My home
+pronunciation: /ɡaˈradʒ/
+example.it: Ho parcheggiato la macchina in garage.
+example.en: I parked the car in the garage.
+etymology: From French
+tags: 🏠 home
+priority: yes
+grammar.Gender: m
+grammar.Article override: il
+grammar.Plural: garage (invariable)
+//
+word: tetto
+translation: roof
+type: noun
+group: 🏠 My home
+pronunciation: /ˈtɛtto/
+example.it: Dobbiamo riparare il tetto.
+example.en: We need to repair the roof.
+etymology: Latin "tectum"
+tags: 🏠 home
+priority: yes
+grammar.Gender: m
+grammar.Plural: tetti
+//
+word: scala
+translation: stairs
+type: noun
+group: 🏠 My home
+pronunciation: /ˈskala/
+example.it: Sali la scala per andare in camera.
+example.en: Go up the stairs to go to the room.
+etymology: Latin "scala"
+note: Often used in the plural "scale" for a staircase.
+tags: 🏠 home
+priority: yes
+grammar.Gender: f
+grammar.Plural: scale
+//
+word: letto
+translation: bed
+type: noun
+group: 🏠 My home
+pronunciation: /ˈlɛtto/
+example.it: È ora di andare a letto.
+example.en: It's time to go to bed.
+etymology: Latin "lectus"
+tags: ⭐ common, 🏠 home
+priority: yes
+grammar.Gender: m
+grammar.Plural: letti
+//
+word: divano
+translation: sofa
+type: noun
+group: 🏠 My home
+pronunciation: /diˈvano/
+example.it: Mi siedo sul divano a guardare la TV.
+example.en: I sit on the sofa to watch TV.
+etymology: From Persian "diwan"
+tags: ⭐ common, 🏠 home
+priority: yes
+grammar.Gender: m
+grammar.Plural: divani
+//
+word: tavolo
+translation: table
+type: noun
+group: 🏠 My home
+pronunciation: /ˈtavolo/
+example.it: La cena è pronta sul tavolo.
+example.en: Dinner is ready on the table.
+etymology: Latin "tabula"
+tags: ⭐ common, 🏠 home
+priority: yes
+grammar.Gender: m
+grammar.Plural: tavoli
+//
+word: sedia
+translation: chair
+type: noun
+group: 🏠 My home
+pronunciation: /ˈsɛdja/
+example.it: Puoi portarmi un'altra sedia?
+example.en: Can you bring me another chair?
+etymology: Latin "sedes"
+tags: ⭐ common, 🏠 home
+priority: yes
+grammar.Gender: f
+grammar.Plural: sedie
+//
+word: armadio
+translation: wardrobe
+type: noun
+group: 🏠 My home
+pronunciation: /arˈmadjo/
+example.it: Ho messo i vestiti nell'armadio.
+example.en: I put the clothes in the wardrobe.
+etymology: Latin "armarium"
+tags: ⭐ common, 🏠 home
+priority: yes
+grammar.Gender: m
+grammar.Plural: armadi
+//
+word: mensola
+translation: shelf
+type: noun
+group: 🏠 My home
+pronunciation: /ˈmɛnsola/
+example.it: Ho messo i libri sulla mensola.
+example.en: I put the books on the shelf.
+etymology: From Latin "mensa"
+tags: 🏠 home
+priority: yes
+grammar.Gender: f
+grammar.Plural: mensole
+//
+word: scrivania
+translation: desk
+type: noun
+group: 🏠 My home
+pronunciation: /skriˈvanja/
+example.it: La mia scrivania è molto ordinata.
+example.en: My desk is very tidy.
+etymology: From "scrivere"
+tags: 🏠 home
+priority: yes
+grammar.Gender: f
+grammar.Plural: scrivanie
+//
+word: lampada
+translation: lamp
+type: noun
+group: 🏠 My home
+pronunciation: /ˈlampada/
+example.it: Accendi la lampada sul comodino.
+example.en: Turn on the lamp on the nightstand.
+etymology: Greek "lampas"
+tags: 🏠 home
+priority: yes
+grammar.Gender: f
+grammar.Plural: lampade
+//
+word: specchio
+translation: mirror
+type: noun
+group: 🏠 My home
+pronunciation: /ˈspɛkkjo/
+example.it: Mi guardo allo specchio ogni mattina.
+example.en: I look at myself in the mirror every morning.
+etymology: Latin "speculum"
+tags: 🏠 home
+priority: yes
+grammar.Gender: m
+grammar.Plural: specchi
+//
+word: tenda
+translation: curtain
+type: noun
+group: 🏠 My home
+pronunciation: /ˈtɛnda/
+example.it: Ho comprato delle nuove tende per la sala.
+example.en: I bought some new curtains for the living room.
+etymology: From "tendere"
+tags: 🏠 home
+priority: yes
+grammar.Gender: f
+grammar.Plural: tende
+//
+word: frigorifero
+translation: fridge
+type: noun
+group: 🏠 My home
+pronunciation: /friɡoˈrifero/
+example.it: Il latte è nel frigorifero.
+example.en: The milk is in the fridge.
+note: Often shortened to "frigo".
+tags: ⭐ common, 🏠 home
+priority: yes
+grammar.Gender: m
+grammar.Plural: frigoriferi
+//
+word: forno
+translation: oven
+type: noun
+group: 🏠 My home
+pronunciation: /ˈforno/
+example.it: La pizza è nel forno.
+example.en: The pizza is in the oven.
+etymology: Latin "furnus"
+tags: ⭐ common, 🏠 home
+priority: yes
+grammar.Gender: m
+grammar.Plural: forni
+//
+word: microonde
+translation: microwave
+type: noun
+group: 🏠 My home
+pronunciation: /mikroˈonde/
+example.it: Scaldo il pranzo nel microonde.
+example.en: I heat up lunch in the microwave.
+tags: 🏠 home
+priority: yes
+grammar.Gender: m
+grammar.Article override: il
+grammar.Plural: microonde (invariable)
+//
+word: lavastoviglie
+translation: dishwasher
+type: noun
+group: 🏠 My home
+pronunciation: /lavastoˈviʎʎe/
+example.it: Ho acceso la lavastoviglie.
+example.en: I turned on the dishwasher.
+etymology: From "lavare" and "stoviglie"
+tags: 🏠 home
+priority: yes
+grammar.Gender: f
+grammar.Plural: lavastoviglie (invariable)
+//
+word: lavandino
+translation: sink
+type: noun
+group: 🏠 My home
+pronunciation: /lavanˈdino/
+example.it: C'è un piatto sporco nel lavandino.
+example.en: There is a dirty plate in the sink.
+etymology: From "lavare"
+tags: 🏠 home
+priority: yes
+grammar.Gender: m
+grammar.Plural: lavandini
+//
+word: tazza
+translation: cup, mug
+type: noun
+group: 🏠 My home
+pronunciation: /ˈtattsa/
+example.it: Vorrei una tazza di tè.
+example.en: I would like a cup of tea.
+etymology: Arabic "tassa"
+tags: ⭐ common, 🏠 home
+priority: yes
+grammar.Gender: f
+grammar.Plural: tazze
+//
+word: bicchiere
+translation: glass
+type: noun
+group: 🏠 My home
+pronunciation: /bikˈkjɛre/
+example.it: Ho rotto un bicchiere.
+example.en: I broke a glass.
+etymology: From Germanic "bikeri"
+tags: ⭐ common, 🏠 home
+priority: yes
+grammar.Gender: m
+grammar.Plural: bicchieri
+//
+word: piatto
+translation: plate
+type: noun
+group: 🏠 My home
+pronunciation: /ˈpjatto/
+example.it: Metti il piatto sulla tavola.
+example.en: Put the plate on the table.
+etymology: From Germanic "plat"
+tags: ⭐ common, 🏠 home
+priority: yes
+grammar.Gender: m
+grammar.Plural: piatti
+//
+word: forchetta
+translation: fork
+type: noun
+group: 🏠 My home
+pronunciation: /forˈkɛtta/
+example.it: Hai una forchetta pulita?
+example.en: Do you have a clean fork?
+etymology: Latin "furca"
+tags: ⭐ common, 🏠 home
+priority: yes
+grammar.Gender: f
+grammar.Plural: forchette
+//
+word: coltello
+translation: knife
+type: noun
+group: 🏠 My home
+pronunciation: /kolˈtɛllo/
+example.it: Ho bisogno di un coltello per tagliare il pane.
+example.en: I need a knife to cut the bread.
+etymology: Latin "cultellus"
+tags: ⭐ common, 🏠 home
+priority: yes
+grammar.Gender: m
+grammar.Plural: coltelli
+//
+word: cucchiaio
+translation: spoon
+type: noun
+group: 🏠 My home
+pronunciation: /kukˈkajo/
+example.it: Mi serve un cucchiaio per la zuppa.
+example.en: I need a spoon for the soup.
+etymology: Latin "cochlearium"
+tags: ⭐ common, 🏠 home
+priority: yes
+grammar.Gender: m
+grammar.Plural: cucchiai
+//
+word: pentola
+translation: pot
+type: noun
+group: 🏠 My home
+pronunciation: /ˈpɛntola/
+example.it: L'acqua bolle nella pentola.
+example.en: The water is boiling in the pot.
+etymology: Latin "pantex"
+tags: ⭐ common, 🏠 home
+priority: yes
+grammar.Gender: f
+grammar.Plural: pentole
+//
+word: padella
+translation: pan
+type: noun
+group: 🏠 My home
+pronunciation: /paˈdɛlla/
+example.it: Scalda l'olio nella padella.
+example.en: Heat the oil in the pan.
+etymology: Latin "patella"
+tags: ⭐ common, 🏠 home
+priority: yes
+grammar.Gender: f
+grammar.Plural: padelle
+//
+word: finestra
+translation: window
+type: noun
+group: 🏠 My home
+pronunciation: /fiˈnɛstra/
+example.it: Apri la finestra, per favore.
+example.en: Open the window, please.
+etymology: Latin "fenestra"
+tags: ⭐ common, 🏠 home
+priority: yes
+grammar.Gender: f
+grammar.Plural: finestre
+//
+word: porta
+translation: door
+type: noun
+group: 🏠 My home
+pronunciation: /ˈpɔrta/
+example.it: Chiudi la porta a chiave.
+example.en: Lock the door.
+etymology: Latin "porta"
+tags: ⭐ common, 🏠 home
+priority: yes
+grammar.Gender: f
+grammar.Plural: porte
+//
+word: pavimento
+translation: floor
+type: noun
+group: 🏠 My home
+pronunciation: /paviˈmɛnto/
+example.it: Ho pulito il pavimento.
+example.en: I cleaned the floor.
+etymology: Latin "pavimentum"
+tags: 🏠 home
+priority: yes
+grammar.Gender: m
+grammar.Plural: pavimenti
+//
+word: soffitto
+translation: ceiling
+type: noun
+group: 🏠 My home
+pronunciation: /sofˈfitto/
+example.it: Il soffitto è molto alto.
+example.en: The ceiling is very high.
+etymology: From "sufficere"
+tags: 🏠 home
+priority: yes
+grammar.Gender: m
+grammar.Plural: soffitti
+//
+word: parete
+translation: wall
+type: noun
+group: 🏠 My home
+pronunciation: /paˈrɛte/
+example.it: Abbiamo dipinto la parete di blu.
+example.en: We painted the wall blue.
+etymology: Latin "paries"
+tags: 🏠 home
+priority: yes
+grammar.Gender: f
+grammar.Plural: pareti

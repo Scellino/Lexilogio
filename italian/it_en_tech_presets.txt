@@ -1,0 +1,451 @@
+word: film
+translation: film, movie
+type: noun
+group: 💻 Technology & media
+pronunciation: /film/
+example.it: Ieri ho visto un film bellissimo.
+example.en: Yesterday I saw a beautiful film.
+tags: 📺 media
+priority: yes
+grammar.Gender: m
+grammar.Article override: il
+grammar.Plural: film (invariable)
+//
+word: telefono
+translation: phone
+type: noun
+group: 💻 Technology & media
+pronunciation: /teˈlɛfono/
+example.it: Il mio telefono è scarico.
+example.en: My phone is out of battery.
+etymology: Greek "tele" + "phone"
+tags: ⭐ common, 💻 tech
+priority: yes
+grammar.Gender: m
+grammar.Plural: telefoni
+//
+word: portatile
+translation: laptop
+type: noun
+group: 💻 Technology & media
+pronunciation: /porˈtatile/
+example.it: Lavoro sempre con il mio portatile.
+example.en: I always work with my laptop.
+etymology: From "portare"
+tags: 💻 tech
+priority: yes
+grammar.Gender: m
+grammar.Plural: portatili
+//
+word: computer
+translation: computer
+type: noun
+group: 💻 Technology & media
+pronunciation: /komˈpjuter/
+example.it: Il computer è rotto.
+example.en: The computer is broken.
+etymology: From English "computer"
+tags: ⭐ common, 💻 tech
+priority: yes
+grammar.Gender: m
+grammar.Article override: il
+grammar.Plural: computer (invariable)
+//
+word: tablet
+translation: tablet
+type: noun
+group: 💻 Technology & media
+pronunciation: /ˈtablet/
+example.it: Uso il tablet per leggere.
+example.en: I use the tablet for reading.
+etymology: From English "tablet"
+tags: 💻 tech
+priority: yes
+grammar.Gender: m
+grammar.Article override: il
+grammar.Plural: tablet (invariable)
+//
+word: televisione
+translation: TV
+type: noun
+group: 💻 Technology & media
+pronunciation: /televiˈzjone/
+example.it: Stasera guardiamo la televisione?
+example.en: Shall we watch TV tonight?
+note: Often shortened to "TV".
+tags: ⭐ common, 📺 media
+priority: yes
+grammar.Gender: f
+grammar.Plural: televisioni
+//
+word: macchina fotografica
+translation: camera
+type: noun
+group: 💻 Technology & media
+pronunciation: /ˈmakkina fotoˈɡrafika/
+example.it: Ho comprato una nuova macchina fotografica.
+example.en: I bought a new camera.
+tags: 💻 tech
+priority: yes
+grammar.Gender: f
+grammar.Plural: macchine fotografiche
+//
+word: schermo
+translation: screen
+type: noun
+group: 💻 Technology & media
+pronunciation: /ˈskɛrmo/
+example.it: Lo schermo è molto grande.
+example.en: The screen is very big.
+etymology: Germanic
+tags: 💻 tech
+priority: yes
+grammar.Gender: m
+grammar.Plural: schermi
+//
+word: tastiera
+translation: keyboard
+type: noun
+group: 💻 Technology & media
+pronunciation: /tasˈtjɛra/
+example.it: La mia tastiera è wireless.
+example.en: My keyboard is wireless.
+etymology: From "tasto"
+tags: 💻 tech
+priority: yes
+grammar.Gender: f
+grammar.Plural: tastiere
+//
+word: cuffie
+translation: headphones
+type: noun
+group: 💻 Technology & media
+pronunciation: /ˈkuffje/
+example.it: Ascolto musica con le cuffie.
+example.en: I listen to music with headphones.
+tags: 💻 tech
+priority: yes
+grammar.Gender: f
+grammar.Plural: cuffie
+//
+word: internet
+translation: internet
+type: noun
+group: 💻 Technology & media
+pronunciation: /ˈinternɛt/
+example.it: Non funziona internet oggi.
+example.en: The internet is not working today.
+tags: ⭐ common, 💻 tech
+priority: yes
+grammar.Gender: m
+grammar.Article override: l'
+grammar.Plural: internet (invariable)
+//
+word: sito web
+translation: website
+type: noun
+group: 💻 Technology & media
+pronunciation: /ˈsito wɛb/
+example.it: Ho trovato l'informazione su questo sito web.
+example.en: I found the information on this website.
+tags: 💻 tech
+priority: yes
+grammar.Gender: m
+grammar.Plural: siti web
+//
+word: email
+translation: email
+type: noun
+group: 💻 Technology & media
+pronunciation: /ˈimɛil/
+example.it: Ti ho mandato una email.
+example.en: I sent you an email.
+tags: ⭐ common, 💻 tech
+priority: yes
+grammar.Gender: f
+grammar.Article override: l'
+grammar.Plural: email (invariable)
+//
+word: social media
+translation: social media
+type: noun
+group: 💻 Technology & media
+pronunciation: /soˈʃal ˈmɛdja/
+example.it: Passo troppo tempo sui social media.
+example.en: I spend too much time on social media.
+tags: 💻 tech
+priority: yes
+grammar.Gender: m
+grammar.Plural: social media (invariable)
+//
+word: app
+translation: app
+type: noun
+group: 💻 Technology & media
+pronunciation: /app/
+example.it: Scarico una nuova app.
+example.en: I am downloading a new app.
+tags: 💻 tech
+priority: yes
+grammar.Gender: f
+grammar.Article override: l'
+grammar.Plural: app (invariable)
+//
+word: scaricare
+translation: to download
+type: verb
+group: 💻 Technology & media
+pronunciation: /skariˈkare/
+example.it: Devo scaricare il file.
+example.en: I need to download the file.
+etymology: From "caricare"
+tags: 💻 tech
+priority: yes
+grammar.Verb group: -are
+grammar.Auxiliary (passato prossimo): avere
+grammar.Participio passato: scaricato
+grammar.Passato remoto (io): scaricai
+grammar.Gerundio: scaricando
+grammar.Presente (all 6 forms): scarico / scarichi / scarica / scarichiamo / scaricate / scaricano
+//
+word: caricare
+translation: to upload
+type: verb
+group: 💻 Technology & media
+pronunciation: /kariˈkare/
+example.it: Voglio caricare le foto online.
+example.en: I want to upload the photos online.
+tags: 💻 tech
+priority: yes
+grammar.Verb group: -are
+grammar.Auxiliary (passato prossimo): avere
+grammar.Participio passato: caricato
+grammar.Passato remoto (io): caricai
+grammar.Gerundio: caricando
+grammar.Presente (all 6 forms): carico / carichi / carica / carichiamo / caricate / caricano
+//
+word: password
+translation: password
+type: noun
+group: 💻 Technology & media
+pronunciation: /ˈpassuord/
+example.it: Ho dimenticato la mia password.
+example.en: I forgot my password.
+tags: 💻 tech
+priority: yes
+grammar.Gender: f
+grammar.Article override: la
+grammar.Plural: password (invariable)
+//
+word: account
+translation: account
+type: noun
+group: 💻 Technology & media
+pronunciation: /aˈkaunt/
+example.it: Ho creato un nuovo account.
+example.en: I created a new account.
+tags: 💻 tech
+priority: yes
+grammar.Gender: m
+grammar.Article override: l'
+grammar.Plural: account (invariable)
+//
+word: notifica
+translation: notification
+type: noun
+group: 💻 Technology & media
+pronunciation: /noˈtifika/
+example.it: Ho ricevuto una notifica sul telefono.
+example.en: I received a notification on the phone.
+etymology: Latin "notificatio"
+tags: 💻 tech
+priority: yes
+grammar.Gender: f
+grammar.Plural: notifiche
+//
+word: notizie
+translation: news
+type: noun
+group: 💻 Technology & media
+pronunciation: /noˈtittsje/
+example.it: Leggo le notizie ogni mattina.
+example.en: I read the news every morning.
+etymology: From "notizia"
+tags: 📺 media
+priority: yes
+grammar.Gender: f
+grammar.Plural: notizie
+//
+word: giornale
+translation: newspaper
+type: noun
+group: 💻 Technology & media
+pronunciation: /dʒorˈnale/
+example.it: Compra il giornale in edicola.
+example.en: Buy the newspaper at the newsstand.
+etymology: From "giorno"
+tags: 📺 media
+priority: yes
+grammar.Gender: m
+grammar.Plural: giornali
+//
+word: rivista
+translation: magazine
+type: noun
+group: 💻 Technology & media
+pronunciation: /riˈvista/
+example.it: Leggo una rivista di moda.
+example.en: I am reading a fashion magazine.
+etymology: From "rivedere"
+tags: 📺 media
+priority: yes
+grammar.Gender: f
+grammar.Plural: riviste
+//
+word: serie
+translation: series
+type: noun
+group: 💻 Technology & media
+pronunciation: /ˈsɛrje/
+example.it: Qual è la tua serie preferita?
+example.en: What is your favorite series?
+etymology: Latin "series"
+tags: 📺 media
+priority: yes
+grammar.Gender: f
+grammar.Plural: serie (invariable)
+//
+word: podcast
+translation: podcast
+type: noun
+group: 💻 Technology & media
+pronunciation: /ˈpɔdcast/
+example.it: Ascolto un podcast mentre vado al lavoro.
+example.en: I listen to a podcast while going to work.
+tags: 📺 media
+priority: yes
+grammar.Gender: m
+grammar.Article override: il
+grammar.Plural: podcast (invariable)
+//
+word: inviare
+translation: to send
+type: verb
+group: 💻 Technology & media
+pronunciation: /inˈvjare/
+example.it: Devo inviare un messaggio.
+example.en: I need to send a message.
+etymology: Latin "inviare"
+tags: 💻 tech
+priority: yes
+grammar.Verb group: -are
+grammar.Auxiliary (passato prossimo): avere
+grammar.Participio passato: inviato
+grammar.Passato remoto (io): inviai
+grammar.Gerundio: inviando
+grammar.Presente (all 6 forms): invio / invii / invia / inviamo / inviate / inviano
+//
+word: chiamare
+translation: to call
+type: verb
+group: 💻 Technology & media
+pronunciation: /kjaˈmare/
+example.it: Ti chiamo stasera.
+example.en: I'll call you tonight.
+etymology: Latin "clamare"
+tags: ⭐ common, 💻 tech
+priority: yes
+grammar.Verb group: -are
+grammar.Auxiliary (passato prossimo): avere
+grammar.Participio passato: chiamato
+grammar.Passato remoto (io): chiamai
+grammar.Gerundio: chiamando
+grammar.Presente (all 6 forms): chiamo / chiami / chiama / chiamiamo / chiamate / chiamano
+//
+word: mandare un messaggio
+translation: to text
+type: phrase
+group: 💻 Technology & media
+pronunciation: /ˈmandare un mesˈsaddʒo/
+example.it: Ti mando un messaggio dopo.
+example.en: I'll text you later.
+tags: 💻 tech
+priority: yes
+grammar.Register: neutral
+//
+word: cercare
+translation: to search
+type: verb
+group: 💻 Technology & media
+pronunciation: /tʃerˈkare/
+example.it: Devo cercare questa parola su internet.
+example.en: I need to search for this word on the internet.
+etymology: Latin "circare"
+tags: 💻 tech
+priority: yes
+grammar.Verb group: -are
+grammar.Auxiliary (passato prossimo): avere
+grammar.Participio passato: cercato
+grammar.Passato remoto (io): cercai
+grammar.Gerundio: cercando
+grammar.Presente (all 6 forms): cerco / cerchi / cerca / cerchiamo / cercate / cercano
+//
+word: salvare
+translation: to save
+type: verb
+group: 💻 Technology & media
+pronunciation: /salˈvare/
+example.it: Ho salvato il documento sul computer.
+example.en: I saved the document on the computer.
+etymology: Latin "salvare"
+tags: 💻 tech
+priority: yes
+grammar.Verb group: -are
+grammar.Auxiliary (passato prossimo): avere
+grammar.Participio passato: salvato
+grammar.Passato remoto (io): salvai
+grammar.Gerundio: salvando
+grammar.Presente (all 6 forms): salvo / salvi / salva / salviamo / salvate / salvano
+//
+word: condividere
+translation: to share
+type: verb
+group: 💻 Technology & media
+pronunciation: /kondiˈbjɛdere/
+example.it: Voglio condividere questo articolo con te.
+example.en: I want to share this article with you.
+etymology: Latin "condividere"
+tags: 💻 tech
+priority: yes
+grammar.Verb group: -ere
+grammar.Auxiliary (passato prossimo): avere
+grammar.Participio passato: condiviso
+grammar.Passato remoto (io): condivisi
+grammar.Gerundio: condividendo
+grammar.Presente (all 6 forms): condivido / condividi / condivide / condividiamo / condividete / condividono
+//
+word: batteria
+translation: battery
+type: noun
+group: 💻 Technology & media
+pronunciation: /batˈtɛrja/
+example.it: La batteria del telefono è quasi finita.
+example.en: The phone battery is almost empty.
+etymology: From "battere"
+tags: 💻 tech
+priority: yes
+grammar.Gender: f
+grammar.Plural: batterie
+//
+word: caricabatterie
+translation: charger
+type: noun
+group: 💻 Technology & media
+pronunciation: /karikabatˈtɛrje/
+example.it: Ho dimenticato il caricabatterie a casa.
+example.en: I forgot the charger at home.
+tags: 💻 tech
+priority: yes
+grammar.Gender: m
+grammar.Article override: il
+grammar.Plural: caricabatterie (invariable)

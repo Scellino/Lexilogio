@@ -1,0 +1,347 @@
+word: primavera
+translation: spring
+type: noun
+group: ⛅ Weather & seasons
+pronunciation: /pɾimaˈβeɾa/
+example.es: En primavera, las flores florecen.
+example.en: In spring, flowers bloom.
+tags: ⭐ common, ⛅ weather
+priority: yes
+grammar.Gender: f
+grammar.Plural: primaveras
+//
+word: verano
+translation: summer
+type: noun
+group: ⛅ Weather & seasons
+pronunciation: /beˈɾano/
+example.es: El verano es mi estación favorita.
+example.en: Summer is my favorite season.
+tags: ⭐ common, ⛅ weather
+priority: yes
+grammar.Gender: m
+grammar.Plural: veranos
+//
+word: otoño
+translation: autumn
+type: noun
+group: ⛅ Weather & seasons
+pronunciation: /oˈtoɲo/
+example.es: En otoño, las hojas caen.
+example.en: In autumn, leaves fall.
+tags: ⭐ common, ⛅ weather
+priority: yes
+grammar.Gender: m
+grammar.Plural: otoños
+//
+word: invierno
+translation: winter
+type: noun
+group: ⛅ Weather & seasons
+pronunciation: /imˈbjeɾno/
+example.es: El invierno es muy frío aquí.
+example.en: Winter is very cold here.
+tags: ⭐ common, ⛅ weather
+priority: yes
+grammar.Gender: m
+grammar.Plural: inviernos
+//
+word: sol
+translation: sun
+type: noun
+group: ⛅ Weather & seasons
+pronunciation: /sol/
+example.es: Hoy hace mucho sol.
+example.en: It is very sunny today.
+tags: ⭐ common, ⛅ weather
+priority: yes
+grammar.Gender: m
+grammar.Plural: soles
+//
+word: lluvia
+translation: rain
+type: noun
+group: ⛅ Weather & seasons
+pronunciation: /ˈʝuβja/
+example.es: Necesitamos la lluvia para las plantas.
+example.en: We need the rain for the plants.
+tags: ⭐ common, ⛅ weather
+priority: yes
+grammar.Gender: f
+grammar.Plural: lluvias
+//
+word: nieve
+translation: snow
+type: noun
+group: ⛅ Weather & seasons
+pronunciation: /ˈnjeβe/
+example.es: Hay mucha nieve en las montañas.
+example.en: There is a lot of snow in the mountains.
+tags: ⭐ common, ⛅ weather
+priority: yes
+grammar.Gender: f
+grammar.Plural: nieves
+//
+word: viento
+translation: wind
+type: noun
+group: ⛅ Weather & seasons
+pronunciation: /ˈbjento/
+example.es: Hay mucho viento hoy.
+example.en: It is very windy today.
+tags: ⭐ common, ⛅ weather
+priority: yes
+grammar.Gender: m
+grammar.Plural: vientos
+//
+word: nube
+translation: cloud
+type: noun
+group: ⛅ Weather & seasons
+pronunciation: /ˈnuβe/
+example.es: Hay muchas nubes en el cielo.
+example.en: There are many clouds in the sky.
+tags: ⭐ common, ⛅ weather
+priority: yes
+grammar.Gender: f
+grammar.Plural: nubes
+//
+word: niebla
+translation: fog
+type: noun
+group: ⛅ Weather & seasons
+pronunciation: /ˈnjeβla/
+example.es: Hay mucha niebla esta mañana.
+example.en: There is a lot of fog this morning.
+tags: ⭐ common, ⛅ weather
+priority: yes
+grammar.Gender: f
+grammar.Plural: nieblas
+//
+word: tormenta
+translation: storm
+type: noun
+group: ⛅ Weather & seasons
+pronunciation: /toɾˈmenta/
+example.es: Se acerca una tormenta fuerte.
+example.en: A strong storm is approaching.
+tags: ⭐ common, ⛅ weather
+priority: yes
+grammar.Gender: f
+grammar.Plural: tormentas
+//
+word: rayo
+translation: lightning
+type: noun
+group: ⛅ Weather & seasons
+pronunciation: /ˈraʝo/
+example.es: Vi un rayo durante la tormenta.
+example.en: I saw lightning during the storm.
+tags: ⭐ common, ⛅ weather
+priority: yes
+grammar.Gender: m
+grammar.Plural: rayos
+//
+word: trueno
+translation: thunder
+type: noun
+group: ⛅ Weather & seasons
+pronunciation: /ˈtɾueno/
+example.es: Escuché un trueno muy fuerte.
+example.en: I heard a very loud thunder.
+tags: ⭐ common, ⛅ weather
+priority: yes
+grammar.Gender: m
+grammar.Plural: truenos
+//
+word: hielo
+translation: ice
+type: noun
+group: ⛅ Weather & seasons
+pronunciation: /ˈjelo/
+example.es: Hay hielo en el suelo.
+example.en: There is ice on the ground.
+tags: ⭐ common, ⛅ weather
+priority: yes
+grammar.Gender: m
+grammar.Plural: hielos
+//
+word: granizo
+translation: hail
+type: noun
+group: ⛅ Weather & seasons
+pronunciation: /ɡɾaˈniθo/
+example.es: Empezó a caer granizo.
+example.en: It started to hail.
+tags: ⭐ common, ⛅ weather
+priority: yes
+grammar.Gender: m
+grammar.Plural: granizos
+//
+word: caliente / caluroso
+translation: hot
+type: adjective
+group: ⛅ Weather & seasons
+pronunciation: /kaˈljente/
+example.es: El día está muy caluroso.
+example.en: The day is very hot.
+tags: ⭐ common, ⛅ weather
+priority: yes
+grammar.Feminine: caliente / calurosa
+grammar.Plural: calientes / calurosos
+//
+word: frío
+translation: cold
+type: adjective
+group: ⛅ Weather & seasons
+pronunciation: /ˈfɾio/
+example.es: Tengo mucho frío hoy.
+example.en: I am very cold today.
+tags: ⭐ common, ⛅ weather
+priority: yes
+grammar.Feminine: fría
+grammar.Plural: fríos / frías
+//
+word: cálido
+translation: warm
+type: adjective
+group: ⛅ Weather & seasons
+pronunciation: /ˈkaliðo/
+example.es: Hace un tiempo cálido y agradable.
+example.en: It is warm and pleasant weather.
+tags: ⭐ common, ⛅ weather
+priority: yes
+grammar.Feminine: cálida
+grammar.Plural: cálidos / cálidas
+//
+word: temperatura
+translation: temperature
+type: noun
+group: ⛅ Weather & seasons
+pronunciation: /tempeɾaˈtuɾa/
+example.es: La temperatura ha bajado mucho.
+example.en: The temperature has dropped a lot.
+tags: ⭐ common, ⛅ weather
+priority: yes
+grammar.Gender: f
+grammar.Plural: temperaturas
+//
+word: grado
+translation: degree
+type: noun
+group: ⛅ Weather & seasons
+pronunciation: /ˈɡɾaðo/
+example.es: Estamos a veinte grados.
+example.en: We are at twenty degrees.
+tags: ⭐ common, ⛅ weather
+priority: yes
+grammar.Gender: m
+grammar.Plural: grados
+//
+word: pronóstico
+translation: forecast
+type: noun
+group: ⛅ Weather & seasons
+pronunciation: /pɾoˈnostiko/
+example.es: El pronóstico dice que lloverá.
+example.en: The forecast says it will rain.
+tags: ⭐ common, ⛅ weather
+priority: yes
+grammar.Gender: m
+grammar.Plural: pronósticos
+//
+word: paraguas
+translation: umbrella
+type: noun
+group: ⛅ Weather & seasons
+pronunciation: /paˈɾaɣwas/
+example.es: Olvidé mi paraguas en casa.
+example.en: I forgot my umbrella at home.
+tags: ⭐ common, ⛅ weather
+priority: yes
+grammar.Gender: m
+grammar.Plural: paraguas
+//
+word: soleado
+translation: sunny
+type: adjective
+group: ⛅ Weather & seasons
+pronunciation: /soˈleaðo/
+example.es: El día estará muy soleado.
+example.en: The day will be very sunny.
+tags: ⭐ common, ⛅ weather
+priority: yes
+grammar.Feminine: soleada
+grammar.Plural: soleados / soleadas
+//
+word: lluvioso
+translation: rainy
+type: adjective
+group: ⛅ Weather & seasons
+pronunciation: /ʝuˈβjoso/
+example.es: Tuvimos un fin de semana lluvioso.
+example.en: We had a rainy weekend.
+tags: ⭐ common, ⛅ weather
+priority: yes
+grammar.Feminine: lluviosa
+grammar.Plural: lluviosos / lluviosas
+//
+word: nevado
+translation: snowy
+type: adjective
+group: ⛅ Weather & seasons
+pronunciation: /neˈβaðo/
+example.es: El paisaje está muy nevado.
+example.en: The landscape is very snowy.
+tags: ⭐ common, ⛅ weather
+priority: yes
+grammar.Feminine: nevada
+grammar.Plural: nevados / nevadas
+//
+word: ventoso
+translation: windy
+type: adjective
+group: ⛅ Weather & seasons
+pronunciation: /benˈtoso/
+example.es: Es un día muy ventoso.
+example.en: It is a very windy day.
+tags: ⭐ common, ⛅ weather
+priority: yes
+grammar.Feminine: ventosa
+grammar.Plural: ventosos / ventosas
+//
+word: nublado
+translation: cloudy
+type: adjective
+group: ⛅ Weather & seasons
+pronunciation: /nuˈβlaðo/
+example.es: El cielo está totalmente nublado.
+example.en: The sky is completely cloudy.
+tags: ⭐ common, ⛅ weather
+priority: yes
+grammar.Feminine: nublada
+grammar.Plural: nublados / nubladas
+//
+word: helado / congelado
+translation: freezing
+type: adjective
+group: ⛅ Weather & seasons
+pronunciation: /eˈlaðo/
+example.es: Hace un frío helado hoy.
+example.en: It is freezing cold today.
+tags: ⭐ common, ⛅ weather
+priority: yes
+grammar.Feminine: helada / congelada
+grammar.Plural: helados / congelados
+//
+word: húmedo
+translation: humid
+type: adjective
+group: ⛅ Weather & seasons
+pronunciation: /ˈumedo/
+example.es: El clima es muy húmedo aquí.
+example.en: The climate is very humid here.
+tags: ⭐ common, ⛅ weather
+priority: yes
+grammar.Feminine: húmeda
+grammar.Plural: húmedos / húmedas

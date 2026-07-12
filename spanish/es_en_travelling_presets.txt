@@ -1,0 +1,444 @@
+word: estación
+translation: station
+type: noun
+group: ✈️ Travelling
+pronunciation: /estaˈθjon/
+example.es: La estación está muy concurrida.
+example.en: The station is very busy.
+tags: ⭐ common, 🚆 travel
+priority: yes
+grammar.Gender: f
+grammar.Plural: estaciones
+//
+word: tren
+translation: train
+type: noun
+group: ✈️ Travelling
+pronunciation: /tɾen/
+example.es: El tren sale a las ocho.
+example.en: The train leaves at eight.
+tags: ⭐ common, 🚆 travel
+priority: yes
+grammar.Gender: m
+grammar.Plural: trenes
+//
+word: autobús
+translation: bus
+type: noun
+group: ✈️ Travelling
+pronunciation: /auˈtobus/
+example.es: El autobús llega con retraso.
+example.en: The bus is arriving late.
+tags: ⭐ common, 🚆 travel
+priority: yes
+grammar.Gender: m
+grammar.Plural: autobuses
+//
+word: avión
+translation: plane
+type: noun
+group: ✈️ Travelling
+pronunciation: /aˈβjon/
+example.es: Mi avión sale de la puerta cinco.
+example.en: My plane leaves from gate five.
+tags: ⭐ common, ✈️ travel
+priority: yes
+grammar.Gender: m
+grammar.Plural: aviones
+//
+word: coche
+translation: car
+type: noun
+group: ✈️ Travelling
+pronunciation: /ˈkotʃe/
+example.es: Aparqué el coche en la calle.
+example.en: I parked the car on the street.
+tags: ⭐ common, 🚆 travel
+priority: yes
+grammar.Gender: m
+grammar.Plural: coches
+//
+word: taxi
+translation: taxi
+type: noun
+group: ✈️ Travelling
+pronunciation: /ˈtaksi/
+example.es: Necesito llamar a un taxi.
+example.en: I need to call a taxi.
+tags: ⭐ common, 🚆 travel
+priority: yes
+grammar.Gender: m
+grammar.Plural: taxis
+//
+word: ferry
+translation: ferry
+type: noun
+group: ✈️ Travelling
+pronunciation: /ˈfeɾi/
+example.es: El ferry cruza el canal.
+example.en: The ferry crosses the channel.
+tags: ⭐ common, 🚆 travel
+priority: yes
+grammar.Gender: m
+grammar.Plural: ferrys
+//
+word: bicicleta
+translation: bicycle
+type: noun
+group: ✈️ Travelling
+pronunciation: /biθiˈkleta/
+example.es: Voy al trabajo en bicicleta.
+example.en: I go to work by bicycle.
+tags: ⭐ common, 🚆 travel
+priority: yes
+grammar.Gender: f
+grammar.Plural: bicicletas
+//
+word: metro
+translation: metro
+type: noun
+group: ✈️ Travelling
+pronunciation: /ˈmetɾo/
+example.es: El metro es muy rápido.
+example.en: The metro is very fast.
+tags: ⭐ common, 🚆 travel
+priority: yes
+grammar.Gender: m
+grammar.Plural: metros
+//
+word: aeropuerto
+translation: airport
+type: noun
+group: ✈️ Travelling
+pronunciation: /aeɾoˈpweɾto/
+example.es: Debo estar en el aeropuerto pronto.
+example.en: I must be at the airport soon.
+tags: ⭐ common, ✈️ travel
+priority: yes
+grammar.Gender: m
+grammar.Plural: aeropuertos
+//
+word: hotel
+translation: hotel
+type: noun
+group: ✈️ Travelling
+pronunciation: /oˈtel/
+example.es: Reservamos una habitación en el hotel.
+example.en: We booked a room at the hotel.
+tags: ⭐ common, 🏠 places
+priority: yes
+grammar.Gender: m
+grammar.Plural: hoteles
+//
+word: albergue
+translation: hostel
+type: noun
+group: ✈️ Travelling
+pronunciation: /alˈβeɾɣe/
+example.es: Nos alojamos en un albergue barato.
+example.en: We are staying in a cheap hostel.
+tags: ⭐ common, 🏠 places
+priority: yes
+grammar.Gender: m
+grammar.Plural: albergues
+//
+word: pasaporte
+translation: passport
+type: noun
+group: ✈️ Travelling
+pronunciation: /pasaˈpoɾte/
+example.es: ¿Tiene su pasaporte, por favor?
+example.en: Do you have your passport, please?
+tags: ⭐ common, ✈️ travel
+priority: yes
+grammar.Gender: m
+grammar.Plural: pasaportes
+//
+word: visado
+translation: visa
+type: noun
+group: ✈️ Travelling
+pronunciation: /biˈsaðo/
+example.es: Necesito un visado para viajar allí.
+example.en: I need a visa to travel there.
+tags: ⭐ common, ✈️ travel
+priority: yes
+grammar.Gender: m
+grammar.Plural: visados
+//
+note: Also the word for a banknote.
+word: billete
+translation: ticket, banknote
+type: noun
+group: ✈️ Travelling
+pronunciation: /biˈʝete/
+example.es: He comprado mi billete de tren.
+example.en: I have bought my train ticket.
+tags: ⭐ common, 🚆 travel
+priority: yes
+grammar.Gender: m
+grammar.Plural: billetes
+//
+word: equipaje
+translation: luggage
+type: noun
+group: ✈️ Travelling
+pronunciation: /ekiˈpaxe/
+example.es: Tengo mucho equipaje para este viaje.
+example.en: I have a lot of luggage for this trip.
+tags: ⭐ common, 🚆 travel
+priority: yes
+grammar.Gender: m
+grammar.Plural: equipajes
+//
+word: andén
+translation: platform
+type: noun
+group: ✈️ Travelling
+pronunciation: /anˈden/
+example.es: El tren sale del andén cuatro.
+example.en: The train leaves from platform four.
+tags: ⭐ common, 🚆 travel
+priority: yes
+grammar.Gender: m
+grammar.Plural: andenes
+//
+word: salida
+translation: departure
+type: noun
+group: ✈️ Travelling
+pronunciation: /saˈliða/
+example.es: La hora de salida es a las diez.
+example.en: The departure time is at ten.
+tags: ⭐ common, 🚆 travel
+priority: yes
+grammar.Gender: f
+grammar.Plural: salidas
+//
+word: llegada
+translation: arrival
+type: noun
+group: ✈️ Travelling
+pronunciation: /ʝeˈɣaða/
+example.es: La llegada es puntual.
+example.en: The arrival is on time.
+tags: ⭐ common, 🚆 travel
+priority: yes
+grammar.Gender: f
+grammar.Plural: llegadas
+//
+word: reserva
+translation: booking, reservation
+type: noun
+group: ✈️ Travelling
+pronunciation: /reˈseɾβa/
+example.es: He hecho una reserva en el restaurante.
+example.en: I have made a reservation at the restaurant.
+tags: ⭐ common, 🚆 travel
+priority: yes
+grammar.Gender: f
+grammar.Plural: reservas
+//
+word: facturación
+translation: check-in
+type: noun
+group: ✈️ Travelling
+pronunciation: /faktuɾaˈθjon/
+example.es: La facturación cierra una hora antes.
+example.en: Check-in closes one hour before.
+tags: ⭐ common, ✈️ travel
+priority: yes
+grammar.Gender: f
+grammar.Plural: facturaciones
+//
+word: habitación
+translation: room
+type: noun
+group: ✈️ Travelling
+pronunciation: /aβitaˈθjon/
+example.es: Necesito una habitación doble.
+example.en: I need a double room.
+tags: ⭐ common, 🏠 places
+priority: yes
+grammar.Gender: f
+grammar.Plural: habitaciones
+//
+word: llave
+translation: key
+type: noun
+group: ✈️ Travelling
+pronunciation: /ˈʝaβe/
+example.es: ¿Dónde está la llave de la habitación?
+example.en: Where is the room key?
+tags: ⭐ common, 🏠 places
+priority: yes
+grammar.Gender: f
+grammar.Plural: llaves
+//
+word: recepción
+translation: reception
+type: noun
+group: ✈️ Travelling
+pronunciation: /reθepˈθjon/
+example.es: Pregunte en recepción, por favor.
+example.en: Ask at reception, please.
+tags: ⭐ common, 🏠 places
+priority: yes
+grammar.Gender: f
+grammar.Plural: recepciones
+//
+word: viaje
+translation: journey, trip
+type: noun
+group: ✈️ Travelling
+pronunciation: /ˈbjax e/
+example.es: El viaje fue muy largo.
+example.en: The journey was very long.
+tags: ⭐ common, ✈️ travel
+priority: yes
+grammar.Gender: m
+grammar.Plural: viajes
+//
+word: turista
+translation: tourist
+type: noun
+group: ✈️ Travelling
+pronunciation: /tuˈɾista/
+example.es: La ciudad está llena de turistas.
+example.en: The city is full of tourists.
+tags: ⭐ common, ✈️ travel
+priority: yes
+grammar.Gender: m/f
+grammar.Plural: turistas
+//
+word: mapa
+translation: map
+type: noun
+group: ✈️ Travelling
+pronunciation: /ˈmapa/
+example.es: Necesito un mapa de la ciudad.
+example.en: I need a city map.
+tags: ⭐ common, ✈️ travel
+priority: yes
+grammar.Gender: m
+grammar.Plural: mapas
+//
+word: guía
+translation: guide
+type: noun
+group: ✈️ Travelling
+pronunciation: /ˈɡi.a/
+example.es: El guía nos mostró el museo.
+example.en: The guide showed us the museum.
+tags: ⭐ common, ✈️ travel
+priority: yes
+grammar.Gender: m/f
+grammar.Plural: guías
+//
+word: frontera
+translation: border
+type: noun
+group: ✈️ Travelling
+pronunciation: /fɾonˈteɾa/
+example.es: Cruzamos la frontera ayer.
+example.en: We crossed the border yesterday.
+tags: ⭐ common, ✈️ travel
+priority: yes
+grammar.Gender: f
+grammar.Plural: fronteras
+//
+word: aduana
+translation: customs
+type: noun
+group: ✈️ Travelling
+pronunciation: /aˈðwana/
+example.es: Pasamos por la aduana rápidamente.
+example.en: We passed through customs quickly.
+tags: ⭐ common, ✈️ travel
+priority: yes
+grammar.Gender: f
+grammar.Plural: aduanas
+//
+word: retraso
+translation: delay
+type: noun
+group: ✈️ Travelling
+pronunciation: /reˈtɾaso/
+example.es: El vuelo tiene un pequeño retraso.
+example.en: The flight has a small delay.
+tags: ⭐ common, ✈️ travel
+priority: yes
+grammar.Gender: m
+grammar.Plural: retrasos
+//
+word: horario
+translation: schedule, timetable
+type: noun
+group: ✈️ Travelling
+pronunciation: /oˈɾarjo/
+example.es: ¿Puedes mirar el horario de los trenes?
+example.en: Can you look at the train schedule?
+tags: ⭐ common, ⏳ time
+priority: yes
+grammar.Gender: m
+grammar.Plural: horarios
+//
+word: asiento
+translation: seat
+type: noun
+group: ✈️ Travelling
+pronunciation: /aˈsjento/
+example.es: ¿Tengo un asiento junto a la ventana?
+example.en: Do I have a window seat?
+tags: ⭐ common, 🚆 travel
+priority: yes
+grammar.Gender: m
+grammar.Plural: asientos
+//
+word: vuelta
+translation: return
+type: noun
+group: ✈️ Travelling
+pronunciation: /ˈbwelta/
+example.es: He comprado el billete de vuelta.
+example.en: I have bought the return ticket.
+tags: ⭐ common, ✈️ travel
+priority: yes
+grammar.Gender: f
+grammar.Plural: vueltas
+//
+word: solo ida
+translation: one-way
+type: phrase
+group: ✈️ Travelling
+pronunciation: /ˈsolo ˈiða/
+example.es: Un billete de solo ida, por favor.
+example.en: A one-way ticket, please.
+tags: ⭐ common, ✈️ travel
+priority: yes
+grammar.Register: neutral
+//
+word: directo
+translation: direct
+type: adjective
+group: ✈️ Travelling
+pronunciation: /diˈɾekto/
+example.es: Es un vuelo directo.
+example.en: It is a direct flight.
+tags: ⭐ common, ✈️ travel
+priority: yes
+grammar.Feminine form: directa
+grammar.Plural (masc.): directos
+grammar.Plural (fem.): directas
+//
+word: maleta
+translation: suitcase
+type: noun
+group: ✈️ Travelling
+pronunciation: /maˈleta/
+example.es: He perdido mi maleta.
+example.en: I have lost my suitcase.
+tags: ⭐ common, ✈️ travel
+priority: yes
+grammar.Gender: f
+grammar.Plural: maletas

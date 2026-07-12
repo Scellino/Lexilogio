@@ -1,0 +1,524 @@
+word: pan
+translation: bread
+type: noun
+group: 🍽️ Food & drink
+pronunciation: /pan/
+example.es: Compré pan fresco esta mañana.
+example.en: I bought fresh bread this morning.
+tags: ⭐ common, 🍽️ food
+priority: yes
+grammar.Gender: m
+grammar.Plural: panes
+//
+word: arroz
+translation: rice
+type: noun
+group: 🍽️ Food & drink
+pronunciation: /aˈroθ/
+example.es: Me gusta el arroz con pollo.
+example.en: I like rice with chicken.
+tags: ⭐ common, 🍽️ food
+priority: yes
+grammar.Gender: m
+grammar.Plural: arroces
+//
+word: pasta
+translation: pasta
+type: noun
+group: 🍽️ Food & drink
+pronunciation: /ˈpasta/
+example.es: Vamos a comer pasta hoy.
+example.en: We are going to eat pasta today.
+tags: ⭐ common, 🍽️ food
+priority: yes
+grammar.Gender: f
+grammar.Plural: pastas
+//
+word: huevo
+translation: egg
+type: noun
+group: 🍽️ Food & drink
+pronunciation: /ˈweβo/
+example.es: ¿Quieres un huevo frito?
+example.en: Do you want a fried egg?
+tags: ⭐ common, 🍽️ food
+priority: yes
+grammar.Gender: m
+grammar.Plural: huevos
+//
+word: queso
+translation: cheese
+type: noun
+group: 🍽️ Food & drink
+pronunciation: /ˈkeso/
+example.es: Este queso es muy delicioso.
+example.en: This cheese is very delicious.
+tags: ⭐ common, 🍽️ food
+priority: yes
+grammar.Gender: m
+grammar.Plural: quesos
+//
+word: mantequilla
+translation: butter
+type: noun
+group: 🍽️ Food & drink
+pronunciation: /manteˈkiʝa/
+example.es: Pon un poco de mantequilla en el pan.
+example.en: Put a little bit of butter on the bread.
+tags: ⭐ common, 🍽️ food
+priority: yes
+grammar.Gender: f
+grammar.Plural: mantequillas
+//
+word: aceite
+translation: oil
+type: noun
+group: 🍽️ Food & drink
+pronunciation: /aˈθeite/
+example.es: Usa un poco de aceite de oliva.
+example.en: Use a little bit of olive oil.
+tags: ⭐ common, 🍽️ food
+priority: yes
+grammar.Gender: m
+grammar.Plural: aceites
+//
+word: sal
+translation: salt
+type: noun
+group: 🍽️ Food & drink
+pronunciation: /sal/
+example.es: La comida necesita un poco más de sal.
+example.en: The food needs a little more salt.
+tags: ⭐ common, 🍽️ food
+priority: yes
+grammar.Gender: f
+grammar.Plural: sales
+//
+word: pimienta
+translation: pepper
+type: noun
+group: 🍽️ Food & drink
+pronunciation: /piˈmjenta/
+example.es: Añade sal y pimienta al gusto.
+example.en: Add salt and pepper to taste.
+tags: ⭐ common, 🍽️ food
+priority: yes
+grammar.Gender: f
+grammar.Plural: pimientas
+//
+word: azúcar
+translation: sugar
+type: noun
+group: 🍽️ Food & drink
+pronunciation: /aˈθukaɾ/
+example.es: ¿Quieres azúcar en el café?
+example.en: Do you want sugar in the coffee?
+tags: ⭐ common, 🍽️ food
+priority: yes
+grammar.Gender: m/f
+grammar.Plural: azúcares
+//
+word: pollo
+translation: chicken
+type: noun
+group: 🍽️ Food & drink
+pronunciation: /ˈpoʝo/
+example.es: El pollo está muy tierno.
+example.en: The chicken is very tender.
+tags: ⭐ common, 🍽️ food
+priority: yes
+grammar.Gender: m
+grammar.Plural: pollos
+//
+word: carne de vaca
+translation: beef
+type: noun
+group: 🍽️ Food & drink
+pronunciation: /ˈkaɾne ðe ˈβaka/
+example.es: Prefiero la carne de vaca a la de cerdo.
+example.en: I prefer beef over pork.
+tags: ⭐ common, 🍽️ food
+priority: yes
+grammar.Gender: f
+grammar.Plural: carnes de vaca
+//
+word: cerdo
+translation: pork, pig
+type: noun
+group: 🍽️ Food & drink
+pronunciation: /ˈθeɾðo/
+example.es: Comimos cerdo con patatas.
+example.en: We ate pork with potatoes.
+tags: ⭐ common, 🍽️ food
+priority: yes
+grammar.Gender: m
+grammar.Plural: cerdos
+//
+word: cordero
+translation: lamb
+type: noun
+group: 🍽️ Food & drink
+pronunciation: /koɾˈðeɾo/
+example.es: El cordero al horno es típico aquí.
+example.en: Roast lamb is typical here.
+tags: ⭐ common, 🍽️ food
+priority: yes
+grammar.Gender: m
+grammar.Plural: corderos
+//
+word: pescado
+translation: fish
+type: noun
+group: 🍽️ Food & drink
+pronunciation: /pesˈkaðo/
+example.es: El pescado fresco es muy sano.
+example.en: Fresh fish is very healthy.
+tags: ⭐ common, 🍽️ food
+priority: yes
+grammar.Gender: m
+grammar.Plural: pescados
+//
+word: marisco
+translation: seafood
+type: noun
+group: 🍽️ Food & drink
+pronunciation: /maˈɾisko/
+example.es: Nos encanta el marisco.
+example.en: We love seafood.
+tags: ⭐ common, 🍽️ food
+priority: yes
+grammar.Gender: m
+grammar.Plural: mariscos
+//
+word: patata
+translation: potato
+type: noun
+group: 🍽️ Food & drink
+pronunciation: /paˈtata/
+example.es: ¿Quieres patatas fritas?
+example.en: Do you want french fries?
+tags: ⭐ common, 🍽️ food
+priority: yes
+grammar.Gender: f
+grammar.Plural: patatas
+//
+word: tomate
+translation: tomato
+type: noun
+group: 🍽️ Food & drink
+pronunciation: /toˈmate/
+example.es: Necesito tomates para la ensalada.
+example.en: I need tomatoes for the salad.
+tags: ⭐ common, 🍽️ food
+priority: yes
+grammar.Gender: m
+grammar.Plural: tomates
+//
+word: cebolla
+translation: onion
+type: noun
+group: 🍽️ Food & drink
+pronunciation: /θeˈβoʝa/
+example.es: No me gusta la cebolla cruda.
+example.en: I don't like raw onion.
+tags: ⭐ common, 🍽️ food
+priority: yes
+grammar.Gender: f
+grammar.Plural: cebollas
+//
+word: ajo
+translation: garlic
+type: noun
+group: 🍽️ Food & drink
+pronunciation: /ˈaxo/
+example.es: Usa un diente de ajo para la salsa.
+example.en: Use a clove of garlic for the sauce.
+tags: ⭐ common, 🍽️ food
+priority: yes
+grammar.Gender: m
+grammar.Plural: ajos
+//
+word: zanahoria
+translation: carrot
+type: noun
+group: 🍽️ Food & drink
+pronunciation: /θanaˈoɾja/
+example.es: La zanahoria es buena para la vista.
+example.en: Carrots are good for eyesight.
+tags: ⭐ common, 🍽️ food
+priority: yes
+grammar.Gender: f
+grammar.Plural: zanahorias
+//
+word: ensalada
+translation: salad
+type: noun
+group: 🍽️ Food & drink
+pronunciation: /ensaˈlaða/
+example.es: Pido una ensalada mixta.
+example.en: I am ordering a mixed salad.
+tags: ⭐ common, 🍽️ food
+priority: yes
+grammar.Gender: f
+grammar.Plural: ensaladas
+//
+word: manzana
+translation: apple
+type: noun
+group: 🍽️ Food & drink
+pronunciation: /manˈθana/
+example.es: Una manzana al día es saludable.
+example.en: An apple a day is healthy.
+tags: ⭐ common, 🍽️ food
+priority: yes
+grammar.Gender: f
+grammar.Plural: manzanas
+//
+word: plátano
+translation: banana
+type: noun
+group: 🍽️ Food & drink
+pronunciation: /ˈplatano/
+example.es: El plátano tiene mucho potasio.
+example.en: The banana has a lot of potassium.
+tags: ⭐ common, 🍽️ food
+priority: yes
+grammar.Gender: m
+grammar.Plural: plátanos
+//
+word: limón
+translation: lemon
+type: noun
+group: 🍽️ Food & drink
+pronunciation: /liˈmon/
+example.es: ¿Puedes traer un poco de limón?
+example.en: Can you bring a little lemon?
+tags: ⭐ common, 🍽️ food
+priority: yes
+grammar.Gender: m
+grammar.Plural: limones
+//
+word: fresa
+translation: strawberry
+type: noun
+group: 🍽️ Food & drink
+pronunciation: /ˈfɾesa/
+example.es: El helado de fresa es mi favorito.
+example.en: Strawberry ice cream is my favorite.
+tags: ⭐ common, 🍽️ food
+priority: yes
+grammar.Gender: f
+grammar.Plural: fresas
+//
+word: uva
+translation: grape
+type: noun
+group: 🍽️ Food & drink
+pronunciation: /ˈuβa/
+example.es: Comemos uvas en fin de año.
+example.en: We eat grapes on New Year's Eve.
+tags: ⭐ common, 🍽️ food
+priority: yes
+grammar.Gender: f
+grammar.Plural: uvas
+//
+word: agua
+translation: water
+type: noun
+group: 🍽️ Food & drink
+pronunciation: /ˈaɣwa/
+example.es: ¿Me das un vaso de agua?
+example.en: Can you give me a glass of water?
+tags: ⭐ common, 🍽️ food
+priority: yes
+grammar.Gender: f
+grammar.Plural: aguas
+//
+word: zumo
+translation: juice
+type: noun
+group: 🍽️ Food & drink
+pronunciation: /ˈθumo/
+example.es: Prefiero zumo de naranja natural.
+example.en: I prefer fresh orange juice.
+tags: ⭐ common, 🍽️ food
+priority: yes
+grammar.Gender: m
+grammar.Plural: zumos
+//
+word: café
+translation: coffee
+type: noun
+group: 🍽️ Food & drink
+pronunciation: /kaˈfe/
+example.es: Necesito un café para despertar.
+example.en: I need a coffee to wake up.
+tags: ⭐ common, 🍽️ food
+priority: yes
+grammar.Gender: m
+grammar.Plural: cafés
+//
+word: té
+translation: tea
+type: noun
+group: 🍽️ Food & drink
+pronunciation: /te/
+example.es: Prefiero tomar té por la tarde.
+example.en: I prefer to have tea in the afternoon.
+tags: ⭐ common, 🍽️ food
+priority: yes
+grammar.Gender: m
+grammar.Plural: tés
+//
+word: vino
+translation: wine
+type: noun
+group: 🍽️ Food & drink
+pronunciation: /ˈbino/
+example.es: Este vino tinto es excelente.
+example.en: This red wine is excellent.
+tags: ⭐ common, 🍽️ food
+priority: yes
+grammar.Gender: m
+grammar.Plural: vinos
+//
+word: cerveza
+translation: beer
+type: noun
+group: 🍽️ Food & drink
+pronunciation: /θeɾˈβeθa/
+example.es: Una cerveza fría, por favor.
+example.en: A cold beer, please.
+tags: ⭐ common, 🍽️ food
+priority: yes
+grammar.Gender: f
+grammar.Plural: cervezas
+//
+word: leche
+translation: milk
+type: noun
+group: 🍽️ Food & drink
+pronunciation: /ˈletʃe/
+example.es: ¿Tienen leche sin lactosa?
+example.en: Do you have lactose-free milk?
+tags: ⭐ common, 🍽️ food
+priority: yes
+grammar.Gender: f
+grammar.Plural: leches
+//
+word: vegetariano
+translation: vegetarian
+type: adjective
+group: 🍽️ Food & drink
+pronunciation: /bexetaˈɾjano/
+example.es: Soy vegetariano, ¿qué me recomienda?
+example.en: I am vegetarian, what do you recommend?
+tags: ⭐ common, 🍽️ food
+priority: yes
+grammar.Feminine form: vegetariana
+grammar.Plural (masc.): vegetarianos
+grammar.Plural (fem.): vegetarianas
+//
+word: vegano
+translation: vegan
+type: adjective
+group: 🍽️ Food & drink
+pronunciation: /beˈɣano/
+example.es: Busco opciones de comida vegana.
+example.en: I am looking for vegan food options.
+tags: ⭐ common, 🍽️ food
+priority: yes
+grammar.Feminine form: vegana
+grammar.Plural (masc.): veganos
+grammar.Plural (fem.): veganas
+//
+word: picante
+translation: spicy
+type: adjective
+group: 🍽️ Food & drink
+pronunciation: /piˈkante/
+example.es: Esta comida es muy picante.
+example.en: This food is very spicy.
+tags: ⭐ common, 🍽️ food
+priority: yes
+grammar.Feminine form: picante
+grammar.Plural (masc.): picantes
+grammar.Plural (fem.): picantes
+//
+word: dulce
+translation: sweet
+type: adjective
+group: 🍽️ Food & drink
+pronunciation: /ˈdulθe/
+example.es: Me encanta este postre dulce.
+example.en: I love this sweet dessert.
+tags: ⭐ common, 🍽️ food
+priority: yes
+grammar.Feminine form: dulce
+grammar.Plural (masc.): dulces
+grammar.Plural (fem.): dulces
+//
+word: ácido
+translation: sour
+type: adjective
+group: 🍽️ Food & drink
+pronunciation: /ˈaθiðo/
+example.es: Este limón es muy ácido.
+example.en: This lemon is very sour.
+tags: ⭐ common, 🍽️ food
+priority: yes
+grammar.Feminine form: ácida
+grammar.Plural (masc.): ácidos
+grammar.Plural (fem.): ácidas
+//
+word: salado
+translation: salty
+type: adjective
+group: 🍽️ Food & drink
+pronunciation: /saˈlaðo/
+example.es: La sopa está demasiado salada.
+example.en: The soup is too salty.
+tags: ⭐ common, 🍽️ food
+priority: yes
+grammar.Feminine form: salada
+grammar.Plural (masc.): salados
+grammar.Plural (fem.): saladas
+//
+note: Also the everyday word for cool weather.
+word: fresco
+translation: fresh, cool (weather)
+type: adjective
+group: 🍽️ Food & drink
+pronunciation: /ˈfɾesko/
+example.es: Compro pescado fresco cada día.
+example.en: I buy fresh fish every day.
+tags: ⭐ common, 🍽️ food
+priority: yes
+grammar.Feminine form: fresca
+grammar.Plural (masc.): frescos
+grammar.Plural (fem.): frescas
+//
+word: congelado
+translation: frozen
+type: adjective
+group: 🍽️ Food & drink
+pronunciation: /koŋxeˈlaðo/
+example.es: Compré verduras congeladas.
+example.en: I bought frozen vegetables.
+tags: ⭐ common, 🍽️ food
+priority: yes
+grammar.Feminine form: congelada
+grammar.Plural (masc.): congelados
+grammar.Plural (fem.): congeladas
+//
+word: comida
+translation: meal
+type: noun
+group: 🍽️ Food & drink
+pronunciation: /koˈmiða/
+example.es: La comida de hoy está muy buena.
+example.en: Today's meal is very good.
+tags: ⭐ common, 🍽️ food
+priority: yes
+grammar.Gender: f
+grammar.Plural: comidas

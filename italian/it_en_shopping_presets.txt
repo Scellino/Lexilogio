@@ -1,0 +1,363 @@
+word: negozio
+translation: shop
+type: noun
+group: 🛒 Shopping & money
+pronunciation: /neˈɡɔtstso/
+example.it: Il negozio chiude alle otto.
+example.en: The shop closes at eight.
+etymology: Latin "negotium"
+tags: ⭐ common, 🛒 shopping
+priority: yes
+grammar.Gender: m
+grammar.Plural: negozi
+//
+word: supermercato
+translation: supermarket
+type: noun
+group: 🛒 Shopping & money
+pronunciation: /supermerˈkato/
+example.it: Vado al supermercato a fare la spesa.
+example.en: I am going to the supermarket to do the grocery shopping.
+tags: ⭐ common, 🛒 shopping
+priority: yes
+grammar.Gender: m
+grammar.Plural: supermercati
+//
+word: prezzo
+translation: price
+type: noun
+group: 🛒 Shopping & money
+pronunciation: /ˈprɛttso/
+example.it: Il prezzo è troppo alto.
+example.en: The price is too high.
+etymology: Latin "pretium"
+tags: ⭐ common, 🛒 shopping
+priority: yes
+grammar.Gender: m
+grammar.Plural: prezzi
+//
+word: sconto
+translation: discount
+type: noun
+group: 🛒 Shopping & money
+pronunciation: /ˈskonto/
+example.it: C'è uno sconto del venti percento.
+example.en: There is a twenty percent discount.
+etymology: From "scontare"
+tags: 🛒 shopping
+priority: yes
+grammar.Gender: m
+grammar.Plural: sconti
+//
+word: saldi
+translation: sale
+type: noun
+group: 🛒 Shopping & money
+pronunciation: /ˈsaldi/
+example.it: I saldi iniziano a gennaio.
+example.en: The sales start in January.
+note: Usually refers to seasonal sales; "vendita" is general sale.
+tags: 🛒 shopping
+priority: yes
+grammar.Gender: m
+grammar.Plural: saldi (plural tantum)
+//
+word: scontrino
+translation: receipt
+type: noun
+group: 🛒 Shopping & money
+pronunciation: /skonˈtrino/
+example.it: Conserva lo scontrino per il reso.
+example.en: Keep the receipt for the return.
+etymology: From "scontrare"
+tags: 🛒 shopping
+priority: yes
+grammar.Gender: m
+grammar.Plural: scontrini
+//
+word: soldi
+translation: money
+type: noun
+group: 🛒 Shopping & money
+pronunciation: /ˈsoldi/
+example.it: Non ho abbastanza soldi con me.
+example.en: I don't have enough money with me.
+etymology: Latin "solidus"
+tags: ⭐ common, 🛒 shopping
+priority: yes
+grammar.Gender: m
+grammar.Plural: soldi (plural tantum)
+//
+word: moneta
+translation: coin
+type: noun
+group: 🛒 Shopping & money
+pronunciation: /moˈnɛta/
+example.it: Hai una moneta da due euro?
+example.en: Do you have a two-euro coin?
+etymology: Latin "moneta"
+tags: 🛒 shopping
+priority: yes
+grammar.Gender: f
+grammar.Plural: monete
+//
+word: banconota
+translation: banknote
+type: noun
+group: 🛒 Shopping & money
+pronunciation: /baŋkoˈnɔta/
+example.it: Ho cambiato una banconota da cinquanta.
+example.en: I changed a fifty-euro banknote.
+etymology: From "banca" and "nota"
+tags: 🛒 shopping
+priority: yes
+grammar.Gender: f
+grammar.Plural: banconote
+//
+word: carta di credito
+translation: credit card
+type: noun
+group: 🛒 Shopping & money
+pronunciation: /ˈkarta di ˈkrɛdito/
+example.it: Accettate la carta di credito?
+example.en: Do you accept credit cards?
+tags: 🛒 shopping
+priority: yes
+grammar.Gender: f
+grammar.Plural: carte di credito
+//
+word: bancomat
+translation: ATM
+type: noun
+group: 🛒 Shopping & money
+pronunciation: /ˈbaŋkomat/
+example.it: Dov'è il bancomat più vicino?
+example.en: Where is the nearest ATM?
+tags: 🛒 shopping
+priority: yes
+grammar.Gender: m
+grammar.Article override: il
+grammar.Plural: bancomat (invariable)
+//
+word: economico
+translation: cheap
+type: adjective
+group: 🛒 Shopping & money
+pronunciation: /ekoˈnɔmiko/
+example.it: Questo ristorante è molto economico.
+example.en: This restaurant is very cheap.
+etymology: Greek "oikonomikos"
+tags: 🛒 shopping
+priority: yes
+grammar.Feminine form: economica
+grammar.Plural (masc.): economici
+grammar.Plural (fem.): economiche
+//
+word: costoso
+translation: expensive
+type: adjective
+group: 🛒 Shopping & money
+pronunciation: /kosˈtoso/
+example.it: L'hotel è troppo costoso.
+example.en: The hotel is too expensive.
+etymology: From "costo"
+tags: 🛒 shopping
+priority: yes
+grammar.Feminine form: costosa
+grammar.Plural (masc.): costosi
+grammar.Plural (fem.): costose
+//
+word: gratis
+translation: free
+type: adjective/adverb
+group: 🛒 Shopping & money
+pronunciation: /ˈɡratis/
+example.it: L'ingresso è gratis.
+example.en: The entrance is free.
+etymology: Latin "gratis"
+tags: 🛒 shopping
+priority: yes
+grammar.Invariable
+//
+word: pagare
+translation: to pay
+type: verb
+group: 🛒 Shopping & money
+pronunciation: /paˈɡare/
+example.it: Posso pagare con la carta?
+example.en: Can I pay by card?
+etymology: Latin "pacare"
+tags: ⭐ common, 🛒 shopping
+priority: yes
+grammar.Verb group: -are
+grammar.Auxiliary (passato prossimo): avere
+grammar.Participio passato: pagato
+grammar.Passato remoto (io): pagai
+grammar.Gerundio: pagando
+grammar.Presente (all 6 forms): pago / paghi / paga / paghiamo / pagate / pagano
+//
+word: comprare
+translation: to buy
+type: verb
+group: 🛒 Shopping & money
+pronunciation: /komˈprare/
+example.it: Voglio comprare delle scarpe nuove.
+example.en: I want to buy new shoes.
+etymology: Latin "comparare"
+tags: ⭐ common, 🛒 shopping
+priority: yes
+grammar.Verb group: -are
+grammar.Auxiliary (passato prossimo): avere
+grammar.Participio passato: comprato
+grammar.Passato remoto (io): comprai
+grammar.Gerundio: comprando
+grammar.Presente (all 6 forms): compro / compri / compra / compriamo / comprate / comprano
+//
+word: vendere
+translation: to sell
+type: verb
+group: 🛒 Shopping & money
+pronunciation: /ˈvɛndere/
+example.it: Loro vendono prodotti tipici.
+example.en: They sell local products.
+etymology: Latin "vendere"
+tags: 🛒 shopping
+priority: yes
+grammar.Verb group: -ere
+grammar.Auxiliary (passato prossimo): avere
+grammar.Participio passato: venduto
+grammar.Passato remoto (io): vendei/vendetti
+grammar.Gerundio: vendendo
+grammar.Presente (all 6 forms): vendo / vendi / vende / vendiamo / vendete / vendono
+//
+word: costo
+translation: cost
+type: noun
+group: 🛒 Shopping & money
+pronunciation: /ˈkɔsto/
+example.it: Qual è il costo totale?
+example.en: What is the total cost?
+etymology: From "costare"
+tags: 🛒 shopping
+priority: yes
+grammar.Gender: m
+grammar.Plural: costi
+//
+word: portafoglio
+translation: wallet
+type: noun
+group: 🛒 Shopping & money
+pronunciation: /portaˈfɔʎʎo/
+example.it: Ho dimenticato il portafoglio a casa.
+example.en: I left my wallet at home.
+etymology: From "portare" and "foglio"
+tags: 🛒 shopping
+priority: yes
+grammar.Gender: m
+grammar.Plural: portafogli
+//
+word: budget
+translation: budget
+type: noun
+group: 🛒 Shopping & money
+pronunciation: /ˈbadʒet/
+example.it: Abbiamo un budget limitato.
+example.en: We have a limited budget.
+etymology: From English "budget"
+tags: 🛒 shopping
+priority: yes
+grammar.Gender: m
+grammar.Article override: il
+grammar.Plural: budget (invariable)
+//
+word: resto
+translation: change
+type: noun
+group: 🛒 Shopping & money
+pronunciation: /ˈrɛsto/
+example.it: Tenga il resto.
+example.en: Keep the change.
+etymology: From "restare"
+tags: 🛒 shopping
+priority: yes
+grammar.Gender: m
+grammar.Plural: resti
+//
+word: fila
+translation: queue
+type: noun
+group: 🛒 Shopping & money
+pronunciation: /ˈfila/
+example.it: C'è una lunga fila alla cassa.
+example.en: There is a long queue at the checkout.
+etymology: From "filare"
+tags: 🛒 shopping
+priority: yes
+grammar.Gender: f
+grammar.Plural: file
+//
+word: orari di apertura
+translation: opening hours
+type: noun
+group: 🛒 Shopping & money
+pronunciation: /oˈrari di aperˈtura/
+example.it: Quali sono gli orari di apertura?
+example.en: What are the opening hours?
+tags: 🛒 shopping
+priority: yes
+grammar.Gender: m (plural)
+grammar.Plural: orari di apertura
+//
+word: chiuso
+translation: closed
+type: adjective
+group: 🛒 Shopping & money
+pronunciation: /ˈkjuzo/
+example.it: Il negozio è chiuso oggi.
+example.en: The shop is closed today.
+etymology: From "chiudere"
+tags: ⭐ common, 🛒 shopping
+priority: yes
+grammar.Feminine form: chiusa
+grammar.Plural (masc.): chiusi
+grammar.Plural (fem.): chiuse
+//
+word: aperto
+translation: open
+type: adjective
+group: 🛒 Shopping & money
+pronunciation: /aˈpɛrto/
+example.it: Il supermercato è aperto fino a tardi.
+example.en: The supermarket is open until late.
+etymology: From "aprire"
+tags: ⭐ common, 🛒 shopping
+priority: yes
+grammar.Feminine form: aperta
+grammar.Plural (masc.): aperti
+grammar.Plural (fem.): aperte
+//
+word: cliente
+translation: customer, client
+type: noun
+group: 🛒 Shopping & money
+pronunciation: /kliˈɛnte/
+example.it: Il cliente ha sempre ragione.
+example.en: The customer is always right.
+etymology: Latin "cliens"
+tags: 🛒 shopping
+priority: yes
+grammar.Gender: m/f
+grammar.Plural: clienti
+//
+word: rimborso
+translation: refund
+type: noun
+group: 🛒 Shopping & money
+pronunciation: /rimˈborso/
+example.it: Ho chiesto il rimborso.
+example.en: I asked for a refund.
+etymology: From "rimborsare"
+tags: 🛒 shopping
+priority: yes
+grammar.Gender: m
+grammar.Plural: rimborsi

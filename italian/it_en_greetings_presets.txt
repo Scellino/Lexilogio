@@ -1,0 +1,299 @@
+word: ciao
+translation: hello, hi, goodbye
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /ˈtʃa.o/
+example.it: Ciao, come stai?
+example.en: Hi, how are you?
+etymology: Venetian "s-ciào vostro" (I am your slave)
+note: Used informally for both arrival and departure.
+tags: 👋 common, 🗣️ social
+priority: yes
+grammar.Register: colloquial
+//
+word: buongiorno
+translation: good morning
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /buonˈdʒoːr.no/
+example.it: Buongiorno a tutti!
+example.en: Good morning everyone!
+note: Used from morning until early afternoon.
+tags: 👋 common, 🗣️ social
+priority: yes
+grammar.Register: neutral
+//
+word: buon pomeriggio
+translation: good afternoon
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /buon po.meˈri.dʒo/
+example.it: Buon pomeriggio, desidera qualcosa?
+example.en: Good afternoon, would you like something?
+note: Less common than "buongiorno"; often used in professional settings.
+tags: 👋 common, 🗣️ social
+priority: yes
+grammar.Register: neutral
+//
+word: buonasera
+translation: good evening
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /buo.naˈseː.ra/
+example.it: Buonasera, ho una prenotazione.
+example.en: Good evening, I have a reservation.
+note: Used from late afternoon/dusk onwards.
+tags: 👋 common, 🗣️ social
+priority: yes
+grammar.Register: neutral
+//
+word: buonanotte
+translation: good night
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /buo.naˈnɔt.te/
+example.it: Buonanotte, ci vediamo domani.
+example.en: Good night, see you tomorrow.
+note: Used only when going to bed or leaving late at night.
+tags: 👋 common, 🗣️ social
+priority: yes
+grammar.Register: neutral
+//
+word: per favore
+translation: please
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /per faˈvoː.re/
+example.it: Un caffè, per favore.
+example.en: A coffee, please.
+tags: 👋 common, 🗣️ social
+priority: yes
+grammar.Register: neutral
+//
+word: grazie
+translation: thank you
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /ˈɡra.ttsje/
+example.it: Grazie mille per l'aiuto.
+example.en: Thank you very much for the help.
+tags: 👋 common, 🗣️ social
+priority: yes
+grammar.Register: neutral
+//
+word: prego
+translation: you're welcome
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /ˈpreː.ɡo/
+example.it: — Grazie! — Prego.
+example.en: — Thank you! — You're welcome.
+note: Also used as "please" (go ahead) or "pardon?" when not hearing something.
+tags: 👋 common, 🗣️ social
+priority: yes
+grammar.Register: neutral
+//
+word: scusa
+translation: sorry, excuse me
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /ˈskuː.za/
+example.it: Scusa, non volevo.
+example.en: Sorry, I didn't mean to.
+note: Used in informal contexts; use "scusi" for formal.
+tags: 👋 common, 🗣️ social
+priority: yes
+grammar.Register: colloquial
+//
+word: mi scusi
+translation: excuse me
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /mi ˈskuː.zi/
+example.it: Mi scusi, può ripetere?
+example.en: Excuse me, can you repeat that?
+note: Used to attract attention or apologize formally.
+tags: 👋 common, 🗣️ social
+priority: yes
+grammar.Register: formal
+//
+word: sì
+translation: yes
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /si/
+example.it: Sì, ho capito.
+example.en: Yes, I understood.
+tags: 👋 common
+priority: yes
+grammar.Register: neutral
+//
+word: no
+translation: no
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /nɔ/
+example.it: No, grazie.
+example.en: No, thank you.
+tags: 👋 common
+priority: yes
+grammar.Register: neutral
+//
+word: non capisco
+translation: I don't understand
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /non kaˈpi.sko/
+example.it: Mi dispiace, non capisco.
+example.en: I'm sorry, I don't understand.
+tags: 👋 common, 🧠 abstract
+priority: yes
+grammar.Register: neutral
+//
+word: mi chiamo
+translation: my name is
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /mi ˈkja.mo/
+example.it: Mi chiamo Marco.
+example.en: My name is Marco.
+note: Literally "I call myself".
+tags: 👋 common, 🗣️ social
+priority: yes
+grammar.Register: neutral
+//
+word: come stai
+translation: how are you
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /ˈko.me ˈstai/
+example.it: Ciao, come stai?
+example.en: Hi, how are you?
+note: Informal singular.
+tags: 👋 common, 🗣️ social
+priority: yes
+grammar.Register: colloquial
+//
+word: sto bene
+translation: I'm fine
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /stɔ ˈbeː.ne/
+example.it: — Come stai? — Sto bene, grazie.
+example.en: — How are you? — I'm fine, thanks.
+tags: 👋 common, 🗣️ social
+priority: yes
+grammar.Register: neutral
+//
+word: piacere
+translation: nice to meet you
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /pjaˈtʃeː.re/
+example.it: — Piacere di conoscerti. — Il piacere è mio.
+example.en: — Nice to meet you. — The pleasure is mine.
+tags: 👋 common, 🗣️ social
+priority: yes
+grammar.Register: neutral
+//
+word: a dopo
+translation: see you later
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /a ˈdoː.po/
+example.it: Ci vediamo, a dopo!
+example.en: See you, see you later!
+tags: 👋 common, 🗣️ social
+priority: yes
+grammar.Register: neutral
+//
+word: a domani
+translation: see you tomorrow
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /a doˈmaː.ni/
+example.it: Buona serata, a domani!
+example.en: Have a good evening, see you tomorrow!
+tags: 👋 common, 🗣️ social
+priority: yes
+grammar.Register: neutral
+//
+word: salute
+translation: cheers
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /saˈluː.te/
+example.it: Salute!
+example.en: Cheers!
+note: Used when clinking glasses.
+tags: 👋 common, 🗣️ social, 🍕 food
+priority: yes
+grammar.Register: neutral
+//
+word: congratulazioni
+translation: congratulations
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /kon.ɡra.tu.laˈtjoː.ni/
+example.it: Congratulazioni per il nuovo lavoro!
+example.en: Congratulations on the new job!
+tags: 👋 common, 🗣️ social
+priority: yes
+grammar.Register: neutral
+//
+word: buon compleanno
+translation: happy birthday
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /buon kom.pleˈan.no/
+example.it: Tanti auguri e buon compleanno!
+example.en: Best wishes and happy birthday!
+tags: 👋 common, 🗣️ social
+priority: yes
+grammar.Register: neutral
+//
+word: benvenuto
+translation: welcome
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /ben.veˈnuː.to/
+example.it: Benvenuto in Italia!
+example.en: Welcome to Italy!
+note: "Benvenuta" if addressing a female.
+tags: 👋 common, 🗣️ social
+priority: yes
+grammar.Register: neutral
+//
+word: nessun problema
+translation: no problem
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /nesˈsun proˈbleː.ma/
+example.it: — Scusa per il ritardo. — Nessun problema!
+example.en: — Sorry for the delay. — No problem!
+tags: 👋 common, 🗣️ social
+priority: yes
+grammar.Register: neutral
+//
+word: certamente
+translation: of course
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /tʃer.taˈmen.te/
+example.it: — Posso sedermi qui? — Certamente.
+example.en: — Can I sit here? — Of course.
+tags: 👋 common, 🗣️ social
+priority: yes
+grammar.Register: neutral
+//
+word: ecco a te
+translation: here you go
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /ˈɛk.ko a te/
+example.it: Ecco a te il libro che volevi.
+example.en: Here you go, the book you wanted.
+note: Informal. Use "ecco a Lei" for formal.
+tags: 👋 common, 🗣️ social
+priority: yes
+grammar.Register: colloquial

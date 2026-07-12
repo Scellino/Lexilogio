@@ -1,0 +1,386 @@
+word: città
+translation: city
+type: noun
+group: 🗺️ City & directions
+pronunciation: /tʃitˈta/
+example.it: Milano è una grande città.
+example.en: Milan is a big city.
+tags: 🗺️ common, 🏛️ travel
+priority: yes
+grammar.Gender: f
+grammar.Article override: la
+grammar.Plural: città
+//
+word: paese
+translation: town, village
+type: noun
+group: 🗺️ City & directions
+pronunciation: /paˈeː.ze/
+example.it: Abito in un piccolo paese.
+example.en: I live in a small town.
+tags: 🗺️ common, 🏠 home
+priority: yes
+grammar.Gender: m
+grammar.Article override: il
+grammar.Plural: paesi
+//
+word: villaggio
+translation: village
+type: noun
+group: 🗺️ City & directions
+pronunciation: /vilˈlad.dʒo/
+example.it: Abbiamo visitato un villaggio di pescatori.
+example.en: We visited a fishing village.
+tags: 🗺️ common, 🏠 home
+priority: yes
+grammar.Gender: m
+grammar.Article override: il
+grammar.Plural: villaggi
+//
+word: strada
+translation: street, road
+type: noun
+group: 🗺️ City & directions
+pronunciation: /ˈstraː.da/
+example.it: La strada è molto trafficata.
+example.en: The street is very busy.
+tags: 🗺️ common, 🏛️ travel
+priority: yes
+grammar.Gender: f
+grammar.Article override: la
+grammar.Plural: strade
+//
+word: via
+translation: street, road
+type: noun
+group: 🗺️ City & directions
+pronunciation: /ˈviː.a/
+example.it: Abito in via Roma.
+example.en: I live on Roma street.
+tags: 🗺️ common, 🏛️ travel
+priority: yes
+grammar.Gender: f
+grammar.Article override: la
+grammar.Plural: vie
+//
+word: parco
+translation: park
+type: noun
+group: 🗺️ City & directions
+pronunciation: /ˈpar.ko/
+example.it: Andiamo al parco oggi?
+example.en: Shall we go to the park today?
+tags: 🗺️ common, 🌿 nature
+priority: yes
+grammar.Gender: m
+grammar.Article override: il
+grammar.Plural: parchi
+//
+word: ponte
+translation: bridge
+type: noun
+group: 🗺️ City & directions
+pronunciation: /ˈpon.te/
+example.it: Il ponte è molto antico.
+example.en: The bridge is very old.
+tags: 🗺️ common, 🏛️ travel
+priority: yes
+grammar.Gender: m
+grammar.Article override: il
+grammar.Plural: ponti
+//
+word: sinistra
+translation: left
+type: adverb
+group: 🗺️ City & directions
+pronunciation: /siˈniː.stra/
+example.it: Gira a sinistra.
+example.en: Turn left.
+tags: 🗺️ common, 🏛️ travel
+priority: yes
+grammar.Register: neutral
+//
+word: destra
+translation: right
+type: adverb
+group: 🗺️ City & directions
+pronunciation: /ˈdɛ.stra/
+example.it: La farmacia è sulla destra.
+example.en: The pharmacy is on the right.
+tags: 🗺️ common, 🏛️ travel
+priority: yes
+grammar.Register: neutral
+//
+word: dritto
+translation: straight ahead
+type: phrase
+group: 🗺️ City & directions
+pronunciation: /ˈdrit.to/
+example.it: Vai sempre dritto.
+example.en: Go straight ahead.
+tags: 🗺️ common, 🏛️ travel
+priority: yes
+grammar.Register: neutral
+//
+word: nord
+translation: north
+type: noun
+group: 🗺️ City & directions
+pronunciation: /nɔrd/
+example.it: Il vento soffia da nord.
+example.en: The wind blows from the north.
+tags: 🗺️ common, 🧭 travel
+priority: yes
+grammar.Gender: m
+grammar.Article override: il
+grammar.Plural: -
+//
+word: sud
+translation: south
+type: noun
+group: 🗺️ City & directions
+pronunciation: /sud/
+example.it: L'Italia del sud è bellissima.
+example.en: Southern Italy is beautiful.
+tags: 🗺️ common, 🧭 travel
+priority: yes
+grammar.Gender: m
+grammar.Article override: il
+grammar.Plural: -
+//
+word: est
+translation: east
+type: noun
+group: 🗺️ City & directions
+pronunciation: /ɛst/
+example.it: Il sole sorge a est.
+example.en: The sun rises in the east.
+tags: 🗺️ common, 🧭 travel
+priority: yes
+grammar.Gender: m
+grammar.Article override: l'
+grammar.Plural: -
+//
+word: ovest
+translation: west
+type: noun
+group: 🗺️ City & directions
+pronunciation: /ˈo.vest/
+example.it: Il sole tramonta a ovest.
+example.en: The sun sets in the west.
+tags: 🗺️ common, 🧭 travel
+priority: yes
+grammar.Gender: m
+grammar.Article override: l'
+grammar.Plural: -
+//
+word: girare
+translation: turn
+type: verb
+group: 🗺️ City & directions
+pronunciation: /dʒiˈraː.re/
+example.it: Devi girare al prossimo incrocio.
+example.en: You must turn at the next intersection.
+tags: 🗺️ common, 🏛️ travel
+priority: yes
+grammar.Verb group: -are
+grammar.Auxiliary (passato prossimo): avere
+grammar.Participio passato: girato
+grammar.Passato remoto (io): girai
+grammar.Gerundio: girando
+grammar.Presente (all 6 forms): giro / giri / gira / giriamo / girate / girano
+//
+note: Also means 'neighbor' as a noun.
+word: vicino
+translation: near, nearby
+type: adverb
+group: 🗺️ City & directions
+pronunciation: /viˈtʃiː.no/
+example.it: La stazione è vicina?
+example.en: Is the station nearby?
+tags: 🗺️ common, 🏛️ travel
+priority: yes
+grammar.Register: neutral
+//
+word: lontano
+translation: far
+type: adverb
+group: 🗺️ City & directions
+pronunciation: /lonˈtaː.no/
+example.it: L'aeroporto è molto lontano.
+example.en: The airport is very far.
+tags: 🗺️ common, 🏛️ travel
+priority: yes
+grammar.Register: neutral
+//
+word: accanto a
+translation: next to
+type: phrase
+group: 🗺️ City & directions
+pronunciation: /akˈkan.to a/
+example.it: Abito accanto alla banca.
+example.en: I live next to the bank.
+tags: 🗺️ common, 🏛️ travel
+priority: yes
+grammar.Register: neutral
+//
+word: di fronte a
+translation: opposite
+type: phrase
+group: 🗺️ City & directions
+pronunciation: /di ˈfron.te a/
+example.it: Il bar è di fronte alla chiesa.
+example.en: The bar is opposite the church.
+tags: 🗺️ common, 🏛️ travel
+priority: yes
+grammar.Register: neutral
+//
+word: tra
+translation: between
+type: phrase
+group: 🗺️ City & directions
+pronunciation: /tra/
+example.it: La piazza è tra il museo e la biblioteca.
+example.en: The square is between the museum and the library.
+tags: 🗺️ common, 🏛️ travel
+priority: yes
+grammar.Register: neutral
+//
+word: angolo
+translation: corner
+type: noun
+group: 🗺️ City & directions
+pronunciation: /ˈan.ɡo.lo/
+example.it: La casa è all'angolo.
+example.en: The house is on the corner.
+tags: 🗺️ common, 🏛️ travel
+priority: yes
+grammar.Gender: m
+grammar.Article override: l'
+grammar.Plural: angoli
+//
+word: semaforo
+translation: traffic lights
+type: noun
+group: 🗺️ City & directions
+pronunciation: /seˈmaː.fo.ro/
+example.it: Fermati al semaforo.
+example.en: Stop at the traffic lights.
+tags: 🗺️ common, 🏛️ travel
+priority: yes
+grammar.Gender: m
+grammar.Article override: il
+grammar.Plural: semafori
+//
+word: rotonda
+translation: roundabout
+type: noun
+group: 🗺️ City & directions
+pronunciation: /roˈton.da/
+example.it: Prendi la seconda uscita alla rotonda.
+example.en: Take the second exit at the roundabout.
+tags: 🗺️ common, 🏛️ travel
+priority: yes
+grammar.Gender: f
+grammar.Article override: la
+grammar.Plural: rotonde
+//
+word: chiesa
+translation: church
+type: noun
+group: 🗺️ City & directions
+pronunciation: /ˈkjɛː.za/
+example.it: La chiesa è molto antica.
+example.en: The church is very ancient.
+tags: 🗺️ common, 🏛️ travel
+priority: yes
+grammar.Gender: f
+grammar.Article override: la
+grammar.Plural: chiese
+//
+word: museo
+translation: museum
+type: noun
+group: 🗺️ City & directions
+pronunciation: /muˈzɛː.o/
+example.it: Visitiamo il museo domani.
+example.en: Let's visit the museum tomorrow.
+tags: 🗺️ common, 🏛️ travel
+priority: yes
+grammar.Gender: m
+grammar.Article override: il
+grammar.Plural: musei
+//
+word: biblioteca
+translation: library
+type: noun
+group: 🗺️ City & directions
+pronunciation: /bi.bli.oˈtɛː.ka/
+example.it: Devo andare in biblioteca a studiare.
+example.en: I need to go to the library to study.
+tags: 🗺️ common, 🏛️ travel
+priority: yes
+grammar.Gender: f
+grammar.Article override: la
+grammar.Plural: biblioteche
+//
+word: banca
+translation: bank
+type: noun
+group: 🗺️ City & directions
+pronunciation: /ˈbaŋ.ka/
+example.it: Dove è la banca più vicina?
+example.en: Where is the nearest bank?
+tags: 🗺️ common, 🏛️ travel
+priority: yes
+grammar.Gender: f
+grammar.Article override: la
+grammar.Plural: banche
+//
+word: ufficio postale
+translation: post office
+type: phrase
+group: 🗺️ City & directions
+pronunciation: /ufˈfiː.tʃo posˈtaː.le/
+example.it: Vado all'ufficio postale.
+example.en: I am going to the post office.
+tags: 🗺️ common, 🏛️ travel
+priority: yes
+grammar.Register: neutral
+//
+word: mercato
+translation: market
+type: noun
+group: 🗺️ City & directions
+pronunciation: /merˈkaː.to/
+example.it: Compriamo la frutta al mercato.
+example.en: Let's buy fruit at the market.
+tags: 🗺️ common, 🏛️ travel
+priority: yes
+grammar.Gender: m
+grammar.Article override: il
+grammar.Plural: mercati
+//
+word: fermata dell'autobus
+translation: bus stop
+type: phrase
+group: 🗺️ City & directions
+pronunciation: /ferˈmaː.ta delˈlau.to.bus/
+example.it: Aspetto alla fermata dell'autobus.
+example.en: I am waiting at the bus stop.
+tags: 🗺️ common, 🏛️ travel
+priority: yes
+grammar.Register: neutral
+//
+word: porto
+translation: port
+type: noun
+group: 🗺️ City & directions
+pronunciation: /ˈpɔr.to/
+example.it: La nave è arrivata al porto.
+example.en: The ship arrived at the port.
+tags: 🗺️ common, 🏛️ travel
+priority: yes
+grammar.Gender: m
+grammar.Article override: il
+grammar.Plural: porti

@@ -1,0 +1,465 @@
+word: scuola
+translation: school
+type: noun
+group: 📚 School & education
+pronunciation: /ˈskwɔla/
+example.it: Mia figlia va a scuola a piedi.
+example.en: My daughter walks to school.
+etymology: Latin "schola"
+tags: ⭐ common, 📚 education
+priority: yes
+grammar.Gender: f
+grammar.Plural: scuole
+//
+word: insegnante
+translation: teacher
+type: noun
+group: 📚 School & education
+pronunciation: /inseɲˈɲante/
+example.it: Il mio insegnante di storia è molto bravo.
+example.en: My history teacher is very good.
+etymology: From "insegnare"
+tags: ⭐ common, 📚 education
+priority: yes
+grammar.Gender: m/f
+grammar.Plural: insegnanti
+//
+word: università
+translation: university
+type: noun
+group: 📚 School & education
+pronunciation: /universiˈta/
+example.it: Studio medicina all'università.
+example.en: I study medicine at university.
+etymology: Latin "universitas"
+tags: 📚 education
+priority: yes
+grammar.Gender: f
+grammar.Article override: l'
+grammar.Plural: università (invariable)
+//
+word: aula
+translation: classroom
+type: noun
+group: 📚 School & education
+pronunciation: /ˈaula/
+example.it: L'aula è al secondo piano.
+example.en: The classroom is on the second floor.
+etymology: Latin "aula"
+tags: 📚 education
+priority: yes
+grammar.Gender: f
+grammar.Plural: aule
+//
+word: studente
+translation: student
+type: noun
+group: 📚 School & education
+pronunciation: /stuˈdɛnte/
+example.it: Lo studente legge un libro.
+example.en: The student is reading a book.
+etymology: From "studiare"
+tags: ⭐ common, 📚 education
+priority: yes
+grammar.Gender: m (fem: studentessa)
+grammar.Plural: studenti (m), studentesse (f)
+//
+word: lezione
+translation: lesson
+type: noun
+group: 📚 School & education
+pronunciation: /leˈtsjone/
+example.it: La lezione inizia alle nove.
+example.en: The lesson starts at nine.
+etymology: Latin "lectio"
+tags: ⭐ common, 📚 education
+priority: yes
+grammar.Gender: f
+grammar.Plural: lezioni
+//
+word: materia
+translation: subject
+type: noun
+group: 📚 School & education
+pronunciation: /maˈtɛrja/
+example.it: La mia materia preferita è la scienza.
+example.en: My favorite subject is science.
+etymology: Latin "materia"
+tags: 📚 education
+priority: yes
+grammar.Gender: f
+grammar.Plural: materie
+//
+word: compiti
+translation: homework
+type: noun
+group: 📚 School & education
+pronunciation: /ˈkompiti/
+example.it: Ho fatto tutti i compiti.
+example.en: I have done all my homework.
+note: Usually used in the plural "i compiti".
+tags: ⭐ common, 📚 education
+priority: yes
+grammar.Gender: m
+grammar.Plural: compiti
+//
+word: esame
+translation: exam
+type: noun
+group: 📚 School & education
+pronunciation: /eˈzame/
+example.it: Devo studiare per l'esame.
+example.en: I need to study for the exam.
+etymology: Latin "examen"
+tags: 📚 education
+priority: yes
+grammar.Gender: m
+grammar.Plural: esami
+//
+word: voto
+translation: grade
+type: noun
+group: 📚 School & education
+pronunciation: /ˈvɔto/
+example.it: Ho preso un buon voto.
+example.en: I got a good grade.
+etymology: Latin "votum"
+tags: 📚 education
+priority: yes
+grammar.Gender: m
+grammar.Plural: voti
+//
+word: matematica
+translation: mathematics
+type: noun
+group: 📚 School & education
+pronunciation: /mateˈmatika/
+example.it: La matematica è difficile per alcuni.
+example.en: Mathematics is difficult for some.
+etymology: Greek "mathematike"
+tags: 📚 education
+priority: yes
+grammar.Gender: f
+grammar.Plural: matematiche
+//
+word: scienza
+translation: science
+type: noun
+group: 📚 School & education
+pronunciation: /ˈʃɛntsa/
+example.it: Mi piace la scienza.
+example.en: I like science.
+etymology: Latin "scientia"
+tags: 📚 education
+priority: yes
+grammar.Gender: f
+grammar.Plural: scienze
+//
+word: storia
+translation: history
+type: noun
+group: 📚 School & education
+pronunciation: /ˈstɔrja/
+example.it: Studio la storia del mio paese.
+example.en: I am studying the history of my country.
+etymology: Latin "historia"
+tags: 📚 education
+priority: yes
+grammar.Gender: f
+grammar.Plural: storie
+//
+word: geografia
+translation: geography
+type: noun
+group: 📚 School & education
+pronunciation: /dʒeoɡraˈfia/
+example.it: La geografia è molto interessante.
+example.en: Geography is very interesting.
+etymology: Greek "geographia"
+tags: 📚 education
+priority: yes
+grammar.Gender: f
+grammar.Plural: geografie
+//
+word: arte
+translation: art
+type: noun
+group: 📚 School & education
+pronunciation: /ˈarte/
+example.it: Amo studiare la storia dell'arte.
+example.en: I love studying art history.
+etymology: Latin "ars"
+tags: 📚 education
+priority: yes
+grammar.Gender: f
+grammar.Plural: arti
+//
+word: musica
+translation: music
+type: noun
+group: 📚 School & education
+pronunciation: /ˈmuzika/
+example.it: Ascolto musica classica.
+example.en: I listen to classical music.
+etymology: Greek "mousike"
+tags: 📚 education
+priority: yes
+grammar.Gender: f
+grammar.Plural: musiche
+//
+word: sport
+translation: sport
+type: noun
+group: 📚 School & education
+pronunciation: /sport/
+example.it: Faccio molto sport a scuola.
+example.en: I do a lot of sport at school.
+etymology: From English "sport"
+tags: ⭐ common, 📚 education
+priority: yes
+grammar.Gender: m
+grammar.Article override: lo
+grammar.Plural: sport (invariable)
+//
+word: libro
+translation: book
+type: noun
+group: 📚 School & education
+pronunciation: /ˈlibro/
+example.it: Ho finito di leggere il libro.
+example.en: I have finished reading the book.
+etymology: Latin "liber"
+tags: ⭐ common, 📚 education
+priority: yes
+grammar.Gender: m
+grammar.Plural: libri
+//
+word: quaderno
+translation: notebook
+type: noun
+group: 📚 School & education
+pronunciation: /kwaˈdɛrno/
+example.it: Scrivi gli appunti sul quaderno.
+example.en: Write the notes in the notebook.
+etymology: From "quaderno" (four sheets)
+tags: 📚 education
+priority: yes
+grammar.Gender: m
+grammar.Plural: quaderni
+//
+word: penna
+translation: pen
+type: noun
+group: 📚 School & education
+pronunciation: /ˈpɛnna/
+example.it: Hai una penna per scrivere?
+example.en: Do you have a pen to write with?
+etymology: Latin "penna"
+tags: ⭐ common, 📚 education
+priority: yes
+grammar.Gender: f
+grammar.Plural: penne
+//
+word: matita
+translation: pencil
+type: noun
+group: 📚 School & education
+pronunciation: /maˈtita/
+example.it: Disegno con la matita.
+example.en: I draw with a pencil.
+etymology: Latin "haematites"
+tags: 📚 education
+priority: yes
+grammar.Gender: f
+grammar.Plural: matite
+//
+word: righello
+translation: ruler
+type: noun
+group: 📚 School & education
+pronunciation: /riˈɡɛllo/
+example.it: Misura il segmento con il righello.
+example.en: Measure the segment with the ruler.
+etymology: From "riga"
+tags: 📚 education
+priority: yes
+grammar.Gender: m
+grammar.Plural: righelli
+//
+word: lavagna
+translation: board
+type: noun
+group: 📚 School & education
+pronunciation: /laˈvaɲɲa/
+example.it: L'insegnante scrive sulla lavagna.
+example.en: The teacher writes on the board.
+etymology: From "lavare"
+tags: 📚 education
+priority: yes
+grammar.Gender: f
+grammar.Plural: lavagne
+//
+word: imparare
+translation: to learn
+type: verb
+group: 📚 School & education
+pronunciation: /impaˈrare/
+example.it: Voglio imparare l'italiano.
+example.en: I want to learn Italian.
+etymology: From "in" and "parare"
+tags: 📚 education
+priority: yes
+grammar.Verb group: -are
+grammar.Auxiliary (passato prossimo): avere
+grammar.Participio passato: imparato
+grammar.Passato remoto (io): imparai
+grammar.Gerundio: imparando
+grammar.Presente (all 6 forms): imparo / impari / impara / impariamo / imparate / imparano
+//
+word: studiare
+translation: to study
+type: verb
+group: 📚 School & education
+pronunciation: /stuˈdjare/
+example.it: Devo studiare molto oggi.
+example.en: I have to study a lot today.
+etymology: Latin "studere"
+tags: ⭐ common, 📚 education
+priority: yes
+grammar.Verb group: -are
+grammar.Auxiliary (passato prossimo): avere
+grammar.Participio passato: studiato
+grammar.Passato remoto (io): studiai
+grammar.Gerundio: studiando
+grammar.Presente (all 6 forms): studio / studi / studia / studiamo / studiate / studiano
+//
+word: leggere
+translation: to read
+type: verb
+group: 📚 School & education
+pronunciation: /ˈlɛddʒere/
+example.it: Mi piace leggere romanzi.
+example.en: I like to read novels.
+etymology: Latin "legere"
+tags: ⭐ common, 📚 education
+priority: yes
+grammar.Verb group: -ere
+grammar.Auxiliary (passato prossimo): avere
+grammar.Participio passato: letto
+grammar.Passato remoto (io): lessi
+grammar.Gerundio: leggendo
+grammar.Presente (all 6 forms): leggo / leggi / legge / leggiamo / leggete / leggono
+//
+word: scrivere
+translation: to write
+type: verb
+group: 📚 School & education
+pronunciation: /ˈskrivere/
+example.it: Devo scrivere una email.
+example.en: I need to write an email.
+etymology: Latin "scribere"
+tags: ⭐ common, 📚 education
+priority: yes
+grammar.Verb group: -ere
+grammar.Auxiliary (passato prossimo): avere
+grammar.Participio passato: scritto
+grammar.Passato remoto (io): scrissi
+grammar.Gerundio: scrivendo
+grammar.Presente (all 6 forms): scrivo / scrivi / scrive / scriviamo / scrivete / scrivono
+//
+word: capire
+translation: to understand
+type: verb
+group: 📚 School & education
+pronunciation: /kaˈpire/
+example.it: Non capisco questa regola.
+example.en: I don't understand this rule.
+etymology: Latin "capere"
+tags: ⭐ common, 📚 education
+priority: yes
+grammar.Verb group: -ire
+grammar.Auxiliary (passato prossimo): avere
+grammar.Participio passato: capito
+grammar.Passato remoto (io): capii
+grammar.Gerundio: capendo
+grammar.Presente (all 6 forms): capisco / capisci / capisce / capiamo / capite / capiscono
+//
+word: spiegare
+translation: to explain
+type: verb
+group: 📚 School & education
+pronunciation: /spjeˈɡare/
+example.it: Puoi spiegarmi questo concetto?
+example.en: Can you explain this concept to me?
+etymology: Latin "explicare"
+tags: 📚 education
+priority: yes
+grammar.Verb group: -are
+grammar.Auxiliary (passato prossimo): avere
+grammar.Participio passato: spiegato
+grammar.Passato remoto (io): spiegai
+grammar.Gerundio: spiegando
+grammar.Presente (all 6 forms): spiego / spieghi / spiega / spieghiamo / spiegate / spiegano
+//
+word: chiedere
+translation: to ask
+type: verb
+group: 📚 School & education
+pronunciation: /ˈkjɛdere/
+example.it: Posso chiedere un'informazione?
+example.en: May I ask for information?
+etymology: Latin "quaerere"
+tags: ⭐ common, 📚 education
+priority: yes
+grammar.Verb group: -ere
+grammar.Auxiliary (passato prossimo): avere
+grammar.Participio passato: chiesto
+grammar.Passato remoto (io): chiesi
+grammar.Gerundio: chiedendo
+grammar.Presente (all 6 forms): chiedo / chiedi / chiede / chiediamo / chiedete / chiedono
+//
+word: rispondere
+translation: to answer
+type: verb
+group: 📚 School & education
+pronunciation: /risˈpondere/
+example.it: Rispondi alla domanda, per favore.
+example.en: Answer the question, please.
+etymology: Latin "respondere"
+tags: 📚 education
+priority: yes
+grammar.Verb group: -ere
+grammar.Auxiliary (passato prossimo): avere
+grammar.Participio passato: risposto
+grammar.Passato remoto (io): risposi
+grammar.Gerundio: rispondendo
+grammar.Presente (all 6 forms): rispondo / rispondi / risponde / rispondiamo / rispondete / rispondono
+//
+word: superare
+translation: to pass
+type: verb
+group: 📚 School & education
+pronunciation: /supeˈrare/
+example.it: Sono riuscito a superare l'esame.
+example.en: I managed to pass the exam.
+etymology: From "super"
+tags: 📚 education
+priority: yes
+grammar.Verb group: -are
+grammar.Auxiliary (passato prossimo): avere
+grammar.Participio passato: superato
+grammar.Passato remoto (io): superai
+grammar.Gerundio: superando
+grammar.Presente (all 6 forms): supero / superi / supera / superiamo / superate / superano
+//
+word: essere bocciato
+translation: to fail
+type: phrase
+group: 📚 School & education
+pronunciation: /ˈɛssere botˈtʃato/
+example.it: Ho paura di essere bocciato all'esame.
+example.en: I'm afraid of failing the exam.
+note: Can also use "fallire" in other contexts, but "essere bocciato" is specific to schooling.
+tags: 📚 education
+priority: yes
+grammar.Register: neutral

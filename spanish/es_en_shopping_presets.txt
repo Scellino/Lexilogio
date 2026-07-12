@@ -1,0 +1,310 @@
+word: tienda
+translation: shop
+type: noun
+group: 🛒 Shopping & money
+pronunciation: /ˈtjenda/
+example.es: La tienda cierra a las nueve.
+example.en: The shop closes at nine.
+tags: ⭐ common, 🛒 shopping
+priority: yes
+grammar.Gender: f
+grammar.Plural: tiendas
+//
+word: supermercado
+translation: supermarket
+type: noun
+group: 🛒 Shopping & money
+pronunciation: /supeɾmeɾˈkaðo/
+example.es: Voy al supermercado a comprar comida.
+example.en: I am going to the supermarket to buy food.
+tags: ⭐ common, 🛒 shopping
+priority: yes
+grammar.Gender: m
+grammar.Plural: supermercados
+//
+word: precio
+translation: price
+type: noun
+group: 🛒 Shopping & money
+pronunciation: /ˈpɾeθjo/
+example.es: El precio es muy alto.
+example.en: The price is very high.
+tags: ⭐ common, 🛒 shopping
+priority: yes
+grammar.Gender: m
+grammar.Plural: precios
+//
+word: descuento
+translation: discount
+type: noun
+group: 🛒 Shopping & money
+pronunciation: /desˈkwento/
+example.es: Hay un descuento del diez por ciento.
+example.en: There is a ten percent discount.
+tags: ⭐ common, 🛒 shopping
+priority: yes
+grammar.Gender: m
+grammar.Plural: descuentos
+//
+word: rebajas / oferta
+translation: sale
+type: noun
+group: 🛒 Shopping & money
+pronunciation: /reˈβaxas/ /oˈfeɾta/
+example.es: Compré esto durante las rebajas.
+example.en: I bought this during the sale.
+tags: ⭐ common, 🛒 shopping
+priority: yes
+grammar.Gender: f
+grammar.Plural: rebajas / ofertas
+//
+word: recibo / tique
+translation: receipt
+type: noun
+group: 🛒 Shopping & money
+pronunciation: /reˈθiβo/ /ˈtike/
+example.es: ¿Me puede dar el recibo?
+example.en: Can you give me the receipt?
+tags: ⭐ common, 🛒 shopping
+priority: yes
+grammar.Gender: m
+grammar.Plural: recibos / tiques
+//
+word: dinero
+translation: money
+type: noun
+group: 🛒 Shopping & money
+pronunciation: /diˈneɾo/
+example.es: No tengo mucho dinero hoy.
+example.en: I don't have much money today.
+tags: ⭐ common, 🛒 shopping
+priority: yes
+grammar.Gender: m
+grammar.Plural: dineros
+//
+word: moneda
+translation: coin
+type: noun
+group: 🛒 Shopping & money
+pronunciation: /moˈneða/
+example.es: ¿Tienes una moneda para la máquina?
+example.en: Do you have a coin for the machine?
+tags: ⭐ common, 🛒 shopping
+priority: yes
+grammar.Gender: f
+grammar.Plural: monedas
+//
+word: tarjeta de crédito
+translation: credit card
+type: noun
+group: 🛒 Shopping & money
+pronunciation: /taɾˈxeta ðe ˈkɾeðito/
+example.es: ¿Aceptan tarjeta de crédito?
+example.en: Do you accept credit cards?
+tags: ⭐ common, 🛒 shopping
+priority: yes
+grammar.Gender: f
+grammar.Plural: tarjetas de crédito
+//
+word: cajero automático
+translation: ATM
+type: noun
+group: 🛒 Shopping & money
+pronunciation: /kaˈxeɾo autoˈmatiko/
+example.es: Necesito ir al cajero automático.
+example.en: I need to go to the ATM.
+tags: ⭐ common, 🛒 shopping
+priority: yes
+grammar.Gender: m
+grammar.Plural: cajeros automáticos
+//
+word: barato
+translation: cheap
+type: adjective
+group: 🛒 Shopping & money
+pronunciation: /baˈɾato/
+example.es: Este libro es muy barato.
+example.en: This book is very cheap.
+tags: ⭐ common, 🛒 shopping
+priority: yes
+grammar.Feminine: barata
+grammar.Plural: baratos / baratas
+//
+word: caro
+translation: expensive
+type: adjective
+group: 🛒 Shopping & money
+pronunciation: /ˈkaɾo/
+example.es: Ese coche es demasiado caro.
+example.en: That car is too expensive.
+tags: ⭐ common, 🛒 shopping
+priority: yes
+grammar.Feminine: cara
+grammar.Plural: caros / caras
+//
+word: gratis
+translation: free
+type: adjective
+group: 🛒 Shopping & money
+pronunciation: /ˈɡɾatis/
+example.es: La entrada es gratis hoy.
+example.en: The entrance is free today.
+tags: ⭐ common, 🛒 shopping
+priority: yes
+grammar.Gender: invariable
+//
+word: pagar
+translation: to pay
+type: verb
+group: 🛒 Shopping & money
+pronunciation: /paˈɣaɾ/
+example.es: Prefiero pagar en efectivo.
+example.en: I prefer to pay in cash.
+tags: ⭐ common, 🛒 shopping
+priority: yes
+grammar.Verb type: -ar
+grammar.Presente: pago / pagas / paga / pagamos / pagáis / pagan
+//
+word: comprar
+translation: to buy
+type: verb
+group: 🛒 Shopping & money
+pronunciation: /komˈpɾaɾ/
+example.es: Voy a comprar pan.
+example.en: I am going to buy bread.
+tags: ⭐ common, 🛒 shopping
+priority: yes
+grammar.Verb type: -ar
+grammar.Presente: compro / compras / compra / compramos / compráis / compran
+//
+word: vender
+translation: to sell
+type: verb
+group: 🛒 Shopping & money
+pronunciation: /benˈdeɾ/
+example.es: Ellos van a vender su casa.
+example.en: They are going to sell their house.
+tags: ⭐ common, 🛒 shopping
+priority: yes
+grammar.Verb type: -er
+grammar.Presente: vendo / vendes / vende / vendemos / vendéis / venden
+//
+word: coste
+translation: cost
+type: noun
+group: 🛒 Shopping & money
+pronunciation: /ˈkoste/
+example.es: El coste total es muy bajo.
+example.en: The total cost is very low.
+tags: ⭐ common, 🛒 shopping
+priority: yes
+grammar.Gender: m
+grammar.Plural: costes
+//
+word: cartera / billetera
+translation: wallet
+type: noun
+group: 🛒 Shopping & money
+pronunciation: /kaɾˈteɾa/ /biʝeˈteɾa/
+example.es: He olvidado mi cartera en casa.
+example.en: I forgot my wallet at home.
+tags: ⭐ common, 🛒 shopping
+priority: yes
+grammar.Gender: f
+grammar.Plural: carteras / billeteras
+//
+word: presupuesto
+translation: budget
+type: noun
+group: 🛒 Shopping & money
+pronunciation: /pɾesupuˈesto/
+example.es: Mi presupuesto es limitado.
+example.en: My budget is limited.
+tags: ⭐ common, 🛒 shopping
+priority: yes
+grammar.Gender: m
+grammar.Plural: presupuestos
+//
+word: cambio
+translation: change
+type: noun
+group: 🛒 Shopping & money
+pronunciation: /ˈkambjo/
+example.es: Aquí tiene su cambio.
+example.en: Here is your change.
+tags: ⭐ common, 🛒 shopping
+priority: yes
+grammar.Gender: m
+grammar.Plural: cambios
+//
+word: cola / fila
+translation: queue
+type: noun
+group: 🛒 Shopping & money
+pronunciation: /ˈkola/ /ˈfila/
+example.es: Hay mucha gente en la cola.
+example.en: There are many people in the queue.
+tags: ⭐ common, 🛒 shopping
+priority: yes
+grammar.Gender: f
+grammar.Plural: colas / filas
+//
+word: horario de apertura
+translation: opening hours
+type: noun
+group: 🛒 Shopping & money
+pronunciation: /oˈɾaɾjo ðe apeɾˈtuɾa/
+example.es: ¿Cuáles son los horarios de apertura?
+example.en: What are the opening hours?
+tags: ⭐ common, 🛒 shopping
+priority: yes
+grammar.Gender: m
+grammar.Plural: horarios de apertura
+//
+word: cerrado
+translation: closed
+type: adjective
+group: 🛒 Shopping & money
+pronunciation: /θeˈraðo/
+example.es: La tienda está cerrada los domingos.
+example.en: The shop is closed on Sundays.
+tags: ⭐ common, 🛒 shopping
+priority: yes
+grammar.Feminine: cerrada
+grammar.Plural: cerrados / cerradas
+//
+word: abierto
+translation: open
+type: adjective
+group: 🛒 Shopping & money
+pronunciation: /aˈβjeɾto/
+example.es: ¿Está abierto el supermercado?
+example.en: Is the supermarket open?
+tags: ⭐ common, 🛒 shopping
+priority: yes
+grammar.Feminine: abierta
+grammar.Plural: abiertos / abiertas
+//
+word: cliente
+translation: customer, client
+type: noun
+group: 🛒 Shopping & money
+pronunciation: /kliˈente/
+example.es: El cliente siempre tiene la razón.
+example.en: The customer is always right.
+tags: ⭐ common, 🛒 shopping
+priority: yes
+grammar.Gender: m/f
+grammar.Plural: clientes
+//
+word: reembolso
+translation: refund
+type: noun
+group: 🛒 Shopping & money
+pronunciation: /reemˈbolso/
+example.es: Quiero pedir un reembolso.
+example.en: I want to ask for a refund.
+tags: ⭐ common, 🛒 shopping
+priority: yes
+grammar.Gender: m
+grammar.Plural: reembolsos

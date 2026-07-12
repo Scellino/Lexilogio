@@ -1,0 +1,372 @@
+word: primavera
+translation: spring
+type: noun
+group: ⛅ Weather & seasons
+pronunciation: /primaˈvɛra/
+example.it: In primavera i fiori sbocciano.
+example.en: In spring the flowers bloom.
+etymology: Latin "primum" + "ver"
+tags: ⛅ nature
+priority: yes
+grammar.Gender: f
+grammar.Plural: primavere
+//
+word: estate
+translation: summer
+type: noun
+group: ⛅ Weather & seasons
+pronunciation: /eˈstate/
+example.it: L'estate è la mia stagione preferita.
+example.en: Summer is my favorite season.
+etymology: Latin "aestas"
+tags: ⛅ nature
+priority: yes
+grammar.Gender: f
+grammar.Plural: estati
+//
+word: autunno
+translation: autumn
+type: noun
+group: ⛅ Weather & seasons
+pronunciation: /auˈtunno/
+example.it: In autunno le foglie cadono.
+example.en: In autumn the leaves fall.
+etymology: Latin "autumnus"
+tags: ⛅ nature
+priority: yes
+grammar.Gender: m
+grammar.Plural: autunni
+//
+word: inverno
+translation: winter
+type: noun
+group: ⛅ Weather & seasons
+pronunciation: /inˈvɛrno/
+example.it: L'inverno scorso ha fatto molto freddo.
+example.en: Last winter it was very cold.
+etymology: Latin "hibernum"
+tags: ⛅ nature
+priority: yes
+grammar.Gender: m
+grammar.Plural: inverni
+//
+word: sole
+translation: sun
+type: noun
+group: ⛅ Weather & seasons
+pronunciation: /ˈsole/
+example.it: Oggi c'è molto sole.
+example.en: It is very sunny today.
+etymology: Latin "sol"
+tags: ⭐ common, ⛅ nature
+priority: yes
+grammar.Gender: m
+grammar.Plural: soli
+//
+word: pioggia
+translation: rain
+type: noun
+group: ⛅ Weather & seasons
+pronunciation: /ˈpjoddʒa/
+example.it: Non mi piace uscire quando c'è la pioggia.
+example.en: I don't like going out when it's raining.
+etymology: Latin "pluvia"
+tags: ⭐ common, ⛅ nature
+priority: yes
+grammar.Gender: f
+grammar.Plural: piogge
+//
+word: neve
+translation: snow
+type: noun
+group: ⛅ Weather & seasons
+pronunciation: /ˈnɛve/
+example.it: La montagna è coperta di neve.
+example.en: The mountain is covered in snow.
+etymology: Latin "nix"
+tags: ⭐ common, ⛅ nature
+priority: yes
+grammar.Gender: f
+grammar.Plural: nevi
+//
+word: vento
+translation: wind
+type: noun
+group: ⛅ Weather & seasons
+pronunciation: /ˈvɛnto/
+example.it: C'è un vento molto forte oggi.
+example.en: There is a very strong wind today.
+etymology: Latin "ventus"
+tags: ⛅ nature
+priority: yes
+grammar.Gender: m
+grammar.Plural: venti
+//
+word: nuvola
+translation: cloud
+type: noun
+group: ⛅ Weather & seasons
+pronunciation: /ˈnuvola/
+example.it: Il cielo è pieno di nuvole.
+example.en: The sky is full of clouds.
+etymology: Latin "nubila"
+tags: ⛅ nature
+priority: yes
+grammar.Gender: f
+grammar.Plural: nuvole
+//
+word: nebbia
+translation: fog
+type: noun
+group: ⛅ Weather & seasons
+pronunciation: /ˈnɛbbja/
+example.it: La nebbia è molto fitta stamattina.
+example.en: The fog is very thick this morning.
+etymology: Latin "nebula"
+tags: ⛅ nature
+priority: yes
+grammar.Gender: f
+grammar.Plural: nebbie
+//
+word: temporale
+translation: storm
+type: noun
+group: ⛅ Weather & seasons
+pronunciation: /tempoˈrale/
+example.it: Arriva un temporale, chiudiamo le finestre.
+example.en: A storm is coming, let's close the windows.
+etymology: From "tempo"
+tags: ⛅ nature
+priority: yes
+grammar.Gender: m
+grammar.Plural: temporali
+//
+word: fulmine
+translation: lightning
+type: noun
+group: ⛅ Weather & seasons
+pronunciation: /ˈfulmine/
+example.it: Ho visto un fulmine nel cielo scuro.
+example.en: I saw a lightning bolt in the dark sky.
+etymology: Latin "fulmen"
+tags: ⛅ nature
+priority: yes
+grammar.Gender: m
+grammar.Plural: fulmini
+//
+word: tuono
+translation: thunder
+type: noun
+group: ⛅ Weather & seasons
+pronunciation: /ˈtwɔno/
+example.it: Ho sentito un tuono fortissimo.
+example.en: I heard a very loud thunder.
+etymology: Latin "tonus"
+tags: ⛅ nature
+priority: yes
+grammar.Gender: m
+grammar.Plural: tuoni
+//
+word: ghiaccio
+translation: ice
+type: noun
+group: ⛅ Weather & seasons
+pronunciation: /ˈɡjattʃo/
+example.it: Attenzione, c'è del ghiaccio sulla strada.
+example.en: Careful, there is ice on the road.
+etymology: Latin "glacies"
+tags: ⛅ nature
+priority: yes
+grammar.Gender: m
+grammar.Plural: ghiacci
+//
+word: grandine
+translation: hail
+type: noun
+group: ⛅ Weather & seasons
+pronunciation: /ˈɡrandine/
+example.it: È caduta la grandine oggi pomeriggio.
+example.en: Hail fell this afternoon.
+etymology: Latin "grando"
+tags: ⛅ nature
+priority: yes
+grammar.Gender: f
+grammar.Plural: grandini
+//
+word: caldo
+translation: hot, warm
+type: adjective
+group: ⛅ Weather & seasons
+pronunciation: /ˈkaldo/
+example.it: Fa molto caldo in questa stanza.
+example.en: It is very hot in this room.
+etymology: Latin "calidus"
+tags: ⭐ common, ⛅ nature
+priority: yes
+grammar.Feminine form: calda
+grammar.Plural (masc.): caldi
+grammar.Plural (fem.): calde
+//
+word: freddo
+translation: cold
+type: adjective
+group: ⛅ Weather & seasons
+pronunciation: /ˈfrɛddo/
+example.it: Ho molto freddo oggi.
+example.en: I am very cold today.
+etymology: Latin "frigidus"
+tags: ⭐ common, ⛅ nature
+priority: yes
+grammar.Feminine form: fredda
+grammar.Plural (masc.): freddi
+grammar.Plural (fem.): fredde
+//
+word: temperatura
+translation: temperature
+type: noun
+group: ⛅ Weather & seasons
+pronunciation: /temperaˈtura/
+example.it: La temperatura è scesa molto.
+example.en: The temperature has dropped a lot.
+etymology: Latin "temperare"
+tags: ⛅ nature
+priority: yes
+grammar.Gender: f
+grammar.Plural: temperature
+//
+word: grado
+translation: degree
+type: noun
+group: ⛅ Weather & seasons
+pronunciation: /ˈɡrado/
+example.it: Ci sono dieci gradi oggi.
+example.en: It is ten degrees today.
+etymology: Latin "gradus"
+tags: ⛅ nature
+priority: yes
+grammar.Gender: m
+grammar.Plural: gradi
+//
+word: previsioni
+translation: forecast
+type: noun
+group: ⛅ Weather & seasons
+pronunciation: /previˈzjoni/
+example.it: Le previsioni dicono che pioverà.
+example.en: The forecast says it will rain.
+note: Usually used in the plural "le previsioni".
+tags: ⛅ nature
+priority: yes
+grammar.Gender: f
+grammar.Plural: previsioni
+//
+word: ombrello
+translation: umbrella
+type: noun
+group: ⛅ Weather & seasons
+pronunciation: /omˈbrɛllo/
+example.it: Prendi l'ombrello, sta per piovere.
+example.en: Take the umbrella, it is about to rain.
+etymology: From "ombra"
+tags: ⭐ common, ⛅ nature
+priority: yes
+grammar.Gender: m
+grammar.Plural: ombrelli
+//
+word: soleggiato
+translation: sunny
+type: adjective
+group: ⛅ Weather & seasons
+pronunciation: /soledˈdʒato/
+example.it: Domani sarà una giornata soleggiata.
+example.en: Tomorrow will be a sunny day.
+etymology: From "sole"
+tags: ⛅ nature
+priority: yes
+grammar.Feminine form: soleggiata
+grammar.Plural (masc.): soleggiati
+grammar.Plural (fem.): soleggiate
+//
+word: piovoso
+translation: rainy
+type: adjective
+group: ⛅ Weather & seasons
+pronunciation: /pjoˈvoso/
+example.it: Novembre è un mese molto piovoso.
+example.en: November is a very rainy month.
+etymology: From "pioggia"
+tags: ⛅ nature
+priority: yes
+grammar.Feminine form: piovosa
+grammar.Plural (masc.): piovosi
+grammar.Plural (fem.): piovose
+//
+word: nevoso
+translation: snowy
+type: adjective
+group: ⛅ Weather & seasons
+pronunciation: /neˈvoso/
+example.it: Il paesaggio è molto nevoso.
+example.en: The landscape is very snowy.
+etymology: From "neve"
+tags: ⛅ nature
+priority: yes
+grammar.Feminine form: nevosa
+grammar.Plural (masc.): nevosi
+grammar.Plural (fem.): nevose
+//
+word: ventoso
+translation: windy
+type: adjective
+group: ⛅ Weather & seasons
+pronunciation: /venˈtoso/
+example.it: Fa molto ventoso in cima alla collina.
+example.en: It is very windy at the top of the hill.
+etymology: From "vento"
+tags: ⛅ nature
+priority: yes
+grammar.Feminine form: ventosa
+grammar.Plural (masc.): ventosi
+grammar.Plural (fem.): ventose
+//
+word: nuvoloso
+translation: cloudy
+type: adjective
+group: ⛅ Weather & seasons
+pronunciation: /nuvoˈloso/
+example.it: Il cielo è diventato nuvoloso.
+example.en: The sky has become cloudy.
+etymology: From "nuvola"
+tags: ⛅ nature
+priority: yes
+grammar.Feminine form: nuvolosa
+grammar.Plural (masc.): nuvolosi
+grammar.Plural (fem.): nuvolose
+//
+word: gelido
+translation: freezing
+type: adjective
+group: ⛅ Weather & seasons
+pronunciation: /ˈdʒɛlido/
+example.it: C'è un vento gelido fuori.
+example.en: There is a freezing wind outside.
+etymology: Latin "gelidus"
+tags: ⛅ nature
+priority: yes
+grammar.Feminine form: gelida
+grammar.Plural (masc.): gelidi
+grammar.Plural (fem.): gelide
+//
+word: umido
+translation: humid
+type: adjective
+group: ⛅ Weather & seasons
+pronunciation: /ˈumido/
+example.it: Il clima è molto umido oggi.
+example.en: The climate is very humid today.
+etymology: Latin "humidus"
+tags: ⛅ nature
+priority: yes
+grammar.Feminine form: umida
+grammar.Plural (masc.): umidi
+grammar.Plural (fem.): umide

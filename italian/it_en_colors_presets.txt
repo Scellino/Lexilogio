@@ -1,0 +1,363 @@
+word: rosso
+translation: red
+type: adjective
+group: 🎨 Colors & shapes
+pronunciation: /ˈros.so/
+example.it: La mela è rossa.
+example.en: The apple is red.
+tags: 🎨 common, 🌿 nature
+priority: yes
+grammar.Feminine form: rossa
+grammar.Plural (masc.): rossi
+grammar.Plural (fem.): rosse
+//
+word: blu
+translation: blue
+type: adjective
+group: 🎨 Colors & shapes
+pronunciation: /blu/
+example.it: Il cielo è blu.
+example.en: The sky is blue.
+tags: 🎨 common, 🌿 nature
+priority: yes
+grammar.Feminine form: blu
+grammar.Plural (masc.): blu
+grammar.Plural (fem.): blu
+//
+word: verde
+translation: green
+type: adjective
+group: 🎨 Colors & shapes
+pronunciation: /ˈver.de/
+example.it: Le foglie sono verdi.
+example.en: The leaves are green.
+tags: 🎨 common, 🌿 nature
+priority: yes
+grammar.Feminine form: verde
+grammar.Plural (masc.): verdi
+grammar.Plural (fem.): verdi
+//
+word: giallo
+translation: yellow
+type: adjective
+group: 🎨 Colors & shapes
+pronunciation: /ˈdʒal.lo/
+example.it: Il sole è giallo.
+example.en: The sun is yellow.
+tags: 🎨 common, 🌿 nature
+priority: yes
+grammar.Feminine form: gialla
+grammar.Plural (masc.): gialli
+grammar.Plural (fem.): gialle
+//
+word: arancione
+translation: orange
+type: adjective
+group: 🎨 Colors & shapes
+pronunciation: /a.ranˈtʃoː.ne/
+example.it: Ho una maglietta arancione.
+example.en: I have an orange t-shirt.
+tags: 🎨 common, 🍕 food
+priority: yes
+grammar.Feminine form: arancione
+grammar.Plural (masc.): arancioni
+grammar.Plural (fem.): arancioni
+//
+word: viola
+translation: purple
+type: adjective
+group: 🎨 Colors & shapes
+pronunciation: /ˈvjoː.la/
+example.it: I fiori sono viola.
+example.en: The flowers are purple.
+tags: 🎨 common
+priority: yes
+grammar.Feminine form: viola
+grammar.Plural (masc.): viola
+grammar.Plural (fem.): viola
+//
+word: rosa
+translation: pink
+type: adjective
+group: 🎨 Colors & shapes
+pronunciation: /ˈroː.za/
+example.it: Lei indossa un vestito rosa.
+example.en: She is wearing a pink dress.
+tags: 🎨 common
+priority: yes
+grammar.Feminine form: rosa
+grammar.Plural (masc.): rosa
+grammar.Plural (fem.): rosa
+//
+word: marrone
+translation: brown
+type: adjective
+group: 🎨 Colors & shapes
+pronunciation: /marˈroː.ne/
+example.it: Il legno è marrone.
+example.en: The wood is brown.
+tags: 🎨 common
+priority: yes
+grammar.Feminine form: marrone
+grammar.Plural (masc.): marroni
+grammar.Plural (fem.): marroni
+//
+word: nero
+translation: black
+type: adjective
+group: 🎨 Colors & shapes
+pronunciation: /ˈneː.ro/
+example.it: Il gatto è nero.
+example.en: The cat is black.
+tags: 🎨 common
+priority: yes
+grammar.Feminine form: nera
+grammar.Plural (masc.): neri
+grammar.Plural (fem.): nere
+//
+word: bianco
+translation: white
+type: adjective
+group: 🎨 Colors & shapes
+pronunciation: /ˈbjaŋ.ko/
+example.it: La neve è bianca.
+example.en: The snow is white.
+tags: 🎨 common
+priority: yes
+grammar.Feminine form: bianca
+grammar.Plural (masc.): bianchi
+grammar.Plural (fem.): bianche
+//
+word: grigio
+translation: grey
+type: adjective
+group: 🎨 Colors & shapes
+pronunciation: /ˈɡriː.dʒo/
+example.it: Il cielo è grigio oggi.
+example.en: The sky is grey today.
+tags: 🎨 common
+priority: yes
+grammar.Feminine form: grigia
+grammar.Plural (masc.): grigi
+grammar.Plural (fem.): grigie
+//
+word: scuro
+translation: dark
+type: adjective
+group: 🎨 Colors & shapes
+pronunciation: /ˈskuː.ro/
+example.it: Fa scuro presto in inverno.
+example.en: It gets dark early in winter.
+tags: 🎨 common, 🧠 abstract
+priority: yes
+grammar.Feminine form: scura
+grammar.Plural (masc.): scuri
+grammar.Plural (fem.): scure
+//
+word: chiaro
+translation: light
+type: adjective
+group: 🎨 Colors & shapes
+pronunciation: /ˈkjaː.ro/
+example.it: Preferisco il blu chiaro.
+example.en: I prefer light blue.
+tags: 🎨 common, 🧠 abstract
+priority: yes
+grammar.Feminine form: chiara
+grammar.Plural (masc.): chiari
+grammar.Plural (fem.): chiare
+//
+word: luminoso
+translation: bright
+type: adjective
+group: 🎨 Colors & shapes
+pronunciation: /lu.miˈnoː.zo/
+example.it: Questa stanza è molto luminosa.
+example.en: This room is very bright.
+tags: 🎨 common
+priority: yes
+grammar.Feminine form: luminosa
+grammar.Plural (masc.): luminosi
+grammar.Plural (fem.): luminose
+//
+word: pallido
+translation: pale
+type: adjective
+group: 🎨 Colors & shapes
+pronunciation: /ˈpal.li.do/
+example.it: Hai un aspetto pallido.
+example.en: You look pale.
+tags: 🎨 common
+priority: yes
+grammar.Feminine form: pallida
+grammar.Plural (masc.): pallidi
+grammar.Plural (fem.): pallide
+//
+word: grande
+translation: big
+type: adjective
+group: 🎨 Colors & shapes
+pronunciation: /ˈɡran.de/
+example.it: Ho una casa grande.
+example.en: I have a big house.
+tags: 🎨 common
+priority: yes
+grammar.Feminine form: grande
+grammar.Plural (masc.): grandi
+grammar.Plural (fem.): grandi
+//
+word: piccolo
+translation: small
+type: adjective
+group: 🎨 Colors & shapes
+pronunciation: /ˈpik.ko.lo/
+example.it: È un piccolo problema.
+example.en: It is a small problem.
+tags: 🎨 common
+priority: yes
+grammar.Feminine form: piccola
+grammar.Plural (masc.): piccoli
+grammar.Plural (fem.): piccole
+//
+word: lungo
+translation: long
+type: adjective
+group: 🎨 Colors & shapes
+pronunciation: /ˈlun.ɡo/
+example.it: Ho i capelli lunghi.
+example.en: I have long hair.
+tags: 🎨 common
+priority: yes
+grammar.Feminine form: lunga
+grammar.Plural (masc.): lunghi
+grammar.Plural (fem.): lunghe
+//
+word: corto
+translation: short
+type: adjective
+group: 🎨 Colors & shapes
+pronunciation: /ˈkor.to/
+example.it: Ho un vestito corto.
+example.en: I have a short dress.
+tags: 🎨 common
+priority: yes
+grammar.Feminine form: corta
+grammar.Plural (masc.): corti
+grammar.Plural (fem.): corte
+//
+word: largo
+translation: wide, broad, loose (clothing)
+type: adjective
+group: 🎨 Colors & shapes
+pronunciation: /ˈlar.ɡo/
+example.it: La strada è larga.
+example.en: The street is wide.
+tags: 🎨 common
+priority: yes
+grammar.Feminine form: larga
+grammar.Plural (masc.): larghi
+grammar.Plural (fem.): larghe
+//
+word: stretto
+translation: narrow, tight (clothing)
+type: adjective
+group: 🎨 Colors & shapes
+pronunciation: /ˈstret.to/
+example.it: Questo passaggio è molto stretto.
+example.en: This passage is very narrow.
+tags: 🎨 common
+priority: yes
+grammar.Feminine form: stretta
+grammar.Plural (masc.): stretti
+grammar.Plural (fem.): strette
+//
+word: rotondo
+translation: round
+type: adjective
+group: 🎨 Colors & shapes
+pronunciation: /roˈton.do/
+example.it: La terra è rotonda.
+example.en: The earth is round.
+tags: 🎨 common
+priority: yes
+grammar.Feminine form: rotonda
+grammar.Plural (masc.): rotondi
+grammar.Plural (fem.): rotonde
+//
+word: cerchio
+translation: circle
+type: noun
+group: 🎨 Colors & shapes
+pronunciation: /ˈtʃer.kjo/
+example.it: Disegna un cerchio.
+example.en: Draw a circle.
+tags: 🎨 common, 🔢 abstract
+priority: yes
+grammar.Gender: m
+grammar.Article override: il
+grammar.Plural: cerchi
+//
+word: quadrato
+translation: square
+type: noun
+group: 🎨 Colors & shapes
+pronunciation: /kwaˈraː.to/
+example.it: La stanza è un quadrato.
+example.en: The room is a square.
+tags: 🎨 common, 🔢 abstract
+priority: yes
+grammar.Gender: m
+grammar.Article override: il
+grammar.Plural: quadrati
+//
+word: triangolo
+translation: triangle
+type: noun
+group: 🎨 Colors & shapes
+pronunciation: /triˈan.ɡo.lo/
+example.it: Questo è un triangolo equilatero.
+example.en: This is an equilateral triangle.
+tags: 🎨 common, 🔢 abstract
+priority: yes
+grammar.Gender: m
+grammar.Article override: il
+grammar.Plural: triangoli
+//
+word: rettangolo
+translation: rectangle
+type: noun
+group: 🎨 Colors & shapes
+pronunciation: /retˈtan.ɡo.lo/
+example.it: Il tavolo è un rettangolo.
+example.en: The table is a rectangle.
+tags: 🎨 common, 🔢 abstract
+priority: yes
+grammar.Gender: m
+grammar.Article override: il
+grammar.Plural: rettangoli
+//
+word: linea
+translation: line
+type: noun
+group: 🎨 Colors & shapes
+pronunciation: /ˈli.ne.a/
+example.it: Disegna una linea retta.
+example.en: Draw a straight line.
+tags: 🎨 common, 🔢 abstract
+priority: yes
+grammar.Gender: f
+grammar.Article override: la
+grammar.Plural: linee
+//
+word: punto
+translation: point
+type: noun
+group: 🎨 Colors & shapes
+pronunciation: /ˈpun.to/
+example.it: Metti un punto alla fine della frase.
+example.en: Put a point at the end of the sentence.
+tags: 🎨 common, 🔢 abstract
+priority: yes
+grammar.Gender: m
+grammar.Article override: il
+grammar.Plural: punti

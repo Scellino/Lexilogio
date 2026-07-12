@@ -1,0 +1,416 @@
+word: ingegnere
+translation: engineer
+type: noun
+group: 💼 Jobs & work
+pronunciation: /indʒeˈɲɛre/
+example.it: Mio fratello è un ingegnere civile.
+example.en: My brother is a civil engineer.
+etymology: From "ingegno"
+tags: 💼 work
+priority: yes
+grammar.Gender: m
+grammar.Plural: ingegneri
+//
+word: avvocato
+translation: lawyer
+type: noun
+group: 💼 Jobs & work
+pronunciation: /avvoˈkato/
+example.it: L'avvocato sta preparando la difesa.
+example.en: The lawyer is preparing the defense.
+etymology: Latin "advocatus"
+tags: 💼 work
+priority: yes
+grammar.Gender: m
+grammar.Plural: avvocati
+//
+word: giornalista
+translation: journalist
+type: noun
+group: 💼 Jobs & work
+pronunciation: /dʒornaˈlista/
+example.it: La giornalista scrive per il quotidiano locale.
+example.en: The journalist writes for the local newspaper.
+etymology: From "giornale"
+tags: 💼 work
+priority: yes
+grammar.Gender: m/f
+grammar.Plural: giornalisti (m), giornaliste (f)
+//
+word: chef
+translation: chef
+type: noun
+group: 💼 Jobs & work
+pronunciation: /ʃɛf/
+example.it: Lo chef ha preparato un menu speciale.
+example.en: The chef prepared a special menu.
+etymology: From French
+tags: 🍽️ food, 💼 work
+priority: yes
+grammar.Gender: m
+grammar.Article override: lo
+grammar.Plural: chef (invariable)
+//
+word: architetto
+translation: architect
+type: noun
+group: 💼 Jobs & work
+pronunciation: /arkiˈtɛtto/
+example.it: L'architetto ha disegnato questo edificio.
+example.en: The architect designed this building.
+etymology: Greek "architekton"
+tags: 💼 work
+priority: yes
+grammar.Gender: m
+grammar.Plural: architetti
+//
+word: poliziotto
+translation: police officer
+type: noun
+group: 💼 Jobs & work
+pronunciation: /politˈtsjotto/
+example.it: Il poliziotto ha fermato l'auto.
+example.en: The police officer stopped the car.
+etymology: From "polizia"
+tags: 💼 work
+priority: yes
+grammar.Gender: m
+grammar.Plural: poliziotti
+//
+word: vigile del fuoco
+translation: firefighter
+type: noun
+group: 💼 Jobs & work
+pronunciation: /ˈvidʒile del ˈfwɔko/
+example.it: Il vigile del fuoco ha spento l'incendio.
+example.en: The firefighter put out the fire.
+tags: 💼 work
+priority: yes
+grammar.Gender: m
+grammar.Plural: vigili del fuoco
+//
+word: pilota
+translation: pilot
+type: noun
+group: 💼 Jobs & work
+pronunciation: /piˈlɔta/
+example.it: Il pilota ha annunciato la partenza.
+example.en: The pilot announced the departure.
+etymology: From "pilotare"
+tags: ✈️ travel, 💼 work
+priority: yes
+grammar.Gender: m
+grammar.Plural: piloti
+//
+word: meccanico
+translation: mechanic
+type: noun
+group: 💼 Jobs & work
+pronunciation: /mekˈkaniko/
+example.it: Devo portare l'auto dal meccanico.
+example.en: I need to take the car to the mechanic.
+etymology: Greek "mechanikos"
+tags: 💼 work
+priority: yes
+grammar.Gender: m
+grammar.Plural: meccanici
+//
+word: programmatore
+translation: programmer
+type: noun
+group: 💼 Jobs & work
+pronunciation: /programmaˈtore/
+example.it: Il programmatore lavora da casa.
+example.en: The programmer works from home.
+etymology: From "programmare"
+tags: 💼 work
+priority: yes
+grammar.Gender: m
+grammar.Plural: programmatori
+//
+word: artista
+translation: artist
+type: noun
+group: 💼 Jobs & work
+pronunciation: /arˈtista/
+example.it: L'artista espone le sue opere in galleria.
+example.en: The artist is exhibiting his works in the gallery.
+etymology: From "arte"
+tags: 💼 work
+priority: yes
+grammar.Gender: m/f
+grammar.Plural: artisti (m), artiste (f)
+//
+word: musicista
+translation: musician
+type: noun
+group: 💼 Jobs & work
+pronunciation: /muziˈtʃista/
+example.it: Il musicista suona il violino.
+example.en: The musician plays the violin.
+etymology: From "musica"
+tags: 💼 work
+priority: yes
+grammar.Gender: m/f
+grammar.Plural: musicisti (m), musiciste (f)
+//
+word: attore
+translation: actor
+type: noun
+group: 💼 Jobs & work
+pronunciation: /atˈtore/
+example.it: L'attore è molto famoso.
+example.en: The actor is very famous.
+etymology: Latin "actor"
+tags: 💼 work
+priority: yes
+grammar.Gender: m
+grammar.Plural: attori
+//
+word: agricoltore
+translation: farmer
+type: noun
+group: 💼 Jobs & work
+pronunciation: /aɡrikolˈtore/
+example.it: L'agricoltore raccoglie il grano.
+example.en: The farmer harvests the wheat.
+etymology: Latin "agricultor"
+tags: 💼 work
+priority: yes
+grammar.Gender: m
+grammar.Plural: agricoltori
+//
+word: costruttore
+translation: builder
+type: noun
+group: 💼 Jobs & work
+pronunciation: /kostrutˈtore/
+example.it: Il costruttore ha terminato il cantiere.
+example.en: The builder has finished the site.
+etymology: From "costruire"
+tags: 💼 work
+priority: yes
+grammar.Gender: m
+grammar.Plural: costruttori
+//
+word: contabile
+translation: accountant
+type: noun
+group: 💼 Jobs & work
+pronunciation: /konˈtabile/
+example.it: Il contabile gestisce le spese aziendali.
+example.en: The accountant manages corporate expenses.
+etymology: From "contare"
+tags: 💼 work
+priority: yes
+grammar.Gender: m
+grammar.Plural: contabili
+//
+word: lavoro
+translation: job, work
+type: noun
+group: 💼 Jobs & work
+pronunciation: /laˈvɔro/
+example.it: Cerco un nuovo lavoro.
+example.en: I am looking for a new job.
+etymology: From "lavorare"
+tags: ⭐ common, 💼 work
+priority: yes
+grammar.Gender: m
+grammar.Plural: lavori
+//
+word: stipendio
+translation: salary
+type: noun
+group: 💼 Jobs & work
+pronunciation: /stiˈpɛndjo/
+example.it: Lo stipendio arriva a fine mese.
+example.en: The salary arrives at the end of the month.
+etymology: Latin "stipendium"
+tags: 💼 work
+priority: yes
+grammar.Gender: m
+grammar.Plural: stipendi
+//
+word: ufficio
+translation: office
+type: noun
+group: 💼 Jobs & work
+pronunciation: /ufˈfitʃo/
+example.it: Vado in ufficio alle otto.
+example.en: I go to the office at eight o'clock.
+etymology: Latin "officium"
+tags: ⭐ common, 💼 work
+priority: yes
+grammar.Gender: m
+grammar.Plural: uffici
+//
+word: fabbrica
+translation: factory
+type: noun
+group: 💼 Jobs & work
+pronunciation: /ˈfabbrika/
+example.it: Molti operai lavorano in fabbrica.
+example.en: Many workers work in the factory.
+etymology: Latin "fabrica"
+tags: 💼 work
+priority: yes
+grammar.Gender: f
+grammar.Plural: fabbriche
+//
+word: riunione
+translation: meeting
+type: noun
+group: 💼 Jobs & work
+pronunciation: /riuˈnjone/
+example.it: Ho una riunione importante oggi.
+example.en: I have an important meeting today.
+etymology: From "riunire"
+tags: ⭐ common, 💼 work
+priority: yes
+grammar.Gender: f
+grammar.Plural: riunioni
+//
+word: capo
+translation: boss
+type: noun
+group: 💼 Jobs & work
+pronunciation: /ˈkapo/
+example.it: Il mio capo è molto esigente.
+example.en: My boss is very demanding.
+etymology: Latin "caput"
+tags: ⭐ common, 💼 work
+priority: yes
+grammar.Gender: m
+grammar.Plural: capi
+//
+word: scadenza
+translation: deadline
+type: noun
+group: 💼 Jobs & work
+pronunciation: /skaˈdɛntsa/
+example.it: La scadenza del progetto è domani.
+example.en: The project deadline is tomorrow.
+etymology: From "scadere"
+tags: 💼 work
+priority: yes
+grammar.Gender: f
+grammar.Plural: scadenze
+//
+word: carriera
+translation: career
+type: noun
+group: 💼 Jobs & work
+pronunciation: /karˈrjɛra/
+example.it: Ha fatto una brillante carriera.
+example.en: He has had a brilliant career.
+etymology: From "carro"
+tags: 💼 work
+priority: yes
+grammar.Gender: f
+grammar.Plural: carriere
+//
+word: colloquio
+translation: interview
+type: noun
+group: 💼 Jobs & work
+pronunciation: /kolˈlɔkjo/
+example.it: Domani ho un colloquio di lavoro.
+example.en: Tomorrow I have a job interview.
+etymology: Latin "colloquium"
+tags: 💼 work
+priority: yes
+grammar.Gender: m
+grammar.Plural: colloqui
+//
+word: assumere
+translation: to hire
+type: verb
+group: 💼 Jobs & work
+pronunciation: /asˈsumere/
+example.it: L'azienda vuole assumere nuovo personale.
+example.en: The company wants to hire new staff.
+etymology: Latin "assumere"
+tags: 💼 work
+priority: yes
+grammar.Verb group: -ere
+grammar.Auxiliary (passato prossimo): avere
+grammar.Participio passato: assunto
+grammar.Passato remoto (io): assunsi
+grammar.Gerundio: assumendo
+grammar.Presente (all 6 forms): assumo / assumi / assume / assumiamo / assumete / assumono
+//
+word: andare in pensione
+translation: to retire
+type: phrase
+group: 💼 Jobs & work
+pronunciation: /ˈandare in penˈsjone/
+example.it: Mio padre andrà in pensione l'anno prossimo.
+example.en: My father will retire next year.
+tags: 💼 work
+priority: yes
+grammar.Register: neutral
+//
+word: contratto
+translation: contract
+type: noun
+group: 💼 Jobs & work
+pronunciation: /konˈtratto/
+example.it: Ho firmato il contratto ieri.
+example.en: I signed the contract yesterday.
+etymology: Latin "contractus"
+tags: 💼 work
+priority: yes
+grammar.Gender: m
+grammar.Plural: contratti
+//
+word: dipendente
+translation: employee
+type: noun
+group: 💼 Jobs & work
+pronunciation: /dipenˈdɛnte/
+example.it: È un dipendente molto affidabile.
+example.en: He is a very reliable employee.
+etymology: From "dipendere"
+tags: 💼 work
+priority: yes
+grammar.Gender: m/f
+grammar.Plural: dipendenti
+//
+word: datore di lavoro
+translation: employer
+type: noun
+group: 💼 Jobs & work
+pronunciation: /ˈdatore di laˈvɔro/
+example.it: Il datore di lavoro deve garantire la sicurezza.
+example.en: The employer must ensure safety.
+tags: 💼 work
+priority: yes
+grammar.Gender: m
+grammar.Plural: datori di lavoro
+//
+word: progetto
+translation: project
+type: noun
+group: 💼 Jobs & work
+pronunciation: /proˈdʒɛtto/
+example.it: Stiamo lavorando a un nuovo progetto.
+example.en: We are working on a new project.
+etymology: Latin "projectum"
+tags: 💼 work
+priority: yes
+grammar.Gender: m
+grammar.Plural: progetti
+//
+word: rapporto
+translation: report
+type: noun
+group: 💼 Jobs & work
+pronunciation: /rapˈpɔrto/
+example.it: Ho scritto il rapporto finale.
+example.en: I wrote the final report.
+etymology: From "rapportare"
+tags: 💼 work
+priority: yes
+grammar.Gender: m
+grammar.Plural: rapporti

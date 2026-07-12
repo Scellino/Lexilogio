@@ -1,0 +1,366 @@
+word: ciudad
+translation: city
+type: noun
+group: 🗺️ City & directions
+pronunciation: /θjuˈðað/
+example.es: Madrid es una ciudad muy grande.
+example.en: Madrid is a very big city.
+tags: ⭐ common, 🏠 places
+priority: yes
+grammar.Gender: f
+grammar.Plural: ciudades
+//
+word: pueblo
+translation: town
+type: noun
+group: 🗺️ City & directions
+pronunciation: /ˈpweβlo/
+example.es: Vivimos en un pueblo pequeño.
+example.en: We live in a small town.
+tags: ⭐ common, 🏠 places
+priority: yes
+grammar.Gender: m
+grammar.Plural: pueblos
+//
+word: aldea
+translation: village
+type: noun
+group: 🗺️ City & directions
+pronunciation: /alˈðea/
+example.es: Es una aldea muy tranquila.
+example.en: It is a very quiet village.
+tags: ⭐ common, 🏠 places
+priority: yes
+grammar.Gender: f
+grammar.Plural: aldeas
+//
+word: calle
+translation: street
+type: noun
+group: 🗺️ City & directions
+pronunciation: /ˈkaʝe/
+example.es: Mi casa está en esta calle.
+example.en: My house is on this street.
+tags: ⭐ common, 🏠 places
+priority: yes
+grammar.Gender: f
+grammar.Plural: calles
+//
+word: carretera
+translation: road
+type: noun
+group: 🗺️ City & directions
+pronunciation: /kaɾeˈteɾa/
+example.es: Hay mucho tráfico en la carretera.
+example.en: There is a lot of traffic on the road.
+tags: ⭐ common, 🚆 travel
+priority: yes
+grammar.Gender: f
+grammar.Plural: carreteras
+//
+word: parque
+translation: park
+type: noun
+group: 🗺️ City & directions
+pronunciation: /ˈpaɾke/
+example.es: Vamos a pasear por el parque.
+example.en: Let's go for a walk in the park.
+tags: ⭐ common, 🌿 nature
+priority: yes
+grammar.Gender: m
+grammar.Plural: parques
+//
+word: puente
+translation: bridge
+type: noun
+group: 🗺️ City & directions
+pronunciation: /ˈpwente/
+example.es: Cruzamos el puente para ir al centro.
+example.en: We cross the bridge to go to the center.
+tags: ⭐ common, 🏠 places
+priority: yes
+grammar.Gender: m
+grammar.Plural: puentes
+//
+word: izquierda
+translation: left
+type: adverb
+group: 🗺️ City & directions
+pronunciation: /iθˈkjeɾða/
+example.es: Gire a la izquierda.
+example.en: Turn left.
+tags: ⭐ common, 👀 movement
+priority: yes
+grammar.Register: neutral
+//
+word: derecha
+translation: right
+type: adverb
+group: 🗺️ City & directions
+pronunciation: /deˈɾetʃa/
+example.es: Está a la derecha.
+example.en: It is on the right.
+tags: ⭐ common, 👀 movement
+priority: yes
+grammar.Register: neutral
+//
+word: todo recto
+translation: straight ahead
+type: phrase
+group: 🗺️ City & directions
+pronunciation: /ˈtoðo ˈɾekto/
+example.es: Siga todo recto.
+example.en: Continue straight ahead.
+tags: ⭐ common, 👀 movement
+priority: yes
+grammar.Register: neutral
+//
+word: norte
+translation: north
+type: noun
+group: 🗺️ City & directions
+pronunciation: /ˈnoɾte/
+example.es: Vamos hacia el norte del país.
+example.en: We are going toward the north of the country.
+tags: ⭐ common, ✈️ travel
+priority: yes
+grammar.Gender: m
+grammar.Plural: nortes
+//
+word: sur
+translation: south
+type: noun
+group: 🗺️ City & directions
+pronunciation: /suɾ/
+example.es: El sur es muy caluroso.
+example.en: The south is very hot.
+tags: ⭐ common, ✈️ travel
+priority: yes
+grammar.Gender: m
+grammar.Plural: sures
+//
+word: este
+translation: east
+type: noun
+group: 🗺️ City & directions
+pronunciation: /ˈeste/
+example.es: El sol sale por el este.
+example.en: The sun rises in the east.
+tags: ⭐ common, ✈️ travel
+priority: yes
+grammar.Gender: m
+grammar.Plural: estes
+//
+word: oeste
+translation: west
+type: noun
+group: 🗺️ City & directions
+pronunciation: /oˈeste/
+example.es: El sol se pone por el oeste.
+example.en: The sun sets in the west.
+tags: ⭐ common, ✈️ travel
+priority: yes
+grammar.Gender: m
+grammar.Plural: oestes
+//
+word: girar
+translation: turn
+type: verb
+group: 🗺️ City & directions
+pronunciation: /xiˈɾaɾ/
+example.es: Gire en la próxima calle.
+example.en: Turn at the next street.
+tags: ⭐ common, 👀 movement
+priority: yes
+grammar.Verb type: -ar
+grammar.Reflexive: no
+grammar.Participio pasado: girado
+grammar.Pretérito indefinido (yo): giré
+grammar.Pretérito imperfecto (yo): giraba
+grammar.Gerundio: girando
+grammar.Presente (all 6 forms): giro / giras / gira / giramos / giráis / giran
+//
+word: cerca
+translation: near
+type: adverb
+group: 🗺️ City & directions
+pronunciation: /ˈθeɾka/
+example.es: Vivimos muy cerca del parque.
+example.en: We live very near the park.
+tags: ⭐ common, 🏠 places
+priority: yes
+grammar.Register: neutral
+//
+word: lejos
+translation: far
+type: adverb
+group: 🗺️ City & directions
+pronunciation: /ˈlexos/
+example.es: La estación está muy lejos.
+example.en: The station is very far.
+tags: ⭐ common, 🏠 places
+priority: yes
+grammar.Register: neutral
+//
+word: al lado de
+translation: next to
+type: phrase
+group: 🗺️ City & directions
+pronunciation: /al ˈlaðo ðe/
+example.es: La tienda está al lado del banco.
+example.en: The store is next to the bank.
+tags: ⭐ common, 🏠 places
+priority: yes
+grammar.Register: neutral
+//
+word: enfrente
+translation: opposite
+type: adverb
+group: 🗺️ City & directions
+pronunciation: /eŋˈfɾente/
+example.es: El museo está enfrente del banco.
+example.en: The museum is opposite the bank.
+tags: ⭐ common, 🏠 places
+priority: yes
+grammar.Register: neutral
+//
+word: entre
+translation: between
+type: preposition
+group: 🗺️ City & directions
+pronunciation: /ˈentɾe/
+example.es: El hospital está entre la escuela y el banco.
+example.en: The hospital is between the school and the bank.
+tags: ⭐ common, 🏠 places
+priority: yes
+grammar.Register: neutral
+//
+word: esquina
+translation: corner
+type: noun
+group: 🗺️ City & directions
+pronunciation: /esˈkina/
+example.es: Vivo en la esquina de la calle.
+example.en: I live on the corner of the street.
+tags: ⭐ common, 🏠 places
+priority: yes
+grammar.Gender: f
+grammar.Plural: esquinas
+//
+word: semáforo
+translation: traffic lights
+type: noun
+group: 🗺️ City & directions
+pronunciation: /seˈmafoɾo/
+example.es: Pare en el semáforo rojo.
+example.en: Stop at the red traffic light.
+tags: ⭐ common, 🏠 places
+priority: yes
+grammar.Gender: m
+grammar.Plural: semáforos
+//
+word: rotonda
+translation: roundabout
+type: noun
+group: 🗺️ City & directions
+pronunciation: /roˈtonda/
+example.es: Tome la segunda salida en la rotonda.
+example.en: Take the second exit at the roundabout.
+tags: ⭐ common, 🏠 places
+priority: yes
+grammar.Gender: f
+grammar.Plural: rotondas
+//
+word: iglesia
+translation: church
+type: noun
+group: 🗺️ City & directions
+pronunciation: /iˈɣlesja/
+example.es: La iglesia es muy antigua.
+example.en: The church is very old.
+tags: ⭐ common, 🏠 places
+priority: yes
+grammar.Gender: f
+grammar.Plural: iglesias
+//
+word: museo
+translation: museum
+type: noun
+group: 🗺️ City & directions
+pronunciation: /muˈseo/
+example.es: Vamos a visitar el museo hoy.
+example.en: We are going to visit the museum today.
+tags: ⭐ common, 🎨 art
+priority: yes
+grammar.Gender: m
+grammar.Plural: museos
+//
+word: biblioteca
+translation: library
+type: noun
+group: 🗺️ City & directions
+pronunciation: /βiβljoˈteka/
+example.es: Estudio en la biblioteca.
+example.en: I study at the library.
+tags: ⭐ common, 📚 learning
+priority: yes
+grammar.Gender: f
+grammar.Plural: bibliotecas
+//
+word: banco
+translation: bank
+type: noun
+group: 🗺️ City & directions
+pronunciation: /ˈbaŋko/
+example.es: Tengo que ir al banco.
+example.en: I have to go to the bank.
+tags: ⭐ common, 🏠 places
+priority: yes
+grammar.Gender: m
+grammar.Plural: bancos
+//
+word: oficina de correos
+translation: post office
+type: phrase
+group: 🗺️ City & directions
+pronunciation: /ofiˈθina ðe koˈreos/
+example.es: Voy a la oficina de correos.
+example.en: I am going to the post office.
+tags: ⭐ common, 🏠 places
+priority: yes
+grammar.Register: neutral
+//
+word: mercado
+translation: market
+type: noun
+group: 🗺️ City & directions
+pronunciation: /meɾˈkaðo/
+example.es: Compro fruta fresca en el mercado.
+example.en: I buy fresh fruit at the market.
+tags: ⭐ common, 🍽️ food
+priority: yes
+grammar.Gender: m
+grammar.Plural: mercados
+//
+word: parada de autobús
+translation: bus stop
+type: phrase
+group: 🗺️ City & directions
+pronunciation: /paˈɾaða ðe auˈtobus/
+example.es: ¿Dónde está la parada de autobús?
+example.en: Where is the bus stop?
+tags: ⭐ common, 🚆 travel
+priority: yes
+grammar.Register: neutral
+//
+word: puerto
+translation: port
+type: noun
+group: 🗺️ City & directions
+pronunciation: /ˈpweɾto/
+example.es: El barco sale del puerto a las diez.
+example.en: The ship leaves the port at ten.
+tags: ⭐ common, 🚆 travel
+priority: yes
+grammar.Gender: m
+grammar.Plural: puertos

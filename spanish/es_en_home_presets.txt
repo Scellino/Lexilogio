@@ -1,0 +1,468 @@
+word: dormitorio
+translation: bedroom
+type: noun
+group: 🏠 My home
+pronunciation: /doɾmiˈtoɾjo/
+example.es: El dormitorio es muy grande.
+example.en: The bedroom is very large.
+tags: ⭐ common, 🏠 home
+priority: yes
+grammar.Gender: m
+grammar.Plural: dormitorios
+//
+word: salón
+translation: living room
+type: noun
+group: 🏠 My home
+pronunciation: /saˈlon/
+example.es: Vemos la televisión en el salón.
+example.en: We watch television in the living room.
+tags: ⭐ common, 🏠 home
+priority: yes
+grammar.Gender: m
+grammar.Plural: salones
+//
+note: Also the everyday word for cooking as a hobby/cuisine.
+word: cocina
+translation: kitchen, cooking
+type: noun
+group: 🏠 My home
+pronunciation: /koˈθina/
+example.es: Estoy preparando la cena en la cocina.
+example.en: I am preparing dinner in the kitchen.
+tags: ⭐ common, 🏠 home
+priority: yes
+grammar.Gender: f
+grammar.Plural: cocinas
+//
+word: baño
+translation: bathroom
+type: noun
+group: 🏠 My home
+pronunciation: /ˈbaɲo/
+example.es: El baño está al fondo del pasillo.
+example.en: The bathroom is at the end of the hall.
+tags: ⭐ common, 🏠 home
+priority: yes
+grammar.Gender: m
+grammar.Plural: baños
+//
+word: inodoro
+translation: toilet
+type: noun
+group: 🏠 My home
+pronunciation: /inoˈðoɾo/
+example.es: Necesito limpiar el inodoro.
+example.en: I need to clean the toilet.
+tags: ⭐ common, 🏠 home
+priority: yes
+grammar.Gender: m
+grammar.Plural: inodoros
+//
+word: pasillo
+translation: hall
+type: noun
+group: 🏠 My home
+pronunciation: /paˈsijo/
+example.es: Hay un cuadro en el pasillo.
+example.en: There is a painting in the hall.
+tags: ⭐ common, 🏠 home
+priority: yes
+grammar.Gender: m
+grammar.Plural: pasillos
+//
+word: balcón
+translation: balcony
+type: noun
+group: 🏠 My home
+pronunciation: /balˈkon/
+example.es: Tengo plantas en el balcón.
+example.en: I have plants on the balcony.
+tags: ⭐ common, 🏠 home
+priority: yes
+grammar.Gender: m
+grammar.Plural: balcones
+//
+word: jardín
+translation: garden
+type: noun
+group: 🏠 My home
+pronunciation: /xaɾˈðin/
+example.es: Los niños juegan en el jardín.
+example.en: The children are playing in the garden.
+tags: ⭐ common, 🏠 home
+priority: yes
+grammar.Gender: m
+grammar.Plural: jardines
+//
+word: garaje
+translation: garage
+type: noun
+group: 🏠 My home
+pronunciation: /ɡaˈɾaxe/
+example.es: Aparqué el coche en el garaje.
+example.en: I parked the car in the garage.
+tags: ⭐ common, 🏠 home
+priority: yes
+grammar.Gender: m
+grammar.Plural: garajes
+//
+word: tejado
+translation: roof
+type: noun
+group: 🏠 My home
+pronunciation: /teˈxaðo/
+example.es: Hay gatos en el tejado.
+example.en: There are cats on the roof.
+tags: ⭐ common, 🏠 home
+priority: yes
+grammar.Gender: m
+grammar.Plural: tejados
+//
+word: escalera
+translation: stairs
+type: noun
+group: 🏠 My home
+pronunciation: /eskaˈleɾa/
+example.es: Subí la escalera corriendo.
+example.en: I ran up the stairs.
+tags: ⭐ common, 🏠 home
+priority: yes
+grammar.Gender: f
+grammar.Plural: escaleras
+//
+word: cama
+translation: bed
+type: noun
+group: 🏠 My home
+pronunciation: /ˈkama/
+example.es: Hice la cama esta mañana.
+example.en: I made the bed this morning.
+tags: ⭐ common, 🏠 home
+priority: yes
+grammar.Gender: f
+grammar.Plural: camas
+//
+word: sofá
+translation: sofa
+type: noun
+group: 🏠 My home
+pronunciation: /soˈfa/
+example.es: El sofá es muy cómodo.
+example.en: The sofa is very comfortable.
+tags: ⭐ common, 🏠 home
+priority: yes
+grammar.Gender: m
+grammar.Plural: sofás
+//
+word: mesa
+translation: table
+type: noun
+group: 🏠 My home
+pronunciation: /ˈmesa/
+example.es: Pon los platos en la mesa.
+example.en: Put the plates on the table.
+tags: ⭐ common, 🏠 home
+priority: yes
+grammar.Gender: f
+grammar.Plural: mesas
+//
+word: silla
+translation: chair
+type: noun
+group: 🏠 My home
+pronunciation: /ˈsiʝa/
+example.es: Siéntate en esta silla.
+example.en: Sit on this chair.
+tags: ⭐ common, 🏠 home
+priority: yes
+grammar.Gender: f
+grammar.Plural: sillas
+//
+word: armario
+translation: wardrobe
+type: noun
+group: 🏠 My home
+pronunciation: /aɾˈmaɾjo/
+example.es: Guardo la ropa en el armario.
+example.en: I keep the clothes in the wardrobe.
+tags: ⭐ common, 🏠 home
+priority: yes
+grammar.Gender: m
+grammar.Plural: armarios
+//
+word: estantería
+translation: shelf
+type: noun
+group: 🏠 My home
+pronunciation: /estaŋteˈɾia/
+example.es: Tengo muchos libros en la estantería.
+example.en: I have many books on the shelf.
+tags: ⭐ common, 🏠 home
+priority: yes
+grammar.Gender: f
+grammar.Plural: estanterías
+//
+word: escritorio
+translation: desk
+type: noun
+group: 🏠 My home
+pronunciation: /eskɾiˈtoɾjo/
+example.es: Tengo mucho trabajo en el escritorio.
+example.en: I have a lot of work on the desk.
+tags: ⭐ common, 🏠 home
+priority: yes
+grammar.Gender: m
+grammar.Plural: escritorios
+//
+word: lámpara
+translation: lamp
+type: noun
+group: 🏠 My home
+pronunciation: /ˈlampaɾa/
+example.es: Enciende la lámpara, por favor.
+example.en: Turn on the lamp, please.
+tags: ⭐ common, 🏠 home
+priority: yes
+grammar.Gender: f
+grammar.Plural: lámparas
+//
+word: espejo
+translation: mirror
+type: noun
+group: 🏠 My home
+pronunciation: /esˈpexo/
+example.es: Me miro en el espejo.
+example.en: I look at myself in the mirror.
+tags: ⭐ common, 🏠 home
+priority: yes
+grammar.Gender: m
+grammar.Plural: espejos
+//
+word: cortina
+translation: curtain
+type: noun
+group: 🏠 My home
+pronunciation: /koɾˈtina/
+example.es: Cierra la cortina para dormir.
+example.en: Close the curtain to sleep.
+tags: ⭐ common, 🏠 home
+priority: yes
+grammar.Gender: f
+grammar.Plural: cortinas
+//
+word: nevera
+translation: fridge
+type: noun
+group: 🏠 My home
+pronunciation: /neˈβeɾa/
+example.es: Guarda la leche en la nevera.
+example.en: Keep the milk in the fridge.
+tags: ⭐ common, 🏠 home
+priority: yes
+grammar.Gender: f
+grammar.Plural: neveras
+//
+word: horno
+translation: oven
+type: noun
+group: 🏠 My home
+pronunciation: /ˈoɾno/
+example.es: Estoy horneando un pastel en el horno.
+example.en: I am baking a cake in the oven.
+tags: ⭐ common, 🏠 home
+priority: yes
+grammar.Gender: m
+grammar.Plural: hornos
+//
+word: microondas
+translation: microwave
+type: noun
+group: 🏠 My home
+pronunciation: /mikɾoˈondas/
+example.es: Calenté la comida en el microondas.
+example.en: I heated the food in the microwave.
+tags: ⭐ common, 🏠 home
+priority: yes
+grammar.Gender: m
+grammar.Plural: microondas
+//
+word: lavavajillas
+translation: dishwasher
+type: noun
+group: 🏠 My home
+pronunciation: /laβaβaˈxiʝas/
+example.es: Pon los platos en el lavavajillas.
+example.en: Put the plates in the dishwasher.
+tags: ⭐ common, 🏠 home
+priority: yes
+grammar.Gender: m
+grammar.Plural: lavavajillas
+//
+word: fregadero
+translation: sink
+type: noun
+group: 🏠 My home
+pronunciation: /fɾeɣaˈðeɾo/
+example.es: Lavé las manos en el fregadero.
+example.en: I washed my hands in the sink.
+tags: ⭐ common, 🏠 home
+priority: yes
+grammar.Gender: m
+grammar.Plural: fregaderos
+//
+word: taza
+translation: cup
+type: noun
+group: 🏠 My home
+pronunciation: /ˈtaθa/
+example.es: Quiero una taza de café.
+example.en: I want a cup of coffee.
+tags: ⭐ common, 🏠 home
+priority: yes
+grammar.Gender: f
+grammar.Plural: tazas
+//
+word: vaso
+translation: glass
+type: noun
+group: 🏠 My home
+pronunciation: /ˈbaso/
+example.es: Bebe un vaso de agua.
+example.en: Drink a glass of water.
+tags: ⭐ common, 🏠 home
+priority: yes
+grammar.Gender: m
+grammar.Plural: vasos
+//
+word: plato
+translation: plate
+type: noun
+group: 🏠 My home
+pronunciation: /ˈplato/
+example.es: Lava tu plato después de comer.
+example.en: Wash your plate after eating.
+tags: ⭐ common, 🏠 home
+priority: yes
+grammar.Gender: m
+grammar.Plural: platos
+//
+word: tenedor
+translation: fork
+type: noun
+group: 🏠 My home
+pronunciation: /teneˈðoɾ/
+example.es: ¿Necesitas un tenedor para comer?
+example.en: Do you need a fork to eat?
+tags: ⭐ common, 🏠 home
+priority: yes
+grammar.Gender: m
+grammar.Plural: tenedores
+//
+word: cuchillo
+translation: knife
+type: noun
+group: 🏠 My home
+pronunciation: /kuˈtʃiʝo/
+example.es: Ten cuidado con el cuchillo.
+example.en: Be careful with the knife.
+tags: ⭐ common, 🏠 home
+priority: yes
+grammar.Gender: m
+grammar.Plural: cuchillos
+//
+word: cuchara
+translation: spoon
+type: noun
+group: 🏠 My home
+pronunciation: /kuˈtʃaɾa/
+example.es: Come la sopa con la cuchara.
+example.en: Eat the soup with the spoon.
+tags: ⭐ common, 🏠 home
+priority: yes
+grammar.Gender: f
+grammar.Plural: cucharas
+//
+word: olla
+translation: pot
+type: noun
+group: 🏠 My home
+pronunciation: /ˈoʝa/
+example.es: La sopa está en la olla.
+example.en: The soup is in the pot.
+tags: ⭐ common, 🏠 home
+priority: yes
+grammar.Gender: f
+grammar.Plural: ollas
+//
+word: sartén
+translation: pan
+type: noun
+group: 🏠 My home
+pronunciation: /saɾˈten/
+example.es: Fríe el huevo en la sartén.
+example.en: Fry the egg in the pan.
+tags: ⭐ common, 🏠 home
+priority: yes
+grammar.Gender: f
+grammar.Plural: sartenes
+//
+word: ventana
+translation: window
+type: noun
+group: 🏠 My home
+pronunciation: /benˈtana/
+example.es: Abre la ventana, hace calor.
+example.en: Open the window, it's hot.
+tags: ⭐ common, 🏠 home
+priority: yes
+grammar.Gender: f
+grammar.Plural: ventanas
+//
+word: puerta
+translation: door
+type: noun
+group: 🏠 My home
+pronunciation: /ˈpweɾta/
+example.es: Cierra la puerta al salir.
+example.en: Close the door when leaving.
+tags: ⭐ common, 🏠 home
+priority: yes
+grammar.Gender: f
+grammar.Plural: puertas
+//
+word: suelo
+translation: floor
+type: noun
+group: 🏠 My home
+pronunciation: /ˈswelo/
+example.es: El suelo está muy limpio.
+example.en: The floor is very clean.
+tags: ⭐ common, 🏠 home
+priority: yes
+grammar.Gender: m
+grammar.Plural: suelos
+//
+word: techo
+translation: ceiling
+type: noun
+group: 🏠 My home
+pronunciation: /ˈtetʃo/
+example.es: Hay una lámpara en el techo.
+example.en: There is a lamp on the ceiling.
+tags: ⭐ common, 🏠 home
+priority: yes
+grammar.Gender: m
+grammar.Plural: techos
+//
+word: pared
+translation: wall
+type: noun
+group: 🏠 My home
+pronunciation: /paˈɾeð/
+example.es: Pintamos la pared de blanco.
+example.en: We painted the wall white.
+tags: ⭐ common, 🏠 home
+priority: yes
+grammar.Gender: f
+grammar.Plural: paredes

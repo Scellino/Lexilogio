@@ -1,0 +1,681 @@
+word: uno
+translation: one
+type: phrase
+group: 🕐 Numbers & time
+pronunciation: /ˈuː.no/
+example.it: Ho uno fratello.
+example.en: I have one brother.
+tags: 🕐 common, 🔢 abstract
+priority: yes
+grammar.Register: neutral
+//
+word: due
+translation: two
+type: phrase
+group: 🕐 Numbers & time
+pronunciation: /ˈduː.e/
+example.it: Ho due gatti.
+example.en: I have two cats.
+tags: 🕐 common, 🔢 abstract
+priority: yes
+grammar.Register: neutral
+//
+word: tre
+translation: three
+type: phrase
+group: 🕐 Numbers & time
+pronunciation: /tre/
+example.it: Sono le tre.
+example.en: It is three o'clock.
+tags: 🕐 common, 🔢 abstract
+priority: yes
+grammar.Register: neutral
+//
+word: quattro
+translation: four
+type: phrase
+group: 🕐 Numbers & time
+pronunciation: /ˈkwat.tro/
+example.it: Ho quattro penne.
+example.en: I have four pens.
+tags: 🕐 common, 🔢 abstract
+priority: yes
+grammar.Register: neutral
+//
+word: cinque
+translation: five
+type: phrase
+group: 🕐 Numbers & time
+pronunciation: /ˈtʃiŋ.kwe/
+example.it: Sono le cinque.
+example.en: It is five o'clock.
+tags: 🕐 common, 🔢 abstract
+priority: yes
+grammar.Register: neutral
+//
+word: sei
+translation: six
+type: phrase
+group: 🕐 Numbers & time
+pronunciation: /sɛi/
+example.it: Ho sei anni.
+example.en: I am six years old.
+tags: 🕐 common, 🔢 abstract
+priority: yes
+grammar.Register: neutral
+//
+word: sette
+translation: seven
+type: phrase
+group: 🕐 Numbers & time
+pronunciation: /ˈsɛt.te/
+example.it: Sette giorni in una settimana.
+example.en: Seven days in a week.
+tags: 🕐 common, 🔢 abstract
+priority: yes
+grammar.Register: neutral
+//
+word: otto
+translation: eight
+type: phrase
+group: 🕐 Numbers & time
+pronunciation: /ˈɔt.to/
+example.it: Otto ore di lavoro.
+example.en: Eight hours of work.
+tags: 🕐 common, 🔢 abstract
+priority: yes
+grammar.Register: neutral
+//
+word: nove
+translation: nine
+type: phrase
+group: 🕐 Numbers & time
+pronunciation: /ˈnɔː.ve/
+example.it: Sono le nove.
+example.en: It is nine o'clock.
+tags: 🕐 common, 🔢 abstract
+priority: yes
+grammar.Register: neutral
+//
+word: dieci
+translation: ten
+type: phrase
+group: 🕐 Numbers & time
+pronunciation: /ˈdjɛː.tʃi/
+example.it: Ho dieci euro.
+example.en: I have ten euros.
+tags: 🕐 common, 🔢 abstract
+priority: yes
+grammar.Register: neutral
+//
+word: venti
+translation: twenty
+type: phrase
+group: 🕐 Numbers & time
+pronunciation: /ˈven.ti/
+example.it: Ho venti anni.
+example.en: I am twenty years old.
+tags: 🕐 common, 🔢 abstract
+priority: yes
+grammar.Register: neutral
+//
+word: trenta
+translation: thirty
+type: phrase
+group: 🕐 Numbers & time
+pronunciation: /ˈtren.ta/
+example.it: Trenta giorni a novembre.
+example.en: Thirty days in November.
+tags: 🕐 common, 🔢 abstract
+priority: yes
+grammar.Register: neutral
+//
+word: quaranta
+translation: forty
+type: phrase
+group: 🕐 Numbers & time
+pronunciation: /kwaˈran.ta/
+example.it: Fa quaranta gradi.
+example.en: It is forty degrees.
+tags: 🕐 common, 🔢 abstract
+priority: yes
+grammar.Register: neutral
+//
+word: cinquanta
+translation: fifty
+type: phrase
+group: 🕐 Numbers & time
+pronunciation: /tʃinˈkwan.ta/
+example.it: Ho cinquanta dollari.
+example.en: I have fifty dollars.
+tags: 🕐 common, 🔢 abstract
+priority: yes
+grammar.Register: neutral
+//
+word: sessanta
+translation: sixty
+type: phrase
+group: 🕐 Numbers & time
+pronunciation: /sesˈsan.ta/
+example.it: Sessanta minuti in un'ora.
+example.en: Sixty minutes in an hour.
+tags: 🕐 common, 🔢 abstract
+priority: yes
+grammar.Register: neutral
+//
+word: settanta
+translation: seventy
+type: phrase
+group: 🕐 Numbers & time
+pronunciation: /setˈtan.ta/
+example.it: Ha settanta anni.
+example.en: He is seventy years old.
+tags: 🕐 common, 🔢 abstract
+priority: yes
+grammar.Register: neutral
+//
+word: ottanta
+translation: eighty
+type: phrase
+group: 🕐 Numbers & time
+pronunciation: /otˈtan.ta/
+example.it: Ottanta persone.
+example.en: Eighty people.
+tags: 🕐 common, 🔢 abstract
+priority: yes
+grammar.Register: neutral
+//
+word: novanta
+translation: ninety
+type: phrase
+group: 🕐 Numbers & time
+pronunciation: /noˈvan.ta/
+example.it: Novanta giorni.
+example.en: Ninety days.
+tags: 🕐 common, 🔢 abstract
+priority: yes
+grammar.Register: neutral
+//
+word: cento
+translation: hundred
+type: phrase
+group: 🕐 Numbers & time
+pronunciation: /ˈtʃɛn.to/
+example.it: Cento anni.
+example.en: One hundred years.
+tags: 🕐 common, 🔢 abstract
+priority: yes
+grammar.Register: neutral
+//
+word: mille
+translation: thousand
+type: phrase
+group: 🕐 Numbers & time
+pronunciation: /ˈmil.le/
+example.it: Mille grazie.
+example.en: A thousand thanks.
+tags: 🕐 common, 🔢 abstract
+priority: yes
+grammar.Register: neutral
+//
+word: milione
+translation: million
+type: noun
+group: 🕐 Numbers & time
+pronunciation: /miˈljoː.ne/
+example.it: Un milione di persone.
+example.en: A million people.
+tags: 🕐 common, 🔢 abstract
+priority: yes
+grammar.Gender: m
+grammar.Article override: il
+grammar.Plural: milioni
+//
+word: primo
+translation: first
+type: adjective
+group: 🕐 Numbers & time
+pronunciation: /ˈpriː.mo/
+example.it: Il primo giorno di scuola.
+example.en: The first day of school.
+tags: 🕐 common, 🔢 abstract
+priority: yes
+grammar.Feminine form: prima
+grammar.Plural (masc.): primi
+grammar.Plural (fem.): prime
+//
+note: On a restaurant menu, 'il secondo' means the main course.
+word: secondo
+translation: second (ordinal)
+type: adjective
+group: 🕐 Numbers & time
+pronunciation: /seˈkon.do/
+example.it: Il secondo tentativo.
+example.en: The second attempt.
+tags: 🕐 common, 🔢 abstract
+priority: yes
+grammar.Feminine form: seconda
+grammar.Plural (masc.): secondi
+grammar.Plural (fem.): seconde
+//
+word: terzo
+translation: third
+type: adjective
+group: 🕐 Numbers & time
+pronunciation: /ˈtɛr.tso/
+example.it: Il terzo capitolo.
+example.en: The third chapter.
+tags: 🕐 common, 🔢 abstract
+priority: yes
+grammar.Feminine form: terza
+grammar.Plural (masc.): terzi
+grammar.Plural (fem.): terze
+//
+word: lunedì
+translation: Monday
+type: noun
+group: 🕐 Numbers & time
+pronunciation: /lu.neˈdi/
+example.it: Lunedì ho un appuntamento.
+example.en: On Monday I have an appointment.
+tags: 🕐 common, 📅 daily-life
+priority: yes
+grammar.Gender: m
+grammar.Article override: il
+grammar.Plural: lunedì
+//
+word: martedì
+translation: Tuesday
+type: noun
+group: 🕐 Numbers & time
+pronunciation: /mar.teˈdi/
+example.it: Martedì è un giorno occupato.
+example.en: Tuesday is a busy day.
+tags: 🕐 common, 📅 daily-life
+priority: yes
+grammar.Gender: m
+grammar.Article override: il
+grammar.Plural: martedì
+//
+word: mercoledì
+translation: Wednesday
+type: noun
+group: 🕐 Numbers & time
+pronunciation: /mer.ko.leˈdi/
+example.it: Mercoledì andiamo al cinema.
+example.en: Wednesday we are going to the cinema.
+tags: 🕐 common, 📅 daily-life
+priority: yes
+grammar.Gender: m
+grammar.Article override: il
+grammar.Plural: mercoledì
+//
+word: giovedì
+translation: Thursday
+type: noun
+group: 🕐 Numbers & time
+pronunciation: /dʒo.veˈdi/
+example.it: Giovedì è il compleanno di Anna.
+example.en: Thursday is Anna's birthday.
+tags: 🕐 common, 📅 daily-life
+priority: yes
+grammar.Gender: m
+grammar.Article override: il
+grammar.Plural: giovedì
+//
+word: venerdì
+translation: Friday
+type: noun
+group: 🕐 Numbers & time
+pronunciation: /ve.nerˈdi/
+example.it: Finalmente è venerdì!
+example.en: Finally it's Friday!
+tags: 🕐 common, 📅 daily-life
+priority: yes
+grammar.Gender: m
+grammar.Article override: il
+grammar.Plural: venerdì
+//
+word: sabato
+translation: Saturday
+type: noun
+group: 🕐 Numbers & time
+pronunciation: /ˈsa.ba.to/
+example.it: Sabato vado al mare.
+example.en: On Saturday I am going to the seaside.
+tags: 🕐 common, 📅 daily-life
+priority: yes
+grammar.Gender: m
+grammar.Article override: il
+grammar.Plural: sabati
+//
+word: domenica
+translation: Sunday
+type: noun
+group: 🕐 Numbers & time
+pronunciation: /doˈmeː.ni.ka/
+example.it: Domenica non lavoro.
+example.en: On Sunday I don't work.
+tags: 🕐 common, 📅 daily-life
+priority: yes
+grammar.Gender: f
+grammar.Article override: la
+grammar.Plural: domeniche
+//
+word: gennaio
+translation: January
+type: noun
+group: 🕐 Numbers & time
+pronunciation: /dʒenˈnaː.jo/
+example.it: Gennaio è un mese freddo.
+example.en: January is a cold month.
+tags: 🕐 common, 📅 daily-life
+priority: yes
+grammar.Gender: m
+grammar.Article override: il
+grammar.Plural: gennaio
+//
+word: febbraio
+translation: February
+type: noun
+group: 🕐 Numbers & time
+pronunciation: /febˈbraː.jo/
+example.it: Febbraio ha ventotto giorni.
+example.en: February has twenty-eight days.
+tags: 🕐 common, 📅 daily-life
+priority: yes
+grammar.Gender: m
+grammar.Article override: il
+grammar.Plural: febbraio
+//
+word: marzo
+translation: March
+type: noun
+group: 🕐 Numbers & time
+pronunciation: /ˈmar.tso/
+example.it: A marzo inizia la primavera.
+example.en: In March spring begins.
+tags: 🕐 common, 📅 daily-life
+priority: yes
+grammar.Gender: m
+grammar.Article override: il
+grammar.Plural: marzo
+//
+word: aprile
+translation: April
+type: noun
+group: 🕐 Numbers & time
+pronunciation: /aˈpriː.le/
+example.it: Aprile dolce dormire.
+example.en: April is sweet for sleeping (proverb).
+tags: 🕐 common, 📅 daily-life
+priority: yes
+grammar.Gender: m
+grammar.Article override: il
+grammar.Plural: aprile
+//
+word: maggio
+translation: May
+type: noun
+group: 🕐 Numbers & time
+pronunciation: /ˈmad.dʒo/
+example.it: Maggio è un mese bellissimo.
+example.en: May is a beautiful month.
+tags: 🕐 common, 📅 daily-life
+priority: yes
+grammar.Gender: m
+grammar.Article override: il
+grammar.Plural: maggio
+//
+word: giugno
+translation: June
+type: noun
+group: 🕐 Numbers & time
+pronunciation: /ˈdʒu.ɲo/
+example.it: Giugno inizia l'estate.
+example.en: June begins summer.
+tags: 🕐 common, 📅 daily-life
+priority: yes
+grammar.Gender: m
+grammar.Article override: il
+grammar.Plural: giugno
+//
+word: luglio
+translation: July
+type: noun
+group: 🕐 Numbers & time
+pronunciation: /ˈlu.ʎo/
+example.it: Luglio è molto caldo.
+example.en: July is very hot.
+tags: 🕐 common, 📅 daily-life
+priority: yes
+grammar.Gender: m
+grammar.Article override: il
+grammar.Plural: luglio
+//
+word: agosto
+translation: August
+type: noun
+group: 🕐 Numbers & time
+pronunciation: /aˈɡɔs.to/
+example.it: Ad agosto andiamo in vacanza.
+example.en: In August we go on vacation.
+tags: 🕐 common, 📅 daily-life
+priority: yes
+grammar.Gender: m
+grammar.Article override: l'
+grammar.Plural: agosto
+//
+word: settembre
+translation: September
+type: noun
+group: 🕐 Numbers & time
+pronunciation: /setˈtɛm.bre/
+example.it: A settembre si torna a scuola.
+example.en: In September we go back to school.
+tags: 🕐 common, 📅 daily-life
+priority: yes
+grammar.Gender: m
+grammar.Article override: il
+grammar.Plural: settembre
+//
+word: ottobre
+translation: October
+type: noun
+group: 🕐 Numbers & time
+pronunciation: /otˈtoː.bre/
+example.it: Ottobre è il mese dell'autunno.
+example.en: October is the month of autumn.
+tags: 🕐 common, 📅 daily-life
+priority: yes
+grammar.Gender: m
+grammar.Article override: l'
+grammar.Plural: ottobre
+//
+word: novembre
+translation: November
+type: noun
+group: 🕐 Numbers & time
+pronunciation: /noˈvɛm.bre/
+example.it: Novembre è spesso piovoso.
+example.en: November is often rainy.
+tags: 🕐 common, 📅 daily-life
+priority: yes
+grammar.Gender: m
+grammar.Article override: il
+grammar.Plural: novembre
+//
+word: dicembre
+translation: December
+type: noun
+group: 🕐 Numbers & time
+pronunciation: /diˈtʃɛm.bre/
+example.it: Dicembre è il mese di Natale.
+example.en: December is the month of Christmas.
+tags: 🕐 common, 📅 daily-life
+priority: yes
+grammar.Gender: m
+grammar.Article override: il
+grammar.Plural: dicembre
+//
+word: mattina
+translation: morning
+type: noun
+group: 🕐 Numbers & time
+pronunciation: /matˈtiː.na/
+example.it: Bevo il caffè di mattina.
+example.en: I drink coffee in the morning.
+tags: 🕐 common, 📅 daily-life
+priority: yes
+grammar.Gender: f
+grammar.Article override: la
+grammar.Plural: mattine
+//
+word: pomeriggio
+translation: afternoon
+type: noun
+group: 🕐 Numbers & time
+pronunciation: /po.meˈri.dʒo/
+example.it: Lavoro nel pomeriggio.
+example.en: I work in the afternoon.
+tags: 🕐 common, 📅 daily-life
+priority: yes
+grammar.Gender: m
+grammar.Article override: il
+grammar.Plural: pomeriggi
+//
+word: sera
+translation: evening
+type: noun
+group: 🕐 Numbers & time
+pronunciation: /ˈseː.ra/
+example.it: Esco la sera.
+example.en: I go out in the evening.
+tags: 🕐 common, 📅 daily-life
+priority: yes
+grammar.Gender: f
+grammar.Article override: la
+grammar.Plural: sere
+//
+word: notte
+translation: night
+type: noun
+group: 🕐 Numbers & time
+pronunciation: /ˈnɔt.te/
+example.it: Dormo durante la notte.
+example.en: I sleep during the night.
+tags: 🕐 common, 📅 daily-life
+priority: yes
+grammar.Gender: f
+grammar.Article override: la
+grammar.Plural: notti
+//
+word: oggi
+translation: today
+type: adverb
+group: 🕐 Numbers & time
+pronunciation: /ˈɔd.dʒi/
+example.it: Oggi è una bella giornata.
+example.en: Today is a beautiful day.
+tags: 🕐 common, 📅 daily-life
+priority: yes
+grammar.Register: neutral
+//
+word: domani
+translation: tomorrow
+type: adverb
+group: 🕐 Numbers & time
+pronunciation: /doˈmaː.ni/
+example.it: Domani vado al lavoro.
+example.en: Tomorrow I go to work.
+tags: 🕐 common, 📅 daily-life
+priority: yes
+grammar.Register: neutral
+//
+word: ieri
+translation: yesterday
+type: adverb
+group: 🕐 Numbers & time
+pronunciation: /ˈjɛː.ri/
+example.it: Ieri ho studiato molto.
+example.en: Yesterday I studied a lot.
+tags: 🕐 common, 📅 daily-life
+priority: yes
+grammar.Register: neutral
+//
+note: Noun 'hour' or adverb 'now' — the same word, context makes it clear.
+word: ora
+translation: hour, now
+type: noun
+group: 🕐 Numbers & time
+pronunciation: /ˈoː.ra/
+example.it: Che ora è?
+example.en: What time is it?
+tags: 🕐 common, 📅 daily-life
+priority: yes
+grammar.Gender: f
+grammar.Article override: l'
+grammar.Plural: ore
+//
+word: minuto
+translation: minute
+type: noun
+group: 🕐 Numbers & time
+pronunciation: /miˈnuː.to/
+example.it: Aspetta un minuto!
+example.en: Wait a minute!
+tags: 🕐 common, 📅 daily-life
+priority: yes
+grammar.Gender: m
+grammar.Article override: il
+grammar.Plural: minuti
+//
+word: settimana
+translation: week
+type: noun
+group: 🕐 Numbers & time
+pronunciation: /set.tiˈmaː.na/
+example.it: La prossima settimana vado in Francia.
+example.en: Next week I am going to France.
+tags: 🕐 common, 📅 daily-life
+priority: yes
+grammar.Gender: f
+grammar.Article override: la
+grammar.Plural: settimane
+//
+word: mese
+translation: month
+type: noun
+group: 🕐 Numbers & time
+pronunciation: /ˈmeː.ze/
+example.it: Questo mese è molto lungo.
+example.en: This month is very long.
+tags: 🕐 common, 📅 daily-life
+priority: yes
+grammar.Gender: m
+grammar.Article override: il
+grammar.Plural: mesi
+//
+word: anno
+translation: year
+type: noun
+group: 🕐 Numbers & time
+pronunciation: /ˈan.no/
+example.it: Buon anno!
+example.en: Happy New Year!
+tags: 🕐 common, 📅 daily-life
+priority: yes
+grammar.Gender: m
+grammar.Article override: l'
+grammar.Plural: anni
+//
+word: dopo
+translation: later
+type: adverb
+group: 🕐 Numbers & time
+pronunciation: /ˈdoː.po/
+example.it: Ci sentiamo dopo.
+example.en: We'll talk later.
+tags: 🕐 common, 📅 daily-life
+priority: yes
+grammar.Register: neutral

@@ -1,0 +1,389 @@
+word: camicia
+translation: shirt
+type: noun
+group: 👗 Clothing & fashion
+pronunciation: /kaˈmitʃa/
+example.it: Ho comprato una camicia bianca.
+example.en: I bought a white shirt.
+etymology: Latin "camisia"
+tags: ⭐ common, 👗 fashion
+priority: yes
+grammar.Gender: f
+grammar.Plural: camicie
+//
+word: maglietta
+translation: t-shirt
+type: noun
+group: 👗 Clothing & fashion
+pronunciation: /maˈʎʎɛtta/
+example.it: Indosso una maglietta di cotone.
+example.en: I am wearing a cotton t-shirt.
+etymology: From "maglia"
+tags: ⭐ common, 👗 fashion
+priority: yes
+grammar.Gender: f
+grammar.Plural: magliette
+//
+word: pantaloni
+translation: trousers
+type: noun
+group: 👗 Clothing & fashion
+pronunciation: /pantaˈloni/
+example.it: Questi pantaloni sono troppo lunghi.
+example.en: These trousers are too long.
+etymology: From "Pantalone" (character in Commedia dell'arte)
+tags: ⭐ common, 👗 fashion
+priority: yes
+grammar.Gender: m
+grammar.Plural: pantaloni (plural tantum)
+//
+word: jeans
+translation: jeans
+type: noun
+group: 👗 Clothing & fashion
+pronunciation: /dʒins/
+example.it: Adoro portare i jeans nel tempo libero.
+example.en: I love wearing jeans in my free time.
+etymology: From English "jeans"
+tags: ⭐ common, 👗 fashion
+priority: yes
+grammar.Gender: m
+grammar.Article override: i
+grammar.Plural: jeans (invariable)
+//
+note: Refers to a woman's dress or a man's suit depending on context.
+word: vestito
+translation: dress, suit
+type: noun
+group: 👗 Clothing & fashion
+pronunciation: /vesˈtito/
+example.it: Ha messo un vestito elegante per la festa.
+example.en: She wore an elegant dress for the party.
+etymology: From "vestire"
+tags: ⭐ common, 👗 fashion
+priority: yes
+grammar.Gender: m
+grammar.Plural: vestiti
+//
+word: gonna
+translation: skirt
+type: noun
+group: 👗 Clothing & fashion
+pronunciation: /ˈɡɔnna/
+example.it: Mi piace molto questa gonna a fiori.
+example.en: I really like this floral skirt.
+etymology: Germanic
+tags: ⭐ common, 👗 fashion
+priority: yes
+grammar.Gender: f
+grammar.Plural: gonne
+//
+word: giacca
+translation: jacket
+type: noun
+group: 👗 Clothing & fashion
+pronunciation: /ˈdʒakka/
+example.it: Fa freddo, prendi la giacca.
+example.en: It's cold, take the jacket.
+etymology: From French "jaque"
+tags: ⭐ common, 👗 fashion
+priority: yes
+grammar.Gender: f
+grammar.Plural: giacche
+//
+word: cappotto
+translation: coat
+type: noun
+group: 👗 Clothing & fashion
+pronunciation: /kapˈpɔtto/
+example.it: Il mio cappotto nuovo è molto caldo.
+example.en: My new coat is very warm.
+etymology: From "cappa"
+tags: ⭐ common, 👗 fashion
+priority: yes
+grammar.Gender: m
+grammar.Plural: cappotti
+//
+word: biancheria intima
+translation: underwear
+type: noun
+group: 👗 Clothing & fashion
+pronunciation: /bjaŋkeˈria ˈintima/
+example.it: Ho bisogno di comprare della biancheria intima.
+example.en: I need to buy some underwear.
+tags: 👗 fashion
+priority: yes
+grammar.Gender: f
+//
+word: calze
+translation: socks
+type: noun
+group: 👗 Clothing & fashion
+pronunciation: /ˈkaltse/
+example.it: Ho perso una delle mie calze nere.
+example.en: I lost one of my black socks.
+etymology: Latin "calcea"
+tags: ⭐ common, 👗 fashion
+priority: yes
+grammar.Gender: f
+grammar.Plural: calze
+//
+word: scarpe
+translation: shoes
+type: noun
+group: 👗 Clothing & fashion
+pronunciation: /ˈskarpe/
+example.it: Queste scarpe sono molto comode.
+example.en: These shoes are very comfortable.
+etymology: From Germanic "skrapa"
+tags: ⭐ common, 👗 fashion
+priority: yes
+grammar.Gender: f
+grammar.Plural: scarpe
+//
+word: stivali
+translation: boots
+type: noun
+group: 👗 Clothing & fashion
+pronunciation: /stiˈvali/
+example.it: Ho messo gli stivali per la pioggia.
+example.en: I wore boots for the rain.
+etymology: From "stiva"
+tags: 👗 fashion
+priority: yes
+grammar.Gender: m
+grammar.Plural: stivali
+//
+word: cappello
+translation: hat
+type: noun
+group: 👗 Clothing & fashion
+pronunciation: /kapˈpɛllo/
+example.it: Quel cappello ti sta molto bene.
+example.en: That hat looks very good on you.
+etymology: From "cappa"
+tags: ⭐ common, 👗 fashion
+priority: yes
+grammar.Gender: m
+grammar.Plural: cappelli
+//
+word: sciarpa
+translation: scarf
+type: noun
+group: 👗 Clothing & fashion
+pronunciation: /ˈʃarpa/
+example.it: La mia sciarpa di lana è morbidissima.
+example.en: My wool scarf is very soft.
+etymology: Germanic
+tags: 👗 fashion
+priority: yes
+grammar.Gender: f
+grammar.Plural: sciarpe
+//
+word: guanti
+translation: gloves
+type: noun
+group: 👗 Clothing & fashion
+pronunciation: /ˈɡwanti/
+example.it: Hai portato i guanti?
+example.en: Did you bring your gloves?
+etymology: Germanic "want"
+tags: 👗 fashion
+priority: yes
+grammar.Gender: m
+grammar.Plural: guanti
+//
+word: cintura
+translation: belt
+type: noun
+group: 👗 Clothing & fashion
+pronunciation: /tʃinˈtura/
+example.it: Questa cintura è di cuoio.
+example.en: This belt is leather.
+etymology: Latin "cinctura"
+tags: 👗 fashion
+priority: yes
+grammar.Gender: f
+grammar.Plural: cinture
+//
+word: cravatta
+translation: tie
+type: noun
+group: 👗 Clothing & fashion
+pronunciation: /kraˈvatta/
+example.it: Deve portare una cravatta elegante.
+example.en: He must wear an elegant tie.
+etymology: From "croato" (historically)
+tags: 👗 fashion
+priority: yes
+grammar.Gender: f
+grammar.Plural: cravatte
+//
+word: borsa
+translation: bag
+type: noun
+group: 👗 Clothing & fashion
+pronunciation: /ˈborsa/
+example.it: Ho dimenticato la borsa in auto.
+example.en: I forgot my bag in the car.
+etymology: Latin "bursa"
+tags: ⭐ common, 👗 fashion
+priority: yes
+grammar.Gender: f
+grammar.Plural: borse
+//
+word: occhiali
+translation: glasses
+type: noun
+group: 👗 Clothing & fashion
+pronunciation: /okˈkjali/
+example.it: Non trovo più i miei occhiali.
+example.en: I can't find my glasses anymore.
+etymology: From "occhio"
+tags: ⭐ common, 👗 fashion
+priority: yes
+grammar.Gender: m
+grammar.Plural: occhiali (plural tantum)
+//
+word: anello
+translation: ring
+type: noun
+group: 👗 Clothing & fashion
+pronunciation: /aˈnɛllo/
+example.it: Questo anello è d'oro.
+example.en: This ring is gold.
+etymology: Latin "annulus"
+tags: 👗 fashion
+priority: yes
+grammar.Gender: m
+grammar.Plural: anelli
+//
+word: collana
+translation: necklace
+type: noun
+group: 👗 Clothing & fashion
+pronunciation: /kolˈlana/
+example.it: Lei indossa una bellissima collana.
+example.en: She is wearing a beautiful necklace.
+etymology: From "collo"
+tags: 👗 fashion
+priority: yes
+grammar.Gender: f
+grammar.Plural: collane
+//
+word: taglia
+translation: size
+type: noun
+group: 👗 Clothing & fashion
+pronunciation: /ˈtaʎʎa/
+example.it: Che taglia porti?
+example.en: What size do you wear?
+etymology: From "tagliare"
+tags: 👗 fashion
+priority: yes
+grammar.Gender: f
+grammar.Plural: taglie
+//
+word: indossare
+translation: to wear
+type: verb
+group: 👗 Clothing & fashion
+pronunciation: /indosˈsare/
+example.it: Oggi indosso un vestito blu.
+example.en: Today I am wearing a blue dress.
+etymology: From "in" and "dosso" (back)
+tags: ⭐ common, 👗 fashion
+priority: yes
+grammar.Verb group: -are
+grammar.Auxiliary (passato prossimo): avere
+grammar.Participio passato: indossato
+grammar.Passato remoto (io): indossai
+grammar.Gerundio: indossando
+grammar.Presente (all 6 forms): indosso / indossi / indossa / indossiamo / indossate / indossano
+//
+word: provare
+translation: to try on
+type: verb
+group: 👗 Clothing & fashion
+pronunciation: /proˈvare/
+example.it: Posso provare questa giacca?
+example.en: Can I try on this jacket?
+etymology: Latin "probare"
+tags: ⭐ common, 👗 fashion
+priority: yes
+grammar.Verb group: -are
+grammar.Auxiliary (passato prossimo): avere
+grammar.Participio passato: provato
+grammar.Passato remoto (io): provai
+grammar.Gerundio: provando
+grammar.Presente (all 6 forms): provo / provi / prova / proviamo / provate / provano
+//
+word: andare bene
+translation: to fit
+type: phrase
+group: 👗 Clothing & fashion
+pronunciation: /ˈandare ˈbɛne/
+example.it: Questo vestito mi va bene.
+example.en: This dress fits me well.
+tags: 👗 fashion
+priority: yes
+grammar.Register: neutral
+//
+word: a righe
+translation: striped
+type: phrase
+group: 👗 Clothing & fashion
+pronunciation: /a ˈriɡe/
+example.it: Preferisco le magliette a righe.
+example.en: I prefer striped t-shirts.
+tags: 👗 fashion
+priority: yes
+grammar.Register: neutral
+//
+word: a tinta unita
+translation: plain
+type: phrase
+group: 👗 Clothing & fashion
+pronunciation: /a ˈtinta uˈnita/
+example.it: Cerco una camicia a tinta unita.
+example.en: I am looking for a plain shirt.
+tags: 👗 fashion
+priority: yes
+grammar.Register: neutral
+//
+word: a fantasia
+translation: patterned
+type: phrase
+group: 👗 Clothing & fashion
+pronunciation: /a fantaˈzia/
+example.it: Non mi piacciono i vestiti a fantasia.
+example.en: I don't like patterned clothes.
+tags: 👗 fashion
+priority: yes
+grammar.Register: neutral
+//
+word: cotone
+translation: cotton
+type: noun
+group: 👗 Clothing & fashion
+pronunciation: /koˈtone/
+example.it: Questa maglietta è di cotone.
+example.en: This t-shirt is made of cotton.
+etymology: Arabic "qutn"
+tags: 👗 fashion
+priority: yes
+grammar.Gender: m
+grammar.Plural: cotoni
+//
+word: lana
+translation: wool
+type: noun
+group: 👗 Clothing & fashion
+pronunciation: /ˈlana/
+example.it: La sciarpa è di pura lana.
+example.en: The scarf is pure wool.
+etymology: Latin "lana"
+tags: 👗 fashion
+priority: yes
+grammar.Gender: f
+grammar.Plural: lane

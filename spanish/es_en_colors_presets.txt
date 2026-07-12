@@ -1,0 +1,358 @@
+word: rojo
+translation: red
+type: adjective
+group: 🎨 Colors & shapes
+pronunciation: /ˈroxo/
+example.es: Me gusta esta manzana roja.
+example.en: I like this red apple.
+tags: ⭐ common, 🎨 art
+priority: yes
+grammar.Feminine form: roja
+grammar.Plural (masc.): rojos
+grammar.Plural (fem.): rojas
+//
+word: azul
+translation: blue
+type: adjective
+group: 🎨 Colors & shapes
+pronunciation: /aˈθul/
+example.es: El cielo está muy azul hoy.
+example.en: The sky is very blue today.
+tags: ⭐ common, 🎨 art
+priority: yes
+grammar.Feminine form: azul
+grammar.Plural (masc.): azules
+grammar.Plural (fem.): azules
+//
+word: verde
+translation: green
+type: adjective
+group: 🎨 Colors & shapes
+pronunciation: /ˈbeɾðe/
+example.es: El césped está verde.
+example.en: The grass is green.
+tags: ⭐ common, 🌿 nature
+priority: yes
+grammar.Feminine form: verde
+grammar.Plural (masc.): verdes
+grammar.Plural (fem.): verdes
+//
+word: amarillo
+translation: yellow
+type: adjective
+group: 🎨 Colors & shapes
+pronunciation: /amaˈɾiʝo/
+example.es: El sol es amarillo.
+example.en: The sun is yellow.
+tags: ⭐ common, 🎨 art
+priority: yes
+grammar.Feminine form: amarilla
+grammar.Plural (masc.): amarillos
+grammar.Plural (fem.): amarillas
+//
+word: naranja
+translation: orange
+type: adjective
+group: 🎨 Colors & shapes
+pronunciation: /naˈɾanxa/
+example.es: Compré una camiseta naranja.
+example.en: I bought an orange t-shirt.
+note: Often used as an invariable adjective, though 'naranjas' is sometimes seen.
+tags: ⭐ common, 🎨 art
+priority: yes
+grammar.Feminine form: naranja
+grammar.Plural (masc.): naranja
+grammar.Plural (fem.): naranja
+//
+word: morado
+translation: purple
+type: adjective
+group: 🎨 Colors & shapes
+pronunciation: /moˈɾaðo/
+example.es: Las flores son moradas.
+example.en: The flowers are purple.
+tags: ⭐ common, 🎨 art
+priority: yes
+grammar.Feminine form: morada
+grammar.Plural (masc.): morados
+grammar.Plural (fem.): moradas
+//
+word: rosa
+translation: pink
+type: adjective
+group: 🎨 Colors & shapes
+pronunciation: /ˈrosa/
+example.es: Ella lleva un vestido rosa.
+example.en: She is wearing a pink dress.
+tags: ⭐ common, 🎨 art
+priority: yes
+grammar.Feminine form: rosa
+grammar.Plural (masc.): rosa
+grammar.Plural (fem.): rosa
+//
+word: marrón
+translation: brown
+type: adjective
+group: 🎨 Colors & shapes
+pronunciation: /maˈron/
+example.es: Él tiene ojos marrones.
+example.en: He has brown eyes.
+tags: ⭐ common, 🎨 art
+priority: yes
+grammar.Feminine form: marrón
+grammar.Plural (masc.): marrones
+grammar.Plural (fem.): marrones
+//
+word: negro
+translation: black
+type: adjective
+group: 🎨 Colors & shapes
+pronunciation: /ˈneɣɾo/
+example.es: El gato negro corre rápido.
+example.en: The black cat runs fast.
+tags: ⭐ common, 🎨 art
+priority: yes
+grammar.Feminine form: negra
+grammar.Plural (masc.): negros
+grammar.Plural (fem.): negras
+//
+word: blanco
+translation: white
+type: adjective
+group: 🎨 Colors & shapes
+pronunciation: /ˈblaŋko/
+example.es: La nieve es blanca.
+example.en: The snow is white.
+tags: ⭐ common, 🎨 art
+priority: yes
+grammar.Feminine form: blanca
+grammar.Plural (masc.): blancos
+grammar.Plural (fem.): blancas
+//
+word: gris
+translation: grey
+type: adjective
+group: 🎨 Colors & shapes
+pronunciation: /ɡɾis/
+example.es: Hoy el cielo está gris.
+example.en: The sky is grey today.
+tags: ⭐ common, 🎨 art
+priority: yes
+grammar.Feminine form: gris
+grammar.Plural (masc.): grises
+grammar.Plural (fem.): grises
+//
+word: oscuro
+translation: dark
+type: adjective
+group: 🎨 Colors & shapes
+pronunciation: /osˈkuɾo/
+example.es: Está muy oscuro aquí.
+example.en: It is very dark here.
+tags: ⭐ common, 🎨 art
+priority: yes
+grammar.Feminine form: oscura
+grammar.Plural (masc.): oscuros
+grammar.Plural (fem.): oscuras
+//
+word: claro
+translation: light
+type: adjective
+group: 🎨 Colors & shapes
+pronunciation: /ˈklaɾo/
+example.es: Me gusta el azul claro.
+example.en: I like light blue.
+tags: ⭐ common, 🎨 art
+priority: yes
+grammar.Feminine form: clara
+grammar.Plural (masc.): claros
+grammar.Plural (fem.): claras
+//
+word: brillante
+translation: bright
+type: adjective
+group: 🎨 Colors & shapes
+pronunciation: /bɾiˈʝante/
+example.es: Tiene una sonrisa brillante.
+example.en: She has a bright smile.
+tags: ⭐ common, ⚡ intensity
+priority: yes
+grammar.Feminine form: brillante
+grammar.Plural (masc.): brillantes
+grammar.Plural (fem.): brillantes
+//
+word: pálido
+translation: pale
+type: adjective
+group: 🎨 Colors & shapes
+pronunciation: /ˈpaliðo/
+example.es: Estás muy pálido, ¿estás bien?
+example.en: You look very pale, are you okay?
+tags: ⭐ common, ✨ appearance
+priority: yes
+grammar.Feminine form: pálida
+grammar.Plural (masc.): pálidos
+grammar.Plural (fem.): pálidas
+//
+word: grande
+translation: big
+type: adjective
+group: 🎨 Colors & shapes
+pronunciation: /ˈɡɾande/
+example.es: Es una casa muy grande.
+example.en: It is a very big house.
+tags: ⭐ common, ⚡ intensity
+priority: yes
+grammar.Feminine form: grande
+grammar.Plural (masc.): grandes
+grammar.Plural (fem.): grandes
+//
+word: pequeño
+translation: small
+type: adjective
+group: 🎨 Colors & shapes
+pronunciation: /peˈkeɲo/
+example.es: Es un perro pequeño.
+example.en: It is a small dog.
+tags: ⭐ common, ⚡ intensity
+priority: yes
+grammar.Feminine form: pequeña
+grammar.Plural (masc.): pequeños
+grammar.Plural (fem.): pequeñas
+//
+word: largo
+translation: long
+type: adjective
+group: 🎨 Colors & shapes
+pronunciation: /ˈlaɾɣo/
+example.es: Tiene el pelo muy largo.
+example.en: She has very long hair.
+tags: ⭐ common, ✨ appearance
+priority: yes
+grammar.Feminine form: larga
+grammar.Plural (masc.): largos
+grammar.Plural (fem.): largas
+//
+word: corto
+translation: short
+type: adjective
+group: 🎨 Colors & shapes
+pronunciation: /ˈkoɾto/
+example.es: Es un camino muy corto.
+example.en: It is a very short path.
+tags: ⭐ common, ⏳ time
+priority: yes
+grammar.Feminine form: corta
+grammar.Plural (masc.): cortos
+grammar.Plural (fem.): cortas
+//
+word: ancho
+translation: wide
+type: adjective
+group: 🎨 Colors & shapes
+pronunciation: /ˈantʃo/
+example.es: Es un río muy ancho.
+example.en: It is a very wide river.
+tags: ⭐ common, 🎨 art
+priority: yes
+grammar.Feminine form: ancha
+grammar.Plural (masc.): anchos
+grammar.Plural (fem.): anchas
+//
+word: estrecho
+translation: narrow
+type: adjective
+group: 🎨 Colors & shapes
+pronunciation: /esˈtɾetʃo/
+example.es: La calle es muy estrecha.
+example.en: The street is very narrow.
+tags: ⭐ common, 🎨 art
+priority: yes
+grammar.Feminine form: estrecha
+grammar.Plural (masc.): estrechos
+grammar.Plural (fem.): estrechas
+//
+word: redondo
+translation: round
+type: adjective
+group: 🎨 Colors & shapes
+pronunciation: /reˈðondo/
+example.es: La mesa es redonda.
+example.en: The table is round.
+tags: ⭐ common, 🎨 art
+priority: yes
+grammar.Feminine form: redonda
+grammar.Plural (masc.): redondos
+grammar.Plural (fem.): redondas
+//
+word: círculo
+translation: circle
+type: noun
+group: 🎨 Colors & shapes
+pronunciation: /ˈθiɾkulo/
+example.es: Dibuja un círculo en el papel.
+example.en: Draw a circle on the paper.
+tags: ⭐ common, 🎨 art
+priority: yes
+grammar.Gender: m
+grammar.Plural: círculos
+//
+word: cuadrado
+translation: square
+type: noun
+group: 🎨 Colors & shapes
+pronunciation: /kwaˈðɾaðo/
+example.es: La caja tiene forma de cuadrado.
+example.en: The box is square-shaped.
+tags: ⭐ common, 🎨 art
+priority: yes
+grammar.Gender: m
+grammar.Plural: cuadrados
+//
+word: triángulo
+translation: triangle
+type: noun
+group: 🎨 Colors & shapes
+pronunciation: /tɾiˈaŋɡulo/
+example.es: El símbolo es un triángulo.
+example.en: The symbol is a triangle.
+tags: ⭐ common, 🎨 art
+priority: yes
+grammar.Gender: m
+grammar.Plural: triángulos
+//
+word: rectángulo
+translation: rectangle
+type: noun
+group: 🎨 Colors & shapes
+pronunciation: /rekˈtaŋɡulo/
+example.es: El libro tiene forma de rectángulo.
+example.en: The book is rectangular.
+tags: ⭐ common, 🎨 art
+priority: yes
+grammar.Gender: m
+grammar.Plural: rectángulos
+//
+word: línea
+translation: line
+type: noun
+group: 🎨 Colors & shapes
+pronunciation: /ˈlinea/
+example.es: Traza una línea recta.
+example.en: Draw a straight line.
+tags: ⭐ common, 🎨 art
+priority: yes
+grammar.Gender: f
+grammar.Plural: líneas
+//
+word: punto
+translation: point
+type: noun
+group: 🎨 Colors & shapes
+pronunciation: /ˈpunto/
+example.es: Pon un punto al final.
+example.en: Put a point at the end.
+tags: ⭐ common, 🎨 art
+priority: yes
+grammar.Gender: m
+grammar.Plural: puntos

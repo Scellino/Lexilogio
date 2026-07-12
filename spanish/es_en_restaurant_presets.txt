@@ -1,0 +1,246 @@
+word: camarero / camarera
+translation: waiter
+type: noun
+group: 🍴 Restaurants & ordering
+pronunciation: /kamaˈɾeɾo/
+example.es: El camarero nos trajo el menú.
+example.en: The waiter brought us the menu.
+tags: ⭐ common, 🍴 food
+priority: yes
+grammar.Gender: m/f
+grammar.Plural: camareros / camareras
+//
+word: propina
+translation: tip
+type: noun
+group: 🍴 Restaurants & ordering
+pronunciation: /pɾoˈpina/
+example.es: Dejamos una buena propina hoy.
+example.en: We left a good tip today.
+tags: ⭐ common, 🍴 food
+priority: yes
+grammar.Gender: f
+grammar.Plural: propinas
+//
+word: menú / carta
+translation: menu
+type: noun
+group: 🍴 Restaurants & ordering
+pronunciation: /meˈnu/ /ˈkaɾta/
+example.es: ¿Nos puede traer la carta, por favor?
+example.en: Can you bring us the menu, please?
+tags: ⭐ common, 🍴 food
+priority: yes
+grammar.Gender: m/f
+grammar.Plural: menús / cartas
+//
+word: cuenta
+translation: bill, account (banking/tech)
+type: noun
+group: 🍴 Restaurants & ordering
+pronunciation: /ˈkwenta/
+example.es: Ya pagué la cuenta.
+example.en: I already paid the bill.
+tags: ⭐ common, 🍴 food
+priority: yes
+grammar.Gender: f
+grammar.Plural: cuentas
+//
+word: entrante / primer plato
+translation: starter
+type: noun
+group: 🍴 Restaurants & ordering
+pronunciation: /enˈtɾante/
+example.es: Pedimos una ensalada de entrante.
+example.en: We ordered a salad for a starter.
+tags: ⭐ common, 🍴 food
+priority: yes
+grammar.Gender: m
+grammar.Plural: entrantes
+//
+word: plato principal
+translation: main course
+type: noun
+group: 🍴 Restaurants & ordering
+pronunciation: /ˈplato pɾinθiˈpal/
+example.es: ¿Qué recomienda como plato principal?
+example.en: What do you recommend as a main course?
+tags: ⭐ common, 🍴 food
+priority: yes
+grammar.Gender: m
+grammar.Plural: platos principales
+//
+word: postre
+translation: dessert
+type: noun
+group: 🍴 Restaurants & ordering
+pronunciation: /ˈpostɾe/
+example.es: De postre queremos helado.
+example.en: For dessert we want ice cream.
+tags: ⭐ common, 🍴 food
+priority: yes
+grammar.Gender: m
+grammar.Plural: postres
+//
+word: bebida
+translation: drink
+type: noun
+group: 🍴 Restaurants & ordering
+pronunciation: /beˈβiða/
+example.es: ¿Qué desea de beber?
+example.en: What would you like to drink?
+tags: ⭐ common, 🍴 food
+priority: yes
+grammar.Gender: f
+grammar.Plural: bebidas
+//
+word: pedir
+translation: to order
+type: verb
+group: 🍴 Restaurants & ordering
+pronunciation: /peˈðiɾ/
+example.es: Estamos listos para pedir.
+example.en: We are ready to order.
+tags: ⭐ common, 🍴 food
+priority: yes
+grammar.Verb type: -ir (e > i)
+grammar.Presente: pido / pides / pide / pedimos / pedís / piden
+//
+word: recomendar
+translation: to recommend
+type: verb
+group: 🍴 Restaurants & ordering
+pronunciation: /rekomenˈdaɾ/
+example.es: ¿Qué nos recomienda usted?
+example.en: What do you recommend to us?
+tags: ⭐ common, 🍴 food
+priority: yes
+grammar.Verb type: -ar (e > ie)
+grammar.Presente: recomiendo / recomiendas / recomienda / recomendamos / recomendáis / recomiendan
+//
+word: servir
+translation: to serve
+type: verb
+group: 🍴 Restaurants & ordering
+pronunciation: /seɾˈβiɾ/
+example.es: Nos sirvieron la comida muy rápido.
+example.en: They served our food very fast.
+tags: ⭐ common, 🍴 food
+priority: yes
+grammar.Verb type: -ir (e > i)
+grammar.Presente: sirvo / sirves / sirve / servimos / servís / sirven
+//
+word: suave
+translation: mild
+type: adjective
+group: 🍴 Restaurants & ordering
+pronunciation: /ˈswaβe/
+example.es: Esta salsa es muy suave.
+example.en: This sauce is very mild.
+tags: ⭐ common, 🍴 food
+priority: yes
+grammar.Gender: invariable
+//
+word: delicioso
+translation: delicious
+type: adjective
+group: 🍴 Restaurants & ordering
+pronunciation: /deliˈθjoso/
+example.es: ¡El postre estaba delicioso!
+example.en: The dessert was delicious!
+tags: ⭐ common, 🍴 food
+priority: yes
+grammar.Feminine: deliciosa
+grammar.Plural: deliciosos / deliciosas
+//
+word: para llevar
+translation: take away
+type: phrase
+group: 🍴 Restaurants & ordering
+pronunciation: /ˈpaɾa ʝeˈβaɾ/
+example.es: Queremos la comida para llevar.
+example.en: We want the food for take away.
+tags: ⭐ common, 🍴 food
+priority: yes
+grammar.Register: neutral
+//
+word: reparto (a domicilio)
+translation: delivery
+type: noun
+group: 🍴 Restaurants & ordering
+pronunciation: /reˈpaɾto/
+example.es: ¿Tienen servicio de reparto a domicilio?
+example.en: Do you have delivery service?
+tags: ⭐ common, 🍴 food
+priority: yes
+grammar.Gender: m
+grammar.Plural: repartos
+//
+word: ración
+translation: portion
+type: noun
+group: 🍴 Restaurants & ordering
+pronunciation: /raˈθjon/
+example.es: La ración es bastante grande.
+example.en: The portion is quite big.
+tags: ⭐ common, 🍴 food
+priority: yes
+grammar.Gender: f
+grammar.Plural: raciones
+//
+word: botella
+translation: bottle
+type: noun
+group: 🍴 Restaurants & ordering
+pronunciation: /boˈteʝa/
+example.es: Una botella de agua, por favor.
+example.en: A bottle of water, please.
+tags: ⭐ common, 🍴 food
+priority: yes
+grammar.Gender: f
+grammar.Plural: botellas
+//
+word: probar
+translation: to taste
+type: verb
+group: 🍴 Restaurants & ordering
+pronunciation: /pɾoˈβaɾ/
+example.es: ¿Quiere probar esta salsa?
+example.en: Do you want to taste this sauce?
+tags: ⭐ common, 🍴 food
+priority: yes
+grammar.Verb type: -ar (o > ue)
+grammar.Presente: pruebo / pruebas / prueba / probamos / probáis / prueban
+//
+word: bien hecho
+translation: well done
+type: phrase
+group: 🍴 Restaurants & ordering
+pronunciation: /ˈbjen ˈetʃo/
+example.es: Quiero mi carne bien hecha.
+example.en: I want my meat well done.
+tags: ⭐ common, 🍴 food
+priority: yes
+grammar.Gender: m/f (bien hecha)
+//
+word: buen provecho
+translation: enjoy your meal
+type: phrase
+group: 🍴 Restaurants & ordering
+pronunciation: /ˈbwen pɾoˈβetʃo/
+example.es: El camarero nos dijo: "¡Buen provecho!"
+example.en: The waiter said to us: "Enjoy your meal!"
+tags: ⭐ common, 🍴 food
+priority: yes
+grammar.Register: neutral
+//
+word: la cuenta, por favor
+translation: the bill please
+type: phrase
+group: 🍴 Restaurants & ordering
+pronunciation: /la ˈkwenta poɾ faˈβoɾ/
+example.es: "¿La cuenta, por favor?", dijimos.
+example.en: "The bill, please?", we said.
+tags: ⭐ common, 🍴 food
+priority: yes
+grammar.Register: neutral

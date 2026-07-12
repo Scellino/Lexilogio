@@ -1,0 +1,408 @@
+word: ingeniero
+translation: engineer
+type: noun
+group: 💼 Jobs & work
+pronunciation: /inxeˈnjeɾo/
+example.es: Mi hermano es ingeniero civil.
+example.en: My brother is a civil engineer.
+tags: ⭐ common, 💼 work
+priority: yes
+grammar.Gender: m
+grammar.Plural: ingenieros
+grammar.Feminine: ingeniera
+//
+word: abogado
+translation: lawyer
+type: noun
+group: 💼 Jobs & work
+pronunciation: /aβoˈɣaðo/
+example.es: Necesito hablar con un abogado.
+example.en: I need to speak to a lawyer.
+tags: ⭐ common, 💼 work
+priority: yes
+grammar.Gender: m
+grammar.Plural: abogados
+grammar.Feminine: abogada
+//
+word: periodista
+translation: journalist
+type: noun
+group: 💼 Jobs & work
+pronunciation: /peɾjoˈðista/
+example.es: Ella es una periodista famosa.
+example.en: She is a famous journalist.
+tags: ⭐ common, 💼 work
+priority: yes
+grammar.Gender: m/f
+grammar.Plural: periodistas
+//
+word: chef
+translation: chef
+type: noun
+group: 💼 Jobs & work
+pronunciation: /tʃef/
+example.es: El chef preparó una cena deliciosa.
+example.en: The chef prepared a delicious dinner.
+tags: ⭐ common, 💼 work
+priority: yes
+grammar.Gender: m/f
+grammar.Plural: chefs
+//
+word: arquitecto
+translation: architect
+type: noun
+group: 💼 Jobs & work
+pronunciation: /aɾkiˈtekto/
+example.es: El arquitecto diseñó este edificio.
+example.en: The architect designed this building.
+tags: ⭐ common, 💼 work
+priority: yes
+grammar.Gender: m
+grammar.Plural: arquitectos
+grammar.Feminine: arquitecta
+//
+word: policía
+translation: police officer
+type: noun
+group: 💼 Jobs & work
+pronunciation: /poliˈθia/
+example.es: El policía ayudó a la anciana.
+example.en: The police officer helped the old lady.
+tags: ⭐ common, 💼 work
+priority: yes
+grammar.Gender: m/f
+grammar.Plural: policías
+//
+word: bombero
+translation: firefighter
+type: noun
+group: 💼 Jobs & work
+pronunciation: /bomˈbeɾo/
+example.es: Los bomberos apagaron el incendio.
+example.en: The firefighters put out the fire.
+tags: ⭐ common, 💼 work
+priority: yes
+grammar.Gender: m
+grammar.Plural: bomberos
+grammar.Feminine: bombera
+//
+word: piloto
+translation: pilot
+type: noun
+group: 💼 Jobs & work
+pronunciation: /piˈloto/
+example.es: El piloto anunció el despegue.
+example.en: The pilot announced the takeoff.
+tags: ⭐ common, 💼 work
+priority: yes
+grammar.Gender: m
+grammar.Plural: pilotos
+grammar.Feminine: pilota
+//
+word: mecánico
+translation: mechanic
+type: noun
+group: 💼 Jobs & work
+pronunciation: /meˈkaniko/
+example.es: El mecánico arregló mi coche.
+example.en: The mechanic fixed my car.
+tags: ⭐ common, 💼 work
+priority: yes
+grammar.Gender: m
+grammar.Plural: mecánicos
+grammar.Feminine: mecánica
+//
+word: programador
+translation: programmer
+type: noun
+group: 💼 Jobs & work
+pronunciation: /proɣɾamaˈðoɾ/
+example.es: Soy programador de software.
+example.en: I am a software programmer.
+tags: ⭐ common, 💼 work
+priority: yes
+grammar.Gender: m
+grammar.Plural: programadores
+grammar.Feminine: programadora
+//
+word: artista
+translation: artist
+type: noun
+group: 💼 Jobs & work
+pronunciation: /aɾˈtista/
+example.es: Es una artista muy creativa.
+example.en: She is a very creative artist.
+tags: ⭐ common, 💼 work
+priority: yes
+grammar.Gender: m/f
+grammar.Plural: artistas
+//
+word: músico
+translation: musician
+type: noun
+group: 💼 Jobs & work
+pronunciation: /ˈmusiko/
+example.es: Él es un músico talentoso.
+example.en: He is a talented musician.
+tags: ⭐ common, 💼 work
+priority: yes
+grammar.Gender: m
+grammar.Plural: músicos
+grammar.Feminine: música
+//
+word: actor
+translation: actor
+type: noun
+group: 💼 Jobs & work
+pronunciation: /akˈtoɾ/
+example.es: El actor principal es excelente.
+example.en: The lead actor is excellent.
+tags: ⭐ common, 💼 work
+priority: yes
+grammar.Gender: m
+grammar.Plural: actores
+grammar.Feminine: actriz
+//
+word: granjero
+translation: farmer
+type: noun
+group: 💼 Jobs & work
+pronunciation: /ɡɾanˈxeɾo/
+example.es: El granjero cultiva verduras frescas.
+example.en: The farmer grows fresh vegetables.
+tags: ⭐ common, 💼 work
+priority: yes
+grammar.Gender: m
+grammar.Plural: granjeros
+grammar.Feminine: granjera
+//
+word: constructor
+translation: builder
+type: noun
+group: 💼 Jobs & work
+pronunciation: /konstɾukˈtoɾ/
+example.es: El constructor terminó la casa.
+example.en: The builder finished the house.
+tags: ⭐ common, 💼 work
+priority: yes
+grammar.Gender: m
+grammar.Plural: constructores
+grammar.Feminine: constructora
+//
+word: contable
+translation: accountant
+type: noun
+group: 💼 Jobs & work
+pronunciation: /konˈtaβle/
+example.es: Mi contable revisó los impuestos.
+example.en: My accountant checked the taxes.
+tags: ⭐ common, 💼 work
+priority: yes
+grammar.Gender: m/f
+grammar.Plural: contables
+//
+word: trabajo
+translation: job, work
+type: noun
+group: 💼 Jobs & work
+pronunciation: /tɾaˈβaxo/
+example.es: Tengo un nuevo trabajo.
+example.en: I have a new job.
+tags: ⭐ common, 💼 work
+priority: yes
+grammar.Gender: m
+grammar.Plural: trabajos
+//
+word: salario
+translation: salary
+type: noun
+group: 💼 Jobs & work
+pronunciation: /saˈlaɾjo/
+example.es: Mi salario es suficiente.
+example.en: My salary is enough.
+tags: ⭐ common, 💼 work
+priority: yes
+grammar.Gender: m
+grammar.Plural: salarios
+//
+word: oficina
+translation: office
+type: noun
+group: 💼 Jobs & work
+pronunciation: /ofiˈθina/
+example.es: Mi oficina está en el centro.
+example.en: My office is in the center.
+tags: ⭐ common, 💼 work
+priority: yes
+grammar.Gender: f
+grammar.Plural: oficinas
+//
+word: fábrica
+translation: factory
+type: noun
+group: 💼 Jobs & work
+pronunciation: /ˈfaβɾika/
+example.es: Ella trabaja en una fábrica.
+example.en: She works in a factory.
+tags: ⭐ common, 💼 work
+priority: yes
+grammar.Gender: f
+grammar.Plural: fábricas
+//
+word: reunión
+translation: meeting
+type: noun
+group: 💼 Jobs & work
+pronunciation: /reuˈnjon/
+example.es: Tengo una reunión a las diez.
+example.en: I have a meeting at ten.
+tags: ⭐ common, 💼 work
+priority: yes
+grammar.Gender: f
+grammar.Plural: reuniones
+//
+word: jefe
+translation: boss
+type: noun
+group: 💼 Jobs & work
+pronunciation: /ˈxefe/
+example.es: Mi jefe es muy amable.
+example.en: My boss is very kind.
+tags: ⭐ common, 💼 work
+priority: yes
+grammar.Gender: m
+grammar.Plural: jefes
+grammar.Feminine: jefa
+//
+word: fecha límite
+translation: deadline
+type: noun
+group: 💼 Jobs & work
+pronunciation: /ˈfetʃa ˈlimite/
+example.es: La fecha límite es mañana.
+example.en: The deadline is tomorrow.
+tags: ⭐ common, 💼 work
+priority: yes
+grammar.Gender: f
+grammar.Plural: fechas límite
+//
+note: Also means 'race' in a sports context.
+word: carrera
+translation: career
+type: noun
+group: 💼 Jobs & work
+pronunciation: /kaˈreɾa/
+example.es: Quiero avanzar en mi carrera.
+example.en: I want to advance in my career.
+tags: ⭐ common, 💼 work
+priority: yes
+grammar.Gender: f
+grammar.Plural: carreras
+//
+word: entrevista
+translation: interview
+type: noun
+group: 💼 Jobs & work
+pronunciation: /entɾeˈβista/
+example.es: Tuve una entrevista de trabajo.
+example.en: I had a job interview.
+tags: ⭐ common, 💼 work
+priority: yes
+grammar.Gender: f
+grammar.Plural: entrevistas
+//
+word: contratar
+translation: to hire
+type: verb
+group: 💼 Jobs & work
+pronunciation: /kontɾaˈtaɾ/
+example.es: Van a contratar a más gente.
+example.en: They are going to hire more people.
+tags: ⭐ common, 💼 work
+priority: yes
+grammar.Verb type: -ar
+grammar.Reflexive: no
+grammar.Participio pasado: contratado
+grammar.Pretérito indefinido (yo): contraté
+grammar.Pretérito imperfecto (yo): contrataba
+grammar.Gerundio: contratando
+grammar.Presente: contrato / contratas / contrata / contratamos / contratáis / contratan
+//
+word: jubilarse
+translation: to retire
+type: verb
+group: 💼 Jobs & work
+pronunciation: /xuβiˈlaɾse/
+example.es: Él se va a jubilar el próximo año.
+example.en: He is going to retire next year.
+tags: ⭐ common, 💼 work
+priority: yes
+grammar.Verb type: -ar
+grammar.Reflexive: yes
+grammar.Participio pasado: jubilado
+grammar.Pretérito indefinido (yo): me jubilé
+grammar.Pretérito imperfecto (yo): me jubilaba
+grammar.Gerundio: jubilándose
+grammar.Presente: me jubilo / te jubilas / se jubila / nos jubilamos / os jubiláis / se jubilan
+//
+word: contrato
+translation: contract
+type: noun
+group: 💼 Jobs & work
+pronunciation: /konˈtɾato/
+example.es: Firmé mi nuevo contrato ayer.
+example.en: I signed my new contract yesterday.
+tags: ⭐ common, 💼 work
+priority: yes
+grammar.Gender: m
+grammar.Plural: contratos
+//
+word: empleado
+translation: employee
+type: noun
+group: 💼 Jobs & work
+pronunciation: /empleˈaðo/
+example.es: El empleado es muy eficiente.
+example.en: The employee is very efficient.
+tags: ⭐ common, 💼 work
+priority: yes
+grammar.Gender: m
+grammar.Plural: empleados
+grammar.Feminine: empleada
+//
+word: empleador
+translation: employer
+type: noun
+group: 💼 Jobs & work
+pronunciation: /empleaˈðoɾ/
+example.es: El empleador ofrece beneficios.
+example.en: The employer offers benefits.
+tags: ⭐ common, 💼 work
+priority: yes
+grammar.Gender: m
+grammar.Plural: empleadores
+grammar.Feminine: empleadora
+//
+word: proyecto
+translation: project
+type: noun
+group: 💼 Jobs & work
+pronunciation: /pɾoˈʝekto/
+example.es: Tenemos un proyecto muy importante.
+example.en: We have a very important project.
+tags: ⭐ common, 💼 work
+priority: yes
+grammar.Gender: m
+grammar.Plural: proyectos
+//
+word: informe
+translation: report
+type: noun
+group: 💼 Jobs & work
+pronunciation: /inˈfoɾme/
+example.es: Presenté el informe ayer.
+example.en: I submitted the report yesterday.
+tags: ⭐ common, 💼 work
+priority: yes
+grammar.Gender: m
+grammar.Plural: informes

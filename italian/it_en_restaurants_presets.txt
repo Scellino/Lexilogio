@@ -1,0 +1,270 @@
+word: cameriere
+translation: waiter
+type: noun
+group: 🍴 Restaurants & ordering
+pronunciation: /kameˈrjɛre/
+example.it: Il cameriere ci ha portato il menu.
+example.en: The waiter brought us the menu.
+etymology: From "camera"
+tags: 🍽️ restaurant
+priority: yes
+grammar.Gender: m
+grammar.Plural: camerieri
+//
+word: mancia
+translation: tip
+type: noun
+group: 🍴 Restaurants & ordering
+pronunciation: /ˈmantʃa/
+example.it: Ho lasciato una piccola mancia al ristorante.
+example.en: I left a small tip at the restaurant.
+etymology: From "mancare"
+tags: 🍽️ restaurant
+priority: yes
+grammar.Gender: f
+grammar.Plural: mance
+//
+word: menu
+translation: menu
+type: noun
+group: 🍴 Restaurants & ordering
+pronunciation: /meˈnu/
+example.it: Posso vedere il menu, per favore?
+example.en: Can I see the menu, please?
+etymology: From French
+tags: 🍽️ restaurant
+priority: yes
+grammar.Gender: m
+grammar.Article override: il
+grammar.Plural: menu (invariable)
+//
+word: conto
+translation: bill
+type: noun
+group: 🍴 Restaurants & ordering
+pronunciation: /ˈkonto/
+example.it: Abbiamo chiesto il conto.
+example.en: We asked for the bill.
+etymology: From "contare"
+tags: 🍽️ restaurant
+priority: yes
+grammar.Gender: m
+grammar.Plural: conti
+//
+word: antipasto
+translation: starter
+type: noun
+group: 🍴 Restaurants & ordering
+pronunciation: /antiˈpasto/
+example.it: Per antipasto prendo una bruschetta.
+example.en: For a starter, I'll have a bruschetta.
+etymology: From "anti" and "pasto"
+tags: 🍽️ restaurant
+priority: yes
+grammar.Gender: m
+grammar.Plural: antipasti
+//
+word: dolce
+translation: dessert, sweet
+type: noun
+group: 🍴 Restaurants & ordering
+pronunciation: /ˈdoltʃe/
+example.it: Che cosa c'è per dolce?
+example.en: What is there for dessert?
+etymology: Latin "dulcis"
+tags: 🍽️ restaurant
+priority: yes
+grammar.Gender: m
+grammar.Plural: dolci
+//
+word: bevanda
+translation: drink
+type: noun
+group: 🍴 Restaurants & ordering
+pronunciation: /beˈvanda/
+example.it: Che bevanda preferisci?
+example.en: Which drink do you prefer?
+etymology: From "bevere"
+tags: 🍽️ restaurant
+priority: yes
+grammar.Gender: f
+grammar.Plural: bevande
+//
+word: ordinare
+translation: to order
+type: verb
+group: 🍴 Restaurants & ordering
+pronunciation: /ordiˈnare/
+example.it: Siamo pronti a ordinare.
+example.en: We are ready to order.
+etymology: Latin "ordinare"
+tags: 🍽️ restaurant
+priority: yes
+grammar.Verb group: -are
+grammar.Auxiliary (passato prossimo): avere
+grammar.Participio passato: ordinato
+grammar.Passato remoto (io): ordinai
+grammar.Gerundio: ordinando
+grammar.Presente (all 6 forms): ordino / ordini / ordina / ordiniamo / ordinate / ordinano
+//
+word: consigliare
+translation: to recommend
+type: verb
+group: 🍴 Restaurants & ordering
+pronunciation: /kon siˈʎʎare/
+example.it: Cosa ci consiglia?
+example.en: What do you recommend to us?
+etymology: Latin "consilium"
+tags: 🍽️ restaurant
+priority: yes
+grammar.Verb group: -are
+grammar.Auxiliary (passato prossimo): avere
+grammar.Participio passato: consigliato
+grammar.Passato remoto (io): consigliai
+grammar.Gerundio: consigliando
+grammar.Presente (all 6 forms): consiglio / consigli / consiglia / consigliamo / consigliate / consigliano
+//
+word: servire
+translation: to serve
+type: verb
+group: 🍴 Restaurants & ordering
+pronunciation: /serˈvire/
+example.it: Il pranzo viene servito alle due.
+example.en: Lunch is served at two o'clock.
+etymology: Latin "servire"
+tags: 🍽️ restaurant
+priority: yes
+grammar.Verb group: -ire
+grammar.Auxiliary (passato prossimo): avere
+grammar.Participio passato: servito
+grammar.Passato remoto (io): servii
+grammar.Gerundio: servendo
+grammar.Presente (all 6 forms): servo / servi / serve / serviamo / servite / servono
+//
+word: leggero
+translation: mild
+type: adjective
+group: 🍴 Restaurants & ordering
+pronunciation: /ledˈdʒɛro/
+example.it: Preferisco un sapore leggero.
+example.en: I prefer a mild taste.
+etymology: Latin "levis"
+tags: 🍽️ restaurant
+priority: yes
+grammar.Feminine form: leggera
+grammar.Plural (masc.): leggeri
+grammar.Plural (fem.): leggere
+//
+word: delizioso
+translation: delicious
+type: adjective
+group: 🍴 Restaurants & ordering
+pronunciation: /deliˈtsjoso/
+example.it: Questo piatto è delizioso!
+example.en: This dish is delicious!
+etymology: Latin "delitiosus"
+tags: 🍽️ restaurant
+priority: yes
+grammar.Feminine form: deliziosa
+grammar.Plural (masc.): deliziosi
+grammar.Plural (fem.): deliziose
+//
+word: da asporto
+translation: take away
+type: phrase
+group: 🍴 Restaurants & ordering
+pronunciation: /da asˈpɔrto/
+example.it: Vorrei una pizza da asporto.
+example.en: I would like a pizza take away.
+tags: 🍽️ restaurant
+priority: yes
+grammar.Register: neutral
+//
+word: consegna
+translation: delivery
+type: noun
+group: 🍴 Restaurants & ordering
+pronunciation: /konˈseɲɲa/
+example.it: Il costo della consegna è gratuito.
+example.en: The delivery cost is free.
+etymology: From "consegnare"
+tags: 🍽️ restaurant
+priority: yes
+grammar.Gender: f
+grammar.Plural: consegne
+//
+word: porzione
+translation: portion
+type: noun
+group: 🍴 Restaurants & ordering
+pronunciation: /porˈtsjone/
+example.it: Questa è una porzione abbondante.
+example.en: This is an abundant portion.
+etymology: Latin "portio"
+tags: 🍽️ restaurant
+priority: yes
+grammar.Gender: f
+grammar.Plural: porzioni
+//
+word: bottiglia
+translation: bottle
+type: noun
+group: 🍴 Restaurants & ordering
+pronunciation: /botˈtiʎʎa/
+example.it: Una bottiglia di vino rosso, per favore.
+example.en: A bottle of red wine, please.
+etymology: From "botte"
+tags: 🍽️ restaurant
+priority: yes
+grammar.Gender: f
+grammar.Plural: bottiglie
+//
+word: assaggiare
+translation: to taste
+type: verb
+group: 🍴 Restaurants & ordering
+pronunciation: /assadˈdʒare/
+example.it: Posso assaggiare questo formaggio?
+example.en: Can I taste this cheese?
+etymology: From "saggio"
+tags: 🍽️ restaurant
+priority: yes
+grammar.Verb group: -are
+grammar.Auxiliary (passato prossimo): avere
+grammar.Participio passato: assaggiato
+grammar.Passato remoto (io): assaggiai
+grammar.Gerundio: assaggiando
+grammar.Presente (all 6 forms): assaggio / assaggi / assaggia / assaggiamo / assaggiate / assaggiano
+//
+word: ben cotto
+translation: well done
+type: phrase
+group: 🍴 Restaurants & ordering
+pronunciation: /bɛn ˈkɔtto/
+example.it: Vorrei la carne ben cotta.
+example.en: I would like my meat well done.
+tags: 🍽️ restaurant
+priority: yes
+grammar.Register: neutral
+//
+word: buon appetito
+translation: enjoy your meal
+type: phrase
+group: 🍴 Restaurants & ordering
+pronunciation: /bwɔn appeˈtito/
+example.it: Buon appetito!
+example.en: Enjoy your meal!
+tags: 🍽️ restaurant
+priority: yes
+grammar.Register: neutral
+//
+word: il conto, per favore
+translation: the bill please
+type: phrase
+group: 🍴 Restaurants & ordering
+pronunciation: /il ˈkonto, per faˈvore/
+example.it: Scusi, il conto, per favore.
+example.en: Excuse me, the bill please.
+tags: 🍽️ restaurant
+priority: yes
+grammar.Register: neutral

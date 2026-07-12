@@ -1,0 +1,407 @@
+word: escuela
+translation: school
+type: noun
+group: 📚 School & education
+pronunciation: /esˈkwela/
+example.es: La escuela está cerca de mi casa.
+example.en: The school is near my house.
+tags: ⭐ common, 📚 education
+priority: yes
+grammar.Gender: f
+grammar.Plural: escuelas
+//
+word: profesor / profesora
+translation: teacher
+type: noun
+group: 📚 School & education
+pronunciation: /pɾofeˈsoɾ/
+example.es: Mi profesor de historia es muy bueno.
+example.en: My history teacher is very good.
+tags: ⭐ common, 📚 education
+priority: yes
+grammar.Gender: m/f
+grammar.Plural: profesores / profesoras
+//
+word: universidad
+translation: university
+type: noun
+group: 📚 School & education
+pronunciation: /uniβeɾsiˈðað/
+example.es: Ella estudia en la universidad.
+example.en: She studies at the university.
+tags: ⭐ common, 📚 education
+priority: yes
+grammar.Gender: f
+grammar.Plural: universidades
+//
+word: aula / clase
+translation: classroom
+type: noun
+group: 📚 School & education
+pronunciation: /ˈaula/ /ˈklase/
+example.es: El aula es muy grande y luminosa.
+example.en: The classroom is very big and bright.
+tags: ⭐ common, 📚 education
+priority: yes
+grammar.Gender: f
+grammar.Plural: aulas / clases
+//
+word: estudiante / alumno
+translation: student
+type: noun
+group: 📚 School & education
+pronunciation: /estuˈðjante/ /aˈlumno/
+example.es: Los estudiantes escuchan al profesor.
+example.en: The students are listening to the teacher.
+tags: ⭐ common, 📚 education
+priority: yes
+grammar.Gender: m/f
+grammar.Plural: estudiantes / alumnos
+//
+word: lección / clase
+translation: lesson
+type: noun
+group: 📚 School & education
+pronunciation: /lekˈθjon/ /ˈklase/
+example.es: La lección de hoy fue interesante.
+example.en: Today's lesson was interesting.
+tags: ⭐ common, 📚 education
+priority: yes
+grammar.Gender: f
+grammar.Plural: lecciones / clases
+//
+word: asignatura / materia
+translation: subject
+type: noun
+group: 📚 School & education
+pronunciation: /asiɣnuˈtuɾa/ /maˈteɾja/
+example.es: ¿Cuál es tu asignatura favorita?
+example.en: What is your favorite subject?
+tags: ⭐ common, 📚 education
+priority: yes
+grammar.Gender: f
+grammar.Plural: asignaturas / materias
+//
+word: deberes
+translation: homework
+type: noun
+group: 📚 School & education
+pronunciation: /deˈβeɾes/
+example.es: Tengo que hacer mis deberes.
+example.en: I have to do my homework.
+tags: ⭐ common, 📚 education
+priority: yes
+grammar.Gender: m
+grammar.Plural: (always plural)
+//
+word: examen
+translation: exam
+type: noun
+group: 📚 School & education
+pronunciation: /ekˈsamen/
+example.es: Mañana tengo un examen difícil.
+example.en: Tomorrow I have a difficult exam.
+tags: ⭐ common, 📚 education
+priority: yes
+grammar.Gender: m
+grammar.Plural: exámenes
+//
+word: nota / calificación
+translation: grade
+type: noun
+group: 📚 School & education
+pronunciation: /ˈnota/ /kaliθikaˈθjon/
+example.es: Saqué una buena nota en el examen.
+example.en: I got a good grade on the exam.
+tags: ⭐ common, 📚 education
+priority: yes
+grammar.Gender: f
+grammar.Plural: notas / calificaciones
+//
+word: matemáticas
+translation: mathematics
+type: noun
+group: 📚 School & education
+pronunciation: /mateˈmatiKas/
+example.es: Las matemáticas son importantes.
+example.en: Mathematics are important.
+tags: ⭐ common, 📚 education
+priority: yes
+grammar.Gender: f
+grammar.Plural: (always plural)
+//
+word: ciencia
+translation: science
+type: noun
+group: 📚 School & education
+pronunciation: /ˈθjenθja/
+example.es: Me gusta aprender sobre ciencia.
+example.en: I like learning about science.
+tags: ⭐ common, 📚 education
+priority: yes
+grammar.Gender: f
+grammar.Plural: ciencias
+//
+word: historia
+translation: history
+type: noun
+group: 📚 School & education
+pronunciation: /isˈtoɾja/
+example.es: Estudiamos historia en la escuela.
+example.en: We study history at school.
+tags: ⭐ common, 📚 education
+priority: yes
+grammar.Gender: f
+grammar.Plural: historias
+//
+word: geografía
+translation: geography
+type: noun
+group: 📚 School & education
+pronunciation: /xeoɣɾaˈfia/
+example.es: La geografía es fascinante.
+example.en: Geography is fascinating.
+tags: ⭐ common, 📚 education
+priority: yes
+grammar.Gender: f
+grammar.Plural: geografías
+//
+word: idioma / lengua
+translation: language
+type: noun
+group: 📚 School & education
+pronunciation: /iˈðjoma/ /ˈleŋɡwa/
+example.es: Quiero aprender un nuevo idioma.
+example.en: I want to learn a new language.
+tags: ⭐ common, 📚 education
+priority: yes
+grammar.Gender: m/f
+grammar.Plural: idiomas / lenguas
+//
+word: arte
+translation: art
+type: noun
+group: 📚 School & education
+pronunciation: /ˈaɾte/
+example.es: La clase de arte empieza ahora.
+example.en: The art class starts now.
+tags: ⭐ common, 📚 education
+priority: yes
+grammar.Gender: m
+grammar.Plural: artes
+//
+word: música
+translation: music
+type: noun
+group: 📚 School & education
+pronunciation: /ˈmusika/
+example.es: Toco la guitarra en clase de música.
+example.en: I play guitar in music class.
+tags: ⭐ common, 📚 education
+priority: yes
+grammar.Gender: f
+grammar.Plural: músicas
+//
+word: deporte
+translation: sport
+type: noun
+group: 📚 School & education
+pronunciation: /deˈpoɾte/
+example.es: Practico muchos deportes.
+example.en: I practice many sports.
+tags: ⭐ common, 📚 education
+priority: yes
+grammar.Gender: m
+grammar.Plural: deportes
+//
+word: libro
+translation: book
+type: noun
+group: 📚 School & education
+pronunciation: /ˈliβɾo/
+example.es: Estoy leyendo un libro interesante.
+example.en: I am reading an interesting book.
+tags: ⭐ common, 📚 education
+priority: yes
+grammar.Gender: m
+grammar.Plural: libros
+//
+word: cuaderno
+translation: notebook
+type: noun
+group: 📚 School & education
+pronunciation: /kwaˈðeɾno/
+example.es: Escribo mis notas en el cuaderno.
+example.en: I write my notes in the notebook.
+tags: ⭐ common, 📚 education
+priority: yes
+grammar.Gender: m
+grammar.Plural: cuadernos
+//
+word: bolígrafo
+translation: pen
+type: noun
+group: 📚 School & education
+pronunciation: /boˈliɣɾafo/
+example.es: ¿Tienes un bolígrafo para mí?
+example.en: Do you have a pen for me?
+tags: ⭐ common, 📚 education
+priority: yes
+grammar.Gender: m
+grammar.Plural: bolígrafos
+//
+word: lápiz
+translation: pencil
+type: noun
+group: 📚 School & education
+pronunciation: /ˈlapis/
+example.es: El lápiz está roto.
+example.en: The pencil is broken.
+tags: ⭐ common, 📚 education
+priority: yes
+grammar.Gender: m
+grammar.Plural: lápices
+//
+word: regla
+translation: ruler
+type: noun
+group: 📚 School & education
+pronunciation: /ˈreɣla/
+example.es: Uso la regla para dibujar líneas.
+example.en: I use the ruler to draw lines.
+tags: ⭐ common, 📚 education
+priority: yes
+grammar.Gender: f
+grammar.Plural: reglas
+//
+word: pizarra
+translation: board
+type: noun
+group: 📚 School & education
+pronunciation: /piˈθara/
+example.es: El profesor escribe en la pizarra.
+example.en: The teacher writes on the board.
+tags: ⭐ common, 📚 education
+priority: yes
+grammar.Gender: f
+grammar.Plural: pizarras
+//
+word: aprender
+translation: to learn
+type: verb
+group: 📚 School & education
+pronunciation: /apɾenˈdeɾ/
+example.es: Quiero aprender español.
+example.en: I want to learn Spanish.
+tags: ⭐ common, 📚 education
+priority: yes
+grammar.Verb type: -er
+grammar.Presente: aprendo / aprendes / aprende / aprendemos / aprendéis / aprenden
+//
+word: estudiar
+translation: to study
+type: verb
+group: 📚 School & education
+pronunciation: /estuˈðjaɾ/
+example.es: Debo estudiar para el examen.
+example.en: I must study for the exam.
+tags: ⭐ common, 📚 education
+priority: yes
+grammar.Verb type: -ar
+grammar.Presente: estudio / estudias / estudia / estudiamos / estudiáis / estudian
+//
+word: leer
+translation: to read
+type: verb
+group: 📚 School & education
+pronunciation: /leˈeɾ/
+example.es: Me gusta leer novelas.
+example.en: I like to read novels.
+tags: ⭐ common, 📚 education
+priority: yes
+grammar.Verb type: -er
+grammar.Presente: leo / lees / lee / leemos / leéis / leen
+//
+word: escribir
+translation: to write
+type: verb
+group: 📚 School & education
+pronunciation: /eskɾiˈβiɾ/
+example.es: Escribo una carta a mi amigo.
+example.en: I write a letter to my friend.
+tags: ⭐ common, 📚 education
+priority: yes
+grammar.Verb type: -ir
+grammar.Presente: escribo / escribes / escribe / escribimos / escribís / escriben
+//
+word: entender / comprender
+translation: to understand
+type: verb
+group: 📚 School & education
+pronunciation: /entenˈdeɾ/ /kompɾenˈdeɾ/
+example.es: No entiendo esta lección.
+example.en: I don't understand this lesson.
+tags: ⭐ common, 📚 education
+priority: yes
+grammar.Verb type: -er
+grammar.Presente: entiendo / entiendes / entiende / entendemos / entendéis / entienden
+//
+word: explicar
+translation: to explain
+type: verb
+group: 📚 School & education
+pronunciation: /ekspliˈkaɾ/
+example.es: El profesor va a explicar la tarea.
+example.en: The teacher is going to explain the homework.
+tags: ⭐ common, 📚 education
+priority: yes
+grammar.Verb type: -ar
+grammar.Presente: explico / explicas / explica / explicamos / explicáis / explican
+//
+word: preguntar
+translation: to ask
+type: verb
+group: 📚 School & education
+pronunciation: /pɾeɣunˈtaɾ/
+example.es: Puedo preguntar algo al profesor.
+example.en: I can ask the teacher something.
+tags: ⭐ common, 📚 education
+priority: yes
+grammar.Verb type: -ar
+grammar.Presente: pregunto / preguntas / pregunta / preguntamos / preguntáis / preguntan
+//
+word: responder / contestar
+translation: to answer
+type: verb
+group: 📚 School & education
+pronunciation: /responˈdeɾ/ /kontesˈtaɾ/
+example.es: Ella respondió a todas las preguntas.
+example.en: She answered all the questions.
+tags: ⭐ common, 📚 education
+priority: yes
+grammar.Verb type: -er / -ar
+grammar.Presente (responder): respondo / respondes / responde / respondemos / respondéis / responden
+//
+word: aprobar
+translation: to pass
+type: verb
+group: 📚 School & education
+pronunciation: /apɾoˈβaɾ/
+example.es: Espero aprobar el examen final.
+example.en: I hope to pass the final exam.
+tags: ⭐ common, 📚 education
+priority: yes
+grammar.Verb type: -ar (o > ue)
+grammar.Presente: apruebo / apruebas / aprueba / aprobamos / aprobáis / aprueban
+//
+word: suspender / reprobar
+translation: to fail
+type: verb
+group: 📚 School & education
+pronunciation: /suspenˈdeɾ/ /repɾoˈβaɾ/
+example.es: Nadie quiere suspender el examen.
+example.en: No one wants to fail the exam.
+tags: ⭐ common, 📚 education
+priority: yes
+grammar.Verb type: -er / -ar
+grammar.Presente (suspender): suspendo / suspendes / suspende / suspendemos / suspendéis / suspenden

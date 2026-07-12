@@ -1,0 +1,413 @@
+word: camisa
+translation: shirt
+type: noun
+group: 👗 Clothing & fashion
+pronunciation: /kaˈmisa/
+example.es: Me he comprado una camisa azul.
+example.en: I bought a blue shirt.
+tags: ⭐ common, 👗 clothing
+priority: yes
+grammar.Gender: f
+grammar.Plural: camisas
+//
+word: camiseta
+translation: t-shirt
+type: noun
+group: 👗 Clothing & fashion
+pronunciation: /kamiˈseta/
+example.es: Prefiero llevar una camiseta cómoda.
+example.en: I prefer to wear a comfortable t-shirt.
+tags: ⭐ common, 👗 clothing
+priority: yes
+grammar.Gender: f
+grammar.Plural: camisetas
+//
+word: pantalones
+translation: trousers
+type: noun
+group: 👗 Clothing & fashion
+pronunciation: /pantoˈlenes/
+example.es: Estos pantalones son un poco largos.
+example.en: These trousers are a bit long.
+tags: ⭐ common, 👗 clothing
+priority: yes
+grammar.Gender: m
+grammar.Plural: pantalones
+//
+word: vaqueros
+translation: jeans
+type: noun
+group: 👗 Clothing & fashion
+pronunciation: /baˈkeɾos/
+example.es: Me gustan mucho estos vaqueros.
+example.en: I really like these jeans.
+tags: ⭐ common, 👗 clothing
+priority: yes
+grammar.Gender: m
+grammar.Plural: vaqueros
+//
+word: vestido
+translation: dress
+type: noun
+group: 👗 Clothing & fashion
+pronunciation: /besˈtiðo/
+example.es: Compré un vestido rojo para la fiesta.
+example.en: I bought a red dress for the party.
+tags: ⭐ common, 👗 clothing
+priority: yes
+grammar.Gender: m
+grammar.Plural: vestidos
+//
+word: falda
+translation: skirt
+type: noun
+group: 👗 Clothing & fashion
+pronunciation: /ˈfalda/
+example.es: Esta falda combina bien con la camisa.
+example.en: This skirt matches well with the shirt.
+tags: ⭐ common, 👗 clothing
+priority: yes
+grammar.Gender: f
+grammar.Plural: faldas
+//
+word: chaqueta
+translation: jacket
+type: noun
+group: 👗 Clothing & fashion
+pronunciation: /tʃaˈketa/
+example.es: Ponte una chaqueta, hace frío fuera.
+example.en: Put on a jacket, it's cold outside.
+tags: ⭐ common, 👗 clothing
+priority: yes
+grammar.Gender: f
+grammar.Plural: chaquetas
+//
+word: abrigo
+translation: coat
+type: noun
+group: 👗 Clothing & fashion
+pronunciation: /aˈβɾiɣo/
+example.es: Guardo el abrigo en el armario.
+example.en: I keep the coat in the wardrobe.
+tags: ⭐ common, 👗 clothing
+priority: yes
+grammar.Gender: m
+grammar.Plural: abrigos
+//
+word: traje
+translation: suit
+type: noun
+group: 👗 Clothing & fashion
+pronunciation: /ˈtɾaxe/
+example.es: Él lleva un traje muy elegante.
+example.en: He is wearing a very elegant suit.
+tags: ⭐ common, 👗 clothing
+priority: yes
+grammar.Gender: m
+grammar.Plural: trajes
+//
+word: ropa interior
+translation: underwear
+type: noun
+group: 👗 Clothing & fashion
+pronunciation: /ˈropa inteˈɾjoɾ/
+example.es: Necesito comprar ropa interior nueva.
+example.en: I need to buy new underwear.
+tags: ⭐ common, 👗 clothing
+priority: yes
+grammar.Gender: f
+grammar.Plural: ropas interiores
+//
+word: calcetines
+translation: socks
+type: noun
+group: 👗 Clothing & fashion
+pronunciation: /kalseˈtines/
+example.es: He perdido uno de mis calcetines.
+example.en: I lost one of my socks.
+tags: ⭐ common, 👗 clothing
+priority: yes
+grammar.Gender: m
+grammar.Plural: calcetines
+//
+word: zapatos
+translation: shoes
+type: noun
+group: 👗 Clothing & fashion
+pronunciation: /θaˈpatos/
+example.es: Mis zapatos nuevos son muy cómodos.
+example.en: My new shoes are very comfortable.
+tags: ⭐ common, 👗 clothing
+priority: yes
+grammar.Gender: m
+grammar.Plural: zapatos
+//
+word: botas
+translation: boots
+type: noun
+group: 👗 Clothing & fashion
+pronunciation: /ˈbotas/
+example.es: Mis botas son ideales para la lluvia.
+example.en: My boots are ideal for the rain.
+tags: ⭐ common, 👗 clothing
+priority: yes
+grammar.Gender: f
+grammar.Plural: botas
+//
+word: sombrero
+translation: hat
+type: noun
+group: 👗 Clothing & fashion
+pronunciation: /somˈbɾeɾo/
+example.es: Ese sombrero te queda muy bien.
+example.en: That hat suits you very well.
+tags: ⭐ common, 👗 clothing
+priority: yes
+grammar.Gender: m
+grammar.Plural: sombreros
+//
+word: bufanda
+translation: scarf
+type: noun
+group: 👗 Clothing & fashion
+pronunciation: /buˈfanda/
+example.es: Usa una bufanda para no pasar frío.
+example.en: Wear a scarf so you don't get cold.
+tags: ⭐ common, 👗 clothing
+priority: yes
+grammar.Gender: f
+grammar.Plural: bufandas
+//
+word: guantes
+translation: gloves
+type: noun
+group: 👗 Clothing & fashion
+pronunciation: /ˈɡwantes/
+example.es: He olvidado mis guantes en casa.
+example.en: I forgot my gloves at home.
+tags: ⭐ common, 👗 clothing
+priority: yes
+grammar.Gender: m
+grammar.Plural: guantes
+//
+word: cinturón
+translation: belt
+type: noun
+group: 👗 Clothing & fashion
+pronunciation: /θintuˈɾon/
+example.es: Necesito un cinturón para este pantalón.
+example.en: I need a belt for these trousers.
+tags: ⭐ common, 👗 clothing
+priority: yes
+grammar.Gender: m
+grammar.Plural: cinturones
+//
+word: corbata
+translation: tie
+type: noun
+group: 👗 Clothing & fashion
+pronunciation: /koɾˈβata/
+example.es: La corbata combina con el traje.
+example.en: The tie matches the suit.
+tags: ⭐ common, 👗 clothing
+priority: yes
+grammar.Gender: f
+grammar.Plural: corbatas
+//
+word: bolso
+translation: bag
+type: noun
+group: 👗 Clothing & fashion
+pronunciation: /ˈbolso/
+example.es: He dejado mi bolso en la silla.
+example.en: I left my bag on the chair.
+tags: ⭐ common, 👗 clothing
+priority: yes
+grammar.Gender: m
+grammar.Plural: bolsos
+//
+word: gafas
+translation: glasses
+type: noun
+group: 👗 Clothing & fashion
+pronunciation: /ˈɡafas/
+example.es: Necesito limpiar mis gafas.
+example.en: I need to clean my glasses.
+tags: ⭐ common, 👗 clothing
+priority: yes
+grammar.Gender: f
+grammar.Plural: gafas
+//
+word: anillo
+translation: ring
+type: noun
+group: 👗 Clothing & fashion
+pronunciation: /aˈniʝo/
+example.es: Es un anillo de plata precioso.
+example.en: It is a beautiful silver ring.
+tags: ⭐ common, 👗 clothing
+priority: yes
+grammar.Gender: m
+grammar.Plural: anillos
+//
+word: collar
+translation: necklace
+type: noun
+group: 👗 Clothing & fashion
+pronunciation: /koˈʝaɾ/
+example.es: Ese collar brilla mucho.
+example.en: That necklace shines a lot.
+tags: ⭐ common, 👗 clothing
+priority: yes
+grammar.Gender: m
+grammar.Plural: collares
+//
+word: talla
+translation: size
+type: noun
+group: 👗 Clothing & fashion
+pronunciation: /ˈtaʝa/
+example.es: ¿Tiene esta camiseta en mi talla?
+example.en: Do you have this t-shirt in my size?
+tags: ⭐ common, 👗 clothing
+priority: yes
+grammar.Gender: f
+grammar.Plural: tallas
+//
+word: llevar (puesto)
+translation: to wear
+type: verb
+group: 👗 Clothing & fashion
+pronunciation: /ʝeˈβaɾ/
+example.es: Ella lleva un vestido elegante hoy.
+example.en: She is wearing an elegant dress today.
+tags: ⭐ common, 👗 clothing
+priority: yes
+grammar.Verb type: -ar
+grammar.Reflexive: no
+grammar.Participio pasado: llevado
+grammar.Pretérito indefinido (yo): llevé
+grammar.Pretérito imperfecto (yo): llevaba
+grammar.Gerundio: llevando
+grammar.Presente: llevo / llevas / lleva / llevamos / lleváis / llevan
+//
+word: probarse
+translation: to try on
+type: verb
+group: 👗 Clothing & fashion
+pronunciation: /pɾoˈβaɾse/
+example.es: Quiero probarme estos pantalones.
+example.en: I want to try on these trousers.
+tags: ⭐ common, 👗 clothing
+priority: yes
+grammar.Verb type: -ar (o > ue)
+grammar.Reflexive: yes
+grammar.Participio pasado: probado
+grammar.Pretérito indefinido (yo): me probé
+grammar.Pretérito imperfecto (yo): me probaba
+grammar.Gerundio: probándose
+grammar.Presente: me pruebo / te pruebas / se prueba / nos probamos / os probáis / se prueban
+//
+word: quedar (bien/mal)
+translation: to fit (well/badly)
+type: verb
+group: 👗 Clothing & fashion
+pronunciation: /keˈðaɾ/
+example.es: Estos zapatos me quedan pequeños.
+example.en: These shoes don't fit me (they are too small).
+tags: ⭐ common, 👗 clothing
+priority: yes
+grammar.Verb type: -ar
+grammar.Reflexive: no
+grammar.Participio pasado: quedado
+grammar.Pretérito indefinido (yo): quedé
+grammar.Pretérito imperfecto (yo): quedaba
+grammar.Gerundio: quedando
+grammar.Presente: quedo / quedas / queda / quedamos / quedáis / quedan
+//
+word: ajustado
+translation: tight
+type: adjective
+group: 👗 Clothing & fashion
+pronunciation: /axusˈtaðo/
+example.es: Este pantalón me queda muy ajustado.
+example.en: These trousers are too tight on me.
+tags: ⭐ common, 👗 clothing
+priority: yes
+grammar.Feminine: ajustada
+grammar.Plural (masc.): ajustados
+grammar.Plural (fem.): ajustadas
+//
+word: holgado
+translation: loose
+type: adjective
+group: 👗 Clothing & fashion
+pronunciation: /olˈɡaðo/
+example.es: Prefiero llevar ropa más holgada.
+example.en: I prefer to wear looser clothing.
+tags: ⭐ common, 👗 clothing
+priority: yes
+grammar.Feminine: holgada
+grammar.Plural (masc.): holgados
+grammar.Plural (fem.): holgadas
+//
+word: de rayas
+translation: striped
+type: phrase
+group: 👗 Clothing & fashion
+pronunciation: /de ˈraʝas/
+example.es: He comprado una camisa de rayas.
+example.en: I bought a striped shirt.
+tags: ⭐ common, 👗 clothing
+priority: yes
+grammar.Register: neutral
+//
+word: liso
+translation: plain
+type: adjective
+group: 👗 Clothing & fashion
+pronunciation: /ˈliso/
+example.es: Busco una camiseta de color liso.
+example.en: I am looking for a plain t-shirt.
+tags: ⭐ common, 👗 clothing
+priority: yes
+grammar.Feminine: lisa
+grammar.Plural (masc.): lisos
+grammar.Plural (fem.): lisas
+//
+word: estampado
+translation: patterned
+type: adjective
+group: 👗 Clothing & fashion
+pronunciation: /estamˈpaðo/
+example.es: No me gustan mucho los vestidos estampados.
+example.en: I don't really like patterned dresses.
+tags: ⭐ common, 👗 clothing
+priority: yes
+grammar.Feminine: estampada
+grammar.Plural (masc.): estampados
+grammar.Plural (fem.): estampadas
+//
+word: algodón
+translation: cotton
+type: noun
+group: 👗 Clothing & fashion
+pronunciation: /alɣoˈðon/
+example.es: Esta camisa es cien por cien algodón.
+example.en: This shirt is one hundred percent cotton.
+tags: ⭐ common, 👗 clothing
+priority: yes
+grammar.Gender: m
+grammar.Plural: algodones
+//
+word: lana
+translation: wool
+type: noun
+group: 👗 Clothing & fashion
+pronunciation: /ˈlana/
+example.es: En invierno uso jerséis de lana.
+example.en: In winter I use wool sweaters.
+tags: ⭐ common, 👗 clothing
+priority: yes
+grammar.Gender: f
+grammar.Plural: lanas

@@ -1,0 +1,552 @@
+word: pane
+translation: bread
+type: noun
+group: 🍽️ Food & drink
+pronunciation: /ˈpane/
+example.it: Vorrei un chilo di pane fresco.
+example.en: I would like a kilo of fresh bread.
+etymology: Latin "panis"
+tags: ⭐ common, 🍽️ food
+priority: yes
+grammar.Gender: m
+grammar.Plural: pani
+//
+word: riso
+translation: rice
+type: noun
+group: 🍽️ Food & drink
+pronunciation: /ˈrizo/
+example.it: Il riso è l'ingrediente principale del risotto.
+example.en: Rice is the main ingredient of risotto.
+etymology: Latin "oryza"
+tags: ⭐ common, 🍽️ food
+priority: yes
+grammar.Gender: m
+grammar.Plural: risi
+//
+word: pasta
+translation: pasta
+type: noun
+group: 🍽️ Food & drink
+pronunciation: /ˈpasta/
+example.it: Mangiamo pasta a pranzo quasi ogni giorno.
+example.en: We eat pasta for lunch almost every day.
+etymology: Latin "pasta"
+tags: ⭐ common, 🍽️ food
+priority: yes
+grammar.Gender: f
+grammar.Plural: paste
+//
+word: uovo
+translation: egg
+type: noun
+group: 🍽️ Food & drink
+pronunciation: /ˈwɔvo/
+example.it: Ho bisogno di un uovo per questa ricetta.
+example.en: I need an egg for this recipe.
+etymology: Latin "ovum"
+tags: ⭐ common, 🍽️ food
+priority: yes
+grammar.Gender: m
+grammar.Plural: uova (f)
+//
+word: formaggio
+translation: cheese
+type: noun
+group: 🍽️ Food & drink
+pronunciation: /forˈmaddʒo/
+example.it: Questo formaggio è molto saporito.
+example.en: This cheese is very tasty.
+etymology: Latin "formaticum"
+tags: ⭐ common, 🍽️ food
+priority: yes
+grammar.Gender: m
+grammar.Plural: formaggi
+//
+word: burro
+translation: butter
+type: noun
+group: 🍽️ Food & drink
+pronunciation: /ˈburro/
+example.it: Aggiungi un po' di burro nella padella.
+example.en: Add a little butter to the pan.
+etymology: Latin "butyrum"
+tags: ⭐ common, 🍽️ food
+priority: yes
+grammar.Gender: m
+grammar.Plural: burri
+//
+word: olio
+translation: oil
+type: noun
+group: 🍽️ Food & drink
+pronunciation: /ˈɔljo/
+example.it: Usa l'olio extravergine d'oliva.
+example.en: Use extra virgin olive oil.
+etymology: Latin "oleum"
+tags: ⭐ common, 🍽️ food
+priority: yes
+grammar.Gender: m
+grammar.Plural: oli
+//
+word: sale
+translation: salt
+type: noun
+group: 🍽️ Food & drink
+pronunciation: /ˈsale/
+example.it: Metti un pizzico di sale nell'acqua.
+example.en: Put a pinch of salt in the water.
+etymology: Latin "sal"
+tags: ⭐ common, 🍽️ food
+priority: yes
+grammar.Gender: m
+grammar.Plural: sali
+//
+word: pepe
+translation: pepper
+type: noun
+group: 🍽️ Food & drink
+pronunciation: /ˈpɛpe/
+example.it: Preferisco il pepe nero macinato fresco.
+example.en: I prefer freshly ground black pepper.
+etymology: Latin "piper"
+tags: ⭐ common, 🍽️ food
+priority: yes
+grammar.Gender: m
+grammar.Plural: pepi
+//
+word: zucchero
+translation: sugar
+type: noun
+group: 🍽️ Food & drink
+pronunciation: /tsukˈkɛro/
+example.it: Prendi lo zucchero per il caffè?
+example.en: Do you take sugar in your coffee?
+etymology: Arabic "sukkar"
+tags: ⭐ common, 🍽️ food
+priority: yes
+grammar.Gender: m
+grammar.Plural: zuccheri
+//
+word: pollo
+translation: chicken
+type: noun
+group: 🍽️ Food & drink
+pronunciation: /ˈpollo/
+example.it: Abbiamo preparato il pollo arrosto.
+example.en: We prepared roast chicken.
+etymology: Latin "pullus"
+tags: ⭐ common, 🍽️ food
+priority: yes
+grammar.Gender: m
+grammar.Plural: polli
+//
+word: manzo
+translation: beef
+type: noun
+group: 🍽️ Food & drink
+pronunciation: /ˈmandzo/
+example.it: La bistecca di manzo è molto tenera.
+example.en: The beef steak is very tender.
+etymology: Latin "mannus"
+tags: ⭐ common, 🍽️ food
+priority: yes
+grammar.Gender: m
+grammar.Plural: manzi
+//
+word: maiale
+translation: pork, pig
+type: noun
+group: 🍽️ Food & drink
+pronunciation: /maˈjale/
+example.it: Non mangio carne di maiale.
+example.en: I do not eat pork.
+etymology: Latin "maialis"
+tags: ⭐ common, 🍽️ food
+priority: yes
+grammar.Gender: m
+grammar.Plural: maiali
+//
+word: agnello
+translation: lamb
+type: noun
+group: 🍽️ Food & drink
+pronunciation: /aɲˈɲɛllo/
+example.it: L'agnello al forno è un piatto tradizionale.
+example.en: Baked lamb is a traditional dish.
+etymology: Latin "agnellus"
+tags: ⭐ common, 🍽️ food
+priority: yes
+grammar.Gender: m
+grammar.Plural: agnelli
+//
+word: pesce
+translation: fish
+type: noun
+group: 🍽️ Food & drink
+pronunciation: /ˈpɛʃe/
+example.it: Il pesce fresco è ottimo alla griglia.
+example.en: Fresh fish is excellent grilled.
+etymology: Latin "piscis"
+tags: ⭐ common, 🍽️ food
+priority: yes
+grammar.Gender: m
+grammar.Plural: pesci
+//
+word: frutti di mare
+translation: seafood
+type: noun
+group: 🍽️ Food & drink
+pronunciation: /ˈfrutti di ˈmare/
+example.it: Adoro gli spaghetti ai frutti di mare.
+example.en: I love seafood spaghetti.
+tags: ⭐ common, 🍽️ food
+priority: yes
+grammar.Gender: m
+grammar.Article override: i
+//
+word: patata
+translation: potato
+type: noun
+group: 🍽️ Food & drink
+pronunciation: /paˈtata/
+example.it: Ho cucinato le patate al forno.
+example.en: I cooked baked potatoes.
+etymology: Spanish "patata"
+tags: ⭐ common, 🍽️ food
+priority: yes
+grammar.Gender: f
+grammar.Plural: patate
+//
+word: pomodoro
+translation: tomato
+type: noun
+group: 🍽️ Food & drink
+pronunciation: /pomoˈdoro/
+example.it: Il sugo di pomodoro è semplice e buono.
+example.en: Tomato sauce is simple and good.
+etymology: "Pomo d'oro" (golden fruit)
+tags: ⭐ common, 🍽️ food
+priority: yes
+grammar.Gender: m
+grammar.Plural: pomodori
+//
+word: cipolla
+translation: onion
+type: noun
+group: 🍽️ Food & drink
+pronunciation: /tʃiˈpolla/
+example.it: Devi tagliare la cipolla molto sottile.
+example.en: You must cut the onion very thinly.
+etymology: Latin "caepa"
+tags: ⭐ common, 🍽️ food
+priority: yes
+grammar.Gender: f
+grammar.Plural: cipolle
+//
+word: aglio
+translation: garlic
+type: noun
+group: 🍽️ Food & drink
+pronunciation: /ˈaʎʎo/
+example.it: Metti uno spicchio d'aglio nell'olio.
+example.en: Put a clove of garlic in the oil.
+etymology: Latin "allium"
+tags: ⭐ common, 🍽️ food
+priority: yes
+grammar.Gender: m
+grammar.Plural: agli
+//
+word: carota
+translation: carrot
+type: noun
+group: 🍽️ Food & drink
+pronunciation: /kaˈrota/
+example.it: La zuppa di carote è molto sana.
+example.en: Carrot soup is very healthy.
+etymology: Latin "carota"
+tags: ⭐ common, 🍽️ food
+priority: yes
+grammar.Gender: f
+grammar.Plural: carote
+//
+word: insalata
+translation: salad
+type: noun
+group: 🍽️ Food & drink
+pronunciation: /insaˈlata/
+example.it: Mangio un'insalata mista per pranzo.
+example.en: I am eating a mixed salad for lunch.
+etymology: From "salato" (salted)
+tags: ⭐ common, 🍽️ food
+priority: yes
+grammar.Gender: f
+grammar.Plural: insalate
+//
+word: mela
+translation: apple
+type: noun
+group: 🍽️ Food & drink
+pronunciation: /ˈmɛla/
+example.it: Una mela al giorno toglie il medico di torno.
+example.en: An apple a day keeps the doctor away.
+etymology: Latin "malum"
+tags: ⭐ common, 🍽️ food
+priority: yes
+grammar.Gender: f
+grammar.Plural: mele
+//
+word: banana
+translation: banana
+type: noun
+group: 🍽️ Food & drink
+pronunciation: /baˈnana/
+example.it: Ho mangiato una banana per merenda.
+example.en: I ate a banana for a snack.
+etymology: From Portuguese "banana"
+tags: ⭐ common, 🍽️ food
+priority: yes
+grammar.Gender: f
+grammar.Plural: banane
+//
+word: limone
+translation: lemon
+type: noun
+group: 🍽️ Food & drink
+pronunciation: /liˈmone/
+example.it: Metti un po' di limone sul pesce.
+example.en: Put some lemon on the fish.
+etymology: Arabic "laymun"
+tags: ⭐ common, 🍽️ food
+priority: yes
+grammar.Gender: m
+grammar.Plural: limoni
+//
+word: fragola
+translation: strawberry
+type: noun
+group: 🍽️ Food & drink
+pronunciation: /ˈfraɡola/
+example.it: Il gelato alla fragola è il mio preferito.
+example.en: Strawberry ice cream is my favorite.
+etymology: Latin "fragum"
+tags: ⭐ common, 🍽️ food
+priority: yes
+grammar.Gender: f
+grammar.Plural: fragole
+//
+word: uva
+translation: grape
+type: noun
+group: 🍽️ Food & drink
+pronunciation: /ˈuva/
+example.it: Abbiamo raccolto l'uva nel vigneto.
+example.en: We harvested the grapes in the vineyard.
+etymology: Latin "uva"
+tags: ⭐ common, 🍽️ food
+priority: yes
+grammar.Gender: f
+grammar.Plural: uve
+//
+word: acqua
+translation: water
+type: noun
+group: 🍽️ Food & drink
+pronunciation: /ˈakkwa/
+example.it: Vorrei un bicchiere d'acqua naturale.
+example.en: I would like a glass of still water.
+etymology: Latin "aqua"
+tags: ⭐ common, 🍽️ food
+priority: yes
+grammar.Gender: f
+grammar.Plural: acque
+//
+word: succo
+translation: juice
+type: noun
+group: 🍽️ Food & drink
+pronunciation: /ˈsukko/
+example.it: Bevo sempre un succo d'arancia a colazione.
+example.en: I always drink orange juice for breakfast.
+etymology: Latin "succus"
+tags: ⭐ common, 🍽️ food
+priority: yes
+grammar.Gender: m
+grammar.Plural: succhi
+//
+word: caffè
+translation: coffee
+type: noun
+group: 🍽️ Food & drink
+pronunciation: /kafˈfɛ/
+example.it: Prendo un caffè dopo pranzo.
+example.en: I have a coffee after lunch.
+etymology: From Turkish "kahve"
+tags: ⭐ common, 🍽️ food
+priority: yes
+grammar.Gender: m
+grammar.Plural: caffè (invariable)
+//
+word: tè
+translation: tea
+type: noun
+group: 🍽️ Food & drink
+pronunciation: /ˈtɛ/
+example.it: Preferisci il tè caldo o freddo?
+example.en: Do you prefer hot or iced tea?
+etymology: From Chinese "tê"
+tags: ⭐ common, 🍽️ food
+priority: yes
+grammar.Gender: m
+grammar.Plural: tè (invariable)
+//
+word: vino
+translation: wine
+type: noun
+group: 🍽️ Food & drink
+pronunciation: /ˈvino/
+example.it: Questo vino rosso è eccellente.
+example.en: This red wine is excellent.
+etymology: Latin "vinum"
+tags: ⭐ common, 🍽️ food
+priority: yes
+grammar.Gender: m
+grammar.Plural: vini
+//
+word: birra
+translation: beer
+type: noun
+group: 🍽️ Food & drink
+pronunciation: /ˈbirra/
+example.it: Preferisco una birra artigianale.
+example.en: I prefer a craft beer.
+etymology: From Germanic "bior"
+tags: ⭐ common, 🍽️ food
+priority: yes
+grammar.Gender: f
+grammar.Plural: birre
+//
+word: latte
+translation: milk
+type: noun
+group: 🍽️ Food & drink
+pronunciation: /ˈlatte/
+example.it: Aggiungi un po' di latte nel cereali.
+example.en: Add some milk to the cereal.
+etymology: Latin "lac"
+tags: ⭐ common, 🍽️ food
+priority: yes
+grammar.Gender: m
+grammar.Plural: latti
+//
+word: vegetariano
+translation: vegetarian
+type: adjective
+group: 🍽️ Food & drink
+pronunciation: /vedʒetaˈrjano/
+example.it: Il mio amico è vegetariano.
+example.en: My friend is vegetarian.
+etymology: From "vegetale"
+tags: 🍽️ food
+priority: yes
+grammar.Feminine form: vegetariana
+grammar.Plural (masc.): vegetariani
+grammar.Plural (fem.): vegetariane
+//
+word: vegano
+translation: vegan
+type: adjective
+group: 🍽️ Food & drink
+pronunciation: /veˈɡano/
+example.it: Esistono molti dolci vegani buoni.
+example.en: There are many good vegan desserts.
+etymology: From English "vegan"
+tags: 🍽️ food
+priority: yes
+grammar.Feminine form: vegana
+grammar.Plural (masc.): vegani
+grammar.Plural (fem.): vegane
+//
+word: piccante
+translation: spicy
+type: adjective
+group: 🍽️ Food & drink
+pronunciation: /pikˈkante/
+example.it: Questo piatto è troppo piccante per me.
+example.en: This dish is too spicy for me.
+etymology: From "pungere" (to prick)
+tags: 🍽️ food
+priority: yes
+grammar.Feminine form: piccante
+grammar.Plural (masc.): piccanti
+grammar.Plural (fem.): piccanti
+//
+word: aspro
+translation: sour
+type: adjective
+group: 🍽️ Food & drink
+pronunciation: /ˈaspro/
+example.it: Il limone è molto aspro.
+example.en: The lemon is very sour.
+etymology: Latin "asper"
+tags: 🍽️ food
+priority: yes
+grammar.Feminine form: aspra
+grammar.Plural (masc.): aspri
+grammar.Plural (fem.): aspre
+//
+word: salato
+translation: salty
+type: adjective
+group: 🍽️ Food & drink
+pronunciation: /saˈlato/
+example.it: Questo snack è troppo salato.
+example.en: This snack is too salty.
+etymology: From "sale"
+tags: 🍽️ food
+priority: yes
+grammar.Feminine form: salata
+grammar.Plural (masc.): salati
+grammar.Plural (fem.): salate
+//
+note: Also the everyday word for cool weather.
+word: fresco
+translation: fresh, cool (weather)
+type: adjective
+group: 🍽️ Food & drink
+pronunciation: /ˈfrɛsko/
+example.it: Mangio solo pesce fresco.
+example.en: I only eat fresh fish.
+etymology: From Germanic "frisk"
+tags: ⭐ common, 🍽️ food
+priority: yes
+grammar.Feminine form: fresca
+grammar.Plural (masc.): freschi
+grammar.Plural (fem.): fresche
+//
+word: surgelato
+translation: frozen
+type: adjective
+group: 🍽️ Food & drink
+pronunciation: /surdʒeˈlato/
+example.it: Ho comprato degli spinaci surgelati.
+example.en: I bought some frozen spinach.
+etymology: From "gelare"
+tags: 🍽️ food
+priority: yes
+grammar.Feminine form: surgelata
+grammar.Plural (masc.): surgelati
+grammar.Plural (fem.): surgelate
+//
+word: pasto
+translation: meal
+type: noun
+group: 🍽️ Food & drink
+pronunciation: /ˈpasto/
+example.it: La colazione è il primo pasto della giornata.
+example.en: Breakfast is the first meal of the day.
+etymology: Latin "pastus"
+tags: ⭐ common, 🍽️ food
+priority: yes
+grammar.Gender: m
+grammar.Plural: pasti

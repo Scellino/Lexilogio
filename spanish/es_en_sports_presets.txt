@@ -1,0 +1,395 @@
+word: fútbol
+translation: football
+type: noun
+group: ⚽ Sports & hobbies
+pronunciation: /ˈfutβol/
+example.es: El fútbol es el deporte más popular.
+example.en: Football is the most popular sport.
+tags: ⭐ common, ⚽ sports
+priority: yes
+grammar.Gender: m
+grammar.Plural: fútboles
+//
+word: tenis
+translation: tennis
+type: noun
+group: ⚽ Sports & hobbies
+pronunciation: /ˈtenis/
+example.es: Juego al tenis los sábados.
+example.en: I play tennis on Saturdays.
+tags: ⭐ common, ⚽ sports
+priority: yes
+grammar.Gender: m
+grammar.Plural: tenis
+//
+word: natación
+translation: swimming
+type: noun
+group: ⚽ Sports & hobbies
+pronunciation: /nataˈθjon/
+example.es: La natación es un ejercicio excelente.
+example.en: Swimming is an excellent exercise.
+tags: ⭐ common, ⚽ sports
+priority: yes
+grammar.Gender: f
+grammar.Plural: nataciones
+//
+word: ciclismo
+translation: cycling
+type: noun
+group: ⚽ Sports & hobbies
+pronunciation: /θiˈklismo/
+example.es: El ciclismo requiere mucha fuerza.
+example.en: Cycling requires a lot of strength.
+tags: ⭐ common, ⚽ sports
+priority: yes
+grammar.Gender: m
+grammar.Plural: ciclismos
+//
+word: baloncesto
+translation: basketball
+type: noun
+group: ⚽ Sports & hobbies
+pronunciation: /balonˈθesto/
+example.es: El equipo de baloncesto entrena hoy.
+example.en: The basketball team trains today.
+tags: ⭐ common, ⚽ sports
+priority: yes
+grammar.Gender: m
+grammar.Plural: baloncestos
+//
+word: voleibol
+translation: volleyball
+type: noun
+group: ⚽ Sports & hobbies
+pronunciation: /ˈbolejβol/
+example.es: Jugamos al voleibol en la playa.
+example.en: We play volleyball on the beach.
+tags: ⭐ common, ⚽ sports
+priority: yes
+grammar.Gender: m
+grammar.Plural: voleiboles
+//
+word: esquí
+translation: skiing
+type: noun
+group: ⚽ Sports & hobbies
+pronunciation: /esˈki/
+example.es: Practicamos esquí en las montañas.
+example.en: We practice skiing in the mountains.
+tags: ⭐ common, ⚽ sports
+priority: yes
+grammar.Gender: m
+grammar.Plural: esquís
+//
+word: boxeo
+translation: boxing
+type: noun
+group: ⚽ Sports & hobbies
+pronunciation: /bokˈseo/
+example.es: El boxeo es un deporte de contacto intenso.
+example.en: Boxing is an intense contact sport.
+tags: ⭐ common, ⚽ sports
+priority: yes
+grammar.Gender: m
+grammar.Plural: boxeos
+//
+word: yoga
+translation: yoga
+type: noun
+group: ⚽ Sports & hobbies
+pronunciation: /ˈʝoɣa/
+example.es: Hago yoga para relajar la mente.
+example.en: I do yoga to relax the mind.
+tags: ⭐ common, 🎮 hobbies
+priority: yes
+grammar.Gender: m
+grammar.Plural: yogas
+//
+word: gimnasio
+translation: gym
+type: noun
+group: ⚽ Sports & hobbies
+pronunciation: /ximˈnasjo/
+example.es: Voy al gimnasio tres veces por semana.
+example.en: I go to the gym three times a week.
+tags: ⭐ common, ⚽ sports
+priority: yes
+grammar.Gender: m
+grammar.Plural: gimnasios
+//
+word: senderismo
+translation: hiking
+type: noun
+group: ⚽ Sports & hobbies
+pronunciation: /sendeˈɾismo/
+example.es: Nos encanta hacer senderismo los domingos.
+example.en: We love to go hiking on Sundays.
+tags: ⭐ common, 🎮 hobbies
+priority: yes
+grammar.Gender: m
+grammar.Plural: senderismos
+//
+word: lectura
+translation: reading
+type: noun
+group: ⚽ Sports & hobbies
+pronunciation: /lekˈtuɾa/
+example.es: La lectura es mi pasatiempo favorito.
+example.en: Reading is my favorite hobby.
+tags: ⭐ common, 🎮 hobbies
+priority: yes
+grammar.Gender: f
+grammar.Plural: lecturas
+//
+word: dibujo
+translation: drawing
+type: noun
+group: ⚽ Sports & hobbies
+pronunciation: /diˈβuxo/
+example.es: Su dibujo al carboncillo es precioso.
+example.en: Their charcoal drawing is beautiful.
+tags: ⭐ common, 🎮 hobbies
+priority: yes
+grammar.Gender: m
+grammar.Plural: dibujos
+//
+word: pintura
+translation: painting
+type: noun
+group: ⚽ Sports & hobbies
+pronunciation: /pinˈtuɾa/
+example.es: La pintura al óleo requiere paciencia.
+example.en: Oil painting requires patience.
+tags: ⭐ common, 🎮 hobbies
+priority: yes
+grammar.Gender: f
+grammar.Plural: pinturas
+//
+word: fotografía
+translation: photography
+type: noun
+group: ⚽ Sports & hobbies
+pronunciation: /fotoɣɾaˈfia/
+example.es: La fotografía captura momentos únicos.
+example.en: Photography captures unique moments.
+tags: ⭐ common, 🎮 hobbies
+priority: yes
+grammar.Gender: f
+grammar.Plural: fotografías
+//
+word: baile
+translation: dancing
+type: noun
+group: ⚽ Sports & hobbies
+pronunciation: /ˈbajle/
+example.es: Tomo clases de baile los jueves.
+example.en: I take dancing lessons on Thursdays.
+tags: ⭐ common, 🎮 hobbies
+priority: yes
+grammar.Gender: m
+grammar.Plural: bailes
+//
+word: jardinería
+translation: gardening
+type: noun
+group: ⚽ Sports & hobbies
+pronunciation: /xaɾðineˈɾia/
+example.es: Dedico mi tiempo libre a la jardinería.
+example.en: I dedicate my free time to gardening.
+tags: ⭐ common, 🎮 hobbies
+priority: yes
+grammar.Gender: f
+grammar.Plural: jardinerías
+//
+word: videojuegos
+translation: gaming
+type: noun
+group: ⚽ Sports & hobbies
+pronunciation: /biðeoxˈweɣos/
+example.es: Los videojuegos son muy interactivos.
+example.en: Gaming is very interactive.
+tags: ⭐ common, 🎮 hobbies
+priority: yes
+grammar.Gender: m
+grammar.Plural: (always plural in this context)
+//
+word: equipo
+translation: team
+type: noun
+group: ⚽ Sports & hobbies
+pronunciation: /eˈkipo/
+example.es: Nuestro equipo favorito ganó la copa.
+example.en: Our favorite team won the cup.
+tags: ⭐ common, ⚽ sports
+priority: yes
+grammar.Gender: m
+grammar.Plural: equipos
+//
+word: jugador / jugadora
+translation: player
+type: noun
+group: ⚽ Sports & hobbies
+pronunciation: /xuɣaˈðoɾ/
+example.es: Es el mejor jugador del torneo.
+example.en: He is the best player of the tournament.
+tags: ⭐ common, ⚽ sports
+priority: yes
+grammar.Gender: m/f
+grammar.Plural: jugadores / jugadoras
+//
+word: partido
+translation: match
+type: noun
+group: ⚽ Sports & hobbies
+pronunciation: /paɾˈtiðo/
+example.es: El partido terminó en empate.
+example.en: The match ended in a draw.
+tags: ⭐ common, ⚽ sports
+priority: yes
+grammar.Gender: m
+grammar.Plural: partidos
+//
+word: gol
+translation: goal
+type: noun
+group: ⚽ Sports & hobbies
+pronunciation: /ɡol/
+example.es: El delantero marcó un golazo.
+example.en: The forward scored a great goal.
+tags: ⭐ common, ⚽ sports
+priority: yes
+grammar.Gender: m
+grammar.Plural: goles
+//
+word: marcador
+translation: score
+type: noun
+group: ⚽ Sports & hobbies
+pronunciation: /maɾkaˈðoɾ/
+example.es: El marcador final fue sorprendente.
+example.en: The final score was surprising.
+tags: ⭐ common, ⚽ sports
+priority: yes
+grammar.Gender: m
+grammar.Plural: marcadores
+//
+word: jugar
+translation: to play
+type: verb
+group: ⚽ Sports & hobbies
+pronunciation: /xuˈɣaɾ/
+example.es: Queremos jugar al baloncesto después.
+example.en: We want to play basketball later.
+tags: ⭐ common, ⚽ sports
+priority: yes
+grammar.Verb type: -ar (u > ue)
+grammar.Presente: juego / juegas / juega / jugamos / jugáis / juegan
+//
+word: practicar
+translation: to practice
+type: verb
+group: ⚽ Sports & hobbies
+pronunciation: /pɾaktiˈkaɾ/
+example.es: Debes practicar para mejorar el tiro.
+example.en: You must practice to improve your shot.
+tags: ⭐ common, ⚽ sports
+priority: yes
+grammar.Verb type: -ar
+grammar.Presente: practico / practicas / practica / practicamos / practicáis / practican
+//
+word: entrenar
+translation: to train
+type: verb
+group: ⚽ Sports & hobbies
+pronunciation: /entɾeˈnaɾ/
+example.es: Los atletas entrenan todas las mañanas.
+example.en: The athletes train every morning.
+tags: ⭐ common, ⚽ sports
+priority: yes
+grammar.Verb type: -ar
+grammar.Presente: entreno / entrenas / entrena / entrenamos / entrenáis / entrenan
+//
+word: ganar
+translation: to win
+type: verb
+group: ⚽ Sports & hobbies
+pronunciation: /ɡaˈnaɾ/
+example.es: Vamos a ganar esta competición.
+example.en: We are going to win this competition.
+tags: ⭐ common, ⚽ sports
+priority: yes
+grammar.Verb type: -ar
+grammar.Presente: gano / ganas / gana / ganamos / ganáis / ganan
+//
+word: perder
+translation: to lose
+type: verb
+group: ⚽ Sports & hobbies
+pronunciation: /peɾˈðeɾ/
+example.es: Nadie quiere perder la final.
+example.en: Nobody wants to lose the final.
+tags: ⭐ common, ⚽ sports
+priority: yes
+grammar.Verb type: -er (e > ie)
+grammar.Presente: pierdo / pierdes / pierde / perdemos / perdéis / pierden
+//
+word: campeón / campeona
+translation: champion
+type: noun
+group: ⚽ Sports & hobbies
+pronunciation: /kampeˈon/
+example.es: El campeón defendió su título con éxito.
+example.en: The champion defended his title successfully.
+tags: ⭐ common, ⚽ sports
+priority: yes
+grammar.Gender: m/f
+grammar.Plural: campeones / campeonas
+//
+word: árbitro / árbitra
+translation: referee
+type: noun
+group: ⚽ Sports & hobbies
+pronunciation: /ˈaɾβitɾo/
+example.es: El árbitro pitó una falta clara.
+example.en: The referee blew the whistle for a clear foul.
+tags: ⭐ common, ⚽ sports
+priority: yes
+grammar.Gender: m/f
+grammar.Plural: árbitros / árbitras
+//
+word: estadio
+translation: stadium
+type: noun
+group: ⚽ Sports & hobbies
+pronunciation: /esˈtaðjo/
+example.es: El estadio estaba completamente lleno.
+example.en: The stadium was completely full.
+tags: ⭐ common, ⚽ sports
+priority: yes
+grammar.Gender: m
+grammar.Plural: estadios
+//
+word: entrenador / entrenadora
+translation: coach
+type: noun
+group: ⚽ Sports & hobbies
+pronunciation: /entɾenaˈðoɾ/
+example.es: La entrenadora cambió la estrategia del equipo.
+example.en: The coach changed the team's strategy.
+tags: ⭐ common, ⚽ sports
+priority: yes
+grammar.Gender: m/f
+grammar.Plural: entrenadores / entrenadoras
+//
+word: aficionado / aficionada
+translation: fan
+type: noun
+group: ⚽ Sports & hobbies
+pronunciation: /afiθjoˈnaðo/
+example.es: Soy un gran aficionado al ciclismo.
+example.en: I am a big cycling fan.
+tags: ⭐ common, ⚽ sports
+priority: yes
+grammar.Gender: m/f
+grammar.Plural: aficionados / aficionadas

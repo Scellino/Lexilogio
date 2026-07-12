@@ -1,0 +1,389 @@
+word: felice
+translation: happy
+type: adjective
+group: 😊 Emotions
+pronunciation: /feˈlitʃe/
+example.it: Sono molto felice di vederti.
+example.en: I am very happy to see you.
+etymology: Latin "felix"
+tags: ⭐ common, 😊 emotions
+priority: yes
+grammar.Feminine form: felice
+grammar.Plural (masc.): felici
+grammar.Plural (fem.): felici
+//
+word: triste
+translation: sad
+type: adjective
+group: 😊 Emotions
+pronunciation: /ˈtriste/
+example.it: È una notizia molto triste.
+example.en: It is very sad news.
+etymology: Latin "tristis"
+tags: ⭐ common, 😊 emotions
+priority: yes
+grammar.Feminine form: triste
+grammar.Plural (masc.): tristi
+grammar.Plural (fem.): tristi
+//
+word: arrabbiato
+translation: angry
+type: adjective
+group: 😊 Emotions
+pronunciation: /arraˈbːjato/
+example.it: Mio fratello è arrabbiato con me.
+example.en: My brother is angry with me.
+etymology: From "rabbia"
+tags: ⭐ common, 😊 emotions
+priority: yes
+grammar.Feminine form: arrabbiata
+grammar.Plural (masc.): arrabbiati
+grammar.Plural (fem.): arrabbiate
+//
+word: impaurito
+translation: afraid
+type: adjective
+group: 😊 Emotions
+pronunciation: /impauˈrito/
+example.it: Il bambino è impaurito dal temporale.
+example.en: The child is afraid of the storm.
+etymology: From "paura"
+tags: 😊 emotions
+priority: yes
+grammar.Feminine form: impaurita
+grammar.Plural (masc.): impauriti
+grammar.Plural (fem.): impaurite
+//
+word: sorpreso
+translation: surprised
+type: adjective
+group: 😊 Emotions
+pronunciation: /sorˈprezo/
+example.it: Sono rimasto sorpreso dal regalo.
+example.en: I was surprised by the gift.
+etymology: From "sorprendere"
+tags: ⭐ common, 😊 emotions
+priority: yes
+grammar.Feminine form: sorpresa
+grammar.Plural (masc.): sorpresi
+grammar.Plural (fem.): sorprese
+//
+word: nervoso
+translation: nervous
+type: adjective
+group: 😊 Emotions
+pronunciation: /nerˈvoso/
+example.it: Sono un po' nervoso per l'esame.
+example.en: I am a bit nervous about the exam.
+etymology: Latin "nervosus"
+tags: ⭐ common, 😊 emotions
+priority: yes
+grammar.Feminine form: nervosa
+grammar.Plural (masc.): nervosi
+grammar.Plural (fem.): nervose
+//
+word: entusiasta
+translation: excited
+type: adjective
+group: 😊 Emotions
+pronunciation: /entuˈzjasta/
+example.it: Sono entusiasta del nuovo progetto.
+example.en: I am excited about the new project.
+etymology: Greek "enthousiastes"
+tags: ⭐ common, 😊 emotions
+priority: yes
+grammar.Feminine form: entusiasta
+grammar.Plural (masc.): entusiasti
+grammar.Plural (fem.): entusiaste
+//
+word: stanco
+translation: tired
+type: adjective
+group: 😊 Emotions
+pronunciation: /ˈstaŋko/
+example.it: Sono molto stanco dopo il lavoro.
+example.en: I am very tired after work.
+etymology: Possibly Germanic
+tags: ⭐ common, 😊 emotions
+priority: yes
+grammar.Feminine form: stanca
+grammar.Plural (masc.): stanchi
+grammar.Plural (fem.): stanche
+//
+word: annoiato
+translation: bored
+type: adjective
+group: 😊 Emotions
+pronunciation: /annjoˈjato/
+example.it: Ero annoiato durante la riunione.
+example.en: I was bored during the meeting.
+etymology: From "noia"
+tags: ⭐ common, 😊 emotions
+priority: yes
+grammar.Feminine form: annoiata
+grammar.Plural (masc.): annoiati
+grammar.Plural (fem.): annoiate
+//
+word: confuso
+translation: confused
+type: adjective
+group: 😊 Emotions
+pronunciation: /konˈfuzo/
+example.it: Sono un po' confuso dalle istruzioni.
+example.en: I am a bit confused by the instructions.
+etymology: Latin "confusus"
+tags: ⭐ common, 😊 emotions
+priority: yes
+grammar.Feminine form: confusa
+grammar.Plural (masc.): confusi
+grammar.Plural (fem.): confuse
+//
+word: orgoglioso
+translation: proud
+type: adjective
+group: 😊 Emotions
+pronunciation: /orɡoʎˈʎoso/
+example.it: Sono orgoglioso dei miei figli.
+example.en: I am proud of my children.
+etymology: From Old French "orguilleux"
+tags: ⭐ common, 😊 emotions
+priority: yes
+grammar.Feminine form: orgogliosa
+grammar.Plural (masc.): orgogliosi
+grammar.Plural (fem.): orgogliose
+//
+word: vergognoso
+translation: ashamed
+type: adjective
+group: 😊 Emotions
+pronunciation: /verɡoɲˈɲoso/
+example.it: Si sente vergognoso per il suo comportamento.
+example.en: He feels ashamed of his behavior.
+etymology: From "vergogna"
+tags: 😊 emotions
+priority: yes
+grammar.Feminine form: vergognosa
+grammar.Plural (masc.): vergognosi
+grammar.Plural (fem.): vergognose
+//
+word: geloso
+translation: jealous
+type: adjective
+group: 😊 Emotions
+pronunciation: /dʒeˈloso/
+example.it: Lui è molto geloso del suo successo.
+example.en: He is very jealous of his success.
+etymology: From "gelo" (frost)
+tags: ⭐ common, 😊 emotions
+priority: yes
+grammar.Feminine form: gelosa
+grammar.Plural (masc.): gelosi
+grammar.Plural (fem.): gelose
+//
+word: solo
+translation: lonely
+type: adjective
+group: 😊 Emotions
+pronunciation: /ˈsolo/
+example.it: A volte mi sento solo in questa città.
+example.en: Sometimes I feel lonely in this city.
+etymology: Latin "solus"
+tags: ⭐ common, 😊 emotions
+priority: yes
+grammar.Feminine form: sola
+grammar.Plural (masc.): soli
+grammar.Plural (fem.): sole
+//
+word: calmo
+translation: calm
+type: adjective
+group: 😊 Emotions
+pronunciation: /ˈkalmo/
+example.it: Cerca di restare calmo.
+example.en: Try to stay calm.
+etymology: Latin "cauma"
+tags: ⭐ common, 😊 emotions
+priority: yes
+grammar.Feminine form: calma
+grammar.Plural (masc.): calmi
+grammar.Plural (fem.): calme
+//
+word: stressato
+translation: stressed
+type: adjective
+group: 😊 Emotions
+pronunciation: /stresˈsato/
+example.it: Sono molto stressato questa settimana.
+example.en: I am very stressed this week.
+etymology: From English "stress"
+tags: ⭐ common, 😊 emotions
+priority: yes
+grammar.Feminine form: stressata
+grammar.Plural (masc.): stressati
+grammar.Plural (fem.): stressate
+//
+word: rilassato
+translation: relaxed
+type: adjective
+group: 😊 Emotions
+pronunciation: /rilasˈsato/
+example.it: Mi sento molto rilassato in vacanza.
+example.en: I feel very relaxed on vacation.
+etymology: From "rilassare"
+tags: ⭐ common, 😊 emotions
+priority: yes
+grammar.Feminine form: rilassata
+grammar.Plural (masc.): rilassati
+grammar.Plural (fem.): rilassate
+//
+word: curioso
+translation: curious
+type: adjective
+group: 😊 Emotions
+pronunciation: /kuˈrjoso/
+example.it: Sono curioso di sapere com'è andata.
+example.en: I am curious to know how it went.
+etymology: Latin "curiosus"
+tags: ⭐ common, 😊 emotions
+priority: yes
+grammar.Feminine form: curiosa
+grammar.Plural (masc.): curiosi
+grammar.Plural (fem.): curiose
+//
+word: speranzoso
+translation: hopeful
+type: adjective
+group: 😊 Emotions
+pronunciation: /speranˈtsoso/
+example.it: Sono speranzoso per il futuro.
+example.en: I am hopeful about the future.
+etymology: From "speranza"
+tags: 😊 emotions
+priority: yes
+grammar.Feminine form: speranzosa
+grammar.Plural (masc.): speranzosi
+grammar.Plural (fem.): speranzose
+//
+word: deluso
+translation: disappointed
+type: adjective
+group: 😊 Emotions
+pronunciation: /deˈluzo/
+example.it: Sono rimasto molto deluso dal film.
+example.en: I was very disappointed by the movie.
+etymology: Latin "deludere"
+tags: ⭐ common, 😊 emotions
+priority: yes
+grammar.Feminine form: delusa
+grammar.Plural (masc.): delusi
+grammar.Plural (fem.): deluse
+//
+word: grato
+translation: grateful
+type: adjective
+group: 😊 Emotions
+pronunciation: /ˈɡrato/
+example.it: Ti sono molto grato per il tuo aiuto.
+example.en: I am very grateful for your help.
+etymology: Latin "gratus"
+tags: ⭐ common, 😊 emotions
+priority: yes
+grammar.Feminine form: grata
+grammar.Plural (masc.): grati
+grammar.Plural (fem.): grate
+//
+word: contento
+translation: content, happy
+type: adjective
+group: 😊 Emotions
+pronunciation: /konˈtɛnto/
+example.it: Sono contento del risultato.
+example.en: I am content with the result.
+etymology: Latin "contentus"
+tags: ⭐ common, 😊 emotions
+priority: yes
+grammar.Feminine form: contenta
+grammar.Plural (masc.): contenti
+grammar.Plural (fem.): contente
+//
+word: amore
+translation: love
+type: noun
+group: 😊 Emotions
+pronunciation: /aˈmore/
+example.it: L'amore è il sentimento più forte.
+example.en: Love is the strongest feeling.
+etymology: Latin "amor"
+tags: ⭐ common, 😊 emotions
+priority: yes
+grammar.Gender: m
+grammar.Plural: amori
+//
+word: odio
+translation: hate
+type: noun
+group: 😊 Emotions
+pronunciation: /ˈɔdjo/
+example.it: Non c'è posto per l'odio nel mondo.
+example.en: There is no place for hate in the world.
+etymology: Latin "odium"
+tags: ⭐ common, 😊 emotions
+priority: yes
+grammar.Gender: m
+grammar.Plural: odi
+//
+word: paura
+translation: fear
+type: noun
+group: 😊 Emotions
+pronunciation: /paˈura/
+example.it: Non avere paura di provare.
+example.en: Do not be afraid to try.
+etymology: From "paura" (Latin "pavor")
+tags: ⭐ common, 😊 emotions
+priority: yes
+grammar.Gender: f
+grammar.Plural: paure
+//
+word: gioia
+translation: joy
+type: noun
+group: 😊 Emotions
+pronunciation: /ˈdʒɔja/
+example.it: La nascita di un bambino è una grande gioia.
+example.en: The birth of a child is a great joy.
+etymology: From Old French "joie"
+tags: ⭐ common, 😊 emotions
+priority: yes
+grammar.Gender: f
+grammar.Plural: gioie
+//
+word: sentire
+translation: to feel
+type: verb
+group: 😊 Emotions
+pronunciation: /senˈtire/
+example.it: Come ti senti oggi?
+example.en: How do you feel today?
+etymology: Latin "sentire"
+tags: ⭐ common, 😊 emotions
+priority: yes
+grammar.Verb group: -ire
+grammar.Auxiliary (passato prossimo): avere
+grammar.Participio passato: sentito
+grammar.Passato remoto (io): sentii
+grammar.Gerundio: sentendo
+grammar.Presente (all 6 forms): sento / senti / sente / sentiamo / sentite / sentono
+//
+word: umore
+translation: mood
+type: noun
+group: 😊 Emotions
+pronunciation: /uˈmore/
+example.it: Oggi sono di buon umore.
+example.en: I am in a good mood today.
+etymology: Latin "humor"
+tags: ⭐ common, 😊 emotions
+priority: yes
+grammar.Gender: m
+grammar.Plural: umori

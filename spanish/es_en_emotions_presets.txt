@@ -1,0 +1,362 @@
+word: feliz
+translation: happy
+type: adjective
+group: 😊 Emotions
+pronunciation: /feˈliθ/
+example.es: Estoy muy feliz hoy.
+example.en: I am very happy today.
+tags: ⭐ common, ❤️ emotions
+priority: yes
+grammar.Feminine form: feliz
+grammar.Plural (masc.): felices
+grammar.Plural (fem.): felices
+//
+word: triste
+translation: sad
+type: adjective
+group: 😊 Emotions
+pronunciation: /ˈtɾiste/
+example.es: Ella está triste por la noticia.
+example.en: She is sad about the news.
+tags: ⭐ common, ❤️ emotions
+priority: yes
+grammar.Feminine form: triste
+grammar.Plural (masc.): tristes
+grammar.Plural (fem.): tristes
+//
+word: enojado
+translation: angry
+type: adjective
+group: 😊 Emotions
+pronunciation: /enoˈxaðo/
+example.es: Él está enojado conmigo.
+example.en: He is angry with me.
+tags: ⭐ common, ❤️ emotions
+priority: yes
+grammar.Feminine form: enojada
+grammar.Plural (masc.): enojados
+grammar.Plural (fem.): enojadas
+//
+word: asustado
+translation: afraid
+type: adjective
+group: 😊 Emotions
+pronunciation: /asusˈtaðo/
+example.es: El niño está asustado por el ruido.
+example.en: The child is afraid of the noise.
+tags: ⭐ common, ❤️ emotions
+priority: yes
+grammar.Feminine form: asustada
+grammar.Plural (masc.): asustados
+grammar.Plural (fem.): asustadas
+//
+word: sorprendido
+translation: surprised
+type: adjective
+group: 😊 Emotions
+pronunciation: /soɾpɾenˈdiðo/
+example.es: Estoy sorprendido por tu visita.
+example.en: I am surprised by your visit.
+tags: ⭐ common, ❤️ emotions
+priority: yes
+grammar.Feminine form: sorprendida
+grammar.Plural (masc.): sorprendidos
+grammar.Plural (fem.): sorprendidas
+//
+word: nervioso
+translation: nervous
+type: adjective
+group: 😊 Emotions
+pronunciation: /neɾˈβjoso/
+example.es: Estoy un poco nervioso por el examen.
+example.en: I am a little nervous about the exam.
+tags: ⭐ common, ❤️ emotions
+priority: yes
+grammar.Feminine form: nerviosa
+grammar.Plural (masc.): nerviosos
+grammar.Plural (fem.): nerviosas
+//
+word: emocionado
+translation: excited
+type: adjective
+group: 😊 Emotions
+pronunciation: /emoθjoˈnaðo/
+example.es: Estamos emocionados por el viaje.
+example.en: We are excited about the trip.
+tags: ⭐ common, ❤️ emotions
+priority: yes
+grammar.Feminine form: emocionada
+grammar.Plural (masc.): emocionados
+grammar.Plural (fem.): emocionadas
+//
+word: cansado
+translation: tired
+type: adjective
+group: 😊 Emotions
+pronunciation: /kanˈsaðo/
+example.es: Estoy muy cansado después del trabajo.
+example.en: I am very tired after work.
+tags: ⭐ common, 🧠 emotions
+priority: yes
+grammar.Feminine form: cansada
+grammar.Plural (masc.): cansados
+grammar.Plural (fem.): cansadas
+//
+word: aburrido
+translation: bored
+type: adjective
+group: 😊 Emotions
+pronunciation: /aβuˈriðo/
+example.es: Estoy aburrido en esta reunión.
+example.en: I am bored in this meeting.
+tags: ⭐ common, 🧠 emotions
+priority: yes
+grammar.Feminine form: aburrida
+grammar.Plural (masc.): aburridos
+grammar.Plural (fem.): aburridas
+//
+word: confundido
+translation: confused
+type: adjective
+group: 😊 Emotions
+pronunciation: /konfunˈdiðo/
+example.es: Estoy un poco confundido con las direcciones.
+example.en: I am a little confused with the directions.
+tags: ⭐ common, 🧠 emotions
+priority: yes
+grammar.Feminine form: confundida
+grammar.Plural (masc.): confundidos
+grammar.Plural (fem.): confundidas
+//
+word: orgulloso
+translation: proud
+type: adjective
+group: 😊 Emotions
+pronunciation: /oɾɣuˈʝoso/
+example.es: Estoy muy orgulloso de ti.
+example.en: I am very proud of you.
+tags: ⭐ common, 🧠 emotions
+priority: yes
+grammar.Feminine form: orgullosa
+grammar.Plural (masc.): orgullosos
+grammar.Plural (fem.): orgullosas
+//
+word: avergonzado
+translation: ashamed
+type: adjective
+group: 😊 Emotions
+pronunciation: /aβerɣonˈθaðo/
+example.es: Me siento avergonzado por mi error.
+example.en: I feel ashamed of my mistake.
+tags: ⭐ common, 🧠 emotions
+priority: yes
+grammar.Feminine form: avergonzada
+grammar.Plural (masc.): avergonzados
+grammar.Plural (fem.): avergonzadas
+//
+word: celoso
+translation: jealous
+type: adjective
+group: 😊 Emotions
+pronunciation: /θeˈloso/
+example.es: No seas celoso de su éxito.
+example.en: Don't be jealous of his success.
+tags: ⭐ common, 🧠 emotions
+priority: yes
+grammar.Feminine form: celosa
+grammar.Plural (masc.): celosos
+grammar.Plural (fem.): celosas
+//
+word: solo
+translation: lonely
+type: adjective
+group: 😊 Emotions
+pronunciation: /ˈsolo/
+example.es: A veces me siento solo.
+example.en: Sometimes I feel lonely.
+tags: ⭐ common, 🧠 emotions
+priority: yes
+grammar.Feminine form: sola
+grammar.Plural (masc.): solos
+grammar.Plural (fem.): solas
+//
+word: tranquilo
+translation: calm
+type: adjective
+group: 😊 Emotions
+pronunciation: /traŋˈkilo/
+example.es: Estoy muy tranquilo hoy.
+example.en: I am very calm today.
+tags: ⭐ common, 🧠 emotions
+priority: yes
+grammar.Feminine form: tranquila
+grammar.Plural (masc.): tranquilos
+grammar.Plural (fem.): tranquilas
+//
+word: estresado
+translation: stressed
+type: adjective
+group: 😊 Emotions
+pronunciation: /es.tɾeˈsa.ðo/
+example.es: Estoy muy estresado con este proyecto.
+example.en: I am very stressed with this project.
+tags: ⭐ common, 🧠 emotions
+priority: yes
+grammar.Feminine form: estresada
+grammar.Plural (masc.): estresados
+grammar.Plural (fem.): estresadas
+//
+word: relajado
+translation: relaxed
+type: adjective
+group: 😊 Emotions
+pronunciation: /relaˈxaðo/
+example.es: Estoy muy relajado después de las vacaciones.
+example.en: I am very relaxed after the vacation.
+tags: ⭐ common, 🧠 emotions
+priority: yes
+grammar.Feminine form: relajada
+grammar.Plural (masc.): relajados
+grammar.Plural (fem.): relajadas
+//
+word: curioso
+translation: curious
+type: adjective
+group: 😊 Emotions
+pronunciation: /kuˈɾjoso/
+example.es: Soy una persona muy curiosa.
+example.en: I am a very curious person.
+tags: ⭐ common, 👀 curiosity
+priority: yes
+grammar.Feminine form: curiosa
+grammar.Plural (masc.): curiosos
+grammar.Plural (fem.): curiosas
+//
+word: esperanzado
+translation: hopeful
+type: adjective
+group: 😊 Emotions
+pronunciation: /espeɾanˈθaðo/
+example.es: Me siento muy esperanzado con el futuro.
+example.en: I feel very hopeful about the future.
+tags: ⭐ common, 💭 wishes
+priority: yes
+grammar.Feminine form: esperanzada
+grammar.Plural (masc.): esperanzados
+grammar.Plural (fem.): esperanzadas
+//
+word: decepcionado
+translation: disappointed
+type: adjective
+group: 😊 Emotions
+pronunciation: /deθepθjoˈnaðo/
+example.es: Estoy decepcionado con el servicio.
+example.en: I am disappointed with the service.
+tags: ⭐ common, 🧠 emotions
+priority: yes
+grammar.Feminine form: decepcionada
+grammar.Plural (masc.): decepcionados
+grammar.Plural (fem.): decepcionadas
+//
+word: agradecido
+translation: grateful
+type: adjective
+group: 😊 Emotions
+pronunciation: /aɣɾaðeˈθiðo/
+example.es: Estoy muy agradecido por tu ayuda.
+example.en: I am very grateful for your help.
+tags: ⭐ common, 🧠 emotions
+priority: yes
+grammar.Feminine form: agradecida
+grammar.Plural (masc.): agradecidos
+grammar.Plural (fem.): agradecidas
+//
+word: contento
+translation: content
+type: adjective
+group: 😊 Emotions
+pronunciation: /konˈtento/
+example.es: Estoy contento con mi vida actual.
+example.en: I am content with my current life.
+tags: ⭐ common, 🧠 emotions
+priority: yes
+grammar.Feminine form: contenta
+grammar.Plural (masc.): contentos
+grammar.Plural (fem.): contentas
+//
+word: amor
+translation: love
+type: noun
+group: 😊 Emotions
+pronunciation: /aˈmoɾ/
+example.es: El amor es un sentimiento fuerte.
+example.en: Love is a strong feeling.
+tags: ⭐ common, ❤️ emotions
+priority: yes
+grammar.Gender: m
+grammar.Plural: amores
+//
+word: odio
+translation: hate
+type: noun
+group: 😊 Emotions
+pronunciation: /ˈoðjo/
+example.es: El odio no ayuda a nadie.
+example.en: Hate does not help anyone.
+tags: ⭐ common, ❤️ emotions
+priority: yes
+grammar.Gender: m
+grammar.Plural: odios
+//
+word: miedo
+translation: fear
+type: noun
+group: 😊 Emotions
+pronunciation: /ˈmjeðo/
+example.es: Tengo miedo a la oscuridad.
+example.en: I have a fear of the dark.
+tags: ⭐ common, ❤️ emotions
+priority: yes
+grammar.Gender: m
+grammar.Plural: miedos
+//
+word: alegría
+translation: joy
+type: noun
+group: 😊 Emotions
+pronunciation: /aleˈɣɾia/
+example.es: La noticia me trajo mucha alegría.
+example.en: The news brought me much joy.
+tags: ⭐ common, ❤️ emotions
+priority: yes
+grammar.Gender: f
+grammar.Plural: alegrías
+//
+word: sentir
+translation: to feel
+type: verb
+group: 😊 Emotions
+pronunciation: /senˈtiɾ/
+example.es: ¿Cómo te sientes hoy?
+example.en: How do you feel today?
+tags: ⭐ common, 🧠 emotions
+priority: yes
+grammar.Verb type: -ir
+grammar.Reflexive: yes
+grammar.Participio pasado: sentido
+grammar.Pretérito indefinido (yo): sentí
+grammar.Pretérito imperfecto (yo): sentía
+grammar.Gerundio: sintiendo
+grammar.Presente (all 6 forms): siento / sientes / siente / sentimos / sentís / sienten
+//
+word: estado de ánimo
+translation: mood
+type: noun
+group: 😊 Emotions
+pronunciation: /esˈtaðo ðe ˈanimo/
+example.es: Hoy tengo un buen estado de ánimo.
+example.en: I am in a good mood today.
+tags: ⭐ common, 🧠 emotions
+priority: yes
+grammar.Gender: m
+grammar.Plural: estados de ánimo

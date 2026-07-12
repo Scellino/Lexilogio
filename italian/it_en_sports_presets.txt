@@ -1,0 +1,464 @@
+word: calcio
+translation: football
+type: noun
+group: ⚽ Sports & hobbies
+pronunciation: /ˈkaltʃo/
+example.it: Il calcio è molto popolare in Italia.
+example.en: Football is very popular in Italy.
+etymology: From "calciare" (to kick)
+tags: ⭐ common, ⚽ sports
+priority: yes
+grammar.Gender: m
+grammar.Plural: calci
+//
+word: tennis
+translation: tennis
+type: noun
+group: ⚽ Sports & hobbies
+pronunciation: /ˈtɛnnis/
+example.it: Giochiamo a tennis nel weekend.
+example.en: We play tennis on the weekend.
+etymology: From French "tenez"
+tags: ⚽ sports
+priority: yes
+grammar.Gender: m
+grammar.Article override: il
+grammar.Plural: tennis (invariable)
+//
+word: nuoto
+translation: swimming
+type: noun
+group: ⚽ Sports & hobbies
+pronunciation: /ˈnwɔto/
+example.it: Il nuoto è un ottimo esercizio.
+example.en: Swimming is a great exercise.
+etymology: From "nuotare"
+tags: ⚽ sports
+priority: yes
+grammar.Gender: m
+grammar.Plural: nuoti
+//
+word: corsa
+translation: running
+type: noun
+group: ⚽ Sports & hobbies
+pronunciation: /ˈkɔrsa/
+example.it: Vado a fare una corsa al parco.
+example.en: I am going for a run in the park.
+etymology: From "correre"
+tags: ⚽ sports
+priority: yes
+grammar.Gender: f
+grammar.Plural: corse
+//
+word: ciclismo
+translation: cycling
+type: noun
+group: ⚽ Sports & hobbies
+pronunciation: /tʃiˈklizmo/
+example.it: Il ciclismo richiede molta resistenza.
+example.en: Cycling requires a lot of endurance.
+etymology: From "ciclo"
+tags: ⚽ sports
+priority: yes
+grammar.Gender: m
+grammar.Plural: cinclismi
+//
+word: pallacanestro
+translation: basketball
+type: noun
+group: ⚽ Sports & hobbies
+pronunciation: /palla kaˈnɛstro/
+example.it: Mi piace guardare la pallacanestro.
+example.en: I like watching basketball.
+etymology: From "palla" and "canestro"
+tags: ⚽ sports
+priority: yes
+grammar.Gender: f
+grammar.Plural: pallacanestri
+//
+word: pallavolo
+translation: volleyball
+type: noun
+group: ⚽ Sports & hobbies
+pronunciation: /pallaˈvɔlo/
+example.it: La pallavolo è uno sport di squadra.
+example.en: Volleyball is a team sport.
+etymology: From "palla" and "volo"
+tags: ⚽ sports
+priority: yes
+grammar.Gender: f
+grammar.Plural: pallavoli
+//
+word: sci
+translation: skiing
+type: noun
+group: ⚽ Sports & hobbies
+pronunciation: /ʃi/
+example.it: Andiamo a fare sci in montagna.
+example.en: We are going skiing in the mountains.
+etymology: From Norwegian
+tags: ⚽ sports
+priority: yes
+grammar.Gender: m
+grammar.Article override: lo
+grammar.Plural: sci (invariable)
+//
+word: pugilato
+translation: boxing
+type: noun
+group: ⚽ Sports & hobbies
+pronunciation: /pudʒiˈlato/
+example.it: Il pugilato richiede molta disciplina.
+example.en: Boxing requires a lot of discipline.
+etymology: Latin "pugil"
+tags: ⚽ sports
+priority: yes
+grammar.Gender: m
+grammar.Plural: pugilati
+//
+word: yoga
+translation: yoga
+type: noun
+group: ⚽ Sports & hobbies
+pronunciation: /ˈjɔɡa/
+example.it: Faccio yoga per rilassarmi.
+example.en: I do yoga to relax.
+etymology: From Sanskrit
+tags: ⚽ sports
+priority: yes
+grammar.Gender: m
+grammar.Article override: lo
+grammar.Plural: yoga (invariable)
+//
+word: palestra
+translation: gym
+type: noun
+group: ⚽ Sports & hobbies
+pronunciation: /paˈlɛstra/
+example.it: Vado in palestra tre volte a settimana.
+example.en: I go to the gym three times a week.
+etymology: Greek "palaistra"
+tags: ⭐ common, ⚽ sports
+priority: yes
+grammar.Gender: f
+grammar.Plural: palestre
+//
+word: escursionismo
+translation: hiking
+type: noun
+group: ⚽ Sports & hobbies
+pronunciation: /eskursjoˈnizmo/
+example.it: L'escursionismo è la mia passione.
+example.en: Hiking is my passion.
+etymology: From "escursione"
+tags: ⚽ sports
+priority: yes
+grammar.Gender: m
+grammar.Plural: escursionismi
+//
+word: lettura
+translation: reading
+type: noun
+group: ⚽ Sports & hobbies
+pronunciation: /letˈtura/
+example.it: La lettura è un ottimo passatempo.
+example.en: Reading is a great pastime.
+etymology: Latin "lectura"
+tags: 📚 education, ⚽ hobbies
+priority: yes
+grammar.Gender: f
+grammar.Plural: letture
+//
+word: disegno
+translation: drawing
+type: noun
+group: ⚽ Sports & hobbies
+pronunciation: /diˈzeɲɲo/
+example.it: Faccio un disegno per mia madre.
+example.en: I am doing a drawing for my mother.
+etymology: From "disegnare"
+tags: ⚽ hobbies
+priority: yes
+grammar.Gender: m
+grammar.Plural: disegni
+//
+word: pittura
+translation: painting
+type: noun
+group: ⚽ Sports & hobbies
+pronunciation: /pitˈtura/
+example.it: Mi piace la pittura a olio.
+example.en: I like oil painting.
+etymology: Latin "pictura"
+tags: ⚽ hobbies
+priority: yes
+grammar.Gender: f
+grammar.Plural: pitture
+//
+word: fotografia
+translation: photography
+type: noun
+group: ⚽ Sports & hobbies
+pronunciation: /fotoɡraˈfia/
+example.it: La fotografia richiede molta pazienza.
+example.en: Photography requires a lot of patience.
+etymology: Greek "photos" + "graphein"
+tags: ⚽ hobbies
+priority: yes
+grammar.Gender: f
+grammar.Plural: fotografie
+//
+word: danza
+translation: dancing
+type: noun
+group: ⚽ Sports & hobbies
+pronunciation: /ˈdantsa/
+example.it: La danza mi rende felice.
+example.en: Dancing makes me happy.
+etymology: From German "danz"
+tags: ⚽ hobbies
+priority: yes
+grammar.Gender: f
+grammar.Plural: danze
+//
+word: giardinaggio
+translation: gardening
+type: noun
+group: ⚽ Sports & hobbies
+pronunciation: /dʒardinˈaddʒo/
+example.it: Il giardinaggio è molto rilassante.
+example.en: Gardening is very relaxing.
+etymology: From "giardino"
+tags: ⚽ hobbies
+priority: yes
+grammar.Gender: m
+grammar.Plural: giardinaggi
+//
+word: videogiochi
+translation: gaming
+type: noun
+group: ⚽ Sports & hobbies
+pronunciation: /videoˈdʒɔki/
+example.it: Mi piace fare videogiochi nel tempo libero.
+example.en: I like gaming in my free time.
+tags: ⚽ hobbies
+priority: yes
+grammar.Gender: m
+grammar.Plural: videogiochi
+//
+word: squadra
+translation: team
+type: noun
+group: ⚽ Sports & hobbies
+pronunciation: /ˈskwadra/
+example.it: La mia squadra ha vinto.
+example.en: My team won.
+etymology: Germanic
+tags: ⭐ common, ⚽ sports
+priority: yes
+grammar.Gender: f
+grammar.Plural: squadre
+//
+word: giocatore
+translation: player
+type: noun
+group: ⚽ Sports & hobbies
+pronunciation: /dʒokaˈtore/
+example.it: È il miglior giocatore della squadra.
+example.en: He is the best player on the team.
+etymology: From "giocare"
+tags: ⚽ sports
+priority: yes
+grammar.Gender: m
+grammar.Plural: giocatori
+//
+word: partita
+translation: match
+type: noun
+group: ⚽ Sports & hobbies
+pronunciation: /parˈtita/
+example.it: Stasera c'è la partita di calcio.
+example.en: Tonight there is a football match.
+etymology: From "partire"
+tags: ⭐ common, ⚽ sports
+priority: yes
+grammar.Gender: f
+grammar.Plural: partite
+//
+word: gol
+translation: goal
+type: noun
+group: ⚽ Sports & hobbies
+pronunciation: /ɡɔl/
+example.it: Ha segnato un gol incredibile.
+example.en: He scored an incredible goal.
+etymology: From English "goal"
+tags: ⚽ sports
+priority: yes
+grammar.Gender: m
+grammar.Article override: il
+grammar.Plural: gol (invariable)
+//
+word: punteggio
+translation: score
+type: noun
+group: ⚽ Sports & hobbies
+pronunciation: /punˈtɛddʒo/
+example.it: Qual è il punteggio finale?
+example.en: What is the final score?
+etymology: From "punto"
+tags: ⚽ sports
+priority: yes
+grammar.Gender: m
+grammar.Plural: punteggi
+//
+word: giocare
+translation: to play
+type: verb
+group: ⚽ Sports & hobbies
+pronunciation: /dʒoˈkare/
+example.it: Mi piace giocare a calcio.
+example.en: I like to play football.
+etymology: Latin "jocari"
+tags: ⭐ common, ⚽ sports
+priority: yes
+grammar.Verb group: -are
+grammar.Auxiliary (passato prossimo): avere
+grammar.Participio passato: giocato
+grammar.Passato remoto (io): giocai
+grammar.Gerundio: giocando
+grammar.Presente (all 6 forms): gioco / giochi / gioca / giochiamo / giocate / giocano
+//
+word: praticare
+translation: to practice
+type: verb
+group: ⚽ Sports & hobbies
+pronunciation: /pratiˈkare/
+example.it: Pratico nuoto ogni giorno.
+example.en: I practice swimming every day.
+etymology: Greek "praktikos"
+tags: ⚽ sports
+priority: yes
+grammar.Verb group: -are
+grammar.Auxiliary (passato prossimo): avere
+grammar.Participio passato: praticato
+grammar.Passato remoto (io): praticai
+grammar.Gerundio: praticando
+grammar.Presente (all 6 forms): pratico / pratichi / pratica / pratichiamo / praticate / praticano
+//
+word: allenarsi
+translation: to train
+type: verb
+group: ⚽ Sports & hobbies
+pronunciation: /allenˈarsi/
+example.it: Dobbiamo allenarci per la gara.
+example.en: We have to train for the race.
+etymology: From "al" and "lenza"
+tags: ⚽ sports
+priority: yes
+grammar.Verb group: -arsi (reflexive)
+grammar.Auxiliary (passato prossimo): essere
+grammar.Participio passato: allenato
+grammar.Passato remoto (io): allenai
+grammar.Gerundio: allenandosi
+grammar.Presente (all 6 forms): mi alleno / ti alleni / si allena / ci alleniamo / vi allenate / si allenano
+//
+word: vincere
+translation: to win
+type: verb
+group: ⚽ Sports & hobbies
+pronunciation: /ˈvintʃere/
+example.it: Vogliamo vincere il campionato.
+example.en: We want to win the championship.
+etymology: Latin "vincere"
+tags: ⭐ common, ⚽ sports
+priority: yes
+grammar.Verb group: -ere
+grammar.Auxiliary (passato prossimo): avere
+grammar.Participio passato: vinto
+grammar.Passato remoto (io): vinsi
+grammar.Gerundio: vincendo
+grammar.Presente (all 6 forms): vinco / vinci / vince / vinciamo / vincete / vincono
+//
+word: perdere
+translation: to lose
+type: verb
+group: ⚽ Sports & hobbies
+pronunciation: /ˈpɛrdere/
+example.it: Non mi piace perdere.
+example.en: I don't like to lose.
+etymology: Latin "perdere"
+tags: ⭐ common, ⚽ sports
+priority: yes
+grammar.Verb group: -ere
+grammar.Auxiliary (passato prossimo): avere
+grammar.Participio passato: perso
+grammar.Passato remoto (io): persi
+grammar.Gerundio: perdendo
+grammar.Presente (all 6 forms): perdo / perdi / perde / perdiamo / perdete / perdono
+//
+word: campione
+translation: champion
+type: noun
+group: ⚽ Sports & hobbies
+pronunciation: /kamˈpjone/
+example.it: È un vero campione di tennis.
+example.en: He is a true tennis champion.
+etymology: From "campo"
+tags: ⚽ sports
+priority: yes
+grammar.Gender: m
+grammar.Plural: campioni
+//
+word: arbitro
+translation: referee
+type: noun
+group: ⚽ Sports & hobbies
+pronunciation: /ˈarbitro/
+example.it: L'arbitro ha fischiato un fallo.
+example.en: The referee whistled a foul.
+etymology: Latin "arbiter"
+tags: ⚽ sports
+priority: yes
+grammar.Gender: m
+grammar.Plural: arbitri
+//
+word: stadio
+translation: stadium
+type: noun
+group: ⚽ Sports & hobbies
+pronunciation: /ˈstadjo/
+example.it: Lo stadio è pieno di tifosi.
+example.en: The stadium is full of fans.
+etymology: Greek "stadion"
+tags: ⚽ sports
+priority: yes
+grammar.Gender: m
+grammar.Plural: stadi
+//
+word: allenatore
+translation: coach
+type: noun
+group: ⚽ Sports & hobbies
+pronunciation: /allenaˈtore/
+example.it: L'allenatore dà istruzioni alla squadra.
+example.en: The coach gives instructions to the team.
+etymology: From "allenare"
+tags: ⚽ sports
+priority: yes
+grammar.Gender: m
+grammar.Plural: allenatori
+//
+word: tifoso
+translation: fan
+type: noun
+group: ⚽ Sports & hobbies
+pronunciation: /tiˈfoso/
+example.it: Sono un grande tifoso di questa squadra.
+example.en: I am a big fan of this team.
+etymology: From "tifo"
+tags: ⚽ sports
+priority: yes
+grammar.Gender: m
+grammar.Plural: tifosi

@@ -1,0 +1,642 @@
+word: uno
+translation: one
+type: phrase
+group: 🕐 Numbers & time
+pronunciation: /ˈuno/
+example.es: Tengo uno solo.
+example.en: I have only one.
+tags: ⭐ common, ⏳ time
+priority: yes
+grammar.Register: neutral
+//
+word: dos
+translation: two
+type: phrase
+group: 🕐 Numbers & time
+pronunciation: /dos/
+example.es: Compré dos manzanas.
+example.en: I bought two apples.
+tags: ⭐ common, ⏳ time
+priority: yes
+grammar.Register: neutral
+//
+word: tres
+translation: three
+type: phrase
+group: 🕐 Numbers & time
+pronunciation: /tɾes/
+example.es: Son las tres de la tarde.
+example.en: It is three in the afternoon.
+tags: ⭐ common, ⏳ time
+priority: yes
+grammar.Register: neutral
+//
+word: cuatro
+translation: four
+type: phrase
+group: 🕐 Numbers & time
+pronunciation: /ˈkwatɾo/
+example.es: El gato tiene cuatro patas.
+example.en: The cat has four legs.
+tags: ⭐ common, ⏳ time
+priority: yes
+grammar.Register: neutral
+//
+word: cinco
+translation: five
+type: phrase
+group: 🕐 Numbers & time
+pronunciation: /ˈθiŋko/
+example.es: Son las cinco en punto.
+example.en: It is five o'clock sharp.
+tags: ⭐ common, ⏳ time
+priority: yes
+grammar.Register: neutral
+//
+word: seis
+translation: six
+type: phrase
+group: 🕐 Numbers & time
+pronunciation: /seis/
+example.es: Me levanté a las seis.
+example.en: I got up at six.
+tags: ⭐ common, ⏳ time
+priority: yes
+grammar.Register: neutral
+//
+word: siete
+translation: seven
+type: phrase
+group: 🕐 Numbers & time
+pronunciation: /ˈsjete/
+example.es: La semana tiene siete días.
+example.en: The week has seven days.
+tags: ⭐ common, ⏳ time
+priority: yes
+grammar.Register: neutral
+//
+word: ocho
+translation: eight
+type: phrase
+group: 🕐 Numbers & time
+pronunciation: /ˈotʃo/
+example.es: Empiezo a trabajar a las ocho.
+example.en: I start work at eight.
+tags: ⭐ common, ⏳ time
+priority: yes
+grammar.Register: neutral
+//
+word: nueve
+translation: nine
+type: phrase
+group: 🕐 Numbers & time
+pronunciation: /ˈnweβe/
+example.es: Son las nueve de la noche.
+example.en: It is nine at night.
+tags: ⭐ common, ⏳ time
+priority: yes
+grammar.Register: neutral
+//
+word: diez
+translation: ten
+type: phrase
+group: 🕐 Numbers & time
+pronunciation: /djeθ/
+example.es: Cuento hasta diez.
+example.en: I count to ten.
+tags: ⭐ common, ⏳ time
+priority: yes
+grammar.Register: neutral
+//
+word: veinte
+translation: twenty
+type: phrase
+group: 🕐 Numbers & time
+pronunciation: /ˈbeinte/
+example.es: Tengo veinte años.
+example.en: I am twenty years old.
+tags: ⭐ common, ⏳ time
+priority: yes
+grammar.Register: neutral
+//
+word: treinta
+translation: thirty
+type: phrase
+group: 🕐 Numbers & time
+pronunciation: /ˈtɾeinta/
+example.es: Son las ocho y treinta.
+example.en: It is eight thirty.
+tags: ⭐ common, ⏳ time
+priority: yes
+grammar.Register: neutral
+//
+word: cuarenta
+translation: forty
+type: phrase
+group: 🕐 Numbers & time
+pronunciation: /kwaˈɾenta/
+example.es: Tengo cuarenta euros.
+example.en: I have forty euros.
+tags: ⭐ common, ⏳ time
+priority: yes
+grammar.Register: neutral
+//
+word: cincuenta
+translation: fifty
+type: phrase
+group: 🕐 Numbers & time
+pronunciation: /θiŋˈkwenta/
+example.es: Cincuenta personas asistieron.
+example.en: Fifty people attended.
+tags: ⭐ common, ⏳ time
+priority: yes
+grammar.Register: neutral
+//
+word: sesenta
+translation: sixty
+type: phrase
+group: 🕐 Numbers & time
+pronunciation: /seˈsenta/
+example.es: Hay sesenta minutos en una hora.
+example.en: There are sixty minutes in an hour.
+tags: ⭐ common, ⏳ time
+priority: yes
+grammar.Register: neutral
+//
+word: setenta
+translation: seventy
+type: phrase
+group: 🕐 Numbers & time
+pronunciation: /seˈtenta/
+example.es: Cumplió setenta años.
+example.en: He turned seventy.
+tags: ⭐ common, ⏳ time
+priority: yes
+grammar.Register: neutral
+//
+word: ochenta
+translation: eighty
+type: phrase
+group: 🕐 Numbers & time
+pronunciation: /oˈtʃenta/
+example.es: Hace ochenta años de eso.
+example.en: That was eighty years ago.
+tags: ⭐ common, ⏳ time
+priority: yes
+grammar.Register: neutral
+//
+word: noventa
+translation: ninety
+type: phrase
+group: 🕐 Numbers & time
+pronunciation: /noˈβenta/
+example.es: Corrió noventa metros.
+example.en: He ran ninety meters.
+tags: ⭐ common, ⏳ time
+priority: yes
+grammar.Register: neutral
+//
+word: ciento
+translation: hundred
+type: phrase
+group: 🕐 Numbers & time
+pronunciation: /ˈθjento/
+example.es: Hay ciento diez personas.
+example.en: There are one hundred and ten people.
+note: Use 'cien' before nouns or before 'mil'/'millones'.
+tags: ⭐ common, ⏳ time
+priority: yes
+grammar.Register: neutral
+//
+word: mil
+translation: thousand
+type: phrase
+group: 🕐 Numbers & time
+pronunciation: /mil/
+example.es: Cuesta mil euros.
+example.en: It costs one thousand euros.
+tags: ⭐ common, ⏳ time
+priority: yes
+grammar.Register: neutral
+//
+word: millón
+translation: million
+type: phrase
+group: 🕐 Numbers & time
+pronunciation: /miˈʝon/
+example.es: Tiene un millón de seguidores.
+example.en: He has a million followers.
+tags: ⭐ common, ⏳ time
+priority: yes
+grammar.Register: neutral
+//
+word: primero
+translation: first
+type: adjective
+group: 🕐 Numbers & time
+pronunciation: /pɾiˈmeɾo/
+example.es: Es mi primer día.
+example.en: It is my first day.
+note: 'Primero' shortens to 'primer' before masculine singular nouns.
+tags: ⭐ common, ⏳ time
+priority: yes
+grammar.Feminine form: primera
+grammar.Plural (masc.): primeros
+grammar.Plural (fem.): primeras
+//
+word: segundo
+translation: second
+type: adjective
+group: 🕐 Numbers & time
+pronunciation: /seˈɣundo/
+example.es: Es el segundo intento.
+example.en: It is the second attempt.
+tags: ⭐ common, ⏳ time
+priority: yes
+grammar.Feminine form: segunda
+grammar.Plural (masc.): segundos
+grammar.Plural (fem.): segundas
+//
+word: tercero
+translation: third
+type: adjective
+group: 🕐 Numbers & time
+pronunciation: /teɾˈθeɾo/
+example.es: Vive en el tercer piso.
+example.en: He lives on the third floor.
+note: 'Tercero' shortens to 'tercer' before masculine singular nouns.
+tags: ⭐ common, ⏳ time
+priority: yes
+grammar.Feminine form: tercera
+grammar.Plural (masc.): terceros
+grammar.Plural (fem.): terceras
+//
+word: lunes
+translation: Monday
+type: noun
+group: 🕐 Numbers & time
+pronunciation: /ˈlunes/
+example.es: Los lunes voy al gimnasio.
+example.en: On Mondays I go to the gym.
+tags: ⭐ common, ⏰ daily life
+priority: yes
+grammar.Gender: m
+grammar.Plural: lunes
+//
+word: martes
+translation: Tuesday
+type: noun
+group: 🕐 Numbers & time
+pronunciation: /ˈmaɾtes/
+example.es: El martes tengo una reunión.
+example.en: On Tuesday I have a meeting.
+tags: ⭐ common, ⏰ daily life
+priority: yes
+grammar.Gender: m
+grammar.Plural: martes
+//
+word: miércoles
+translation: Wednesday
+type: noun
+group: 🕐 Numbers & time
+pronunciation: /ˈmjeɾkoles/
+example.es: Mañana es miércoles.
+example.en: Tomorrow is Wednesday.
+tags: ⭐ common, ⏰ daily life
+priority: yes
+grammar.Gender: m
+grammar.Plural: miércoles
+//
+word: jueves
+translation: Thursday
+type: noun
+group: 🕐 Numbers & time
+pronunciation: /ˈxweβes/
+example.es: El jueves salgo con amigos.
+example.en: On Thursday I go out with friends.
+tags: ⭐ common, ⏰ daily life
+priority: yes
+grammar.Gender: m
+grammar.Plural: jueves
+//
+word: viernes
+translation: Friday
+type: noun
+group: 🕐 Numbers & time
+pronunciation: /ˈbjeɾnes/
+example.es: ¡Por fin es viernes!
+example.en: It's finally Friday!
+tags: ⭐ common, ⏰ daily life
+priority: yes
+grammar.Gender: m
+grammar.Plural: viernes
+//
+word: sábado
+translation: Saturday
+type: noun
+group: 🕐 Numbers & time
+pronunciation: /ˈsaβaðo/
+example.es: El sábado iré al cine.
+example.en: On Saturday I will go to the movies.
+tags: ⭐ common, ⏰ daily life
+priority: yes
+grammar.Gender: m
+grammar.Plural: sábados
+//
+word: domingo
+translation: Sunday
+type: noun
+group: 🕐 Numbers & time
+pronunciation: /doˈmiŋɡo/
+example.es: El domingo descanso en casa.
+example.en: On Sunday I rest at home.
+tags: ⭐ common, ⏰ daily life
+priority: yes
+grammar.Gender: m
+grammar.Plural: domingos
+//
+word: enero
+translation: January
+type: noun
+group: 🕐 Numbers & time
+pronunciation: /eˈneɾo/
+example.es: Mi cumpleaños es en enero.
+example.en: My birthday is in January.
+tags: ⭐ common, ⏳ time
+priority: yes
+grammar.Gender: m
+grammar.Plural: eneros
+//
+word: febrero
+translation: February
+type: noun
+group: 🕐 Numbers & time
+pronunciation: /feˈβɾeɾo/
+example.es: Febrero tiene veintiocho días.
+example.en: February has twenty-eight days.
+tags: ⭐ common, ⏳ time
+priority: yes
+grammar.Gender: m
+grammar.Plural: febreros
+//
+word: marzo
+translation: March
+type: noun
+group: 🕐 Numbers & time
+pronunciation: /ˈmaɾθo/
+example.es: En marzo empieza la primavera.
+example.en: Spring begins in March.
+tags: ⭐ common, ⏳ time
+priority: yes
+grammar.Gender: m
+grammar.Plural: marzos
+//
+word: abril
+translation: April
+type: noun
+group: 🕐 Numbers & time
+pronunciation: /aˈβɾil/
+example.es: Lloverá mucho en abril.
+example.en: It will rain a lot in April.
+tags: ⭐ common, ⏳ time
+priority: yes
+grammar.Gender: m
+grammar.Plural: abriles
+//
+word: mayo
+translation: May
+type: noun
+group: 🕐 Numbers & time
+pronunciation: /ˈmaʝo/
+example.es: Mayo es un mes muy bonito.
+example.en: May is a very beautiful month.
+tags: ⭐ common, ⏳ time
+priority: yes
+grammar.Gender: m
+grammar.Plural: mayos
+//
+word: junio
+translation: June
+type: noun
+group: 🕐 Numbers & time
+pronunciation: /ˈxunjo/
+example.es: En junio terminan las clases.
+example.en: Classes end in June.
+tags: ⭐ common, ⏳ time
+priority: yes
+grammar.Gender: m
+grammar.Plural: junios
+//
+word: julio
+translation: July
+type: noun
+group: 🕐 Numbers & time
+pronunciation: /ˈxuljo/
+example.es: Julio es el mes más caluroso.
+example.en: July is the hottest month.
+tags: ⭐ common, ⏳ time
+priority: yes
+grammar.Gender: m
+grammar.Plural: julios
+//
+word: agosto
+translation: August
+type: noun
+group: 🕐 Numbers & time
+pronunciation: /aˈɣosto/
+example.es: Muchos españoles viajan en agosto.
+example.en: Many Spaniards travel in August.
+tags: ⭐ common, ⏳ time
+priority: yes
+grammar.Gender: m
+grammar.Plural: agostos
+//
+word: septiembre
+translation: September
+type: noun
+group: 🕐 Numbers & time
+pronunciation: /sepˈtjembɾe/
+example.es: Empiezo a trabajar en septiembre.
+example.en: I start working in September.
+tags: ⭐ common, ⏳ time
+priority: yes
+grammar.Gender: m
+grammar.Plural: septiembres
+//
+word: octubre
+translation: October
+type: noun
+group: 🕐 Numbers & time
+pronunciation: /okˈtuβɾe/
+example.es: En octubre los días son más cortos.
+example.en: In October the days are shorter.
+tags: ⭐ common, ⏳ time
+priority: yes
+grammar.Gender: m
+grammar.Plural: octubres
+//
+word: noviembre
+translation: November
+type: noun
+group: 🕐 Numbers & time
+pronunciation: /noˈβjembɾe/
+example.es: Noviembre es un mes frío.
+example.en: November is a cold month.
+tags: ⭐ common, ⏳ time
+priority: yes
+grammar.Gender: m
+grammar.Plural: noviembres
+//
+word: diciembre
+translation: December
+type: noun
+group: 🕐 Numbers & time
+pronunciation: /diˈθjembɾe/
+example.es: La Navidad es en diciembre.
+example.en: Christmas is in December.
+tags: ⭐ common, ⏳ time
+priority: yes
+grammar.Gender: m
+grammar.Plural: diciembres
+//
+note: Same word for both — one of the first double meanings learners notice in Spanish.
+word: mañana
+translation: morning, tomorrow
+type: noun
+group: 🕐 Numbers & time
+pronunciation: /maˈɲana/
+example.es: Por la mañana bebo café.
+example.en: In the morning I drink coffee.
+tags: ⭐ common, ⏰ daily life
+priority: yes
+grammar.Gender: f
+grammar.Plural: mañanas
+//
+note: Spanish doesn't split these the way English does.
+word: tarde
+translation: afternoon, evening
+type: noun
+group: 🕐 Numbers & time
+pronunciation: /ˈtaɾðe/
+example.es: Por la tarde voy a correr.
+example.en: In the afternoon I go running.
+tags: ⭐ common, ⏰ daily life
+priority: yes
+grammar.Gender: f
+grammar.Plural: tardes
+//
+word: noche
+translation: night
+type: noun
+group: 🕐 Numbers & time
+pronunciation: /ˈnotʃe/
+example.es: Por la noche veo películas.
+example.en: At night I watch movies.
+tags: ⭐ common, 🌙 night
+priority: yes
+grammar.Gender: f
+grammar.Plural: noches
+//
+word: hoy
+translation: today
+type: phrase
+group: 🕐 Numbers & time
+pronunciation: /oi/
+example.es: Hoy es un gran día.
+example.en: Today is a great day.
+tags: ⭐ common, ⏳ time
+priority: yes
+grammar.Register: neutral
+//
+word: ayer
+translation: yesterday
+type: phrase
+group: 🕐 Numbers & time
+pronunciation: /aˈʝeɾ/
+example.es: Ayer comí con mi familia.
+example.en: Yesterday I ate with my family.
+tags: ⭐ common, ⏳ time
+priority: yes
+grammar.Register: neutral
+//
+word: hora
+translation: hour
+type: noun
+group: 🕐 Numbers & time
+pronunciation: /ˈoɾa/
+example.es: Llevo una hora esperando.
+example.en: I've been waiting for an hour.
+tags: ⭐ common, ⏳ time
+priority: yes
+grammar.Gender: f
+grammar.Plural: horas
+//
+word: minuto
+translation: minute
+type: noun
+group: 🕐 Numbers & time
+pronunciation: /miˈnuto/
+example.es: Solo un minuto, por favor.
+example.en: Just a minute, please.
+tags: ⭐ common, ⏳ time
+priority: yes
+grammar.Gender: m
+grammar.Plural: minutos
+//
+word: semana
+translation: week
+type: noun
+group: 🕐 Numbers & time
+pronunciation: /seˈmana/
+example.es: La próxima semana tengo vacaciones.
+example.en: Next week I have vacation.
+tags: ⭐ common, ⏳ time
+priority: yes
+grammar.Gender: f
+grammar.Plural: semanas
+//
+word: mes
+translation: month
+type: noun
+group: 🕐 Numbers & time
+pronunciation: /mes/
+example.es: El mes tiene treinta días.
+example.en: The month has thirty days.
+tags: ⭐ common, ⏳ time
+priority: yes
+grammar.Gender: m
+grammar.Plural: meses
+//
+word: año
+translation: year
+type: noun
+group: 🕐 Numbers & time
+pronunciation: /ˈaɲo/
+example.es: El año tiene doce meses.
+example.en: The year has twelve months.
+tags: ⭐ common, ⏳ time
+priority: yes
+grammar.Gender: m
+grammar.Plural: años
+//
+word: ahora
+translation: now
+type: phrase
+group: 🕐 Numbers & time
+pronunciation: /aˈoɾa/
+example.es: Necesito hacerlo ahora.
+example.en: I need to do it now.
+tags: ⭐ common, ⏳ time
+priority: yes
+grammar.Register: neutral
+//
+word: luego
+translation: later
+type: phrase
+group: 🕐 Numbers & time
+pronunciation: /ˈlweɣo/
+example.es: Hablamos luego.
+example.en: We'll talk later.
+tags: ⭐ common, ⏳ time
+priority: yes
+grammar.Register: neutral

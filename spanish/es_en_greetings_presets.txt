@@ -1,0 +1,296 @@
+word: hola
+translation: hello, hi
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /ˈola/
+example.es: ¡Hola, ¿qué tal tu día?
+example.en: Hello, how is your day?
+etymology: Possibly from Old Spanish 'ola', or from 'hola' as an exclamation to attract attention.
+note: Very common; the 'h' is silent.
+tags: ⭐ common, 🗣️ culture
+priority: yes
+grammar.Register: neutral
+//
+word: adiós
+translation: goodbye
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /aˈðjos/
+example.es: Adiós, nos vemos pronto.
+example.en: Goodbye, see you soon.
+tags: ⭐ common, 🗣️ culture
+priority: yes
+grammar.Register: neutral
+//
+word: buenos días
+translation: good morning
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /ˈbwenos ˈðias/
+example.es: ¡Buenos días! ¿Qué tal has dormido?
+example.en: Good morning! How did you sleep?
+note: Always plural in Spanish.
+tags: ⭐ common, ⏰ daily life
+priority: yes
+grammar.Register: neutral
+//
+word: buenas tardes
+translation: good afternoon
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /ˈbwenas ˈtaɾðes/
+example.es: Buenas tardes, ¿en qué puedo ayudarle?
+example.en: Good afternoon, how can I help you?
+note: Generally used from midday until sunset.
+tags: ⭐ common, ⏰ daily life
+priority: yes
+grammar.Register: neutral
+//
+word: buenas noches
+translation: good evening, good night
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /ˈbwenas ˈnotʃes/
+example.es: Buenas noches, que descanses.
+example.en: Good night, rest well.
+note: Used both as a greeting in the evening and a farewell at night.
+tags: ⭐ common, 🌙 night
+priority: yes
+grammar.Register: neutral
+//
+word: por favor
+translation: please
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /poɾ faˈβoɾ/
+example.es: ¿Me das un café, por favor?
+example.en: Can you give me a coffee, please?
+tags: ⭐ common, 🗣️ culture
+priority: yes
+grammar.Register: neutral
+//
+word: gracias
+translation: thank you
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /ˈɡɾasjas/
+example.es: Muchas gracias por tu ayuda.
+example.en: Thank you very much for your help.
+tags: ⭐ common, 🗣️ culture
+priority: yes
+grammar.Register: neutral
+//
+word: de nada
+translation: you're welcome
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /de ˈnaða/
+example.es: —Gracias. —De nada.
+example.en: —Thank you. —You're welcome.
+tags: ⭐ common, 🗣️ culture
+priority: yes
+grammar.Register: neutral
+//
+word: lo siento
+translation: sorry, I'm sorry
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /lo ˈsjento/
+example.es: Lo siento mucho, no fue mi intención.
+example.en: I am very sorry, it was not my intention.
+tags: ⭐ common, 🧠 emotions
+priority: yes
+grammar.Register: neutral
+//
+word: disculpe
+translation: excuse me
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /disˈkulpe/
+example.es: Disculpe, ¿sabe qué hora es?
+example.en: Excuse me, do you know what time it is?
+note: 'Disculpe' is formal; 'disculpa' is informal.
+tags: ⭐ common, 🗣️ culture
+priority: yes
+grammar.Register: formal
+//
+word: sí
+translation: yes
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /si/
+example.es: Sí, me gustaría ir contigo.
+example.en: Yes, I would like to go with you.
+tags: ⭐ common, 🗣️ culture
+priority: yes
+grammar.Register: neutral
+//
+word: no
+translation: no
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /no/
+example.es: No, muchas gracias.
+example.en: No, thank you very much.
+tags: ⭐ common, 🗣️ culture
+priority: yes
+grammar.Register: neutral
+//
+word: no entiendo
+translation: I don't understand
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /no enˈtjendo/
+example.es: Habla muy rápido, no entiendo.
+example.en: You speak very fast, I don't understand.
+tags: ⭐ common, 📚 learning
+priority: yes
+grammar.Register: neutral
+//
+word: me llamo
+translation: my name is
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /me ˈʝamo/
+example.es: Hola, me llamo Juan.
+example.en: Hello, my name is Juan.
+tags: ⭐ common, 👥 people
+priority: yes
+grammar.Register: neutral
+//
+word: cómo estás
+translation: how are you
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /ˈkomo esˈtas/
+example.es: Hola, ¿cómo estás hoy?
+example.en: Hi, how are you today?
+note: Informal. Formal version is '¿Cómo está usted?'.
+tags: ⭐ common, 🗣️ culture
+priority: yes
+grammar.Register: neutral
+//
+word: estoy bien
+translation: I'm fine
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /esˈtoi ˈbjen/
+example.es: Estoy bien, gracias por preguntar.
+example.en: I am fine, thank you for asking.
+tags: ⭐ common, 🗣️ culture
+priority: yes
+grammar.Register: neutral
+//
+word: encantado
+translation: nice to meet you
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /eŋkanˈtaðo/
+example.es: —Hola, soy Ana. —Encantada.
+example.en: —Hi, I'm Ana. —Nice to meet you.
+note: Changes to 'encantada' if the speaker is female.
+tags: ⭐ common, 👥 people
+priority: yes
+grammar.Register: neutral
+//
+word: hasta luego
+translation: see you later
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /ˈasta ˈlweɣo/
+example.es: Tengo que irme, hasta luego.
+example.en: I have to go, see you later.
+tags: ⭐ common, ⏳ time
+priority: yes
+grammar.Register: neutral
+//
+word: hasta mañana
+translation: see you tomorrow
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /ˈasta maˈɲana/
+example.es: Hasta mañana, descansa.
+example.en: See you tomorrow, rest well.
+tags: ⭐ common, ⏳ time
+priority: yes
+grammar.Register: neutral
+//
+word: salud
+translation: cheers
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /saˈluð/
+example.es: ¡Salud! Por un buen año.
+example.en: Cheers! To a good year.
+note: Used for toasts and also when someone sneezes.
+tags: ⭐ common, 🍷 social
+priority: yes
+grammar.Register: neutral
+//
+word: felicidades
+translation: congratulations
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /feliθiˈðaðes/
+example.es: ¡Felicidades por tu nuevo trabajo!
+example.en: Congratulations on your new job!
+tags: ⭐ common, 🎉 celebration
+priority: yes
+grammar.Register: neutral
+//
+word: feliz cumpleaños
+translation: happy birthday
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /feˈliθ kumpleˈaɲos/
+example.es: ¡Feliz cumpleaños, que cumplas muchos más!
+example.en: Happy birthday, may you have many more!
+tags: ⭐ common, 🎉 celebration
+priority: yes
+grammar.Register: neutral
+//
+word: bienvenido
+translation: welcome
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /bjembeˈniðo/
+example.es: ¡Bienvenido a nuestra casa!
+example.en: Welcome to our home!
+note: Changes to 'bienvenida' if addressing a female.
+tags: ⭐ common, 🗣️ culture
+priority: yes
+grammar.Register: neutral
+//
+word: no hay problema
+translation: no problem
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /no ai pɾoˈβlema/
+example.es: —Siento llegar tarde. —No hay problema.
+example.en: —I'm sorry for being late. —No problem.
+tags: ⭐ common, 😄 colloquial
+priority: yes
+grammar.Register: neutral
+//
+word: por supuesto
+translation: of course
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /poɾ suˈpwes.to/
+example.es: ¿Puedes ayudarme? —Por supuesto.
+example.en: Can you help me? —Of course.
+tags: ⭐ common, 🗣️ culture
+priority: yes
+grammar.Register: neutral
+//
+word: aquí tienes
+translation: here you go
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /aˈki ˈtjenes/
+example.es: Aquí tienes el libro que pediste.
+example.en: Here you go, the book you asked for.
+note: Informal. Use 'aquí tiene' for formal situations.
+tags: ⭐ common, 🗣️ culture
+priority: yes
+grammar.Register: neutral

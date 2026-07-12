@@ -1,0 +1,493 @@
+word: cane
+translation: dog
+type: noun
+group: 🌿 Nature & animals
+pronunciation: /ˈkane/
+example.it: Il mio cane è molto affettuoso.
+example.en: My dog is very affectionate.
+etymology: Latin "canis"
+tags: ⭐ common, 🌿 nature
+priority: yes
+grammar.Gender: m
+grammar.Plural: cani
+//
+word: gatto
+translation: cat
+type: noun
+group: 🌿 Nature & animals
+pronunciation: /ˈɡatto/
+example.it: Il gatto dorme sul divano.
+example.en: The cat sleeps on the sofa.
+etymology: Latin "cattus"
+tags: ⭐ common, 🌿 nature
+priority: yes
+grammar.Gender: m
+grammar.Plural: gatti
+//
+word: cavallo
+translation: horse
+type: noun
+group: 🌿 Nature & animals
+pronunciation: /kaˈvallo/
+example.it: Mi piace cavalcare il cavallo.
+example.en: I like to ride the horse.
+etymology: Latin "caballus"
+tags: 🌿 nature
+priority: yes
+grammar.Gender: m
+grammar.Plural: cavalli
+//
+word: mucca
+translation: cow
+type: noun
+group: 🌿 Nature & animals
+pronunciation: /ˈmukka/
+example.it: Ho visto una mucca nel campo.
+example.en: I saw a cow in the field.
+etymology: From Latin "vacca"
+tags: 🌿 nature
+priority: yes
+grammar.Gender: f
+grammar.Plural: mucche
+//
+word: pecora
+translation: sheep
+type: noun
+group: 🌿 Nature & animals
+pronunciation: /ˈpɛkora/
+example.it: Le pecore brucano l'erba.
+example.en: The sheep are grazing on the grass.
+etymology: Latin "pecus"
+tags: 🌿 nature
+priority: yes
+grammar.Gender: f
+grammar.Plural: pecore
+//
+word: uccello
+translation: bird
+type: noun
+group: 🌿 Nature & animals
+pronunciation: /utˈtʃɛllo/
+example.it: Un uccello canta sull'albero.
+example.en: A bird is singing on the tree.
+etymology: Latin "avicellus"
+tags: 🌿 nature
+priority: yes
+grammar.Gender: m
+grammar.Plural: uccelli
+//
+word: aquila
+translation: eagle
+type: noun
+group: 🌿 Nature & animals
+pronunciation: /ˈakwila/
+example.it: L'aquila vola in alto nel cielo.
+example.en: The eagle flies high in the sky.
+etymology: Latin "aquila"
+tags: 🌿 nature
+priority: yes
+grammar.Gender: f
+grammar.Plural: aquile
+//
+word: serpente
+translation: snake
+type: noun
+group: 🌿 Nature & animals
+pronunciation: /serˈpɛnte/
+example.it: Ho visto un serpente nell'erba.
+example.en: I saw a snake in the grass.
+etymology: Latin "serpens"
+tags: 🌿 nature
+priority: yes
+grammar.Gender: m
+grammar.Plural: serpenti
+//
+word: leone
+translation: lion
+type: noun
+group: 🌿 Nature & animals
+pronunciation: /leˈone/
+example.it: Il leone è il re della foresta.
+example.en: The lion is the king of the forest.
+etymology: Latin "leo"
+tags: 🌿 nature
+priority: yes
+grammar.Gender: m
+grammar.Plural: leoni
+//
+word: tigre
+translation: tiger
+type: noun
+group: 🌿 Nature & animals
+pronunciation: /ˈtiɡre/
+example.it: La tigre è un animale affascinante.
+example.en: The tiger is a fascinating animal.
+etymology: Latin "tigris"
+tags: 🌿 nature
+priority: yes
+grammar.Gender: f
+grammar.Plural: tigri
+//
+word: elefante
+translation: elephant
+type: noun
+group: 🌿 Nature & animals
+pronunciation: /eleˈfante/
+example.it: L'elefante è un animale molto grande.
+example.en: The elephant is a very big animal.
+etymology: Latin "elephantus"
+tags: 🌿 nature
+priority: yes
+grammar.Gender: m
+grammar.Plural: elefanti
+//
+word: orso
+translation: bear
+type: noun
+group: 🌿 Nature & animals
+pronunciation: /ˈorso/
+example.it: Ho visto un orso nel bosco.
+example.en: I saw a bear in the woods.
+etymology: Latin "ursus"
+tags: 🌿 nature
+priority: yes
+grammar.Gender: m
+grammar.Plural: orsi
+//
+word: lupo
+translation: wolf
+type: noun
+group: 🌿 Nature & animals
+pronunciation: /ˈlupo/
+example.it: Il lupo ulula alla luna.
+example.en: The wolf howls at the moon.
+etymology: Latin "lupus"
+tags: 🌿 nature
+priority: yes
+grammar.Gender: m
+grammar.Plural: lupi
+//
+word: coniglio
+translation: rabbit
+type: noun
+group: 🌿 Nature & animals
+pronunciation: /koˈniʎʎo/
+example.it: Il coniglio mangia una carota.
+example.en: The rabbit is eating a carrot.
+etymology: Latin "cuniculus"
+tags: 🌿 nature
+priority: yes
+grammar.Gender: m
+grammar.Plural: conigli
+//
+word: topo
+translation: mouse
+type: noun
+group: 🌿 Nature & animals
+pronunciation: /ˈtopo/
+example.it: Il topo è scappato velocemente.
+example.en: The mouse ran away quickly.
+etymology: Latin "talpa"
+tags: 🌿 nature
+priority: yes
+grammar.Gender: m
+grammar.Plural: topi
+//
+word: ape
+translation: bee
+type: noun
+group: 🌿 Nature & animals
+pronunciation: /ˈape/
+example.it: L'ape raccoglie il nettare dai fiori.
+example.en: The bee collects nectar from the flowers.
+etymology: Latin "apis"
+tags: 🌿 nature
+priority: yes
+grammar.Gender: f
+grammar.Plural: api
+//
+word: farfalla
+translation: butterfly
+type: noun
+group: 🌿 Nature & animals
+pronunciation: /farˈfalla/
+example.it: Una bellissima farfalla è volata via.
+example.en: A beautiful butterfly flew away.
+etymology: Latin "papilio"
+tags: 🌿 nature
+priority: yes
+grammar.Gender: f
+grammar.Plural: farfalle
+//
+word: albero
+translation: tree
+type: noun
+group: 🌿 Nature & animals
+pronunciation: /ˈalbero/
+example.it: Questo albero è molto antico.
+example.en: This tree is very old.
+etymology: Latin "arbor"
+tags: ⭐ common, 🌿 nature
+priority: yes
+grammar.Gender: m
+grammar.Plural: alberi
+//
+word: fiore
+translation: flower
+type: noun
+group: 🌿 Nature & animals
+pronunciation: /ˈfjore/
+example.it: Ho piantato un nuovo fiore nel giardino.
+example.en: I planted a new flower in the garden.
+etymology: Latin "flos"
+tags: ⭐ common, 🌿 nature
+priority: yes
+grammar.Gender: m
+grammar.Plural: fiori
+//
+word: erba
+translation: grass
+type: noun
+group: 🌿 Nature & animals
+pronunciation: /ˈɛrba/
+example.it: L'erba è ancora bagnata.
+example.en: The grass is still wet.
+etymology: Latin "herba"
+tags: ⭐ common, 🌿 nature
+priority: yes
+grammar.Gender: f
+grammar.Plural: erbe
+//
+word: foresta
+translation: forest
+type: noun
+group: 🌿 Nature & animals
+pronunciation: /foˈrɛsta/
+example.it: Ci siamo persi nella foresta.
+example.en: We got lost in the forest.
+etymology: Medieval Latin "forestis"
+tags: 🌿 nature
+priority: yes
+grammar.Gender: f
+grammar.Plural: foreste
+//
+word: montagna
+translation: mountain
+type: noun
+group: 🌿 Nature & animals
+pronunciation: /monˈtaɲɲa/
+example.it: La montagna è coperta di neve.
+example.en: The mountain is covered in snow.
+etymology: Latin "mons"
+tags: ⭐ common, 🌿 nature
+priority: yes
+grammar.Gender: f
+grammar.Plural: montagne
+//
+word: fiume
+translation: river
+type: noun
+group: 🌿 Nature & animals
+pronunciation: /ˈfjume/
+example.it: Il fiume scorre verso il mare.
+example.en: The river flows towards the sea.
+etymology: Latin "flumen"
+tags: ⭐ common, 🌿 nature
+priority: yes
+grammar.Gender: m
+grammar.Plural: fiumi
+//
+word: lago
+translation: lake
+type: noun
+group: 🌿 Nature & animals
+pronunciation: /ˈlaɡo/
+example.it: Facciamo il bagno nel lago?
+example.en: Shall we swim in the lake?
+etymology: Latin "lacus"
+tags: ⭐ common, 🌿 nature
+priority: yes
+grammar.Gender: m
+grammar.Plural: laghi
+//
+word: mare
+translation: sea
+type: noun
+group: 🌿 Nature & animals
+pronunciation: /ˈmare/
+example.it: Adoro il rumore del mare.
+example.en: I love the sound of the sea.
+etymology: Latin "mare"
+tags: ⭐ common, 🌿 nature
+priority: yes
+grammar.Gender: m
+grammar.Plural: mari
+//
+word: oceano
+translation: ocean
+type: noun
+group: 🌿 Nature & animals
+pronunciation: /oˈtʃɛano/
+example.it: L'oceano è molto profondo.
+example.en: The ocean is very deep.
+etymology: Latin "oceanus"
+tags: 🌿 nature
+priority: yes
+grammar.Gender: m
+grammar.Plural: oceani
+//
+word: spiaggia
+translation: beach
+type: noun
+group: 🌿 Nature & animals
+pronunciation: /ˈspjadʒa/
+example.it: La spiaggia è molto pulita.
+example.en: The beach is very clean.
+etymology: From "platea"
+tags: ⭐ common, 🌿 nature
+priority: yes
+grammar.Gender: f
+grammar.Plural: spiagge
+//
+word: deserto
+translation: desert
+type: noun
+group: 🌿 Nature & animals
+pronunciation: /deˈzɛrto/
+example.it: Il deserto è arido e vasto.
+example.en: The desert is arid and vast.
+etymology: Latin "desertus"
+tags: 🌿 nature
+priority: yes
+grammar.Gender: m
+grammar.Plural: deserti
+//
+word: isola
+translation: island
+type: noun
+group: 🌿 Nature & animals
+pronunciation: /ˈizola/
+example.it: Siamo andati in vacanza su un'isola.
+example.en: We went on vacation to an island.
+etymology: Latin "insula"
+tags: 🌿 nature
+priority: yes
+grammar.Gender: f
+grammar.Plural: isole
+//
+word: roccia
+translation: rock
+type: noun
+group: 🌿 Nature & animals
+pronunciation: /ˈrɔtʃa/
+example.it: La roccia è molto dura.
+example.en: The rock is very hard.
+etymology: From "rocca"
+tags: 🌿 nature
+priority: yes
+grammar.Gender: f
+grammar.Plural: rocce
+//
+word: sabbia
+translation: sand
+type: noun
+group: 🌿 Nature & animals
+pronunciation: /ˈsabbja/
+example.it: Ho della sabbia nelle scarpe.
+example.en: I have some sand in my shoes.
+etymology: Latin "sabulum"
+tags: 🌿 nature
+priority: yes
+grammar.Gender: f
+grammar.Plural: sabbie
+//
+word: cielo
+translation: sky
+type: noun
+group: 🌿 Nature & animals
+pronunciation: /ˈtʃɛlo/
+example.it: Il cielo è azzurro oggi.
+example.en: The sky is blue today.
+etymology: Latin "caelum"
+tags: ⭐ common, 🌿 nature
+priority: yes
+grammar.Gender: m
+grammar.Plural: cieli
+//
+word: luna
+translation: moon
+type: noun
+group: 🌿 Nature & animals
+pronunciation: /ˈluna/
+example.it: La luna è molto luminosa stasera.
+example.en: The moon is very bright tonight.
+etymology: Latin "luna"
+tags: ⭐ common, 🌿 nature
+priority: yes
+grammar.Gender: f
+grammar.Plural: lune
+//
+word: stella
+translation: star
+type: noun
+group: 🌿 Nature & animals
+pronunciation: /ˈstɛlla/
+example.it: Guardo le stelle di notte.
+example.en: I look at the stars at night.
+etymology: Latin "stella"
+tags: ⭐ common, 🌿 nature
+priority: yes
+grammar.Gender: f
+grammar.Plural: stelle
+//
+word: terra
+translation: earth
+type: noun
+group: 🌿 Nature & animals
+pronunciation: /ˈtɛrra/
+example.it: La terra è il nostro pianeta.
+example.en: The Earth is our planet.
+etymology: Latin "terra"
+tags: ⭐ common, 🌿 nature
+priority: yes
+grammar.Gender: f
+grammar.Plural: terre
+//
+word: aria
+translation: air
+type: noun
+group: 🌿 Nature & animals
+pronunciation: /ˈarja/
+example.it: L'aria di montagna è fresca.
+example.en: The mountain air is fresh.
+etymology: Latin "aer"
+tags: ⭐ common, 🌿 nature
+priority: yes
+grammar.Gender: f
+grammar.Plural: arie
+//
+word: fuoco
+translation: fire
+type: noun
+group: 🌿 Nature & animals
+pronunciation: /ˈfwɔko/
+example.it: Il fuoco brucia il legno.
+example.en: The fire burns the wood.
+etymology: Latin "focus"
+tags: ⭐ common, 🌿 nature
+priority: yes
+grammar.Gender: m
+grammar.Plural: fuochi
+//
+word: pianta
+translation: plant
+type: noun
+group: 🌿 Nature & animals
+pronunciation: /ˈpjanta/
+example.it: Ho comprato una nuova pianta per il salotto.
+example.en: I bought a new plant for the living room.
+etymology: Latin "planta"
+tags: ⭐ common, 🌿 nature
+priority: yes
+grammar.Gender: f
+grammar.Plural: piante

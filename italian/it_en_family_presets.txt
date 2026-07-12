@@ -1,0 +1,338 @@
+word: madre
+translation: mother
+type: noun
+group: 👨‍👩‍👧 Family & relationships
+pronunciation: /ˈmaː.dre/
+example.it: Mia madre è molto gentile.
+example.en: My mother is very kind.
+tags: 👨‍👩‍👧 common, 🏠 home
+priority: yes
+grammar.Gender: f
+grammar.Article override: la
+grammar.Plural: madri
+//
+word: padre
+translation: father
+type: noun
+group: 👨‍👩‍👧 Family & relationships
+pronunciation: /ˈpaː.dre/
+example.it: Mio padre lavora in ufficio.
+example.en: My father works in an office.
+tags: 👨‍👩‍👧 common, 🏠 home
+priority: yes
+grammar.Gender: m
+grammar.Article override: il
+grammar.Plural: padri
+//
+word: genitori
+translation: parents
+type: noun
+group: 👨‍👩‍👧 Family & relationships
+pronunciation: /dʒe.noˈtiː.ri/
+example.it: I miei genitori vivono a Roma.
+example.en: My parents live in Rome.
+tags: 👨‍👩‍👧 common, 🏠 home
+priority: yes
+grammar.Gender: m
+grammar.Article override: i
+grammar.Plural: genitori
+//
+word: sorella
+translation: sister
+type: noun
+group: 👨‍👩‍👧 Family & relationships
+pronunciation: /soˈrɛl.la/
+example.it: Ho una sorella maggiore.
+example.en: I have an older sister.
+tags: 👨‍👩‍👧 common, 🏠 home
+priority: yes
+grammar.Gender: f
+grammar.Article override: la
+grammar.Plural: sorelle
+//
+word: fratello
+translation: brother
+type: noun
+group: 👨‍👩‍👧 Family & relationships
+pronunciation: /fraˈtɛl.lo/
+example.it: Mio fratello gioca a calcio.
+example.en: My brother plays soccer.
+tags: 👨‍👩‍👧 common, 🏠 home
+priority: yes
+grammar.Gender: m
+grammar.Article override: il
+grammar.Plural: fratelli
+//
+word: figlio
+translation: son
+type: noun
+group: 👨‍👩‍👧 Family & relationships
+pronunciation: /ˈfiː.ʎo/
+example.it: Mio figlio ha dieci anni.
+example.en: My son is ten years old.
+tags: 👨‍👩‍👧 common, 🏠 home
+priority: yes
+grammar.Gender: m
+grammar.Article override: il
+grammar.Plural: figli
+//
+word: figlia
+translation: daughter
+type: noun
+group: 👨‍👩‍👧 Family & relationships
+pronunciation: /ˈfiː.ʎa/
+example.it: Mia figlia va a scuola.
+example.en: My daughter goes to school.
+tags: 👨‍👩‍👧 common, 🏠 home
+priority: yes
+grammar.Gender: f
+grammar.Article override: la
+grammar.Plural: figlie
+//
+word: bambino
+translation: baby, child
+type: noun
+group: 👨‍👩‍👧 Family & relationships
+pronunciation: /bamˈbiː.no/
+example.it: Il bambino piange.
+example.en: The baby is crying.
+tags: 👨‍👩‍👧 common, 🏠 home
+priority: yes
+grammar.Gender: m
+grammar.Article override: il
+grammar.Plural: bambini
+//
+word: nonna
+translation: grandmother
+type: noun
+group: 👨‍👩‍👧 Family & relationships
+pronunciation: /ˈnɔn.na/
+example.it: La nonna prepara la torta.
+example.en: Grandmother is making a cake.
+tags: 👨‍👩‍👧 common, 🏠 home
+priority: yes
+grammar.Gender: f
+grammar.Article override: la
+grammar.Plural: nonne
+//
+word: nonno
+translation: grandfather
+type: noun
+group: 👨‍👩‍👧 Family & relationships
+pronunciation: /ˈnɔn.no/
+example.it: Il nonno legge il giornale.
+example.en: Grandfather is reading the newspaper.
+tags: 👨‍👩‍👧 common, 🏠 home
+priority: yes
+grammar.Gender: m
+grammar.Article override: il
+grammar.Plural: nonni
+//
+word: nonni
+translation: grandparents
+type: noun
+group: 👨‍👩‍👧 Family & relationships
+pronunciation: /ˈnɔn.ni/
+example.it: Vado a trovare i nonni.
+example.en: I am going to visit my grandparents.
+tags: 👨‍👩‍👧 common, 🏠 home
+priority: yes
+grammar.Gender: m
+grammar.Article override: i
+grammar.Plural: nonni
+//
+word: zio
+translation: uncle
+type: noun
+group: 👨‍👩‍👧 Family & relationships
+pronunciation: /ˈdziː.o/
+example.it: Mio zio vive in America.
+example.en: My uncle lives in America.
+tags: 👨‍👩‍👧 common, 🏠 home
+priority: yes
+grammar.Gender: m
+grammar.Article override: lo
+grammar.Plural: zii
+//
+word: zia
+translation: aunt
+type: noun
+group: 👨‍👩‍👧 Family & relationships
+pronunciation: /ˈdziː.a/
+example.it: Mia zia è molto simpatica.
+example.en: My aunt is very nice.
+tags: 👨‍👩‍👧 common, 🏠 home
+priority: yes
+grammar.Gender: f
+grammar.Article override: la
+grammar.Plural: zie
+//
+word: cugino
+translation: cousin
+type: noun
+group: 👨‍👩‍👧 Family & relationships
+pronunciation: /kuˈdʒiː.no/
+example.it: Mio cugino studia medicina.
+example.en: My cousin is studying medicine.
+tags: 👨‍👩‍👧 common, 🏠 home
+priority: yes
+grammar.Gender: m
+grammar.Article override: il
+grammar.Plural: cugini
+//
+word: nipote
+translation: niece, nephew, grandson, granddaughter
+type: noun
+group: 👨‍👩‍👧 Family & relationships
+pronunciation: /niˈpɔː.te/
+example.it: Mia nipote è nata ieri.
+example.en: My niece was born yesterday.
+note: "Nipote" refers to both niece/nephew and granddaughter/grandson. Italian uses one word regardless of gender or generation — context (or a possessive) clarifies which.
+tags: 👨‍👩‍👧 common, 🏠 home
+priority: yes
+grammar.Gender: f
+grammar.Article override: la
+grammar.Plural: nipoti
+//
+word: marito
+translation: husband
+type: noun
+group: 👨‍👩‍👧 Family & relationships
+pronunciation: /maˈriː.to/
+example.it: Il marito di Maria è italiano.
+example.en: Maria's husband is Italian.
+tags: 👨‍👩‍👧 common, 🏠 home
+priority: yes
+grammar.Gender: m
+grammar.Article override: il
+grammar.Plural: mariti
+//
+word: moglie
+translation: wife
+type: noun
+group: 👨‍👩‍👧 Family & relationships
+pronunciation: /ˈmɔː.ʎe/
+example.it: Sua moglie è molto bella.
+example.en: His wife is very beautiful.
+tags: 👨‍👩‍👧 common, 🏠 home
+priority: yes
+grammar.Gender: f
+grammar.Article override: la
+grammar.Plural: mogli
+//
+word: partner
+translation: partner
+type: noun
+group: 👨‍👩‍👧 Family & relationships
+pronunciation: /ˈpar.ter/
+example.it: Il mio partner è inglese.
+example.en: My partner is English.
+tags: 👨‍👩‍👧 common, 🏠 home
+priority: yes
+grammar.Gender: m
+grammar.Article override: il
+grammar.Plural: partner
+//
+word: amico
+translation: friend
+type: noun
+group: 👨‍👩‍👧 Family & relationships
+pronunciation: /aˈmiː.ko/
+example.it: Lui è un mio caro amico.
+example.en: He is a dear friend of mine.
+tags: 👨‍👩‍👧 common, 🗣️ social
+priority: yes
+grammar.Gender: m
+grammar.Article override: l'
+grammar.Plural: amici
+//
+word: collega
+translation: colleague
+type: noun
+group: 👨‍👩‍👧 Family & relationships
+pronunciation: /kolˈleː.ɡa/
+example.it: Ho parlato con un collega.
+example.en: I spoke with a colleague.
+tags: 👨‍👩‍👧 common, 💼 work
+priority: yes
+grammar.Gender: m/f
+grammar.Article override: il / la
+grammar.Plural: colleghi / colleghe
+//
+word: fidanzato
+translation: boyfriend
+type: noun
+group: 👨‍👩‍👧 Family & relationships
+pronunciation: /fi.danˈtzaː.to/
+example.it: Il mio fidanzato è francese.
+example.en: My boyfriend is French.
+tags: 👨‍👩‍👧 common, 🗣️ social
+priority: yes
+grammar.Gender: m
+grammar.Article override: il
+grammar.Plural: fidanzati
+//
+word: fidanzata
+translation: girlfriend
+type: noun
+group: 👨‍👩‍👧 Family & relationships
+pronunciation: /fi.danˈtzaː.ta/
+example.it: La mia fidanzata è spagnola.
+example.en: My girlfriend is Spanish.
+tags: 👨‍👩‍👧 common, 🗣️ social
+priority: yes
+grammar.Gender: f
+grammar.Article override: la
+grammar.Plural: fidanzate
+//
+word: sposato
+translation: married
+type: adjective
+group: 👨‍👩‍👧 Family & relationships
+pronunciation: /spoˈzaː.to/
+example.it: Sono sposato da dieci anni.
+example.en: I have been married for ten years.
+tags: 👨‍👩‍👧 common, 🗣️ social
+priority: yes
+grammar.Feminine form: sposata
+grammar.Plural (masc.): sposati
+grammar.Plural (fem.): sposate
+//
+word: divorziato
+translation: divorced
+type: adjective
+group: 👨‍👩‍👧 Family & relationships
+pronunciation: /di.vorˈtzaː.to/
+example.it: Lui è divorziato.
+example.en: He is divorced.
+tags: 👨‍👩‍👧 common, 🗣️ social
+priority: yes
+grammar.Feminine form: divorziata
+grammar.Plural (masc.): divorziati
+grammar.Plural (fem.): divorziate
+//
+word: single
+translation: single
+type: adjective
+group: 👨‍👩‍👧 Family & relationships
+pronunciation: /ˈsiŋ.ɡol/
+example.it: Attualmente sono single.
+example.en: Currently, I am single.
+tags: 👨‍👩‍👧 common, 🗣️ social
+priority: yes
+grammar.Feminine form: single
+grammar.Plural (masc.): single
+grammar.Plural (fem.): single
+//
+word: famiglia
+translation: family
+type: noun
+group: 👨‍👩‍👧 Family & relationships
+pronunciation: /faˈmiː.ʎa/
+example.it: La mia famiglia è grande.
+example.en: My family is big.
+tags: 👨‍👩‍👧 common, 🏠 home
+priority: yes
+grammar.Gender: f
+grammar.Article override: la
+grammar.Plural: famiglie

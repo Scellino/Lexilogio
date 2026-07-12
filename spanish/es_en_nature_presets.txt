@@ -1,0 +1,287 @@
+word: perro
+translation: dog
+type: noun
+group: 🌿 Nature & animals
+pronunciation: /ˈpero/
+example.es: El perro corre en el parque.
+example.en: The dog runs in the park.
+tags: ⭐ common, 🐾 animals
+priority: yes
+grammar.Gender: m
+grammar.Plural: perros
+//
+word: gato
+translation: cat
+type: noun
+group: 🌿 Nature & animals
+pronunciation: /ˈɡato/
+example.es: Mi gato duerme en el sofá.
+example.en: My cat sleeps on the sofa.
+tags: ⭐ common, 🐾 animals
+priority: yes
+grammar.Gender: m
+grammar.Plural: gatos
+//
+word: caballo
+translation: horse
+type: noun
+group: 🌿 Nature & animals
+pronunciation: /kaˈβaʝo/
+example.es: El caballo corre por el campo.
+example.en: The horse runs through the field.
+tags: ⭐ common, 🐾 animals
+priority: yes
+grammar.Gender: m
+grammar.Plural: caballos
+//
+word: vaca
+translation: cow
+type: noun
+group: 🌿 Nature & animals
+pronunciation: /ˈβaka/
+example.es: La vaca pasta en la hierba.
+example.en: The cow grazes in the grass.
+tags: ⭐ common, 🐾 animals
+priority: yes
+grammar.Gender: f
+grammar.Plural: vacas
+//
+word: oveja
+translation: sheep
+type: noun
+group: 🌿 Nature & animals
+pronunciation: /oˈβexa/
+example.es: La oveja tiene mucha lana.
+example.en: The sheep has a lot of wool.
+tags: ⭐ common, 🐾 animals
+priority: yes
+grammar.Gender: f
+grammar.Plural: ovejas
+//
+word: pájaro
+translation: bird
+type: noun
+group: 🌿 Nature & animals
+pronunciation: /ˈpaxaɾo/
+example.es: El pájaro vuela alto.
+example.en: The bird flies high.
+tags: ⭐ common, 🐾 animals
+priority: yes
+grammar.Gender: m
+grammar.Plural: pájaros
+//
+word: águila
+translation: eagle
+type: noun
+group: 🌿 Nature & animals
+pronunciation: /ˈaɣila/
+example.es: El águila tiene una vista excelente.
+example.en: The eagle has excellent eyesight.
+tags: ⭐ common, 🐾 animals
+priority: yes
+grammar.Gender: f
+grammar.Plural: águilas
+//
+word: serpiente
+translation: snake
+type: noun
+group: 🌿 Nature & animals
+pronunciation: /seɾˈpjente/
+example.es: La serpiente se desliza en la hierba.
+example.en: The snake slides in the grass.
+tags: ⭐ common, 🐾 animals
+priority: yes
+grammar.Gender: f
+grammar.Plural: serpientes
+//
+word: león
+translation: lion
+type: noun
+group: 🌿 Nature & animals
+pronunciation: /leˈon/
+example.es: El león es el rey de la selva.
+example.en: The lion is the king of the jungle.
+tags: ⭐ common, 🐾 animals
+priority: yes
+grammar.Gender: m
+grammar.Plural: leones
+//
+word: tigre
+translation: tiger
+type: noun
+group: 🌿 Nature & animals
+pronunciation: /ˈtiɣɾe/
+example.es: El tigre tiene rayas negras.
+example.en: The tiger has black stripes.
+tags: ⭐ common, 🐾 animals
+priority: yes
+grammar.Gender: m
+grammar.Plural: tigres
+//
+word: elefante
+translation: elephant
+type: noun
+group: 🌿 Nature & animals
+pronunciation: /eleˈfante/
+example.es: El elefante es un animal enorme.
+example.en: The elephant is a huge animal.
+tags: ⭐ common, 🐾 animals
+priority: yes
+grammar.Gender: m
+grammar.Plural: elefantes
+//
+word: oso
+translation: bear
+type: noun
+group: 🌿 Nature & animals
+pronunciation: /ˈoso/
+example.es: El oso busca comida en el bosque.
+example.en: The bear searches for food in the forest.
+tags: ⭐ common, 🐾 animals
+priority: yes
+grammar.Gender: m
+grammar.Plural: osos
+//
+word: lobo
+translation: wolf
+type: noun
+group: 🌿 Nature & animals
+pronunciation: /ˈloβo/
+example.es: El lobo aúlla a la luna.
+example.en: The wolf howls at the moon.
+tags: ⭐ common, 🐾 animals
+priority: yes
+grammar.Gender: m
+grammar.Plural: lobos
+//
+word: conejo
+translation: rabbit
+type: noun
+group: 🌿 Nature & animals
+pronunciation: /koˈnexo/
+example.es: El conejo saltó por el jardín.
+example.en: The rabbit jumped through the garden.
+tags: ⭐ common, 🐾 animals
+priority: yes
+grammar.Gender: m
+grammar.Plural: conejos
+//
+word: ratón
+translation: mouse
+type: noun
+group: 🌿 Nature & animals
+pronunciation: /raˈton/
+example.es: El ratón pequeño comió queso.
+example.en: The little mouse ate cheese.
+tags: ⭐ common, 🐾 animals
+priority: yes
+grammar.Gender: m
+grammar.Plural: ratones
+//
+word: abeja
+translation: bee
+type: noun
+group: 🌿 Nature & animals
+pronunciation: /aˈβexa/
+example.es: La abeja vuela de flor en flor.
+example.en: The bee flies from flower to flower.
+tags: ⭐ common, 🐾 animals
+priority: yes
+grammar.Gender: f
+grammar.Plural: abejas
+//
+word: mariposa
+translation: butterfly
+type: noun
+group: 🌿 Nature & animals
+pronunciation: /maɾiˈposa/
+example.es: La mariposa tiene colores hermosos.
+example.en: The butterfly has beautiful colors.
+tags: ⭐ common, 🐾 animals
+priority: yes
+grammar.Gender: f
+grammar.Plural: mariposas
+//
+word: árbol
+translation: tree
+type: noun
+group: 🌿 Nature & animals
+pronunciation: /ˈaɾβol/
+example.es: Ese árbol es muy viejo.
+example.en: That tree is very old.
+tags: ⭐ common, 🌳 nature
+priority: yes
+grammar.Gender: m
+grammar.Plural: árboles
+//
+word: flor
+translation: flower
+type: noun
+group: 🌿 Nature & animals
+pronunciation: /floɾ/
+example.es: Esta flor huele muy bien.
+example.en: This flower smells very good.
+tags: ⭐ common, 🌳 nature
+priority: yes
+grammar.Gender: f
+grammar.Plural: flores
+//
+word: hierba
+translation: grass
+type: noun
+group: 🌿 Nature & animals
+pronunciation: /ˈjeɾβa/
+example.es: La hierba está mojada por la lluvia.
+example.en: The grass is wet from the rain.
+tags: ⭐ common, 🌳 nature
+priority: yes
+grammar.Gender: f
+grammar.Plural: hierbas
+//
+word: bosque
+translation: forest
+type: noun
+group: 🌿 Nature & animals
+pronunciation: /ˈboske/
+example.es: Hay muchos árboles en el bosque.
+example.en: There are many trees in the forest.
+tags: ⭐ common, 🌳 nature
+priority: yes
+grammar.Gender: m
+grammar.Plural: bosques
+//
+word: montaña
+translation: mountain
+type: noun
+group: 🌿 Nature & animals
+pronunciation: /monˈtaɲa/
+example.es: Escalamos la montaña ayer.
+example.en: We climbed the mountain yesterday.
+tags: ⭐ common, 🌳 nature
+priority: yes
+grammar.Gender: f
+grammar.Plural: montañas
+//
+word: río
+translation: river
+type: noun
+group: 🌿 Nature & animals
+pronunciation: /ˈrio/
+example.es: El río atraviesa la ciudad.
+example.en: The river crosses the city.
+tags: ⭐ common, 🌳 nature
+priority: yes
+grammar.Gender: m
+grammar.Plural: ríos
+//
+word: lago
+translation: lake
+type: noun
+group: 🌿 Nature & animals
+pronunciation: /ˈlaɣo/
+example.es: Nadamos en el lago este verano.
+example.en: We swam in the lake this summer.
+tags: ⭐ common, 🌳 nature
+priority: yes
+grammar.Gender: m
+grammar.Plural: lagos

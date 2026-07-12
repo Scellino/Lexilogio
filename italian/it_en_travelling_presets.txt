@@ -1,0 +1,495 @@
+word: stazione
+translation: station
+type: noun
+group: ✈️ Travelling
+pronunciation: /statˈtsjone/
+example.it: La stazione è molto affollata oggi.
+example.en: The station is very crowded today.
+etymology: Latin "statio"
+note: Often refers to train stations.
+tags: ⭐ common, ✈️ travel
+priority: yes
+grammar.Gender: f
+//
+word: treno
+translation: train
+type: noun
+group: ✈️ Travelling
+pronunciation: /ˈtrɛno/
+example.it: Il treno parte tra dieci minuti.
+example.en: The train leaves in ten minutes.
+etymology: From French "train"
+tags: ⭐ common, ✈️ travel
+priority: yes
+grammar.Gender: m
+grammar.Plural: treni
+//
+word: autobus
+translation: bus
+type: noun
+group: ✈️ Travelling
+pronunciation: /ˈautobus/
+example.it: Ho preso l'autobus per andare in centro.
+example.en: I took the bus to go to the city center.
+etymology: Shortened from "autobusse"
+tags: ⭐ common, ✈️ travel
+priority: yes
+grammar.Gender: m
+grammar.Plural: autobus (invariable)
+//
+word: aereo
+translation: airplane, plane
+type: noun
+group: ✈️ Travelling
+pronunciation: /aˈɛreo/
+example.it: L'aereo è appena decollato.
+example.en: The plane has just taken off.
+etymology: Latin "aer"
+tags: ⭐ common, ✈️ travel
+priority: yes
+grammar.Gender: m
+grammar.Plural: aerei
+//
+word: macchina
+translation: car
+type: noun
+group: ✈️ Travelling
+pronunciation: /ˈmakkina/
+example.it: Abbiamo noleggiato una macchina per il viaggio.
+example.en: We rented a car for the trip.
+etymology: Latin "machina"
+tags: ⭐ common, ✈️ travel
+priority: yes
+grammar.Gender: f
+grammar.Plural: macchine
+//
+word: taxi
+translation: taxi
+type: noun
+group: ✈️ Travelling
+pronunciation: /ˈtaksi/
+example.it: C'è un taxi libero davanti all'hotel.
+example.en: There is a free taxi in front of the hotel.
+etymology: From "taximeter"
+tags: ⭐ common, ✈️ travel
+priority: yes
+grammar.Gender: m
+grammar.Plural: taxi (invariable)
+//
+word: traghetto
+translation: ferry
+type: noun
+group: ✈️ Travelling
+pronunciation: /traˈɡɛtto/
+example.it: Il traghetto per l'isola parte domani mattina.
+example.en: The ferry to the island leaves tomorrow morning.
+etymology: From "traghettare" (to ferry across)
+tags: ✈️ travel
+priority: yes
+grammar.Gender: m
+grammar.Plural: traghetti
+//
+word: bicicletta
+translation: bicycle
+type: noun
+group: ✈️ Travelling
+pronunciation: /bitʃiˈklɛtta/
+example.it: Mi piace andare in bicicletta al parco.
+example.en: I like to ride my bicycle to the park.
+etymology: From "bi-" and "ciclo"
+tags: ⭐ common, ✈️ travel
+priority: yes
+grammar.Gender: f
+grammar.Plural: biciclette
+//
+word: metropolitana
+translation: subway, metro
+type: noun
+group: ✈️ Travelling
+pronunciation: /metropoliˈtana/
+example.it: La metropolitana è il mezzo più veloce.
+example.en: The subway is the fastest means of transport.
+etymology: From "metropolitana" (relating to the metropolis)
+tags: ⭐ common, ✈️ travel
+priority: yes
+grammar.Gender: f
+grammar.Plural: metropolitane
+//
+word: aeroporto
+translation: airport
+type: noun
+group: ✈️ Travelling
+pronunciation: /aeroˈpɔrto/
+example.it: Dobbiamo essere all'aeroporto due ore prima.
+example.en: We must be at the airport two hours before.
+etymology: From "aereo" and "porto"
+tags: ⭐ common, ✈️ travel
+priority: yes
+grammar.Gender: m
+grammar.Plural: aeroporti
+//
+word: albergo
+translation: hotel
+type: noun
+group: ✈️ Travelling
+pronunciation: /alˈbɛrɡo/
+example.it: Abbiamo prenotato un bell'albergo in centro.
+example.en: We booked a nice hotel in the center.
+etymology: From Germanic "heribergum"
+tags: ⭐ common, ✈️ travel
+priority: yes
+grammar.Gender: m
+grammar.Plural: alberghi
+//
+word: ostello
+translation: hostel
+type: noun
+group: ✈️ Travelling
+pronunciation: /oˈstɛllo/
+example.it: L'ostello è economico e pulito.
+example.en: The hostel is cheap and clean.
+etymology: From Latin "hospitale"
+tags: ✈️ travel
+priority: yes
+grammar.Gender: m
+grammar.Plural: ostelli
+//
+word: passaporto
+translation: passport
+type: noun
+group: ✈️ Travelling
+pronunciation: /passaˈpɔrto/
+example.it: Hai controllato se hai il passaporto?
+example.en: Have you checked if you have your passport?
+etymology: From "passare" and "porto"
+tags: ⭐ common, ✈️ travel
+priority: yes
+grammar.Gender: m
+grammar.Plural: passaporti
+//
+word: visto
+translation: visa
+type: noun
+group: ✈️ Travelling
+pronunciation: /ˈvisto/
+example.it: Per questo paese serve il visto.
+example.en: You need a visa for this country.
+etymology: From "vedere" (past participle)
+tags: ✈️ travel
+priority: yes
+grammar.Gender: m
+grammar.Plural: visti
+//
+word: biglietto
+translation: ticket
+type: noun
+group: ✈️ Travelling
+pronunciation: /biʎˈʎɛtto/
+example.it: Ho comprato il biglietto online.
+example.en: I bought the ticket online.
+etymology: From Medieval Latin "billetum"
+tags: ⭐ common, ✈️ travel
+priority: yes
+grammar.Gender: m
+grammar.Plural: biglietti
+//
+word: bagaglio
+translation: luggage
+type: noun
+group: ✈️ Travelling
+pronunciation: /baˈɡaʎʎo/
+example.it: Posso portare solo un bagaglio a mano.
+example.en: I can only bring one piece of carry-on luggage.
+etymology: From Old French "bagage"
+tags: ⭐ common, ✈️ travel
+priority: yes
+grammar.Gender: m
+grammar.Plural: bagagli
+//
+word: binario
+translation: platform (train)
+type: noun
+group: ✈️ Travelling
+pronunciation: /biˈnarjo/
+example.it: Il treno parte dal binario nove.
+example.en: The train leaves from platform nine.
+etymology: From Latin "binarius"
+tags: ⭐ common, ✈️ travel
+priority: yes
+grammar.Gender: m
+grammar.Plural: binari
+//
+word: partenza
+translation: departure
+type: noun
+group: ✈️ Travelling
+pronunciation: /parˈtɛntsa/
+example.it: L'orario di partenza è cambiato.
+example.en: The departure time has changed.
+etymology: From "partire"
+tags: ⭐ common, ✈️ travel
+priority: yes
+grammar.Gender: f
+grammar.Plural: partenze
+//
+word: arrivo
+translation: arrival
+type: noun
+group: ✈️ Travelling
+pronunciation: /arˈrivo/
+example.it: Il nostro arrivo è previsto alle otto.
+example.en: Our arrival is scheduled for eight o'clock.
+etymology: From "arrivare"
+tags: ⭐ common, ✈️ travel
+priority: yes
+grammar.Gender: m
+grammar.Plural: arrivi
+//
+word: prenotazione
+translation: booking, reservation
+type: noun
+group: ✈️ Travelling
+pronunciation: /prenotaˈtsjone/
+example.it: Devo confermare la mia prenotazione.
+example.en: I need to confirm my booking.
+etymology: From "prenotare"
+tags: ⭐ common, ✈️ travel
+priority: yes
+grammar.Gender: f
+grammar.Plural: prenotazioni
+//
+word: check-in
+translation: check-in
+type: noun
+group: ✈️ Travelling
+pronunciation: /ˈtʃɛkin/
+example.it: Il check-in apre due ore prima del volo.
+example.en: Check-in opens two hours before the flight.
+etymology: From English "check-in"
+tags: ✈️ travel
+priority: yes
+grammar.Gender: m
+grammar.Article override: il
+grammar.Plural: check-in (invariable)
+//
+word: camera
+translation: room (hotel)
+type: noun
+group: ✈️ Travelling
+pronunciation: /ˈkamera/
+example.it: Ho prenotato una camera doppia.
+example.en: I booked a double room.
+etymology: From Latin "camera"
+tags: ⭐ common, ✈️ travel
+priority: yes
+grammar.Gender: f
+grammar.Plural: camere
+//
+word: chiave
+translation: key
+type: noun
+group: ✈️ Travelling
+pronunciation: /ˈkjave/
+example.it: Posso avere la chiave della mia camera?
+example.en: May I have the key to my room?
+etymology: From Latin "clavis"
+tags: ⭐ common, ✈️ travel
+priority: yes
+grammar.Gender: f
+grammar.Plural: chiavi
+//
+word: reception
+translation: reception
+type: noun
+group: ✈️ Travelling
+pronunciation: /reˈtʃɛpʃon/
+example.it: Chieda informazioni alla reception.
+example.en: Ask for information at the reception.
+etymology: From English "reception"
+tags: ⭐ common, ✈️ travel
+priority: yes
+grammar.Gender: f
+grammar.Article override: la
+//
+word: riservazione
+translation: reservation
+type: noun
+group: ✈️ Travelling
+pronunciation: /riservaˈtsjone/
+example.it: La riservazione al ristorante è a nome Rossi.
+example.en: The reservation at the restaurant is under the name Rossi.
+etymology: From "riservare"
+note: "Prenotazione" is more common for hotels/travel; "riservazione" is often used for restaurants.
+tags: ✈️ travel
+priority: yes
+grammar.Gender: f
+grammar.Plural: riservazioni
+//
+word: viaggio
+translation: journey, trip
+type: noun
+group: ✈️ Travelling
+pronunciation: /ˈvjaddʒo/
+example.it: Buon viaggio!
+example.en: Have a good trip!
+etymology: From Old French "viage"
+tags: ⭐ common, ✈️ travel
+priority: yes
+grammar.Gender: m
+grammar.Plural: viaggi
+//
+word: turista
+translation: tourist
+type: noun
+group: ✈️ Travelling
+pronunciation: /tuˈrista/
+example.it: La città è piena di turisti.
+example.en: The city is full of tourists.
+etymology: From "tour"
+tags: ⭐ common, ✈️ travel
+priority: yes
+grammar.Gender: m/f
+grammar.Plural: turisti (m), turiste (f)
+//
+word: mappa
+translation: map
+type: noun
+group: ✈️ Travelling
+pronunciation: /ˈmappa/
+example.it: Hai una mappa della città?
+example.en: Do you have a city map?
+etymology: From Latin "mappa"
+tags: ⭐ common, ✈️ travel
+priority: yes
+grammar.Gender: f
+grammar.Plural: mappe
+//
+word: guida
+translation: guide, guidebook
+type: noun
+group: ✈️ Travelling
+pronunciation: /ˈɡwida/
+example.it: Questa guida turistica è molto utile.
+example.en: This guidebook is very useful.
+etymology: From Germanic "witan" (to know)
+tags: ⭐ common, ✈️ travel
+priority: yes
+grammar.Gender: f
+grammar.Plural: guide
+//
+word: frontiera
+translation: border
+type: noun
+group: ✈️ Travelling
+pronunciation: /fronˈtjɛra/
+example.it: Hanno controllato i passaporti alla frontiera.
+example.en: They checked the passports at the border.
+etymology: From "fronte"
+tags: ✈️ travel
+priority: yes
+grammar.Gender: f
+grammar.Plural: frontiere
+//
+word: dogana
+translation: customs
+type: noun
+group: ✈️ Travelling
+pronunciation: /doˈɡana/
+example.it: Devo passare per la dogana?
+example.en: Do I have to go through customs?
+etymology: From Arabic "diwan"
+tags: ✈️ travel
+priority: yes
+grammar.Gender: f
+grammar.Plural: dogane
+//
+word: ritardo
+translation: delay
+type: noun
+group: ✈️ Travelling
+pronunciation: /riˈtardo/
+example.it: Il treno ha venti minuti di ritardo.
+example.en: The train has a twenty-minute delay.
+etymology: From "ritardare"
+tags: ⭐ common, ✈️ travel
+priority: yes
+grammar.Gender: m
+grammar.Plural: ritardi
+//
+word: orario
+translation: schedule, timetable
+type: noun
+group: ✈️ Travelling
+pronunciation: /oˈrarjo/
+example.it: Devo controllare l'orario dei treni.
+example.en: I need to check the train schedule.
+etymology: From Latin "horarium"
+tags: ⭐ common, ✈️ travel
+priority: yes
+grammar.Gender: m
+grammar.Plural: orari
+//
+word: posto
+translation: seat
+type: noun
+group: ✈️ Travelling
+pronunciation: /ˈpɔsto/
+example.it: È libero questo posto?
+example.en: Is this seat free?
+etymology: From Latin "positus"
+tags: ⭐ common, ✈️ travel
+priority: yes
+grammar.Gender: m
+grammar.Plural: posti
+//
+word: ritorno
+translation: return
+type: noun
+group: ✈️ Travelling
+pronunciation: /riˈtorno/
+example.it: Ho preso un biglietto di andata e ritorno.
+example.en: I bought a round-trip ticket.
+etymology: From "ritornare"
+tags: ⭐ common, ✈️ travel
+priority: yes
+grammar.Gender: m
+grammar.Plural: ritorni
+//
+word: solo andata
+translation: one-way
+type: phrase
+group: ✈️ Travelling
+pronunciation: /ˈsolo anˈdata/
+example.it: Vorrei un biglietto di solo andata per Roma.
+example.en: I would like a one-way ticket to Rome.
+note: Used specifically for tickets.
+tags: ✈️ travel
+priority: yes
+grammar.Register: neutral
+//
+word: diretto
+translation: direct
+type: adjective
+group: ✈️ Travelling
+pronunciation: /diˈrɛtto/
+example.it: Questo è un volo diretto.
+example.en: This is a direct flight.
+etymology: From Latin "directus"
+tags: ⭐ common, ✈️ travel
+priority: yes
+grammar.Feminine form: diretta
+grammar.Plural (masc.): diretti
+grammar.Plural (fem.): dirette
+//
+word: valigia
+translation: suitcase
+type: noun
+group: ✈️ Travelling
+pronunciation: /vaˈlidʒa/
+example.it: Ho fatto la valigia ieri sera.
+example.en: I packed my suitcase last night.
+etymology: From Arabic "walija"
+tags: ⭐ common, ✈️ travel
+priority: yes
+grammar.Gender: f
+grammar.Plural: valigie

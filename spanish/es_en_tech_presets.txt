@@ -1,0 +1,382 @@
+word: película
+translation: film
+type: noun
+group: 💻 Technology & media
+pronunciation: /peˈlikula/
+example.es: Vimos una película muy divertida.
+example.en: We watched a very fun film.
+tags: ⭐ common, 💻 technology
+priority: yes
+grammar.Gender: f
+grammar.Plural: películas
+//
+word: teléfono
+translation: phone
+type: noun
+group: 💻 Technology & media
+pronunciation: /teˈlefono/
+example.es: Perdí mi teléfono ayer.
+example.en: I lost my phone yesterday.
+tags: ⭐ common, 💻 technology
+priority: yes
+grammar.Gender: m
+grammar.Plural: teléfonos
+//
+word: portátil
+translation: laptop
+type: noun
+group: 💻 Technology & media
+pronunciation: /poɾˈtatil/
+example.es: Trabajo con mi portátil en la cafetería.
+example.en: I work with my laptop in the coffee shop.
+tags: ⭐ common, 💻 technology
+priority: yes
+grammar.Gender: m
+grammar.Plural: portátiles
+//
+word: ordenador
+translation: computer
+type: noun
+group: 💻 Technology & media
+pronunciation: /oɾðenaˈðoɾ/
+example.es: Mi ordenador es muy rápido.
+example.en: My computer is very fast.
+tags: ⭐ common, 💻 technology
+priority: yes
+grammar.Gender: m
+grammar.Plural: ordenadores
+//
+word: tableta
+translation: tablet
+type: noun
+group: 💻 Technology & media
+pronunciation: /taˈβleta/
+example.es: Leo libros electrónicos en mi tableta.
+example.en: I read e-books on my tablet.
+tags: ⭐ common, 💻 technology
+priority: yes
+grammar.Gender: f
+grammar.Plural: tabletas
+//
+word: televisión
+translation: TV
+type: noun
+group: 💻 Technology & media
+pronunciation: /teleβiˈθjon/
+example.es: No veo mucho la televisión.
+example.en: I don't watch much TV.
+tags: ⭐ common, 💻 technology
+priority: yes
+grammar.Gender: f
+grammar.Plural: televisiones
+//
+word: cámara
+translation: camera
+type: noun
+group: 💻 Technology & media
+pronunciation: /ˈkamaɾa/
+example.es: Esta cámara hace fotos excelentes.
+example.en: This camera takes excellent photos.
+tags: ⭐ common, 💻 technology
+priority: yes
+grammar.Gender: f
+grammar.Plural: cámaras
+//
+word: pantalla
+translation: screen
+type: noun
+group: 💻 Technology & media
+pronunciation: /panˈtaʝa/
+example.es: La pantalla está un poco sucia.
+example.en: The screen is a bit dirty.
+tags: ⭐ common, 💻 technology
+priority: yes
+grammar.Gender: f
+grammar.Plural: pantallas
+//
+word: teclado
+translation: keyboard
+type: noun
+group: 💻 Technology & media
+pronunciation: /teˈklaðo/
+example.es: Limpié el teclado de mi ordenador.
+example.en: I cleaned my computer keyboard.
+tags: ⭐ common, 💻 technology
+priority: yes
+grammar.Gender: m
+grammar.Plural: teclados
+//
+word: auriculares
+translation: headphones
+type: noun
+group: 💻 Technology & media
+pronunciation: /auɾiˈkulares/
+example.es: Escucho música con mis auriculares.
+example.en: I listen to music with my headphones.
+tags: ⭐ common, 💻 technology
+priority: yes
+grammar.Gender: m
+grammar.Plural: auriculares
+//
+word: internet
+translation: internet
+type: noun
+group: 💻 Technology & media
+pronunciation: /inteɾˈnet/
+example.es: La conexión a internet es lenta.
+example.en: The internet connection is slow.
+tags: ⭐ common, 💻 technology
+priority: yes
+grammar.Gender: m
+grammar.Plural: (not typically plural)
+//
+word: sitio web
+translation: website
+type: noun
+group: 💻 Technology & media
+pronunciation: /ˈsitjo ˈweb/
+example.es: Visité un sitio web muy útil.
+example.en: I visited a very useful website.
+tags: ⭐ common, 💻 technology
+priority: yes
+grammar.Gender: m
+grammar.Plural: sitios web
+//
+word: correo electrónico
+translation: email
+type: noun
+group: 💻 Technology & media
+pronunciation: /koˈreo elekˈtɾoniko/
+example.es: Recibí un correo electrónico importante.
+example.en: I received an important email.
+tags: ⭐ common, 💻 technology
+priority: yes
+grammar.Gender: m
+grammar.Plural: correos electrónicos
+//
+word: redes sociales
+translation: social media
+type: noun
+group: 💻 Technology & media
+pronunciation: /ˈreðes soˈθjales/
+example.es: Paso mucho tiempo en las redes sociales.
+example.en: I spend a lot of time on social media.
+tags: ⭐ common, 💻 technology
+priority: yes
+grammar.Gender: f
+grammar.Plural: (always plural)
+//
+word: aplicación
+translation: app
+type: noun
+group: 💻 Technology & media
+pronunciation: /aplikaˈθjon/
+example.es: He descargado una nueva aplicación.
+example.en: I have downloaded a new app.
+tags: ⭐ common, 💻 technology
+priority: yes
+grammar.Gender: f
+grammar.Plural: aplicaciones
+//
+word: descargar
+translation: to download
+type: verb
+group: 💻 Technology & media
+pronunciation: /deskaɾˈɣaɾ/
+example.es: Quiero descargar esta canción.
+example.en: I want to download this song.
+tags: ⭐ common, 💻 technology
+priority: yes
+grammar.Verb type: -ar
+grammar.Presente: descargo / descargas / descarga / descargamos / descargáis / descargan
+//
+word: subir
+translation: to upload
+type: verb
+group: 💻 Technology & media
+pronunciation: /suˈβiɾ/
+example.es: Voy a subir las fotos a la nube.
+example.en: I am going to upload the photos to the cloud.
+tags: ⭐ common, 💻 technology
+priority: yes
+grammar.Verb type: -ir
+grammar.Presente: subo / subes / sube / subimos / subís / suben
+//
+word: contraseña
+translation: password
+type: noun
+group: 💻 Technology & media
+pronunciation: /kontɾaˈseɲa/
+example.es: He olvidado mi contraseña.
+example.en: I have forgotten my password.
+tags: ⭐ common, 💻 technology
+priority: yes
+grammar.Gender: f
+grammar.Plural: contraseñas
+//
+word: notificación
+translation: notification
+type: noun
+group: 💻 Technology & media
+pronunciation: /notifikaˈθjon/
+example.es: Recibí una notificación en el móvil.
+example.en: I received a notification on my mobile.
+tags: ⭐ common, 💻 technology
+priority: yes
+grammar.Gender: f
+grammar.Plural: notificaciones
+//
+word: noticias
+translation: news
+type: noun
+group: 💻 Technology & media
+pronunciation: /noˈtiθjas/
+example.es: Leo las noticias todas las mañanas.
+example.en: I read the news every morning.
+tags: ⭐ common, 💻 technology
+priority: yes
+grammar.Gender: f
+grammar.Plural: (always plural)
+//
+word: periódico
+translation: newspaper
+type: noun
+group: 💻 Technology & media
+pronunciation: /peˈɾjodiko/
+example.es: Compré el periódico de hoy.
+example.en: I bought today's newspaper.
+tags: ⭐ common, 💻 technology
+priority: yes
+grammar.Gender: m
+grammar.Plural: periódicos
+//
+word: revista
+translation: magazine
+type: noun
+group: 💻 Technology & media
+pronunciation: /reˈβista/
+example.es: Ella lee una revista de moda.
+example.en: She reads a fashion magazine.
+tags: ⭐ common, 💻 technology
+priority: yes
+grammar.Gender: f
+grammar.Plural: revistas
+//
+word: serie
+translation: series
+type: noun
+group: 💻 Technology & media
+pronunciation: /ˈseɾje/
+example.es: Estoy viendo una serie nueva.
+example.en: I am watching a new series.
+tags: ⭐ common, 💻 technology
+priority: yes
+grammar.Gender: f
+grammar.Plural: series
+//
+word: pódcast
+translation: podcast
+type: noun
+group: 💻 Technology & media
+pronunciation: /ˈpoðkast/
+example.es: Escucho un pódcast camino al trabajo.
+example.en: I listen to a podcast on the way to work.
+tags: ⭐ common, 💻 technology
+priority: yes
+grammar.Gender: m
+grammar.Plural: pódcasts
+//
+word: enviar
+translation: to send
+type: verb
+group: 💻 Technology & media
+pronunciation: /emˈbjaɾ/
+example.es: Voy a enviar un correo electrónico.
+example.en: I am going to send an email.
+tags: ⭐ common, 💻 technology
+priority: yes
+grammar.Verb type: -ar
+grammar.Presente: envío / envías / envía / enviamos / enviáis / envían
+//
+word: llamar
+translation: to call
+type: verb
+group: 💻 Technology & media
+pronunciation: /ʝaˈmaɾ/
+example.es: Tengo que llamar a mi madre.
+example.en: I have to call my mother.
+tags: ⭐ common, 💻 technology
+priority: yes
+grammar.Verb type: -ar
+grammar.Presente: llamo / llamas / llama / llamamos / llamáis / llaman
+//
+word: enviar un mensaje
+translation: to text
+type: phrase
+group: 💻 Technology & media
+pronunciation: /emˈbjaɾ un menˈsaxe/
+example.es: Te enviaré un mensaje más tarde.
+example.en: I will text you later.
+tags: ⭐ common, 💻 technology
+priority: yes
+grammar.Register: neutral
+//
+word: buscar
+translation: to search
+type: verb
+group: 💻 Technology & media
+pronunciation: /busˈkaɾ/
+example.es: Busco información en internet.
+example.en: I search for information on the internet.
+tags: ⭐ common, 💻 technology
+priority: yes
+grammar.Verb type: -ar
+grammar.Presente: busco / buscas / busca / buscamos / buscáis / buscan
+//
+word: guardar
+translation: to save
+type: verb
+group: 💻 Technology & media
+pronunciation: /ɡwaɾˈðaɾ/
+example.es: Debes guardar el archivo en el ordenador.
+example.en: You must save the file on the computer.
+tags: ⭐ common, 💻 technology
+priority: yes
+grammar.Verb type: -ar
+grammar.Presente: guardo / guardas / guarda / guardamos / guardáis / guardan
+//
+word: compartir
+translation: to share
+type: verb
+group: 💻 Technology & media
+pronunciation: /kompaɾˈtiɾ/
+example.es: Me gusta compartir fotos en redes sociales.
+example.en: I like to share photos on social media.
+tags: ⭐ common, 💻 technology
+priority: yes
+grammar.Verb type: -ir
+grammar.Presente: comparto / compartes / comparte / compartimos / compartís / comparten
+//
+word: batería
+translation: battery
+type: noun
+group: 💻 Technology & media
+pronunciation: /baˈteɾja/
+example.es: Me queda poca batería en el móvil.
+example.en: I have little battery left on my mobile.
+tags: ⭐ common, 💻 technology
+priority: yes
+grammar.Gender: f
+grammar.Plural: baterías
+//
+word: cargador
+translation: charger
+type: noun
+group: 💻 Technology & media
+pronunciation: /kaɾɣaˈðoɾ/
+example.es: ¿Puedes prestarme tu cargador?
+example.en: Can you lend me your charger?
+tags: ⭐ common, 💻 technology
+priority: yes
+grammar.Gender: m
+grammar.Plural: cargadores

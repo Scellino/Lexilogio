@@ -1,0 +1,355 @@
+word: madre
+translation: mother
+type: noun
+group: 👨‍👩‍👧 Family & relationships
+pronunciation: /ˈmaðɾe/
+example.es: Mi madre es muy amable.
+example.en: My mother is very kind.
+tags: ⭐ common, 👥 people
+priority: yes
+grammar.Gender: f
+grammar.Plural: madres
+//
+word: padre
+translation: father
+type: noun
+group: 👨‍👩‍👧 Family & relationships
+pronunciation: /ˈpaðɾe/
+example.es: Mi padre trabaja mucho.
+example.en: My father works a lot.
+tags: ⭐ common, 👥 people
+priority: yes
+grammar.Gender: m
+grammar.Plural: padres
+//
+word: padres
+translation: parents
+type: noun
+group: 👨‍👩‍👧 Family & relationships
+pronunciation: /ˈpaðɾes/
+example.es: Mis padres viven en Madrid.
+example.en: My parents live in Madrid.
+note: Can also mean "fathers".
+tags: ⭐ common, 👥 people
+priority: yes
+grammar.Gender: m
+grammar.Plural: padres
+//
+word: hermana
+translation: sister
+type: noun
+group: 👨‍👩‍👧 Family & relationships
+pronunciation: /eɾˈmana/
+example.es: Tengo una hermana mayor.
+example.en: I have an older sister.
+tags: ⭐ common, 👥 people
+priority: yes
+grammar.Gender: f
+grammar.Plural: hermanas
+//
+word: hermano
+translation: brother
+type: noun
+group: 👨‍👩‍👧 Family & relationships
+pronunciation: /eɾˈmano/
+example.es: Mi hermano juega al fútbol.
+example.en: My brother plays soccer.
+tags: ⭐ common, 👥 people
+priority: yes
+grammar.Gender: m
+grammar.Plural: hermanos
+//
+word: hijo
+translation: son
+type: noun
+group: 👨‍👩‍👧 Family & relationships
+pronunciation: /ˈixo/
+example.es: Su hijo ya es adolescente.
+example.en: Her son is already a teenager.
+tags: ⭐ common, 👥 people
+priority: yes
+grammar.Gender: m
+grammar.Plural: hijos
+//
+word: hija
+translation: daughter
+type: noun
+group: 👨‍👩‍👧 Family & relationships
+pronunciation: /ˈixa/
+example.es: Mi hija empieza la escuela.
+example.en: My daughter is starting school.
+tags: ⭐ common, 👥 people
+priority: yes
+grammar.Gender: f
+grammar.Plural: hijas
+//
+word: bebé
+translation: baby
+type: noun
+group: 👨‍👩‍👧 Family & relationships
+pronunciation: /beˈβe/
+example.es: El bebé duerme en su cuna.
+example.en: The baby sleeps in its crib.
+tags: ⭐ common, 👥 people
+priority: yes
+grammar.Gender: m
+grammar.Plural: bebés
+//
+word: niño
+translation: child
+type: noun
+group: 👨‍👩‍👧 Family & relationships
+pronunciation: /ˈniɲo/
+example.es: El niño está jugando afuera.
+example.en: The child is playing outside.
+note: Use 'niña' for a female child.
+tags: ⭐ common, 👥 people
+priority: yes
+grammar.Gender: m
+grammar.Plural: niños
+//
+word: abuela
+translation: grandmother
+type: noun
+group: 👨‍👩‍👧 Family & relationships
+pronunciation: /aˈβwela/
+example.es: Mi abuela cocina muy bien.
+example.en: My grandmother cooks very well.
+tags: ⭐ common, 👥 people
+priority: yes
+grammar.Gender: f
+grammar.Plural: abuelas
+//
+word: abuelo
+translation: grandfather
+type: noun
+group: 👨‍👩‍👧 Family & relationships
+pronunciation: /aˈβwelo/
+example.es: Mi abuelo cuenta historias.
+example.en: My grandfather tells stories.
+tags: ⭐ common, 👥 people
+priority: yes
+grammar.Gender: m
+grammar.Plural: abuelos
+//
+word: abuelos
+translation: grandparents
+type: noun
+group: 👨‍👩‍👧 Family & relationships
+pronunciation: /aˈβwelos/
+example.es: Visito a mis abuelos los domingos.
+example.en: I visit my grandparents on Sundays.
+tags: ⭐ common, 👥 people
+priority: yes
+grammar.Gender: m
+grammar.Plural: abuelos
+//
+word: tío
+translation: uncle
+type: noun
+group: 👨‍👩‍👧 Family & relationships
+pronunciation: /ˈtio/
+example.es: Mi tío vive en el extranjero.
+example.en: My uncle lives abroad.
+tags: ⭐ common, 👥 people
+priority: yes
+grammar.Gender: m
+grammar.Plural: tíos
+//
+word: tía
+translation: aunt
+type: noun
+group: 👨‍👩‍👧 Family & relationships
+pronunciation: /ˈtia/
+example.es: Mi tía me dio un regalo.
+example.en: My aunt gave me a present.
+tags: ⭐ common, 👥 people
+priority: yes
+grammar.Gender: f
+grammar.Plural: tías
+//
+word: primo
+translation: cousin
+type: noun
+group: 👨‍👩‍👧 Family & relationships
+pronunciation: /ˈpɾimo/
+example.es: Mi primo es muy divertido.
+example.en: My cousin is very fun.
+note: Use 'prima' for a female cousin.
+tags: ⭐ common, 👥 people
+priority: yes
+grammar.Gender: m
+grammar.Plural: primos
+//
+word: sobrina
+translation: niece
+type: noun
+group: 👨‍👩‍👧 Family & relationships
+pronunciation: /soˈβɾina/
+example.es: Mi sobrina tiene cinco años.
+example.en: My niece is five years old.
+tags: ⭐ common, 👥 people
+priority: yes
+grammar.Gender: f
+grammar.Plural: sobrinas
+//
+word: sobrino
+translation: nephew
+type: noun
+group: 👨‍👩‍👧 Family & relationships
+pronunciation: /soˈβɾino/
+example.es: Juego con mi sobrino.
+example.en: I play with my nephew.
+tags: ⭐ common, 👥 people
+priority: yes
+grammar.Gender: m
+grammar.Plural: sobrinos
+//
+word: marido
+translation: husband
+type: noun
+group: 👨‍👩‍👧 Family & relationships
+pronunciation: /maˈɾiðo/
+example.es: Su marido es médico.
+example.en: Her husband is a doctor.
+tags: ⭐ common, 👥 people
+priority: yes
+grammar.Gender: m
+grammar.Plural: maridos
+//
+word: esposa
+translation: wife
+type: noun
+group: 👨‍👩‍👧 Family & relationships
+pronunciation: /esˈposa/
+example.es: Mi esposa es profesora.
+example.en: My wife is a teacher.
+tags: ⭐ common, 👥 people
+priority: yes
+grammar.Gender: f
+grammar.Plural: esposas
+//
+word: pareja
+translation: partner
+type: noun
+group: 👨‍👩‍👧 Family & relationships
+pronunciation: /paˈɾexa/
+example.es: Ellos viven con su pareja.
+example.en: They live with their partner.
+tags: ⭐ common, 👥 people
+priority: yes
+grammar.Gender: f
+grammar.Plural: parejas
+//
+word: amigo
+translation: friend
+type: noun
+group: 👨‍👩‍👧 Family & relationships
+pronunciation: /aˈmiɡo/
+example.es: Es un buen amigo mío.
+example.en: He is a good friend of mine.
+note: Use 'amiga' for a female friend.
+tags: ⭐ common, 👥 people
+priority: yes
+grammar.Gender: m
+grammar.Plural: amigos
+//
+word: colega
+translation: colleague
+type: noun
+group: 👨‍👩‍👧 Family & relationships
+pronunciation: /koˈleɣa/
+example.es: Mi colega del trabajo es muy amable.
+example.en: My work colleague is very kind.
+tags: ⭐ common, 👥 people
+priority: yes
+grammar.Gender: m/f
+grammar.Plural: colegas
+//
+word: vecino
+translation: neighbor
+type: noun
+group: 👨‍👩‍👧 Family & relationships
+pronunciation: /beˈθino/
+example.es: Mi vecino siempre me saluda.
+example.en: My neighbor always greets me.
+note: Use 'vecina' for a female neighbor.
+tags: ⭐ common, 👥 people
+priority: yes
+grammar.Gender: m
+grammar.Plural: vecinos
+//
+word: novio
+translation: boyfriend
+type: noun
+group: 👨‍👩‍👧 Family & relationships
+pronunciation: /ˈnoβjo/
+example.es: Mi novio vive lejos.
+example.en: My boyfriend lives far away.
+tags: ⭐ common, 👥 people
+priority: yes
+grammar.Gender: m
+grammar.Plural: novios
+//
+word: novia
+translation: girlfriend
+type: noun
+group: 👨‍👩‍👧 Family & relationships
+pronunciation: /ˈnoβja/
+example.es: Tiene una novia muy simpática.
+example.en: He has a very nice girlfriend.
+tags: ⭐ common, 👥 people
+priority: yes
+grammar.Gender: f
+grammar.Plural: novias
+//
+word: casado
+translation: married
+type: adjective
+group: 👨‍👩‍👧 Family & relationships
+pronunciation: /kaˈsaðo/
+example.es: Están casados desde hace años.
+example.en: They have been married for years.
+tags: ⭐ common, 👥 people
+priority: yes
+grammar.Feminine form: casada
+grammar.Plural (masc.): casados
+grammar.Plural (fem.): casadas
+//
+word: divorciado
+translation: divorced
+type: adjective
+group: 👨‍👩‍👧 Family & relationships
+pronunciation: /diβoɾˈθjaðo/
+example.es: Él está divorciado ahora.
+example.en: He is divorced now.
+tags: ⭐ common, 👥 people
+priority: yes
+grammar.Feminine form: divorciada
+grammar.Plural (masc.): divorciados
+grammar.Plural (fem.): divorciadas
+//
+word: soltero
+translation: single
+type: adjective
+group: 👨‍👩‍👧 Family & relationships
+pronunciation: /solˈteɾo/
+example.es: Prefiero estar soltero.
+example.en: I prefer to be single.
+tags: ⭐ common, 👥 people
+priority: yes
+grammar.Feminine form: soltera
+grammar.Plural (masc.): solteros
+grammar.Plural (fem.): solteras
+//
+word: familia
+translation: family
+type: noun
+group: 👨‍👩‍👧 Family & relationships
+pronunciation: /faˈmilja/
+example.es: La familia es lo más importante.
+example.en: Family is the most important thing.
+tags: ⭐ common, 👥 people
+priority: yes
+grammar.Gender: f
+grammar.Plural: familias

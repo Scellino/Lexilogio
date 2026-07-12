@@ -1,7 +1,7 @@
 word: winkel
 translation: shop, store
 type: noun
-group: Shopping & Money
+group: 🛒 Shopping & money
 pronunciation: /ˈʋɪŋkəl/
 example.nl: De kleine winkel op de hoek verkoopt heerlijke broodjes.
 example.en: The small shop on the corner sells delicious sandwiches.
@@ -12,13 +12,11 @@ priority: yes
 grammar.Article / Gender: de
 grammar.Plural: winkels
 grammar.Diminutive: het winkeltje
-
 //
-
 word: markt
 translation: market
 type: noun
-group: Shopping & Money
+group: 🛒 Shopping & money
 pronunciation: /mɑrkt/
 example.nl: Op zaterdag gaan we altijd naar de markt voor verse groenten.
 example.en: On Saturdays we always go to the market for fresh vegetables.
@@ -29,13 +27,11 @@ priority: yes
 grammar.Article / Gender: de
 grammar.Plural: markten
 grammar.Diminutive: het marktje
-
 //
-
 word: supermarkt
 translation: supermarket
 type: noun
-group: Shopping & Money
+group: 🛒 Shopping & money
 pronunciation: /ˈsypərmɑrkt/
 example.nl: De supermarkt is geopend tot tien uur 's avonds.
 example.en: The supermarket is open until ten o'clock in the evening.
@@ -46,13 +42,11 @@ priority: yes
 grammar.Article / Gender: de
 grammar.Plural: supermarkten
 grammar.Diminutive: het supermarktje
-
 //
-
 word: prijs
 translation: price, prize
 type: noun
-group: Shopping & Money
+group: 🛒 Shopping & money
 pronunciation: /prɛis/
 example.nl: Wat is de prijs van deze mooie jas?
 example.en: What is the price of this beautiful coat?
@@ -63,13 +57,11 @@ priority: yes
 grammar.Article / Gender: de
 grammar.Plural: prijzen
 grammar.Diminutive: het prijsje
-
 //
-
 word: korting
 translation: discount, reduction
 type: noun
-group: Shopping & Money
+group: 🛒 Shopping & money
 pronunciation: /ˈkɔrtɪŋ/
 example.nl: Krijg ik vandaag studentenkorting op mijn bestelling?
 example.en: Do I get a student discount on my order today?
@@ -80,13 +72,11 @@ priority: yes
 grammar.Article / Gender: de
 grammar.Plural: kortingen
 grammar.Diminutive: het kortinkje
-
 //
-
 word: uitverkoop
 translation: sale, clearance
 type: noun
-group: Shopping & Money
+group: 🛒 Shopping & money
 pronunciation: /ˈœytvərkoːp/
 example.nl: Tijdens de uitverkoop zijn veel artikelen helft van de prijs.
 example.en: During the sale, many items are half price.
@@ -97,13 +87,11 @@ priority: yes
 grammar.Article / Gender: de
 grammar.Plural: uitverkopen
 grammar.Diminutive: het uitverkoopje
-
 //
-
 word: kassabon
 translation: receipt
 type: noun
-group: Shopping & Money
+group: 🛒 Shopping & money
 pronunciation: /ˈkɑsaːbɔn/
 example.nl: Bewaar de kassabon goed voor het geval je de schoenen wilt retourneren.
 example.en: Keep the receipt safe in case you want to return the shoes.
@@ -114,13 +102,11 @@ priority: yes
 grammar.Article / Gender: de
 grammar.Plural: kassabonnen
 grammar.Diminutive: het kassabonnetje
-
 //
-
 word: geld
 translation: money
 type: noun
-group: Shopping & Money
+group: 🛒 Shopping & money
 pronunciation: /ɣɛlt/
 example.nl: Tijd is geld, dus we moeten snel een beslissing nemen.
 example.en: Time is money, so we need to make a decision quickly.
@@ -131,13 +117,11 @@ priority: yes
 grammar.Article / Gender: het
 grammar.Plural: -
 grammar.Diminutive: het geldje
-
 //
-
 word: munt
 translation: coin, mint
 type: noun
-group: Shopping & Money
+group: 🛒 Shopping & money
 pronunciation: /mʏnt/
 example.nl: Heb je een munt van twee euro voor de winkelwagen?
 example.en: Do you have a two-euro coin for the shopping cart?
@@ -148,13 +132,11 @@ priority: yes
 grammar.Article / Gender: de
 grammar.Plural: munten
 grammar.Diminutive: het muntje
-
 //
-
 word: bankbiljet
 translation: banknote, bill
 type: noun
-group: Shopping & Money
+group: 🛒 Shopping & money
 pronunciation: /ˈbɑŋgbɪlˌjɛt/
 example.nl: De winkel accepteert geen bankbiljetten van tweehonderd euro.
 example.en: The shop does not accept two-hundred-euro banknotes.
@@ -165,13 +147,11 @@ priority: yes
 grammar.Article / Gender: het
 grammar.Plural: bankbiljetten
 grammar.Diminutive: het bankbiljetje
-
 //
-
 word: creditcard
 translation: credit card
 type: noun
-group: Shopping & Money
+group: 🛒 Shopping & money
 pronunciation: /ˈkrɛdɪtkɑːrt/
 example.nl: U kunt in dit restaurant betalen met uw creditcard.
 example.en: You can pay with your credit card in this restaurant.
@@ -182,13 +162,11 @@ priority: yes
 grammar.Article / Gender: de
 grammar.Plural: creditcards
 grammar.Diminutive: het creditcardje
-
 //
-
 word: pinautomaat
 translation: ATM, cash machine
 type: noun
-group: Shopping & Money
+group: 🛒 Shopping & money
 pronunciation: /ˈpɪnʌutoːˌmaːt/
 example.nl: Waar kan ik hier in de buurt een pinautomaat vinden?
 example.en: Where can I find an ATM near here?
@@ -199,13 +177,11 @@ priority: yes
 grammar.Article / Gender: de
 grammar.Plural: pinautomaten
 grammar.Diminutive: het pinautomaatje
-
 //
-
 word: goedkoop
 translation: cheap, inexpensive
 type: adjective
-group: Shopping & Money
+group: 🛒 Shopping & money
 pronunciation: /ɣutˈkoːp/
 example.nl: Deze supermarkt is over het algemeen erg goedkoop.
 example.en: This supermarket is generally very cheap.
@@ -215,13 +191,11 @@ priority: yes
 grammar.Inflected form: goedkope
 grammar.Comparative: goedkoper
 grammar.Superlative: goedkoopst
-
 //
-
 word: duur
 translation: expensive, costly, duration
 type: adjective
-group: Shopping & Money
+group: 🛒 Shopping & money
 pronunciation: /dyːr/
 example.nl: Parkeren in het centrum van Amsterdam is heel erg duur.
 example.en: Parking in the center of Amsterdam is very expensive.
@@ -232,13 +206,11 @@ priority: yes
 grammar.Inflected form: dure
 grammar.Comparative: duurder
 grammar.Superlative: duurst
-
 //
-
 word: gratis
 translation: free, free of charge
 type: adjective
-group: Shopping & Money
+group: 🛒 Shopping & money
 pronunciation: /ˈɣraːtɪs/
 example.nl: Bij aankoop van twee boeken is het derde boek gratis.
 example.en: When buying two books, the third book is free of charge.
@@ -249,13 +221,11 @@ priority: yes
 grammar.Inflected form: gratis
 grammar.Comparative: -
 grammar.Superlative: -
-
 //
-
 word: betalen
 translation: to pay
 type: verb
-group: Shopping & Money
+group: 🛒 Shopping & money
 pronunciation: /bəˈtaːlə(n)/
 example.nl: Hoe wilt u betalen, contant of met pin?
 example.en: How would you like to pay, cash or by card?
@@ -267,13 +237,11 @@ grammar.Past tense (sg.): betaalde
 grammar.Past participle: betaald
 grammar.Auxiliary: hebben
 grammar.Present (ik / jij / hij / wij / jullie / zij): betaal / betaalt / betaalt / betalen / betalen / betalen
-
 //
-
 word: kopen
 translation: to buy, purchase
 type: verb
-group: Shopping & Money
+group: 🛒 Shopping & money
 pronunciation: /ˈkoːpə(n)/
 example.nl: Zij wil een nieuw huis kopen in de provincie Utrecht.
 example.en: She wants to buy a new house in the province of Utrecht.
@@ -284,13 +252,11 @@ grammar.Past tense (sg.): kocht
 grammar.Past participle: gekocht
 grammar.Auxiliary: hebben
 grammar.Present (ik / jij / hij / wij / jullie / zij): koop / koopt / koopt / kopen / kopen / kopen
-
 //
-
 word: verkopen
 translation: to sell
 type: verb
-group: Shopping & Money
+group: 🛒 Shopping & money
 pronunciation: /vərˈkoːpə(n)/
 example.nl: Wij verkopen onze oude fiets via internet.
 example.en: We are selling our old bicycle online.
@@ -301,13 +267,11 @@ grammar.Past tense (sg.): verkocht
 grammar.Past participle: verkocht
 grammar.Auxiliary: hebben
 grammar.Present (ik / jij / hij / wij / jullie / zij): verkoop / verkoopt / verkoopt / verkopen / verkopen / verkopen
-
 //
-
 word: kosten
 translation: cost, expense, expenses
 type: noun
-group: Shopping & Money
+group: 🛒 Shopping & money
 pronunciation: /ˈkɔstə(n)/
 example.nl: De onverwachte kosten vielen gelukkig erg mee.
 example.en: Luckily, the unexpected expenses weren't too bad.
@@ -318,13 +282,11 @@ priority: yes
 grammar.Article / Gender: de
 grammar.Plural: kosten
 grammar.Diminutive: het kostje
-
 //
-
 word: portemonnee
 translation: wallet, purse
 type: noun
-group: Shopping & Money
+group: 🛒 Shopping & money
 pronunciation: /pɔrtəmɔˈneː/
 example.nl: Ik ben mijn portemonnee met al mijn pasjes kwijtgeraakt.
 example.en: I lost my wallet with all my cards.
@@ -334,13 +296,11 @@ priority: yes
 grammar.Article / Gender: de
 grammar.Plural: portemonnees
 grammar.Diminutive: het portemonneetje
-
 //
-
 word: budget
 translation: budget
 type: noun
-group: Shopping & Money
+group: 🛒 Shopping & money
 pronunciation: /byˈdʒɛt/
 example.nl: We moeten ons deze maand strikt aan het budget houden.
 example.en: We must strictly stick to the budget this month.
@@ -350,30 +310,11 @@ priority: yes
 grammar.Article / Gender: het
 grammar.Plural: budgetten
 grammar.Diminutive: het budgetje
-
 //
-
-word: fooi
-translation: tip, gratuity
-type: noun
-group: Shopping & Money
-pronunciation: /foːi̯/
-example.nl: De bediening was uitstekend, dus gaven we een gulle fooi.
-example.en: The service was excellent, so we gave a generous tip.
-etymology: From French voie (way/journey money), historically given to messengers.
-note: Tipping is appreciated but not mandatory in the Netherlands.
-tags: 🛍️ shopping, 🍴 dining
-priority: yes
-grammar.Article / Gender: de
-grammar.Plural: fooien
-grammar.Diminutive: het fooitje
-
-//
-
 word: wisselgeld
 translation: change, coins returned
 type: noun
-group: Shopping & Money
+group: 🛒 Shopping & money
 pronunciation: /ˈʋɪsəlˌɣɛlt/
 example.nl: Vergeet niet je wisselgeld mee te nemen bij de kassa.
 example.en: Don't forget to take your change at the cash register.
@@ -384,13 +325,11 @@ priority: yes
 grammar.Article / Gender: het
 grammar.Plural: -
 grammar.Diminutive: het wisselgeldje
-
 //
-
 word: wachtrij
 translation: queue, line
 type: noun
-group: Shopping & Money
+group: 🛒 Shopping & money
 pronunciation: /ˈʋɑxtrɛi̯/
 example.nl: Er stond een enorme wachtrij voor de ingang van het museum.
 example.en: There was a huge queue in front of the museum entrance.
@@ -401,13 +340,11 @@ priority: yes
 grammar.Article / Gender: de
 grammar.Plural: wachtrijen
 grammar.Diminutive: het wachtrijtje
-
 //
-
 word: openingstijden
 translation: opening hours
 type: noun
-group: Shopping & Money
+group: 🛒 Shopping & money
 pronunciation: /ˈoːpənɪŋsˌtɛi̯dən/
 example.nl: Wat zijn de openingstijden van de bibliotheek op zondag?
 example.en: What are the opening hours of the library on Sundays?
@@ -418,13 +355,11 @@ priority: yes
 grammar.Article / Gender: de
 grammar.Plural: openingstijden
 grammar.Diminutive: -
-
 //
-
 word: gesloten
 translation: closed, locked
 type: adjective
-group: Shopping & Money
+group: 🛒 Shopping & money
 pronunciation: /ɣəˈsloːtən/
 example.nl: Vanwege de feestdag is de winkel vandaag gesloten.
 example.en: Because of the holiday, the shop is closed today.
@@ -435,13 +370,11 @@ priority: yes
 grammar.Inflected form: gesloten
 grammar.Comparative: -
 grammar.Superlative: -
-
 //
-
 word: open
 translation: open
 type: adjective
-group: Shopping & Money
+group: 🛒 Shopping & money
 pronunciation: /ˈoːpən/
 example.nl: Gelukkig is de supermarkt op zondag ook open.
 example.en: Fortunately, the supermarket is also open on Sundays.
@@ -451,13 +384,11 @@ priority: yes
 grammar.Inflected form: open
 grammar.Comparative: -
 grammar.Superlative: -
-
 //
-
 word: terugbetaling
 translation: refund, reimbursement
 type: noun
-group: Shopping & Money
+group: 🛒 Shopping & money
 pronunciation: /təˈrʏxbəˌtaːlɪŋ/
 example.nl: Na het retourneren van het product ontvangt u een terugbetaling.
 example.en: After returning the product, you will receive a refund.

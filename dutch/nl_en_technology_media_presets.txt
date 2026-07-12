@@ -1,7 +1,7 @@
 word: telefoon
 translation: phone, telephone
 type: noun
-group: Technology & Media
+group: 💻 Technology & media
 pronunciation: /teː.lə.ˈfoːn/
 example.nl: Mijn telefoon is bijna leeg, heb je een oplader?
 example.en: My phone is almost dead, do you have a charger?
@@ -11,13 +11,11 @@ priority: yes
 grammar.Article / Gender: de
 grammar.Plural: telefoons
 grammar.Diminutive: het telefoontje
-
 //
-
 word: laptop
 translation: laptop
 type: noun
-group: Technology & Media
+group: 💻 Technology & media
 pronunciation: /ˈlɛp.tɔp/
 example.nl: Ik neem mijn laptop altijd mee naar het werk.
 example.en: I always take my laptop with me to work.
@@ -27,13 +25,11 @@ priority: yes
 grammar.Article / Gender: de
 grammar.Plural: laptops
 grammar.Diminutive: het laptopje
-
 //
-
 word: computer
 translation: computer
 type: noun
-group: Technology & Media
+group: 💻 Technology & media
 pronunciation: /kɔm.ˈpjuː.tər/
 example.nl: De computer start heel langzaam op vanochtend.
 example.en: The computer is booting up very slowly this morning.
@@ -43,13 +39,11 @@ priority: yes
 grammar.Article / Gender: de
 grammar.Plural: computers
 grammar.Diminutive: het computertje
-
 //
-
 word: tablet
 translation: tablet
 type: noun
-group: Technology & Media
+group: 💻 Technology & media
 pronunciation: /ˈtɛ.blət/
 example.nl: Kinderen spelen tegenwoordig vaak spelletjes op een tablet.
 example.en: Children nowadays often play games on a tablet.
@@ -59,13 +53,11 @@ priority: yes
 grammar.Article / Gender: de
 grammar.Plural: tablets
 grammar.Diminutive: het tabletje
-
 //
-
 word: tv
 translation: TV, television
 type: noun
-group: Technology & Media
+group: 💻 Technology & media
 pronunciation: /teː.ˈveː/
 example.nl: Zullen we vanavond een film kijken op de tv?
 example.en: Shall we watch a movie on the TV tonight?
@@ -76,13 +68,11 @@ priority: yes
 grammar.Article / Gender: de
 grammar.Plural: tv's
 grammar.Diminutive: het tv'tje
-
 //
-
 word: camera
 translation: camera
 type: noun
-group: Technology & Media
+group: 💻 Technology & media
 pronunciation: /ˈkaː.mə.raː/
 example.nl: Hij maakte een scherpe foto met zijn nieuwe camera.
 example.en: He took a sharp photo with his new camera.
@@ -92,13 +82,11 @@ priority: yes
 grammar.Article / Gender: de
 grammar.Plural: camera's
 grammar.Diminutive: het cameraatje
-
 //
-
 word: scherm
 translation: screen, monitor
 type: noun
-group: Technology & Media
+group: 💻 Technology & media
 pronunciation: /sxɛrm/
 example.nl: Er zit een kras op het scherm van mijn telefoon.
 example.en: There is a scratch on my phone's screen.
@@ -108,13 +96,11 @@ priority: yes
 grammar.Article / Gender: het
 grammar.Plural: schermen
 grammar.Diminutive: het schermpje
-
 //
-
 word: toetsenbord
 translation: keyboard
 type: noun
-group: Technology & Media
+group: 💻 Technology & media
 pronunciation: /ˈtut.sə(n).bɔrt/
 example.nl: Dit ergonomische toetsenbord typt heel fijn.
 example.en: This ergonomic keyboard types very nicely.
@@ -124,13 +110,11 @@ priority: yes
 grammar.Article / Gender: het
 grammar.Plural: toetsenborden
 grammar.Diminutive: het toetsenbordje
-
 //
-
 word: koptelefoon
 translation: headphones
 type: noun
-group: Technology & Media
+group: 💻 Technology & media
 pronunciation: /ˈkɔp.teː.lə.foːn/
 example.nl: Ik zet mijn koptelefoon op om me beter te concentreren.
 example.en: I put on my headphones to concentrate better.
@@ -141,13 +125,11 @@ priority: yes
 grammar.Article / Gender: de
 grammar.Plural: koptelefoons
 grammar.Diminutive: het koptelefoontje
-
 //
-
 word: internet
 translation: internet
 type: noun
-group: Technology & Media
+group: 💻 Technology & media
 pronunciation: /ˈɪn.tər.nɛt/
 example.nl: We hebben thuis een snelle verbinding met het internet.
 example.en: We have a fast connection to the internet at home.
@@ -157,13 +139,11 @@ priority: yes
 grammar.Article / Gender: het
 grammar.Plural: -
 grammar.Diminutive: -
-
 //
-
 word: website
 translation: website, site
 type: noun
-group: Technology & Media
+group: 💻 Technology & media
 pronunciation: /ˈʋɛp.saɪt/
 example.nl: Op welke website kan ik treinkaartjes bestellen?
 example.en: On which website can I order train tickets?
@@ -173,13 +153,11 @@ priority: yes
 grammar.Article / Gender: de
 grammar.Plural: websites
 grammar.Diminutive: het websitetje
-
 //
-
 word: e-mail
 translation: email, e-mail
 type: noun
-group: Technology & Media
+group: 💻 Technology & media
 pronunciation: /ˈiː.meːl/
 example.nl: Stuur me even een e-mail met de details van de afspraak.
 example.en: Send me an email with the details of the appointment.
@@ -190,13 +168,11 @@ priority: yes
 grammar.Article / Gender: de
 grammar.Plural: e-mails
 grammar.Diminutive: het e-mailtje
-
 //
-
 word: sociale media
 translation: social media
 type: noun
-group: Technology & Media
+group: 💻 Technology & media
 pronunciation: /soː.ˈʃaː.lə ˈmeː.di.jaː/
 example.nl: Veel mensen besteden dagelijks uren op sociale media.
 example.en: Many people spend hours daily on social media.
@@ -207,13 +183,11 @@ priority: yes
 grammar.Article / Gender: de
 grammar.Plural: -
 grammar.Diminutive: -
-
 //
-
 word: app
 translation: app, mobile application
 type: noun
-group: Technology & Media
+group: 💻 Technology & media
 pronunciation: /ɛp/
 example.nl: Heb jij de nieuwste app van de NS al gedownload?
 example.en: Have you already downloaded the latest NS app?
@@ -223,13 +197,11 @@ priority: yes
 grammar.Article / Gender: de
 grammar.Plural: apps
 grammar.Diminutive: het appje
-
 //
-
 word: downloaden
 translation: to download
 type: verb
-group: Technology & Media
+group: 💻 Technology & media
 pronunciation: /ˈdaʊ̯n.loː.də(n)/
 example.nl: Waar kan ik dit document gratis downloaden?
 example.en: Where can I download this document for free?
@@ -240,13 +212,11 @@ grammar.Past tense (sg.): downloadde
 grammar.Past participle: gedownload
 grammar.Auxiliary: hebben
 grammar.Present (ik / jij / hij / wij / jullie / zij): download / downloadt / downloadt / downloaden / downloaden / downloaden
-
 //
-
 word: uploaden
 translation: to upload
 type: verb
-group: Technology & Media
+group: 💻 Technology & media
 pronunciation: /ˈuːp.loː.də(n)/
 example.nl: Je moet je identiteitsbewijs uploaden op het portaal.
 example.en: You must upload your ID on the portal.
@@ -258,13 +228,11 @@ grammar.Past tense (sg.): uploadde
 grammar.Past participle: geüpload
 grammar.Auxiliary: hebben
 grammar.Present (ik / jij / hij / wij / jullie / zij): upload / uploadt / uploadt / uploaden / uploaden / uploaden
-
 //
-
 word: wachtwoord
 translation: password
 type: noun
-group: Technology & Media
+group: 💻 Technology & media
 pronunciation: /ˈʋɑxt.ʋoːrt/
 example.nl: Gebruik een sterk wachtwoord om je account te beveiligen.
 example.en: Use a strong password to secure your account.
@@ -274,13 +242,11 @@ priority: yes
 grammar.Article / Gender: het
 grammar.Plural: wachtwoorden
 grammar.Diminutive: het wachtwoordje
-
 //
-
 word: account
 translation: account, profile
 type: noun
-group: Technology & Media
+group: 💻 Technology & media
 pronunciation: /ɛ.ˈkaʊ̯nt/
 example.nl: Ik kan niet inloggen op mijn persoonlijke account.
 example.en: I cannot log in to my personal account.
@@ -291,13 +257,11 @@ priority: yes
 grammar.Article / Gender: het
 grammar.Plural: accounts
 grammar.Diminutive: het accountje
-
 //
-
 word: melding
 translation: notification, alert, report
 type: noun
-group: Technology & Media
+group: 💻 Technology & media
 pronunciation: /ˈmɛl.dɪŋ/
 example.nl: Ik krijg steeds een irritante melding op mijn scherm.
 example.en: I keep getting an annoying notification on my screen.
@@ -307,13 +271,11 @@ priority: yes
 grammar.Article / Gender: de
 grammar.Plural: meldingen
 grammar.Diminutive: het meldingetje
-
 //
-
 word: nieuws
 translation: news
 type: noun
-group: Technology & Media
+group: 💻 Technology & media
 pronunciation: /niws/
 example.nl: Heb je gisteravond het nieuws op tv gezien?
 example.en: Did you see the news on TV last night?
@@ -324,13 +286,11 @@ priority: yes
 grammar.Article / Gender: het
 grammar.Plural: -
 grammar.Diminutive: -
-
 //
-
 word: krant
 translation: newspaper
 type: noun
-group: Technology & Media
+group: 💻 Technology & media
 pronunciation: /krɑnt/
 example.nl: Mijn opa leest 's ochtends nog altijd een fysieke krant.
 example.en: My grandfather still reads a physical newspaper in the morning.
@@ -340,13 +300,11 @@ priority: yes
 grammar.Article / Gender: de
 grammar.Plural: kranten
 grammar.Diminutive: het krantje
-
 //
-
 word: tijdschrift
 translation: magazine, journal
 type: noun
-group: Technology & Media
+group: 💻 Technology & media
 pronunciation: /ˈtɛit.sxrɪft/
 example.nl: Dit maandelijkse tijdschrift gaat over wetenschap en natuur.
 example.en: This monthly magazine is about science and nature.
@@ -356,13 +314,11 @@ priority: yes
 grammar.Article / Gender: het
 grammar.Plural: tijdschriften
 grammar.Diminutive: het tijdschriftje
-
 //
-
 word: serie
 translation: series, TV show
 type: noun
-group: Technology & Media
+group: 💻 Technology & media
 pronunciation: /ˈseː.ri/
 example.nl: Ik ben een spannende serie aan het bingewatchen.
 example.en: I am bingewatching an exciting series.
@@ -372,13 +328,11 @@ priority: yes
 grammar.Article / Gender: de
 grammar.Plural: series
 grammar.Diminutive: het serietje
-
 //
-
 word: podcast
 translation: podcast
 type: noun
-group: Technology & Media
+group: 💻 Technology & media
 pronunciation: /ˈpɔt.kaːst/
 example.nl: Ik luister graag naar een podcast tijdens het wandelen.
 example.en: I enjoy listening to a podcast while walking.
@@ -388,13 +342,11 @@ priority: yes
 grammar.Article / Gender: de
 grammar.Plural: podcasts
 grammar.Diminutive: het podcastje
-
 //
-
 word: sturen
 translation: to send, to steer
 type: verb
-group: Technology & Media
+group: 💻 Technology & media
 pronunciation: /ˈsty.rə(n)/
 example.nl: Kan je mij die foto via WhatsApp sturen?
 example.en: Can you send me that photo via WhatsApp?
@@ -406,13 +358,11 @@ grammar.Past tense (sg.): stuurde
 grammar.Past participle: gestuurd
 grammar.Auxiliary: hebben
 grammar.Present (ik / jij / hij / wij / jullie / zij): stuur / stuurt / stuurt / sturen / sturen / sturen
-
 //
-
 word: bellen
 translation: to call, to ring
 type: verb
-group: Technology & Media
+group: 💻 Technology & media
 pronunciation: /ˈbɛ.lə(n)/
 example.nl: Ik zal je bellen zodra ik op het station aankom.
 example.en: I will call you as soon as I arrive at the station.
@@ -424,13 +374,11 @@ grammar.Past tense (sg.): belde
 grammar.Past participle: gebeld
 grammar.Auxiliary: hebben
 grammar.Present (ik / jij / hij / wij / jullie / zij): bel / belt / belt / bellen / bellen / bellen
-
 //
-
 word: appen
 translation: to text, to message via WhatsApp
 type: verb
-group: Technology & Media
+group: 💻 Technology & media
 pronunciation: /ˈɛ.pə(n)/
 example.nl: App me even als je onderweg bent, oké?
 example.en: Text me when you're on your way, okay?
@@ -442,13 +390,11 @@ grammar.Past tense (sg.): appte
 grammar.Past participle: geappt
 grammar.Auxiliary: hebben
 grammar.Present (ik / jij / hij / wij / jullie / zij): app / appt / appt / appen / appen / appen
-
 //
-
 word: zoeken
 translation: to search, to look for
 type: verb
-group: Technology & Media
+group: 💻 Technology & media
 pronunciation: /ˈzu.kə(n)/
 example.nl: Wat ben je aan het zoeken op het internet?
 example.en: What are you searching for on the internet?
@@ -460,13 +406,11 @@ grammar.Past tense (sg.): zocht
 grammar.Past participle: gezocht
 grammar.Auxiliary: hebben
 grammar.Present (ik / jij / hij / wij / jullie / zij): zoek / zoekt / zoekt / zoeken / zoeken / zoeken
-
 //
-
 word: opslaan
 translation: to save, to store
 type: verb
-group: Technology & Media
+group: 💻 Technology & media
 pronunciation: /ˈɔp.slaː(n)/
 example.nl: Vergeet niet je werk op te slaan voor je de computer afsluit.
 example.en: Don't forget to save your work before you shut down the computer.
@@ -478,13 +422,11 @@ grammar.Past tense (sg.): sloeg op
 grammar.Past participle: opgeslagen
 grammar.Auxiliary: hebben
 grammar.Present (ik / jij / hij / wij / jullie / zij): sla op / slaat op / slaat op / slaan op / slaan op / slaan op
-
 //
-
 word: delen
 translation: to share, to divide
 type: verb
-group: Technology & Media
+group: 💻 Technology & media
 pronunciation: /ˈdeː.lə(n)/
 example.nl: Je kunt dit artikel eenvoudig delen met je vrienden.
 example.en: You can easily share this article with your friends.
@@ -495,13 +437,11 @@ grammar.Past tense (sg.): deelde
 grammar.Past participle: gedeeld
 grammar.Auxiliary: hebben
 grammar.Present (ik / jij / hij / wij / jullie / zij): deel / deelt / deelt / delen / delen / delen
-
 //
-
 word: batterij
 translation: battery
 type: noun
-group: Technology & Media
+group: 💻 Technology & media
 pronunciation: /bɑ.tə.ˈrɛi/
 example.nl: De batterij van mijn laptop gaat niet erg lang mee.
 example.en: My laptop's battery doesn't last very long.
@@ -511,13 +451,11 @@ priority: yes
 grammar.Article / Gender: de
 grammar.Plural: batterijen
 grammar.Diminutive: het batterijtje
-
 //
-
 word: oplader
 translation: charger
 type: noun
-group: Technology & Media
+group: 💻 Technology & media
 pronunciation: /ˈɔp.laː.dər/
 example.nl: Ik ben mijn oplader vergeten, mag ik die van jou lenen?
 example.en: I forgot my charger, may I borrow yours?
@@ -527,3 +465,17 @@ priority: yes
 grammar.Article / Gender: de
 grammar.Plural: opladers
 grammar.Diminutive: het opladertje
+//
+word: film
+translation: film, movie
+type: noun
+group: 💻 Technology & media
+pronunciation: /fɪlm/
+example.nl: Welke film draait er vanavond in de bioscoop?
+example.en: Which movie is playing at the cinema tonight?
+etymology: From English film.
+tags: ⭐ common, 🎬 entertainment
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: films
+grammar.Diminutive: het filmpje

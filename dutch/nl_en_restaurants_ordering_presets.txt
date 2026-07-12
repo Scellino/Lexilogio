@@ -1,7 +1,7 @@
 word: menukaart
 translation: menu, bill of fare
 type: noun
-group: Restaurants & Ordering
+group: 🍴 Restaurants & ordering
 pronunciation: /ˈmeː.ny.kaːrt/
 example.nl: Mag ik alvast de menukaart bekijken, alstublieft?
 example.en: May I look at the menu in the meantime, please?
@@ -12,13 +12,11 @@ priority: yes
 grammar.Article / Gender: de
 grammar.Plural: menukaarten
 grammar.Diminutive: het menukaartje
-
 //
-
 word: rekening
 translation: bill, check, account
 type: noun
-group: Restaurants & Ordering
+group: 🍴 Restaurants & ordering
 pronunciation: /ˈreː.kə.nɪŋ/
 example.nl: Kunt u de rekening in tweeën splitsen?
 example.en: Could you split the bill in two?
@@ -28,13 +26,11 @@ priority: yes
 grammar.Article / Gender: de
 grammar.Plural: rekeningen
 grammar.Diminutive: het rekeningetje
-
 //
-
 word: voorgerecht
 translation: starter, appetizer, entree
 type: noun
-group: Restaurants & Ordering
+group: 🍴 Restaurants & ordering
 pronunciation: /ˈvoːr.ɣə.rɛxt/
 example.nl: Als voorgerecht neem ik de romige tomatensoep.
 example.en: As a starter, I will have the creamy tomato soup.
@@ -44,13 +40,11 @@ priority: yes
 grammar.Article / Gender: het
 grammar.Plural: voorgerechten
 grammar.Diminutive: het voorgerechtje
-
 //
-
 word: hoofdgerecht
 translation: main course, main dish
 type: noun
-group: Restaurants & Ordering
+group: 🍴 Restaurants & ordering
 pronunciation: /ˈɦoːft.ɣə.rɛxt/
 example.nl: Het vegetarische hoofdgerecht met pompoen klinkt heerlijk.
 example.en: The vegetarian main course with pumpkin sounds delicious.
@@ -60,13 +54,11 @@ priority: yes
 grammar.Article / Gender: het
 grammar.Plural: hoofdgerechten
 grammar.Diminutive: het hoofdgerechtje
-
 //
-
 word: nagerecht
 translation: dessert, sweet course
 type: noun
-group: Restaurants & Ordering
+group: 🍴 Restaurants & ordering
 pronunciation: /ˈnaː.ɣə.rɛxt/
 example.nl: Heeft u nog ruimte over voor een lekker nagerecht?
 example.en: Do you have any room left for a nice dessert?
@@ -77,13 +69,11 @@ priority: yes
 grammar.Article / Gender: het
 grammar.Plural: nagerechten
 grammar.Diminutive: het nagerechtje
-
 //
-
 word: drankje
 translation: drink, beverage
 type: noun
-group: Restaurants & Ordering
+group: 🍴 Restaurants & ordering
 pronunciation: /ˈdrɑŋ.kjə/
 example.nl: Kan ik alvast een koud drankje voor u inschenken?
 example.en: Can I pour you a cold drink in the meantime?
@@ -94,13 +84,11 @@ priority: yes
 grammar.Article / Gender: het
 grammar.Plural: drankjes
 grammar.Diminutive: het drankje
-
 //
-
 word: bestellen
 translation: to order, to reserve
 type: verb
-group: Restaurants & Ordering
+group: 🍴 Restaurants & ordering
 pronunciation: /bə.ˈstɛ.lə(n)/
 example.nl: We zijn klaar om ons eten te bestellen.
 example.en: We are ready to order our food.
@@ -111,13 +99,11 @@ grammar.Past tense (sg.): bestelde
 grammar.Past participle: besteld
 grammar.Auxiliary: hebben
 grammar.Present (ik / jij / hij / wij / jullie / zij): bestel / bestelt / bestelt / bestellen / bestellen / bestellen
-
 //
-
 word: aanraden
 translation: to recommend, to advise
 type: verb
-group: Restaurants & Ordering
+group: 🍴 Restaurants & ordering
 pronunciation: /ˈaːn.raː.də(n)/
 example.nl: Welke lokale specialiteit kunt u ons aanraden?
 example.en: Which local specialty can you recommend to us?
@@ -129,13 +115,11 @@ grammar.Past tense (sg.): raadde aan
 grammar.Past participle: aangeraden
 grammar.Auxiliary: hebben
 grammar.Present (ik / jij / hij / wij / jullie / zij): raad aan / raadt aan / raadt aan / raden aan / raden aan / raden aan
-
 //
-
 word: serveren
 translation: to serve, to dish up
 type: verb
-group: Restaurants & Ordering
+group: 🍴 Restaurants & ordering
 pronunciation: /sɛr.ˈveː.rə(n)/
 example.nl: Dit traditionele gerecht serveren we met verse frieten.
 example.en: We serve this traditional dish with fresh fries.
@@ -146,13 +130,11 @@ grammar.Past tense (sg.): serveerde
 grammar.Past participle: geserveerd
 grammar.Auxiliary: hebben
 grammar.Present (ik / jij / hij / wij / jullie / zij): serveer / serveert / serveert / serveren / serveren / serveren
-
 //
-
 word: mild
 translation: mild, gentle
 type: adjective
-group: Restaurants & Ordering
+group: 🍴 Restaurants & ordering
 pronunciation: /mɪlt/
 example.nl: De curry is mild van smaak en helemaal niet scherp.
 example.en: The curry is mild in flavor and not hot at all.
@@ -162,13 +144,11 @@ priority: yes
 grammar.Inflected form: milde
 grammar.Comparative: milder
 grammar.Superlative: mildst
-
 //
-
 word: heerlijk
 translation: delicious, lovely, glorious
 type: adjective
-group: Restaurants & Ordering
+group: 🍴 Restaurants & ordering
 pronunciation: /ˈɦeːr.lək/
 example.nl: Het dessert van vanavond smaakte echt heerlijk!
 example.en: Tonight's dessert tasted truly delicious!
@@ -179,26 +159,22 @@ priority: yes
 grammar.Inflected form: heerlijke
 grammar.Comparative: heerlijker
 grammar.Superlative: heerlijkst
-
 //
-
 word: om mee te nemen
 translation: to take away, to go
 type: phrase
-group: Restaurants & Ordering
+group: 🍴 Restaurants & ordering
 pronunciation: /ɔm meː tə ˈneː.mə(n)/
 example.nl: Twee espresso's om mee te nemen, alstublieft.
 example.en: Two espressos to go, please.
 etymology: Literal translation of "for along to take".
 tags: ⭐ common, 🍴 dining, 🚶 movement
 priority: yes
-
 //
-
 word: bezorging
 translation: delivery
 type: noun
-group: Restaurants & Ordering
+group: 🍴 Restaurants & ordering
 pronunciation: /bə.ˈzɔr.ɣɪŋ/
 example.nl: Biedt dit eetcafé gratis bezorging aan in de stad?
 example.en: Does this eatery offer free delivery in the city?
@@ -208,13 +184,11 @@ priority: yes
 grammar.Article / Gender: de
 grammar.Plural: bezorgingen
 grammar.Diminutive: -
-
 //
-
 word: portie
 translation: portion, serving, helping
 type: noun
-group: Restaurants & Ordering
+group: 🍴 Restaurants & ordering
 pronunciation: /ˈpɔr.tsi/
 example.nl: We bestelden een extra portie bitterballen bij de borrel.
 example.en: We ordered an extra serving of bitterballen with our drinks.
@@ -224,13 +198,11 @@ priority: yes
 grammar.Article / Gender: de
 grammar.Plural: porties
 grammar.Diminutive: het portietje
-
 //
-
 word: fles
 translation: bottle
 type: noun
-group: Restaurants & Ordering
+group: 🍴 Restaurants & ordering
 pronunciation: /flɛs/
 example.nl: Zullen we een hele fles mousserende wijn bestellen?
 example.en: Shall we order a whole bottle of sparkling wine?
@@ -240,13 +212,11 @@ priority: yes
 grammar.Article / Gender: de
 grammar.Plural: flessen
 grammar.Diminutive: het flesje
-
 //
-
 word: proeven
 translation: to taste, to sample, to try
 type: verb
-group: Restaurants & Ordering
+group: 🍴 Restaurants & ordering
 pronunciation: /ˈpru.və(n)/
 example.nl: Mag ik een klein hapje van jouw pasta proeven?
 example.en: May I taste a small bite of your pasta?
@@ -257,42 +227,66 @@ grammar.Past tense (sg.): proefde
 grammar.Past participle: geproefd
 grammar.Auxiliary: hebben
 grammar.Present (ik / jij / hij / wij / jullie / zij): proef / proeft / proeft / proeven / proeven / proeven
-
 //
-
 word: goed doorbakken
 translation: well done
 type: phrase
-group: Restaurants & Ordering
+group: 🍴 Restaurants & ordering
 pronunciation: /ɣut doːr.ˈbɑ.kə(n)/
 example.nl: Ik eet mijn biefstuk het liefst goed doorbakken.
 example.en: I prefer my steak cooked well done.
 etymology: Compound of goed (well) and doorbakken (fried through).
 tags: 🍴 dining, 🍳 kitchen
 priority: yes
-
 //
-
 word: eet smakelijk
 translation: enjoy your meal, bon appetit
 type: phrase
-group: Restaurants & Ordering
+group: 🍴 Restaurants & ordering
 pronunciation: /eːt ˈsmaː.kə.lək/
 example.nl: De ober zette de borden neer en zei: "Eet smakelijk!"
 example.en: The waiter placed the plates down and said, "Enjoy your meal!"
 etymology: Literal translation of "eat tastily".
 tags: ⭐ common, 🍴 dining, 💬 communication
 priority: yes
-
 //
-
 word: de rekening, alstublieft
 translation: the bill please, the check please
 type: phrase
-group: Restaurants & Ordering
+group: 🍴 Restaurants & ordering
 pronunciation: /də ˈreː.kə.nɪŋ ˈɑl.sty.blift/
 example.nl: Ober, mogen wij de rekening, alstublieft?
 example.en: Waiter, may we have the bill, please?
 etymology: Literal translation of "the bill, if it pleases you".
 tags: ⭐ common, 🍴 dining, 💬 communication
 priority: yes
+//
+word: fooi
+translation: tip, gratuity
+type: noun
+group: 🍴 Restaurants & ordering
+pronunciation: /foːi̯/
+example.nl: De bediening was uitstekend, dus gaven we een gulle fooi.
+example.en: The service was excellent, so we gave a generous tip.
+etymology: From French voie (way/journey money), historically given to messengers.
+note: Tipping is appreciated but not mandatory in the Netherlands.
+tags: 🛍️ shopping, 🍴 dining
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: fooien
+grammar.Diminutive: het fooitje
+//
+word: ober
+translation: waiter
+type: noun
+group: 🍴 Restaurants & ordering
+pronunciation: /ˈoːbər/
+example.nl: We vroegen de ober om de menukaart te brengen.
+example.en: We asked the waiter to bring the menu.
+etymology: Shortened from German Oberkellner (head waiter).
+note: Female counterpart is 'serveerster'.
+tags: ⭐ common, 💼 work, 🍷 food
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: obers
+grammar.Diminutive: het obertje

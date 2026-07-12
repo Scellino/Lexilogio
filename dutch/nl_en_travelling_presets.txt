@@ -1,7 +1,7 @@
 word: trein
 translation: train
 type: noun
-group: Travel
+group: ✈️ Travelling
 pronunciation: /trɛi̯n/
 example.nl: De trein naar Amsterdam vertrekt van spoor 4.
 example.en: The train to Amsterdam departs from platform 4.
@@ -12,13 +12,11 @@ priority: yes
 grammar.Article / Gender: de
 grammar.Plural: treinen
 grammar.Diminutive: het treintje
-
 //
-
 word: bus
 translation: bus
 type: noun
-group: Travel
+group: ✈️ Travelling
 pronunciation: /bʏs/
 example.nl: Welke bus gaat naar het centrum?
 example.en: Which bus goes to the city center?
@@ -29,13 +27,11 @@ priority: yes
 grammar.Article / Gender: de
 grammar.Plural: bussen
 grammar.Diminutive: het busje
-
 //
-
 word: vliegtuig
 translation: plane
 type: noun
-group: Travel
+group: ✈️ Travelling
 pronunciation: /ˈvlixtœyx/
 example.nl: Het vliegtuig landt op tijd.
 example.en: The plane lands on time.
@@ -46,13 +42,11 @@ priority: yes
 grammar.Article / Gender: het
 grammar.Plural: vliegtuigen
 grammar.Diminutive: het vliegtuigje
-
 //
-
 word: auto
 translation: car
 type: noun
-group: Travel
+group: ✈️ Travelling
 pronunciation: /ˈʌutoː/
 example.nl: We huren een auto voor onze vakantie.
 example.en: We are renting a car for our holiday.
@@ -63,13 +57,11 @@ priority: yes
 grammar.Article / Gender: de
 grammar.Plural: auto's
 grammar.Diminutive: het autootje
-
 //
-
 word: taxi
 translation: taxi
 type: noun
-group: Travel
+group: ✈️ Travelling
 pronunciation: /ˈtɑksi/
 example.nl: Kunt u een taxi voor mij bellen?
 example.en: Could you call a taxi for me?
@@ -80,13 +72,11 @@ priority: no
 grammar.Article / Gender: de
 grammar.Plural: taxi's
 grammar.Diminutive: het taxietje
-
 //
-
 word: veerboot
 translation: ferry
 type: noun
-group: Travel
+group: ✈️ Travelling
 pronunciation: /ˈveːrboːt/
 example.nl: De veerboot naar Texel vertrekt elk uur.
 example.en: The ferry to Texel departs every hour.
@@ -97,13 +87,11 @@ priority: no
 grammar.Article / Gender: de
 grammar.Plural: veerboten
 grammar.Diminutive: het veerbootje
-
 //
-
 word: fiets
 translation: bicycle
 type: noun
-group: Travel
+group: ✈️ Travelling
 pronunciation: /fits/
 example.nl: Iedereen in Nederland heeft een fiets.
 example.en: Everyone in the Netherlands has a bicycle.
@@ -114,13 +102,11 @@ priority: yes
 grammar.Article / Gender: de
 grammar.Plural: fietsen
 grammar.Diminutive: het fietsje
-
 //
-
 word: metro
 translation: metro
 type: noun
-group: Travel
+group: ✈️ Travelling
 pronunciation: /ˈmeːtroː/
 example.nl: De metro is de snelste manier om door de stad te reizen.
 example.en: The metro is the fastest way to travel through the city.
@@ -131,13 +117,11 @@ priority: no
 grammar.Article / Gender: de
 grammar.Plural: metro's
 grammar.Diminutive: het metrootje
-
 //
-
 word: vliegveld
 translation: airport
 type: noun
-group: Travel
+group: ✈️ Travelling
 pronunciation: /ˈvlixvɛlt/
 example.nl: We moeten drie uur van tevoren op het vliegveld zijn.
 example.en: We need to be at the airport three hours in advance.
@@ -148,13 +132,11 @@ priority: yes
 grammar.Article / Gender: het
 grammar.Plural: vliegvelden
 grammar.Diminutive: het vliegveldje
-
 //
-
 word: station
 translation: station
 type: noun
-group: Travel
+group: ✈️ Travelling
 pronunciation: /staˈʃon/
 example.nl: Het station is in het midden van de stad.
 example.en: The station is in the middle of the city.
@@ -165,13 +147,11 @@ priority: yes
 grammar.Article / Gender: het
 grammar.Plural: stations
 grammar.Diminutive: het stationnetje
-
 //
-
 word: hotel
 translation: hotel
 type: noun
-group: Travel
+group: ✈️ Travelling
 pronunciation: /hoːˈtɛl/
 example.nl: We hebben een kamer geboekt in een hotel.
 example.en: We booked a room in a hotel.
@@ -182,13 +162,11 @@ priority: yes
 grammar.Article / Gender: het
 grammar.Plural: hotels
 grammar.Diminutive: het hotelletje
-
 //
-
 word: hostel
 translation: hostel
 type: noun
-group: Travel
+group: ✈️ Travelling
 pronunciation: /ˈhɔstəl/
 example.nl: Voor studenten is een hostel goedkoper.
 example.en: For students, a hostel is cheaper.
@@ -199,13 +177,11 @@ priority: no
 grammar.Article / Gender: het
 grammar.Plural: hostels
 grammar.Diminutive: het hostelletje
-
 //
-
 word: paspoort
 translation: passport
 type: noun
-group: Travel
+group: ✈️ Travelling
 pronunciation: /ˈpɑspoːrt/
 example.nl: Vergeet je paspoort niet!
 example.en: Don't forget your passport!
@@ -216,13 +192,11 @@ priority: yes
 grammar.Article / Gender: het
 grammar.Plural: paspoorten
 grammar.Diminutive: het paspoortje
-
 //
-
 word: visum
 translation: visa
 type: noun
-group: Travel
+group: ✈️ Travelling
 pronunciation: /ˈvizʏm/
 example.nl: Heb ik een visum nodig voor dit land?
 example.en: Do I need a visa for this country?
@@ -233,13 +207,11 @@ priority: no
 grammar.Article / Gender: het
 grammar.Plural: visa
 grammar.Diminutive: het visumpje
-
 //
-
 word: kaartje
 translation: ticket
 type: noun
-group: Travel
+group: ✈️ Travelling
 pronunciation: /ˈkaːrcə/
 example.nl: Ik moet nog een kaartje kopen voor de trein.
 example.en: I still need to buy a ticket for the train.
@@ -250,13 +222,11 @@ priority: yes
 grammar.Article / Gender: het
 grammar.Plural: kaartjes
 grammar.Diminutive: het kaartje
-
 //
-
 word: bagage
 translation: luggage
 type: noun
-group: Travel
+group: ✈️ Travelling
 pronunciation: /baˈɣaːʒə/
 example.nl: Hoeveel bagage mag ik meenemen?
 example.en: How much luggage am I allowed to take?
@@ -267,13 +237,11 @@ priority: yes
 grammar.Article / Gender: de
 grammar.Plural: -
 grammar.Diminutive: het bagage'tje
-
 //
-
 word: perron
 translation: platform
 type: noun
-group: Travel
+group: ✈️ Travelling
 pronunciation: /pɛˈrɔn/
 example.nl: De trein vertrekt van perron negen.
 example.en: The train departs from platform nine.
@@ -284,13 +252,11 @@ priority: yes
 grammar.Article / Gender: het
 grammar.Plural: perrons
 grammar.Diminutive: het perronnetje
-
 //
-
 word: vertrek
 translation: departure
 type: noun
-group: Travel
+group: ✈️ Travelling
 pronunciation: /vərˈtrɛk/
 example.nl: De vertrektijd staat op het bord.
 example.en: The departure time is on the board.
@@ -301,13 +267,11 @@ priority: yes
 grammar.Article / Gender: het
 grammar.Plural: vertrekken
 grammar.Diminutive: het vertrekje
-
 //
-
 word: aankomst
 translation: arrival
 type: noun
-group: Travel
+group: ✈️ Travelling
 pronunciation: /ˈaːŋkɔmst/
 example.nl: We wachten op de aankomst van de vlucht.
 example.en: We are waiting for the arrival of the flight.
@@ -318,13 +282,11 @@ priority: yes
 grammar.Article / Gender: de
 grammar.Plural: aankomsten
 grammar.Diminutive: het aankomstje
-
 //
-
 word: boeking
 translation: booking
 type: noun
-group: Travel
+group: ✈️ Travelling
 pronunciation: /ˈbukɪŋ/
 example.nl: Heeft u een bevestiging van uw boeking?
 example.en: Do you have a confirmation of your booking?
@@ -335,13 +297,11 @@ priority: no
 grammar.Article / Gender: de
 grammar.Plural: boekingen
 grammar.Diminutive: het boekinkje
-
 //
-
 word: inchecken
 translation: check-in
 type: noun
-group: Travel
+group: ✈️ Travelling
 pronunciation: /ˈɪncɛkə(n)/
 example.nl: Waar is de balie voor het inchecken?
 example.en: Where is the counter for checking in?
@@ -352,13 +312,11 @@ priority: yes
 grammar.Article / Gender: de
 grammar.Plural: check-ins
 grammar.Diminutive: het check-innetje
-
 //
-
 word: kamer
 translation: room
 type: noun
-group: Travel
+group: ✈️ Travelling
 pronunciation: /ˈkaːmər/
 example.nl: Ik heb een eenpersoonskamer gereserveerd.
 example.en: I have reserved a single room.
@@ -369,13 +327,11 @@ priority: yes
 grammar.Article / Gender: de
 grammar.Plural: kamers
 grammar.Diminutive: het kamertje
-
 //
-
 word: sleutel
 translation: key
 type: noun
-group: Travel
+group: ✈️ Travelling
 pronunciation: /ˈsløːtəl/
 example.nl: Hier is de sleutel van uw kamer.
 example.en: Here is the key to your room.
@@ -386,13 +342,11 @@ priority: yes
 grammar.Article / Gender: de
 grammar.Plural: sleutels
 grammar.Diminutive: het sleuteltje
-
 //
-
 word: receptie
 translation: reception
 type: noun
-group: Travel
+group: ✈️ Travelling
 pronunciation: /reːˈsɛptsi/
 example.nl: De receptie is dag en nacht geopend.
 example.en: The reception is open day and night.
@@ -403,13 +357,11 @@ priority: yes
 grammar.Article / Gender: de
 grammar.Plural: recepties
 grammar.Diminutive: het receptietje
-
 //
-
 word: reservering
 translation: reservation
 type: noun
-group: Travel
+group: ✈️ Travelling
 pronunciation: /reːzɛrˈveːrɪŋ/
 example.nl: Ik heb een reservering onder de naam Jansen.
 example.en: I have a reservation under the name Jansen.
@@ -420,13 +372,11 @@ priority: yes
 grammar.Article / Gender: de
 grammar.Plural: reserveringen
 grammar.Diminutive: het reserverinkje
-
 //
-
 word: reis
 translation: journey
 type: noun
-group: Travel
+group: ✈️ Travelling
 pronunciation: /rɛis/
 example.nl: Goede reis!
 example.en: Have a good journey!
@@ -437,13 +387,11 @@ priority: yes
 grammar.Article / Gender: de
 grammar.Plural: reizen
 grammar.Diminutive: het reisje
-
 //
-
 word: toerist
 translation: tourist
 type: noun
-group: Travel
+group: ✈️ Travelling
 pronunciation: /tuˈrɪst/
 example.nl: Er zijn veel toeristen in Amsterdam deze zomer.
 example.en: There are many tourists in Amsterdam this summer.
@@ -454,13 +402,11 @@ priority: no
 grammar.Article / Gender: de
 grammar.Plural: toeristen
 grammar.Diminutive: het toeristje
-
 //
-
 word: kaart
 translation: map
 type: noun
-group: Travel
+group: ✈️ Travelling
 pronunciation: /kaːrt/
 example.nl: Kun je op de kaart kijken waar we zijn?
 example.en: Can you look on the map where we are?
@@ -471,13 +417,11 @@ priority: yes
 grammar.Article / Gender: de
 grammar.Plural: kaarten
 grammar.Diminutive: het kaartje
-
 //
-
 word: gids
 translation: guide
 type: noun
-group: Travel
+group: ✈️ Travelling
 pronunciation: /ɣɪts/
 example.nl: De gids vertelde ons alles over de geschiedenis.
 example.en: The guide told us everything about history.
@@ -488,13 +432,11 @@ priority: no
 grammar.Article / Gender: de
 grammar.Plural: gidsen
 grammar.Diminutive: het gidsje
-
 //
-
 word: grens
 translation: border
 type: noun
-group: Travel
+group: ✈️ Travelling
 pronunciation: /ɣrɛns/
 example.nl: We staken de grens over naar België.
 example.en: We crossed the border into Belgium.
@@ -505,13 +447,11 @@ priority: no
 grammar.Article / Gender: de
 grammar.Plural: grenzen
 grammar.Diminutive: het grensje
-
 //
-
 word: douane
 translation: customs
 type: noun
-group: Travel
+group: ✈️ Travelling
 pronunciation: /duˈaːnə/
 example.nl: We moesten door de douane op Schiphol.
 example.en: We had to go through customs at Schiphol.
@@ -522,13 +462,11 @@ priority: no
 grammar.Article / Gender: de
 grammar.Plural: -
 grammar.Diminutive: -
-
 //
-
 word: vertraging
 translation: delay
 type: noun
-group: Travel
+group: ✈️ Travelling
 pronunciation: /vərˈtraːɣɪŋ/
 example.nl: De trein heeft tien minuten vertraging.
 example.en: The train has a ten-minute delay.
@@ -539,13 +477,11 @@ priority: yes
 grammar.Article / Gender: de
 grammar.Plural: vertragingen
 grammar.Diminutive: het vertraginkje
-
 //
-
 word: dienstregeling
 translation: schedule
 type: noun
-group: Travel
+group: ✈️ Travelling
 pronunciation: /ˈdinstreːɣəlɪŋ/
 example.nl: Volgens de dienstregeling moet er nu een bus komen.
 example.en: According to the schedule, a bus should arrive now.
@@ -556,13 +492,11 @@ priority: no
 grammar.Article / Gender: de
 grammar.Plural: dienstregelingen
 grammar.Diminutive: het dienstregelinkje
-
 //
-
 word: stoel
 translation: seat
 type: noun
-group: Travel
+group: ✈️ Travelling
 pronunciation: /stul/
 example.nl: Is deze stoel bezet?
 example.en: Is this seat taken?
@@ -573,13 +507,11 @@ priority: yes
 grammar.Article / Gender: de
 grammar.Plural: stoelen
 grammar.Diminutive: het stoeltje
-
 //
-
 word: retour
 translation: return
 type: noun
-group: Travel
+group: ✈️ Travelling
 pronunciation: /rəˈtur/
 example.nl: Graag een retour Amsterdam, alstublieft.
 example.en: One return ticket to Amsterdam, please.
@@ -590,13 +522,11 @@ priority: yes
 grammar.Article / Gender: het
 grammar.Plural: retours
 grammar.Diminutive: het retourtje
-
 //
-
 word: direct
 translation: direct
 type: adjective
-group: Travel
+group: ✈️ Travelling
 pronunciation: /diˈrɛkt/
 example.nl: Is dit een directe vlucht naar New York?
 example.en: Is this a direct flight to New York?
@@ -607,13 +537,11 @@ priority: no
 grammar.Inflected form: directe
 grammar.Comparative: directer
 grammar.Superlative: meest direct
-
 //
-
 word: koffer
 translation: suitcase
 type: noun
-group: Travel
+group: ✈️ Travelling
 pronunciation: /ˈkɔfər/
 example.nl: Mijn koffer is erg zwaar.
 example.en: My suitcase is very heavy.

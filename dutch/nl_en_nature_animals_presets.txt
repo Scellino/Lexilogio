@@ -1,7 +1,7 @@
 word: hond
 translation: dog
 type: noun
-group: Nature & Animals
+group: 🌿 Nature & animals
 pronunciation: /ɦɔnt/
 example.nl: De hond blaft enthousiast naar de postbode.
 example.en: The dog barks enthusiastically at the mail carrier.
@@ -12,13 +12,11 @@ priority: yes
 grammar.Article / Gender: de
 grammar.Plural: honden
 grammar.Diminutive: het hondje
-
 //
-
 word: kat
 translation: cat
 type: noun
-group: Nature & Animals
+group: 🌿 Nature & animals
 pronunciation: /kɑt/
 example.nl: Onze kat slaapt het liefst op de warme vensterbank.
 example.en: Our cat prefers to sleep on the warm windowsill.
@@ -29,13 +27,11 @@ priority: yes
 grammar.Article / Gender: de
 grammar.Plural: katten
 grammar.Diminutive: het katje
-
 //
-
 word: paard
 translation: horse
 type: noun
-group: Nature & Animals
+group: 🌿 Nature & animals
 pronunciation: /paːrt/
 example.nl: Het paard galoppeert sierlijk door de grote weide.
 example.en: The horse gallops gracefully through the large meadow.
@@ -46,13 +42,11 @@ priority: yes
 grammar.Article / Gender: het
 grammar.Plural: paarden
 grammar.Diminutive: het paardje
-
 //
-
 word: koe
 translation: cow
 type: noun
-group: Nature & Animals
+group: 🌿 Nature & animals
 pronunciation: /ku/
 example.nl: Er staat een koe in de polder rustig gras te eten.
 example.en: There is a cow quietly eating grass in the polder.
@@ -63,13 +57,11 @@ priority: yes
 grammar.Article / Gender: de
 grammar.Plural: koeien
 grammar.Diminutive: het koeitje
-
 //
-
 word: varken
 translation: pig
 type: noun
-group: Nature & Animals
+group: 🌿 Nature & animals
 pronunciation: /ˈvɑrkə(n)/
 example.nl: Het varken rolt vrolijk rond in de natte modder.
 example.en: The pig rolls around happily in the wet mud.
@@ -80,13 +72,11 @@ priority: yes
 grammar.Article / Gender: het
 grammar.Plural: varkens
 grammar.Diminutive: het varkentje
-
 //
-
 word: schaap
 translation: sheep
 type: noun
-group: Nature & Animals
+group: 🌿 Nature & animals
 pronunciation: /sxaːp/
 example.nl: De herder leidt de kudde schapen naar een ander veld.
 example.en: The shepherd leads the flock of sheep to another field.
@@ -97,13 +87,11 @@ priority: yes
 grammar.Article / Gender: het
 grammar.Plural: schapen
 grammar.Diminutive: het schaapje
-
 //
-
 word: vogel
 translation: bird
 type: noun
-group: Nature & Animals
+group: 🌿 Nature & animals
 pronunciation: /ˈvoːɣəl/
 example.nl: De vogel bouwt in de lente een klein nestje.
 example.en: The bird builds a small nest in the spring.
@@ -114,13 +102,11 @@ priority: yes
 grammar.Article / Gender: de
 grammar.Plural: vogels
 grammar.Diminutive: het vogeltje
-
 //
-
 word: arend
 translation: eagle
 type: noun
-group: Nature & Animals
+group: 🌿 Nature & animals
 pronunciation: /ˈaːrənt/
 example.nl: De arend zweeft hoog boven de steile bergen.
 example.en: The eagle glides high above the steep mountains.
@@ -131,13 +117,11 @@ priority: no
 grammar.Article / Gender: de
 grammar.Plural: arenden
 grammar.Diminutive: het arendje
-
 //
-
 word: slang
 translation: snake
 type: noun
-group: Nature & Animals
+group: 🌿 Nature & animals
 pronunciation: /slɑŋ/
 example.nl: Er kruipt een grote, giftige slang door het struikgewas.
 example.en: A large, venomous snake is crawling through the underbrush.
@@ -148,13 +132,11 @@ priority: yes
 grammar.Article / Gender: de
 grammar.Plural: slangen
 grammar.Diminutive: het slangetje
-
 //
-
 word: leeuw
 translation: lion
 type: noun
-group: Nature & Animals
+group: 🌿 Nature & animals
 pronunciation: /leːu̯/
 example.nl: De leeuw staat trots op het wapen van Nederland.
 example.en: The lion stands proudly on the coat of arms of the Netherlands.
@@ -165,13 +147,11 @@ priority: yes
 grammar.Article / Gender: de
 grammar.Plural: leeuwen
 grammar.Diminutive: het leeuwtje
-
 //
-
 word: tijger
 translation: tiger
 type: noun
-group: Nature & Animals
+group: 🌿 Nature & animals
 pronunciation: /ˈtɛi̯ɣər/
 example.nl: De tijger heeft een herkenbare vacht met zwarte strepen.
 example.en: The tiger has a recognizable coat with black stripes.
@@ -181,13 +161,11 @@ priority: yes
 grammar.Article / Gender: de
 grammar.Plural: tijgers
 grammar.Diminutive: het tijgertje
-
 //
-
 word: olifant
 translation: elephant
 type: noun
-group: Nature & Animals
+group: 🌿 Nature & animals
 pronunciation: /ˈoːlifɑnt/
 example.nl: De olifant begroette de bezoekers met een luid getrompetter.
 example.en: The elephant greeted the visitors with a loud trumpeting.
@@ -197,13 +175,11 @@ priority: yes
 grammar.Article / Gender: de
 grammar.Plural: olifanten
 grammar.Diminutive: het olifantje
-
 //
-
 word: beer
 translation: bear
 type: noun
-group: Nature & Animals
+group: 🌿 Nature & animals
 pronunciation: /beːr/
 example.nl: In de winter houdt de beer een lange winterslaap.
 example.en: In winter, the bear undergoes a long hibernation.
@@ -214,13 +190,11 @@ priority: yes
 grammar.Article / Gender: de
 grammar.Plural: beren
 grammar.Diminutive: het beertje
-
 //
-
 word: wolf
 translation: wolf
 type: noun
-group: Nature & Animals
+group: 🌿 Nature & animals
 pronunciation: /vɔlf/
 example.nl: Er zijn de laatste jaren weer wolven gesignaleerd op de Veluwe.
 example.en: In recent years, wolves have been spotted on the Veluwe again.
@@ -231,13 +205,11 @@ priority: yes
 grammar.Article / Gender: de
 grammar.Plural: wolven
 grammar.Diminutive: het wolfje
-
 //
-
 word: konijn
 translation: rabbit
 type: noun
-group: Nature & Animals
+group: 🌿 Nature & animals
 pronunciation: /koːˈnɛi̯n/
 example.nl: Het konijn verdween snel in zijn hol onder de boom.
 example.en: The rabbit quickly disappeared into its burrow under the tree.
@@ -247,13 +219,11 @@ priority: yes
 grammar.Article / Gender: het
 grammar.Plural: konijnen
 grammar.Diminutive: het konijntje
-
 //
-
 word: muis
 translation: mouse
 type: noun
-group: Nature & Animals
+group: 🌿 Nature & animals
 pronunciation: /mœy̯s/
 example.nl: De kat probeerde stilletjes een muis te besluipen.
 example.en: The cat tried to quietly sneak up on a mouse.
@@ -264,13 +234,11 @@ priority: yes
 grammar.Article / Gender: de
 grammar.Plural: muizen
 grammar.Diminutive: het muisje
-
 //
-
 word: bij
 translation: bee
 type: noun
-group: Nature & Animals
+group: 🌿 Nature & animals
 pronunciation: /bɛi̯/
 example.nl: Een ijverige bij verzamelt nectar op de zonnebloem.
 example.en: An industrious bee collects nectar on the sunflower.
@@ -281,13 +249,11 @@ priority: yes
 grammar.Article / Gender: de
 grammar.Plural: bijen
 grammar.Diminutive: het bijtje
-
 //
-
 word: vlinder
 translation: butterfly
 type: noun
-group: Nature & Animals
+group: 🌿 Nature & animals
 pronunciation: /ˈvlɪndər/
 example.nl: De vlinder fladdert van de ene bloem naar de andere.
 example.en: The butterfly flutters from one flower to another.
@@ -298,13 +264,11 @@ priority: yes
 grammar.Article / Gender: de
 grammar.Plural: vlinders
 grammar.Diminutive: het vlindertje
-
 //
-
 word: boom
 translation: tree
 type: noun
-group: Nature & Animals
+group: 🌿 Nature & animals
 pronunciation: /boːm/
 example.nl: In de herfst vallen de bladeren van de grote boom.
 example.en: In autumn, the leaves fall from the big tree.
@@ -315,13 +279,11 @@ priority: yes
 grammar.Article / Gender: de
 grammar.Plural: bomen
 grammar.Diminutive: het boompje
-
 //
-
 word: bloem
 translation: flower
 type: noun
-group: Nature & Animals
+group: 🌿 Nature & animals
 pronunciation: /blum/
 example.nl: Hij gaf haar een prachtige rode bloem als cadeau.
 example.en: He gave her a beautiful red flower as a gift.
@@ -332,13 +294,11 @@ priority: yes
 grammar.Article / Gender: de
 grammar.Plural: bloemen
 grammar.Diminutive: het bloemetje
-
 //
-
 word: gras
 translation: grass
 type: noun
-group: Nature & Animals
+group: 🌿 Nature & animals
 pronunciation: /ɣrɑs/
 example.nl: Het natte gras glinstert in de vroege ochtendzon.
 example.en: The wet grass glistens in the early morning sun.
@@ -349,13 +309,11 @@ priority: yes
 grammar.Article / Gender: het
 grammar.Plural: grassen
 grammar.Diminutive: het grasje
-
 //
-
 word: bos
 translation: forest, woods, bouquet
 type: noun
-group: Nature & Animals
+group: 🌿 Nature & animals
 pronunciation: /bɔs/
 example.nl: We maken graag een lange wandeling in het bos.
 example.en: We like to take a long walk in the forest.
@@ -366,13 +324,11 @@ priority: yes
 grammar.Article / Gender: het
 grammar.Plural: bossen
 grammar.Diminutive: het bosje
-
 //
-
 word: berg
 translation: mountain
 type: noun
-group: Nature & Animals
+group: 🌿 Nature & animals
 pronunciation: /bɛrx/
 example.nl: Er ligt het hele jaar door sneeuw op de top van de berg.
 example.en: There is snow on the peak of the mountain all year round.
@@ -383,13 +339,11 @@ priority: yes
 grammar.Article / Gender: de
 grammar.Plural: bergen
 grammar.Diminutive: het bergje
-
 //
-
 word: rivier
 translation: river
 type: noun
-group: Nature & Animals
+group: 🌿 Nature & animals
 pronunciation: /riˈviːr/
 example.nl: De rivier stroomt rustig door de groene velden.
 example.en: The river flows quietly through the green fields.
@@ -399,13 +353,11 @@ priority: yes
 grammar.Article / Gender: de
 grammar.Plural: rivieren
 grammar.Diminutive: het riviertje
-
 //
-
 word: meer
 translation: lake
 type: noun
-group: Nature & Animals
+group: 🌿 Nature & animals
 pronunciation: /meːr/
 example.nl: Het meer was zo kalm dat het als een spiegel leek.
 example.en: The lake was so calm that it looked like a mirror.
@@ -416,13 +368,11 @@ priority: yes
 grammar.Article / Gender: het
 grammar.Plural: meren
 grammar.Diminutive: het meertje
-
 //
-
 word: zee
 translation: sea
 type: noun
-group: Nature & Animals
+group: 🌿 Nature & animals
 pronunciation: /zeː/
 example.nl: We horen de golven van de zee op de achtergrond.
 example.en: We hear the waves of the sea in the background.
@@ -433,13 +383,11 @@ priority: yes
 grammar.Article / Gender: de
 grammar.Plural: zeeën
 grammar.Diminutive: het zeetje
-
 //
-
 word: oceaan
 translation: ocean
 type: noun
-group: Nature & Animals
+group: 🌿 Nature & animals
 pronunciation: /oːsiˈjaːn/
 example.nl: Grote schepen steken de oceaan over om goederen te vervoeren.
 example.en: Large ships cross the ocean to transport goods.
@@ -449,13 +397,11 @@ priority: yes
 grammar.Article / Gender: de
 grammar.Plural: oceanen
 grammar.Diminutive: het oceaanpje
-
 //
-
 word: strand
 translation: beach
 type: noun
-group: Nature & Animals
+group: 🌿 Nature & animals
 pronunciation: /strɑnt/
 example.nl: De kinderen bouwen een groot zandkasteel op het strand.
 example.en: The children are building a large sandcastle on the beach.
@@ -465,13 +411,11 @@ priority: yes
 grammar.Article / Gender: het
 grammar.Plural: stranden
 grammar.Diminutive: het strandje
-
 //
-
 word: woestijn
 translation: desert
 type: noun
-group: Nature & Animals
+group: 🌿 Nature & animals
 pronunciation: /vuˈstɛi̯n/
 example.nl: De woestijn kan overdag extreem heet zijn.
 example.en: The desert can be extremely hot during the day.
@@ -481,13 +425,11 @@ priority: no
 grammar.Article / Gender: de
 grammar.Plural: woestijnen
 grammar.Diminutive: het woestijntje
-
 //
-
 word: eiland
 translation: island
 type: noun
-group: Nature & Animals
+group: 🌿 Nature & animals
 pronunciation: /ˈɛi̯lɑnt/
 example.nl: We namen de veerboot naar het prachtige eiland.
 example.en: We took the ferry to the beautiful island.
@@ -497,13 +439,11 @@ priority: yes
 grammar.Article / Gender: het
 grammar.Plural: eilanden
 grammar.Diminutive: het eilandje
-
 //
-
 word: rots
 translation: rock, cliff
 type: noun
-group: Nature & Animals
+group: 🌿 Nature & animals
 pronunciation: /rɔts/
 example.nl: Ze klommen op de gladde rots om over het water te kijken.
 example.en: They climbed onto the slippery rock to look over the water.
@@ -514,13 +454,11 @@ priority: yes
 grammar.Article / Gender: de
 grammar.Plural: rotsen
 grammar.Diminutive: het rotsje
-
 //
-
 word: zand
 translation: sand
 type: noun
-group: Nature & Animals
+group: 🌿 Nature & animals
 pronunciation: /zɑnt/
 example.nl: Er zat warm zand tussen mijn tenen op het strand.
 example.en: There was warm sand between my toes on the beach.
@@ -531,13 +469,11 @@ priority: yes
 grammar.Article / Gender: het
 grammar.Plural: -
 grammar.Diminutive: het zandje
-
 //
-
 word: lucht
 translation: sky, air
 type: noun
-group: Nature & Animals
+group: 🌿 Nature & animals
 pronunciation: /lʏxt/
 example.nl: Er drijven zachte, witte wolken door de blauwe lucht.
 example.en: Soft, white clouds are drifting through the blue sky.
@@ -548,13 +484,11 @@ priority: yes
 grammar.Article / Gender: de
 grammar.Plural: luchten
 grammar.Diminutive: het luchtje
-
 //
-
 word: maan
 translation: moon
 type: noun
-group: Nature & Animals
+group: 🌿 Nature & animals
 pronunciation: /maːn/
 example.nl: De maan verlicht het donkere bos vannacht.
 example.en: The moon illuminates the dark forest tonight.
@@ -564,13 +498,11 @@ priority: yes
 grammar.Article / Gender: de
 grammar.Plural: manen
 grammar.Diminutive: het maantje
-
 //
-
 word: ster
 translation: star
 type: noun
-group: Nature & Animals
+group: 🌿 Nature & animals
 pronunciation: /stɛr/
 example.nl: Kijk omhoog, er staat een vallende ster aan de hemel!
 example.en: Look up, there is a shooting star in the sky!
@@ -580,13 +512,11 @@ priority: yes
 grammar.Article / Gender: de
 grammar.Plural: sterren
 grammar.Diminutive: het sterretje
-
 //
-
 word: aarde
 translation: earth, soil
 type: noun
-group: Nature & Animals
+group: 🌿 Nature & animals
 pronunciation: /ˈaːrdə/
 example.nl: De aarde is de enige bekende planeet met vloeibaar water.
 example.en: The earth is the only known planet with liquid water.
@@ -597,13 +527,11 @@ priority: yes
 grammar.Article / Gender: de
 grammar.Plural: aarden
 grammar.Diminutive: het aardetje
-
 //
-
 word: vuur
 translation: fire
 type: noun
-group: Nature & Animals
+group: 🌿 Nature & animals
 pronunciation: /vyːr/
 example.nl: Blijf niet te dicht bij het hete vuur staan.
 example.en: Do not stand too close to the hot fire.
@@ -614,13 +542,11 @@ priority: yes
 grammar.Article / Gender: het
 grammar.Plural: vuren
 grammar.Diminutive: het vuurtje
-
 //
-
 word: plant
 translation: plant
 type: noun
-group: Nature & Animals
+group: 🌿 Nature & animals
 pronunciation: /plɑnt/
 example.nl: Deze plant heeft veel zonlicht en af en toe water nodig.
 example.en: This plant needs plenty of sunlight and occasional water.

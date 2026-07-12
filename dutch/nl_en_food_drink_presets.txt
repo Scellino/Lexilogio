@@ -1,7 +1,7 @@
 word: brood
 translation: bread
 type: noun
-group: Food & Drink
+group: 🍽️ Food & drink
 pronunciation: /broːt/
 example.nl: Vers gebakken brood ruikt heerlijk.
 example.en: Freshly baked bread smells delicious.
@@ -12,13 +12,11 @@ priority: yes
 grammar.Article / Gender: het
 grammar.Plural: broden
 grammar.Diminutive: het broodje
-
 //
-
 word: rijst
 translation: rice
 type: noun
-group: Food & Drink
+group: 🍽️ Food & drink
 pronunciation: /rɛist/
 example.nl: We eten vanavond kip met rijst.
 example.en: We are eating chicken with rice tonight.
@@ -29,13 +27,11 @@ priority: yes
 grammar.Article / Gender: de
 grammar.Plural: -
 grammar.Diminutive: het rijstkorreltje
-
 //
-
 word: pasta
 translation: pasta
 type: noun
-group: Food & Drink
+group: 🍽️ Food & drink
 pronunciation: /ˈpɑstaː/
 example.nl: Pasta is makkelijk en snel te bereiden.
 example.en: Pasta is easy and quick to prepare.
@@ -46,13 +42,11 @@ priority: yes
 grammar.Article / Gender: de
 grammar.Plural: pasta's
 grammar.Diminutive: het pastatje
-
 //
-
 word: ei
 translation: egg
 type: noun
-group: Food & Drink
+group: 🍽️ Food & drink
 pronunciation: /ɛi/
 example.nl: Wil je een gekookt of een gebakken ei?
 example.en: Do you want a boiled or a fried egg?
@@ -63,13 +57,11 @@ priority: yes
 grammar.Article / Gender: het
 grammar.Plural: eieren
 grammar.Diminutive: het eitje
-
 //
-
 word: kaas
 translation: cheese
 type: noun
-group: Food & Drink
+group: 🍽️ Food & drink
 pronunciation: /kaːs/
 example.nl: Nederland staat bekend om zijn lekkere kaas.
 example.en: The Netherlands is famous for its delicious cheese.
@@ -80,13 +72,11 @@ priority: yes
 grammar.Article / Gender: de
 grammar.Plural: kazen
 grammar.Diminutive: het kaasje
-
 //
-
 word: boter
 translation: butter
 type: noun
-group: Food & Drink
+group: 🍽️ Food & drink
 pronunciation: /ˈboːtər/
 example.nl: Smeer een beetje boter op je brood.
 example.en: Spread a little butter on your bread.
@@ -97,13 +87,11 @@ priority: yes
 grammar.Article / Gender: de
 grammar.Plural: -
 grammar.Diminutive: het botertje
-
 //
-
 word: olie
 translation: oil
 type: noun
-group: Food & Drink
+group: 🍽️ Food & drink
 pronunciation: /ˈoːli/
 example.nl: Bak de groenten in een scheutje olie.
 example.en: Fry the vegetables in a splash of oil.
@@ -114,13 +102,11 @@ priority: no
 grammar.Article / Gender: de
 grammar.Plural: oliën
 grammar.Diminutive: het olietje
-
 //
-
 word: zout
 translation: salt
 type: noun
-group: Food & Drink
+group: 🍽️ Food & drink
 pronunciation: /zʌut/
 example.nl: Er zit te veel zout in deze soep.
 example.en: There is too much salt in this soup.
@@ -131,13 +117,11 @@ priority: yes
 grammar.Article / Gender: het
 grammar.Plural: zouten
 grammar.Diminutive: het zoutje
-
 //
-
 word: peper
 translation: pepper
 type: noun
-group: Food & Drink
+group: 🍽️ Food & drink
 pronunciation: /ˈpeːpər/
 example.nl: Voeg wat peper en zout toe naar smaak.
 example.en: Add some pepper and salt to taste.
@@ -148,13 +132,11 @@ priority: yes
 grammar.Article / Gender: de
 grammar.Plural: pepers
 grammar.Diminutive: het pepertje
-
 //
-
 word: suiker
 translation: sugar
 type: noun
-group: Food & Drink
+group: 🍽️ Food & drink
 pronunciation: /ˈsœykər/
 example.nl: Drink je je koffie met of zonder suiker?
 example.en: Do you drink your coffee with or without sugar?
@@ -165,13 +147,11 @@ priority: yes
 grammar.Article / Gender: de
 grammar.Plural: suikers
 grammar.Diminutive: het suikertje
-
 //
-
 word: kip
 translation: chicken
 type: noun
-group: Food & Drink
+group: 🍽️ Food & drink
 pronunciation: /kɪp/
 example.nl: De biologische kip scharrelt buiten.
 example.en: The organic chicken is scratching around outside.
@@ -182,13 +162,11 @@ priority: yes
 grammar.Article / Gender: de
 grammar.Plural: kippen
 grammar.Diminutive: het kipje
-
 //
-
 word: rundvlees
 translation: beef
 type: noun
-group: Food & Drink
+group: 🍽️ Food & drink
 pronunciation: /ˈrʏntfleːs/
 example.nl: Rundvlees moet soms uren stoven.
 example.en: Beef sometimes needs to stew for hours.
@@ -199,13 +177,11 @@ priority: yes
 grammar.Article / Gender: het
 grammar.Plural: -
 grammar.Diminutive: -
-
 //
-
 word: varkensvlees
 translation: pork
 type: noun
-group: Food & Drink
+group: 🍽️ Food & drink
 pronunciation: /ˈvɑrkənsfleːs/
 example.nl: In veel gerechten wordt varkensvlees gebruikt.
 example.en: Pork is used in many dishes.
@@ -216,13 +192,11 @@ priority: yes
 grammar.Article / Gender: het
 grammar.Plural: -
 grammar.Diminutive: -
-
 //
-
 word: lamsvlees
 translation: lamb
 type: noun
-group: Food & Drink
+group: 🍽️ Food & drink
 pronunciation: /ˈlɑmsfleːs/
 example.nl: Lamsvlees is erg populair in de mediterrane keuken.
 example.en: Lamb meat is very popular in Mediterranean cuisine.
@@ -233,13 +207,11 @@ priority: no
 grammar.Article / Gender: het
 grammar.Plural: -
 grammar.Diminutive: -
-
 //
-
 word: vis
 translation: fish
 type: noun
-group: Food & Drink
+group: 🍽️ Food & drink
 pronunciation: /vɪs/
 example.nl: We eten elke vrijdag verse vis.
 example.en: We eat fresh fish every Friday.
@@ -250,13 +222,11 @@ priority: yes
 grammar.Article / Gender: de
 grammar.Plural: vissen
 grammar.Diminutive: het visje
-
 //
-
 word: zeevruchten
 translation: seafood, shellfish
 type: noun
-group: Food & Drink
+group: 🍽️ Food & drink
 pronunciation: /ˈzeːvrʏxtə(n)/
 example.nl: Hij bestelde een bord met zeevruchten.
 example.en: He ordered a platter of seafood.
@@ -267,13 +237,11 @@ priority: no
 grammar.Article / Gender: de
 grammar.Plural: zeevruchten
 grammar.Diminutive: -
-
 //
-
 word: aardappel
 translation: potato
 type: noun
-group: Food & Drink
+group: 🍽️ Food & drink
 pronunciation: /ˈaːrdɑpəl/
 example.nl: De aardappel is de basis van de Nederlandse stamppot.
 example.en: The potato is the basis of the Dutch stamppot.
@@ -284,13 +252,11 @@ priority: yes
 grammar.Article / Gender: de
 grammar.Plural: aardappelen
 grammar.Diminutive: het aardappeltje
-
 //
-
 word: tomaat
 translation: tomato
 type: noun
-group: Food & Drink
+group: 🍽️ Food & drink
 pronunciation: /toːˈmaːt/
 example.nl: Snijd de tomaat in kleine blokjes.
 example.en: Cut the tomato into small cubes.
@@ -301,13 +267,11 @@ priority: yes
 grammar.Article / Gender: de
 grammar.Plural: tomaten
 grammar.Diminutive: het tomaatje
-
 //
-
 word: ui
 translation: onion
 type: noun
-group: Food & Drink
+group: 🍽️ Food & drink
 pronunciation: /œy/
 example.nl: Ik moet altijd huilen als ik een ui snijd.
 example.en: I always have to cry when I chop an onion.
@@ -318,13 +282,11 @@ priority: yes
 grammar.Article / Gender: de
 grammar.Plural: uien
 grammar.Diminutive: het uitje
-
 //
-
 word: knoflook
 translation: garlic
 type: noun
-group: Food & Drink
+group: 🍽️ Food & drink
 pronunciation: /ˈknɔfloːk/
 example.nl: Knoflook geeft veel smaak aan het gerecht.
 example.en: Garlic gives a lot of flavor to the dish.
@@ -335,13 +297,11 @@ priority: yes
 grammar.Article / Gender: de
 grammar.Plural: -
 grammar.Diminutive: het knoflookje
-
 //
-
 word: wortel
 translation: carrot
 type: noun
-group: Food & Drink
+group: 🍽️ Food & drink
 pronunciation: /ˈwɔrtəl/
 example.nl: Konijnen eten graag een sappige wortel.
 example.en: Rabbits love to eat a juicy carrot.
@@ -352,13 +312,11 @@ priority: yes
 grammar.Article / Gender: de
 grammar.Plural: wortels
 grammar.Diminutive: het worteltje
-
 //
-
 word: salade
 translation: salad
 type: noun
-group: Food & Drink
+group: 🍽️ Food & drink
 pronunciation: /saːˈlaːdə/
 example.nl: Deze frisse salade past goed bij de barbecue.
 example.en: This fresh salad goes well with the barbecue.
@@ -369,13 +327,11 @@ priority: yes
 grammar.Article / Gender: de
 grammar.Plural: salades
 grammar.Diminutive: het saladetje
-
 //
-
 word: appel
 translation: apple
 type: noun
-group: Food & Drink
+group: 🍽️ Food & drink
 pronunciation: /ˈɑpəl/
 example.nl: Een appel per dag houdt de dokter op afstand.
 example.en: An apple a day keeps the doctor away.
@@ -386,13 +342,11 @@ priority: yes
 grammar.Article / Gender: de
 grammar.Plural: appels
 grammar.Diminutive: het appeltje
-
 //
-
 word: banaan
 translation: banana
 type: noun
-group: Food & Drink
+group: 🍽️ Food & drink
 pronunciation: /baːˈnaːn/
 example.nl: Bananen zijn rijk aan kalium.
 example.en: Bananas are rich in potassium.
@@ -403,13 +357,11 @@ priority: yes
 grammar.Article / Gender: de
 grammar.Plural: bananen
 grammar.Diminutive: het banaantje
-
 //
-
 word: sinaasappel
 translation: orange
 type: noun
-group: Food & Drink
+group: 🍽️ Food & drink
 pronunciation: /ˈsinaːsɑpəl/
 example.nl: Vers geperste sinaasappel is heerlijk bij het ontbijt.
 example.en: Freshly squeezed orange juice is delicious with breakfast.
@@ -420,13 +372,11 @@ priority: yes
 grammar.Article / Gender: de
 grammar.Plural: sinaasappels
 grammar.Diminutive: het sinaasappeltje
-
 //
-
 word: citroen
 translation: lemon
 type: noun
-group: Food & Drink
+group: 🍽️ Food & drink
 pronunciation: /siˈtruːn/
 example.nl: De thee smaakt lekkerder met een schijfje citroen.
 example.en: The tea tastes better with a slice of lemon.
@@ -437,13 +387,11 @@ priority: yes
 grammar.Article / Gender: de
 grammar.Plural: citroenen
 grammar.Diminutive: het citroentje
-
 //
-
 word: aardbei
 translation: strawberry
 type: noun
-group: Food & Drink
+group: 🍽️ Food & drink
 pronunciation: /ˈaːrtbɛi/
 example.nl: Zomerse aardbeien met slagroom zijn heerlijk.
 example.en: Summer strawberries with whipped cream are delicious.
@@ -454,13 +402,11 @@ priority: yes
 grammar.Article / Gender: de
 grammar.Plural: aardbeien
 grammar.Diminutive: het aardbeitje
-
 //
-
 word: druif
 translation: grape
 type: noun
-group: Food & Drink
+group: 🍽️ Food & drink
 pronunciation: /drœyf/
 example.nl: Wil je een rode of een witte druif?
 example.en: Would you like a red or a white grape?
@@ -471,13 +417,11 @@ priority: no
 grammar.Article / Gender: de
 grammar.Plural: druiven
 grammar.Diminutive: het druifje
-
 //
-
 word: water
 translation: water
 type: noun
-group: Food & Drink
+group: 🍽️ Food & drink
 pronunciation: /ˈʋaːtər/
 example.nl: Kan ik een glas kraanwater krijgen, alstublieft?
 example.en: Can I have a glass of tap water, please?
@@ -488,13 +432,11 @@ priority: yes
 grammar.Article / Gender: het
 grammar.Plural: -
 grammar.Diminutive: het watertje
-
 //
-
 word: sap
 translation: juice
 type: noun
-group: Food & Drink
+group: 🍽️ Food & drink
 pronunciation: /sɑp/
 example.nl: Dit sap is gemaakt van honderd procent fruit.
 example.en: This juice is made of one hundred percent fruit.
@@ -505,13 +447,11 @@ priority: yes
 grammar.Article / Gender: het
 grammar.Plural: sappen
 grammar.Diminutive: het sapje
-
 //
-
 word: koffie
 translation: coffee
 type: noun
-group: Food & Drink
+group: 🍽️ Food & drink
 pronunciation: /ˈkɔfi/
 example.nl: Zullen we een kopje koffie drinken?
 example.en: Shall we drink a cup of coffee?
@@ -522,13 +462,11 @@ priority: yes
 grammar.Article / Gender: de
 grammar.Plural: -
 grammar.Diminutive: het koffietje
-
 //
-
 word: thee
 translation: tea
 type: noun
-group: Food & Drink
+group: 🍽️ Food & drink
 pronunciation: /teː/
 example.nl: Ik drink altijd gemberthee in de avond.
 example.en: I always drink ginger tea in the evening.
@@ -539,13 +477,11 @@ priority: yes
 grammar.Article / Gender: de
 grammar.Plural: -
 grammar.Diminutive: het theetje
-
 //
-
 word: wijn
 translation: wine
 type: noun
-group: Food & Drink
+group: 🍽️ Food & drink
 pronunciation: /ʋɛin/
 example.nl: Rode wijn past goed bij een biefstuk.
 example.en: Red wine goes well with a steak.
@@ -556,13 +492,11 @@ priority: yes
 grammar.Article / Gender: de
 grammar.Plural: wijnen
 grammar.Diminutive: het wijntje
-
 //
-
 word: bier
 translation: beer
 type: noun
-group: Food & Drink
+group: 🍽️ Food & drink
 pronunciation: /biːr/
 example.nl: Bestel je een biertje aan de bar?
 example.en: Are you ordering a beer at the bar?
@@ -573,13 +507,11 @@ priority: yes
 grammar.Article / Gender: het
 grammar.Plural: bieren
 grammar.Diminutive: het biertje
-
 //
-
 word: melk
 translation: milk
 type: noun
-group: Food & Drink
+group: 🍽️ Food & drink
 pronunciation: /mɛlk/
 example.nl: Veel Nederlanders drinken melk bij de lunch.
 example.en: Many Dutch people drink milk with lunch.
@@ -590,13 +522,11 @@ priority: yes
 grammar.Article / Gender: de
 grammar.Plural: -
 grammar.Diminutive: het melkje
-
 //
-
 word: vegetarisch
 translation: vegetarian
 type: adjective
-group: Food & Drink
+group: 🍽️ Food & drink
 pronunciation: /veːɣəˈtaːris/
 example.nl: Heeft dit restaurant ook vegetarische opties?
 example.en: Does this restaurant also have vegetarian options?
@@ -607,13 +537,11 @@ priority: yes
 grammar.Inflected form: vegetarische
 grammar.Comparative: -
 grammar.Superlative: -
-
 //
-
 word: veganistisch
 translation: vegan
 type: adjective
-group: Food & Drink
+group: 🍽️ Food & drink
 pronunciation: /veːɣaːˈnɪstis/
 example.nl: Zij eet uitsluitend veganistische gerechten.
 example.en: She eats exclusively vegan dishes.
@@ -624,13 +552,11 @@ priority: yes
 grammar.Inflected form: veganistische
 grammar.Comparative: -
 grammar.Superlative: -
-
 //
-
 word: pittig
 translation: spicy, hot, tough
 type: adjective
-group: Food & Drink
+group: 🍽️ Food & drink
 pronunciation: /ˈpɪtəx/
 example.nl: De curry is erg pittig, zorg voor genoeg water.
 example.en: The curry is very spicy, make sure to have enough water.
@@ -641,13 +567,11 @@ priority: yes
 grammar.Inflected form: pittige
 grammar.Comparative: pittiger
 grammar.Superlative: pittigst
-
 //
-
 word: zoet
 translation: sweet
 type: adjective
-group: Food & Drink
+group: 🍽️ Food & drink
 pronunciation: /zut/
 example.nl: Ik hou van zoete toetjes na het avondeten.
 example.en: I love sweet desserts after dinner.
@@ -658,13 +582,11 @@ priority: yes
 grammar.Inflected form: zoete
 grammar.Comparative: zoeter
 grammar.Superlative: zoetst
-
 //
-
 word: zuur
 translation: sour, acidic
 type: adjective
-group: Food & Drink
+group: 🍽️ Food & drink
 pronunciation: /zyːr/
 example.nl: Citroenen zijn extreem zuur.
 example.en: Lemons are extremely sour.
@@ -675,13 +597,11 @@ priority: yes
 grammar.Inflected form: zure
 grammar.Comparative: zuurder
 grammar.Superlative: zuurst
-
 //
-
 word: vers
 translation: fresh
 type: adjective
-group: Food & Drink
+group: 🍽️ Food & drink
 pronunciation: /vɛrs/
 example.nl: We persen elke ochtend vers sinaasappelsap.
 example.en: We squeeze fresh orange juice every morning.
@@ -692,13 +612,11 @@ priority: yes
 grammar.Inflected form: verse
 grammar.Comparative: verser
 grammar.Superlative: verst
-
 //
-
 word: bevroren
 translation: frozen
 type: adjective
-group: Food & Drink
+group: 🍽️ Food & drink
 pronunciation: /bəˈvroːrə(n)/
 example.nl: Gooi de bevroren erwten direct in de pan.
 example.en: Throw the frozen peas straight into the pan.
@@ -709,13 +627,11 @@ priority: no
 grammar.Inflected form: bevroren
 grammar.Comparative: -
 grammar.Superlative: -
-
 //
-
 word: maaltijd
 translation: meal
 type: noun
-group: Food & Drink
+group: 🍽️ Food & drink
 pronunciation: /ˈmaːltɛit/
 example.nl: Het ontbijt is de belangrijkste maaltijd van de dag.
 example.en: Breakfast is the most important meal of the day.

@@ -123,3 +123,39 @@ def test_grammar_forms_extraction():
     assert "αρρωστη" in forms
     assert "επτα" in forms
     assert all("κεφαλ" not in f for f in forms)
+
+
+# ── Article handling on en→word answers, gendered-article languages ────────────
+# The English prompt never shows an article, so omitting one must be fully
+# correct. Only an article the learner actually typed but got wrong should
+# trigger "close" (retry). Typos in the bare word still count as "close"
+# regardless of the article, since target-language recall is what's tested.
+
+def test_de_no_article_is_correct():
+    assert _de_check_fn("hund", "der hund", "en→word", {}) == "correct"
+
+def test_de_correct_article_is_correct():
+    assert _de_check_fn("der hund", "der hund", "en→word", {}) == "correct"
+
+def test_de_wrong_article_is_close():
+    assert _de_check_fn("die hund", "der hund", "en→word", {}) == "close"
+
+def test_de_typo_without_article_is_close():
+    assert _de_check_fn("hnd", "der hund", "en→word", {}) == "close"
+
+def test_it_no_article_is_correct():
+    assert _it_check_fn("gatto", "il gatto", "en→word", {}) == "correct"
+
+def test_it_wrong_article_is_close():
+    assert _it_check_fn("la gatto", "il gatto", "en→word", {}) == "close"
+
+def test_es_no_article_is_correct():
+    assert _es_check_fn("perro", "el perro", "en→word", {}) == "correct"
+
+def test_es_wrong_article_is_close():
+    assert _es_check_fn("la perro", "el perro", "en→word", {}) == "close"
+
+def test_greek_no_article_is_correct():
+    c = _card(word="σκύλος", translation="dog",
+              grammar=[{"label": "Article", "value": "ο σκύλος"}])
+    assert _greek_check("σκύλος", "", "en→word", c) == "correct"

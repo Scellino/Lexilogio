@@ -66,9 +66,15 @@ def _de_check_fn(guess, correct, direction, card):
         if _de_is_close(g_norm, c_norm):
             return "correct"
     else:
-        # Right word wrong article → retry
-        if g_bare == c_bare and g_bare != g_norm:
-            return "close"
+        # The English prompt gives no article, so omitting one is fully
+        # correct. Only flag "close" (retry) when the learner supplied an
+        # article that doesn't match the expected one.
+        g_had_article = g_bare != g_norm
+        c_had_article = c_bare != c_norm
+        if g_bare == c_bare:
+            if g_had_article and c_had_article:
+                return "close"  # right word, wrong article
+            return "correct"
         if _de_is_close(g_bare, c_bare):
             return "close"
         if _de_is_close(g_norm, c_norm):

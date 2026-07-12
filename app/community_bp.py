@@ -503,6 +503,7 @@ let activeDep    = Object.keys(DEP_NAMES).includes(_urlDep) ? _urlDep : USER_DEP
 let activeSource = 'all';
 let activeGroup  = '';
 let activeTags   = new Set();
+let tagsExpanded = false;
 let openId       = null;
 let savedIds     = new Set();
 let selectedIds  = new Set();
@@ -591,26 +592,41 @@ function buildGroupPills(cards) {
   });
 }
 
+const TAGS_VISIBLE = 6;
 function buildTagPills(cards) {
-  const tagSet = new Set();
-  cards.forEach(c => (c.tags || []).forEach(t => t && tagSet.add(t)));
-  const tags  = [...tagSet].sort();
+  // Most-used tags first, and any active tag floated to the front so a
+  // selected filter is never hidden behind the fold.
+  const freq = new Map();
+  cards.forEach(c => (c.tags || []).forEach(t => { if (t) freq.set(t, (freq.get(t) || 0) + 1); }));
+  let tags = [...freq.keys()].sort((a, b) => (freq.get(b) - freq.get(a)) || a.localeCompare(b));
+  tags = [...tags.filter(t => activeTags.has(t)), ...tags.filter(t => !activeTags.has(t))];
+
   const wrap  = document.getElementById('tag-pills');
   const label = document.getElementById('tag-filter-label');
   wrap.innerHTML = '';
   if (!tags.length) { label.style.display = 'none'; return; }
   label.style.display = '';
-  tags.forEach(t => {
+
+  const makePill = t => {
     const p = document.createElement('button');
-    const on = activeTags.has(t);
-    p.className = 'pill' + (on ? ' tag-active' : '');
+    p.className = 'pill' + (activeTags.has(t) ? ' tag-active' : '');
     p.textContent = t;
     p.onclick = () => {
       if (activeTags.has(t)) activeTags.delete(t); else activeTags.add(t);
       render();
     };
-    wrap.appendChild(p);
-  });
+    return p;
+  };
+
+  const visible = tagsExpanded ? tags : tags.slice(0, TAGS_VISIBLE);
+  visible.forEach(t => wrap.appendChild(makePill(t)));
+  if (tags.length > TAGS_VISIBLE) {
+    const btn = document.createElement('button');
+    btn.className = 'pill';
+    btn.textContent = tagsExpanded ? '▲ less' : ('+' + (tags.length - TAGS_VISIBLE) + ' ▼');
+    btn.onclick = () => { tagsExpanded = !tagsExpanded; buildTagPills(cards); };
+    wrap.appendChild(btn);
+  }
 }
 
 // ── Render ────────────────────────────────────────────────────────────────────

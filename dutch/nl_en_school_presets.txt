@@ -1,0 +1,568 @@
+word: school
+translation: school
+type: noun
+group: School & Education
+pronunciation: /sxoːl/
+example.nl: De kinderen gaan elke ochtend met de fiets naar school.
+example.en: The children go to school by bicycle every morning.
+etymology: From Latin schola, from Ancient Greek skholē.
+tags: ⭐ common, 🏫 school
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: scholen
+grammar.Diminutive: het schooltje
+
+//
+
+word: universiteit
+translation: university
+type: noun
+group: School & Education
+pronunciation: /y.ni.vɛr.zi.ˈtɛit/
+example.nl: Zij studeert geneeskunde aan de universiteit van Leiden.
+example.en: She is studying medicine at the university of Leiden.
+etymology: From Latin universitas.
+tags: ⭐ common, 🏫 school
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: universiteiten
+grammar.Diminutive: het universiteitje
+
+//
+
+word: klaslokaal
+translation: classroom
+type: noun
+group: School & Education
+pronunciation: /ˈklas.loː.kaːl/
+example.nl: Het klaslokaal is uitgerust met een modern digibord.
+example.en: The classroom is equipped with a modern smartboard.
+etymology: Compound of klas (class) and lokaal (room/venue).
+tags: 🏫 school
+priority: yes
+grammar.Article / Gender: het
+grammar.Plural: klaslokalen
+grammar.Diminutive: het klaslokaaltje
+
+//
+
+word: leraar
+translation: teacher, instructor
+type: noun
+group: School & Education
+pronunciation: /ˈleː.raːr/
+example.nl: Onze leraar geschiedenis kan heel boeiend vertellen.
+example.en: Our history teacher can tell stories very fascinatingly.
+etymology: From the verb leren (to teach/learn).
+note: Female counterpart is "lerares". "Docent" is also widely used, especially in high schools and universities.
+tags: ⭐ common, 💼 work, 🏫 school
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: leraren
+grammar.Diminutive: het leraartje
+
+//
+
+word: student
+translation: student, pupil
+type: noun
+group: School & Education
+pronunciation: /sty.ˈdɛnt/
+example.nl: De ijverige student bereidt zich goed voor op de toets.
+example.en: The diligent student prepares well for the test.
+etymology: From Latin studere (to study).
+note: In Dutch, "student" is strictly used for higher education (university/college). Schoolchildren are called "leerling" or "scholier". Female is "studente".
+tags: ⭐ common, 🏫 school, 👥 people
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: studenten
+grammar.Diminutive: het studentje
+
+//
+
+word: les
+translation: lesson, class
+type: noun
+group: School & Education
+pronunciation: /lɛs/
+example.nl: De eerste les van de dag begint om half negen.
+example.en: The first lesson of the day starts at half past eight.
+etymology: From French leçon, from Latin lectio.
+tags: ⭐ common, 🏫 school
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: lessen
+grammar.Diminutive: het lesje
+
+//
+
+word: vak
+translation: subject, school subject
+type: noun
+group: School & Education
+pronunciation: /vɑk/
+example.nl: Mijn favoriete vak op school is biologie.
+example.en: My favorite subject at school is biology.
+etymology: From Middle Dutch vac (compartment/division).
+note: Double meaning: "vak" also translates to "professional field/trade" or a physical shelf compartment.
+tags: ⭐ common, 🏫 school
+priority: yes
+grammar.Article / Gender: het
+grammar.Plural: vakken
+grammar.Diminutive: het vakje
+
+//
+
+word: huiswerk
+translation: homework
+type: noun
+group: School & Education
+pronunciation: /ˈhœys.ʋɛrk/
+example.nl: Heb je al je huiswerk voor morgen al af?
+example.en: Have you finished all your homework for tomorrow already?
+etymology: Compound of huis (home) and werk (work).
+note: Uncountable in Dutch. Often paired with the verb "maken" (huiswerk maken - to do homework).
+tags: ⭐ common, 🏫 school, 🏠 home
+priority: yes
+grammar.Article / Gender: het
+grammar.Plural: -
+grammar.Diminutive: het huiswerkje
+
+//
+
+word: examen
+translation: exam, examination, test
+type: noun
+group: School & Education
+pronunciation: /ɛk.ˈsaː.mən/
+example.nl: Hij is erg zenuwachtig voor zijn eindexamen.
+example.en: He is very nervous about his final exam.
+etymology: From French examen, from Latin examen.
+note: "Toets" or "proefwerk" are typically used for smaller classroom tests; "examen" is for major or final examinations.
+tags: ⭐ common, 🏫 school
+priority: yes
+grammar.Article / Gender: het
+grammar.Plural: examens
+grammar.Diminutive: het examentje
+
+//
+
+word: cijfer
+translation: grade, mark, score, digit
+type: noun
+group: School & Education
+pronunciation: /sɛi.ˈfər/
+example.nl: Zij kreeg een hoog cijfer voor haar boekverslag.
+example.en: She received a high grade for her book report.
+etymology: From Arabic sifr (zero/empty).
+note: Double meaning: also means "digit/number". Dutch school grades range from 1 (very bad) to 10 (outstanding), with 5.5 being the passing limit.
+tags: ⭐ common, 🏫 school, 🔢 math
+priority: yes
+grammar.Article / Gender: het
+grammar.Plural: cijfers
+grammar.Diminutive: het cijfertje
+
+//
+
+word: wiskunde
+translation: mathematics, math
+type: noun
+group: School & Education
+pronunciation: /ˈʋɪs.kʏn.də/
+example.nl: Wiskunde is een verplicht vak voor alle leerlingen.
+example.en: Mathematics is a compulsory subject for all students.
+etymology: Coined by Simon Stevin, from wis (certain/sure) + -kunde (knowledge/science). Literally "the science of what is certain".
+tags: ⭐ common, 🏫 school, 🔢 math
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: -
+grammar.Diminutive: -
+
+//
+
+word: natuurwetenschap
+translation: science, natural science
+type: noun
+group: School & Education
+pronunciation: /ˈnə.tyːr.ʋeː.tən.sxɑp/
+example.nl: Hij wil later een carrière in de natuurwetenschap nastreven.
+example.en: He wants to pursue a career in natural science later.
+etymology: Compound of natuur (nature) and wetenschap (science).
+note: "Wetenschap" is the general term for science/academia. "Natuurwetenschap" is specific to physics, chemistry, biology.
+tags: 🏫 school, 🔬 science
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: natuurwetenschappen
+grammar.Diminutive: -
+
+//
+
+word: geschiedenis
+translation: history, story
+type: noun
+group: School & Education
+pronunciation: /ɣə.ˈsxiː.ded.nɪs/
+example.nl: We leren over de geschiedenis van het Romeinse Rijk.
+example.en: We are learning about the history of the Roman Empire.
+etymology: From Middle Dutch geschiedenisse (events/happenings).
+tags: ⭐ common, 🏫 school, 📚 literary
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: geschiedenissen
+grammar.Diminutive: het geschiedenisje
+
+//
+
+word: aardrijkskunde
+translation: geography
+type: noun
+group: School & Education
+pronunciation: /ˌaːrt.rɛiks.ˈkʏn.də/
+example.nl: Met aardrijkskunde leren we de hoofdsteden van Europa.
+example.en: In geography, we learn the capital cities of Europe.
+etymology: Coined term from aarde (earth) + rijk (realm) + -kunde (knowledge).
+tags: ⭐ common, 🏫 school, 🌍 travel
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: -
+grammar.Diminutive: -
+
+//
+
+word: taal
+translation: language, tongue
+type: noun
+group: School & Education
+pronunciation: /taːl/
+example.nl: Hoeveel talen spreek jij vloeiend?
+example.en: How many languages do you speak fluently?
+etymology: From Proto-Germanic *talō.
+tags: ⭐ common, 🏫 school, 💬 communication
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: talen
+grammar.Diminutive: het taaltje
+
+//
+
+word: kunst
+translation: art
+type: noun
+group: School & Education
+pronunciation: /kʏnst/
+example.nl: De muren van het klaslokaal hangen vol met kinderkunst.
+example.en: The walls of the classroom are covered with children's art.
+etymology: From Proto-Germanic *kunsti (knowledge/skill), from the root of "kunnen" (to be able to).
+tags: ⭐ common, 🏫 school, 🎨 art
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: kunsten
+grammar.Diminutive: het kunstje
+
+//
+
+word: muziek
+translation: music
+type: noun
+group: School & Education
+pronunciation: /my.ˈzik/
+example.nl: We luisteren naar klassieke muziek tijdens de tekenles.
+example.en: We listen to classical music during drawing class.
+etymology: From Latin musica, from Ancient Greek mousikē.
+tags: ⭐ common, 🏫 school, 🎵 music
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: -
+grammar.Diminutive: het muziekje
+
+//
+
+word: sport
+translation: sport, sports
+type: noun
+group: School & Education
+pronunciation: /spɔrt/
+example.nl: Gymnastiek is mijn favoriete sport op school.
+example.en: Gymnastics is my favorite sport at school.
+etymology: Borrowed from English sport.
+note: "Gym" or "gymles" is the standard term for physical education (P.E.) in Dutch schools.
+tags: ⭐ common, 🏫 school, ⚽ sport
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: sporten
+grammar.Diminutive: het sportje
+
+//
+
+word: boek
+translation: book
+type: noun
+group: School & Education
+pronunciation: /buk/
+example.nl: Vergeet niet je leerboek mee te nemen naar de les.
+example.en: Don't forget to bring your textbook to class.
+etymology: From Proto-Germanic *bōks (beech-staffs used for writing runes).
+tags: ⭐ common, 🏫 school, 📚 literary
+priority: yes
+grammar.Article / Gender: het
+grammar.Plural: boeken
+grammar.Diminutive: het boekje
+
+//
+
+word: schrift
+translation: notebook, writing pad
+type: noun
+group: School & Education
+pronunciation: /sxlɪft/
+example.nl: Ik schrijf alle belangrijke formules in mijn schrift.
+example.en: I write all important formulas in my notebook.
+etymology: From the verb schrijven (to write).
+note: "Schrift" is the paper notebook used by school children. "Notitieboek" is also common, especially for adults/office settings.
+tags: ⭐ common, 🏫 school, 📄 document
+priority: yes
+grammar.Article / Gender: het
+grammar.Plural: schriften
+grammar.Diminutive: het schriftje
+
+//
+
+word: pen
+translation: pen
+type: noun
+group: School & Education
+pronunciation: /pɛn/
+example.nl: Mag ik even jouw blauwe pen lenen?
+example.en: May I borrow your blue pen for a moment?
+etymology: From Latin penna (feather/quill).
+tags: ⭐ common, 🏫 school
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: pennen
+grammar.Diminutive: het pennetje
+
+//
+
+word: potlood
+translation: pencil
+type: noun
+group: School & Education
+pronunciation: /pot.ˈloːt/
+example.nl: Je moet de tekening eerst met potlood schetsen.
+example.en: You must sketch the drawing with a pencil first.
+etymology: Compound of pot (pot/melting pot) and lood (lead). Literally "pot lead" (graphite was historically processed in pots).
+tags: ⭐ common, 🏫 school, 🎨 art
+priority: yes
+grammar.Article / Gender: het
+grammar.Plural: potloden
+grammar.Diminutive: het potloodje
+
+//
+
+word: liniaal
+translation: ruler, line ruler
+type: noun
+group: School & Education
+pronunciation: /li.ˈneː.jaːl/
+example.nl: Gebruik een liniaal om een kaarsrechte lijn te trekken.
+example.en: Use a ruler to draw a perfectly straight line.
+etymology: From Latin linealis (consisting of lines).
+tags: 🏫 school, 📏 tools
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: linialen
+grammar.Diminutive: het liniaaltje
+
+//
+
+word: rugtas
+translation: backpack, schoolbag
+type: noun
+group: School & Education
+pronunciation: /rʏx.ˈtɑs/
+example.nl: Mijn rugtas is loodzwaar door alle boeken.
+example.en: My schoolbag is extremely heavy because of all the books.
+etymology: Compound of rug (back) and tas (bag).
+note: "Schooltas" is also a direct equivalent.
+tags: ⭐ common, 🏫 school, 🛍️ shopping
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: rugtassen
+grammar.Diminutive: het rugtasje
+
+//
+
+word: leren
+translation: to learn, to teach
+type: verb
+group: School & Education
+pronunciation: /ˈleː.rə(n)/
+example.nl: Ik wil graag Nederlands leren spreken.
+example.en: I would like to learn to speak Dutch.
+etymology: From Proto-Germanic *liznaną.
+note: In Dutch, "leren" serves as a double-directional verb meaning both "to learn" and "to teach" (e.g., "Ik leer hem Nederlands" - I teach him Dutch).
+tags: ⭐ common, 🏫 school, 🧠 thinking
+priority: yes
+grammar.Past tense (sg.): leerde
+grammar.Past participle: geleerd
+grammar.Auxiliary: hebben
+grammar.Present (ik / jij / hij / wij / jullie / zij): leer / leert / leert / leren / leren / leren
+
+//
+
+word: studeren
+translation: to study
+type: verb
+group: School & Education
+pronunciation: /sty.ˈdeː.rə(n)/
+example.nl: Wij studeren vanavond samen in de bibliotheek.
+example.en: We are studying together in the library tonight.
+etymology: From Latin studere.
+note: Specifically used for university or higher education. For general studying/school homework, "leren" is used.
+tags: ⭐ common, 🏫 school, 🧠 thinking
+priority: yes
+grammar.Past tense (sg.): studeerde
+grammar.Past participle: gestudeerd
+grammar.Auxiliary: hebben
+grammar.Present (ik / jij / hij / wij / jullie / zij): studeer / studeert / studeert / studeren / studeren / studeren
+
+//
+
+word: lezen
+translation: to read
+type: verb
+group: School & Education
+pronunciation: /ˈleː.zə(n)/
+example.nl: Zij leest elke avond een hoofdstuk in haar roman.
+example.en: She reads a chapter in her novel every night.
+etymology: From Proto-Germanic *lesaną (to gather/read).
+tags: ⭐ common, 🏫 school, 📚 literary
+priority: yes
+grammar.Past tense (sg.): las
+grammar.Past participle: gelezen
+grammar.Auxiliary: hebben
+grammar.Present (ik / jij / hij / wij / jullie / zij): lees / leest / leest / lezen / lezen / lezen
+
+//
+
+word: schrijven
+translation: to write
+type: verb
+group: School & Education
+pronunciation: /ˈsxrɛi.ʋə(n)/
+example.nl: Ik schrijf een essay over hernieuwbare energie.
+example.en: I am writing an essay about renewable energy.
+etymology: Borrowed from Latin scribere.
+tags: ⭐ common, 🏫 school, 💬 communication
+priority: yes
+grammar.Past tense (sg.): schreef
+grammar.Past participle: geschreven
+grammar.Auxiliary: hebben
+grammar.Present (ik / jij / hij / wij / jullie / zij): schrijf / schrijft / schrijft / schrijven / schrijven / schrijven
+
+//
+
+word: begrijpen
+translation: to understand, to comprehend
+type: verb
+group: School & Education
+pronunciation: /bə.ˈɣrɪ.pə(n)/
+example.nl: Ik begrijp deze ingewikkelde theorie nog niet helemaal.
+example.en: I don't completely understand this complicated theory yet.
+etymology: Prefix be- + grijpen (to seize/grasp). Literally "to grasp".
+note: "Snappen" is an extremely common informal synonym.
+tags: ⭐ common, 🏫 school, 🧠 thinking
+priority: yes
+grammar.Past tense (sg.): begreep
+grammar.Past participle: begrepen
+grammar.Auxiliary: hebben
+grammar.Present (ik / jij / hij / wij / jullie / zij): begrijp / begrijpt / begrijpt / begrijpen / begrijpen / begrijpen
+
+//
+
+word: uitleggen
+translation: to explain, to clarify
+type: verb
+group: School & Education
+pronunciation: /ˈœyt.leː.ɣə(n)/
+example.nl: Kunt u die ingewikkelde som nog eens uitleggen?
+example.en: Could you explain that complicated sum once more?
+etymology: Separable compound of uit (out) and leggen (to lay/put). Literally "to lay out".
+note: Separable verb: "ik leg uit", "uitgelegd".
+tags: ⭐ common, 🏫 school, 💬 communication
+priority: yes
+grammar.Past tense (sg.): legde uit
+grammar.Past participle: uitgelegd
+grammar.Auxiliary: hebben
+grammar.Present (ik / jij / hij / wij / jullie / zij): leg uit / legt uit / legt uit / leggen uit / leggen uit / leggen uit
+
+//
+
+word: vragen
+translation: to ask, to request
+type: verb
+group: School & Education
+pronunciation: /ˈvraː.ɣə(n)/
+example.nl: Je mag de leraar altijd om extra hulp vragen.
+example.en: You may always ask the teacher for extra help.
+etymology: From Proto-Germanic *frahjaną.
+tags: ⭐ common, 🏫 school, 💬 communication
+priority: yes
+grammar.Past tense (sg.): vroeg
+grammar.Past participle: gevraagd
+grammar.Auxiliary: hebben
+grammar.Present (ik / jij / hij / wij / jullie / zij): vraag / vraagt / vraagt / vragen / vragen / vragen
+
+//
+
+word: antwoorden
+translation: to answer, to reply
+type: verb
+group: School & Education
+pronunciation: /ɑnt.ˈʋoːr.də(n)/
+example.nl: Hij kon de vraag van de examinator direct antwoorden.
+example.en: He was able to answer the examiner's question immediately.
+etymology: From Middle Dutch antwoorden, Proto-Germanic *andawurdiją.
+note: Can be used with "op" when answering a specific question: "antwoorden op een vraag". "Beantwoorden" is also extremely common (and transitive).
+tags: ⭐ common, 🏫 school, 💬 communication
+priority: yes
+grammar.Past tense (sg.): antwoordde
+grammar.Past participle: geantwoord
+grammar.Auxiliary: hebben
+grammar.Present (ik / jij / hij / wij / jullie / zij): antwoord / antwoordt / antwoordt / antwoorden / antwoorden / antwoorden
+
+//
+
+word: slagen
+translation: to pass, to succeed
+type: verb
+group: School & Education
+pronunciation: /ˈslaː.ɣə(n)/
+example.nl: Ik hoop echt dat ik ga slagen voor mijn scheikunde-examen.
+example.en: I really hope I am going to pass my chemistry exam.
+etymology: From Middle Dutch slag (blow/strike).
+note: Intransitive. Always combined with "voor" when specifying what was passed (e.g., "slagen voor een examen").
+tags: ⭐ common, 🏫 school, 📈 progress
+priority: yes
+grammar.Past tense (sg.): slaagde
+grammar.Past participle: geslaagd
+grammar.Auxiliary: zijn
+grammar.Present (ik / jij / hij / wij / jullie / zij): slaag / slaagt / slaagt / slagen / slagen / slagen
+
+//
+
+word: zakken
+translation: to fail, to sink
+type: verb
+group: School & Education
+pronunciation: /ˈsɑk.ə(n)/
+example.nl: Helaas is hij gezakt voor zijn aardrijkskundetoets.
+example.en: Unfortunately, he failed his geography test.
+etymology: From Middle Dutch sacken (to sink/drop down).
+note: Intransitive. Vowel change in English "fail" doesn't match literal "zakken" (to sink/drop). Combined with "voor" to specify what was failed.
+tags: ⭐ common, 🏫 school, 📉 progress
+priority: yes
+grammar.Past tense (sg.): zakte
+grammar.Past participle: gezakt
+grammar.Auxiliary: zijn
+grammar.Present (ik / jij / hij / wij / jullie / zij): zak / zakt / zakt / zakken / zakken / zakken

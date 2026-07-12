@@ -1,0 +1,474 @@
+word: blij
+translation: happy, glad
+type: adjective
+group: Emotions
+pronunciation: /blɛi/
+example.nl: Ik ben heel blij met mijn verjaardagscadeau.
+example.en: I am very happy with my birthday present.
+etymology: From Middle Dutch blide.
+note: Often used as a general, spontaneous state of happiness.
+tags: ⭐ common, 🎭 adjective, 😊 emotion
+priority: yes
+grammar.Inflected form: blije
+grammar.Comparative: blijer
+grammar.Superlative: blijst
+
+//
+
+word: verdrietig
+translation: sad, sorrowful
+type: adjective
+group: Emotions
+pronunciation: /vərˈdritəx/
+example.nl: Waarom ben je zo verdrietig vandaag?
+example.en: Why are you so sad today?
+etymology: Derived from verdriet (grief/sorrow).
+note: Synonymous with 'triest', but more personal.
+tags: ⭐ common, 🎭 adjective, 😢 emotion
+priority: yes
+grammar.Inflected form: verdrietige
+grammar.Comparative: verdrietiger
+grammar.Superlative: verdrietigst
+
+//
+
+word: boos
+translation: angry, mad
+type: adjective
+group: Emotions
+pronunciation: /boːs/
+example.nl: Hij werd erg boos toen hij de waarheid hoorde.
+example.en: He got very angry when he heard the truth.
+etymology: From Proto-Germanic *bausiz (bad/proud).
+note: Can be used with "op" (angry at).
+tags: ⭐ common, 🎭 adjective, 😠 emotion
+priority: yes
+grammar.Inflected form: boze
+grammar.Comparative: bozer
+grammar.Superlative: boost
+
+//
+
+word: bang
+translation: afraid, scared
+type: adjective
+group: Emotions
+pronunciation: /bɑŋ/
+example.nl: Het kind is bang voor de grote hond.
+example.en: The child is afraid of the big dog.
+etymology: From Middle Dutch bang (oppressed/narrow).
+note: Always followed by the preposition "voor" when expressing fear of something.
+tags: ⭐ common, 🎭 adjective, 😨 emotion
+priority: yes
+grammar.Inflected form: bange
+grammar.Comparative: banger
+grammar.Superlative: bangst
+
+//
+
+word: verbaasd
+translation: surprised, astonished
+type: adjective
+group: Emotions
+pronunciation: /vərˈbaːst/
+example.nl: Ze was verbaasd om haar oude vriend te zien.
+example.en: She was surprised to see her old friend.
+etymology: Past participle of the verb verbazen (to surprise).
+note: Can also mean bewildered or puzzled.
+tags: 🎭 adjective, 😲 emotion
+priority: yes
+grammar.Inflected form: verbaasde
+grammar.Comparative: verbaasder
+grammar.Superlative: meest verbaasd
+
+//
+
+word: zenuwachtig
+translation: nervous, tense
+type: adjective
+group: Emotions
+pronunciation: /ˈzeːnyʋɑxtəx/
+example.nl: Ik ben altijd zenuwachtig voor een examen.
+example.en: I am always nervous before an exam.
+etymology: Derived from zenuw (nerve) + -achtig (like/similar to).
+note: Indicates state-based anxiety or nervousness.
+tags: ⭐ common, 🎭 adjective, 😬 emotion
+priority: yes
+grammar.Inflected form: zenuwachtige
+grammar.Comparative: zenuwachtiger
+grammar.Superlative: zenuwachtigst
+
+//
+
+word: enthousiast
+translation: excited, enthusiastic
+type: adjective
+group: Emotions
+pronunciation: /ɑntuˈʃɑst/
+example.nl: De kinderen zijn erg enthousiast over de reis.
+example.en: The children are very excited about the trip.
+etymology: From French enthousiaste.
+note: Often more standard than 'opgewonden' for positive anticipation.
+tags: ⭐ common, 🎭 adjective, 😄 emotion
+priority: yes
+grammar.Inflected form: enthousiaste
+grammar.Comparative: enthousiaster
+grammar.Superlative: meest enthousiast
+
+//
+
+word: moe
+translation: tired, weary
+type: adjective
+group: Emotions
+pronunciation: /mu/
+example.nl: Na een lange werkdag ben ik meestal erg moe.
+example.en: After a long workday I am usually very tired.
+etymology: From Proto-Germanic *mōþaz.
+note: Highly irregular inflected ending.
+tags: ⭐ common, 🎭 adjective, 😴 emotion
+priority: yes
+grammar.Inflected form: moeë
+grammar.Comparative: moeër
+grammar.Superlative: moest
+
+//
+
+word: verveeld
+translation: bored
+type: adjective
+group: Emotions
+pronunciation: /vərˈveːlt/
+example.nl: De verveelde leerling keek naar buiten.
+example.en: The bored student looked outside.
+etymology: Past participle of the verb vervelen (to bore).
+note: Active "zich vervelen" (to bore oneself) is often used instead.
+tags: 🎭 adjective, 😑 emotion
+priority: no
+grammar.Inflected form: verveelde
+grammar.Comparative: verveelder
+grammar.Superlative: meest verveeld
+
+//
+
+word: verward
+translation: confused, muddled
+type: adjective
+group: Emotions
+pronunciation: /vərˈʋɑrt/
+example.nl: De oude man was een beetje verward.
+example.en: The old man was a bit confused.
+etymology: Past participle of the verb verwarren (to confuse).
+note: "In de war" is a highly common colloquial equivalent phrase.
+tags: 🎭 adjective, 😕 emotion
+priority: yes
+grammar.Inflected form: verwarde
+grammar.Comparative: verwarder
+grammar.Superlative: meest verward
+
+//
+
+word: trots
+translation: proud
+type: adjective
+group: Emotions
+pronunciation: /trɔts/
+example.nl: Ik ben trots op jouw prestaties.
+example.en: I am proud of your achievements.
+etymology: Borrowed from Old French prot (brave/valiant).
+note: Usually combined with the preposition "op".
+tags: ⭐ common, 🎭 adjective, 😎 emotion
+priority: yes
+grammar.Inflected form: trotse
+grammar.Comparative: trotser
+grammar.Superlative: trotst
+
+//
+
+word: beschaamd
+translation: ashamed, embarrassed
+type: adjective
+group: Emotions
+pronunciation: /bəˈsxaːmt/
+example.nl: Hij keek beschaamd naar de grond na zijn fout.
+example.en: He looked ashamed at the ground after his mistake.
+etymology: Past participle of the verb beschamen (to shame).
+note: Frequently used when describing social embarrassment.
+tags: 🎭 adjective, 😳 emotion
+priority: no
+grammar.Inflected form: beschaamde
+grammar.Comparative: beschaamder
+grammar.Superlative: meest beschaamd
+
+//
+
+word: jaloers
+translation: jealous, envious
+type: adjective
+group: Emotions
+pronunciation: /jaːˈluːrs/
+example.nl: Ben je jaloers op de nieuwe auto van je buurman?
+example.en: Are you jealous of your neighbor's new car?
+etymology: From French jaloux.
+note: Often paired with "op" to state who or what you are jealous of.
+tags: ⭐ common, 🎭 adjective, 😒 emotion
+priority: yes
+grammar.Inflected form: jaloerse
+grammar.Comparative: jaloerser
+grammar.Superlative: jaloersst
+
+//
+
+word: eenzaam
+translation: lonely, lonesome
+type: adjective
+group: Emotions
+pronunciation: /ˈeːnzaːm/
+example.nl: Ze voelde zich erg eenzaam in de grote stad.
+example.en: She felt very lonely in the big city.
+etymology: Derived from een (one) + -zaam.
+note: Indicates emotional isolation.
+tags: 🎭 adjective, 🥺 emotion
+priority: yes
+grammar.Inflected form: eenzame
+grammar.Comparative: eenzamer
+grammar.Superlative: eenzaamst
+
+//
+
+word: rustig
+translation: calm, quiet, peaceful
+type: adjective
+group: Emotions
+pronunciation: /ˈrʏstəx/
+example.nl: Blijf rustig, alles komt goed.
+example.en: Stay calm, everything will be fine.
+etymology: Derived from rust (rest) + -ig.
+note: Opposite of "druk" (busy/hyperactive) or "wild".
+tags: ⭐ common, 🎭 adjective, 😌 emotion
+priority: yes
+grammar.Inflected form: rustige
+grammar.Comparative: rustiger
+grammar.Superlative: rustigst
+
+//
+
+word: gestrest
+translation: stressed, stressed out
+type: adjective
+group: Emotions
+pronunciation: /ɣəˈstrɛst/
+example.nl: Ik voel me erg gestrest door mijn werk.
+example.en: I feel very stressed because of my work.
+etymology: Borrowed from English stress.
+note: Spelling ends in -t because of Dutch phonetic rules.
+tags: ⭐ common, 🎭 adjective, 😫 emotion
+priority: yes
+grammar.Inflected form: gestreste
+grammar.Comparative: gestrester
+grammar.Superlative: meest gestrest
+
+//
+
+word: ontspannen
+translation: relaxed, laid-back
+type: adjective
+group: Emotions
+pronunciation: /ɔntˈspɑnə(n)/
+example.nl: We hadden een heel ontspannen vakantie.
+example.en: We had a very relaxed holiday.
+etymology: Past participle of the verb ontspannen (to relax/unbend).
+note: Inflected form stays identical to the base form.
+tags: ⭐ common, 🎭 adjective, 😎 emotion
+priority: yes
+grammar.Inflected form: ontspannen
+grammar.Comparative: ontspannener
+grammar.Superlative: meest ontspannen
+
+//
+
+word: nieuwsgierig
+translation: curious, inquisitive
+type: adjective
+group: Emotions
+pronunciation: /niu̯sˈxiːrəx/
+example.nl: De nieuwsgierige kat keek in de doos.
+example.en: The curious cat looked into the box.
+etymology: Compound of nieuws (news) and gierig (greedy/eager).
+note: Literally translates to "eager for news".
+tags: ⭐ common, 🎭 adjective, 👀 emotion
+priority: yes
+grammar.Inflected form: nieuwsgierige
+grammar.Comparative: nieuwsgieriger
+grammar.Superlative: nieuwsgierigst
+
+//
+
+word: hoopvol
+translation: hopeful, optimistic
+type: adjective
+group: Emotions
+pronunciation: /ˈhoːp_vɔl/
+example.nl: Wij zijn hoopvol gestemd over de toekomst.
+example.en: We are feeling hopeful about the future.
+etymology: Compound of hoop (hope) and vol (full).
+note: Opposite of "hopeloos" (hopeless).
+tags: 🎭 adjective, 🌱 emotion
+priority: no
+grammar.Inflected form: hoopvolle
+grammar.Comparative: hoopvoller
+grammar.Superlative: hoopvolst
+
+//
+
+word: teleurgesteld
+translation: disappointed, let down
+type: adjective
+group: Emotions
+pronunciation: /təˈløːrɣəstɛlt/
+example.nl: Ze was teleurgesteld dat de vlucht geannuleerd was.
+example.en: She was disappointed that the flight was canceled.
+etymology: Past participle of teleurstellen (to disappoint).
+note: Can take the preposition "over" (about) or "in" (in).
+tags: ⭐ common, 🎭 adjective, 😞 emotion
+priority: yes
+grammar.Inflected form: teleurgestelde
+grammar.Comparative: teleurgestelder
+grammar.Superlative: meest teleurgesteld
+
+//
+
+word: dankbaar
+translation: grateful, thankful
+type: adjective
+group: Emotions
+pronunciation: /ˈdɑŋkbaːr/
+example.nl: Ik ben erg dankbaar voor je hulp.
+example.en: I am very grateful for your help.
+etymology: From dank (thanks) + -baar (able to/worthy of).
+note: Often followed by "voor" (for) to point to the cause.
+tags: ⭐ common, 🎭 adjective, 🙏 emotion
+priority: yes
+grammar.Inflected form: dankbare
+grammar.Comparative: dankbarer
+grammar.Superlative: dankbaarst
+
+//
+
+word: tevreden
+translation: content, satisfied
+type: adjective
+group: Emotions
+pronunciation: /təˈvreːdə(n)/
+example.nl: Met een goed boek is hij altijd tevreden.
+example.en: With a good book he is always content.
+etymology: Derived from vrede (peace).
+note: Indicates a peaceful state of mind and satisfaction.
+tags: ⭐ common, 🎭 adjective, 😊 emotion
+priority: yes
+grammar.Inflected form: tevreden
+grammar.Comparative: tevredener
+grammar.Superlative: meest tevreden
+
+//
+
+word: liefde
+translation: love, affection
+type: noun
+group: Emotions
+pronunciation: /ˈlifdə/
+example.nl: Liefde overwint alles.
+example.en: Love conquers all.
+etymology: From Proto-Germanic *leubō.
+note: Often paired with verbs like "voelen" (to feel) or "verklaren" (to declare).
+tags: ⭐ common, ❤️ emotion, 🏠 home
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: liefdes
+grammar.Diminutive: het liefdetje
+
+//
+
+word: haat
+translation: hate, hatred
+type: noun
+group: Emotions
+pronunciation: /haːt/
+example.nl: Haat lost geen problemen op.
+example.en: Hate does not solve any problems.
+etymology: From Proto-Germanic *hataz.
+note: Grammatically singular, usually uncountable.
+tags: 🖤 emotion, 🎭 emotion
+priority: no
+grammar.Article / Gender: de
+grammar.Plural: -
+grammar.Diminutive: -
+
+//
+
+word: angst
+translation: fear, anxiety, dread
+type: noun
+group: Emotions
+pronunciation: /angst/
+example.nl: Hij overwon zijn angst voor hoogtes.
+example.en: He overcame his fear of heights.
+etymology: From Proto-Germanic *angustiz.
+note: Can also refer to an abstract sense of dread.
+tags: ⭐ common, 😨 emotion
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: angsten
+grammar.Diminutive: het angstje
+
+//
+
+word: vreugde
+translation: joy, gladness, delight
+type: noun
+group: Emotions
+pronunciation: /ˈvrøːɣdə/
+example.nl: Hun gezichten straalden van vreugde.
+example.en: Their faces beamed with joy.
+etymology: From Middle Dutch vreugde, related to verheugen (to rejoice).
+note: Has a slightly literary or solemn nuance compared to "blijdschap".
+tags: 🌟 emotion, 🎉 emotion
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: vreugden
+grammar.Diminutive: het vreugdetje
+
+//
+
+word: voelen
+translation: to feel, sense
+type: verb
+group: Emotions
+pronunciation: /ˈvula(n)/
+example.nl: Ik voel me vandaag een stuk beter.
+example.en: I feel a lot better today.
+etymology: From Proto-Germanic *fōlijaną.
+note: When expressing emotional health/feelings, it must be used reflexively ("zich voelen").
+tags: ⭐ common, 🧠 thinking, 😊 emotion
+priority: yes
+grammar.Past tense (sg.): voelde
+grammar.Past participle: gevoeld
+grammar.Auxiliary: hebben
+grammar.Present (ik / jij / hij / wij / jullie / zij): voel / voelt / voelt / voelen / voelen / voelen
+
+//
+
+word: humeur
+translation: mood, temper
+type: noun
+group: Emotions
+pronunciation: /hyˈmøːr/
+example.nl: Koffie verbetert altijd mijn humeur.
+example.en: Coffee always improves my mood.
+etymology: From French humeur, from Latin humor (fluid).
+note: "In een goed humeur zijn" translates directly to "being in a good mood".
+tags: ⭐ common, 😊 emotion
+priority: yes
+grammar.Article / Gender: het
+grammar.Plural: humeuren
+grammar.Diminutive: het humeurtje

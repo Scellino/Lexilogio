@@ -1,0 +1,577 @@
+word: voetbal
+translation: football, soccer, football ball
+type: noun
+group: Sports & Hobbies
+pronunciation: /ˈvut.bɑl/
+example.nl: De kinderen spelen na schooltijd altijd voetbal op het pleintje.
+example.en: The children always play football on the square after school.
+etymology: Compound of voet (foot) and bal (ball).
+note: Can refer both to the sport itself and the physical ball.
+tags: ⭐ common, ⚽ sport
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: voetballen
+grammar.Diminutive: het voetballetje
+
+//
+
+word: tennis
+translation: tennis
+type: noun
+group: Sports & Hobbies
+pronunciation: /ˈtɛ.nɪs/
+example.nl: Zij speelt elke woensdagavond een intensief potje tennis.
+example.en: She plays an intensive game of tennis every Wednesday evening.
+etymology: From Old French tenez (hold/receive!).
+note: Generally uncountable when referring to the sport.
+tags: ⭐ common, ⚽ sport
+priority: yes
+grammar.Article / Gender: het
+grammar.Plural: -
+grammar.Diminutive: -
+
+//
+
+word: zwemmen
+translation: swimming
+type: noun
+group: Sports & Hobbies
+pronunciation: /ˈzʋɛ.mə(n)/
+example.nl: Zwemmen is een uitstekende sport voor je hele lichaam.
+example.en: Swimming is an excellent sport for your entire body.
+etymology: Nominalized infinitive of the verb zwemmen (to swim).
+note: Standard gerund form. To use as a verb, conjugate the base "zwem".
+tags: ⭐ common, 🏊 sport
+priority: yes
+grammar.Article / Gender: het
+grammar.Plural: -
+grammar.Diminutive: -
+
+//
+
+word: hardlopen
+translation: running, jogging
+type: noun
+group: Sports & Hobbies
+pronunciation: /ˈɦɑrt.loː.pə(n)/
+example.nl: Ik doe aan hardlopen om mijn conditie te verbeteren.
+example.en: I do running to improve my fitness.
+etymology: Compound of hard (fast) and lopen (to run/walk).
+note: "Lopen" on its own usually means walking in daily life. "Hardlopen" specifies running as a sport.
+tags: ⭐ common, 🏃 sport
+priority: yes
+grammar.Article / Gender: het
+grammar.Plural: -
+grammar.Diminutive: -
+
+//
+
+word: fietsen
+translation: cycling, riding a bike
+type: noun
+group: Sports & Hobbies
+pronunciation: /ˈfit.sə(n)/
+example.nl: In Nederland is fietsen niet alleen een hobby, maar ook vervoer.
+example.en: In the Netherlands, cycling is not just a hobby, but also transport.
+etymology: Nominalized infinitive of the verb fietsen (to cycle).
+tags: ⭐ common, 🚲 sport, 🇳🇱 dutchness
+priority: yes
+grammar.Article / Gender: het
+grammar.Plural: -
+grammar.Diminutive: het fietsen
+
+//
+
+word: basketbal
+translation: basketball
+type: noun
+group: Sports & Hobbies
+pronunciation: /ˈbɑs.kɛt.bɑl/
+example.nl: De herenploeg traint hard voor het basketbaltoernooi.
+example.en: The men's team is training hard for the basketball tournament.
+etymology: Borrowed from English basketball.
+tags: 🏀 sport
+priority: yes
+grammar.Article / Gender: het
+grammar.Plural: basketballen
+grammar.Diminutive: het basketballetje
+
+//
+
+word: volleybal
+translation: volleyball
+type: noun
+group: Sports & Hobbies
+pronunciation: /ˈvɔ.li.bɑl/
+example.nl: We spelen in de zomer vaak volleybal op het strand.
+example.en: We often play volleyball on the beach in the summer.
+etymology: Borrowed from English volleyball.
+tags: 🏐 sport, 🏖️ nature
+priority: yes
+grammar.Article / Gender: het
+grammar.Plural: volleyballen
+grammar.Diminutive: het volleyballetje
+
+//
+
+word: skiën
+translation: skiing
+type: noun
+group: Sports & Hobbies
+pronunciation: /ˈski.ə(n)/
+example.nl: Veel Nederlanders gaan in februari naar Oostenrijk om te skiën.
+example.en: Many Dutch people go to Austria in February to ski.
+etymology: Nominalized verb borrowed from Norwegian ski.
+note: Plural and diminutive do not apply when treated as a nominalized gerund.
+tags: ⛷️ sport, ❄️ winter
+priority: yes
+grammar.Article / Gender: het
+grammar.Plural: -
+grammar.Diminutive: -
+
+//
+
+word: boksen
+translation: boxing
+type: noun
+group: Sports & Hobbies
+pronunciation: /ˈbɔk.sə(n)/
+example.nl: Boksen vereist zowel fysieke kracht als mentale focus.
+example.en: Boxing requires both physical strength and mental focus.
+etymology: Nominalized verb, from English box / Middle Dutch boke (blow).
+tags: 🥊 sport
+priority: yes
+grammar.Article / Gender: het
+grammar.Plural: -
+grammar.Diminutive: -
+
+//
+
+word: yoga
+translation: yoga
+type: noun
+group: Sports & Hobbies
+pronunciation: /ˈjoː.ɣaː/
+example.nl: Zij doet elke ochtend yoga om flexibel en rustig te blijven.
+example.en: She does yoga every morning to stay flexible and calm.
+etymology: From Sanskrit yoga (yoke/union).
+note: Uncountable. Uses "doen aan" (doen aan yoga - to practice yoga).
+tags: ⭐ common, 🧘 sport, 😌 emotion
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: -
+grammar.Diminutive: -
+
+//
+
+word: sportschool
+translation: gym, fitness center
+type: noun
+group: Sports & Hobbies
+pronunciation: /ˈspɔrt.sxoːl/
+example.nl: Ik ga drie keer per week trainen in de sportschool.
+example.en: I go training in the gym three times a week.
+etymology: Compound of sport (sport) and school (school).
+note: Literally "sports school". "Gym" is used in Dutch to refer to physical education in school, not the fitness center.
+tags: ⭐ common, 🏋️ sport
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: sportscholen
+grammar.Diminutive: het sportschooltje
+
+//
+
+word: wandelen
+translation: hiking, walking, strolling
+type: noun
+group: Sports & Hobbies
+pronunciation: /ˈʋɑn.də.lə(n)/
+example.nl: Wandelen in de duinen is een van onze favoriete activiteiten.
+example.en: Hiking in the dunes is one of our favorite activities.
+etymology: Nominalized infinitive of wandelen.
+note: Refers to leisure walking or light hiking. Extreme hiking with backpacks is often called "hiken".
+tags: ⭐ common, 🚶 movement, 🌳 nature
+priority: yes
+grammar.Article / Gender: het
+grammar.Plural: -
+grammar.Diminutive: het wandelinkje
+
+//
+
+word: koken
+translation: cooking
+type: noun
+group: Sports & Hobbies
+pronunciation: /ˈkoː.kə(n)/
+example.nl: Koken is mijn grootste passie en ik probeer graag nieuwe recepten uit.
+example.en: Cooking is my greatest passion and I like to try out new recipes.
+etymology: Nominalized infinitive of koken (to cook/boil).
+tags: ⭐ common, 🍳 kitchen
+priority: yes
+grammar.Article / Gender: het
+grammar.Plural: -
+grammar.Diminutive: -
+
+//
+
+word: tekenen
+translation: drawing, sketching
+type: noun
+group: Sports & Hobbies
+pronunciation: /ˈteː.kə.nə(n)/
+example.nl: Met een simpel potlood kun je urenlang plezier beleven aan tekenen.
+example.en: With a simple pencil, you can enjoy drawing for hours.
+etymology: Nominalized infinitive of tekenen (to sign/draw).
+tags: ⭐ common, 🎨 art
+priority: yes
+grammar.Article / Gender: het
+grammar.Plural: -
+grammar.Diminutive: -
+
+//
+
+word: schilderen
+translation: painting
+type: noun
+group: Sports & Hobbies
+pronunciation: /ˈsxɪl.də.rə(n)/
+example.nl: Het schilderen van landschappen geeft haar veel rust.
+example.en: Painting landscapes gives her a lot of peace.
+etymology: Nominalized infinitive of schilderen (to paint), from schilder (painter).
+note: Used both for artistic painting and house painting.
+tags: 🎨 art, 🖌️ hobby
+priority: yes
+grammar.Article / Gender: het
+grammar.Plural: -
+grammar.Diminutive: -
+
+//
+
+word: fotografie
+translation: photography
+type: noun
+group: Sports & Hobbies
+pronunciation: /foː.toː.ɣraː.ˈfi/
+example.nl: Hij heeft een dure camera gekocht voor zijn nieuwe hobby: fotografie.
+example.en: He bought an expensive camera for his new hobby: photography.
+etymology: From Greek phōs (light) and graphē (drawing).
+tags: 📸 art, 📷 hobby
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: -
+grammar.Diminutive: -
+
+//
+
+word: dansen
+translation: dancing
+type: noun
+group: Sports & Hobbies
+pronunciation: /ˈdɑn.sə(n)/
+example.nl: Dansen op livemuziek is de beste manier om het weekend te vieren.
+example.en: Dancing to live music is the best way to celebrate the weekend.
+etymology: Nominalized infinitive of dansen (to dance).
+tags: ⭐ common, 🎵 music, 💃 hobby
+priority: yes
+grammar.Article / Gender: het
+grammar.Plural: -
+grammar.Diminutive: -
+
+//
+
+word: tuinieren
+translation: gardening
+type: noun
+group: Sports & Hobbies
+pronunciation: /tœy.ˈni.rə(n)/
+example.nl: Mijn grootmoeder brengt elke zonnige middag door met tuinieren.
+example.en: My grandmother spends every sunny afternoon gardening.
+etymology: Nominalized infinitive of tuinieren, from tuin (garden).
+tags: 🌳 garden, 🌿 nature
+priority: yes
+grammar.Article / Gender: het
+grammar.Plural: -
+grammar.Diminutive: -
+
+//
+
+word: gamen
+translation: gaming, video gaming
+type: noun
+group: Sports & Hobbies
+pronunciation: /ˈɡeː.mə(n)/
+example.nl: Online gamen met vrienden is erg populair onder jongeren.
+example.en: Online gaming with friends is very popular among youth.
+etymology: Borrowed from English to game.
+note: Highly popular colloquial verb/noun. Native equivalent "computeren" is considered old-fashioned.
+tags: 🎮 technology, 👾 hobby
+priority: yes
+grammar.Article / Gender: het
+grammar.Plural: -
+grammar.Diminutive: -
+
+//
+
+word: film
+translation: film, movie
+type: noun
+group: Sports & Hobbies
+pronunciation: /fɪlm/
+example.nl: Welke film draait er vanavond in de bioscoop?
+example.en: Which movie is playing at the cinema tonight?
+etymology: From English film.
+tags: ⭐ common, 🎬 entertainment
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: films
+grammar.Diminutive: het filmpje
+
+//
+
+word: team
+translation: team, crew
+type: noun
+group: Sports & Hobbies
+pronunciation: /tim/
+example.nl: Ons team heeft dit seizoen nog geen enkele wedstrijd verloren.
+example.en: Our team hasn't lost a single match this season.
+etymology: Borrowed from English team.
+note: Plural takes apostrophe-s or simple -s depending on the base, but "teams" is standard. "Ploeg" is a common native Dutch synonym.
+tags: ⭐ common, 👥 people, ⚽ sport
+priority: yes
+grammar.Article / Gender: het
+grammar.Plural: teams
+grammar.Diminutive: het teampje
+
+//
+
+word: speler
+translation: player
+type: noun
+group: Sports & Hobbies
+pronunciation: /ˈspeː.lər/
+example.nl: De coach gaf instructies aan de belangrijkste speler van de ploeg.
+example.en: The coach gave instructions to the key player of the squad.
+etymology: Derived from the verb spelen (to play).
+note: Female is "speelster".
+tags: ⭐ common, 👥 people, ⚽ sport
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: spelers
+grammar.Diminutive: het spelertje
+
+//
+
+word: wedstrijd
+translation: match, game, competition
+type: noun
+group: Sports & Hobbies
+pronunciation: /ˈʋɛt.strɛit/
+example.nl: De wedstrijd gisteravond eindigde in een gelijkspel.
+example.en: The match last night ended in a draw.
+etymology: Compound of wet (law/pledge) and strijd (battle/struggle).
+tags: ⭐ common, ⚽ sport
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: wedstrijden
+grammar.Diminutive: het wedstrijdje
+
+//
+
+word: doelpunt
+translation: goal, point scored
+type: noun
+group: Sports & Hobbies
+pronunciation: /ˈdul.pʏnt/
+example.nl: Zij scoorde vlak voor tijd het winnende doelpunt.
+example.en: She scored the winning goal right before the end of the game.
+etymology: Compound of doel (goal/target) and punt (point).
+note: "Doel" also translates to the physical goalposts/net, whereas "doelpunt" is the point scored.
+tags: ⭐ common, ⚽ sport, 📈 progress
+priority: yes
+grammar.Article / Gender: het
+grammar.Plural: doelpunten
+grammar.Diminutive: het doelpuntje
+
+//
+
+word: score
+translation: score, tally
+type: noun
+group: Sports & Hobbies
+pronunciation: /ˈskoː.rə/
+example.nl: Wat is de huidige score van de basketbalwedstrijd?
+example.en: What is the current score of the basketball game?
+etymology: Borrowed from English score.
+tags: 🔢 math, ⚽ sport
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: scores
+grammar.Diminutive: het scoretje
+
+//
+
+word: spelen
+translation: to play
+type: verb
+group: Sports & Hobbies
+pronunciation: /ˈspeː.lə(n)/
+example.nl: Zullen we vanavond een bordspel spelen?
+example.en: Shall we play a board game tonight?
+etymology: From Proto-Germanic *spilōną.
+tags: ⭐ common, 🚶 movement, 🎮 hobby
+priority: yes
+grammar.Past tense (sg.): speelde
+grammar.Past participle: gespeeld
+grammar.Auxiliary: hebben
+grammar.Present (ik / jij / hij / wij / jullie / zij): speel / speelt / speelt / spelen / spelen / spelen
+
+//
+
+word: oefenen
+translation: to practice, to rehearse, to exercise
+type: verb
+group: Sports & Hobbies
+pronunciation: /ˈu.fə.nə(n)/
+example.nl: Je moet veel oefenen om een instrument goed te beheersen.
+example.en: You have to practice a lot to master an instrument well.
+etymology: From Middle Dutch oefenen (to cultivate/exert).
+tags: ⭐ common, 📈 progress, 🎵 music
+priority: yes
+grammar.Past tense (sg.): oefende
+grammar.Past participle: geoefend
+grammar.Auxiliary: hebben
+grammar.Present (ik / jij / hij / wij / jullie / zij): oefen / oefent / oefent / oefenen / oefenen / oefenen
+
+//
+
+word: trainen
+translation: to train, to work out
+type: verb
+group: Sports & Hobbies
+pronunciation: /ˈtreː.nə(n)/
+example.nl: Wij trainen hard om de finale te halen.
+example.en: We are training hard to reach the finals.
+etymology: From French traîner, via English.
+tags: ⭐ common, ⚽ sport, 📈 progress
+priority: yes
+grammar.Past tense (sg.): trainde
+grammar.Past participle: getraind
+grammar.Auxiliary: hebben
+grammar.Present (ik / jij / hij / wij / jullie / zij): train / traint / traint / trainen / trainen / trainen
+
+//
+
+word: winnen
+translation: to win, to gain
+type: verb
+group: Sports & Hobbies
+pronunciation: /ˈʋɪ.nə(n)/
+example.nl: Ik hoop dat onze favoriete club vanavond gaat winnen.
+example.en: I hope our favorite club is going to win tonight.
+etymology: From Proto-Germanic *winnaną (to strive/work).
+tags: ⭐ common, 📈 progress, ⚽ sport
+priority: yes
+grammar.Past tense (sg.): won
+grammar.Past participle: gewonnen
+grammar.Auxiliary: hebben
+grammar.Present (ik / jij / hij / wij / jullie / zij): win / wint / wint / winnen / winnen / winnen
+
+//
+
+word: verliezen
+translation: to lose
+type: verb
+group: Sports & Hobbies
+pronunciation: /vər.ˈli.zə(n)/
+example.nl: Niemand vindt het leuk om een belangrijke wedstrijd te verliezen.
+example.en: Nobody likes to lose an important match.
+etymology: From Proto-Germanic *fraleusaną.
+tags: ⭐ common, 📉 progress, ⚽ sport
+priority: yes
+grammar.Past tense (sg.): verloor
+grammar.Past participle: verloren
+grammar.Auxiliary: hebben
+grammar.Present (ik / jij / hij / wij / jullie / zij): verlies / verliest / verliest / verliezen / verliezen / verliezen
+
+//
+
+word: kampioen
+translation: champion
+type: noun
+group: Sports & Hobbies
+pronunciation: /kɑm.pi.ˈun/
+example.nl: De ploeg werd luid toegejuicht toen ze kampioen werden.
+example.en: The squad was loudly cheered when they became champions.
+etymology: From French champion.
+tags: ⭐ common, 👥 people, 🏅 sport
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: kampioenen
+grammar.Diminutive: het kampioentje
+
+//
+
+word: scheidsrechter
+translation: referee, umpire, official
+type: noun
+group: Sports & Hobbies
+pronunciation: /ˈsxɛits.rɛx.tər/
+example.nl: De scheidsrechter gaf de speler een gele kaart voor de overtreding.
+example.en: The referee gave the player a yellow card for the foul.
+etymology: Compound of scheiden (to separate/decide) and rechter (judge).
+tags: 👮 sport, 👥 people
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: scheidsrechters
+grammar.Diminutive: het scheidsrechtertje
+
+//
+
+word: stadion
+translation: stadium, arena
+type: noun
+group: Sports & Hobbies
+pronunciation: /ˈstaː.di.jɔn/
+example.nl: Er passen ruim vijftigduizend toeschouwers in het stadion.
+example.en: More than fifty thousand spectators fit in the stadium.
+etymology: From Ancient Greek stadion.
+tags: 🏢 building, ⚽ sport
+priority: yes
+grammar.Article / Gender: het
+grammar.Plural: stadions
+grammar.Diminutive: het stadionnetje
+
+//
+
+word: trainer
+translation: coach, trainer
+type: noun
+group: Sports & Hobbies
+pronunciation: /ˈtreː.nər/
+example.nl: De trainer bespreekt de tactiek vlak voor de wedstrijd.
+example.en: The coach discusses the tactics right before the match.
+etymology: Derived from the verb trainen (to train).
+note: "Coach" is also highly common and used interchangeably in high-level sports.
+tags: ⭐ common, 👥 people, ⚽ sport
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: trainers
+grammar.Diminutive: het trainertje
+
+//
+
+word: supporter
+translation: fan, supporter
+type: noun
+group: Sports & Hobbies
+pronunciation: /sʏ.ˈpɔr.tər/
+example.nl: Duizenden supporters reisden mee naar de uitwedstrijd.
+example.en: Thousands of fans traveled along to the away match.
+etymology: Borrowed from English supporter.
+note: "Fan" is also widely understood and used, especially for musicians or actors. "Supporter" is standard for sports teams.
+tags: ⭐ common, 👥 people, ⚽ sport
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: supporters
+grammar.Diminutive: het supportertje

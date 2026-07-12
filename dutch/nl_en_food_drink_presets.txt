@@ -1,0 +1,728 @@
+word: brood
+translation: bread
+type: noun
+group: Food & Drink
+pronunciation: /broːt/
+example.nl: Vers gebakken brood ruikt heerlijk.
+example.en: Freshly baked bread smells delicious.
+etymology: From Proto-West Germanic *braud.
+note: Often bought fresh at a 'bakker' (bakery).
+tags: ⭐ common, 🍞 food, 🛍️ shopping
+priority: yes
+grammar.Article / Gender: het
+grammar.Plural: broden
+grammar.Diminutive: het broodje
+
+//
+
+word: rijst
+translation: rice
+type: noun
+group: Food & Drink
+pronunciation: /rɛist/
+example.nl: We eten vanavond kip met rijst.
+example.en: We are eating chicken with rice tonight.
+etymology: From Old French ris, via Latin and Greek.
+note: Usually uncountable; plural 'rijstsoorten' is used for varieties.
+tags: ⭐ common, 🌾 food
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: -
+grammar.Diminutive: het rijstkorreltje
+
+//
+
+word: pasta
+translation: pasta
+type: noun
+group: Food & Drink
+pronunciation: /ˈpɑstaː/
+example.nl: Pasta is makkelijk en snel te bereiden.
+example.en: Pasta is easy and quick to prepare.
+etymology: Borrowed from Italian pasta.
+note: Pronounced with a short 'a' in the first syllable.
+tags: ⭐ common, 🍝 food
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: pasta's
+grammar.Diminutive: het pastatje
+
+//
+
+word: ei
+translation: egg
+type: noun
+group: Food & Drink
+pronunciation: /ɛi/
+example.nl: Wil je een gekookt of een gebakken ei?
+example.en: Do you want a boiled or a fried egg?
+etymology: From Proto-Germanic *ajją.
+note: Highly irregular plural ending (-eren).
+tags: ⭐ common, 🥚 food
+priority: yes
+grammar.Article / Gender: het
+grammar.Plural: eieren
+grammar.Diminutive: het eitje
+
+//
+
+word: kaas
+translation: cheese
+type: noun
+group: Food & Drink
+pronunciation: /kaːs/
+example.nl: Nederland staat bekend om zijn lekkere kaas.
+example.en: The Netherlands is famous for its delicious cheese.
+etymology: From Latin caseus.
+note: An absolute staple of the Dutch diet and culture.
+tags: ⭐ common, 🧀 food, 🇳🇱 dutchness
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: kazen
+grammar.Diminutive: het kaasje
+
+//
+
+word: boter
+translation: butter
+type: noun
+group: Food & Drink
+pronunciation: /ˈboːtər/
+example.nl: Smeer een beetje boter op je brood.
+example.en: Spread a little butter on your bread.
+etymology: From Latin butyrum.
+note: Commonly used as 'roomboter' (real cream butter).
+tags: ⭐ common, 🧈 food
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: -
+grammar.Diminutive: het botertje
+
+//
+
+word: olie
+translation: oil
+type: noun
+group: Food & Drink
+pronunciation: /ˈoːli/
+example.nl: Bak de groenten in een scheutje olie.
+example.en: Fry the vegetables in a splash of oil.
+etymology: From Latin oleum.
+note: Usually refers to vegetable oil (plantaardige olie) or olive oil (olijfolie).
+tags: 🧴 food
+priority: no
+grammar.Article / Gender: de
+grammar.Plural: oliën
+grammar.Diminutive: het olietje
+
+//
+
+word: zout
+translation: salt
+type: noun
+group: Food & Drink
+pronunciation: /zʌut/
+example.nl: Er zit te veel zout in deze soep.
+example.en: There is too much salt in this soup.
+etymology: From Proto-Germanic *saltą.
+note: Can also be used as an adjective meaning 'salty'.
+tags: ⭐ common, 🧂 food
+priority: yes
+grammar.Article / Gender: het
+grammar.Plural: zouten
+grammar.Diminutive: het zoutje
+
+//
+
+word: peper
+translation: pepper
+type: noun
+group: Food & Drink
+pronunciation: /ˈpeːpər/
+example.nl: Voeg wat peper en zout toe naar smaak.
+example.en: Add some pepper and salt to taste.
+etymology: From Latin piper.
+note: Often paired automatically with 'zout'.
+tags: ⭐ common, 🧂 food
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: pepers
+grammar.Diminutive: het pepertje
+
+//
+
+word: suiker
+translation: sugar
+type: noun
+group: Food & Drink
+pronunciation: /ˈsœykər/
+example.nl: Drink je je koffie met of zonder suiker?
+example.en: Do you drink your coffee with or without sugar?
+etymology: From Arabic sukkar.
+note: Very common everyday baking ingredient.
+tags: ⭐ common, 🍬 food
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: suikers
+grammar.Diminutive: het suikertje
+
+//
+
+word: kip
+translation: chicken
+type: noun
+group: Food & Drink
+pronunciation: /kɪp/
+example.nl: De biologische kip scharrelt buiten.
+example.en: The organic chicken is scratching around outside.
+etymology: Onomatopoeic origin, imitating calling chickens.
+note: Refers to both the animal and the meat.
+tags: ⭐ common, 🍗 food
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: kippen
+grammar.Diminutive: het kipje
+
+//
+
+word: rundvlees
+translation: beef
+type: noun
+group: Food & Drink
+pronunciation: /ˈrʏntfleːs/
+example.nl: Rundvlees moet soms uren stoven.
+example.en: Beef sometimes needs to stew for hours.
+etymology: Compound of rund (cattle) and vlees (meat).
+note: Standard component of traditional Dutch 'draadjesvlees'.
+tags: 🥩 food
+priority: yes
+grammar.Article / Gender: het
+grammar.Plural: -
+grammar.Diminutive: -
+
+//
+
+word: varkensvlees
+translation: pork
+type: noun
+group: Food & Drink
+pronunciation: /ˈvɑrkənsfleːs/
+example.nl: In veel gerechten wordt varkensvlees gebruikt.
+example.en: Pork is used in many dishes.
+etymology: Compound of varken (pig) and vlees (meat).
+note: Very common meat in Western Europe.
+tags: 🥩 food
+priority: yes
+grammar.Article / Gender: het
+grammar.Plural: -
+grammar.Diminutive: -
+
+//
+
+word: lamsvlees
+translation: lamb
+type: noun
+group: Food & Drink
+pronunciation: /ˈlɑmsfleːs/
+example.nl: Lamsvlees is erg populair in de mediterrane keuken.
+example.en: Lamb meat is very popular in Mediterranean cuisine.
+etymology: Compound of lam (lamb) and vlees (meat).
+note: Often consumed during spring or holidays.
+tags: 🥩 food
+priority: no
+grammar.Article / Gender: het
+grammar.Plural: -
+grammar.Diminutive: -
+
+//
+
+word: vis
+translation: fish
+type: noun
+group: Food & Drink
+pronunciation: /vɪs/
+example.nl: We eten elke vrijdag verse vis.
+example.en: We eat fresh fish every Friday.
+etymology: From Proto-Germanic *fiskaz.
+note: Raw herring ('haring') with onions is a famous Dutch street food.
+tags: ⭐ common, 🐟 food, 🇳🇱 dutchness
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: vissen
+grammar.Diminutive: het visje
+
+//
+
+word: zeevruchten
+translation: seafood, shellfish
+type: noun
+group: Food & Drink
+pronunciation: /ˈzeːvrʏxtə(n)/
+example.nl: Hij bestelde een bord met zeevruchten.
+example.en: He ordered a platter of seafood.
+etymology: Compound of zee (sea) and vrucht (fruit).
+note: Literally translates to "sea fruits". Typically used in plural.
+tags: 🍤 food
+priority: no
+grammar.Article / Gender: de
+grammar.Plural: zeevruchten
+grammar.Diminutive: -
+
+//
+
+word: aardappel
+translation: potato
+type: noun
+group: Food & Drink
+pronunciation: /ˈaːrdɑpəl/
+example.nl: De aardappel is de basis van de Nederlandse stamppot.
+example.en: The potato is the basis of the Dutch stamppot.
+etymology: Compound of aarde (earth) and appel (apple).
+note: Literally translates to "earth apple".
+tags: ⭐ common, 🥔 food, 🇳🇱 dutchness
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: aardappelen
+grammar.Diminutive: het aardappeltje
+
+//
+
+word: tomaat
+translation: tomato
+type: noun
+group: Food & Drink
+pronunciation: /toːˈmaːt/
+example.nl: Snijd de tomaat in kleine blokjes.
+example.en: Cut the tomato into small cubes.
+etymology: Ultimately from Nahuatl tomatl.
+note: Used widely in salads, pasta sauces, and soups.
+tags: ⭐ common, 🍅 food
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: tomaten
+grammar.Diminutive: het tomaatje
+
+//
+
+word: ui
+translation: onion
+type: noun
+group: Food & Drink
+pronunciation: /œy/
+example.nl: Ik moet altijd huilen als ik een ui snijd.
+example.en: I always have to cry when I chop an onion.
+etymology: Of West-Germanic origin, related to French oignon.
+note: An essential aromatic base for almost all Dutch cooking.
+tags: ⭐ common, 🧅 food
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: uien
+grammar.Diminutive: het uitje
+
+//
+
+word: knoflook
+translation: garlic
+type: noun
+group: Food & Drink
+pronunciation: /ˈknɔfloːk/
+example.nl: Knoflook geeft veel smaak aan het gerecht.
+example.en: Garlic gives a lot of flavor to the dish.
+etymology: Compound of kloof (clove) and look (leek).
+note: Singular is usually uncountable.
+tags: ⭐ common, 🧄 food
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: -
+grammar.Diminutive: het knoflookje
+
+//
+
+word: wortel
+translation: carrot
+type: noun
+group: Food & Drink
+pronunciation: /ˈwɔrtəl/
+example.nl: Konijnen eten graag een sappige wortel.
+example.en: Rabbits love to eat a juicy carrot.
+etymology: From Proto-Germanic *wurtiz (root).
+note: Can also mean "root" in a general or mathematical sense.
+tags: ⭐ common, 🥕 food
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: wortels
+grammar.Diminutive: het worteltje
+
+//
+
+word: salade
+translation: salad
+type: noun
+group: Food & Drink
+pronunciation: /saːˈlaːdə/
+example.nl: Deze frisse salade past goed bij de barbecue.
+example.en: This fresh salad goes well with the barbecue.
+etymology: From French salade.
+note: "Sla" is often used interchangeably, though "sla" can also just mean lettuce.
+tags: 🥗 food
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: salades
+grammar.Diminutive: het saladetje
+
+//
+
+word: appel
+translation: apple
+type: noun
+group: Food & Drink
+pronunciation: /ˈɑpəl/
+example.nl: Een appel per dag houdt de dokter op afstand.
+example.en: An apple a day keeps the doctor away.
+etymology: From Proto-Germanic *aplaz.
+note: Essential for making Dutch apple pie (appeltaart).
+tags: ⭐ common, 🍎 food, 🇳🇱 dutchness
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: appels
+grammar.Diminutive: het appeltje
+
+//
+
+word: banaan
+translation: banana
+type: noun
+group: Food & Drink
+pronunciation: /baːˈnaːn/
+example.nl: Bananen zijn rijk aan kalium.
+example.en: Bananas are rich in potassium.
+etymology: Via Portuguese and Spanish from a West African language.
+note: A very popular quick snack in the Netherlands.
+tags: ⭐ common, 🍌 food
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: bananen
+grammar.Diminutive: het banaantje
+
+//
+
+word: sinaasappel
+translation: orange
+type: noun
+group: Food & Drink
+pronunciation: /ˈsinaːsɑpəl/
+example.nl: Vers geperste sinaasappel is heerlijk bij het ontbijt.
+example.en: Freshly squeezed orange juice is delicious with breakfast.
+etymology: Literally "China's apple" (Sina + appel).
+note: Pronounced with a silent "g" in colloquial speech.
+tags: ⭐ common, 🍊 food
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: sinaasappels
+grammar.Diminutive: het sinaasappeltje
+
+//
+
+word: citroen
+translation: lemon
+type: noun
+group: Food & Drink
+pronunciation: /siˈtruːn/
+example.nl: De thee smaakt lekkerder met een schijfje citroen.
+example.en: The tea tastes better with a slice of lemon.
+etymology: From Old French citron.
+note: Adds acidity (zuur) to sweet dishes and drinks.
+tags: 🍋 food
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: citroenen
+grammar.Diminutive: het citroentje
+
+//
+
+word: aardbei
+translation: strawberry
+type: noun
+group: Food & Drink
+pronunciation: /ˈaːrtbɛi/
+example.nl: Zomerse aardbeien met slagroom zijn heerlijk.
+example.en: Summer strawberries with whipped cream are delicious.
+etymology: Compound of aarde (earth) and bei (berry).
+note: Often referred to as "zomerkoninkjes" (little summer kings).
+tags: 🍓 food
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: aardbeien
+grammar.Diminutive: het aardbeitje
+
+//
+
+word: druif
+translation: grape
+type: noun
+group: Food & Drink
+pronunciation: /drœyf/
+example.nl: Wil je een rode of een witte druif?
+example.en: Would you like a red or a white grape?
+etymology: Middle Dutch druve.
+note: Plural changes "f" to "v" (druiven).
+tags: 🍇 food
+priority: no
+grammar.Article / Gender: de
+grammar.Plural: druiven
+grammar.Diminutive: het druifje
+
+//
+
+word: water
+translation: water
+type: noun
+group: Food & Drink
+pronunciation: /ˈʋaːtər/
+example.nl: Kan ik een glas kraanwater krijgen, alstublieft?
+example.en: Can I have a glass of tap water, please?
+etymology: From Proto-Germanic *watōr.
+note: Tap water in NL is exceptionally clean and usually free in restaurants.
+tags: ⭐ common, 💧 food
+priority: yes
+grammar.Article / Gender: het
+grammar.Plural: -
+grammar.Diminutive: het watertje
+
+//
+
+word: sap
+translation: juice
+type: noun
+group: Food & Drink
+pronunciation: /sɑp/
+example.nl: Dit sap is gemaakt van honderd procent fruit.
+example.en: This juice is made of one hundred percent fruit.
+etymology: From Proto-Germanic *sap- (sap/juice).
+note: Often appended to fruits (appelsap, sinaasappelsap).
+tags: 🥤 food
+priority: yes
+grammar.Article / Gender: het
+grammar.Plural: sappen
+grammar.Diminutive: het sapje
+
+//
+
+word: koffie
+translation: coffee
+type: noun
+group: Food & Drink
+pronunciation: /ˈkɔfi/
+example.nl: Zullen we een kopje koffie drinken?
+example.en: Shall we drink a cup of coffee?
+etymology: From Turkish kahve, via Arabic qahwah.
+note: A fundamental part of Dutch "gezelligheid" and workplace culture.
+tags: ⭐ common, ☕ food, 🇳🇱 dutchness
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: -
+grammar.Diminutive: het koffietje
+
+//
+
+word: thee
+translation: tea
+type: noun
+group: Food & Drink
+pronunciation: /teː/
+example.nl: Ik drink altijd gemberthee in de avond.
+example.en: I always drink ginger tea in the evening.
+etymology: Borrowed from Min Nan Chinese "tê" by Dutch traders.
+note: Brought to Europe originally by the Dutch East India Company.
+tags: ⭐ common, ☕ food
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: -
+grammar.Diminutive: het theetje
+
+//
+
+word: wijn
+translation: wine
+type: noun
+group: Food & Drink
+pronunciation: /ʋɛin/
+example.nl: Rode wijn past goed bij een biefstuk.
+example.en: Red wine goes well with a steak.
+etymology: From Latin vinum.
+note: Dutch local vineyards are growing, but most wine is imported.
+tags: 🍷 food
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: wijnen
+grammar.Diminutive: het wijntje
+
+//
+
+word: bier
+translation: beer
+type: noun
+group: Food & Drink
+pronunciation: /biːr/
+example.nl: Bestel je een biertje aan de bar?
+example.en: Are you ordering a beer at the bar?
+etymology: From West-Germanic origin, possibly Latin bibere.
+note: Served in small glasses (vaasje/fluitje) to keep it fresh and cold.
+tags: ⭐ common, 🍺 food, 🇳🇱 dutchness
+priority: yes
+grammar.Article / Gender: het
+grammar.Plural: bieren
+grammar.Diminutive: het biertje
+
+//
+
+word: melk
+translation: milk
+type: noun
+group: Food & Drink
+pronunciation: /mɛlk/
+example.nl: Veel Nederlanders drinken melk bij de lunch.
+example.en: Many Dutch people drink milk with lunch.
+etymology: From Proto-Germanic *meluks.
+note: A classic school/work lunch companion in the Netherlands.
+tags: ⭐ common, 🥛 food, 🇳🇱 dutchness
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: -
+grammar.Diminutive: het melkje
+
+//
+
+word: vegetarisch
+translation: vegetarian
+type: adjective
+group: Food & Drink
+pronunciation: /veːɣəˈtaːris/
+example.nl: Heeft dit restaurant ook vegetarische opties?
+example.en: Does this restaurant also have vegetarian options?
+etymology: From English vegetarian.
+note: Very common in the Netherlands, abbreviation "vega" is widely used.
+tags: ⭐ common, 🎭 adjective, 🥦 food
+priority: yes
+grammar.Inflected form: vegetarische
+grammar.Comparative: -
+grammar.Superlative: -
+
+//
+
+word: veganistisch
+translation: vegan
+type: adjective
+group: Food & Drink
+pronunciation: /veːɣaːˈnɪstis/
+example.nl: Zij eet uitsluitend veganistische gerechten.
+example.en: She eats exclusively vegan dishes.
+etymology: Coined from veganist + -isch.
+note: "Vegan" is also widely understood and used colloquially.
+tags: 🎭 adjective, 🥦 food
+priority: yes
+grammar.Inflected form: veganistische
+grammar.Comparative: -
+grammar.Superlative: -
+
+//
+
+word: pittig
+translation: spicy, hot, tough
+type: adjective
+group: Food & Drink
+pronunciation: /ˈpɪtəx/
+example.nl: De curry is erg pittig, zorg voor genoeg water.
+example.en: The curry is very spicy, make sure to have enough water.
+etymology: Derived from "pit" (core, strength).
+note: Can also mean mentally challenging or active (e.g., "een pittige tante").
+tags: ⭐ common, 🌶️ food, 🎭 adjective
+priority: yes
+grammar.Inflected form: pittige
+grammar.Comparative: pittiger
+grammar.Superlative: pittigst
+
+//
+
+word: zoet
+translation: sweet
+type: adjective
+group: Food & Drink
+pronunciation: /zut/
+example.nl: Ik hou van zoete toetjes na het avondeten.
+example.en: I love sweet desserts after dinner.
+etymology: From Proto-Germanic *swōtuz.
+note: Opposite of "zuur" (sour) or "hartig" (savory).
+tags: ⭐ common, 🎭 adjective, 🍬 food
+priority: yes
+grammar.Inflected form: zoete
+grammar.Comparative: zoeter
+grammar.Superlative: zoetst
+
+//
+
+word: zuur
+translation: sour, acidic
+type: adjective
+group: Food & Drink
+pronunciation: /zyːr/
+example.nl: Citroenen zijn extreem zuur.
+example.en: Lemons are extremely sour.
+etymology: From Proto-Germanic *sūraz.
+note: Figuratively can mean "unfortunate" or "bitter" (e.g., "een zure ervaring").
+tags: ⭐ common, 🎭 adjective, 🍋 food
+priority: yes
+grammar.Inflected form: zure
+grammar.Comparative: zuurder
+grammar.Superlative: zuurst
+
+//
+
+word: vers
+translation: fresh
+type: adjective
+group: Food & Drink
+pronunciation: /vɛrs/
+example.nl: We persen elke ochtend vers sinaasappelsap.
+example.en: We squeeze fresh orange juice every morning.
+etymology: From Proto-Germanic *friskaz.
+note: Frequently used to highlight unprocessed or freshly cooked food.
+tags: ⭐ common, 🎭 adjective, 🍃 food
+priority: yes
+grammar.Inflected form: verse
+grammar.Comparative: verser
+grammar.Superlative: verst
+
+//
+
+word: bevroren
+translation: frozen
+type: adjective
+group: Food & Drink
+pronunciation: /bəˈvroːrə(n)/
+example.nl: Gooi de bevroren erwten direct in de pan.
+example.en: Throw the frozen peas straight into the pan.
+etymology: Past participle of "vriezen" (to freeze).
+note: Inflected form remains "bevroren".
+tags: 🎭 adjective, ❄️ food
+priority: no
+grammar.Inflected form: bevroren
+grammar.Comparative: -
+grammar.Superlative: -
+
+//
+
+word: maaltijd
+translation: meal
+type: noun
+group: Food & Drink
+pronunciation: /ˈmaːltɛit/
+example.nl: Het ontbijt is de belangrijkste maaltijd van de dag.
+example.en: Breakfast is the most important meal of the day.
+etymology: Compound of maal (time/meal) and tijd (time).
+note: Refers generally to any sit-down food session (breakfast, lunch, dinner).
+tags: ⭐ common, 🍽️ food
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: maaltijden
+grammar.Diminutive: het maaltijdje

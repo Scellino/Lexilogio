@@ -1,0 +1,627 @@
+word: slaapkamer
+translation: bedroom
+type: noun
+group: My Home
+pronunciation: /ˈslaːpkaːmər/
+example.nl: Mijn slaapkamer heeft een groot raam dat uitkijkt op de tuin.
+example.en: My bedroom has a large window that looks out onto the garden.
+etymology: Compound of slapen (to sleep) and kamer (room).
+note: Often combined with modifiers, e.g., 'hoofdslaapkamer' (master bedroom).
+tags: ⭐ common, 🏠 home
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: slaapkamers
+grammar.Diminutive: het slaapkamertje
+
+//
+
+word: woonkamer
+translation: living room, sitting room
+type: noun
+group: My Home
+pronunciation: /ˈʋoːnkaːmər/
+example.nl: We kijken graag een film in de woonkamer.
+example.en: We like to watch a movie in the living room.
+etymology: Compound of wonen (to dwell/live) and kamer (room).
+note: Also colloquially referred to as "huiskamer".
+tags: ⭐ common, 🏠 home
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: woonkamers
+grammar.Diminutive: het woonkamertje
+
+//
+
+word: keuken
+translation: kitchen
+type: noun
+group: My Home
+pronunciation: /ˈkøːkə(n)/
+example.nl: Vanavond kook ik een heerlijke maaltijd in de keuken.
+example.en: Tonight I am cooking a delicious meal in the kitchen.
+etymology: From Vulgar Latin cocina, from Latin coquina.
+note: Can also refer to a style of cooking (e.g., "de Italiaanse keuken").
+tags: ⭐ common, 🏠 home, 🍳 kitchen
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: keukens
+grammar.Diminutive: het keukentje
+
+//
+
+word: badkamer
+translation: bathroom
+type: noun
+group: My Home
+pronunciation: /ˈbadkaːmər/
+example.nl: De badkamer heeft zowel een ligbad als een douche.
+example.en: The bathroom has both a bathtub and a shower.
+etymology: Compound of baden (to bathe) and kamer (room).
+note: Usually contains the main washing facilities, sometimes including a toilet.
+tags: ⭐ common, 🏠 home
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: badkamers
+grammar.Diminutive: het badkamertje
+
+//
+
+word: toilet
+translation: toilet, restroom, WC
+type: noun
+group: My Home
+pronunciation: /tʋɑˈlɛt/
+example.nl: Waar is het toilet in dit huis?
+example.en: Where is the toilet in this house?
+etymology: Borrowed from French toilette.
+note: "Wc" (pronounced /ʋeːˈseː/) is an incredibly common everyday alternative.
+tags: ⭐ common, 🏠 home
+priority: yes
+grammar.Article / Gender: het
+grammar.Plural: toiletten
+grammar.Diminutive: het toiletje
+
+//
+
+word: hal
+translation: hall, hallway, entrance hall
+type: noun
+group: My Home
+pronunciation: /hɑl/
+example.nl: Hang je jas maar op de kapstok in de hal.
+example.en: Just hang your coat on the coat rack in the hall.
+etymology: From Proto-Germanic *hallō (covered space/hall).
+note: "Gang" (corridor) is often used for narrower hallways.
+tags: 🏠 home
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: hallen
+grammar.Diminutive: het halletje
+
+//
+
+word: balkon
+translation: balcony
+type: noun
+group: My Home
+pronunciation: /bɑlˈkɔn/
+example.nl: In de zomer zitten we vaak op ons kleine balkon.
+example.en: In the summer we often sit on our small balcony.
+etymology: From Italian balcone, of Germanic origin.
+note: Plural always takes "-s".
+tags: 🏠 home, 🍃 outdoor
+priority: yes
+grammar.Article / Gender: het
+grammar.Plural: balkons
+grammar.Diminutive: het balkonnetje
+
+//
+
+word: tuin
+translation: garden, yard
+type: noun
+group: My Home
+pronunciation: /tœyn/
+example.nl: De kinderen spelen de hele middag in de tuin.
+example.en: The children play in the garden the entire afternoon.
+etymology: From Proto-Germanic *tūnaz (fence/enclosure). Cognate to English town.
+note: Often combined, e.g., 'voortuin' (front yard) or 'achtertuin' (backyard).
+tags: ⭐ common, 🏠 home, 🌳 garden
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: tuinen
+grammar.Diminutive: het tuintje
+
+//
+
+word: garage
+translation: garage
+type: noun
+group: My Home
+pronunciation: /ɡaːˈraːʒə/
+example.nl: De auto staat veilig geparkeerd in de garage.
+example.en: The car is parked safely in the garage.
+etymology: Borrowed from French garage.
+note: Can refer to both a residential garage and a professional repair shop.
+tags: 🏠 home, 🚗 travel
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: garages
+grammar.Diminutive: het garagetje
+
+//
+
+word: dak
+translation: roof
+type: noun
+group: My Home
+pronunciation: /dɑk/
+example.nl: Er liggen zonnepanelen op het dak van het huis.
+example.en: There are solar panels on the roof of the house.
+etymology: From Proto-Germanic *þaką. Cognate to German Dach.
+note: Idiom: "een dak boven je hoofd" (a roof over your head).
+tags: ⭐ common, 🏠 home
+priority: yes
+grammar.Article / Gender: het
+grammar.Plural: daken
+grammar.Diminutive: het dakje
+
+//
+
+word: trap
+translation: stairs, staircase, ladder
+type: noun
+group: My Home
+pronunciation: /trɑp/
+example.nl: Wees voorzichtig wanneer je de trap afloopt.
+example.en: Be careful when you walk down the stairs.
+etymology: From Middle Dutch trappe (step/kick).
+note: Grammatically singular in Dutch, unlike English 'stairs'.
+tags: ⭐ common, 🏠 home
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: trappen
+grammar.Diminutive: het trapje
+
+//
+
+word: bed
+translation: bed
+type: noun
+group: My Home
+pronunciation: /bɛt/
+example.nl: Na een lange dag lig ik eindelijk in bed.
+example.en: After a long day I am finally in bed.
+etymology: From Proto-Germanic *badją.
+note: Phrase: "naar bed gaan" (to go to bed).
+tags: ⭐ common, 🏠 home, 🛌 furniture
+priority: yes
+grammar.Article / Gender: het
+grammar.Plural: bedden
+grammar.Diminutive: het bedje
+
+//
+
+word: tafel
+translation: table
+type: noun
+group: My Home
+pronunciation: /ˈtaːfəl/
+example.nl: De grote houten tafel staat midden in de kamer.
+example.en: The large wooden table is in the middle of the room.
+etymology: From Latin tabula (board/plate).
+note: Idiom: "aan tafel!" (dinner is ready / come to the table!).
+tags: ⭐ common, 🏠 home, 🛋️ furniture
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: tafels
+grammar.Diminutive: het tafeltje
+
+//
+
+word: kledingkast
+translation: wardrobe, closet
+type: noun
+group: My Home
+pronunciation: /ˈkleːdɪŋkɑst/
+example.nl: Mijn kledingkast hangt vol met jassen en overhemden.
+example.en: My wardrobe is full of coats and shirts.
+etymology: Compound of kleding (clothing) and kast (cupboard/closet).
+note: "Kleerkast" is a highly common synonym.
+tags: 🏠 home, 🛌 furniture
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: kledingkasten
+grammar.Diminutive: het kledingkastje
+
+//
+
+word: plank
+translation: shelf, plank, board
+type: noun
+group: My Home
+pronunciation: /plɑŋk/
+example.nl: Ik zet het boek terug op de bovenste plank.
+example.en: I am putting the book back on the top shelf.
+etymology: From Latin planca (board).
+note: Also used in "boekenplank" (bookshelf).
+tags: ⭐ common, 🏠 home, 🛋️ furniture
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: planken
+grammar.Diminutive: het plankje
+
+//
+
+word: bureau
+translation: desk, office
+type: noun
+group: My Home
+pronunciation: /byˈroː/
+example.nl: Er ligt veel papierwerk op mijn bureau.
+example.en: There is a lot of paperwork on my desk.
+etymology: Borrowed from French bureau.
+note: Can also refer to a police station or agency (e.g., "politiebureau").
+tags: ⭐ common, 🏠 home, 🛋️ furniture
+priority: yes
+grammar.Article / Gender: het
+grammar.Plural: bureaus
+grammar.Diminutive: het bureautje
+
+//
+
+word: lamp
+translation: lamp, light
+type: noun
+group: My Home
+pronunciation: /lɑmp/
+example.nl: Doe de lamp aan, het is hier erg donker.
+example.en: Turn on the lamp, it is very dark in here.
+etymology: From Greek lampas, via Latin and French.
+note: Collocation: "lamp aandoen" (turn on) / "lamp uitdoen" (turn off).
+tags: ⭐ common, 🏠 home, 🛋️ furniture
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: lampen
+grammar.Diminutive: het lampje
+
+//
+
+word: spiegel
+translation: mirror
+type: noun
+group: My Home
+pronunciation: /ˈspiːɣəl/
+example.nl: Zij bekeek zichzelf in de spiegel van de badkamer.
+example.en: She looked at herself in the bathroom mirror.
+etymology: From Latin speculum.
+note: Figuratively can mean a reflection of reality.
+tags: 🏠 home, 🛍️ shopping
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: spiegels
+grammar.Diminutive: het spiegeltje
+
+//
+
+word: gordijn
+translation: curtain
+type: noun
+group: My Home
+pronunciation: /ɣɔrˈdɛin/
+example.nl: Doe de gordijnen dicht zodat niemand naar binnen kan kijken.
+example.en: Close the curtains so that no one can look inside.
+etymology: From Middle Dutch gerdijn, of French origin.
+note: Usually used in plural because curtains come in pairs.
+tags: ⭐ common, 🏠 home
+priority: yes
+grammar.Article / Gender: het
+grammar.Plural: gordijnen
+grammar.Diminutive: het gordijntje
+
+//
+
+word: koelkast
+translation: fridge, refrigerator
+type: noun
+group: My Home
+pronunciation: /ˈkulkɑst/
+example.nl: Staat de melk al in de koelkast?
+example.en: Is the milk in the fridge already?
+etymology: Compound of koel (cool) and kast (cupboard).
+note: Literal translation is "cool-cupboard".
+tags: ⭐ common, 🏠 home, 🍳 kitchen
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: koelkasten
+grammar.Diminutive: het koelkastje
+
+//
+
+word: oven
+translation: oven
+type: noun
+group: My Home
+pronunciation: /ˈoːvə(n)/
+example.nl: Schuif de pizza voorzichtig in de hete oven.
+example.en: Carefully slide the pizza into the hot oven.
+etymology: From Proto-Germanic *uhnaz.
+note: "Magnetronoven" is a combi microwave-oven.
+tags: ⭐ common, 🏠 home, 🍳 kitchen
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: ovens
+grammar.Diminutive: het oventje
+
+//
+
+word: magnetron
+translation: microwave, microwave oven
+type: noun
+group: My Home
+pronunciation: /ˈmɑɣneːtrɔn/
+example.nl: Warm de soep even op in de magnetron.
+example.en: Heat the soup up in the microwave for a bit.
+etymology: Coined scientific term based on the magnetron tube.
+note: Specifically refers to the microwave appliance in NL.
+tags: 🏠 home, 🍳 kitchen
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: magnetrons
+grammar.Diminutive: het magnetronnetje
+
+//
+
+word: vaatwasser
+translation: dishwasher
+type: noun
+group: My Home
+pronunciation: /ˈvaːtʋɑsər/
+example.nl: Wie ruimt de vaatwasser vandaag in?
+example.en: Who is loading the dishwasher today?
+etymology: Compound of vaat (dishes) and wasser (washer).
+note: "Afwasmachine" is an equally common alternative.
+tags: 🏠 home, 🍳 kitchen
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: vaatwassers
+grammar.Diminutive: het vaatwassertje
+
+//
+
+word: gootsteen
+translation: sink, kitchen sink
+type: noun
+group: My Home
+pronunciation: /ˈɣoːtsteːn/
+example.nl: Er staat nog vuile vaat in de gootsteen.
+example.en: There are still dirty dishes in the kitchen sink.
+etymology: Compound of goot (gutter/channel) and steen (stone).
+note: "Wasbak" is used more for bathroom sinks.
+tags: 🏠 home, 🍳 kitchen
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: gootstenen
+grammar.Diminutive: het gootsteentje
+
+//
+
+word: beker
+translation: cup, mug, beaker
+type: noun
+group: My Home
+pronunciation: /ˈbeːkər/
+example.nl: Drink je warme chocolademelk uit een beker?
+example.en: Do you drink hot chocolate from a mug?
+etymology: From Medieval Latin bicarium.
+note: Refers to handleless drinking cups, mugs, or sports trophies.
+tags: ⭐ common, 🏠 home, 🍳 kitchen
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: bekers
+grammar.Diminutive: het bekertje
+
+//
+
+word: glas
+translation: glass
+type: noun
+group: My Home
+pronunciation: /ɣlɑs/
+example.nl: Mag ik een glas koud water, alstublieft?
+example.en: May I have a glass of cold water, please?
+etymology: From Proto-Germanic *glasą.
+note: Irregular spelling shift in the diminutive ("glaasje").
+tags: ⭐ common, 🏠 home, 🍳 kitchen
+priority: yes
+grammar.Article / Gender: het
+grammar.Plural: glazen
+grammar.Diminutive: het glaasje
+
+//
+
+word: bord
+translation: plate, board, sign
+type: noun
+group: My Home
+pronunciation: /bɔrt/
+example.nl: Leg het eten direct op je bord.
+example.en: Put the food directly on your plate.
+etymology: From Proto-Germanic *burdą. Cognate to English board.
+note: Can also mean "signboard" or "blackboard" depending on context.
+tags: ⭐ common, 🏠 home, 🍳 kitchen
+priority: yes
+grammar.Article / Gender: het
+grammar.Plural: borden
+grammar.Diminutive: het bordje
+
+//
+
+word: vork
+translation: fork
+type: noun
+group: My Home
+pronunciation: /vɔrk/
+example.nl: Ik eet mijn pasta het liefst met een vork.
+example.en: I prefer to eat my pasta with a fork.
+etymology: From Latin furca.
+note: Cutlery item.
+tags: ⭐ common, 🏠 home, 🍳 kitchen
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: vorken
+grammar.Diminutive: het vorkje
+
+//
+
+word: mes
+translation: knife
+type: noun
+group: My Home
+pronunciation: /mɛs/
+example.nl: Pas op, dat mes is heel scherp!
+example.en: Watch out, that knife is very sharp!
+etymology: From Proto-Germanic *matiz-sahsam (food-cutter).
+note: Plural changes "s" to "ss" (messen).
+tags: ⭐ common, 🏠 home, 🍳 kitchen
+priority: yes
+grammar.Article / Gender: het
+grammar.Plural: messen
+grammar.Diminutive: het mesje
+
+//
+
+word: lepel
+translation: spoon
+type: noun
+group: My Home
+pronunciation: /ˈleːpəl/
+example.nl: Hij roerde de suiker door zijn koffie met een lepel.
+example.en: He stirred the sugar into his coffee with a spoon.
+etymology: From Proto-Germanic *laipilaz.
+note: Standard table spoon; "theelepel" is a teaspoon.
+tags: ⭐ common, 🏠 home, 🍳 kitchen
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: lepels
+grammar.Diminutive: het lepeltje
+
+//
+
+word: kookpan
+translation: pot, saucepan
+type: noun
+group: My Home
+pronunciation: /ˈkoːkpɑn/
+example.nl: Zet de kookpan met water op het fornuis.
+example.en: Put the pot with water on the stove.
+etymology: Compound of koken (to cook) and pan (pan).
+note: Often referred to simply as "pan".
+tags: 🏠 home, 🍳 kitchen
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: kookpannen
+grammar.Diminutive: het kookpannetje
+
+//
+
+word: koekenpan
+translation: frying pan, skillet
+type: noun
+group: My Home
+pronunciation: /ˈkukə(n)pɑn/
+example.nl: Bak de eieren in een grote koekenpan.
+example.en: Fry the eggs in a large frying pan.
+etymology: Compound of koek (cake/pancake) and pan (pan).
+note: Used strictly for frying, sautéing, or pancake making.
+tags: 🏠 home, 🍳 kitchen
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: koekenpannen
+grammar.Diminutive: het koekenpannetje
+
+//
+
+word: raam
+translation: window, frame
+type: noun
+group: My Home
+pronunciation: /raːm/
+example.nl: Kun je het raam dichtdoen? Het tocht een beetje.
+example.en: Can you close the window? There's a bit of a draft.
+etymology: From Middle Dutch rame (frame/border).
+note: Irregular sound/spelling change in the diminutive ("raampje").
+tags: ⭐ common, 🏠 home
+priority: yes
+grammar.Article / Gender: het
+grammar.Plural: ramen
+grammar.Diminutive: het raampje
+
+//
+
+word: deur
+translation: door
+type: noun
+group: My Home
+pronunciation: /døːr/
+example.nl: Vergeet niet de deur op slot te doen als je weggaat.
+example.en: Don't forget to lock the door when you leave.
+etymology: From Proto-Germanic *durz.
+note: Idiom: "met de deur in huis vallen" (to get straight to the point).
+tags: ⭐ common, 🏠 home
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: deuren
+grammar.Diminutive: het deurtje
+
+//
+
+word: vloer
+translation: floor
+type: noun
+group: My Home
+pronunciation: /vluːr/
+example.nl: We hebben een nieuwe houten vloer laten leggen.
+example.en: We had a new wooden floor installed.
+etymology: From Proto-Germanic *flōruz.
+note: Refers to the walking surface; "verdieping" is used for floor/story of a building.
+tags: ⭐ common, 🏠 home
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: vloeren
+grammar.Diminutive: het vloertje
+
+//
+
+word: plafond
+translation: ceiling
+type: noun
+group: My Home
+pronunciation: /plaːˈfɔnt/
+example.nl: Er hangt een mooie lamp aan het plafond.
+example.en: There is a beautiful lamp hanging from the ceiling.
+etymology: Borrowed from French plafond.
+note: Silent "d" at the end.
+tags: 🏠 home
+priority: yes
+grammar.Article / Gender: het
+grammar.Plural: plafonds
+grammar.Diminutive: het plafondje
+
+//
+
+word: muur
+translation: wall
+type: noun
+group: My Home
+pronunciation: /myːr/
+example.nl: We gaan de muur in de woonkamer blauw verven.
+example.en: We are going to paint the wall in the living room blue.
+etymology: From Latin murus.
+note: Refers mostly to solid, brick, or outer walls; "wand" is often used for thin partition walls.
+tags: ⭐ common, 🏠 home
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: muren
+grammar.Diminutive: het muurtje
+

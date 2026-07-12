@@ -1,0 +1,645 @@
+word: docent
+translation: teacher, instructor, lecturer
+type: noun
+group: Jobs & Work
+pronunciation: /doːˈsɛnt/
+example.nl: Onze docent Nederlands kan heel goed uitleggen.
+example.en: Our Dutch teacher is very good at explaining.
+etymology: Borrowed from Latin docere (to teach).
+note: Often interchangeable with 'leraar'. The female form is 'docente'.
+tags: ⭐ common, 💼 work, 💬 communication
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: docenten
+grammar.Diminutive: het docentje
+
+//
+
+word: ingenieur
+translation: engineer
+type: noun
+group: Jobs & Work
+pronunciation: /ɪnʒeːˈniøːr/
+example.nl: De ingenieur ontwerpt een nieuwe brug over de rivier.
+example.en: The engineer is designing a new bridge over the river.
+etymology: From French ingénieur, from Latin ingenium (talent/cleverness).
+note: Often abbreviated as 'ir.' before a name for those with an academic engineering degree.
+tags: 💼 work, 🛠️ technology
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: ingenieurs
+grammar.Diminutive: het ingenieurtje
+
+//
+
+word: advocaat
+translation: lawyer, attorney, advocate
+type: noun
+group: Jobs & Work
+pronunciation: /ɑtvoːˈkaːt/
+example.nl: De verdachte bespreekt de zaak met zijn advocaat.
+example.en: The suspect is discussing the case with his lawyer.
+etymology: From Latin advocatus (one called to aid).
+note: Double meaning: also a thick Dutch eggnog-like liqueur.
+tags: 💼 work, ⚖️ law
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: advocaten
+grammar.Diminutive: het advocaatje
+
+//
+
+word: journalist
+translation: journalist, reporter
+type: noun
+group: Jobs & Work
+pronunciation: /ʒurnalɪst/
+example.nl: De journalist schrijft een artikel over de verkiezingen.
+example.en: The journalist is writing an article about the elections.
+etymology: From French journaliste, from journal (daily newspaper).
+note: Female form is 'journaliste'.
+tags: 💼 work, 💬 communication
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: journalisten
+grammar.Diminutive: het journalistje
+
+//
+
+word: kok
+translation: chef, cook
+type: noun
+group: Jobs & Work
+pronunciation: /kɔk/
+example.nl: De kok bereidt een heerlijk driegangenmenu.
+example.en: The chef is preparing a delicious three-course meal.
+etymology: From Latin coquus.
+note: Often expanded to 'chef-kok' for the head chef of a restaurant.
+tags: ⭐ common, 💼 work, 🍳 kitchen
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: koks
+grammar.Diminutive: het kokje
+
+//
+
+word: architect
+translation: architect
+type: noun
+group: Jobs & Work
+pronunciation: /ɑrxiˈtɛkt/
+example.nl: Deze moderne villa is ontworpen door een bekende architect.
+example.en: This modern villa was designed by a famous architect.
+etymology: From Greek arkhitekton (master builder).
+note: The female form is 'architecte', though 'architect' is commonly used for both.
+tags: 💼 work, 🏢 building
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: architecten
+grammar.Diminutive: het architectje
+
+//
+
+word: politieagent
+translation: police officer, cop
+type: noun
+group: Jobs & Work
+pronunciation: /poːˈlitsi.aːˌɣɛnt/
+example.nl: De politieagent gaf de automobilist een boete voor te snel rijden.
+example.en: The police officer fined the driver for speeding.
+etymology: Compound of politie (police) and agent (agent).
+note: Often shortened to 'agent' in daily conversation.
+tags: ⭐ common, 💼 work, 👮 police
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: politieagenten
+grammar.Diminutive: het politieagentje
+
+//
+
+word: brandweerman
+translation: firefighter
+type: noun
+group: Jobs & Work
+pronunciation: /ˈbrɑntʋeːrmɑn/
+example.nl: De brandweerman bluste het vuur in een mum van tijd.
+example.en: The firefighter put out the fire in no time.
+etymology: Compound of brandweer (fire brigade) and man (man).
+note: 'Brandweervrouw' is used for a female firefighter. 'Brandweer' acts as the collective noun.
+tags: 💼 work, 🚒 emergency
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: brandweermannen
+grammar.Diminutive: het brandweermannetje
+
+//
+
+word: piloot
+translation: pilot
+type: noun
+group: Jobs & Work
+pronunciation: /piˈloːt/
+example.nl: De piloot verwelkomde de passagiers aan boord.
+example.en: The pilot welcomed the passengers on board.
+etymology: From French pilote, from Italian pilota.
+note: Gender-neutral, although the rare 'pilote' exists in French-speaking regions.
+tags: 💼 work, ✈️ travel
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: piloten
+grammar.Diminutive: het pilootje
+
+//
+
+word: monteur
+translation: mechanic, technician
+type: noun
+group: Jobs & Work
+pronunciation: /mɔnˈtøːr/
+example.nl: De monteur heeft de motor van mijn auto gerepareerd.
+example.en: The mechanic repaired my car's engine.
+etymology: Borrowed from French monteur.
+note: Often combined, e.g., 'automonteur' (car mechanic) or 'cv-monteur' (heating technician).
+tags: 💼 work, 🚗 travel
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: monteurs
+grammar.Diminutive: het monteurtje
+
+//
+
+word: programmeur
+translation: programmer, software developer
+type: noun
+group: Jobs & Work
+pronunciation: /proːɣrɑˈmøːr/
+example.nl: Onze programmeur lost de fouten in de code op.
+example.en: Our programmer is resolving the bugs in the code.
+etymology: Borrowed from French programmeur.
+note: Often referred to informally as 'developer' or 'softwareontwikkelaar'.
+tags: 💼 work, 💻 technology
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: programmeurs
+grammar.Diminutive: het programmeurtje
+
+//
+
+word: kunstenaar
+translation: artist
+type: noun
+group: Jobs & Work
+pronunciation: /ˈkʏnstənaːr/
+example.nl: De kunstenaar exposeert zijn schilderijen in de galerie.
+example.en: The artist is exhibiting his paintings in the gallery.
+etymology: Derived from kunst (art).
+note: Female form is 'kunstenares'.
+tags: 💼 work, 🎨 art
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: kunstenaars
+grammar.Diminutive: het kunstenaartje
+
+//
+
+word: muzikant
+translation: musician
+type: noun
+group: Jobs & Work
+pronunciation: /myziˈkɑnt/
+example.nl: De muzikant speelt een prachtig lied op zijn gitaar.
+example.en: The musician is playing a beautiful song on his guitar.
+etymology: From French musicien.
+note: Female counterpart is 'muzikante'.
+tags: 💼 work, 🎵 music
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: muzikanten
+grammar.Diminutive: het muzikantje
+
+//
+
+word: acteur
+translation: actor
+type: noun
+group: Jobs & Work
+pronunciation: /ɑkˈtøːr/
+example.nl: De bekende acteur speelt de hoofdrol in de nieuwe film.
+example.en: The famous actor plays the lead role in the new movie.
+etymology: From Latin actor (doer/performer).
+note: Female counterpart is 'actrice'.
+tags: 💼 work, 🎬 entertainment
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: acteurs
+grammar.Diminutive: het acteurtje
+
+//
+
+word: boer
+translation: farmer
+type: noun
+group: Jobs & Work
+pronunciation: /buːr/
+example.nl: De boer melkt de koeien vroeg in de ochtend.
+example.en: The farmer milks the cows early in the morning.
+etymology: From Middle Dutch gebure (neighbor/fellow peasant).
+note: Double meaning: 'boer' also means a "burp". Female is 'boerin'.
+tags: ⭐ common, 💼 work, 🚜 agriculture
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: boeren
+grammar.Diminutive: het boertje
+
+//
+
+word: ober
+translation: waiter
+type: noun
+group: Jobs & Work
+pronunciation: /ˈoːbər/
+example.nl: We vroegen de ober om de menukaart te brengen.
+example.en: We asked the waiter to bring the menu.
+etymology: Shortened from German Oberkellner (head waiter).
+note: Female counterpart is 'serveerster'.
+tags: ⭐ common, 💼 work, 🍷 food
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: obers
+grammar.Diminutive: het obertje
+
+//
+
+word: bouwvakker
+translation: builder, construction worker
+type: noun
+group: Jobs & Work
+pronunciation: /ˈbʌu̯vɑkər/
+example.nl: De bouwvakkers zijn hard aan het werk op de bouwplaats.
+example.en: The builders are working hard on the construction site.
+etymology: Compound of bouw (construction) and vakker (tradesman).
+note: 'Bouwer' is more generic; 'bouwvakker' is the manual laborer.
+tags: ⭐ common, 💼 work, 🔨 tools
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: bouwvakkers
+grammar.Diminutive: het bouwvakkertje
+
+//
+
+word: accountant
+translation: accountant
+type: noun
+group: Jobs & Work
+pronunciation: /ɑˈkaʊ̯ntənt/
+example.nl: Onze accountant controleert de jaarcijfers van het bedrijf.
+example.en: Our accountant verifies the company's annual figures.
+etymology: Borrowed from English accountant.
+note: Often holds protected professional titles like 'AA' or 'RA' in the NL.
+tags: 💼 work, 📊 finance
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: accountants
+grammar.Diminutive: het accountantje
+
+//
+
+word: baan
+translation: job, position
+type: noun
+group: Jobs & Work
+pronunciation: /baːn/
+example.nl: Zij heeft gisteravond gesolliciteerd naar een nieuwe baan.
+example.en: She applied for a new job last night.
+etymology: Originally meant "track" or "path" (e.g. snelweg).
+note: 'Werk' refers to work in general; 'baan' refers to your specific position.
+tags: ⭐ common, 💼 work
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: banen
+grammar.Diminutive: het baantje
+
+//
+
+word: werk
+translation: work, labor
+type: noun
+group: Jobs & Work
+pronunciation: /ʋɛrk/
+example.nl: Ik moet vandaag tot laat op het werk blijven.
+example.en: I have to stay late at work today.
+etymology: From Proto-Germanic *werka.
+note: Often used in the construction "aan het werk zijn" (to be working).
+tags: ⭐ common, 💼 work
+priority: yes
+grammar.Article / Gender: het
+grammar.Plural: werken
+grammar.Diminutive: het werkje
+
+//
+
+word: salaris
+translation: salary, wages
+type: noun
+group: Jobs & Work
+pronunciation: /saːˈlaːrɪs/
+example.nl: Mijn salaris wordt elke maand op de 25e gestort.
+example.en: My salary is deposited on the 25th of every month.
+etymology: From Latin salarium (salt money).
+note: 'Loon' is an equally common alternative.
+tags: ⭐ common, 💼 work, 💰 finance
+priority: yes
+grammar.Article / Gender: het
+grammar.Plural: salarissen
+grammar.Diminutive: het salarisje
+
+//
+
+word: kantoor
+translation: office
+type: noun
+group: Jobs & Work
+pronunciation: /kɑnˈtoːr/
+example.nl: Het hoofdkantoor bevindt zich in het centrum van Rotterdam.
+example.en: The head office is located in the center of Rotterdam.
+etymology: From French comptoir (counting room/counter).
+note: Set phrase: "op kantoor werken" (to work at the office).
+tags: ⭐ common, 💼 work, 🏢 building
+priority: yes
+grammar.Article / Gender: het
+grammar.Plural: kantoren
+grammar.Diminutive: het kantoortje
+
+//
+
+word: fabriek
+translation: factory
+type: noun
+group: Jobs & Work
+pronunciation: /faːˈbrik/
+example.nl: Die fabriek produceert onderdelen voor elektrische auto's.
+example.en: That factory produces parts for electric cars.
+etymology: From French fabrique, from Latin fabrica.
+note: Stress is on the second syllable.
+tags: 💼 work, 🏢 building
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: fabrieken
+grammar.Diminutive: het fabriekje
+
+//
+
+word: vergadering
+translation: meeting
+type: noun
+group: Jobs & Work
+pronunciation: /vərˈɣaːdərɪŋ/
+example.nl: We hebben om twee uur een belangrijke vergadering met de directie.
+example.en: We have an important meeting with the management at two o'clock.
+etymology: Derived from the verb vergaderen (to gather).
+note: Typically refers to a structured, formal business meeting.
+tags: ⭐ common, 💼 work, 💬 communication
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: vergaderingen
+grammar.Diminutive: het vergaderinkje
+
+//
+
+word: baas
+translation: boss, manager, master
+type: noun
+group: Jobs & Work
+pronunciation: /baːs/
+example.nl: Mijn baas gaf me complimenten over het succesvolle project.
+example.en: My boss complimented me on the successful project.
+etymology: From Middle Dutch baes. Origin of the English word "boss".
+note: Colloquial but very common. 'Leidinggevende' is the formal term.
+tags: ⭐ common, 💼 work
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: bazen
+grammar.Diminutive: het baasje
+
+//
+
+word: collega
+translation: colleague, coworker
+type: noun
+group: Jobs & Work
+pronunciation: /kɔˈleːɣaː/
+example.nl: Morgen ga ik lunchen met een gezellige collega.
+example.en: Tomorrow I am having lunch with a friendly colleague.
+etymology: From Latin collega.
+note: Plural uses an apostrophe-s.
+tags: ⭐ common, 💼 work, 👥 people
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: collega's
+grammar.Diminutive: het collegaatje
+
+//
+
+word: deadline
+translation: deadline
+type: noun
+group: Jobs & Work
+pronunciation: /ˈdɛtlɑi̯n/
+example.nl: We moeten overuren maken om de deadline te halen.
+example.en: We have to work overtime to meet the deadline.
+etymology: Borrowed from English deadline.
+note: Highly common in professional environments. Uses Dutch diminutive rules.
+tags: 💼 work, 🕰️ time
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: deadlines
+grammar.Diminutive: het deadlijntje
+
+//
+
+word: carrière
+translation: career
+type: noun
+group: Jobs & Work
+pronunciation: /kɑriˈjɛːrə/
+example.nl: Hij wil graag carrière maken in de financiële sector.
+example.en: He wants to build a career in the financial sector.
+etymology: From French carrière (racecourse/career).
+note: Collocation: "carrière maken" (to climb the career ladder).
+tags: 💼 work, 📈 progress
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: carrières
+grammar.Diminutive: het carrièreetje
+
+//
+
+word: sollicitatiegesprek
+translation: job interview
+type: noun
+group: Jobs & Work
+pronunciation: /soːlɪsiˈtaːtsiɣəˌsprɛk/
+example.nl: Ik ben erg zenuwachtig voor mijn sollicitatiegesprek morgenochtend.
+example.en: I am very nervous about my job interview tomorrow morning.
+etymology: Compound of sollicitatie (application) and gesprek (conversation).
+note: Verb form is 'solliciteren' (to apply for a job).
+tags: ⭐ common, 💼 work, 💬 communication
+priority: yes
+grammar.Article / Gender: het
+grammar.Plural: sollicitatiegesprekken
+grammar.Diminutive: het sollicitatiegesprekje
+
+//
+
+word: aannemen
+translation: to hire, employ, accept
+type: verb
+group: Jobs & Work
+pronunciation: /ˈaːneːmə(n)/
+example.nl: Het bedrijf gaat dit kwartaal drie nieuwe krachten aannemen.
+example.en: The company is going to hire three new employees this quarter.
+etymology: Compound of aan (on/to) and nemen (to take).
+note: Separable prefix verb ('ik neem aan'). Also means "to assume".
+tags: ⭐ common, 💼 work
+priority: yes
+grammar.Past tense (sg.): nam aan
+grammar.Past participle: aangenomen
+grammar.Auxiliary: hebben
+grammar.Present (ik / jij / hij / wij / jullie / zij): neem aan / neemt aan / neemt aan / nemen aan / nemen aan / nemen aan
+
+//
+
+word: pensioneren
+translation: to retire
+type: verb
+group: Jobs & Work
+pronunciation: /pɛnʃoːˈneːrə(n)/
+example.nl: De directeur besloot om zich volgend jaar te laten pensioneren.
+example.en: The director decided to retire next year.
+etymology: Derived from pensioen (pension), from French pension.
+note: Usually used in the passive/reflexive form ("gepensioneerd zijn" or "met pensioen gaan").
+tags: 💼 work, 🕰️ time
+priority: yes
+grammar.Past tense (sg.): pensioneerde
+grammar.Past participle: gepensioneerd
+grammar.Auxiliary: hebben
+grammar.Present (ik / jij / hij / wij / jullie / zij): pensioneer / pensioneert / pensioneert / pensioneren / pensioneren / pensioneren
+
+//
+
+word: contract
+translation: contract, agreement
+type: noun
+group: Jobs & Work
+pronunciation: /kɔnˈtrɑkt/
+example.nl: Ze tekende een contract voor onbepaalde tijd.
+example.en: She signed a permanent contract (contract for an indefinite period).
+etymology: From Latin contractus.
+note: Common variations include "jaarcontract" (one-year contract).
+tags: ⭐ common, 💼 work, 📄 document
+priority: yes
+grammar.Article / Gender: het
+grammar.Plural: contracten
+grammar.Diminutive: het contractje
+
+//
+
+word: werknemer
+translation: employee
+type: noun
+group: Jobs & Work
+pronunciation: /ˈʋɛrkneːmər/
+example.nl: Iedere werknemer heeft recht op vakantiedagen.
+example.en: Every employee is entitled to vacation days.
+etymology: Compound of werk (work) and nemer (taker). Literally "work taker".
+note: Opposite of 'werkgever'.
+tags: ⭐ common, 💼 work, 👥 people
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: werknemers
+grammar.Diminutive: het werknemertje
+
+//
+
+word: werkgever
+translation: employer
+type: noun
+group: Jobs & Work
+pronunciation: /ˈʋɛrxfeːvər/
+example.nl: De werkgever biedt een uitstekend pakket secundaire arbeidsvoorwaarden.
+example.en: The employer offers an excellent package of secondary benefits.
+etymology: Compound of werk (work) and gever (giver). Literally "work giver".
+note: Opposite of 'werknemer'.
+tags: ⭐ common, 💼 work, 👥 people
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: werkgevers
+grammar.Diminutive: het werkgevertje
+
+//
+
+word: project
+translation: project
+type: noun
+group: Jobs & Work
+pronunciation: /proːˈjɛkt/
+example.nl: We werken samen aan een uitdagend project.
+example.en: We are working together on a challenging project.
+etymology: From Latin proiectum (something thrown forward).
+note: Often combined, e.g., "projectmanager".
+tags: ⭐ common, 💼 work
+priority: yes
+grammar.Article / Gender: het
+grammar.Plural: projecten
+grammar.Diminutive: het projectje
+
+//
+
+word: klant
+translation: client, customer
+type: noun
+group: Jobs & Work
+pronunciation: /klɑnt/
+example.nl: De klant is koning in onze winkel.
+example.en: The customer is king in our shop.
+etymology: From Middle Dutch clant (associate/customer).
+note: 'Cliënt' is often used for higher-end professional or medical service clients.
+tags: ⭐ common, 💼 work, 🛍️ shopping
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: klanten
+grammar.Diminutive: het klantje
+
+//
+
+word: rapport
+translation: report, record book
+type: noun
+group: Jobs & Work
+pronunciation: /rɑˈpɔrt/
+example.nl: De analist heeft een uitgebreid rapport geschreven over de markt.
+example.en: The analyst wrote a comprehensive report about the market.
+etymology: From French rapport.
+note: Can also refer to a school report card.
+tags: 💼 work, 📄 document
+priority: yes
+grammar.Article / Gender: het
+grammar.Plural: rapporten
+grammar.Diminutive: het rapportje
+
+//
+
+word: rooster
+translation: schedule, timetable, roster
+type: noun
+group: Jobs & Work
+pronunciation: /ˈroːstər/
+example.nl: Volgens het nieuwe rooster werk ik deze week op dinsdag.
+example.en: According to the new schedule, I am working on Tuesday this week.
+etymology: From Middle Dutch roosten (to roast/gridiron). Named after its grid-like visual style.
+note: 'Schema' is used for abstract overviews; 'rooster' is specifically for operational shifts and hours.
+tags: ⭐ common, 💼 work, 🕰️ time
+priority: yes
+grammar.Article / Gender: het
+grammar.Plural: roosters
+grammar.Diminutive: het roostertje

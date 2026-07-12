@@ -1,0 +1,506 @@
+word: lente
+translation: spring
+type: noun
+group: Weather & Seasons
+pronunciation: /ˈlɛntə/
+example.nl: In de lente beginnen de bloemen prachtig te bloeien.
+example.en: In spring, the flowers start to bloom beautifully.
+etymology: From Middle Dutch lente, related to the lengthening of days.
+note: The alternative term "voorjaar" (literally "fore-year") is also very common.
+tags: ⭐ common, 🌱 spring, 🌧️ weather, 🌌 nature
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: lentes
+grammar.Diminutive: het lentetje
+
+//
+
+word: zomer
+translation: summer
+type: noun
+group: Weather & Seasons
+pronunciation: /ˈzoːmər/
+example.nl: Wij gaan deze zomer kamperen in Frankrijk.
+example.en: We are going camping in France this summer.
+etymology: From Proto-Germanic *sumaraz.
+note: Collocation: "zomervakantie" (summer vacation).
+tags: ⭐ common, ☀️ summer, 🌧️ weather, 🌌 nature
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: zomers
+grammar.Diminutive: het zomertje
+
+//
+
+word: herfst
+translation: autumn, fall
+type: noun
+group: Weather & Seasons
+pronunciation: /hɛrfst/
+example.nl: De bladeren vallen van de bomen in de herfst.
+example.en: The leaves fall from the trees in autumn.
+etymology: From Proto-Germanic *harbistaz (harvest). Cognate with English harvest.
+note: Often associated with wind, rain, and "gezellig" indoor times.
+tags: ⭐ common, 🍂 autumn, 🌧️ weather, 🌌 nature
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: herfsten
+grammar.Diminutive: het herfstje
+
+//
+
+word: winter
+translation: winter
+type: noun
+group: Weather & Seasons
+pronunciation: /ˈʋɪntər/
+example.nl: In de winter hopen we altijd op genoeg ijs om te schaatsen.
+example.en: In the winter we always hope for enough ice to ice-skate.
+etymology: From Proto-Germanic *wintruz.
+note: Collocation: "wintersport" (winter sports holiday).
+tags: ⭐ common, ❄️ winter, 🌧️ weather, 🌌 nature
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: winters
+grammar.Diminutive: het wintertje
+
+//
+
+word: zon
+translation: sun
+type: noun
+group: Weather & Seasons
+pronunciation: /zɔn/
+example.nl: De zon schijnt fel vandaag, vergeet je niet in te smeren.
+example.en: The sun is shining brightly today, don't forget to put on sunscreen.
+etymology: From Proto-Germanic *sunnōn.
+note: "Het zonnetje in huis" is a sweet idiom meaning someone who brings joy to the home.
+tags: ⭐ common, 🌧️ weather, 🌌 nature
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: zonnen
+grammar.Diminutive: het zonnetje
+
+//
+
+word: regen
+translation: rain
+type: noun
+group: Weather & Seasons
+pronunciation: /ˈreːɣə(n)/
+example.nl: Er is vandaag veel regen voorspeld in het hele land.
+example.en: A lot of rain is forecast across the entire country today.
+etymology: From Proto-Germanic *regnaz.
+note: Verb form is "regenen" (to rain).
+tags: ⭐ common, 🌧️ weather
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: regens
+grammar.Diminutive: het regentje
+
+//
+
+word: sneeuw
+translation: snow
+type: noun
+group: Weather & Seasons
+pronunciation: /sneːu̯/
+example.nl: De daken van de huizen zijn bedekt met een dikke laag sneeuw.
+example.en: The roofs of the houses are covered with a thick layer of snow.
+etymology: From Proto-Germanic *snaiwaz.
+note: Verb form is "sneeuwen" (to snow). Usually uncountable.
+tags: ⭐ common, 🌧️ weather, ❄️ winter
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: -
+grammar.Diminutive: het sneeuwtje
+
+//
+
+word: wind
+translation: wind
+type: noun
+group: Weather & Seasons
+pronunciation: /ʋɪnt/
+example.nl: De wind waait hard langs de kust van Zeeland.
+example.en: The wind is blowing hard along the coast of Zeeland.
+etymology: From Proto-Germanic *windaz.
+note: Idiom: "de wind mee hebben" (to have the wind at your back, to have luck on your side).
+tags: ⭐ common, 🌧️ weather
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: winden
+grammar.Diminutive: het windje
+
+//
+
+word: wolk
+translation: cloud
+type: noun
+group: Weather & Seasons
+pronunciation: /ʋɔlk/
+example.nl: Er drijft een grote, donkere wolk voor de zon.
+example.en: A large, dark cloud is drifting in front of the sun.
+etymology: From Proto-Germanic *welkaz.
+note: "Met je hoofd in de wolken zijn" means to have your head in the clouds / to be daydreaming or blissfully happy.
+tags: ⭐ common, 🌧️ weather
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: wolken
+grammar.Diminutive: het wolkje
+
+//
+
+word: mist
+translation: fog, mist
+type: noun
+group: Weather & Seasons
+pronunciation: /mɪst/
+example.nl: Door de dichte mist kon de automobilist de weg niet goed zien.
+example.en: Because of the dense fog, the driver could not see the road clearly.
+etymology: From Proto-Germanic *mihstaz. Cognate with English mist.
+note: Usually uncountable. Extremely dense fog is often called "dichte mist".
+tags: 🌧️ weather
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: -
+grammar.Diminutive: het mistje
+
+//
+
+word: storm
+translation: storm
+type: noun
+group: Weather & Seasons
+pronunciation: /stɔrm/
+example.nl: De storm heeft gisteravond veel schade aangericht in het bos.
+example.en: The storm caused a lot of damage in the forest last night.
+etymology: From Proto-Germanic *sturmaz.
+note: Verb form is "stormen" (to storm).
+tags: ⭐ common, 🌧️ weather
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: stormen
+grammar.Diminutive: het stormpje
+
+//
+
+word: bliksem
+translation: lightning
+type: noun
+group: Weather & Seasons
+pronunciation: /ˈblɪksəm/
+example.nl: Na de felle bliksem volgde direct een harde donderslag.
+example.en: After the bright lightning, a loud thunderclap immediately followed.
+etymology: From Middle Dutch blessem, related to burning/shining.
+note: Can also be used as a mild, old-fashioned swear word ("Bliksem!").
+tags: 🌧️ weather
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: bliksems
+grammar.Diminutive: het bliksempje
+
+//
+
+word: donder
+translation: thunder
+type: noun
+group: Weather & Seasons
+pronunciation: /ˈdɔndər/
+example.nl: Het geluid van de donder maakte de hond erg bang.
+example.en: The sound of the thunder made the dog very scared.
+etymology: From Proto-Germanic *þunraz. Cognate with Thor.
+note: Verb form is "donderen" (to thunder).
+tags: 🌧️ weather
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: donders
+grammar.Diminutive: het dondertje
+
+//
+
+word: ijs
+translation: ice, ice cream
+type: noun
+group: Weather & Seasons
+pronunciation: /ɛi̯s/
+example.nl: Pas op, er ligt ijs op de weg en het is erg glad!
+example.en: Watch out, there is ice on the road and it is very slippery!
+etymology: From Proto-Germanic *īsą.
+note: Note that the diminutive "ijsje" refers strictly to an ice cream cone/treat. "Ijs" is used for water ice.
+tags: ⭐ common, 🌧️ weather, ❄️ winter
+priority: yes
+grammar.Article / Gender: het
+grammar.Plural: -
+grammar.Diminutive: het ijsje
+
+//
+
+word: hagel
+translation: hail, chocolate sprinkles
+type: noun
+group: Weather & Seasons
+pronunciation: /ˈɦaːɣəl/
+example.nl: Tijdens de bui viel er grote hagel uit de lucht.
+example.en: During the shower, large hail fell from the sky.
+etymology: From Proto-Germanic *haglaz.
+note: Also used in "hagelslag" (the famous Dutch chocolate sprinkles eaten on bread).
+tags: 🌧️ weather
+priority: no
+grammar.Article / Gender: de
+grammar.Plural: -
+grammar.Diminutive: het hageltje
+
+//
+
+word: heet
+translation: hot
+type: adjective
+group: Weather & Seasons
+pronunciation: /ɦeːt/
+example.nl: Het is vandaag veel te heet om buiten te sporten.
+example.en: It is way too hot to exercise outside today.
+etymology: From Proto-Germanic *haitaz.
+note: Refers to extreme heat. "Warm" is used for general pleasant or high temperatures.
+tags: ⭐ common, 🎭 adjective, 🌧️ weather
+priority: yes
+grammar.Inflected form: hete
+grammar.Comparative: heter
+grammar.Superlative: heetst
+
+//
+
+word: koud
+translation: cold
+type: adjective
+group: Weather & Seasons
+pronunciation: /kʌu̯t/
+example.nl: Trek een dikke trui aan, want het is erg koud buiten.
+example.en: Put on a thick sweater, because it is very cold outside.
+etymology: From Proto-Germanic *kaldaz.
+note: Often combined with "krijgen" (ik krijg het koud - I am getting cold).
+tags: ⭐ common, 🎭 adjective, 🌧️ weather
+priority: yes
+grammar.Inflected form: koude
+grammar.Comparative: kouder
+grammar.Superlative: koudst
+
+//
+
+word: warm
+translation: warm, hot
+type: adjective
+group: Weather & Seasons
+pronunciation: /ʋɑrm/
+example.nl: Het is heerlijk warm in de zon vandaag.
+example.en: It is wonderfully warm in the sun today.
+etymology: From Proto-Germanic *warmaz.
+note: Typically represents comfortable or high temperatures, unlike the extreme "heet".
+tags: ⭐ common, 🎭 adjective, 🌧️ weather
+priority: yes
+grammar.Inflected form: warme
+grammar.Comparative: warmer
+grammar.Superlative: warmst
+
+//
+
+word: koel
+translation: cool, chilly
+type: adjective
+group: Weather & Seasons
+pronunciation: /kuːl/
+example.nl: In de avond waait er vaak een koele bries.
+example.en: In the evening, a cool breeze often blows.
+etymology: From Proto-Germanic *kōlaz.
+note: Can also mean "cool" in the sense of trendy or calm, though "gaaf" or "cool" (borrowed) are more common for that.
+tags: ⭐ common, 🎭 adjective, 🌧️ weather
+priority: yes
+grammar.Inflected form: koele
+grammar.Comparative: koeler
+grammar.Superlative: koelst
+
+//
+
+word: temperatuur
+translation: temperature
+type: noun
+group: Weather & Seasons
+pronunciation: /tɛmpeːraːˈtyːr/
+example.nl: Wat is de temperatuur op dit moment?
+example.en: What is the temperature at this moment?
+etymology: From Latin temperatura.
+tags: ⭐ common, 🌧️ weather
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: temperaturen
+grammar.Diminutive: het temperatuurtje
+
+//
+
+word: graad
+translation: degree
+type: noun
+group: Weather & Seasons
+pronunciation: /ɣraːt/
+example.nl: Morgen wordt het wel dertig graden!
+example.en: Tomorrow it will be as hot as thirty degrees!
+etymology: From Latin gradus (step/degree).
+note: When used after a number, the singular "graad" is sometimes used informally, but "graden" is standard (e.g., "20 graden").
+tags: ⭐ common, 🌧️ weather
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: graden
+grammar.Diminutive: het graadje
+
+//
+
+word: weersvoorspelling
+translation: weather forecast
+type: noun
+group: Weather & Seasons
+pronunciation: /ˈʋeːrsfoːrˌspɛlɪŋ/
+example.nl: Volgens de weersvoorspelling gaat het vanmiddag opklaren.
+example.en: According to the weather forecast, it is going to clear up this afternoon.
+etymology: Compound of weer (weather) and voorspelling (prediction).
+note: Often shortened informally to "het weer" (e.g., "Heb je het weer gezien?").
+tags: ⭐ common, 🌧️ weather
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: weersvoorspellingen
+grammar.Diminutive: het weersvoorspellingetje
+
+//
+
+word: paraplu
+translation: umbrella
+type: noun
+group: Weather & Seasons
+pronunciation: /paːraːˈply/
+example.nl: Neem je paraplu mee, want het gaat hard regenen.
+example.en: Take your umbrella with you, because it is going to rain hard.
+etymology: Borrowed from French parapluie (against rain).
+note: Plural uses an apostrophe-s (paraplu's).
+tags: ⭐ common, 🌧️ weather, 🛍️ shopping
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: paraplu's
+grammar.Diminutive: het parapluutje
+
+//
+
+word: zonnig
+translation: sunny
+type: adjective
+group: Weather & Seasons
+pronunciation: /ˈzɔnəx/
+example.nl: We hopen op een zonnige dag voor onze bruiloft.
+example.en: We hope for a sunny day for our wedding.
+etymology: Derived from zon (sun) + -ig.
+note: Very common weather description.
+tags: ⭐ common, 🎭 adjective, 🌧️ weather, ☀️ summer
+priority: yes
+grammar.Inflected form: zonnige
+grammar.Comparative: zonniger
+grammar.Superlative: zonnigst
+
+//
+
+word: regenachtig
+translation: rainy, showery
+type: adjective
+group: Weather & Seasons
+pronunciation: /ˈreːɣənˌɑxtəx/
+example.nl: Het is een typisch regenachtige herfstdag in Nederland.
+example.en: It is a typical rainy autumn day in the Netherlands.
+etymology: Derived from regen (rain) + -achtig (like).
+note: "Regenachtig weer" refers to intermittent showers or wet weather.
+tags: 🎭 adjective, 🌧️ weather
+priority: yes
+grammar.Inflected form: regenachtige
+grammar.Comparative: regenachtiger
+grammar.Superlative: regenachtigst
+
+//
+
+word: sneeuwerig
+translation: snowy
+type: adjective
+group: Weather & Seasons
+pronunciation: /ˈsneːu̯ərəx/
+example.nl: Door de sneeuwerige weersomstandigheden liep het verkeer vast.
+example.en: Traffic came to a standstill due to the snowy weather conditions.
+etymology: Derived from sneeuw (snow) + -ig (with an epenthetic r).
+note: Also used to describe static on an old television screen. "Sneeuwrijk" is used for high-snow zones.
+tags: 🎭 adjective, 🌧️ weather, ❄️ winter
+priority: no
+grammar.Inflected form: sneeuwerige
+grammar.Comparative: sneeuweriger
+grammar.Superlative: sneeuwerigst
+
+//
+
+word: winderig
+translation: windy, breezy
+type: adjective
+group: Weather & Seasons
+pronunciation: /ˈʋɪndərəx/
+example.nl: Het is veel te winderig om vandaag te gaan zeilen.
+example.en: It is far too windy to go sailing today.
+etymology: Derived from wind (wind) + -erig.
+note: Double meaning: can colloquially mean "flatulent".
+tags: ⭐ common, 🎭 adjective, 🌧️ weather
+priority: yes
+grammar.Inflected form: winderige
+grammar.Comparative: winderiger
+grammar.Superlative: winderigst
+
+//
+
+word: bewolkt
+translation: cloudy, overcast
+type: adjective
+group: Weather & Seasons
+pronunciation: /bəˈʋɔlkt/
+example.nl: De lucht is vandaag helemaal bewolkt, we zien de zon niet.
+example.en: De lucht is vandaag helemaal bewolkt, we zien de zon niet.
+etymology: Derived from the prefix be- + wolk (cloud).
+note: Standard term for cloudy skies.
+tags: ⭐ common, 🎭 adjective, 🌧️ weather
+priority: yes
+grammar.Inflected form: bewolkte
+grammar.Comparative: bewolkter
+grammar.Superlative: meest bewolkt
+
+//
+
+word: ijskoud
+translation: freezing, ice-cold
+type: adjective
+group: Weather & Seasons
+pronunciation: /ˈɛi̯skʌu̯t/
+example.nl: Het water in het meer is ijskoud, ga er niet in!
+example.en: The water in the lake is freezing cold, don't go in!
+etymology: Compound of ijs (ice) and koud (cold).
+note: "Het vriest" is the verb expression for freezing temperatures. "IJskoud" is the main adjective.
+tags: ⭐ common, 🎭 adjective, 🌧️ weather, ❄️ winter
+priority: yes
+grammar.Inflected form: ijskoude
+grammar.Comparative: ijskoudder
+grammar.Superlative: ijskoudst
+
+//
+
+word: vochtig
+translation: humid, damp, moist
+type: adjective
+group: Weather & Seasons
+pronunciation: /ˈvɔxtəx/
+example.nl: In de jungle is de lucht erg warm en vochtig.
+example.en: In the jungle, the air is very warm and humid.
+etymology: From Middle Dutch vocht (moisture) + -ig.
+note: "Klam" (clammy/muggy) is also commonly used for humid, sticky summer weather.
+tags: 🎭 adjective, 🌧️ weather
+priority: yes
+grammar.Inflected form: vochtige
+grammar.Comparative: vochtiger
+grammar.Superlative: vochtigst

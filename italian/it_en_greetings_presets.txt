@@ -66,6 +66,7 @@ group: 👋 Greetings & phrases
 pronunciation: /per faˈvoː.re/
 example.it: Un caffè, per favore.
 example.en: A coffee, please.
+note: Literally "for favor" — can be added to the end of almost any request to soften it.
 tags: 👋 common, 🗣️ social
 priority: yes
 grammar.Register: neutral
@@ -77,6 +78,7 @@ group: 👋 Greetings & phrases
 pronunciation: /ˈɡra.ttsje/
 example.it: Grazie mille per l'aiuto.
 example.en: Thank you very much for the help.
+note: Grazie mille ("a thousand thanks") is the common way to say thanks a lot.
 tags: 👋 common, 🗣️ social
 priority: yes
 grammar.Register: neutral
@@ -124,6 +126,7 @@ group: 👋 Greetings & phrases
 pronunciation: /si/
 example.it: Sì, ho capito.
 example.en: Yes, I understood.
+note: Often doubled for emphasis: sì sì!
 tags: 👋 common
 priority: yes
 grammar.Register: neutral
@@ -135,6 +138,7 @@ group: 👋 Greetings & phrases
 pronunciation: /nɔ/
 example.it: No, grazie.
 example.en: No, thank you.
+note: Can stand alone or tag onto a statement for confirmation, like English "..., no?"
 tags: 👋 common
 priority: yes
 grammar.Register: neutral
@@ -146,6 +150,7 @@ group: 👋 Greetings & phrases
 pronunciation: /non kaˈpi.sko/
 example.it: Mi dispiace, non capisco.
 example.en: I'm sorry, I don't understand.
+note: Add "scusi" (formal) or "scusa" (informal) before it to soften the interruption.
 tags: 👋 common, 🧠 abstract
 priority: yes
 grammar.Register: neutral
@@ -181,6 +186,7 @@ group: 👋 Greetings & phrases
 pronunciation: /stɔ ˈbeː.ne/
 example.it: — Come stai? — Sto bene, grazie.
 example.en: — How are you? — I'm fine, thanks.
+note: Bene can be swapped for other feelings: sto male (I'm not well), sto così così (so-so).
 tags: 👋 common, 🗣️ social
 priority: yes
 grammar.Register: neutral
@@ -192,6 +198,7 @@ group: 👋 Greetings & phrases
 pronunciation: /pjaˈtʃeː.re/
 example.it: — Piacere di conoscerti. — Il piacere è mio.
 example.en: — Nice to meet you. — The pleasure is mine.
+note: Short for "è un piacere" (it's a pleasure) — said when meeting someone for the first time.
 tags: 👋 common, 🗣️ social
 priority: yes
 grammar.Register: neutral
@@ -203,6 +210,7 @@ group: 👋 Greetings & phrases
 pronunciation: /a ˈdoː.po/
 example.it: Ci vediamo, a dopo!
 example.en: See you, see you later!
+note: Casual, for someone you'll see again the same day.
 tags: 👋 common, 🗣️ social
 priority: yes
 grammar.Register: neutral
@@ -214,6 +222,7 @@ group: 👋 Greetings & phrases
 pronunciation: /a doˈmaː.ni/
 example.it: Buona serata, a domani!
 example.en: Have a good evening, see you tomorrow!
+note: Said at the end of a work day or evening among people who'll meet again tomorrow.
 tags: 👋 common, 🗣️ social
 priority: yes
 grammar.Register: neutral
@@ -237,6 +246,7 @@ group: 👋 Greetings & phrases
 pronunciation: /kon.ɡra.tu.laˈtjoː.ni/
 example.it: Congratulazioni per il nuovo lavoro!
 example.en: Congratulations on the new job!
+note: Always plural in Italian, even for one achievement.
 tags: 👋 common, 🗣️ social
 priority: yes
 grammar.Register: neutral
@@ -248,6 +258,7 @@ group: 👋 Greetings & phrases
 pronunciation: /buon kom.pleˈan.no/
 example.it: Tanti auguri e buon compleanno!
 example.en: Best wishes and happy birthday!
+note: Tanti auguri ("many wishes") is the more traditional birthday greeting, often used instead.
 tags: 👋 common, 🗣️ social
 priority: yes
 grammar.Register: neutral
@@ -271,6 +282,7 @@ group: 👋 Greetings & phrases
 pronunciation: /nesˈsun proˈbleː.ma/
 example.it: — Scusa per il ritardo. — Nessun problema!
 example.en: — Sorry for the delay. — No problem!
+note: A relaxed way to brush off an apology or a minor inconvenience.
 tags: 👋 common, 🗣️ social
 priority: yes
 grammar.Register: neutral
@@ -282,6 +294,7 @@ group: 👋 Greetings & phrases
 pronunciation: /tʃer.taˈmen.te/
 example.it: — Posso sedermi qui? — Certamente.
 example.en: — Can I sit here? — Of course.
+note: A more emphatic, slightly formal alternative to "sì" or "va bene".
 tags: 👋 common, 🗣️ social
 priority: yes
 grammar.Register: neutral

@@ -1,0 +1,302 @@
+word: hallo
+translation: hello, hi
+type: interjection
+group: 👋 Greetings & phrases
+pronunciation: /haˈloː/
+example.de: Hallo! Wie geht's?
+example.en: Hello! How's it going?
+etymology: A relatively modern loan, likely from English "hallo/hello", itself from Old High German "halâ" (a call to attract attention).
+note: Neutral and works with both du and Sie — one of the few German greetings that isn't register-sensitive.
+tags: ⭐ common, 💬 communication
+priority: yes
+//
+word: hi
+translation: hi
+type: interjection
+group: 👋 Greetings & phrases
+pronunciation: /haɪ/
+example.de: Hi, na, alles klar?
+example.en: Hi, everything good?
+note: Casual, borrowed straight from English — common among younger speakers.
+tags: ⭐ common, 💬 communication
+priority: yes
+//
+word: tschüss
+translation: bye, goodbye
+type: interjection
+group: 👋 Greetings & phrases
+pronunciation: /tʃʏs/
+example.de: Tschüss, bis bald!
+example.en: Bye, see you soon!
+etymology: From Low German "atschüs", ultimately from French "adieu" (to God) via Walloon.
+note: The everyday informal goodbye. Auf Wiedersehen is the formal counterpart.
+tags: ⭐ common, 💬 communication
+priority: yes
+//
+word: guten morgen
+translation: good morning
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /ˈɡuːtn̩ ˈmɔʁɡn̩/
+example.de: Guten Morgen! Hast du gut geschlafen?
+example.en: Good morning! Did you sleep well?
+note: Often shortened to just "Morgen!" in casual speech.
+tags: ⭐ common, 💬 communication
+priority: yes
+//
+word: guten tag
+translation: good afternoon, good day
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /ˈɡuːtn̩ taːk/
+example.de: Guten Tag, ich hätte eine Frage.
+example.en: Good afternoon, I have a question.
+note: The standard formal daytime greeting — used with strangers, shopkeepers, and in business settings.
+tags: ⭐ common, 💬 communication
+priority: yes
+//
+word: guten abend
+translation: good evening
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /ˈɡuːtn̩ ˈaːbn̩t/
+example.de: Guten Abend! Kommen Sie herein.
+example.en: Good evening! Come in.
+tags: ⭐ common, 💬 communication
+priority: yes
+//
+word: gute nacht
+translation: good night
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /ˈɡuːtə naxt/
+example.de: Gute Nacht, schlaf gut!
+example.en: Good night, sleep well!
+note: Said only when parting for the night, never as a general evening greeting.
+tags: ⭐ common, 💬 communication
+priority: yes
+//
+word: bitte
+translation: please, here you are, you're welcome
+type: interjection
+group: 👋 Greetings & phrases
+pronunciation: /ˈbɪtə/
+example.de: Ein Kaffee, bitte.
+example.en: A coffee, please.
+note: One of the most versatile words in German — also means "here you go" when handing something over, "you're welcome" in reply to danke, and "pardon?" when you didn't hear something.
+tags: ⭐ common, 💬 communication
+priority: yes
+//
+word: danke
+translation: thank you, thanks
+type: interjection
+group: 👋 Greetings & phrases
+pronunciation: /ˈdaŋkə/
+example.de: Danke für deine Hilfe.
+example.en: Thank you for your help.
+note: Danke schön or danke sehr add warmth for a bigger thank-you.
+tags: ⭐ common, 💬 communication
+priority: yes
+//
+word: bitte schön
+translation: you're welcome
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /ˈbɪtə ʃøːn/
+example.de: — Danke schön! — Bitte schön!
+example.en: — Thank you! — You're welcome!
+note: A slightly more emphatic reply to danke than bitte alone.
+tags: ⭐ common, 💬 communication
+priority: yes
+//
+word: entschuldigung
+translation: sorry, excuse me
+type: interjection
+group: 👋 Greetings & phrases
+pronunciation: /ɛntˈʃʊldɪɡʊŋ/
+example.de: Entschuldigung, wo ist der Bahnhof?
+example.en: Excuse me, where is the train station?
+etymology: From entschuldigen (to excuse/forgive), from Schuld (guilt/fault).
+note: Works both to apologize and to get someone's attention — often shortened to "'tschuldigung" in speech.
+tags: ⭐ common, 💬 communication
+priority: yes
+//
+word: verzeihung
+translation: pardon, forgive me
+type: interjection
+group: 👋 Greetings & phrases
+pronunciation: /fɛɐ̯ˈtsaɪ̯ʊŋ/
+example.de: Verzeihung, das war mein Fehler.
+example.en: Forgive me, that was my mistake.
+note: More formal and heartfelt than entschuldigung — closer to "I beg your pardon."
+tags: 💬 communication, 📜 formal
+priority: yes
+//
+word: ja
+translation: yes
+type: interjection
+group: 👋 Greetings & phrases
+pronunciation: /jaː/
+example.de: Ja, das stimmt.
+example.en: Yes, that's right.
+tags: ⭐ common
+priority: yes
+//
+word: nein
+translation: no
+type: interjection
+group: 👋 Greetings & phrases
+pronunciation: /naɪ̯n/
+example.de: Nein, danke.
+example.en: No, thank you.
+tags: ⭐ common
+priority: yes
+//
+word: ich verstehe nicht
+translation: I don't understand
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /ɪç fɛɐ̯ˈʃteːə nɪçt/
+example.de: Entschuldigung, ich verstehe nicht.
+example.en: Sorry, I don't understand.
+tags: ⭐ common, 💬 communication
+priority: yes
+//
+word: ich heiße
+translation: my name is
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /ɪç ˈhaɪ̯sə/
+example.de: Ich heiße Anna.
+example.en: My name is Anna.
+note: Literally "I am called" — from heißen (to be named/called).
+tags: ⭐ common, 💬 communication
+priority: yes
+//
+word: wie geht's
+translation: how are you
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /viː ɡeːts/
+example.de: Hallo, wie geht's?
+example.en: Hi, how are you?
+note: Contraction of "wie geht es dir/Ihnen" — casual and extremely common. The formal version is "wie geht es Ihnen?"
+tags: ⭐ common, 💬 communication
+priority: yes
+//
+word: mir geht's gut
+translation: I'm fine
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /miːɐ̯ ɡeːts ɡuːt/
+example.de: — Wie geht's? — Mir geht's gut, danke.
+example.en: — How are you? — I'm fine, thanks.
+tags: ⭐ common, 💬 communication
+priority: yes
+//
+word: freut mich
+translation: nice to meet you
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /fʁɔɪ̯t mɪç/
+example.de: Freut mich, Sie kennenzulernen.
+example.en: Nice to meet you.
+note: Short for "es freut mich" (it pleases me) — works alone in casual speech or extended for formal introductions.
+tags: ⭐ common, 💬 communication
+priority: yes
+//
+word: bis später
+translation: see you later
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /bɪs ˈspɛːtɐ/
+example.de: Ich muss los, bis später!
+example.en: I have to go, see you later!
+tags: ⭐ common, 💬 communication
+priority: yes
+//
+word: bis morgen
+translation: see you tomorrow
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /bɪs ˈmɔʁɡn̩/
+example.de: Gute Nacht, bis morgen!
+example.en: Good night, see you tomorrow!
+tags: ⭐ common, 💬 communication
+priority: yes
+//
+word: prost
+translation: cheers
+type: interjection
+group: 👋 Greetings & phrases
+pronunciation: /pʁoːst/
+example.de: Prost! Auf dein Wohl!
+example.en: Cheers! To your health!
+etymology: From Latin "prosit" ("may it be beneficial").
+note: Look people in the eye when clinking glasses — considered good manners, even superstition, in German-speaking countries.
+tags: ⭐ common, 🍺 social
+priority: yes
+//
+word: herzlichen glückwunsch
+translation: congratulations
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /ˈhɛɐ̯tslɪçn̩ ˈɡlʏkvʊnʃ/
+example.de: Herzlichen Glückwunsch zur Prüfung!
+example.en: Congratulations on the exam!
+etymology: Herzlich (heartfelt) + Glückwunsch (wish of luck, from Glück "luck" + Wunsch "wish").
+note: Often just shortened to "Glückwunsch!" in casual speech.
+tags: ⭐ common, 💬 communication
+priority: yes
+//
+word: alles gute zum geburtstag
+translation: happy birthday
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /ˈaləs ˈɡuːtə tsʊm ɡəˈbʊʁtstaːk/
+example.de: Alles Gute zum Geburtstag!
+example.en: Happy birthday!
+note: Literally "all the best for the birthday." Germans traditionally avoid congratulating someone before their actual birthday — it's considered bad luck.
+tags: ⭐ common, 💬 communication
+priority: yes
+//
+word: willkommen
+translation: welcome
+type: interjection
+group: 👋 Greetings & phrases
+pronunciation: /vɪlˈkɔmən/
+example.de: Willkommen in Deutschland!
+example.en: Welcome to Germany!
+tags: ⭐ common, 💬 communication
+priority: yes
+//
+word: kein problem
+translation: no problem
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /kaɪ̯n pʁoˈbleːm/
+example.de: — Tut mir leid! — Kein Problem!
+example.en: — Sorry! — No problem!
+tags: ⭐ common, 💬 communication
+priority: yes
+//
+word: natürlich
+translation: of course
+type: adverb
+group: 👋 Greetings & phrases
+pronunciation: /naˈtyːɐ̯lɪç/
+example.de: — Kann ich hier sitzen? — Natürlich!
+example.en: — Can I sit here? — Of course!
+tags: ⭐ common, 💬 communication
+priority: yes
+//
+word: bitte sehr
+translation: here you go
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /ˈbɪtə zeːɐ̯/
+example.de: Bitte sehr, hier ist Ihre Bestellung.
+example.en: Here you go, here's your order.
+note: Used specifically when handing something over, distinct from bitte schön as a reply to thanks.
+tags: 💬 communication
+priority: yes

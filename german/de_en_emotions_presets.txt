@@ -1,0 +1,336 @@
+word: glücklich
+translation: happy
+type: adjective
+group: 😊 Emotions
+pronunciation: /ˈɡlʏklɪç/
+example.de: Ich bin sehr glücklich heute.
+example.en: I'm very happy today.
+grammar.Comparative: glücklicher
+grammar.Superlative: am glücklichsten
+etymology: From Glück (luck/fortune) — the same root gives glücklich its double sense of "happy" and "fortunate."
+tags: ⭐ common, 😊 emotion
+priority: yes
+//
+word: traurig
+translation: sad
+type: adjective
+group: 😊 Emotions
+pronunciation: /ˈtʁaʊ̯ʁɪç/
+example.de: Sie war traurig über die Nachricht.
+example.en: She was sad about the news.
+grammar.Comparative: trauriger
+grammar.Superlative: am traurigsten
+tags: ⭐ common, 😊 emotion
+priority: yes
+//
+word: wütend
+translation: angry
+type: adjective
+group: 😊 Emotions
+pronunciation: /ˈvyːtn̩t/
+example.de: Er war wütend auf seinen Bruder.
+example.en: He was angry at his brother.
+grammar.Comparative: wütender
+grammar.Superlative: am wütendsten
+etymology: From Wut (rage/fury).
+tags: ⭐ common, 😊 emotion
+priority: yes
+//
+word: ängstlich
+translation: afraid
+type: adjective
+group: 😊 Emotions
+pronunciation: /ˈɛŋstlɪç/
+example.de: Das Kind war ängstlich im Dunkeln.
+example.en: The child was afraid in the dark.
+grammar.Comparative: ängstlicher
+grammar.Superlative: am ängstlichsten
+etymology: From Angst (fear).
+tags: 😊 emotion
+priority: yes
+//
+word: überrascht
+translation: surprised
+type: adjective
+group: 😊 Emotions
+pronunciation: /yːbɐˈʁaʃt/
+example.de: Ich war total überrascht von dem Geschenk.
+example.en: I was totally surprised by the gift.
+etymology: Past participle of überraschen (to surprise).
+tags: ⭐ common, 😊 emotion
+priority: yes
+//
+word: nervös
+translation: nervous
+type: adjective
+group: 😊 Emotions
+pronunciation: /nɛʁˈvøːs/
+example.de: Vor der Prüfung war ich sehr nervös.
+example.en: I was very nervous before the exam.
+grammar.Comparative: nervöser
+grammar.Superlative: am nervösesten
+tags: ⭐ common, 😊 emotion
+priority: yes
+//
+word: aufgeregt
+translation: excited
+type: adjective
+group: 😊 Emotions
+pronunciation: /ˈaʊ̯fɡəʁeːkt/
+example.de: Die Kinder sind aufgeregt vor der Reise.
+example.en: The kids are excited before the trip.
+note: Can also mean "agitated/upset" depending on context — tone and situation clarify which.
+tags: ⭐ common, 😊 emotion
+priority: yes
+//
+word: müde
+translation: tired
+type: adjective
+group: 😊 Emotions
+pronunciation: /ˈmyːdə/
+example.de: Ich bin heute sehr müde.
+example.en: I'm very tired today.
+grammar.Comparative: müder
+grammar.Superlative: am müdesten
+tags: ⭐ common, 😊 emotion
+priority: yes
+//
+word: gelangweilt
+translation: bored
+type: adjective
+group: 😊 Emotions
+pronunciation: /ɡəˈlaŋvaɪ̯lt/
+example.de: Die Schüler wirkten gelangweilt.
+example.en: The students seemed bored.
+etymology: Past participle of langweilen (to bore), from lang (long) + Weile (while) — "to make time feel long."
+tags: 😊 emotion
+priority: yes
+//
+word: verwirrt
+translation: confused
+type: adjective
+group: 😊 Emotions
+pronunciation: /fɛɐ̯ˈvɪʁt/
+example.de: Ich bin verwirrt von den Anweisungen.
+example.en: I'm confused by the instructions.
+etymology: Past participle of verwirren (to confuse/entangle).
+tags: ⭐ common, 😊 emotion
+priority: yes
+//
+word: stolz
+translation: proud
+type: adjective
+group: 😊 Emotions
+pronunciation: /ʃtɔlts/
+example.de: Ich bin stolz auf dich.
+example.en: I'm proud of you.
+grammar.Comparative: stolzer
+grammar.Superlative: am stolzesten
+note: Stolz auf (proud of) always takes this preposition.
+tags: ⭐ common, 😊 emotion
+priority: yes
+//
+word: beschämt
+translation: ashamed
+type: adjective
+group: 😊 Emotions
+pronunciation: /bəˈʃɛːmt/
+example.de: Er fühlte sich beschämt wegen des Fehlers.
+example.en: He felt ashamed about the mistake.
+etymology: From Scham (shame).
+tags: 😊 emotion
+priority: yes
+//
+word: eifersüchtig
+translation: jealous
+type: adjective
+group: 😊 Emotions
+pronunciation: /ˈaɪ̯fɐzʏçtɪç/
+example.de: Er war eifersüchtig auf seinen Kollegen.
+example.en: He was jealous of his colleague.
+etymology: From Eifer (zeal/ardor) + Sucht (obsession/addiction).
+tags: 😊 emotion
+priority: yes
+//
+word: einsam
+translation: lonely
+type: adjective
+group: 😊 Emotions
+pronunciation: /ˈaɪ̯nzaːm/
+example.de: Sie fühlte sich einsam in der neuen Stadt.
+example.en: She felt lonely in the new city.
+grammar.Comparative: einsamer
+grammar.Superlative: am einsamsten
+tags: 😊 emotion
+priority: yes
+//
+word: ruhig
+translation: calm
+type: adjective
+group: 😊 Emotions
+pronunciation: /ˈʁuːɪç/
+example.de: Bleib ruhig, alles wird gut.
+example.en: Stay calm, everything will be fine.
+grammar.Comparative: ruhiger
+grammar.Superlative: am ruhigsten
+tags: ⭐ common, 😊 emotion
+priority: yes
+//
+word: gestresst
+translation: stressed
+type: adjective
+group: 😊 Emotions
+pronunciation: /ɡəˈʃtʁɛst/
+example.de: Ich bin momentan sehr gestresst.
+example.en: I'm very stressed right now.
+tags: ⭐ common, 😊 emotion
+priority: yes
+//
+word: entspannt
+translation: relaxed
+type: adjective
+group: 😊 Emotions
+pronunciation: /ɛntˈʃpant/
+example.de: Am Wochenende bin ich viel entspannter.
+example.en: On the weekend I'm much more relaxed.
+etymology: Past participle of entspannen (to relax).
+tags: ⭐ common, 😊 emotion
+priority: yes
+//
+word: neugierig
+translation: curious
+type: adjective
+group: 😊 Emotions
+pronunciation: /ˈnɔɪ̯ɡiːʁɪç/
+example.de: Die Kinder sind sehr neugierig.
+example.en: The children are very curious.
+etymology: Neu (new) + gierig (greedy/eager) — literally "eager for the new."
+tags: 😊 emotion
+priority: yes
+//
+word: hoffnungsvoll
+translation: hopeful
+type: adjective
+group: 😊 Emotions
+pronunciation: /ˈhɔfnʊŋsfɔl/
+example.de: Wir sind hoffnungsvoll für die Zukunft.
+example.en: We are hopeful for the future.
+etymology: Hoffnung (hope) + voll (full) — "full of hope."
+tags: 😊 emotion
+priority: yes
+//
+word: enttäuscht
+translation: disappointed
+type: adjective
+group: 😊 Emotions
+pronunciation: /ɛntˈtɔɪ̯ʃt/
+example.de: Ich war enttäuscht vom Ergebnis.
+example.en: I was disappointed by the result.
+etymology: Past participle of enttäuschen (to disappoint), literally "to un-deceive" — ent- (un-) + täuschen (to deceive).
+tags: ⭐ common, 😊 emotion
+priority: yes
+//
+word: dankbar
+translation: grateful
+type: adjective
+group: 😊 Emotions
+pronunciation: /ˈdaŋkbaːɐ̯/
+example.de: Ich bin dir sehr dankbar für deine Hilfe.
+example.en: I'm very grateful to you for your help.
+etymology: Dank (thanks) + -bar (suffix meaning "-able").
+tags: ⭐ common, 😊 emotion
+priority: yes
+//
+word: zufrieden
+translation: content
+type: adjective
+group: 😊 Emotions
+pronunciation: /tsuˈfʁiːdn̩/
+example.de: Ich bin zufrieden mit meinem Leben.
+example.en: I'm content with my life.
+grammar.Comparative: zufriedener
+grammar.Superlative: am zufriedensten
+tags: ⭐ common, 😊 emotion
+priority: yes
+//
+word: liebe
+translation: love
+type: noun
+group: 😊 Emotions
+pronunciation: /ˈliːbə/
+example.de: Liebe macht blind, sagt man.
+example.en: Love is blind, they say.
+grammar.Gender: f
+grammar.Genitive singular: der Liebe
+tags: ⭐ common, 😊 emotion
+priority: yes
+//
+word: hass
+translation: hate
+type: noun
+group: 😊 Emotions
+pronunciation: /has/
+example.de: Er spürte plötzlich Hass in sich aufsteigen.
+example.en: He suddenly felt hate rising in him.
+grammar.Gender: m
+grammar.Genitive singular: des Hasses
+tags: 😊 emotion
+priority: yes
+//
+word: angst
+translation: fear
+type: noun
+group: 😊 Emotions
+pronunciation: /aŋst/
+example.de: Sie hat Angst vor Spinnen.
+example.en: She's afraid of spiders.
+grammar.Gender: f
+grammar.Plural (with article): die Ängste
+grammar.Genitive singular: der Angst
+note: Angst haben vor (+ dative) is the standard construction for "to be afraid of."
+tags: ⭐ common, 😊 emotion
+priority: yes
+//
+word: freude
+translation: joy
+type: noun
+group: 😊 Emotions
+pronunciation: /ˈfʁɔɪ̯də/
+example.de: Die Kinder sprangen vor Freude.
+example.en: The children jumped for joy.
+grammar.Gender: f
+grammar.Genitive singular: der Freude
+etymology: The word behind Beethoven's "Ode an die Freude" (Ode to Joy).
+tags: ⭐ common, 😊 emotion
+priority: yes
+//
+word: fühlen
+translation: to feel
+type: verb
+group: 😊 Emotions
+pronunciation: /ˈfyːlən/
+example.de: Wie fühlst du dich heute?
+example.en: How do you feel today?
+grammar.Verb type: weak
+grammar.Separable verb?: no
+grammar.Auxiliary (Perfekt): haben
+grammar.Partizip II: gefühlt
+grammar.Präteritum (ich): fühlte
+grammar.Präsens (all 6 forms): fühle / fühlst / fühlt / fühlen / fühlt / fühlen
+note: Usually reflexive when talking about your own feelings — sich fühlen.
+tags: ⭐ common, 😊 emotion
+priority: yes
+//
+word: laune
+translation: mood
+type: noun
+group: 😊 Emotions
+pronunciation: /ˈlaʊ̯nə/
+example.de: Er hat heute schlechte Laune.
+example.en: He's in a bad mood today.
+grammar.Gender: f
+grammar.Plural (with article): die Launen
+grammar.Genitive singular: der Laune
+note: Gute/schlechte Laune haben (to be in a good/bad mood) is the standard phrase.
+tags: ⭐ common, 😊 emotion
+priority: yes

@@ -1,0 +1,392 @@
+word: stadt
+translation: city
+type: noun
+group: 🗺️ City & directions
+pronunciation: /ʃtat/
+example.de: Berlin ist eine moderne Stadt.
+example.en: Berlin is a modern city.
+grammar.Gender: f
+grammar.Plural (with article): die Städte
+grammar.Genitive singular: der Stadt
+tags: ⭐ common, 🗺️ city
+priority: yes
+//
+word: ort
+translation: town
+type: noun
+group: 🗺️ City & directions
+pronunciation: /ɔʁt/
+example.de: Sie kommt aus einem kleinen Ort in Bayern.
+example.en: She comes from a small town in Bavaria.
+grammar.Gender: m
+grammar.Plural (with article): die Orte
+grammar.Genitive singular: des Ortes
+note: German doesn't sharply separate "city" and "town" — Ort is the general word for a place/locality, smaller and less formal than Stadt.
+tags: ⭐ common, 🗺️ city
+priority: yes
+//
+word: dorf
+translation: village
+type: noun
+group: 🗺️ City & directions
+pronunciation: /dɔʁf/
+example.de: Sie wohnen in einem kleinen Dorf.
+example.en: They live in a small village.
+grammar.Gender: n
+grammar.Plural (with article): die Dörfer
+grammar.Genitive singular: des Dorfes
+tags: ⭐ common, 🗺️ city
+priority: yes
+//
+word: straße
+translation: street
+type: noun
+group: 🗺️ City & directions
+pronunciation: /ˈʃtʁaːsə/
+example.de: In welcher Straße wohnst du?
+example.en: Which street do you live on?
+grammar.Gender: f
+grammar.Plural (with article): die Straßen
+grammar.Genitive singular: der Straße
+tags: ⭐ common, 🗺️ city
+priority: yes
+//
+word: weg
+translation: road, way
+type: noun
+group: 🗺️ City & directions
+pronunciation: /veːk/
+example.de: Dieser Weg führt zum Strand.
+example.en: This road leads to the beach.
+grammar.Gender: m
+grammar.Plural (with article): die Wege
+grammar.Genitive singular: des Weges
+note: Also means "way" in the abstract sense — auf dem richtigen Weg (on the right track).
+tags: 🗺️ city
+priority: yes
+//
+word: park
+translation: park
+type: noun
+group: 🗺️ City & directions
+pronunciation: /paʁk/
+example.de: Wir picknicken im Park.
+example.en: We're having a picnic in the park.
+grammar.Gender: m
+grammar.Plural (with article): die Parks
+grammar.Genitive singular: des Parks
+tags: ⭐ common, 🗺️ city
+priority: yes
+//
+word: brücke
+translation: bridge
+type: noun
+group: 🗺️ City & directions
+pronunciation: /ˈbʁʏkə/
+example.de: Die Brücke führt über den Fluss.
+example.en: The bridge crosses the river.
+grammar.Gender: f
+grammar.Plural (with article): die Brücken
+grammar.Genitive singular: der Brücke
+tags: ⭐ common, 🗺️ city
+priority: yes
+//
+word: links
+translation: left
+type: adverb
+group: 🗺️ City & directions
+pronunciation: /lɪŋks/
+example.de: An der Ampel gehst du links.
+example.en: At the traffic light you turn left.
+note: Links abbiegen means "to turn left."
+tags: ⭐ common, 🗺️ city
+priority: yes
+//
+word: rechts
+translation: right
+type: adverb
+group: 🗺️ City & directions
+pronunciation: /ʁɛçts/
+example.de: Der Eingang ist rechts von der Tür.
+example.en: The entrance is to the right of the door.
+note: Rechts abbiegen means "to turn right."
+tags: ⭐ common, 🗺️ city
+priority: yes
+//
+word: geradeaus
+translation: straight ahead
+type: adverb
+group: 🗺️ City & directions
+pronunciation: /ɡəˈʁaːdəʔaʊ̯s/
+example.de: Gehen Sie geradeaus bis zur Kirche.
+example.en: Go straight ahead until the church.
+etymology: From gerade (straight) + aus (out/onward).
+tags: ⭐ common, 🗺️ city
+priority: yes
+//
+word: norden
+translation: north
+type: noun
+group: 🗺️ City & directions
+pronunciation: /ˈnɔʁdn̩/
+example.de: Hamburg liegt im Norden von Deutschland.
+example.en: Hamburg is in the north of Germany.
+grammar.Gender: m
+grammar.Genitive singular: des Nordens
+tags: 🗺️ city
+priority: yes
+//
+word: süden
+translation: south
+type: noun
+group: 🗺️ City & directions
+pronunciation: /ˈzyːdn̩/
+example.de: München liegt im Süden.
+example.en: Munich is in the south.
+grammar.Gender: m
+grammar.Genitive singular: des Südens
+tags: 🗺️ city
+priority: yes
+//
+word: osten
+translation: east
+type: noun
+group: 🗺️ City & directions
+pronunciation: /ˈɔstn̩/
+example.de: Die Sonne geht im Osten auf.
+example.en: The sun rises in the east.
+grammar.Gender: m
+grammar.Genitive singular: des Ostens
+tags: 🗺️ city
+priority: yes
+//
+word: westen
+translation: west
+type: noun
+group: 🗺️ City & directions
+pronunciation: /ˈvɛstn̩/
+example.de: Die großen Städte liegen im Westen.
+example.en: The big cities are in the west.
+grammar.Gender: m
+grammar.Genitive singular: des Westens
+tags: 🗺️ city
+priority: yes
+//
+word: abbiegen
+translation: to turn
+type: verb
+group: 🗺️ City & directions
+pronunciation: /ˈapbiːɡn̩/
+example.de: Biegen Sie am Kreisverkehr rechts ab.
+example.en: Turn right at the roundabout.
+grammar.Verb type: strong
+grammar.Separable verb?: yes
+grammar.Auxiliary (Perfekt): sein
+grammar.Partizip II: abgebogen
+grammar.Präteritum (ich): bog ab
+grammar.Präsens (all 6 forms): biege ab / biegst ab / biegt ab / biegen ab / biegt ab / biegen ab
+tags: 🗺️ city
+priority: yes
+//
+word: nah
+translation: near
+type: adjective
+group: 🗺️ City & directions
+pronunciation: /naː/
+example.de: Der Bahnhof ist ganz nah.
+example.en: The station is very near.
+grammar.Comparative: näher
+grammar.Superlative: am nächsten
+note: In der Nähe (in the vicinity) is the common phrase for "nearby."
+tags: ⭐ common, 🗺️ city
+priority: yes
+//
+word: weit
+translation: far
+type: adjective
+group: 🗺️ City & directions
+pronunciation: /vaɪ̯t/
+example.de: Ist es weit zu Fuß?
+example.en: Is it far to walk?
+grammar.Comparative: weiter
+grammar.Superlative: am weitesten
+tags: ⭐ common, 🗺️ city
+priority: yes
+//
+word: neben
+translation: next to
+type: preposition
+group: 🗺️ City & directions
+pronunciation: /ˈneːbn̩/
+example.de: Die Bäckerei ist neben dem Supermarkt.
+example.en: The bakery is next to the supermarket.
+note: A two-way preposition — takes accusative for movement, dative for location.
+tags: ⭐ common, 🗺️ city
+priority: yes
+//
+word: gegenüber
+translation: opposite
+type: preposition
+group: 🗺️ City & directions
+pronunciation: /ɡeːɡn̩ˈʔyːbɐ/
+example.de: Das Café liegt gegenüber vom Bahnhof.
+example.en: The café is opposite the station.
+tags: ⭐ common, 🗺️ city
+priority: yes
+//
+word: zwischen
+translation: between
+type: preposition
+group: 🗺️ City & directions
+pronunciation: /ˈtsvɪʃn̩/
+example.de: Das Museum liegt zwischen der Kirche und dem Park.
+example.en: The museum is between the church and the park.
+tags: ⭐ common, 🗺️ city
+priority: yes
+//
+word: ecke
+translation: corner
+type: noun
+group: 🗺️ City & directions
+pronunciation: /ˈɛkə/
+example.de: Der Laden ist gleich um die Ecke.
+example.en: The shop is just around the corner.
+grammar.Gender: f
+grammar.Plural (with article): die Ecken
+grammar.Genitive singular: der Ecke
+tags: ⭐ common, 🗺️ city
+priority: yes
+//
+word: ampel
+translation: traffic lights
+type: noun
+group: 🗺️ City & directions
+pronunciation: /ˈampl̩/
+example.de: An der Ampel überquerst du die Straße.
+example.en: You cross at the traffic lights.
+grammar.Gender: f
+grammar.Plural (with article): die Ampeln
+grammar.Genitive singular: der Ampel
+etymology: Short for Ampelmann-style traffic signal, originally from Lateinamphora (a lamp-shaped vessel).
+tags: ⭐ common, 🗺️ city
+priority: yes
+//
+word: kreisverkehr
+translation: roundabout
+type: noun
+group: 🗺️ City & directions
+pronunciation: /ˈkʁaɪ̯sfɛɐ̯keːɐ̯/
+example.de: Nimm die zweite Ausfahrt am Kreisverkehr.
+example.en: Take the second exit at the roundabout.
+grammar.Gender: m
+grammar.Plural (with article): die Kreisverkehre
+grammar.Genitive singular: des Kreisverkehrs
+etymology: Literally "circle traffic" — Kreis (circle) + Verkehr (traffic).
+tags: 🗺️ city
+priority: yes
+//
+word: kirche
+translation: church
+type: noun
+group: 🗺️ City & directions
+pronunciation: /ˈkɪʁçə/
+example.de: Die alte Kirche steht mitten im Dorf.
+example.en: The old church stands in the middle of the village.
+grammar.Gender: f
+grammar.Plural (with article): die Kirchen
+grammar.Genitive singular: der Kirche
+tags: ⭐ common, 🗺️ city
+priority: yes
+//
+word: museum
+translation: museum
+type: noun
+group: 🗺️ City & directions
+pronunciation: /muˈzeːʊm/
+example.de: Das Museum ist sehr beliebt.
+example.en: The museum is very popular.
+grammar.Gender: n
+grammar.Plural (with article): die Museen
+grammar.Genitive singular: des Museums
+tags: ⭐ common, 🗺️ city
+priority: yes
+//
+word: bibliothek
+translation: library
+type: noun
+group: 🗺️ City & directions
+pronunciation: /biblioˈteːk/
+example.de: Ich leihe Bücher aus der Bibliothek.
+example.en: I borrow books from the library.
+grammar.Gender: f
+grammar.Plural (with article): die Bibliotheken
+grammar.Genitive singular: der Bibliothek
+tags: 🗺️ city
+priority: yes
+//
+word: bank
+translation: bank
+type: noun
+group: 🗺️ City & directions
+pronunciation: /baŋk/
+example.de: Ich muss kurz zur Bank.
+example.en: I have to quickly go to the bank.
+grammar.Gender: f
+grammar.Plural (with article): die Banken
+grammar.Genitive singular: der Bank
+note: Watch the plural — die Bänke (benches) is a completely different word, even though the singular looks identical.
+tags: ⭐ common, 🗺️ city
+priority: yes
+//
+word: post
+translation: post office
+type: noun
+group: 🗺️ City & directions
+pronunciation: /pɔst/
+example.de: Ich muss noch zur Post.
+example.en: I still need to go to the post office.
+grammar.Gender: f
+grammar.Genitive singular: der Post
+note: Also means "mail/post" in general — die Post ist da (the mail has arrived).
+tags: ⭐ common, 🗺️ city
+priority: yes
+//
+word: markt
+translation: market
+type: noun
+group: 🗺️ City & directions
+pronunciation: /maʁkt/
+example.de: Samstags ist Markt auf dem Platz.
+example.en: There's a market on the square on Saturdays.
+grammar.Gender: m
+grammar.Plural (with article): die Märkte
+grammar.Genitive singular: des Marktes
+tags: ⭐ common, 🗺️ city
+priority: yes
+//
+word: bushaltestelle
+translation: bus stop
+type: noun
+group: 🗺️ City & directions
+pronunciation: /ˈbʊshaltəˌʃtɛlə/
+example.de: Die Bushaltestelle ist direkt vor der Tür.
+example.en: The bus stop is right outside.
+grammar.Gender: f
+grammar.Plural (with article): die Bushaltestellen
+grammar.Genitive singular: der Bushaltestelle
+etymology: Bus + Haltestelle (stopping point, from halten "to stop").
+tags: ⭐ common, 🗺️ city
+priority: yes
+//
+word: hafen
+translation: port
+type: noun
+group: 🗺️ City & directions
+pronunciation: /ˈhaːfn̩/
+example.de: Hamburg hat den größten Hafen Deutschlands.
+example.en: Hamburg has the largest port in Germany.
+grammar.Gender: m
+grammar.Plural (with article): die Häfen
+grammar.Genitive singular: des Hafens
+tags: 🗺️ city
+priority: yes

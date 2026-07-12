@@ -1,0 +1,499 @@
+word: bahnhof
+translation: station
+type: noun
+group: ✈️ Travelling
+pronunciation: /ˈbaːnhoːf/
+example.de: Der Bahnhof ist zehn Minuten entfernt.
+example.en: The station is ten minutes away.
+grammar.Gender: m
+grammar.Plural (with article): die Bahnhöfe
+grammar.Genitive singular: des Bahnhofs
+etymology: Literally "railway yard" — Bahn (railway) + Hof (yard/court).
+tags: ⭐ common, ✈️ travel
+priority: yes
+//
+word: zug
+translation: train
+type: noun
+group: ✈️ Travelling
+pronunciation: /tsuːk/
+example.de: Der Zug fährt in fünf Minuten ab.
+example.en: The train leaves in five minutes.
+grammar.Gender: m
+grammar.Plural (with article): die Züge
+grammar.Genitive singular: des Zuges
+tags: ⭐ common, ✈️ travel
+priority: yes
+//
+word: bus
+translation: bus
+type: noun
+group: ✈️ Travelling
+pronunciation: /bʊs/
+example.de: Wir nehmen den Bus zum Flughafen.
+example.en: We take the bus to the airport.
+grammar.Gender: m
+grammar.Plural (with article): die Busse
+grammar.Genitive singular: des Busses
+tags: ⭐ common, ✈️ travel
+priority: yes
+//
+word: flugzeug
+translation: plane
+type: noun
+group: ✈️ Travelling
+pronunciation: /ˈfluːktsɔɪ̯k/
+example.de: Das Flugzeug hat zwei Stunden Verspätung.
+example.en: The plane is two hours delayed.
+grammar.Gender: n
+grammar.Plural (with article): die Flugzeuge
+grammar.Genitive singular: des Flugzeugs
+etymology: Literally "flying tool" — fliegen (to fly) + Zeug (thing/tool).
+tags: ⭐ common, ✈️ travel
+priority: yes
+//
+word: auto
+translation: car
+type: noun
+group: ✈️ Travelling
+pronunciation: /ˈaʊ̯to/
+example.de: Wir fahren mit dem Auto nach Italien.
+example.en: We're driving to Italy by car.
+grammar.Gender: n
+grammar.Plural (with article): die Autos
+grammar.Genitive singular: des Autos
+tags: ⭐ common, ✈️ travel
+priority: yes
+//
+word: taxi
+translation: taxi
+type: noun
+group: ✈️ Travelling
+pronunciation: /ˈtaksi/
+example.de: Ich rufe ein Taxi.
+example.en: I'll call a taxi.
+grammar.Gender: n
+grammar.Plural (with article): die Taxis
+grammar.Genitive singular: des Taxis
+tags: ⭐ common, ✈️ travel
+priority: yes
+//
+word: fähre
+translation: ferry
+type: noun
+group: ✈️ Travelling
+pronunciation: /ˈfɛːʁə/
+example.de: Die Fähre bringt uns auf die Insel.
+example.en: The ferry takes us to the island.
+grammar.Gender: f
+grammar.Plural (with article): die Fähren
+grammar.Genitive singular: der Fähre
+tags: ✈️ travel
+priority: yes
+//
+word: fahrrad
+translation: bicycle
+type: noun
+group: ✈️ Travelling
+pronunciation: /ˈfaːɐ̯aːt/
+example.de: Ich fahre jeden Tag mit dem Fahrrad zur Arbeit.
+example.en: I cycle to work every day.
+grammar.Gender: n
+grammar.Plural (with article): die Fahrräder
+grammar.Genitive singular: des Fahrrads
+note: Often just shortened to Rad in casual speech.
+tags: ⭐ common, ✈️ travel
+priority: yes
+//
+word: u-bahn
+translation: metro
+type: noun
+group: ✈️ Travelling
+pronunciation: /ˈuːbaːn/
+example.de: Die U-Bahn fährt alle fünf Minuten.
+example.en: The metro runs every five minutes.
+grammar.Gender: f
+grammar.Plural (with article): die U-Bahnen
+grammar.Genitive singular: der U-Bahn
+etymology: Short for Untergrundbahn — "underground railway."
+tags: ⭐ common, ✈️ travel
+priority: yes
+//
+word: flughafen
+translation: airport
+type: noun
+group: ✈️ Travelling
+pronunciation: /ˈfluːkhaːfn̩/
+example.de: Wir treffen uns am Flughafen.
+example.en: We'll meet at the airport.
+grammar.Gender: m
+grammar.Plural (with article): die Flughäfen
+grammar.Genitive singular: des Flughafens
+etymology: Literally "flight harbour" — Flug (flight) + Hafen (harbour/port).
+tags: ⭐ common, ✈️ travel
+priority: yes
+//
+word: hotel
+translation: hotel
+type: noun
+group: ✈️ Travelling
+pronunciation: /hoˈtɛl/
+example.de: Wir übernachten in einem Hotel im Zentrum.
+example.en: We're staying in a hotel in the centre.
+grammar.Gender: n
+grammar.Plural (with article): die Hotels
+grammar.Genitive singular: des Hotels
+tags: ⭐ common, ✈️ travel
+priority: yes
+//
+word: jugendherberge
+translation: hostel
+type: noun
+group: ✈️ Travelling
+pronunciation: /ˈjuːɡn̩tˌhɛɐ̯bɛʁɡə/
+example.de: Als Student habe ich oft in Jugendherbergen übernachtet.
+example.en: As a student I often stayed in hostels.
+grammar.Gender: f
+grammar.Plural (with article): die Jugendherbergen
+grammar.Genitive singular: der Jugendherberge
+etymology: Literally "youth shelter" — Jugend (youth) + Herberge (shelter/inn). Germany invented the youth hostel concept in the early 1900s.
+tags: ✈️ travel
+priority: yes
+//
+word: reisepass
+translation: passport
+type: noun
+group: ✈️ Travelling
+pronunciation: /ˈʁaɪ̯zəpas/
+example.de: Vergiss deinen Reisepass nicht.
+example.en: Don't forget your passport.
+grammar.Gender: m
+grammar.Plural (with article): die Reisepässe
+grammar.Genitive singular: des Reisepasses
+note: Often shortened to just Pass in everyday speech.
+tags: ⭐ common, ✈️ travel
+priority: yes
+//
+word: visum
+translation: visa
+type: noun
+group: ✈️ Travelling
+pronunciation: /ˈviːzʊm/
+example.de: Für dieses Land braucht man ein Visum.
+example.en: You need a visa for this country.
+grammar.Gender: n
+grammar.Plural (with article): die Visa
+grammar.Genitive singular: des Visums
+tags: ✈️ travel
+priority: yes
+//
+word: fahrkarte
+translation: ticket
+type: noun
+group: ✈️ Travelling
+pronunciation: /ˈfaːɐ̯kaʁtə/
+example.de: Ich habe meine Zugfahrkarte gekauft.
+example.en: I bought my train ticket.
+grammar.Gender: f
+grammar.Plural (with article): die Fahrkarten
+grammar.Genitive singular: der Fahrkarte
+note: Ticket (the English loanword) is also very common, especially for planes and events; Fahrkarte is specifically for trains/buses.
+tags: ⭐ common, ✈️ travel
+priority: yes
+//
+word: gepäck
+translation: luggage
+type: noun
+group: ✈️ Travelling
+pronunciation: /ɡəˈpɛk/
+example.de: Wo ist die Gepäckausgabe?
+example.en: Where is the baggage claim?
+grammar.Gender: n
+grammar.Genitive singular: des Gepäcks
+note: Uncountable, like English — no plural form.
+tags: ⭐ common, ✈️ travel
+priority: yes
+//
+word: gleis
+translation: platform
+type: noun
+group: ✈️ Travelling
+pronunciation: /ɡlaɪ̯s/
+example.de: Der Zug fährt von Gleis 7 ab.
+example.en: The train departs from platform 7.
+grammar.Gender: n
+grammar.Plural (with article): die Gleise
+grammar.Genitive singular: des Gleises
+note: Specifically the train track/platform number, announced constantly in German stations — worth knowing cold.
+tags: ⭐ common, ✈️ travel
+priority: yes
+//
+word: abfahrt
+translation: departure
+type: noun
+group: ✈️ Travelling
+pronunciation: /ˈapfaːɐ̯t/
+example.de: Die Abfahrt ist um neun Uhr.
+example.en: Departure is at nine o'clock.
+grammar.Gender: f
+grammar.Plural (with article): die Abfahrten
+grammar.Genitive singular: der Abfahrt
+tags: ⭐ common, ✈️ travel
+priority: yes
+//
+word: ankunft
+translation: arrival
+type: noun
+group: ✈️ Travelling
+pronunciation: /ˈankʊnft/
+example.de: Die Ankunft verzögert sich um zehn Minuten.
+example.en: The arrival is delayed by ten minutes.
+grammar.Gender: f
+grammar.Plural (with article): die Ankünfte
+grammar.Genitive singular: der Ankunft
+tags: ⭐ common, ✈️ travel
+priority: yes
+//
+word: buchung
+translation: booking
+type: noun
+group: ✈️ Travelling
+pronunciation: /ˈbuːxʊŋ/
+example.de: Ich habe eine Buchung für zwei Nächte.
+example.en: I have a booking for two nights.
+grammar.Gender: f
+grammar.Plural (with article): die Buchungen
+grammar.Genitive singular: der Buchung
+tags: ✈️ travel
+priority: yes
+//
+word: check-in
+translation: check-in
+type: noun
+group: ✈️ Travelling
+pronunciation: /ˈtʃɛkʔɪn/
+example.de: Der Check-in beginnt zwei Stunden vor dem Flug.
+example.en: Check-in starts two hours before the flight.
+grammar.Gender: m
+grammar.Genitive singular: des Check-ins
+tags: ✈️ travel
+priority: yes
+//
+word: zimmer
+translation: room
+type: noun
+group: ✈️ Travelling
+pronunciation: /ˈtsɪmɐ/
+example.de: Ich hätte gern ein Doppelzimmer.
+example.en: I would like a double room.
+grammar.Gender: n
+grammar.Plural (with article): die Zimmer
+grammar.Genitive singular: des Zimmers
+tags: ⭐ common, ✈️ travel
+priority: yes
+//
+word: schlüssel
+translation: key
+type: noun
+group: ✈️ Travelling
+pronunciation: /ˈʃlʏsl̩/
+example.de: Kann ich meinen Zimmerschlüssel haben?
+example.en: Can I have my room key?
+grammar.Gender: m
+grammar.Plural (with article): die Schlüssel
+grammar.Genitive singular: des Schlüssels
+tags: ⭐ common, ✈️ travel
+priority: yes
+//
+word: rezeption
+translation: reception
+type: noun
+group: ✈️ Travelling
+pronunciation: /ʁetsɛpˈtsi̯oːn/
+example.de: Die Rezeption ist rund um die Uhr besetzt.
+example.en: The reception is staffed around the clock.
+grammar.Gender: f
+grammar.Plural (with article): die Rezeptionen
+grammar.Genitive singular: der Rezeption
+tags: ✈️ travel
+priority: yes
+//
+word: reservierung
+translation: reservation
+type: noun
+group: ✈️ Travelling
+pronunciation: /ʁezɛʁˈviːʁʊŋ/
+example.de: Haben Sie eine Reservierung?
+example.en: Do you have a reservation?
+grammar.Gender: f
+grammar.Plural (with article): die Reservierungen
+grammar.Genitive singular: der Reservierung
+tags: ✈️ travel
+priority: yes
+//
+word: reise
+translation: journey
+type: noun
+group: ✈️ Travelling
+pronunciation: /ˈʁaɪ̯zə/
+example.de: Die Reise dauert acht Stunden.
+example.en: The journey takes eight hours.
+grammar.Gender: f
+grammar.Plural (with article): die Reisen
+grammar.Genitive singular: der Reise
+tags: ⭐ common, ✈️ travel
+priority: yes
+//
+word: tourist
+translation: tourist
+type: noun
+group: ✈️ Travelling
+pronunciation: /tuˈʁɪst/
+example.de: Im Sommer sind viele Touristen hier.
+example.en: There are many tourists here in summer.
+grammar.Gender: m
+grammar.Plural (with article): die Touristen
+grammar.Genitive singular: des Touristen
+note: Feminine form is Touristin.
+tags: ✈️ travel
+priority: yes
+//
+word: karte
+translation: map
+type: noun
+group: ✈️ Travelling
+pronunciation: /ˈkaʁtə/
+example.de: Kannst du mir das auf der Karte zeigen?
+example.en: Can you show me on the map?
+grammar.Gender: f
+grammar.Plural (with article): die Karten
+grammar.Genitive singular: der Karte
+note: Also means "card" and "ticket" depending on context — Landkarte specifies a geographic map when clarity is needed.
+tags: ⭐ common, ✈️ travel
+priority: yes
+//
+word: reiseführer
+translation: guide
+type: noun
+group: ✈️ Travelling
+pronunciation: /ˈʁaɪ̯zəfyːʁɐ/
+example.de: Ich habe einen Reiseführer für Italien gekauft.
+example.en: I bought a guidebook for Italy.
+grammar.Gender: m
+grammar.Plural (with article): die Reiseführer
+grammar.Genitive singular: des Reiseführers
+note: Refers to the guidebook; a human tour guide is der Fremdenführer or die Reiseleitung.
+tags: ✈️ travel
+priority: yes
+//
+word: grenze
+translation: border
+type: noun
+group: ✈️ Travelling
+pronunciation: /ˈɡʁɛntsə/
+example.de: Wir haben die Grenze ohne Probleme überquert.
+example.en: We crossed the border without any problems.
+grammar.Gender: f
+grammar.Plural (with article): die Grenzen
+grammar.Genitive singular: der Grenze
+tags: ✈️ travel
+priority: yes
+//
+word: zoll
+translation: customs
+type: noun
+group: ✈️ Travelling
+pronunciation: /tsɔl/
+example.de: Wir mussten am Zoll warten.
+example.en: We had to wait at customs.
+grammar.Gender: m
+grammar.Genitive singular: des Zolls
+tags: ✈️ travel
+priority: yes
+//
+word: verspätung
+translation: delay
+type: noun
+group: ✈️ Travelling
+pronunciation: /fɛɐ̯ˈʃpɛːtʊŋ/
+example.de: Der Zug hat zwanzig Minuten Verspätung.
+example.en: The train is twenty minutes delayed.
+grammar.Gender: f
+grammar.Plural (with article): die Verspätungen
+grammar.Genitive singular: der Verspätung
+tags: ⭐ common, ✈️ travel
+priority: yes
+//
+word: fahrplan
+translation: schedule
+type: noun
+group: ✈️ Travelling
+pronunciation: /ˈfaːɐ̯plaːn/
+example.de: Schau im Fahrplan nach, wann der Bus kommt.
+example.en: Check the schedule for when the bus comes.
+grammar.Gender: m
+grammar.Plural (with article): die Fahrpläne
+grammar.Genitive singular: des Fahrplans
+tags: ✈️ travel
+priority: yes
+//
+word: sitzplatz
+translation: seat
+type: noun
+group: ✈️ Travelling
+pronunciation: /ˈzɪtsplats/
+example.de: Ist dieser Sitzplatz frei?
+example.en: Is this seat free?
+grammar.Gender: m
+grammar.Plural (with article): die Sitzplätze
+grammar.Genitive singular: des Sitzplatzes
+tags: ✈️ travel
+priority: yes
+//
+word: rückfahrt
+translation: return
+type: noun
+group: ✈️ Travelling
+pronunciation: /ˈʁʏkfaːɐ̯t/
+example.de: Die Rückfahrt ist am Sonntag.
+example.en: The return is on Sunday.
+grammar.Gender: f
+grammar.Plural (with article): die Rückfahrten
+grammar.Genitive singular: der Rückfahrt
+note: For flights, Rückflug is used instead.
+tags: ✈️ travel
+priority: yes
+//
+word: einfach
+translation: one-way
+type: adjective
+group: ✈️ Travelling
+pronunciation: /ˈaɪ̯nfax/
+example.de: Eine einfache Fahrt nach Köln, bitte.
+example.en: A one-way ticket to Cologne, please.
+note: The same word also means "simple/easy" — context always makes the meaning clear.
+tags: ✈️ travel
+priority: yes
+//
+word: direkt
+translation: direct
+type: adjective
+group: ✈️ Travelling
+pronunciation: /diˈʁɛkt/
+example.de: Gibt es einen direkten Flug nach Rom?
+example.en: Is there a direct flight to Rome?
+tags: ✈️ travel
+priority: yes
+//
+word: koffer
+translation: suitcase
+type: noun
+group: ✈️ Travelling
+pronunciation: /ˈkɔfɐ/
+example.de: Mein Koffer ist zu schwer.
+example.en: My suitcase is too heavy.
+grammar.Gender: m
+grammar.Plural (with article): die Koffer
+grammar.Genitive singular: des Koffers
+tags: ⭐ common, ✈️ travel
+priority: yes

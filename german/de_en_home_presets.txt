@@ -1,0 +1,521 @@
+word: schlafzimmer
+translation: bedroom
+type: noun
+group: 🏠 My home
+pronunciation: /ˈʃlaːftsɪmɐ/
+example.de: Mein Schlafzimmer ist im ersten Stock.
+example.en: My bedroom is on the first floor.
+grammar.Gender: n
+grammar.Plural (with article): die Schlafzimmer
+grammar.Genitive singular: des Schlafzimmers
+etymology: Schlaf (sleep) + Zimmer (room).
+tags: ⭐ common, 🏠 home
+priority: yes
+//
+word: wohnzimmer
+translation: living room
+type: noun
+group: 🏠 My home
+pronunciation: /ˈvoːntsɪmɐ/
+example.de: Wir schauen im Wohnzimmer fern.
+example.en: We watch TV in the living room.
+grammar.Gender: n
+grammar.Plural (with article): die Wohnzimmer
+grammar.Genitive singular: des Wohnzimmers
+etymology: Wohnen (to live/reside) + Zimmer (room).
+tags: ⭐ common, 🏠 home
+priority: yes
+//
+word: küche
+translation: kitchen
+type: noun
+group: 🏠 My home
+pronunciation: /ˈkʏçə/
+example.de: Sie kocht gerade in der Küche.
+example.en: She's cooking in the kitchen right now.
+grammar.Gender: f
+grammar.Plural (with article): die Küchen
+grammar.Genitive singular: der Küche
+tags: ⭐ common, 🏠 home
+priority: yes
+//
+word: badezimmer
+translation: bathroom
+type: noun
+group: 🏠 My home
+pronunciation: /ˈbaːdətsɪmɐ/
+example.de: Das Badezimmer ist gleich links.
+example.en: The bathroom is right on the left.
+grammar.Gender: n
+grammar.Plural (with article): die Badezimmer
+grammar.Genitive singular: des Badezimmers
+tags: ⭐ common, 🏠 home
+priority: yes
+//
+word: toilette
+translation: toilet
+type: noun
+group: 🏠 My home
+pronunciation: /toaˈlɛtə/
+example.de: Wo ist die Toilette, bitte?
+example.en: Where is the toilet, please?
+grammar.Gender: f
+grammar.Plural (with article): die Toiletten
+grammar.Genitive singular: der Toilette
+note: In a private home this is often part of the Badezimmer; in public spaces it's its own room, sometimes just called WC.
+tags: ⭐ common, 🏠 home
+priority: yes
+//
+word: flur
+translation: hall
+type: noun
+group: 🏠 My home
+pronunciation: /fluːɐ̯/
+example.de: Häng deine Jacke im Flur auf.
+example.en: Hang your jacket in the hall.
+grammar.Gender: m
+grammar.Plural (with article): die Flure
+grammar.Genitive singular: des Flurs
+tags: 🏠 home
+priority: yes
+//
+word: balkon
+translation: balcony
+type: noun
+group: 🏠 My home
+pronunciation: /balˈkɔŋ/
+example.de: Wir frühstücken oft auf dem Balkon.
+example.en: We often have breakfast on the balcony.
+grammar.Gender: m
+grammar.Plural (with article): die Balkone
+grammar.Genitive singular: des Balkons
+tags: ⭐ common, 🏠 home
+priority: yes
+//
+word: garten
+translation: garden
+type: noun
+group: 🏠 My home
+pronunciation: /ˈɡaʁtn̩/
+example.de: Die Kinder spielen im Garten.
+example.en: The children play in the garden.
+grammar.Gender: m
+grammar.Plural (with article): die Gärten
+grammar.Genitive singular: des Gartens
+tags: ⭐ common, 🏠 home
+priority: yes
+//
+word: garage
+translation: garage
+type: noun
+group: 🏠 My home
+pronunciation: /ɡaˈʁaːʒə/
+example.de: Das Auto steht in der Garage.
+example.en: The car is in the garage.
+grammar.Gender: f
+grammar.Plural (with article): die Garagen
+grammar.Genitive singular: der Garage
+tags: 🏠 home
+priority: yes
+//
+word: dach
+translation: roof
+type: noun
+group: 🏠 My home
+pronunciation: /dax/
+example.de: Das Dach muss repariert werden.
+example.en: The roof needs repairing.
+grammar.Gender: n
+grammar.Plural (with article): die Dächer
+grammar.Genitive singular: des Daches
+tags: 🏠 home
+priority: yes
+//
+word: treppe
+translation: stairs
+type: noun
+group: 🏠 My home
+pronunciation: /ˈtʁɛpə/
+example.de: Die Treppe führt zum Dachboden.
+example.en: The stairs lead to the attic.
+grammar.Gender: f
+grammar.Plural (with article): die Treppen
+grammar.Genitive singular: der Treppe
+tags: 🏠 home
+priority: yes
+//
+word: bett
+translation: bed
+type: noun
+group: 🏠 My home
+pronunciation: /bɛt/
+example.de: Ich gehe früh ins Bett.
+example.en: I'm going to bed early.
+grammar.Gender: n
+grammar.Plural (with article): die Betten
+grammar.Genitive singular: des Bettes
+tags: ⭐ common, 🏠 home
+priority: yes
+//
+word: sofa
+translation: sofa
+type: noun
+group: 🏠 My home
+pronunciation: /ˈzoːfa/
+example.de: Wir entspannen abends auf dem Sofa.
+example.en: We relax on the sofa in the evening.
+grammar.Gender: n
+grammar.Plural (with article): die Sofas
+grammar.Genitive singular: des Sofas
+note: Couch is an equally common alternative.
+tags: ⭐ common, 🏠 home
+priority: yes
+//
+word: tisch
+translation: table
+type: noun
+group: 🏠 My home
+pronunciation: /tɪʃ/
+example.de: Das Essen steht auf dem Tisch.
+example.en: The food is on the table.
+grammar.Gender: m
+grammar.Plural (with article): die Tische
+grammar.Genitive singular: des Tisches
+tags: ⭐ common, 🏠 home
+priority: yes
+//
+word: stuhl
+translation: chair
+type: noun
+group: 🏠 My home
+pronunciation: /ʃtuːl/
+example.de: Setz dich auf diesen Stuhl.
+example.en: Sit on this chair.
+grammar.Gender: m
+grammar.Plural (with article): die Stühle
+grammar.Genitive singular: des Stuhles
+tags: ⭐ common, 🏠 home
+priority: yes
+//
+word: kleiderschrank
+translation: wardrobe
+type: noun
+group: 🏠 My home
+pronunciation: /ˈklaɪ̯dɐʃʁaŋk/
+example.de: Mein Kleiderschrank ist viel zu klein.
+example.en: My wardrobe is far too small.
+grammar.Gender: m
+grammar.Plural (with article): die Kleiderschränke
+grammar.Genitive singular: des Kleiderschranks
+etymology: Kleider (clothes) + Schrank (cabinet/cupboard).
+tags: 🏠 home
+priority: yes
+//
+word: regal
+translation: shelf
+type: noun
+group: 🏠 My home
+pronunciation: /ʁeˈɡaːl/
+example.de: Die Bücher stehen im Regal.
+example.en: The books are on the shelf.
+grammar.Gender: n
+grammar.Plural (with article): die Regale
+grammar.Genitive singular: des Regals
+tags: 🏠 home
+priority: yes
+//
+word: schreibtisch
+translation: desk
+type: noun
+group: 🏠 My home
+pronunciation: /ˈʃʁaɪ̯ptɪʃ/
+example.de: Ich arbeite an meinem Schreibtisch.
+example.en: I work at my desk.
+grammar.Gender: m
+grammar.Plural (with article): die Schreibtische
+grammar.Genitive singular: des Schreibtisches
+etymology: Literally "writing table" — schreiben (to write) + Tisch (table).
+tags: 🏠 home
+priority: yes
+//
+word: lampe
+translation: lamp
+type: noun
+group: 🏠 My home
+pronunciation: /ˈlampə/
+example.de: Mach bitte die Lampe an.
+example.en: Please turn on the lamp.
+grammar.Gender: f
+grammar.Plural (with article): die Lampen
+grammar.Genitive singular: der Lampe
+tags: ⭐ common, 🏠 home
+priority: yes
+//
+word: spiegel
+translation: mirror
+type: noun
+group: 🏠 My home
+pronunciation: /ˈʃpiːɡl̩/
+example.de: Sie schaut in den Spiegel.
+example.en: She looks in the mirror.
+grammar.Gender: m
+grammar.Plural (with article): die Spiegel
+grammar.Genitive singular: des Spiegels
+tags: 🏠 home
+priority: yes
+//
+word: vorhang
+translation: curtain
+type: noun
+group: 🏠 My home
+pronunciation: /ˈfoːɐ̯haŋ/
+example.de: Zieh bitte den Vorhang zu.
+example.en: Please close the curtain.
+grammar.Gender: m
+grammar.Plural (with article): die Vorhänge
+grammar.Genitive singular: des Vorhangs
+etymology: Literally "before-hang" — vor (before/in front) + hängen (to hang).
+tags: 🏠 home
+priority: yes
+//
+word: kühlschrank
+translation: fridge
+type: noun
+group: 🏠 My home
+pronunciation: /ˈkyːlʃʁaŋk/
+example.de: Die Milch ist im Kühlschrank.
+example.en: The milk is in the fridge.
+grammar.Gender: m
+grammar.Plural (with article): die Kühlschränke
+grammar.Genitive singular: des Kühlschranks
+etymology: Literally "cooling cabinet" — kühl (cool) + Schrank (cabinet).
+tags: ⭐ common, 🏠 home
+priority: yes
+//
+word: backofen
+translation: oven
+type: noun
+group: 🏠 My home
+pronunciation: /ˈbakʔoːfn̩/
+example.de: Der Kuchen ist noch im Backofen.
+example.en: The cake is still in the oven.
+grammar.Gender: m
+grammar.Plural (with article): die Backöfen
+grammar.Genitive singular: des Backofens
+note: Often just shortened to Ofen in everyday speech.
+tags: 🏠 home
+priority: yes
+//
+word: mikrowelle
+translation: microwave
+type: noun
+group: 🏠 My home
+pronunciation: /ˈmiːkʁovɛlə/
+example.de: Wärm das Essen in der Mikrowelle auf.
+example.en: Heat up the food in the microwave.
+grammar.Gender: f
+grammar.Plural (with article): die Mikrowellen
+grammar.Genitive singular: der Mikrowelle
+tags: 🏠 home
+priority: yes
+//
+word: spülmaschine
+translation: dishwasher
+type: noun
+group: 🏠 My home
+pronunciation: /ˈʃpyːlmaˌʃiːnə/
+example.de: Räum das Geschirr in die Spülmaschine.
+example.en: Put the dishes in the dishwasher.
+grammar.Gender: f
+grammar.Plural (with article): die Spülmaschinen
+grammar.Genitive singular: der Spülmaschine
+note: Geschirrspüler is an equally common synonym.
+tags: 🏠 home
+priority: yes
+//
+word: spüle
+translation: sink
+type: noun
+group: 🏠 My home
+pronunciation: /ˈʃpyːlə/
+example.de: Stell den Teller in die Spüle.
+example.en: Put the plate in the sink.
+grammar.Gender: f
+grammar.Plural (with article): die Spülen
+grammar.Genitive singular: der Spüle
+tags: 🏠 home
+priority: yes
+//
+word: tasse
+translation: cup
+type: noun
+group: 🏠 My home
+pronunciation: /ˈtasə/
+example.de: Möchtest du eine Tasse Kaffee?
+example.en: Would you like a cup of coffee?
+grammar.Gender: f
+grammar.Plural (with article): die Tassen
+grammar.Genitive singular: der Tasse
+tags: ⭐ common, 🏠 home
+priority: yes
+//
+word: glas
+translation: glass
+type: noun
+group: 🏠 My home
+pronunciation: /ɡlaːs/
+example.de: Kannst du mir ein Glas geben?
+example.en: Could you give me a glass?
+grammar.Gender: n
+grammar.Plural (with article): die Gläser
+grammar.Genitive singular: des Glases
+note: Also the word for the material "glass" itself.
+tags: ⭐ common, 🏠 home
+priority: yes
+//
+word: teller
+translation: plate
+type: noun
+group: 🏠 My home
+pronunciation: /ˈtɛlɐ/
+example.de: Stell den Teller auf den Tisch.
+example.en: Put the plate on the table.
+grammar.Gender: m
+grammar.Plural (with article): die Teller
+grammar.Genitive singular: des Tellers
+tags: ⭐ common, 🏠 home
+priority: yes
+//
+word: gabel
+translation: fork
+type: noun
+group: 🏠 My home
+pronunciation: /ˈɡaːbl̩/
+example.de: Nimm eine Gabel und einen Löffel.
+example.en: Take a fork and a spoon.
+grammar.Gender: f
+grammar.Plural (with article): die Gabeln
+grammar.Genitive singular: der Gabel
+tags: 🏠 home
+priority: yes
+//
+word: messer
+translation: knife
+type: noun
+group: 🏠 My home
+pronunciation: /ˈmɛsɐ/
+example.de: Sei vorsichtig mit dem Messer.
+example.en: Be careful with the knife.
+grammar.Gender: n
+grammar.Plural (with article): die Messer
+grammar.Genitive singular: des Messers
+tags: 🏠 home
+priority: yes
+//
+word: löffel
+translation: spoon
+type: noun
+group: 🏠 My home
+pronunciation: /ˈlœfl̩/
+example.de: Ich brauche einen Löffel für die Suppe.
+example.en: I need a spoon for the soup.
+grammar.Gender: m
+grammar.Plural (with article): die Löffel
+grammar.Genitive singular: des Löffels
+tags: 🏠 home
+priority: yes
+//
+word: topf
+translation: pot
+type: noun
+group: 🏠 My home
+pronunciation: /tɔpf/
+example.de: Die Suppe kocht im Topf.
+example.en: The soup is cooking in the pot.
+grammar.Gender: m
+grammar.Plural (with article): die Töpfe
+grammar.Genitive singular: des Topfes
+tags: 🏠 home
+priority: yes
+//
+word: pfanne
+translation: pan
+type: noun
+group: 🏠 My home
+pronunciation: /ˈpfanə/
+example.de: Brate das Fleisch in der Pfanne an.
+example.en: Fry the meat in the pan.
+grammar.Gender: f
+grammar.Plural (with article): die Pfannen
+grammar.Genitive singular: der Pfanne
+tags: 🏠 home
+priority: yes
+//
+word: fenster
+translation: window
+type: noun
+group: 🏠 My home
+pronunciation: /ˈfɛnstɐ/
+example.de: Mach bitte das Fenster zu.
+example.en: Please close the window.
+grammar.Gender: n
+grammar.Plural (with article): die Fenster
+grammar.Genitive singular: des Fensters
+etymology: From Latin "fenestra" — one of the relatively few German nouns borrowed directly from Latin.
+tags: ⭐ common, 🏠 home
+priority: yes
+//
+word: tür
+translation: door
+type: noun
+group: 🏠 My home
+pronunciation: /tyːɐ̯/
+example.de: Bitte die Tür schließen.
+example.en: Please close the door.
+grammar.Gender: f
+grammar.Plural (with article): die Türen
+grammar.Genitive singular: der Tür
+tags: ⭐ common, 🏠 home
+priority: yes
+//
+word: boden
+translation: floor
+type: noun
+group: 🏠 My home
+pronunciation: /ˈboːdn̩/
+example.de: Der Boden ist aus Holz.
+example.en: The floor is made of wood.
+grammar.Gender: m
+grammar.Plural (with article): die Böden
+grammar.Genitive singular: des Bodens
+note: Also means "ground/soil" and "attic" (der Dachboden) depending on context.
+tags: 🏠 home
+priority: yes
+//
+word: decke
+translation: ceiling
+type: noun
+group: 🏠 My home
+pronunciation: /ˈdɛkə/
+example.de: Die Decke ist sehr hoch.
+example.en: The ceiling is very high.
+grammar.Gender: f
+grammar.Plural (with article): die Decken
+grammar.Genitive singular: der Decke
+note: Also means "blanket" — the same word covers both, distinguished entirely by context.
+tags: 🏠 home
+priority: yes
+//
+word: wand
+translation: wall
+type: noun
+group: 🏠 My home
+pronunciation: /vant/
+example.de: Häng das Bild an die Wand.
+example.en: Hang the picture on the wall.
+grammar.Gender: f
+grammar.Plural (with article): die Wände
+grammar.Genitive singular: der Wand
+note: Wand is an interior wall; Mauer is a freestanding or exterior wall (like the Berliner Mauer).
+tags: ⭐ common, 🏠 home
+priority: yes

@@ -1,0 +1,544 @@
+word: brot
+translation: bread
+type: noun
+group: 🍽️ Food & drink
+pronunciation: /bʁoːt/
+example.de: Ich kaufe frisches Brot beim Bäcker.
+example.en: I buy fresh bread at the bakery.
+grammar.Gender: n
+grammar.Plural (with article): die Brote
+grammar.Genitive singular: des Brotes
+note: Germany has an enormous variety of breads — over 300 recognized types.
+tags: ⭐ common, 🍽️ food
+priority: yes
+//
+word: reis
+translation: rice
+type: noun
+group: 🍽️ Food & drink
+pronunciation: /ʁaɪ̯s/
+example.de: Wir essen Reis mit Gemüse.
+example.en: We're eating rice with vegetables.
+grammar.Gender: m
+grammar.Genitive singular: des Reises
+tags: ⭐ common, 🍽️ food
+priority: yes
+//
+word: nudeln
+translation: pasta
+type: noun
+group: 🍽️ Food & drink
+pronunciation: /ˈnuːdl̩n/
+example.de: Die Kinder lieben Nudeln mit Tomatensoße.
+example.en: The kids love pasta with tomato sauce.
+grammar.Gender: pl
+note: Always used in the plural — "Pasta" (the Italian loanword) also works informally.
+tags: ⭐ common, 🍽️ food
+priority: yes
+//
+word: ei
+translation: egg
+type: noun
+group: 🍽️ Food & drink
+pronunciation: /aɪ̯/
+example.de: Ich esse jeden Morgen ein Ei.
+example.en: I eat an egg every morning.
+grammar.Gender: n
+grammar.Plural (with article): die Eier
+grammar.Genitive singular: des Eies
+tags: ⭐ common, 🍽️ food
+priority: yes
+//
+word: käse
+translation: cheese
+type: noun
+group: 🍽️ Food & drink
+pronunciation: /ˈkɛːzə/
+example.de: Dieser Käse ist sehr würzig.
+example.en: This cheese is very strong.
+grammar.Gender: m
+grammar.Genitive singular: des Käses
+tags: ⭐ common, 🍽️ food
+priority: yes
+//
+word: butter
+translation: butter
+type: noun
+group: 🍽️ Food & drink
+pronunciation: /ˈbʊtɐ/
+example.de: Streich Butter auf das Brot.
+example.en: Spread butter on the bread.
+grammar.Gender: f
+grammar.Genitive singular: der Butter
+tags: ⭐ common, 🍽️ food
+priority: yes
+//
+word: öl
+translation: oil
+type: noun
+group: 🍽️ Food & drink
+pronunciation: /øːl/
+example.de: Gib etwas Öl in die Pfanne.
+example.en: Put some oil in the pan.
+grammar.Gender: n
+grammar.Plural (with article): die Öle
+grammar.Genitive singular: des Öls
+tags: ⭐ common, 🍽️ food
+priority: yes
+//
+word: salz
+translation: salt
+type: noun
+group: 🍽️ Food & drink
+pronunciation: /zalts/
+example.de: Kannst du mir das Salz geben?
+example.en: Could you pass me the salt?
+grammar.Gender: n
+grammar.Genitive singular: des Salzes
+tags: ⭐ common, 🍽️ food
+priority: yes
+//
+word: pfeffer
+translation: pepper
+type: noun
+group: 🍽️ Food & drink
+pronunciation: /ˈpfɛfɐ/
+example.de: Etwas Pfeffer für die Suppe?
+example.en: A little pepper for the soup?
+grammar.Gender: m
+grammar.Genitive singular: des Pfeffers
+tags: ⭐ common, 🍽️ food
+priority: yes
+//
+word: zucker
+translation: sugar
+type: noun
+group: 🍽️ Food & drink
+pronunciation: /ˈtsʊkɐ/
+example.de: Nimmst du Zucker in den Kaffee?
+example.en: Do you take sugar in your coffee?
+grammar.Gender: m
+grammar.Genitive singular: des Zuckers
+note: Also the everyday word for diabetes — er hat Zucker means "he has diabetes."
+tags: ⭐ common, 🍽️ food
+priority: yes
+//
+word: hähnchen
+translation: chicken
+type: noun
+group: 🍽️ Food & drink
+pronunciation: /ˈhɛːnçən/
+example.de: Wir grillen heute Hähnchen.
+example.en: We're grilling chicken today.
+grammar.Gender: n
+grammar.Plural (with article): die Hähnchen
+grammar.Genitive singular: des Hähnchens
+note: Hähnchen is the everyday word for chicken as food; Huhn refers to the live bird.
+tags: ⭐ common, 🍽️ food
+priority: yes
+//
+word: rindfleisch
+translation: beef
+type: noun
+group: 🍽️ Food & drink
+pronunciation: /ˈʁɪntflaɪ̯ʃ/
+example.de: Das Rindfleisch ist sehr zart.
+example.en: The beef is very tender.
+grammar.Gender: n
+grammar.Genitive singular: des Rindfleisches
+etymology: Rind (cattle) + Fleisch (meat).
+tags: 🍽️ food
+priority: yes
+//
+word: schweinefleisch
+translation: pork
+type: noun
+group: 🍽️ Food & drink
+pronunciation: /ˈʃvaɪ̯nəflaɪ̯ʃ/
+example.de: Wir essen selten Schweinefleisch.
+example.en: We rarely eat pork.
+grammar.Gender: n
+grammar.Genitive singular: des Schweinefleisches
+etymology: Schwein (pig) + Fleisch (meat).
+tags: 🍽️ food
+priority: yes
+//
+word: lammfleisch
+translation: lamb
+type: noun
+group: 🍽️ Food & drink
+pronunciation: /ˈlamflaɪ̯ʃ/
+example.de: Lammfleisch ist bei uns eine Feiertagsspeise.
+example.en: Lamb is a holiday dish for us.
+grammar.Gender: n
+grammar.Genitive singular: des Lammfleisches
+tags: 🍽️ food
+priority: yes
+//
+word: fisch
+translation: fish
+type: noun
+group: 🍽️ Food & drink
+pronunciation: /fɪʃ/
+example.de: Freitags gibt es bei uns oft Fisch.
+example.en: We often have fish on Fridays.
+grammar.Gender: m
+grammar.Plural (with article): die Fische
+grammar.Genitive singular: des Fisches
+tags: ⭐ common, 🍽️ food
+priority: yes
+//
+word: meeresfrüchte
+translation: seafood
+type: noun
+group: 🍽️ Food & drink
+pronunciation: /ˈmeːʁəsfʁʏçtə/
+example.de: Sie ist allergisch gegen Meeresfrüchte.
+example.en: She's allergic to seafood.
+grammar.Gender: pl
+etymology: Literally "fruits of the sea" — Meer (sea) + Früchte (fruits).
+tags: 🍽️ food
+priority: yes
+//
+word: kartoffel
+translation: potato
+type: noun
+group: 🍽️ Food & drink
+pronunciation: /kaʁˈtɔfl̩/
+example.de: Wir essen heute Kartoffeln mit Soße.
+example.en: We're eating potatoes with gravy today.
+grammar.Gender: f
+grammar.Plural (with article): die Kartoffeln
+grammar.Genitive singular: der Kartoffel
+tags: ⭐ common, 🍽️ food
+priority: yes
+//
+word: tomate
+translation: tomato
+type: noun
+group: 🍽️ Food & drink
+pronunciation: /toˈmaːtə/
+example.de: Der Salat braucht mehr Tomaten.
+example.en: The salad needs more tomatoes.
+grammar.Gender: f
+grammar.Plural (with article): die Tomaten
+grammar.Genitive singular: der Tomate
+tags: ⭐ common, 🍽️ food
+priority: yes
+//
+word: zwiebel
+translation: onion
+type: noun
+group: 🍽️ Food & drink
+pronunciation: /ˈtsviːbl̩/
+example.de: Schneide die Zwiebel klein.
+example.en: Chop the onion finely.
+grammar.Gender: f
+grammar.Plural (with article): die Zwiebeln
+grammar.Genitive singular: der Zwiebel
+tags: 🍽️ food
+priority: yes
+//
+word: knoblauch
+translation: garlic
+type: noun
+group: 🍽️ Food & drink
+pronunciation: /ˈknoːplaʊ̯x/
+example.de: Das Rezept braucht drei Zehen Knoblauch.
+example.en: The recipe needs three cloves of garlic.
+grammar.Gender: m
+grammar.Genitive singular: des Knoblauchs
+tags: 🍽️ food
+priority: yes
+//
+word: karotte
+translation: carrot
+type: noun
+group: 🍽️ Food & drink
+pronunciation: /kaˈʁɔtə/
+example.de: Kaninchen mögen Karotten.
+example.en: Rabbits like carrots.
+grammar.Gender: f
+grammar.Plural (with article): die Karotten
+grammar.Genitive singular: der Karotte
+note: Möhre is a common regional synonym, especially in northern Germany.
+tags: 🍽️ food
+priority: yes
+//
+word: salat
+translation: salad
+type: noun
+group: 🍽️ Food & drink
+pronunciation: /zaˈlaːt/
+example.de: Ich hätte gern einen gemischten Salat.
+example.en: I'd like a mixed salad.
+grammar.Gender: m
+grammar.Plural (with article): die Salate
+grammar.Genitive singular: des Salats
+note: Also means "lettuce" itself, not just the dish.
+tags: ⭐ common, 🍽️ food
+priority: yes
+//
+word: apfel
+translation: apple
+type: noun
+group: 🍽️ Food & drink
+pronunciation: /ˈapfl̩/
+example.de: Ein Apfel am Tag hält den Arzt fern.
+example.en: An apple a day keeps the doctor away.
+grammar.Gender: m
+grammar.Plural (with article): die Äpfel
+grammar.Genitive singular: des Apfels
+tags: ⭐ common, 🍽️ food
+priority: yes
+//
+word: banane
+translation: banana
+type: noun
+group: 🍽️ Food & drink
+pronunciation: /baˈnaːnə/
+example.de: Die Kinder essen gern Bananen.
+example.en: The kids like eating bananas.
+grammar.Gender: f
+grammar.Plural (with article): die Bananen
+grammar.Genitive singular: der Banane
+tags: ⭐ common, 🍽️ food
+priority: yes
+//
+word: zitrone
+translation: lemon
+type: noun
+group: 🍽️ Food & drink
+pronunciation: /tsiˈtʁoːnə/
+example.de: Ein Spritzer Zitrone macht den Fisch frischer.
+example.en: A splash of lemon makes the fish fresher.
+grammar.Gender: f
+grammar.Plural (with article): die Zitronen
+grammar.Genitive singular: der Zitrone
+tags: 🍽️ food
+priority: yes
+//
+word: erdbeere
+translation: strawberry
+type: noun
+group: 🍽️ Food & drink
+pronunciation: /ˈeːɐ̯tbeːʁə/
+example.de: Im Juni gibt es frische Erdbeeren.
+example.en: In June there are fresh strawberries.
+grammar.Gender: f
+grammar.Plural (with article): die Erdbeeren
+grammar.Genitive singular: der Erdbeere
+etymology: Literally "earth berry" — Erde (earth) + Beere (berry).
+tags: 🍽️ food
+priority: yes
+//
+word: weintraube
+translation: grape
+type: noun
+group: 🍽️ Food & drink
+pronunciation: /ˈvaɪ̯ntʁaʊ̯bə/
+example.de: Sie kaufte eine Traube grüner Weintrauben.
+example.en: She bought a bunch of green grapes.
+grammar.Gender: f
+grammar.Plural (with article): die Weintrauben
+grammar.Genitive singular: der Weintraube
+etymology: Literally "wine grape" — Wein (wine) + Traube (bunch/cluster).
+tags: 🍽️ food
+priority: yes
+//
+word: wasser
+translation: water
+type: noun
+group: 🍽️ Food & drink
+pronunciation: /ˈvasɐ/
+example.de: Ein Glas Wasser, bitte.
+example.en: A glass of water, please.
+grammar.Gender: n
+grammar.Genitive singular: des Wassers
+note: Mit/ohne Kohlensäure ("with/without carbonation") is essential to know — German water culture defaults to sparkling.
+tags: ⭐ common, 🍽️ food
+priority: yes
+//
+word: saft
+translation: juice
+type: noun
+group: 🍽️ Food & drink
+pronunciation: /zaft/
+example.de: Ich trinke morgens gern Orangensaft.
+example.en: I like drinking orange juice in the morning.
+grammar.Gender: m
+grammar.Plural (with article): die Säfte
+grammar.Genitive singular: des Saftes
+tags: ⭐ common, 🍽️ food
+priority: yes
+//
+word: kaffee
+translation: coffee
+type: noun
+group: 🍽️ Food & drink
+pronunciation: /ˈkafeː/
+example.de: Möchtest du einen Kaffee?
+example.en: Would you like a coffee?
+grammar.Gender: m
+grammar.Genitive singular: des Kaffees
+tags: ⭐ common, 🍽️ food
+priority: yes
+//
+word: tee
+translation: tea
+type: noun
+group: 🍽️ Food & drink
+pronunciation: /teː/
+example.de: Ich trinke abends lieber Tee.
+example.en: In the evening I prefer tea.
+grammar.Gender: m
+grammar.Genitive singular: des Tees
+tags: ⭐ common, 🍽️ food
+priority: yes
+//
+word: wein
+translation: wine
+type: noun
+group: 🍽️ Food & drink
+pronunciation: /vaɪ̯n/
+example.de: Ein Glas Rotwein zum Essen?
+example.en: A glass of red wine with the meal?
+grammar.Gender: m
+grammar.Plural (with article): die Weine
+grammar.Genitive singular: des Weines
+tags: ⭐ common, 🍽️ food
+priority: yes
+//
+word: bier
+translation: beer
+type: noun
+group: 🍽️ Food & drink
+pronunciation: /biːɐ̯/
+example.de: Ein kühles Bier nach der Arbeit.
+example.en: A cold beer after work.
+grammar.Gender: n
+grammar.Plural (with article): die Biere
+grammar.Genitive singular: des Bieres
+note: Germany's Reinheitsgebot (purity law) of 1516 is the oldest still-active food regulation in the world.
+tags: ⭐ common, 🍽️ food
+priority: yes
+//
+word: milch
+translation: milk
+type: noun
+group: 🍽️ Food & drink
+pronunciation: /mɪlç/
+example.de: Ich trinke meinen Kaffee mit Milch.
+example.en: I drink my coffee with milk.
+grammar.Gender: f
+grammar.Genitive singular: der Milch
+tags: ⭐ common, 🍽️ food
+priority: yes
+//
+word: vegetarisch
+translation: vegetarian
+type: adjective
+group: 🍽️ Food & drink
+pronunciation: /veɡeˈtaːʁɪʃ/
+example.de: Gibt es ein vegetarisches Gericht?
+example.en: Is there a vegetarian dish?
+tags: ⭐ common, 🍽️ food
+priority: yes
+//
+word: vegan
+translation: vegan
+type: adjective
+group: 🍽️ Food & drink
+pronunciation: /veˈɡaːn/
+example.de: Dieses Restaurant hat viele vegane Optionen.
+example.en: This restaurant has many vegan options.
+tags: 🍽️ food
+priority: yes
+//
+word: scharf
+translation: spicy
+type: adjective
+group: 🍽️ Food & drink
+pronunciation: /ʃaʁf/
+example.de: Das Curry ist mir zu scharf.
+example.en: The curry is too spicy for me.
+grammar.Comparative: schärfer
+grammar.Superlative: am schärfsten
+note: Also means "sharp" for knives and "sexy/hot" colloquially for people — context decides.
+tags: ⭐ common, 🍽️ food
+priority: yes
+//
+word: süß
+translation: sweet
+type: adjective
+group: 🍽️ Food & drink
+pronunciation: /zyːs/
+example.de: Der Kuchen ist sehr süß.
+example.en: The cake is very sweet.
+grammar.Comparative: süßer
+grammar.Superlative: am süßesten
+note: Also used to call something/someone "cute" — ein süßer Hund (a cute dog).
+tags: ⭐ common, 🍽️ food
+priority: yes
+//
+word: sauer
+translation: sour
+type: adjective
+group: 🍽️ Food & drink
+pronunciation: /ˈzaʊ̯ɐ/
+example.de: Die Zitrone schmeckt sehr sauer.
+example.en: The lemon tastes very sour.
+grammar.Comparative: saurer
+grammar.Superlative: am sauersten
+note: Also colloquially means "annoyed" — sauer sein auf jemanden (to be mad at someone).
+tags: ⭐ common, 🍽️ food
+priority: yes
+//
+word: salzig
+translation: salty
+type: adjective
+group: 🍽️ Food & drink
+pronunciation: /ˈzaltsɪç/
+example.de: Die Suppe ist mir zu salzig.
+example.en: The soup is too salty for me.
+grammar.Comparative: salziger
+grammar.Superlative: am salzigsten
+tags: 🍽️ food
+priority: yes
+//
+word: frisch
+translation: fresh
+type: adjective
+group: 🍽️ Food & drink
+pronunciation: /fʁɪʃ/
+example.de: Der Fisch ist ganz frisch.
+example.en: The fish is very fresh.
+grammar.Comparative: frischer
+grammar.Superlative: am frischesten
+tags: ⭐ common, 🍽️ food
+priority: yes
+//
+word: gefroren
+translation: frozen
+type: adjective
+group: 🍽️ Food & drink
+pronunciation: /ɡəˈfʁoːʁən/
+example.de: Wir haben nur gefrorenes Gemüse.
+example.en: We only have frozen vegetables.
+etymology: Past participle of frieren (to freeze).
+tags: 🍽️ food
+priority: yes
+//
+word: mahlzeit
+translation: meal
+type: noun
+group: 🍽️ Food & drink
+pronunciation: /ˈmaːltsaɪ̯t/
+example.de: Das war eine köstliche Mahlzeit.
+example.en: That was a delicious meal.
+grammar.Gender: f
+grammar.Plural (with article): die Mahlzeiten
+grammar.Genitive singular: der Mahlzeit
+note: Also a common informal greeting around lunchtime among colleagues — just "Mahlzeit!" on its own.
+tags: ⭐ common, 🍽️ food
+priority: yes

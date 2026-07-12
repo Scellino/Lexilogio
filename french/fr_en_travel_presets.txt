@@ -1,0 +1,443 @@
+word: gare
+translation: station
+type: noun
+group: ✈️ Travelling
+grammar.Gender: f
+grammar.Plural: gares
+pronunciation: /ɡaʁ/
+example.fr: La gare est très grande.
+example.en: The station is very big.
+tags: ⭐ common, ✈️ travel
+priority: yes
+//
+word: train
+translation: train
+type: noun
+group: ✈️ Travelling
+grammar.Gender: m
+grammar.Plural: trains
+pronunciation: /tʁɛ̃/
+example.fr: Je prends le train pour aller à Paris.
+example.en: I am taking the train to go to Paris.
+tags: ⭐ common, ✈️ travel
+priority: yes
+//
+word: bus
+translation: bus
+type: noun
+group: ✈️ Travelling
+grammar.Gender: m
+grammar.Plural: bus
+pronunciation: /bys/
+example.fr: Le bus est en retard.
+example.en: The bus is late.
+tags: ⭐ common, ✈️ travel
+priority: yes
+//
+word: avion
+translation: plane
+type: noun
+group: ✈️ Travelling
+grammar.Gender: m
+grammar.Plural: avions
+pronunciation: /a.vjɔ̃/
+example.fr: L'avion décolle à dix heures.
+example.en: The plane takes off at ten o'clock.
+tags: ⭐ common, ✈️ travel
+priority: yes
+//
+word: voiture
+translation: car
+type: noun
+group: ✈️ Travelling
+grammar.Gender: f
+grammar.Plural: voitures
+pronunciation: /vwa.tyʁ/
+example.fr: J'ai loué une petite voiture.
+example.en: I rented a small car.
+tags: ⭐ common, ✈️ travel
+priority: yes
+//
+word: taxi
+translation: taxi
+type: noun
+group: ✈️ Travelling
+grammar.Gender: m
+grammar.Plural: taxis
+pronunciation: /tak.si/
+example.fr: Appelez un taxi, s'il vous plaît.
+example.en: Call a taxi, please.
+tags: ⭐ common, ✈️ travel
+priority: yes
+//
+word: ferry
+translation: ferry
+type: noun
+group: ✈️ Travelling
+grammar.Gender: m
+grammar.Plural: ferrys
+pronunciation: /fɛ.ʁi/
+example.fr: Le ferry part du port.
+example.en: The ferry leaves from the port.
+tags: ⭐ common, ✈️ travel
+priority: yes
+//
+word: vélo
+translation: bicycle
+type: noun
+group: ✈️ Travelling
+grammar.Gender: m
+grammar.Plural: vélos
+pronunciation: /ve.lo/
+example.fr: Je vais au travail en vélo.
+example.en: I go to work by bicycle.
+tags: ⭐ common, ✈️ travel
+priority: yes
+//
+word: métro
+translation: metro, subway
+type: noun
+group: ✈️ Travelling
+grammar.Gender: m
+grammar.Plural: métros
+pronunciation: /me.tʁo/
+example.fr: Prenez la ligne deux du métro.
+example.en: Take line two of the metro.
+tags: ⭐ common, ✈️ travel
+priority: yes
+//
+word: aéroport
+translation: airport
+type: noun
+group: ✈️ Travelling
+grammar.Gender: m
+grammar.Plural: aéroports
+pronunciation: /a.e.ʁɔ.pɔʁ/
+example.fr: Je dois aller à l'aéroport.
+example.en: I have to go to the airport.
+tags: ⭐ common, ✈️ travel
+priority: yes
+//
+word: hôtel
+translation: hotel
+type: noun
+group: ✈️ Travelling
+grammar.Gender: m
+grammar.Plural: hôtels
+pronunciation: /o.tɛl/
+example.fr: J'ai réservé une chambre dans cet hôtel.
+example.en: I booked a room in this hotel.
+tags: ⭐ common, ✈️ travel
+priority: yes
+//
+word: auberge de jeunesse
+translation: hostel
+type: phrase
+group: ✈️ Travelling
+pronunciation: /o.bɛʁʒ də ʒə.nɛs/
+example.fr: C'est une auberge de jeunesse propre.
+example.en: It is a clean hostel.
+tags: ⭐ common, ✈️ travel
+priority: yes
+//
+word: passeport
+translation: passport
+type: noun
+group: ✈️ Travelling
+grammar.Gender: m
+grammar.Plural: passeports
+pronunciation: /pas.pɔʁ/
+example.fr: Avez-vous votre passeport ?
+example.en: Do you have your passport?
+tags: ⭐ common, ✈️ travel
+priority: yes
+//
+word: visa
+translation: visa
+type: noun
+group: ✈️ Travelling
+grammar.Gender: m
+grammar.Plural: visas
+pronunciation: /vi.za/
+example.fr: J'ai besoin d'un visa pour ce pays.
+example.en: I need a visa for this country.
+tags: ⭐ common, ✈️ travel
+priority: yes
+//
+note: Also the word for a banknote.
+word: billet
+translation: ticket, banknote
+type: noun
+group: ✈️ Travelling
+grammar.Gender: m
+grammar.Plural: billets
+pronunciation: /bi.jɛ/
+example.fr: J'ai acheté mon billet de train.
+example.en: I bought my train ticket.
+tags: ⭐ common, ✈️ travel
+priority: yes
+//
+word: bagages
+translation: luggage
+type: noun
+group: ✈️ Travelling
+grammar.Gender: m
+grammar.Plural: bagages
+note: Usually used in the plural 'les bagages'.
+pronunciation: /ba.ɡaʒ/
+example.fr: Où sont mes bagages ?
+example.en: Where is my luggage?
+tags: ⭐ common, ✈️ travel
+priority: yes
+//
+word: quai
+translation: platform
+type: noun
+group: ✈️ Travelling
+grammar.Gender: m
+grammar.Plural: quais
+pronunciation: /ke/
+example.fr: Le train part du quai numéro trois.
+example.en: The train leaves from platform number three.
+tags: ⭐ common, ✈️ travel
+priority: yes
+//
+word: départ
+translation: departure
+type: noun
+group: ✈️ Travelling
+grammar.Gender: m
+grammar.Plural: départs
+pronunciation: /de.paʁ/
+example.fr: L'heure du départ approche.
+example.en: The departure time is approaching.
+tags: ⭐ common, ✈️ travel
+priority: yes
+//
+word: arrivée
+translation: arrival
+type: noun
+group: ✈️ Travelling
+grammar.Gender: f
+grammar.Plural: arrivées
+pronunciation: /a.ʁi.ve/
+example.fr: Quelle est l'heure d'arrivée ?
+example.en: What is the arrival time?
+tags: ⭐ common, ✈️ travel
+priority: yes
+//
+word: réservation
+translation: booking, reservation
+type: noun
+group: ✈️ Travelling
+grammar.Gender: f
+grammar.Plural: réservations
+pronunciation: /ʁe.zɛʁ.va.sjɔ̃/
+example.fr: J'ai une réservation au nom de Martin.
+example.en: I have a reservation under the name Martin.
+tags: ⭐ common, ✈️ travel
+priority: yes
+//
+word: enregistrement
+translation: check-in
+type: noun
+group: ✈️ Travelling
+grammar.Gender: m
+grammar.Plural: enregistrements
+pronunciation: /ɑ̃.ʁə.ʒis.tʁə.mɑ̃/
+example.fr: L'enregistrement commence deux heures avant le vol.
+example.en: Check-in starts two hours before the flight.
+tags: ⭐ common, ✈️ travel
+priority: yes
+//
+note: Also the everyday word for a bedroom.
+word: chambre
+translation: room (hotel), bedroom
+type: noun
+group: ✈️ Travelling
+grammar.Gender: f
+grammar.Plural: chambres
+pronunciation: /ʃɑ̃bʁ/
+example.fr: Je voudrais une chambre double.
+example.en: I would like a double room.
+tags: ⭐ common, ✈️ travel
+priority: yes
+//
+word: clé
+translation: key
+type: noun
+group: ✈️ Travelling
+grammar.Gender: f
+grammar.Plural: clés
+pronunciation: /kle/
+example.fr: Voici la clé de votre chambre.
+example.en: Here is your room key.
+tags: ⭐ common, ✈️ travel
+priority: yes
+//
+word: réception
+translation: reception
+type: noun
+group: ✈️ Travelling
+grammar.Gender: f
+grammar.Plural: réceptions
+pronunciation: /ʁe.sɛp.sjɔ̃/
+example.fr: Veuillez vous adresser à la réception.
+example.en: Please check with the reception.
+tags: ⭐ common, ✈️ travel
+priority: yes
+//
+word: voyage
+translation: journey
+type: noun
+group: ✈️ Travelling
+grammar.Gender: m
+grammar.Plural: voyages
+pronunciation: /vwa.jaʒ/
+example.fr: C'est un long voyage.
+example.en: It is a long journey.
+tags: ⭐ common, ✈️ travel
+priority: yes
+//
+word: touriste
+translation: tourist
+type: noun
+group: ✈️ Travelling
+grammar.Gender: m/f
+grammar.Plural: touristes
+pronunciation: /tu.ʁist/
+example.fr: Il y a beaucoup de touristes ici.
+example.en: There are many tourists here.
+tags: ⭐ common, ✈️ travel
+priority: yes
+//
+word: carte
+translation: map
+type: noun
+group: ✈️ Travelling
+grammar.Gender: f
+grammar.Plural: cartes
+pronunciation: /kaʁt/
+example.fr: Regarde sur la carte.
+example.en: Look on the map.
+tags: ⭐ common, ✈️ travel
+priority: yes
+//
+word: guide
+translation: guide
+type: noun
+group: ✈️ Travelling
+grammar.Gender: m
+grammar.Plural: guides
+pronunciation: /ɡid/
+example.fr: Le guide nous explique l'histoire.
+example.en: The guide explains the history to us.
+tags: ⭐ common, ✈️ travel
+priority: yes
+//
+word: frontière
+translation: border
+type: noun
+group: ✈️ Travelling
+grammar.Gender: f
+grammar.Plural: frontières
+pronunciation: /fʁɔ̃.tjɛʁ/
+example.fr: Nous passons la frontière.
+example.en: We are crossing the border.
+tags: ⭐ common, ✈️ travel
+priority: yes
+//
+word: douane
+translation: customs
+type: noun
+group: ✈️ Travelling
+grammar.Gender: f
+grammar.Plural: douanes
+pronunciation: /dwan/
+example.fr: Avez-vous quelque chose à déclarer à la douane ?
+example.en: Do you have anything to declare at customs?
+tags: ⭐ common, ✈️ travel
+priority: yes
+//
+word: retard
+translation: delay
+type: noun
+group: ✈️ Travelling
+grammar.Gender: m
+grammar.Plural: retards
+pronunciation: /ʁə.taʁ/
+example.fr: Le train a dix minutes de retard.
+example.en: The train has a ten-minute delay.
+tags: ⭐ common, ✈️ travel
+priority: yes
+//
+word: horaire
+translation: schedule
+type: noun
+group: ✈️ Travelling
+grammar.Gender: m
+grammar.Plural: horaires
+pronunciation: /ɔ.ʁɛʁ/
+example.fr: Pouvez-vous me montrer l'horaire des trains ?
+example.en: Can you show me the train schedule?
+tags: ⭐ common, ✈️ travel
+priority: yes
+//
+word: siège
+translation: seat
+type: noun
+group: ✈️ Travelling
+grammar.Gender: m
+grammar.Plural: sièges
+pronunciation: /sjɛʒ/
+example.fr: J'ai réservé un siège près de la fenêtre.
+example.en: I booked a seat near the window.
+tags: ⭐ common, ✈️ travel
+priority: yes
+//
+word: retour
+translation: return
+type: noun
+group: ✈️ Travelling
+grammar.Gender: m
+grammar.Plural: retours
+pronunciation: /ʁə.tuʁ/
+example.fr: Je prends un billet aller-retour.
+example.en: I am getting a round-trip ticket.
+tags: ⭐ common, ✈️ travel
+priority: yes
+//
+word: aller simple
+translation: one-way
+type: phrase
+group: ✈️ Travelling
+pronunciation: /a.le sɛ̃pl/
+example.fr: Je voudrais un billet aller simple pour Lyon.
+example.en: I would like a one-way ticket to Lyon.
+tags: ⭐ common, ✈️ travel
+priority: yes
+//
+word: direct
+translation: direct
+type: adjective
+group: ✈️ Travelling
+pronunciation: /di.ʁɛkt/
+grammar.Feminine form: directe
+grammar.Plural (masc.): directs
+grammar.Plural (fem.): directes
+example.fr: C'est un vol direct.
+example.en: It is a direct flight.
+tags: ⭐ common, ✈️ travel
+priority: yes
+//
+word: valise
+translation: suitcase
+type: noun
+group: ✈️ Travelling
+grammar.Gender: f
+grammar.Plural: valises
+pronunciation: /va.liz/
+example.fr: Ma valise est trop lourde.
+example.en: My suitcase is too heavy.
+tags: ⭐ common, ✈️ travel
+priority: yes

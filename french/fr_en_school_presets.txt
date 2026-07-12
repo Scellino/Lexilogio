@@ -1,0 +1,406 @@
+word: école
+translation: school
+type: noun
+group: 📚 School & education
+grammar.Gender: f
+grammar.Plural: écoles
+pronunciation: /e.kɔl/
+example.fr: Les enfants vont à l'école le matin.
+example.en: The children go to school in the morning.
+tags: ⭐ common, 📚 school
+priority: yes
+//
+word: professeur
+translation: teacher
+type: noun
+group: 📚 School & education
+grammar.Gender: m/f
+grammar.Plural: professeurs
+pronunciation: /pʁɔ.fɛ.sœʁ/
+example.fr: Le professeur explique la leçon.
+example.en: The teacher is explaining the lesson.
+tags: ⭐ common, 📚 school
+priority: yes
+//
+word: université
+translation: university
+type: noun
+group: 📚 School & education
+grammar.Gender: f
+grammar.Plural: universités
+pronunciation: /y.ni.vɛʁ.si.te/
+example.fr: Elle étudie à l'université.
+example.en: She is studying at university.
+tags: ⭐ common, 📚 school
+priority: yes
+//
+word: salle de classe
+translation: classroom
+type: noun
+group: 📚 School & education
+grammar.Gender: f
+grammar.Plural: salles de classe
+pronunciation: /sal də klas/
+example.fr: Les élèves sont dans la salle de classe.
+example.en: The students are in the classroom.
+tags: ⭐ common, 📚 school
+priority: yes
+//
+word: étudiant
+translation: student
+type: noun
+group: 📚 School & education
+grammar.Gender: m
+grammar.Plural: étudiants
+pronunciation: /e.ty.djɑ̃/
+example.fr: Cet étudiant travaille beaucoup.
+example.en: This student works hard.
+tags: ⭐ common, 📚 school
+priority: yes
+//
+word: leçon
+translation: lesson
+type: noun
+group: 📚 School & education
+grammar.Gender: f
+grammar.Plural: leçons
+pronunciation: /lə.sɔ̃/
+example.fr: La leçon de français est difficile.
+example.en: The French lesson is difficult.
+tags: ⭐ common, 📚 school
+priority: yes
+//
+word: sujet
+translation: subject
+type: noun
+group: 📚 School & education
+grammar.Gender: m
+grammar.Plural: sujets
+pronunciation: /sy.ʒɛ/
+example.fr: Quel est ton sujet préféré ?
+example.en: What is your favorite subject?
+tags: ⭐ common, 📚 school
+priority: yes
+//
+word: devoirs
+translation: homework
+type: noun
+group: 📚 School & education
+grammar.Gender: m
+grammar.Plural: devoirs
+note: Usually used in the plural.
+pronunciation: /də.vwaʁ/
+example.fr: J'ai fini mes devoirs.
+example.en: I have finished my homework.
+tags: ⭐ common, 📚 school
+priority: yes
+//
+word: examen
+translation: exam
+type: noun
+group: 📚 School & education
+grammar.Gender: m
+grammar.Plural: examens
+pronunciation: /ɛɡ.za.mɛ̃/
+example.fr: Il prépare son examen.
+example.en: He is preparing for his exam.
+tags: ⭐ common, 📚 school
+priority: yes
+//
+word: note
+translation: grade
+type: noun
+group: 📚 School & education
+grammar.Gender: f
+grammar.Plural: notes
+pronunciation: /nɔt/
+example.fr: J'ai eu une bonne note.
+example.en: I got a good grade.
+tags: ⭐ common, 📚 school
+priority: yes
+//
+word: mathématiques
+translation: mathematics
+type: noun
+group: 📚 School & education
+grammar.Gender: f
+grammar.Plural: mathématiques
+pronunciation: /ma.te.ma.tik/
+example.fr: J'adore les mathématiques.
+example.en: I love mathematics.
+tags: ⭐ common, 📚 school
+priority: yes
+//
+word: sciences
+translation: science
+type: noun
+group: 📚 School & education
+grammar.Gender: f
+grammar.Plural: sciences
+pronunciation: /sjɑ̃s/
+example.fr: Le cours de sciences est passionnant.
+example.en: The science class is fascinating.
+tags: ⭐ common, 📚 school
+priority: yes
+//
+word: histoire
+translation: history
+type: noun
+group: 📚 School & education
+grammar.Gender: f
+grammar.Plural: histoires
+pronunciation: /is.twaʁ/
+example.fr: Nous étudions l'histoire de France.
+example.en: We are studying French history.
+tags: ⭐ common, 📚 school
+priority: yes
+//
+word: géographie
+translation: geography
+type: noun
+group: 📚 School & education
+grammar.Gender: f
+grammar.Plural: géographies
+pronunciation: /ʒe.ɔ.ɡʁa.fi/
+example.fr: La géographie m'aide à comprendre le monde.
+example.en: Geography helps me understand the world.
+tags: ⭐ common, 📚 school
+priority: yes
+//
+word: art
+translation: art
+type: noun
+group: 📚 School & education
+grammar.Gender: m
+grammar.Plural: arts
+pronunciation: /aʁ/
+example.fr: Le cours d'art est amusant.
+example.en: The art class is fun.
+tags: ⭐ common, 📚 school
+priority: yes
+//
+word: musique
+translation: music
+type: noun
+group: 📚 School & education
+grammar.Gender: f
+grammar.Plural: musiques
+pronunciation: /my.zik/
+example.fr: Elle étudie la musique au conservatoire.
+example.en: She is studying music at the conservatory.
+tags: ⭐ common, 📚 school
+priority: yes
+//
+word: sport
+translation: sport
+type: noun
+group: 📚 School & education
+grammar.Gender: m
+grammar.Plural: sports
+pronunciation: /spɔʁ/
+example.fr: Le sport est obligatoire à l'école.
+example.en: Sport is mandatory at school.
+tags: ⭐ common, 📚 school
+priority: yes
+//
+word: livre
+translation: book
+type: noun
+group: 📚 School & education
+grammar.Gender: m
+grammar.Plural: livres
+pronunciation: /livʁ/
+example.fr: J'ai lu ce livre plusieurs fois.
+example.en: I have read this book several times.
+tags: ⭐ common, 📚 school
+priority: yes
+//
+word: cahier
+translation: notebook
+type: noun
+group: 📚 School & education
+grammar.Gender: m
+grammar.Plural: cahiers
+pronunciation: /ka.je/
+example.fr: Écrivez la leçon dans votre cahier.
+example.en: Write the lesson in your notebook.
+tags: ⭐ common, 📚 school
+priority: yes
+//
+word: stylo
+translation: pen
+type: noun
+group: 📚 School & education
+grammar.Gender: m
+grammar.Plural: stylos
+pronunciation: /sti.lo/
+example.fr: As-tu un stylo pour écrire ?
+example.en: Do you have a pen to write with?
+tags: ⭐ common, 📚 school
+priority: yes
+//
+word: crayon
+translation: pencil
+type: noun
+group: 📚 School & education
+grammar.Gender: m
+grammar.Plural: crayons
+pronunciation: /kʁɛ.jɔ̃/
+example.fr: Il dessine avec un crayon.
+example.en: He draws with a pencil.
+tags: ⭐ common, 📚 school
+priority: yes
+//
+word: règle
+translation: ruler
+type: noun
+group: 📚 School & education
+grammar.Gender: f
+grammar.Plural: règles
+pronunciation: /ʁɛɡl/
+example.fr: J'utilise une règle pour tracer des lignes.
+example.en: I use a ruler to draw lines.
+tags: ⭐ common, 📚 school
+priority: yes
+//
+word: tableau
+translation: board
+type: noun
+group: 📚 School & education
+grammar.Gender: m
+grammar.Plural: tableaux
+pronunciation: /ta.blo/
+example.fr: Le professeur écrit au tableau.
+example.en: The teacher is writing on the board.
+tags: ⭐ common, 📚 school
+priority: yes
+//
+word: apprendre
+translation: to learn
+type: verb
+group: 📚 School & education
+grammar.Verb group: 3e
+grammar.Auxiliary: avoir
+grammar.Past participle: appris
+grammar.Présent (all 6 forms): apprends / apprends / apprend / apprenons / apprenez / apprennent
+example.fr: J'aime apprendre de nouvelles choses.
+example.en: I like to learn new things.
+tags: ⭐ common, 📚 school
+priority: yes
+//
+word: étudier
+translation: to study
+type: verb
+group: 📚 School & education
+grammar.Verb group: 1er
+grammar.Auxiliary: avoir
+grammar.Past participle: étudié
+grammar.Présent (all 6 forms): étudie / étudies / étudie / étudions / étudiez / étudient
+example.fr: Tu dois étudier pour l'examen.
+example.en: You must study for the exam.
+tags: ⭐ common, 📚 school
+priority: yes
+//
+word: lire
+translation: to read
+type: verb
+group: 📚 School & education
+grammar.Verb group: 3e
+grammar.Auxiliary: avoir
+grammar.Past participle: lu
+grammar.Présent (all 6 forms): lis / lis / lit / lisons / lisez / lisent
+example.fr: J'aime lire des romans.
+example.en: I like to read novels.
+tags: ⭐ common, 📚 school
+priority: yes
+//
+word: écrire
+translation: to write
+type: verb
+group: 📚 School & education
+grammar.Verb group: 3e
+grammar.Auxiliary: avoir
+grammar.Past participle: écrit
+grammar.Présent (all 6 forms): écris / écris / écrit / écrivons / écrivez / écrivent
+example.fr: Elle écrit une lettre.
+example.en: She is writing a letter.
+tags: ⭐ common, 📚 school
+priority: yes
+//
+word: comprendre
+translation: to understand
+type: verb
+group: 📚 School & education
+grammar.Verb group: 3e
+grammar.Auxiliary: avoir
+grammar.Past participle: compris
+grammar.Présent (all 6 forms): comprends / comprends / comprend / comprenons / comprenez / comprennent
+example.fr: Je ne comprends pas cet exercice.
+example.en: I do not understand this exercise.
+tags: ⭐ common, 📚 school
+priority: yes
+//
+word: expliquer
+translation: to explain
+type: verb
+group: 📚 School & education
+grammar.Verb group: 1er
+grammar.Auxiliary: avoir
+grammar.Past participle: expliqué
+grammar.Présent (all 6 forms): explique / expliques / explique / expliquons / expliquez / expliquent
+example.fr: Peux-tu m'expliquer ce mot ?
+example.en: Can you explain this word to me?
+tags: ⭐ common, 📚 school
+priority: yes
+//
+word: demander
+translation: to ask
+type: verb
+group: 📚 School & education
+grammar.Verb group: 1er
+grammar.Auxiliary: avoir
+grammar.Past participle: demandé
+grammar.Présent (all 6 forms): demande / demandes / demande / demandons / demandez / demandent
+example.fr: Je vais demander de l'aide au professeur.
+example.en: I am going to ask the teacher for help.
+tags: ⭐ common, 📚 school
+priority: yes
+//
+word: répondre
+translation: to answer
+type: verb
+group: 📚 School & education
+grammar.Verb group: 3e
+grammar.Auxiliary: avoir
+grammar.Past participle: répondu
+grammar.Présent (all 6 forms): réponds / réponds / répond / répondons / répondez / répondent
+example.fr: Il doit répondre aux questions.
+example.en: He must answer the questions.
+tags: ⭐ common, 📚 school
+priority: yes
+//
+word: réussir
+translation: to pass
+type: verb
+group: 📚 School & education
+grammar.Verb group: 2e
+grammar.Auxiliary: avoir
+grammar.Past participle: réussi
+grammar.Présent (all 6 forms): réussis / réussis / réussit / réussissons / réussissez / réussissent
+example.fr: J'espère réussir mon examen.
+example.en: I hope to pass my exam.
+tags: ⭐ common, 📚 school
+priority: yes
+//
+word: échouer
+translation: to fail
+type: verb
+group: 📚 School & education
+grammar.Verb group: 1er
+grammar.Auxiliary: avoir
+grammar.Past participle: échoué
+grammar.Présent (all 6 forms): échoue / échoues / échoue / échouons / échouez / échouent
+example.fr: Il a peur d'échouer.
+example.en: He is afraid to fail.
+tags: ⭐ common, 📚 school
+priority: yes

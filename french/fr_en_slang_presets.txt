@@ -1,0 +1,293 @@
+word: verlan
+translation: reverse slang (a language game where syllables are inverted)
+type: noun
+group: 🤪 Slang
+grammar.Gender: m
+pronunciation: /vɛʁ.lɑ̃/
+example.fr: Le verlan est très courant chez les jeunes.
+example.en: Verlan is very common among young people.
+tags: ⭐ cool, 🇫🇷 slang
+priority: yes
+//
+word: meuf
+translation: girl / woman (verlan of "femme")
+type: noun
+group: 🤪 Slang
+grammar.Gender: f
+grammar.Plural: meufs
+pronunciation: /mœf/
+example.fr: C’est qui cette meuf ?
+example.en: Who is that girl?
+tags: ⭐ cool, 🇫🇷 slang
+priority: yes
+//
+word: mec
+translation: guy / man
+type: noun
+group: 🤪 Slang
+grammar.Gender: m
+grammar.Plural: mecs
+pronunciation: /mɛk/
+example.fr: C'est un bon mec.
+example.en: He's a good guy.
+tags: ⭐ cool, 🇫🇷 slang
+priority: yes
+//
+word: ouf
+translation: crazy (verlan of "fou")
+type: adjective
+group: 🤪 Slang
+pronunciation: /uf/
+example.fr: Ce film est un truc de ouf !
+example.en: This movie is crazy!
+tags: ⭐ cool, 🇫🇷 slang
+priority: yes
+//
+word: bosser
+translation: to work
+type: verb
+group: 🤪 Slang
+grammar.Verb group: 1er
+grammar.Auxiliary: avoir
+grammar.Past participle: bossé
+example.fr: Je dois bosser demain.
+example.en: I have to work tomorrow.
+tags: ⭐ cool, 🇫🇷 slang
+priority: yes
+//
+word: bouffer
+translation: to eat / food
+type: verb/noun
+group: 🤪 Slang
+grammar.Verb group: 1er
+grammar.Auxiliary: avoir
+grammar.Past participle: bouffé
+example.fr: On va bouffer quoi ce soir ?
+example.en: What are we going to eat tonight?
+tags: ⭐ cool, 🇫🇷 slang
+priority: yes
+//
+word: kiffer
+translation: to like / to love
+type: verb
+group: 🤪 Slang
+grammar.Verb group: 1er
+grammar.Auxiliary: avoir
+grammar.Past participle: kiffé
+example.fr: Je kiffe cette chanson !
+example.en: I love this song!
+tags: ⭐ cool, 🇫🇷 slang
+priority: yes
+//
+word: bof
+translation: "meh" / whatever (expression of indifference or doubt)
+type: interjection
+group: 🤪 Slang
+pronunciation: /bɔf/
+example.fr: — Tu aimes ce resto ? — Bof.
+example.en: — Do you like this restaurant? — Meh.
+tags: ⭐ cool, 🇫🇷 slang
+priority: yes
+//
+word: relou
+translation: annoying (verlan of "lourd")
+type: adjective
+group: 🤪 Slang
+pronunciation: /ʁə.lu/
+example.fr: Arrête, c'est trop relou !
+example.en: Stop, it's so annoying!
+tags: ⭐ cool, 🇫🇷 slang
+priority: yes
+//
+word: pognon
+translation: cash / money
+type: noun
+group: 🤪 Slang
+grammar.Gender: m
+pronunciation: /pɔ.ɲɔ̃/
+example.fr: Il se fait beaucoup de pognon.
+example.en: He is making a lot of cash.
+tags: ⭐ cool, 🇫🇷 slang
+priority: yes
+//
+word: chelou
+translation: weird, sketchy (verlan of "louche")
+type: adjective
+group: 🤪 Slang
+pronunciation: /ʃə.lu/
+example.fr: Il y a un type chelou qui nous regarde.
+example.en: There is a sketchy guy looking at us.
+tags: ⭐ cool, 🇫🇷 slang
+//
+word: c’est naze
+translation: it sucks, it's lame
+type: expression
+group: 🤪 Slang
+pronunciation: /sɛ naz/
+example.fr: Ce film est vraiment naze.
+example.en: This movie really sucks.
+tags: ⭐ cool, 🇫🇷 slang
+//
+word: grave
+translation: seriously, for sure (intensifier/agreement); also used for "no problem"
+type: adverb/adjective
+group: 🤪 Slang
+pronunciation: /ɡʁav/
+example.fr: — Il fait froid ! — Grave.
+example.en: — It's cold! — Seriously.
+tags: ⭐ cool, 🇫🇷 slang
+//
+word: un truc
+translation: a thing / something
+type: noun
+group: 🤪 Slang
+grammar.Gender: m
+pronunciation: /tʁyk/
+example.fr: J'ai un truc à te dire.
+example.en: I have something (a thing) to tell you.
+tags: ⭐ cool, 🇫🇷 slang
+//
+word: se barrer
+translation: to leave, to get out
+type: verb
+group: 🤪 Slang
+grammar.Verb group: 1er (reflexive)
+grammar.Auxiliary: être
+example.fr: Je me barre, il est trop tard.
+example.en: I'm leaving, it's too late.
+tags: ⭐ cool, 🇫🇷 slang
+//
+word: une fringue
+translation: a piece of clothing
+type: noun
+group: 🤪 Slang
+grammar.Gender: f
+grammar.Plural: fringues
+pronunciation: /fʁɛ̃ɡ/
+example.fr: J'adore tes nouvelles fringues !
+example.en: I love your new clothes!
+tags: ⭐ cool, 🇫🇷 slang
+//
+word: la flemme
+translation: laziness / can't be bothered
+type: noun
+group: 🤪 Slang
+grammar.Gender: f
+pronunciation: /flɛm/
+example.fr: J'ai la flemme de sortir ce soir.
+example.en: I can't be bothered to go out tonight.
+tags: ⭐ cool, 🇫🇷 slang
+//
+word: dégoûté
+translation: bummed out / disappointed
+type: adjective
+group: 🤪 Slang
+pronunciation: /de.ɡu.te/
+example.fr: Je suis dégoûté, j'ai raté le bus.
+example.en: I'm bummed, I missed the bus.
+tags: ⭐ cool, 🇫🇷 slang
+//
+word: boloss
+translation: loser / idiot
+type: noun
+group: 🤪 Slang
+grammar.Gender: m
+pronunciation: /bɔ.lɔs/
+example.fr: Il se comporte comme un boloss.
+example.en: He is acting like a loser.
+tags: ⭐ cool, 🇫🇷 slang
+//
+word: pote
+translation: friend / buddy
+type: noun
+group: 🤪 Slang
+grammar.Gender: m/f
+pronunciation: /pɔt/
+example.fr: C'est un de mes potes.
+example.en: He's one of my buddies.
+tags: ⭐ cool, 🇫🇷 slang
+//
+word: dingue
+translation: crazy / wild
+type: adjective
+group: 🤪 Slang
+pronunciation: /dɛ̃ɡ/
+example.fr: C'est une histoire dingue !
+example.en: It's a crazy story!
+tags: ⭐ cool, 🇫🇷 slang
+//
+word: nickel
+translation: perfect / great
+type: adjective/adverb
+group: 🤪 Slang
+pronunciation: /ni.kɛl/
+example.fr: — Tout est prêt ? — C'est nickel.
+example.en: — Is everything ready? — It's perfect.
+tags: ⭐ cool, 🇫🇷 slang
+//
+word: galérer
+translation: to struggle
+type: verb
+group: 🤪 Slang
+grammar.Verb group: 1er
+grammar.Auxiliary: avoir
+example.fr: Je galère avec cet exercice.
+example.en: I'm struggling with this exercise.
+tags: ⭐ cool, 🇫🇷 slang
+//
+word: radin
+translation: cheap / stingy
+type: adjective
+group: 🤪 Slang
+pronunciation: /ʁa.dɛ̃/
+example.fr: Ne sois pas radin !
+example.en: Don't be cheap!
+tags: ⭐ cool, 🇫🇷 slang
+//
+word: un boulet
+translation: an annoying person / someone who slows things down
+type: noun
+group: 🤪 Slang
+grammar.Gender: m
+pronunciation: /bu.lɛ/
+example.fr: Il est vraiment boulet aujourd'hui.
+example.en: He is being such a drag today.
+tags: ⭐ cool, 🇫🇷 slang
+//
+word: être au taquet
+translation: to be on top of things / ready for action
+type: expression
+group: 🤪 Slang
+pronunciation: /ɛtʁ o ta.kɛ/
+example.fr: On est au taquet pour le projet !
+example.en: We are all set and ready for the project!
+tags: ⭐ cool, 🇫🇷 slang
+//
+word: choper
+translation: to catch / to pick up / to get
+type: verb
+group: 🤪 Slang
+grammar.Verb group: 1er
+grammar.Auxiliary: avoir
+example.fr: J'ai chopé un rhume.
+example.en: I caught a cold.
+tags: ⭐ cool, 🇫🇷 slang
+//
+word: se marrer
+translation: to have a laugh / have fun
+type: verb
+group: 🤪 Slang
+grammar.Verb group: 1er (reflexive)
+grammar.Auxiliary: être
+example.fr: On s'est bien marrés hier.
+example.en: We had a good laugh yesterday.
+tags: ⭐ cool, 🇫🇷 slang
+//
+word: claqué
+translation: exhausted / worn out
+type: adjective
+group: 🤪 Slang
+pronunciation: /kla.ke/
+example.fr: Je suis claqué après le boulot.
+example.en: I'm exhausted after work.
+tags: ⭐ cool, 🇫🇷 slang

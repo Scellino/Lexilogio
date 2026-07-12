@@ -1,0 +1,434 @@
+word: salon
+translation: living room
+type: noun
+group: 🏠 My home
+grammar.Gender: m
+grammar.Plural: salons
+pronunciation: /sa.lɔ̃/
+example.fr: Nous regardons la télévision dans le salon.
+example.en: We are watching television in the living room.
+tags: ⭐ common, 🏠 home
+priority: yes
+//
+note: Also the everyday word for cooking as a hobby/cuisine.
+word: cuisine
+translation: kitchen, cooking
+type: noun
+group: 🏠 My home
+grammar.Gender: f
+grammar.Plural: cuisines
+pronunciation: /kɥi.zin/
+example.fr: Elle prépare le dîner dans la cuisine.
+example.en: She is preparing dinner in the kitchen.
+tags: ⭐ common, 🏠 home
+priority: yes
+//
+word: salle de bains
+translation: bathroom
+type: noun
+group: 🏠 My home
+grammar.Gender: f
+grammar.Plural: salles de bains
+pronunciation: /sal də bɛ̃/
+example.fr: La salle de bains est en haut.
+example.en: The bathroom is upstairs.
+tags: ⭐ common, 🏠 home
+priority: yes
+//
+word: toilettes
+translation: toilet
+type: noun
+group: 🏠 My home
+grammar.Gender: f
+grammar.Plural: toilettes
+note: Used in the plural form.
+pronunciation: /twa.lɛt/
+example.fr: Où sont les toilettes, s'il vous plaît ?
+example.en: Where is the toilet, please?
+tags: ⭐ common, 🏠 home
+priority: yes
+//
+word: balcon
+translation: balcony
+type: noun
+group: 🏠 My home
+grammar.Gender: m
+grammar.Plural: balcons
+pronunciation: /bal.kɔ̃/
+example.fr: Il fait beau, allons sur le balcon.
+example.en: It's nice out, let's go on the balcony.
+tags: ⭐ common, 🏠 home
+priority: yes
+//
+word: jardin
+translation: garden
+type: noun
+group: 🏠 My home
+grammar.Gender: m
+grammar.Plural: jardins
+pronunciation: /ʒaʁ.dɛ̃/
+example.fr: Les enfants jouent dans le jardin.
+example.en: The children are playing in the garden.
+tags: ⭐ common, 🏠 home
+priority: yes
+//
+word: garage
+translation: garage
+type: noun
+group: 🏠 My home
+grammar.Gender: m
+grammar.Plural: garages
+pronunciation: /ɡa.ʁaʒ/
+example.fr: Ma voiture est garée dans le garage.
+example.en: My car is parked in the garage.
+tags: ⭐ common, 🏠 home
+priority: yes
+//
+word: toit
+translation: roof
+type: noun
+group: 🏠 My home
+grammar.Gender: m
+grammar.Plural: toits
+pronunciation: /twa/
+example.fr: Il y a un chat sur le toit.
+example.en: There is a cat on the roof.
+tags: ⭐ common, 🏠 home
+priority: yes
+//
+word: escalier
+translation: stairs
+type: noun
+group: 🏠 My home
+grammar.Gender: m
+grammar.Plural: escaliers
+pronunciation: /ɛs.ka.lje/
+example.fr: Montez l'escalier pour arriver au salon.
+example.en: Go up the stairs to reach the living room.
+tags: ⭐ common, 🏠 home
+priority: yes
+//
+word: lit
+translation: bed
+type: noun
+group: 🏠 My home
+grammar.Gender: m
+grammar.Plural: lits
+pronunciation: /li/
+example.fr: Je vais faire mon lit.
+example.en: I am going to make my bed.
+tags: ⭐ common, 🏠 home
+priority: yes
+//
+word: canapé
+translation: sofa
+type: noun
+group: 🏠 My home
+grammar.Gender: m
+grammar.Plural: canapés
+pronunciation: /ka.na.pe/
+example.fr: Le chat dort sur le canapé.
+example.en: The cat is sleeping on the sofa.
+tags: ⭐ common, 🏠 home
+priority: yes
+//
+word: table
+translation: table
+type: noun
+group: 🏠 My home
+grammar.Gender: f
+grammar.Plural: tables
+pronunciation: /tabl/
+example.fr: Mettez les assiettes sur la table.
+example.en: Put the plates on the table.
+tags: ⭐ common, 🏠 home
+priority: yes
+//
+word: chaise
+translation: chair
+type: noun
+group: 🏠 My home
+grammar.Gender: f
+grammar.Plural: chaises
+pronunciation: /ʃɛz/
+example.fr: Asseyez-vous sur cette chaise.
+example.en: Sit on this chair.
+tags: ⭐ common, 🏠 home
+priority: yes
+//
+word: armoire
+translation: wardrobe
+type: noun
+group: 🏠 My home
+grammar.Gender: f
+grammar.Plural: armoires
+pronunciation: /aʁ.mwaʁ/
+example.fr: Mes vêtements sont dans l'armoire.
+example.en: My clothes are in the wardrobe.
+tags: ⭐ common, 🏠 home
+priority: yes
+//
+word: étagère
+translation: shelf
+type: noun
+group: 🏠 My home
+grammar.Gender: f
+grammar.Plural: étagères
+pronunciation: /e.ta.ʒɛʁ/
+example.fr: Range tes livres sur l'étagère.
+example.en: Put your books away on the shelf.
+tags: ⭐ common, 🏠 home
+priority: yes
+//
+word: lampe
+translation: lamp
+type: noun
+group: 🏠 My home
+grammar.Gender: f
+grammar.Plural: lampes
+pronunciation: /lɑ̃p/
+example.fr: Allume la lampe, il fait sombre.
+example.en: Turn on the lamp, it's dark.
+tags: ⭐ common, 🏠 home
+priority: yes
+//
+word: miroir
+translation: mirror
+type: noun
+group: 🏠 My home
+grammar.Gender: m
+grammar.Plural: miroirs
+pronunciation: /mi.ʁwaʁ/
+example.fr: Elle se regarde dans le miroir.
+example.en: She is looking at herself in the mirror.
+tags: ⭐ common, 🏠 home
+priority: yes
+//
+word: rideau
+translation: curtain
+type: noun
+group: 🏠 My home
+grammar.Gender: m
+grammar.Plural: rideaux
+pronunciation: /ʁi.do/
+example.fr: Ferme le rideau pour dormir.
+example.en: Close the curtain to sleep.
+tags: ⭐ common, 🏠 home
+priority: yes
+//
+word: réfrigérateur
+translation: fridge
+type: noun
+group: 🏠 My home
+grammar.Gender: m
+grammar.Plural: réfrigérateurs
+pronunciation: /ʁe.fʁi.ʒe.ʁa.tœʁ/
+note: Often abbreviated as 'frigo'.
+example.fr: Le lait est dans le réfrigérateur.
+example.en: The milk is in the fridge.
+tags: ⭐ common, 🏠 home
+priority: yes
+//
+word: four
+translation: oven
+type: noun
+group: 🏠 My home
+grammar.Gender: m
+grammar.Plural: fours
+pronunciation: /fuʁ/
+example.fr: Le poulet cuit au four.
+example.en: The chicken is baking in the oven.
+tags: ⭐ common, 🏠 home
+priority: yes
+//
+word: micro-ondes
+translation: microwave
+type: noun
+group: 🏠 My home
+grammar.Gender: m
+grammar.Plural: micro-ondes
+pronunciation: /mi.kʁɔ.ɔ̃d/
+example.fr: Réchauffe ton repas au micro-ondes.
+example.en: Reheat your meal in the microwave.
+tags: ⭐ common, 🏠 home
+priority: yes
+//
+word: lave-vaisselle
+translation: dishwasher
+type: noun
+group: 🏠 My home
+grammar.Gender: m
+grammar.Plural: lave-vaisselle
+pronunciation: /lav.vɛ.sɛl/
+example.fr: Videz le lave-vaisselle, s'il vous plaît.
+example.en: Empty the dishwasher, please.
+tags: ⭐ common, 🏠 home
+priority: yes
+//
+word: évier
+translation: sink
+type: noun
+group: 🏠 My home
+grammar.Gender: m
+grammar.Plural: éviers
+pronunciation: /e.vje/
+example.fr: Il y a de la vaisselle dans l'évier.
+example.en: There are dishes in the sink.
+tags: ⭐ common, 🏠 home
+priority: yes
+//
+word: tasse
+translation: cup
+type: noun
+group: 🏠 My home
+grammar.Gender: f
+grammar.Plural: tasses
+pronunciation: /tas/
+example.fr: Je voudrais une tasse de thé.
+example.en: I would like a cup of tea.
+tags: ⭐ common, 🏠 home
+priority: yes
+//
+word: verre
+translation: glass
+type: noun
+group: 🏠 My home
+grammar.Gender: m
+grammar.Plural: verres
+pronunciation: /vɛʁ/
+example.fr: Remplis mon verre d'eau.
+example.en: Fill my glass with water.
+tags: ⭐ common, 🏠 home
+priority: yes
+//
+word: assiette
+translation: plate
+type: noun
+group: 🏠 My home
+grammar.Gender: f
+grammar.Plural: assiettes
+pronunciation: /a.sjɛt/
+example.fr: Pose ton assiette sur la table.
+example.en: Put your plate on the table.
+tags: ⭐ common, 🏠 home
+priority: yes
+//
+word: fourchette
+translation: fork
+type: noun
+group: 🏠 My home
+grammar.Gender: f
+grammar.Plural: fourchettes
+pronunciation: /fuʁ.ʃɛt/
+example.fr: Mange avec une fourchette.
+example.en: Eat with a fork.
+tags: ⭐ common, 🏠 home
+priority: yes
+//
+word: couteau
+translation: knife
+type: noun
+group: 🏠 My home
+grammar.Gender: m
+grammar.Plural: couteaux
+pronunciation: /ku.to/
+example.fr: Utilise un couteau pour couper le pain.
+example.en: Use a knife to cut the bread.
+tags: ⭐ common, 🏠 home
+priority: yes
+//
+word: cuillère
+translation: spoon
+type: noun
+group: 🏠 My home
+grammar.Gender: f
+grammar.Plural: cuillères
+pronunciation: /kɥi.jɛʁ/
+example.fr: J'ai besoin d'une cuillère pour la soupe.
+example.en: I need a spoon for the soup.
+tags: ⭐ common, 🏠 home
+priority: yes
+//
+word: marmite
+translation: pot
+type: noun
+group: 🏠 My home
+grammar.Gender: f
+grammar.Plural: marmites
+pronunciation: /maʁ.mit/
+example.fr: La soupe bout dans la marmite.
+example.en: The soup is boiling in the pot.
+tags: ⭐ common, 🏠 home
+priority: yes
+//
+word: poêle
+translation: pan
+type: noun
+group: 🏠 My home
+grammar.Gender: f
+grammar.Plural: poêles
+pronunciation: /pwal/
+example.fr: Fais revenir les oignons dans la poêle.
+example.en: Sauté the onions in the pan.
+tags: ⭐ common, 🏠 home
+priority: yes
+//
+word: fenêtre
+translation: window
+type: noun
+group: 🏠 My home
+grammar.Gender: f
+grammar.Plural: fenêtres
+pronunciation: /fə.nɛtʁ/
+example.fr: Ouvre la fenêtre pour aérer.
+example.en: Open the window to air out the room.
+tags: ⭐ common, 🏠 home
+priority: yes
+//
+word: porte
+translation: door
+type: noun
+group: 🏠 My home
+grammar.Gender: f
+grammar.Plural: portes
+pronunciation: /pɔʁt/
+example.fr: Ferme la porte derrière toi.
+example.en: Close the door behind you.
+tags: ⭐ common, 🏠 home
+priority: yes
+//
+word: sol
+translation: floor
+type: noun
+group: 🏠 My home
+grammar.Gender: m
+grammar.Plural: sols
+pronunciation: /sɔl/
+example.fr: Le sol est très propre.
+example.en: The floor is very clean.
+tags: ⭐ common, 🏠 home
+priority: yes
+//
+word: plafond
+translation: ceiling
+type: noun
+group: 🏠 My home
+grammar.Gender: m
+grammar.Plural: plafonds
+pronunciation: /pla.fɔ̃/
+example.fr: Le plafond est très haut.
+example.en: The ceiling is very high.
+tags: ⭐ common, 🏠 home
+priority: yes
+//
+word: mur
+translation: wall
+type: noun
+group: 🏠 My home
+grammar.Gender: m
+grammar.Plural: murs
+pronunciation: /myʁ/
+example.fr: Il y a un tableau sur le mur.
+example.en: There is a painting on the wall.
+tags: ⭐ common, 🏠 home
+priority: yes

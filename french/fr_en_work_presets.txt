@@ -1,0 +1,393 @@
+word: ingénieur
+translation: engineer
+type: noun
+group: 💼 Jobs & work
+grammar.Gender: m
+grammar.Plural: ingénieurs
+pronunciation: /ɛ̃.ʒe.njœʁ/
+example.fr: Il est ingénieur en informatique.
+example.en: He is a computer engineer.
+tags: ⭐ common, 💼 work
+priority: yes
+//
+word: avocat
+translation: lawyer
+type: noun
+group: 💼 Jobs & work
+grammar.Gender: m
+grammar.Plural: avocats
+pronunciation: /a.vɔ.ka/
+example.fr: Mon avocat s'occupe de mon dossier.
+example.en: My lawyer is handling my case.
+tags: ⭐ common, 💼 work
+priority: yes
+//
+word: journaliste
+translation: journalist
+type: noun
+group: 💼 Jobs & work
+grammar.Gender: m/f
+grammar.Plural: journalistes
+pronunciation: /ʒuʁ.na.list/
+example.fr: Elle est journaliste pour un quotidien.
+example.en: She is a journalist for a daily newspaper.
+tags: ⭐ common, 💼 work
+priority: yes
+//
+word: chef
+translation: chef
+type: noun
+group: 💼 Jobs & work
+grammar.Gender: m
+grammar.Plural: chefs
+pronunciation: /ʃɛf/
+example.fr: Le chef prépare un repas gastronomique.
+example.en: The chef is preparing a gourmet meal.
+tags: ⭐ common, 💼 work
+priority: yes
+//
+word: architecte
+translation: architect
+type: noun
+group: 💼 Jobs & work
+grammar.Gender: m/f
+grammar.Plural: architectes
+pronunciation: /aʁ.ʃi.tɛkt/
+example.fr: L'architecte dessine les plans de la maison.
+example.en: The architect draws the house plans.
+tags: ⭐ common, 💼 work
+priority: yes
+//
+word: policier
+translation: police officer
+type: noun
+group: 💼 Jobs & work
+grammar.Gender: m
+grammar.Plural: policiers
+pronunciation: /pɔ.li.sje/
+example.fr: Le policier fait la circulation.
+example.en: The police officer is directing traffic.
+tags: ⭐ common, 💼 work
+priority: yes
+//
+word: pompier
+translation: firefighter
+type: noun
+group: 💼 Jobs & work
+grammar.Gender: m
+grammar.Plural: pompiers
+pronunciation: /pɔ̃.pje/
+example.fr: Le pompier éteint l'incendie.
+example.en: The firefighter is putting out the fire.
+tags: ⭐ common, 💼 work
+priority: yes
+//
+word: pilote
+translation: pilot
+type: noun
+group: 💼 Jobs & work
+grammar.Gender: m/f
+grammar.Plural: pilotes
+pronunciation: /pi.lɔt/
+example.fr: Le pilote annonce le début du vol.
+example.en: The pilot is announcing the start of the flight.
+tags: ⭐ common, 💼 work
+priority: yes
+//
+word: mécanicien
+translation: mechanic
+type: noun
+group: 💼 Jobs & work
+grammar.Gender: m
+grammar.Plural: mécaniciens
+pronunciation: /me.ka.ni.sjɛ̃/
+example.fr: Le mécanicien répare ma voiture.
+example.en: The mechanic is fixing my car.
+tags: ⭐ common, 💼 work
+priority: yes
+//
+word: programmeur
+translation: programmer
+type: noun
+group: 💼 Jobs & work
+grammar.Gender: m
+grammar.Plural: programmeurs
+pronunciation: /pʁɔ.ɡʁa.mœʁ/
+example.fr: Le programmeur écrit du nouveau code.
+example.en: The programmer is writing new code.
+tags: ⭐ common, 💼 work
+priority: yes
+//
+word: artiste
+translation: artist
+type: noun
+group: 💼 Jobs & work
+grammar.Gender: m/f
+grammar.Plural: artistes
+pronunciation: /aʁ.tist/
+example.fr: L'artiste expose ses peintures.
+example.en: The artist is exhibiting their paintings.
+tags: ⭐ common, 💼 work
+priority: yes
+//
+word: musicien
+translation: musician
+type: noun
+group: 💼 Jobs & work
+grammar.Gender: m
+grammar.Plural: musiciens
+pronunciation: /my.zi.sjɛ̃/
+example.fr: Le musicien joue de la guitare.
+example.en: The musician is playing the guitar.
+tags: ⭐ common, 💼 work
+priority: yes
+//
+word: acteur
+translation: actor
+type: noun
+group: 💼 Jobs & work
+grammar.Gender: m
+grammar.Plural: acteurs
+pronunciation: /ak.tœʁ/
+example.fr: Cet acteur est très connu.
+example.en: This actor is very famous.
+tags: ⭐ common, 💼 work
+priority: yes
+//
+word: agriculteur
+translation: farmer
+type: noun
+group: 💼 Jobs & work
+grammar.Gender: m
+grammar.Plural: agriculteurs
+pronunciation: /a.ɡʁi.kyl.tœʁ/
+example.fr: L'agriculteur cultive des céréales.
+example.en: The farmer grows grains.
+tags: ⭐ common, 💼 work
+priority: yes
+//
+word: ouvrier
+translation: builder, worker
+type: noun
+group: 💼 Jobs & work
+grammar.Gender: m
+grammar.Plural: ouvriers
+pronunciation: /u.vʁje/
+example.fr: L'ouvrier travaille sur le chantier.
+example.en: The worker is working on the construction site.
+tags: ⭐ common, 💼 work
+priority: yes
+//
+word: comptable
+translation: accountant
+type: noun
+group: 💼 Jobs & work
+grammar.Gender: m/f
+grammar.Plural: comptables
+pronunciation: /kɔ̃.tabl/
+example.fr: Le comptable vérifie les comptes.
+example.en: The accountant is checking the accounts.
+tags: ⭐ common, 💼 work
+priority: yes
+//
+word: emploi
+translation: job
+type: noun
+group: 💼 Jobs & work
+grammar.Gender: m
+grammar.Plural: emplois
+pronunciation: /ɑ̃.plwa/
+example.fr: Je cherche un nouvel emploi.
+example.en: I am looking for a new job.
+tags: ⭐ common, 💼 work
+priority: yes
+//
+word: travail
+translation: work
+type: noun
+group: 💼 Jobs & work
+grammar.Gender: m
+grammar.Plural: travaux
+pronunciation: /tʁa.vaj/
+example.fr: J'ai beaucoup de travail aujourd'hui.
+example.en: I have a lot of work today.
+tags: ⭐ common, 💼 work
+priority: yes
+//
+word: salaire
+translation: salary
+type: noun
+group: 💼 Jobs & work
+grammar.Gender: m
+grammar.Plural: salaires
+pronunciation: /sa.lɛʁ/
+example.fr: Quel est ton salaire mensuel ?
+example.en: What is your monthly salary?
+tags: ⭐ common, 💼 work
+priority: yes
+//
+note: Also the everyday word for a desk.
+word: bureau
+translation: office, desk
+type: noun
+group: 💼 Jobs & work
+grammar.Gender: m
+grammar.Plural: bureaux
+pronunciation: /by.ʁo/
+example.fr: Je vais au bureau à huit heures.
+example.en: I go to the office at eight o'clock.
+tags: ⭐ common, 💼 work
+priority: yes
+//
+word: usine
+translation: factory
+type: noun
+group: 💼 Jobs & work
+grammar.Gender: f
+grammar.Plural: usines
+pronunciation: /y.zin/
+example.fr: Il travaille dans une usine.
+example.en: He works in a factory.
+tags: ⭐ common, 💼 work
+priority: yes
+//
+word: réunion
+translation: meeting
+type: noun
+group: 💼 Jobs & work
+grammar.Gender: f
+grammar.Plural: réunions
+pronunciation: /ʁe.y.njɔ̃/
+example.fr: J'ai une réunion importante cet après-midi.
+example.en: I have an important meeting this afternoon.
+tags: ⭐ common, 💼 work
+priority: yes
+//
+word: patron
+translation: boss
+type: noun
+group: 💼 Jobs & work
+grammar.Gender: m
+grammar.Plural: patrons
+pronunciation: /pa.tʁɔ̃/
+example.fr: Mon patron est très compréhensif.
+example.en: My boss is very understanding.
+tags: ⭐ common, 💼 work
+priority: yes
+//
+word: date limite
+translation: deadline
+type: phrase
+group: 💼 Jobs & work
+pronunciation: /dat li.mit/
+example.fr: La date limite approche.
+example.en: The deadline is approaching.
+tags: ⭐ common, 💼 work
+priority: yes
+//
+word: carrière
+translation: career
+type: noun
+group: 💼 Jobs & work
+grammar.Gender: f
+grammar.Plural: carrières
+pronunciation: /ka.ʁjɛʁ/
+example.fr: Elle veut faire une grande carrière.
+example.en: She wants to have a great career.
+tags: ⭐ common, 💼 work
+priority: yes
+//
+word: entretien
+translation: interview
+type: noun
+group: 💼 Jobs & work
+grammar.Gender: m
+grammar.Plural: entretiens
+pronunciation: /ɑ̃.tʁə.tjɛ̃/
+example.fr: J'ai un entretien d'embauche demain.
+example.en: I have a job interview tomorrow.
+tags: ⭐ common, 💼 work
+priority: yes
+//
+word: embaucher
+translation: to hire
+type: verb
+group: 💼 Jobs & work
+grammar.Verb group: 1er
+grammar.Auxiliary: avoir
+grammar.Past participle: embauché
+grammar.Présent (all 6 forms): embauche / embauches / embauche / embauchons / embauchez / embauchent
+example.fr: L'entreprise va embaucher dix personnes.
+example.en: The company is going to hire ten people.
+tags: ⭐ common, 💼 work
+priority: yes
+//
+word: prendre sa retraite
+translation: to retire
+type: phrase
+group: 💼 Jobs & work
+pronunciation: /pʁɑ̃dʁ sa ʁə.tʁɛt/
+example.fr: Il va prendre sa retraite l'année prochaine.
+example.en: He is going to retire next year.
+tags: ⭐ common, 💼 work
+priority: yes
+//
+word: contrat
+translation: contract
+type: noun
+group: 💼 Jobs & work
+grammar.Gender: m
+grammar.Plural: contrats
+pronunciation: /kɔ̃.tʁa/
+example.fr: J'ai signé mon nouveau contrat.
+example.en: I signed my new contract.
+tags: ⭐ common, 💼 work
+priority: yes
+//
+word: employé
+translation: employee
+type: noun
+group: 💼 Jobs & work
+grammar.Gender: m
+grammar.Plural: employés
+pronunciation: /ɑ̃.plwa.je/
+example.fr: C'est un employé très motivé.
+example.en: He is a very motivated employee.
+tags: ⭐ common, 💼 work
+priority: yes
+//
+word: employeur
+translation: employer
+type: noun
+group: 💼 Jobs & work
+grammar.Gender: m
+grammar.Plural: employeurs
+pronunciation: /ɑ̃.plwa.jœʁ/
+example.fr: Mon employeur m'offre une formation.
+example.en: My employer is offering me training.
+tags: ⭐ common, 💼 work
+priority: yes
+//
+word: projet
+translation: project
+type: noun
+group: 💼 Jobs & work
+grammar.Gender: m
+grammar.Plural: projets
+pronunciation: /pʁɔ.ʒɛ/
+example.fr: Nous travaillons sur un nouveau projet.
+example.en: We are working on a new project.
+tags: ⭐ common, 💼 work
+priority: yes
+//
+word: rapport
+translation: report
+type: noun
+group: 💼 Jobs & work
+grammar.Gender: m
+grammar.Plural: rapports
+pronunciation: /ʁa.pɔʁ/
+example.fr: J'ai fini de rédiger le rapport.
+example.en: I have finished writing the report.
+tags: ⭐ common, 💼 work
+priority: yes

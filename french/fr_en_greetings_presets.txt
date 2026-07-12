@@ -1,0 +1,279 @@
+word: bonjour
+translation: hello, good morning, good day
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /bɔ̃.ʒuʁ/
+example.fr: Bonjour, comment allez-vous ?
+example.en: Hello, how are you?
+etymology: From 'bon' (good) + 'jour' (day).
+note: Standard greeting used throughout the day until evening.
+tags: ⭐ common, 👋 greetings
+priority: yes
+//
+word: salut
+translation: hi, hello, bye
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /sa.ly/
+example.fr: Salut ! Ça va ?
+example.en: Hi! How's it going?
+etymology: From Latin 'salus' (health).
+note: Informal; used for both greeting and parting.
+tags: ⭐ common, 😂 informal, 👋 greetings
+priority: yes
+//
+word: au revoir
+translation: goodbye
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /o ʁə.vwaʁ/
+example.fr: Au revoir, à bientôt.
+example.en: Goodbye, see you soon.
+etymology: From 'à' + 'revoir' (to see again).
+note: Standard, polite way to say goodbye.
+tags: ⭐ common, 👋 greetings
+priority: yes
+//
+word: bonsoir
+translation: good evening
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /bɔ̃.swaʁ/
+example.fr: Bonsoir, messieurs-dames.
+example.en: Good evening, ladies and gentlemen.
+note: Used starting from late afternoon/dusk.
+tags: ⭐ common, 👋 greetings
+priority: yes
+//
+word: bonne nuit
+translation: good night
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /bɔn nɥi/
+example.fr: Bonne nuit, fais de beaux rêves.
+example.en: Good night, have sweet dreams.
+note: Used only when going to bed, not as a greeting.
+tags: ⭐ common, 👋 greetings
+priority: yes
+//
+word: s'il vous plaît
+translation: please
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /sil vu plɛ/
+example.fr: Un café, s'il vous plaît.
+example.en: A coffee, please.
+note: Formal/plural; use 's'il te plaît' for informal singular.
+tags: ⭐ common, 👋 greetings
+priority: yes
+//
+word: merci
+translation: thank you
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /mɛʁ.si/
+example.fr: Merci beaucoup pour votre aide.
+example.en: Thank you very much for your help.
+note: Extremely common, essential for politeness.
+tags: ⭐ common, 👋 greetings
+priority: yes
+//
+word: de rien
+translation: you're welcome
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /də ʁjɛ̃/
+example.fr: — Merci. — De rien !
+example.en: — Thank you. — You're welcome!
+note: The standard, informal response to 'merci'.
+tags: ⭐ common, 👋 greetings
+priority: yes
+//
+word: désolé
+translation: sorry
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /de.zɔ.le/
+example.fr: Je suis désolé d'être en retard.
+example.en: I am sorry for being late.
+note: Adjective; must agree in gender/number (désolée for feminine).
+tags: ⭐ common, 👋 greetings
+priority: yes
+//
+word: excusez-moi
+translation: excuse me
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /ɛks.ky.ze mwa/
+example.fr: Excusez-moi, est-ce que vous avez l'heure ?
+example.en: Excuse me, do you have the time?
+note: Formal; use 'excuse-moi' for informal.
+tags: ⭐ common, 👋 greetings
+priority: yes
+//
+word: oui
+translation: yes
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /wi/
+example.fr: Oui, je suis d'accord.
+example.en: Yes, I agree.
+tags: ⭐ common, 👋 greetings
+priority: yes
+//
+word: non
+translation: no
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /nɔ̃/
+example.fr: Non, merci, ça ira.
+example.en: No, thank you, that will be fine.
+tags: ⭐ common, 👋 greetings
+priority: yes
+//
+word: je ne comprends pas
+translation: I don't understand
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /ʒə nə kɔ̃.pʁɑ̃ pa/
+example.fr: Pardon, je ne comprends pas très bien.
+example.en: Sorry, I don't understand very well.
+note: Essential phrase for learners.
+tags: ⭐ common, 👋 greetings
+priority: yes
+//
+word: je m'appelle
+translation: my name is
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /ʒə ma.pɛl/
+example.fr: Je m'appelle Thomas.
+example.en: My name is Thomas.
+note: Literally 'I call myself'.
+tags: ⭐ common, 👋 greetings
+priority: yes
+//
+word: comment allez-vous
+translation: how are you
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /kɔ.mɑ̃ ta.le vu/
+example.fr: Bonjour, comment allez-vous ?
+example.en: Hello, how are you?
+note: Formal; use 'comment ça va ?' for informal.
+tags: ⭐ common, 👋 greetings
+priority: yes
+//
+word: je vais bien
+translation: I'm fine
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /ʒə ve bjɛ̃/
+example.fr: Ça va, je vais bien, merci.
+example.en: It's going well, I'm fine, thank you.
+tags: ⭐ common, 👋 greetings
+priority: yes
+//
+word: enchanté
+translation: nice to meet you
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /ɑ̃.ʃɑ̃.te/
+example.fr: Enchanté de faire votre connaissance.
+example.en: Nice to meet you.
+note: Adjective; add 'e' (enchantée) if the speaker is female.
+tags: ⭐ common, 👋 greetings
+priority: yes
+//
+word: à plus tard
+translation: see you later
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /a ply taʁ/
+example.fr: À plus tard, bonne journée !
+example.en: See you later, have a good day!
+note: Informal, often shortened to 'à plus'.
+tags: ⭐ common, 👋 greetings, 😂 informal
+priority: yes
+//
+word: à demain
+translation: see you tomorrow
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /a də.mɛ̃/
+example.fr: À demain, passe une bonne soirée.
+example.en: See you tomorrow, have a good evening.
+tags: ⭐ common, 👋 greetings
+priority: yes
+//
+word: santé
+translation: cheers
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /sɑ̃.te/
+example.fr: À la vôtre, santé !
+example.en: Cheers!
+note: Used when clinking glasses.
+tags: ⭐ common, 👋 greetings, 🍕 food
+priority: yes
+//
+word: félicitations
+translation: congratulations
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /fe.li.si.ta.sjɔ̃/
+example.fr: Félicitations pour votre réussite !
+example.en: Congratulations on your success!
+tags: ⭐ common, 👋 greetings
+priority: yes
+//
+word: joyeux anniversaire
+translation: happy birthday
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /ʒwa.jøz a.ni.vɛʁ.sɛʁ/
+example.fr: Joyeux anniversaire ! Quel âge as-tu ?
+example.en: Happy birthday! How old are you?
+tags: ⭐ common, 👋 greetings
+priority: yes
+//
+word: bienvenue
+translation: welcome
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /bjɛ̃.vny/
+example.fr: Bienvenue chez nous !
+example.en: Welcome to our home!
+tags: ⭐ common, 👋 greetings
+priority: yes
+//
+word: pas de problème
+translation: no problem
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /pa də pʁɔ.blɛm/
+example.fr: — Merci beaucoup ! — Pas de problème.
+example.en: — Thank you very much! — No problem.
+tags: ⭐ common, 👋 greetings, 😂 informal
+priority: yes
+//
+word: bien sûr
+translation: of course
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /bjɛ̃ syʁ/
+example.fr: — Tu viens avec nous ? — Bien sûr !
+example.en: — Are you coming with us? — Of course!
+tags: ⭐ common, 👋 greetings
+priority: yes
+//
+word: voilà
+translation: here you go, there you are
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /vwa.la/
+example.fr: Voilà votre commande.
+example.en: Here is your order.
+etymology: From 'vois' (see) + 'là' (there).
+tags: ⭐ common, 👋 greetings
+priority: yes

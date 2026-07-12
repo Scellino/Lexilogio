@@ -1,0 +1,519 @@
+word: tête
+translation: head
+type: noun
+group: 🩺 Body & Doctor
+grammar.Gender: f
+grammar.Plural: têtes
+pronunciation: /tɛt/
+example.fr: J'ai mal à la tête.
+example.en: I have a headache.
+tags: ⭐ common, 🩺 body
+priority: yes
+//
+word: œil
+translation: eye
+type: noun
+group: 🩺 Body & Doctor
+grammar.Gender: m
+grammar.Plural: yeux
+pronunciation: /œj/
+example.fr: Elle a les yeux verts.
+example.en: She has green eyes.
+tags: ⭐ common, 🩺 body
+priority: yes
+//
+word: oreille
+translation: ear
+type: noun
+group: 🩺 Body & Doctor
+grammar.Gender: f
+grammar.Plural: oreilles
+pronunciation: /ɔ.ʁɛj/
+example.fr: Il a mal à l'oreille.
+example.en: He has an earache.
+tags: ⭐ common, 🩺 body
+priority: yes
+//
+word: nez
+translation: nose
+type: noun
+group: 🩺 Body & Doctor
+grammar.Gender: m
+grammar.Plural: nez
+pronunciation: /ne/
+example.fr: Elle a un petit nez.
+example.en: She has a small nose.
+tags: ⭐ common, 🩺 body
+priority: yes
+//
+word: bouche
+translation: mouth
+type: noun
+group: 🩺 Body & Doctor
+grammar.Gender: f
+grammar.Plural: bouches
+pronunciation: /buʃ/
+example.fr: Ouvre la bouche, s'il te plaît.
+example.en: Open your mouth, please.
+tags: ⭐ common, 🩺 body
+priority: yes
+//
+word: dent
+translation: tooth
+type: noun
+group: 🩺 Body & Doctor
+grammar.Gender: f
+grammar.Plural: dents
+pronunciation: /dɑ̃/
+example.fr: J'ai mal à une dent.
+example.en: I have a toothache.
+tags: ⭐ common, 🩺 body
+priority: yes
+//
+note: Same word for the body part and for a spoken language.
+word: langue
+translation: tongue, language
+type: noun
+group: 🩺 Body & Doctor
+grammar.Gender: f
+grammar.Plural: langues
+pronunciation: /lɑ̃ɡ/
+example.fr: Montre-moi ta langue.
+example.en: Show me your tongue.
+tags: ⭐ common, 🩺 body
+priority: yes
+//
+word: cou
+translation: neck
+type: noun
+group: 🩺 Body & Doctor
+grammar.Gender: m
+grammar.Plural: cous
+pronunciation: /ku/
+example.fr: J'ai mal au cou.
+example.en: I have a sore neck.
+tags: ⭐ common, 🩺 body
+priority: yes
+//
+word: épaule
+translation: shoulder
+type: noun
+group: 🩺 Body & Doctor
+grammar.Gender: f
+grammar.Plural: épaules
+pronunciation: /e.pol/
+example.fr: Il s'est fait mal à l'épaule.
+example.en: He hurt his shoulder.
+tags: ⭐ common, 🩺 body
+priority: yes
+//
+word: bras
+translation: arm
+type: noun
+group: 🩺 Body & Doctor
+grammar.Gender: m
+grammar.Plural: bras
+pronunciation: /bʁa/
+example.fr: Il a les bras forts.
+example.en: He has strong arms.
+tags: ⭐ common, 🩺 body
+priority: yes
+//
+word: coude
+translation: elbow
+type: noun
+group: 🩺 Body & Doctor
+grammar.Gender: m
+grammar.Plural: coudes
+pronunciation: /kud/
+example.fr: Je me suis cogné le coude.
+example.en: I bumped my elbow.
+tags: ⭐ common, 🩺 body
+priority: yes
+//
+word: poignet
+translation: wrist
+type: noun
+group: 🩺 Body & Doctor
+grammar.Gender: m
+grammar.Plural: poignets
+pronunciation: /pwa.ɲɛ/
+example.fr: Il porte une montre au poignet.
+example.en: He wears a watch on his wrist.
+tags: ⭐ common, 🩺 body
+priority: yes
+//
+word: main
+translation: hand
+type: noun
+group: 🩺 Body & Doctor
+grammar.Gender: f
+grammar.Plural: mains
+pronunciation: /mɛ̃/
+example.fr: Donne-moi la main.
+example.en: Give me your hand.
+tags: ⭐ common, 🩺 body
+priority: yes
+//
+word: doigt
+translation: finger
+type: noun
+group: 🩺 Body & Doctor
+grammar.Gender: m
+grammar.Plural: doigts
+pronunciation: /dwa/
+example.fr: Elle s'est coupé le doigt.
+example.en: She cut her finger.
+tags: ⭐ common, 🩺 body
+priority: yes
+//
+word: pouce
+translation: thumb
+type: noun
+group: 🩺 Body & Doctor
+grammar.Gender: m
+grammar.Plural: pouces
+pronunciation: /pus/
+example.fr: Il a levé le pouce pour dire oui.
+example.en: He gave a thumbs up to say yes.
+tags: ⭐ common, 🩺 body
+priority: yes
+//
+word: dos
+translation: back
+type: noun
+group: 🩺 Body & Doctor
+grammar.Gender: m
+grammar.Plural: dos
+pronunciation: /do/
+example.fr: J'ai mal au dos.
+example.en: I have a sore back.
+tags: ⭐ common, 🩺 body
+priority: yes
+//
+word: poitrine
+translation: chest
+type: noun
+group: 🩺 Body & Doctor
+grammar.Gender: f
+grammar.Plural: poetrines
+pronunciation: /pwa.tʁin/
+example.fr: Il a une douleur à la poitrine.
+example.en: He has pain in his chest.
+tags: ⭐ common, 🩺 body
+priority: yes
+//
+word: estomac
+translation: stomach
+type: noun
+group: 🩺 Body & Doctor
+grammar.Gender: m
+grammar.Plural: estomacs
+pronunciation: /ɛs.tɔ.mak/
+example.fr: J'ai mal à l'estomac.
+example.en: I have a stomachache.
+tags: ⭐ common, 🩺 body
+priority: yes
+//
+word: jambe
+translation: leg
+type: noun
+group: 🩺 Body & Doctor
+grammar.Gender: f
+grammar.Plural: jambes
+pronunciation: /ʒɑ̃b/
+example.fr: Il s'est cassé la jambe.
+example.en: He broke his leg.
+tags: ⭐ common, 🩺 body
+priority: yes
+//
+word: genou
+translation: knee
+type: noun
+group: 🩺 Body & Doctor
+grammar.Gender: m
+grammar.Plural: genoux
+pronunciation: /ʒə.nu/
+example.fr: Je me suis écorché le genou.
+example.en: I scraped my knee.
+tags: ⭐ common, 🩺 body
+priority: yes
+//
+word: cheville
+translation: ankle
+type: noun
+group: 🩺 Body & Doctor
+grammar.Gender: f
+grammar.Plural: chevilles
+pronunciation: /ʃə.vij/
+example.fr: Il s'est tordu la cheville.
+example.en: He twisted his ankle.
+tags: ⭐ common, 🩺 body
+priority: yes
+//
+word: pied
+translation: foot
+type: noun
+group: 🩺 Body & Doctor
+grammar.Gender: m
+grammar.Plural: pieds
+pronunciation: /pje/
+example.fr: J'ai mal aux pieds.
+example.en: My feet hurt.
+tags: ⭐ common, 🩺 body
+priority: yes
+//
+word: orteil
+translation: toe
+type: noun
+group: 🩺 Body & Doctor
+grammar.Gender: m
+grammar.Plural: orteils
+pronunciation: /ɔʁ.tɛj/
+example.fr: Il s'est cogné l'orteil.
+example.en: He bumped his toe.
+tags: ⭐ common, 🩺 body
+priority: yes
+//
+word: peau
+translation: skin
+type: noun
+group: 🩺 Body & Doctor
+grammar.Gender: f
+grammar.Plural: peaux
+pronunciation: /po/
+example.fr: Elle a la peau sensible.
+example.en: She has sensitive skin.
+tags: ⭐ common, 🩺 body
+priority: yes
+//
+word: cheveu
+translation: hair
+type: noun
+group: 🩺 Body & Doctor
+grammar.Gender: m
+grammar.Plural: cheveux
+pronunciation: /ʃə.vø/
+note: Usually plural in French (les cheveux).
+example.fr: Il a les cheveux longs.
+example.en: He has long hair.
+tags: ⭐ common, 🩺 body
+priority: yes
+//
+word: cœur
+translation: heart
+type: noun
+group: 🩺 Body & Doctor
+grammar.Gender: m
+grammar.Plural: cœurs
+pronunciation: /kœʁ/
+example.fr: Il a un cœur énorme.
+example.en: He has a huge heart.
+tags: ⭐ common, 🩺 body
+priority: yes
+//
+word: poumon
+translation: lung
+type: noun
+group: 🩺 Body & Doctor
+grammar.Gender: m
+grammar.Plural: poumons
+pronunciation: /pu.mɔ̃/
+example.fr: Il a une infection aux poumons.
+example.en: He has a lung infection.
+tags: ⭐ common, 🩺 body
+priority: yes
+//
+word: sang
+translation: blood
+type: noun
+group: 🩺 Body & Doctor
+grammar.Gender: m
+grammar.Plural: sangs
+pronunciation: /sɑ̃/
+example.fr: Elle a perdu beaucoup de sang.
+example.en: She lost a lot of blood.
+tags: ⭐ common, 🩺 body
+priority: yes
+//
+word: os
+translation: bone
+type: noun
+group: 🩺 Body & Doctor
+grammar.Gender: m
+grammar.Plural: os
+pronunciation: /os/
+example.fr: Il a un os de cassé.
+example.en: He has a broken bone.
+tags: ⭐ common, 🩺 body
+priority: yes
+//
+word: médecin
+translation: doctor
+type: noun
+group: 🩺 Body & Doctor
+grammar.Gender: m
+grammar.Plural: médecins
+pronunciation: /me.dsɛ̃/
+example.fr: Je dois consulter un médecin.
+example.en: I need to see a doctor.
+tags: ⭐ common, 🩺 doctor
+priority: yes
+//
+word: infirmier
+translation: nurse
+type: noun
+group: 🩺 Body & Doctor
+grammar.Gender: m
+grammar.Plural: infirmiers
+pronunciation: /ɛ̃.fiʁ.mje/
+note: Use 'infirmière' for a female nurse.
+example.fr: L'infirmière va vous faire une piqûre.
+example.en: The nurse is going to give you an injection.
+tags: ⭐ common, 🩺 doctor
+priority: yes
+//
+word: hôpital
+translation: hospital
+type: noun
+group: 🩺 Body & Doctor
+grammar.Gender: m
+grammar.Plural: hôpitaux
+pronunciation: /o.pi.tal/
+example.fr: Elle travaille à l'hôpital.
+example.en: She works at the hospital.
+tags: ⭐ common, 🩺 doctor
+priority: yes
+//
+word: pharmacie
+translation: pharmacy
+type: noun
+group: 🩺 Body & Doctor
+grammar.Gender: f
+grammar.Plural: pharmacies
+pronunciation: /faʁ.ma.si/
+example.fr: Je vais à la pharmacie pour acheter des médicaments.
+example.en: I am going to the pharmacy to buy medicine.
+tags: ⭐ common, 🩺 doctor
+priority: yes
+//
+word: médicament
+translation: medicine
+type: noun
+group: 🩺 Body & Doctor
+grammar.Gender: m
+grammar.Plural: médicaments
+pronunciation: /me.di.ka.mɑ̃/
+example.fr: Prenez ce médicament avec de l'eau.
+example.en: Take this medicine with water.
+tags: ⭐ common, 🩺 doctor
+priority: yes
+//
+word: douleur
+translation: pain
+type: noun
+group: 🩺 Body & Doctor
+grammar.Gender: f
+grammar.Plural: douleurs
+pronunciation: /du.lœʁ/
+example.fr: J'ai une douleur vive au bras.
+example.en: I have a sharp pain in my arm.
+tags: ⭐ common, 🩺 doctor
+priority: yes
+//
+word: fièvre
+translation: fever
+type: noun
+group: 🩺 Body & Doctor
+grammar.Gender: f
+grammar.Plural: fièvres
+pronunciation: /fjɛʁ/
+example.fr: Il a de la fièvre.
+example.en: He has a fever.
+tags: ⭐ common, 🩺 doctor
+priority: yes
+//
+word: malade
+translation: ill, sick
+type: adjective
+group: 🩺 Body & Doctor
+pronunciation: /ma.lad/
+grammar.Feminine form: malade
+grammar.Plural (masc.): malades
+grammar.Plural (fem.): malades
+example.fr: Je me sens malade.
+example.en: I feel sick.
+tags: ⭐ common, 🩺 doctor
+priority: yes
+//
+word: rendez-vous
+translation: appointment
+type: noun
+group: 🩺 Body & Doctor
+grammar.Gender: m
+grammar.Plural: rendez-vous
+pronunciation: /ʁɑ̃.de.vu/
+example.fr: J'ai un rendez-vous chez le médecin.
+example.en: I have an appointment with the doctor.
+tags: ⭐ common, 🩺 doctor
+priority: yes
+//
+word: allergie
+translation: allergy
+type: noun
+group: 🩺 Body & Doctor
+grammar.Gender: f
+grammar.Plural: allergies
+pronunciation: /a.lɛʁ.ʒi/
+example.fr: J'ai une allergie aux arachides.
+example.en: I have a peanut allergy.
+tags: ⭐ common, 🩺 doctor
+priority: yes
+//
+word: symptôme
+translation: symptom
+type: noun
+group: 🩺 Body & Doctor
+grammar.Gender: m
+grammar.Plural: symptômes
+pronunciation: /sɛ̃.tom/
+example.fr: Quels sont vos symptômes ?
+example.en: What are your symptoms?
+tags: ⭐ common, 🩺 doctor
+priority: yes
+//
+word: piqûre
+translation: injection, sting
+type: noun
+group: 🩺 Body & Doctor
+grammar.Gender: f
+grammar.Plural: piqûres
+pronunciation: /pi.kyʁ/
+example.fr: Je n'aime pas les piqûres.
+example.en: I don't like injections.
+tags: ⭐ common, 🩺 doctor
+priority: yes
+//
+word: ordonnance
+translation: prescription
+type: noun
+group: 🩺 Body & Doctor
+grammar.Gender: f
+grammar.Plural: ordonnances
+pronunciation: /ɔʁ.dɔ.nɑ̃s/
+example.fr: Le médecin m'a fait une ordonnance.
+example.en: The doctor gave me a prescription.
+tags: ⭐ common, 🩺 doctor
+priority: yes
+//
+word: ambulance
+translation: ambulance
+type: noun
+group: 🩺 Body & Doctor
+grammar.Gender: f
+grammar.Plural: ambulances
+pronunciation: /ɑ̃.by.lɑ̃s/
+example.fr: Appelez une ambulance !
+example.en: Call an ambulance!
+tags: ⭐ common, 🩺 doctor
+priority: yes

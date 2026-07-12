@@ -1,0 +1,250 @@
+word: serveur
+translation: waiter
+type: noun
+group: 🍴 Restaurants & ordering
+grammar.Gender: m
+grammar.Plural: serveurs
+pronunciation: /sɛʁ.vœʁ/
+example.fr: Le serveur apporte la carte.
+example.en: The waiter brings the menu.
+tags: ⭐ common, 🍴 food
+priority: yes
+//
+word: pourboire
+translation: tip
+type: noun
+group: 🍴 Restaurants & ordering
+grammar.Gender: m
+grammar.Plural: pourboires
+pronunciation: /puʁ.bwaʁ/
+example.fr: J'ai laissé un petit pourboire.
+example.en: I left a small tip.
+tags: ⭐ common, 🍴 food
+priority: yes
+//
+word: menu
+translation: menu
+type: noun
+group: 🍴 Restaurants & ordering
+grammar.Gender: m
+grammar.Plural: menus
+pronunciation: /mə.ny/
+example.fr: Regardons le menu ensemble.
+example.en: Let's look at the menu together.
+tags: ⭐ common, 🍴 food
+priority: yes
+//
+word: addition
+translation: bill
+type: noun
+group: 🍴 Restaurants & ordering
+grammar.Gender: f
+grammar.Plural: additions
+pronunciation: /a.di.sjɔ̃/
+example.fr: Pouvons-nous avoir l'addition ?
+example.en: Can we have the bill?
+tags: ⭐ common, 🍴 food
+priority: yes
+//
+note: Also means the entrance hall of a home.
+word: entrée
+translation: starter (meal), entrance hall
+type: noun
+group: 🍴 Restaurants & ordering
+grammar.Gender: f
+grammar.Plural: entrées
+pronunciation: /ɑ̃.tʁe/
+example.fr: Je prends une salade en entrée.
+example.en: I will have a salad as a starter.
+tags: ⭐ common, 🍴 food
+priority: yes
+//
+word: plat principal
+translation: main course
+type: noun
+group: 🍴 Restaurants & ordering
+grammar.Gender: m
+grammar.Plural: plats principaux
+pronunciation: /pla pʁɛ̃.si.pal/
+example.fr: Quel est le plat principal ?
+example.en: What is the main course?
+tags: ⭐ common, 🍴 food
+priority: yes
+//
+word: dessert
+translation: dessert
+type: noun
+group: 🍴 Restaurants & ordering
+grammar.Gender: m
+grammar.Plural: desserts
+pronunciation: /de.sɛʁ/
+example.fr: Je veux un dessert au chocolat.
+example.en: I want a chocolate dessert.
+tags: ⭐ common, 🍴 food
+priority: yes
+//
+word: boisson
+translation: drink
+type: noun
+group: 🍴 Restaurants & ordering
+grammar.Gender: f
+grammar.Plural: boissons
+pronunciation: /bwa.sɔ̃/
+example.fr: Quelle boisson préférez-vous ?
+example.en: Which drink do you prefer?
+tags: ⭐ common, 🍴 food
+priority: yes
+//
+word: commander
+translation: to order
+type: verb
+group: 🍴 Restaurants & ordering
+grammar.Verb group: 1er
+grammar.Auxiliary: avoir
+grammar.Past participle: commandé
+grammar.Présent (all 6 forms): commande / commandes / commande / commandons / commandez / commandent
+example.fr: Nous sommes prêts à commander.
+example.en: We are ready to order.
+tags: ⭐ common, 🍴 food
+priority: yes
+//
+word: recommander
+translation: to recommend
+type: verb
+group: 🍴 Restaurants & ordering
+grammar.Verb group: 1er
+grammar.Auxiliary: avoir
+grammar.Past participle: recommandé
+grammar.Présent (all 6 forms): recommande / recommandes / recommande / recommandons / recommandez / recommandent
+example.fr: Que me recommandez-vous ?
+example.en: What do you recommend to me?
+tags: ⭐ common, 🍴 food
+priority: yes
+//
+word: servir
+translation: to serve
+type: verb
+group: 🍴 Restaurants & ordering
+grammar.Verb group: 2e
+grammar.Auxiliary: avoir
+grammar.Past participle: servi
+grammar.Présent (all 6 forms): sers / sers / sert / servons / servez / servent
+example.fr: On nous sert le déjeuner.
+example.en: They are serving us lunch.
+tags: ⭐ common, 🍴 food
+priority: yes
+//
+word: doux
+translation: mild
+type: adjective
+group: 🍴 Restaurants & ordering
+pronunciation: /du/
+grammar.Feminine form: douce
+grammar.Plural (masc.): doux
+grammar.Plural (fem.): douces
+example.fr: Je préfère un curry doux.
+example.en: I prefer a mild curry.
+tags: ⭐ common, 🍴 food
+priority: yes
+//
+word: délicieux
+translation: delicious
+type: adjective
+group: 🍴 Restaurants & ordering
+pronunciation: /de.li.sjø/
+grammar.Feminine form: délicieuse
+grammar.Plural (masc.): délicieux
+grammar.Plural (fem.): délicieuses
+example.fr: Ce repas est vraiment délicieux.
+example.en: This meal is really delicious.
+tags: ⭐ common, 🍴 food
+priority: yes
+//
+word: à emporter
+translation: take away
+type: phrase
+group: 🍴 Restaurants & ordering
+pronunciation: /a ɑ̃.pɔʁ.te/
+example.fr: Je voudrais une pizza à emporter.
+example.en: I would like a pizza to take away.
+tags: ⭐ common, 🍴 food
+priority: yes
+//
+word: livraison
+translation: delivery
+type: noun
+group: 🍴 Restaurants & ordering
+grammar.Gender: f
+grammar.Plural: livraisons
+pronunciation: /li.vʁɛ.zɔ̃/
+example.fr: Est-ce que vous faites la livraison ?
+example.en: Do you provide delivery?
+tags: ⭐ common, 🍴 food
+priority: yes
+//
+word: portion
+translation: portion
+type: noun
+group: 🍴 Restaurants & ordering
+grammar.Gender: f
+grammar.Plural: portions
+pronunciation: /pɔʁ.sjɔ̃/
+example.fr: La portion est assez généreuse.
+example.en: The portion is quite generous.
+tags: ⭐ common, 🍴 food
+priority: yes
+//
+word: bouteille
+translation: bottle
+type: noun
+group: 🍴 Restaurants & ordering
+grammar.Gender: f
+grammar.Plural: bouteilles
+pronunciation: /bu.tɛj/
+example.fr: Une bouteille d'eau, s'il vous plaît.
+example.en: A bottle of water, please.
+tags: ⭐ common, 🍴 food
+priority: yes
+//
+word: goûter
+translation: to taste
+type: verb
+group: 🍴 Restaurants & ordering
+grammar.Verb group: 1er
+grammar.Auxiliary: avoir
+grammar.Past participle: goûté
+grammar.Présent (all 6 forms): goûte / goûtes / goûte / goûtons / goûtez / goûtent
+example.fr: Tu veux goûter ce vin ?
+example.en: Do you want to taste this wine?
+tags: ⭐ common, 🍴 food
+priority: yes
+//
+word: bien cuit
+translation: well done
+type: phrase
+group: 🍴 Restaurants & ordering
+pronunciation: /bjɛ̃ kɥi/
+example.fr: Je veux mon steak bien cuit.
+example.en: I want my steak well done.
+tags: ⭐ common, 🍴 food
+priority: yes
+//
+word: bon appétit
+translation: enjoy your meal
+type: phrase
+group: 🍴 Restaurants & ordering
+pronunciation: /bɔ̃n a.pe.ti/
+example.fr: Le serveur a dit : « Bon appétit ! »
+example.en: The waiter said, "Enjoy your meal!"
+tags: ⭐ common, 🍴 food
+priority: yes
+//
+word: l'addition s'il vous plaît
+translation: the bill please
+type: phrase
+group: 🍴 Restaurants & ordering
+pronunciation: /la.di.sjɔ̃ sil vu plɛ/
+example.fr: Monsieur, l'addition s'il vous plaît.
+example.en: Sir, the bill please.
+tags: ⭐ common, 🍴 food
+priority: yes

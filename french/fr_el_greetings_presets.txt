@@ -1,0 +1,264 @@
+word: bonjour
+translation: καλημέρα, γεια σας
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /bɔ̃.ʒuʁ/
+example.fr: Bonjour, comment allez-vous ?
+example.el: Καλημέρα, τι κάνετε;
+etymology: bon + jour
+note: Used from morning until late afternoon.
+tags: ⭐ common, 🗣️ phrase
+priority: yes
+//
+word: salut
+translation: γεια, χαιρετισμούς
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /sa.ly/
+example.fr: Salut, ça va ?
+example.el: Γεια, τι γίνεται;
+note: Informal, used for both "hi" and "bye" among friends.
+tags: ⭐ common, 😂 informal, 🗣️ phrase
+priority: yes
+//
+word: au revoir
+translation: αντίο, στο καλό
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /o ʁə.vwaʁ/
+example.fr: Au revoir et à demain !
+example.el: Αντίο και τα λέμε αύριο!
+tags: ⭐ common, 🗣️ phrase
+priority: yes
+//
+word: bonsoir
+translation: καλησπέρα
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /bɔ̃.swaʁ/
+example.fr: Bonsoir, messieurs-dames.
+example.el: Καλησπέρα, κυρίες και κύριοι.
+tags: ⭐ common, 🗣️ phrase
+priority: yes
+//
+word: bonne nuit
+translation: καληνύχτα
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /bɔn nɥi/
+example.fr: Je suis fatigué, bonne nuit.
+example.el: Είμαι κουρασμένος, καληνύχτα.
+tags: ⭐ common, 🗣️ phrase
+priority: yes
+//
+word: s'il vous plaît
+translation: παρακαλώ
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /sil vu plɛ/
+example.fr: Un café, s'il vous plaît.
+example.el: Έναν καφέ, παρακαλώ.
+note: Formal; use "s'il te plaît" for friends/family.
+tags: ⭐ common, 🗣️ phrase
+priority: yes
+//
+word: merci
+translation: ευχαριστώ
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /mɛʁ.si/
+example.fr: Merci beaucoup pour votre aide.
+example.el: Ευχαριστώ πολύ για τη βοήθειά σας.
+tags: ⭐ common, 🗣️ phrase
+priority: yes
+//
+word: de rien
+translation: παρακαλώ, τίποτα
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /də ʁjɛ̃/
+example.fr: — Merci ! — De rien.
+example.el: — Ευχαριστώ! — Παρακαλώ.
+note: Common way to respond to "merci".
+tags: ⭐ common, 🗣️ phrase
+priority: yes
+//
+word: désolé
+translation: λυπάμαι, συγγνώμη
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /de.zɔ.le/
+example.fr: Je suis désolé pour le retard.
+example.el: Λυπάμαι για την καθυστέρηση.
+tags: ⭐ common, 🗣️ phrase
+priority: yes
+//
+word: excusez-moi
+translation: συγχωρήστε με, με συγχωρείτε
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /ɛks.ky.ze mwa/
+example.fr: Excusez-moi, où est la gare ?
+example.el: Με συγχωρείτε, πού είναι ο σταθμός;
+tags: ⭐ common, 🗣️ phrase
+priority: yes
+//
+word: oui
+translation: ναι
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /wi/
+example.fr: Oui, je veux bien.
+example.el: Ναι, το θέλω πολύ.
+tags: ⭐ common, 🗣️ phrase
+priority: yes
+//
+word: non
+translation: όχι
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /nɔ̃/
+example.fr: Non, merci, je n'ai pas faim.
+example.el: Όχι ευχαριστώ, δεν πεινάω.
+tags: ⭐ common, 🗣️ phrase
+priority: yes
+//
+word: je ne comprends pas
+translation: δεν καταλαβαίνω
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /ʒə nə kɔ̃.pʁɑ̃ pa/
+example.fr: Désolé, je ne comprends pas.
+example.el: Συγγνώμη, δεν καταλαβαίνω.
+tags: ⭐ common, 🗣️ phrase
+priority: yes
+//
+word: je m'appelle
+translation: ονομάζομαι, με λένε
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /ʒə ma.pɛl/
+example.fr: Je m'appelle Jean.
+example.el: Με λένε Ζαν.
+tags: ⭐ common, 🗣️ phrase
+priority: yes
+//
+word: comment allez-vous
+translation: πώς είστε
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /kɔ.mɑ̃ ta.le vu/
+example.fr: Bonjour, comment allez-vous ?
+example.el: Καλημέρα, πώς είστε;
+tags: ⭐ common, 🗣️ phrase
+priority: yes
+//
+word: je vais bien
+translation: είμαι καλά
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /ʒə ve bjɛ̃/
+example.fr: Je vais bien, merci.
+example.el: Είμαι καλά, ευχαριστώ.
+tags: ⭐ common, 🗣️ phrase
+priority: yes
+//
+word: enchanté
+translation: χαίρω πολύ
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /ɑ̃.ʃɑ̃.te/
+example.fr: Enchanté de faire votre connaissance.
+example.el: Χαίρω πολύ για τη γνωριμία.
+tags: ⭐ common, 🗣️ phrase
+priority: yes
+//
+word: à plus tard
+translation: τα λέμε αργότερα
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /a ply taʁ/
+example.fr: À plus tard, bonne journée !
+example.el: Τα λέμε αργότερα, καλή συνέχεια!
+tags: ⭐ common, 🗣️ phrase
+priority: yes
+//
+word: à demain
+translation: τα λέμε αύριο
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /a də.mɛ̃/
+example.fr: Au revoir, à demain !
+example.el: Αντίο, τα λέμε αύριο!
+tags: ⭐ common, 🗣️ phrase
+priority: yes
+//
+word: santé
+translation: στην υγειά μας
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /sɑ̃.te/
+example.fr: Santé !
+example.el: Στην υγειά μας!
+tags: ⭐ common, 🗣️ phrase
+priority: yes
+//
+word: félicitations
+translation: συγχαρητήρια
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /fe.li.si.ta.sjɔ̃/
+example.fr: Toutes mes félicitations pour ton diplôme.
+example.el: Θερμά συγχαρητήρια για το πτυχίο σου.
+tags: ⭐ common, 🗣️ phrase
+priority: yes
+//
+word: joyeux anniversaire
+translation: χρόνια πολλά
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /ʒwa.jø za.ni.vɛʁ.sɛʁ/
+example.fr: Joyeux anniversaire !
+example.el: Χρόνια πολλά!
+tags: ⭐ common, 🗣️ phrase
+priority: yes
+//
+word: bienvenue
+translation: καλώς ήρθατε
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /bjɛ̃.vny/
+example.fr: Bienvenue en France.
+example.el: Καλώς ήρθατε στη Γαλλία.
+tags: ⭐ common, 🗣️ phrase
+priority: yes
+//
+word: pas de problème
+translation: κανένα πρόβλημα
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /pa də pʁɔ.blɛm/
+example.fr: — Merci beaucoup ! — Pas de problème.
+example.el: — Ευχαριστώ πολύ! — Κανένα πρόβλημα.
+tags: ⭐ common, 🗣️ phrase
+priority: yes
+//
+word: bien sûr
+translation: φυσικά, βεβαίως
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /bjɛ̃ syʁ/
+example.fr: — Tu viens ? — Bien sûr !
+example.el: — Θα έρθεις; — Φυσικά!
+tags: ⭐ common, 🗣️ phrase
+priority: yes
+//
+word: voilà
+translation: ορίστε
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /vwa.la/
+example.fr: Voici votre commande, voilà.
+example.el: Ορίστε η παραγγελία σας, ορίστε.
+tags: ⭐ common, 🗣️ phrase
+priority: yes

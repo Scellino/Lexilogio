@@ -1,0 +1,360 @@
+word: rouge
+translation: red
+type: adjective
+group: 🎨 Colors & shapes
+pronunciation: /ʁuʒ/
+grammar.Feminine form: rouge
+grammar.Plural (masc.): rouges
+grammar.Plural (fem.): rouges
+example.fr: Elle porte une robe rouge.
+example.en: She is wearing a red dress.
+tags: ⭐ common, 🎨 colors
+priority: yes
+//
+word: bleu
+translation: blue
+type: adjective
+group: 🎨 Colors & shapes
+pronunciation: /blø/
+grammar.Feminine form: bleue
+grammar.Plural (masc.): bleus
+grammar.Plural (fem.): bleues
+example.fr: Le ciel est bleu aujourd'hui.
+example.en: The sky is blue today.
+tags: ⭐ common, 🎨 colors
+priority: yes
+//
+word: vert
+translation: green
+type: adjective
+group: 🎨 Colors & shapes
+pronunciation: /vɛʁ/
+grammar.Feminine form: verte
+grammar.Plural (masc.): verts
+grammar.Plural (fem.): vertes
+example.fr: Les feuilles sont vertes au printemps.
+example.en: The leaves are green in the spring.
+tags: ⭐ common, 🎨 colors
+priority: yes
+//
+word: jaune
+translation: yellow
+type: adjective
+group: 🎨 Colors & shapes
+pronunciation: /ʒon/
+grammar.Feminine form: jaune
+grammar.Plural (masc.): jaunes
+grammar.Plural (fem.): jaunes
+example.fr: J'aime beaucoup cette fleur jaune.
+example.en: I really like this yellow flower.
+tags: ⭐ common, 🎨 colors
+priority: yes
+//
+word: orange
+translation: orange
+type: adjective
+group: 🎨 Colors & shapes
+pronunciation: /ɔ.ʁɑ̃ʒ/
+grammar.Feminine form: orange
+grammar.Plural (masc.): orange
+grammar.Plural (fem.): orange
+note: Remains invariable as it is derived from the fruit.
+example.fr: Il a acheté une voiture orange.
+example.en: He bought an orange car.
+tags: ⭐ common, 🎨 colors
+priority: yes
+//
+word: violet
+translation: purple
+type: adjective
+group: 🎨 Colors & shapes
+pronunciation: /vjɔ.lɛ/
+grammar.Feminine form: violette
+grammar.Plural (masc.): violets
+grammar.Plural (fem.): violettes
+example.fr: Ses yeux sont d'un violet profond.
+example.en: Her eyes are a deep purple.
+tags: ⭐ common, 🎨 colors
+priority: yes
+//
+word: rose
+translation: pink
+type: adjective
+group: 🎨 Colors & shapes
+pronunciation: /ʁoz/
+grammar.Feminine form: rose
+grammar.Plural (masc.): roses
+grammar.Plural (fem.): roses
+example.fr: Le coucher de soleil est rose ce soir.
+example.en: The sunset is pink this evening.
+tags: ⭐ common, 🎨 colors
+priority: yes
+//
+word: marron
+translation: brown
+type: adjective
+group: 🎨 Colors & shapes
+pronunciation: /ma.ʁɔ̃/
+grammar.Feminine form: marron
+grammar.Plural (masc.): marron
+grammar.Plural (fem.): marron
+note: Invariable as it is derived from the chestnut.
+example.fr: Il porte des chaussures marron.
+example.en: He is wearing brown shoes.
+tags: ⭐ common, 🎨 colors
+priority: yes
+//
+word: noir
+translation: black
+type: adjective
+group: 🎨 Colors & shapes
+pronunciation: /nwaʁ/
+grammar.Feminine form: noire
+grammar.Plural (masc.): noirs
+grammar.Plural (fem.): noires
+example.fr: La nuit est noire.
+example.en: The night is black.
+tags: ⭐ common, 🎨 colors
+priority: yes
+//
+word: blanc
+translation: white
+type: adjective
+group: 🎨 Colors & shapes
+pronunciation: /blɑ̃/
+grammar.Feminine form: blanche
+grammar.Plural (masc.): blancs
+grammar.Plural (fem.): blanches
+example.fr: La neige est blanche.
+example.en: The snow is white.
+tags: ⭐ common, 🎨 colors
+priority: yes
+//
+word: gris
+translation: grey
+type: adjective
+group: 🎨 Colors & shapes
+pronunciation: /ɡʁi/
+grammar.Feminine form: grise
+grammar.Plural (masc.): gris
+grammar.Plural (fem.): grises
+example.fr: Le ciel est gris.
+example.en: The sky is grey.
+tags: ⭐ common, 🎨 colors
+priority: yes
+//
+word: sombre
+translation: dark
+type: adjective
+group: 🎨 Colors & shapes
+pronunciation: /sɔ̃bʁ/
+grammar.Feminine form: sombre
+grammar.Plural (masc.): sombres
+grammar.Plural (fem.): sombres
+example.fr: Il fait sombre dans la pièce.
+example.en: It is dark in the room.
+tags: ⭐ common, ✨ descriptive
+priority: yes
+//
+word: clair
+translation: light, clear
+type: adjective
+group: 🎨 Colors & shapes
+pronunciation: /klɛʁ/
+grammar.Feminine form: claire
+grammar.Plural (masc.): clairs
+grammar.Plural (fem.): claires
+example.fr: Elle a les yeux bleu clair.
+example.en: She has light blue eyes.
+tags: ⭐ common, ✨ descriptive
+priority: yes
+//
+word: brillant
+translation: bright, shiny
+type: adjective
+group: 🎨 Colors & shapes
+pronunciation: /bʁi.jɑ̃/
+grammar.Feminine form: brillante
+grammar.Plural (masc.): brillants
+grammar.Plural (fem.): brillantes
+example.fr: C'est une idée brillante.
+example.en: That is a bright/brilliant idea.
+tags: ⭐ common, ✨ descriptive
+priority: yes
+//
+word: pâle
+translation: pale
+type: adjective
+group: 🎨 Colors & shapes
+pronunciation: /pal/
+grammar.Feminine form: pâle
+grammar.Plural (masc.): pâles
+grammar.Plural (fem.): pâles
+example.fr: Elle a le teint pâle.
+example.en: She has a pale complexion.
+tags: ⭐ common, ✨ descriptive
+priority: yes
+//
+word: grand
+translation: big, tall
+type: adjective
+group: 🎨 Colors & shapes
+pronunciation: /ɡʁɑ̃/
+grammar.Feminine form: grande
+grammar.Plural (masc.): grands
+grammar.Plural (fem.): grandes
+example.fr: C'est un grand bâtiment.
+example.en: It is a big building.
+tags: ⭐ common, ✨ descriptive
+priority: yes
+//
+word: petit
+translation: small
+type: adjective
+group: 🎨 Colors & shapes
+pronunciation: /pə.ti/
+grammar.Feminine form: petite
+grammar.Plural (masc.): petits
+grammar.Plural (fem.): petites
+example.fr: J'ai un petit chien.
+example.en: I have a small dog.
+tags: ⭐ common, ✨ descriptive
+priority: yes
+//
+word: long
+translation: long
+type: adjective
+group: 🎨 Colors & shapes
+pronunciation: /lɔ̃/
+grammar.Feminine form: longue
+grammar.Plural (masc.): longs
+grammar.Plural (fem.): longues
+example.fr: C'est un long chemin.
+example.en: It is a long way.
+tags: ⭐ common, ✨ descriptive
+priority: yes
+//
+word: court
+translation: short
+type: adjective
+group: 🎨 Colors & shapes
+pronunciation: /kuʁ/
+grammar.Feminine form: courte
+grammar.Plural (masc.): courts
+grammar.Plural (fem.): courtes
+example.fr: La réunion était courte.
+example.en: The meeting was short.
+tags: ⭐ common, ✨ descriptive
+priority: yes
+//
+note: Also the word for a loose clothing fit.
+word: large
+translation: wide, broad, loose (clothing)
+type: adjective
+group: 🎨 Colors & shapes
+pronunciation: /laʁʒ/
+grammar.Feminine form: large
+grammar.Plural (masc.): larges
+grammar.Plural (fem.): larges
+example.fr: C'est une rue très large.
+example.en: It is a very wide street.
+tags: ⭐ common, ✨ descriptive
+priority: yes
+//
+word: étroit
+translation: narrow
+type: adjective
+group: 🎨 Colors & shapes
+pronunciation: /e.tʁwa/
+grammar.Feminine form: étroite
+grammar.Plural (masc.): étroits
+grammar.Plural (fem.): étroites
+example.fr: Le passage est très étroit.
+example.en: The passage is very narrow.
+tags: ⭐ common, ✨ descriptive
+priority: yes
+//
+word: rond
+translation: round
+type: adjective
+group: 🎨 Colors & shapes
+pronunciation: /ʁɔ̃/
+grammar.Feminine form: ronde
+grammar.Plural (masc.): ronds
+grammar.Plural (fem.): rondes
+example.fr: La table est ronde.
+example.en: The table is round.
+tags: ⭐ common, 🎨 shapes
+priority: yes
+//
+word: cercle
+translation: circle
+type: noun
+group: 🎨 Colors & shapes
+grammar.Gender: m
+grammar.Plural: cercles
+pronunciation: /sɛʁkl/
+example.fr: Dessine un cercle sur la feuille.
+example.en: Draw a circle on the paper.
+tags: ⭐ common, 🎨 shapes
+priority: yes
+//
+word: carré
+translation: square
+type: noun
+group: 🎨 Colors & shapes
+grammar.Gender: m
+grammar.Plural: carrés
+pronunciation: /ka.ʁe/
+example.fr: Ce salon est presque carré.
+example.en: This living room is almost square.
+tags: ⭐ common, 🎨 shapes
+priority: yes
+//
+word: triangle
+translation: triangle
+type: noun
+group: 🎨 Colors & shapes
+grammar.Gender: m
+grammar.Plural: triangles
+pronunciation: /tʁi.jɑ̃ɡl/
+example.fr: L'aire d'un triangle est facile à calculer.
+example.en: The area of a triangle is easy to calculate.
+tags: ⭐ common, 🎨 shapes
+priority: yes
+//
+word: rectangle
+translation: rectangle
+type: noun
+group: 🎨 Colors & shapes
+grammar.Gender: m
+grammar.Plural: rectangles
+pronunciation: /ʁɛk.tɑ̃ɡl/
+example.fr: Un écran est généralement un rectangle.
+example.en: A screen is generally a rectangle.
+tags: ⭐ common, 🎨 shapes
+priority: yes
+//
+word: ligne
+translation: line
+type: noun
+group: 🎨 Colors & shapes
+grammar.Gender: f
+grammar.Plural: lignes
+pronunciation: /liɲ/
+example.fr: Trace une ligne droite.
+example.en: Draw a straight line.
+tags: ⭐ common, 🎨 shapes
+priority: yes
+//
+word: point
+translation: point, dot
+type: noun
+group: 🎨 Colors & shapes
+grammar.Gender: m
+grammar.Plural: points
+pronunciation: /pwɛ̃/
+example.fr: Mettez un point à la fin de la phrase.
+example.en: Put a period (dot) at the end of the sentence.
+tags: ⭐ common, 🎨 shapes
+priority: yes

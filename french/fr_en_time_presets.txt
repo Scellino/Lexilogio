@@ -1,0 +1,634 @@
+word: un
+translation: one
+type: phrase
+group: 🕐 Numbers & time
+pronunciation: /œ̃/
+example.fr: J'ai un frère.
+example.en: I have one brother.
+tags: ⭐ common, 🕐 numbers
+priority: yes
+//
+word: deux
+translation: two
+type: phrase
+group: 🕐 Numbers & time
+pronunciation: /dø/
+example.fr: Il est deux heures.
+example.en: It is two o'clock.
+tags: ⭐ common, 🕐 numbers
+priority: yes
+//
+word: trois
+translation: three
+type: phrase
+group: 🕐 Numbers & time
+pronunciation: /tʁwa/
+example.fr: J'ai trois chats.
+example.en: I have three cats.
+tags: ⭐ common, 🕐 numbers
+priority: yes
+//
+word: quatre
+translation: four
+type: phrase
+group: 🕐 Numbers & time
+pronunciation: /katʁ/
+example.fr: Il y a quatre saisons.
+example.en: There are four seasons.
+tags: ⭐ common, 🕐 numbers
+priority: yes
+//
+word: cinq
+translation: five
+type: phrase
+group: 🕐 Numbers & time
+pronunciation: /sɛ̃k/
+example.fr: Je travaille cinq jours par semaine.
+example.en: I work five days a week.
+tags: ⭐ common, 🕐 numbers
+priority: yes
+//
+word: six
+translation: six
+type: phrase
+group: 🕐 Numbers & time
+pronunciation: /sis/
+example.fr: Il est six heures.
+example.en: It is six o'clock.
+tags: ⭐ common, 🕐 numbers
+priority: yes
+//
+word: sept
+translation: seven
+type: phrase
+group: 🕐 Numbers & time
+pronunciation: /sɛt/
+example.fr: Il y a sept jours dans une semaine.
+example.en: There are seven days in a week.
+tags: ⭐ common, 🕐 numbers
+priority: yes
+//
+word: huit
+translation: eight
+type: phrase
+group: 🕐 Numbers & time
+pronunciation: /ɥit/
+example.fr: Il est huit heures du soir.
+example.en: It is eight o'clock in the evening.
+tags: ⭐ common, 🕐 numbers
+priority: yes
+//
+word: neuf
+translation: nine
+type: phrase
+group: 🕐 Numbers & time
+pronunciation: /nœf/
+example.fr: Il est neuf heures.
+example.en: It is nine o'clock.
+tags: ⭐ common, 🕐 numbers
+priority: yes
+//
+word: dix
+translation: ten
+type: phrase
+group: 🕐 Numbers & time
+pronunciation: /dis/
+example.fr: J'ai dix ans.
+example.en: I am ten years old.
+tags: ⭐ common, 🕐 numbers
+priority: yes
+//
+word: vingt
+translation: twenty
+type: phrase
+group: 🕐 Numbers & time
+pronunciation: /vɛ̃/
+example.fr: J'ai vingt euros.
+example.en: I have twenty euros.
+tags: ⭐ common, 🕐 numbers
+priority: yes
+//
+word: trente
+translation: thirty
+type: phrase
+group: 🕐 Numbers & time
+pronunciation: /tʁɑ̃t/
+example.fr: Il est dix heures trente.
+example.en: It is ten thirty.
+tags: ⭐ common, 🕐 numbers
+priority: yes
+//
+word: quarante
+translation: forty
+type: phrase
+group: 🕐 Numbers & time
+pronunciation: /ka.ʁɑ̃t/
+example.fr: Il a quarante ans.
+example.en: He is forty years old.
+tags: ⭐ common, 🕐 numbers
+priority: yes
+//
+word: cinquante
+translation: fifty
+type: phrase
+group: 🕐 Numbers & time
+pronunciation: /sɛ̃.kɑ̃t/
+example.fr: Il est cinquante euros.
+example.en: It is fifty euros.
+tags: ⭐ common, 🕐 numbers
+priority: yes
+//
+word: soixante
+translation: sixty
+type: phrase
+group: 🕐 Numbers & time
+pronunciation: /swa.sɑ̃t/
+example.fr: Il y a soixante minutes dans une heure.
+example.en: There are sixty minutes in an hour.
+tags: ⭐ common, 🕐 numbers
+priority: yes
+//
+word: soixante-dix
+translation: seventy
+type: phrase
+group: 🕐 Numbers & time
+pronunciation: /swa.sɑ̃t.dis/
+example.fr: J'ai soixante-dix ans.
+example.en: I am seventy years old.
+tags: ⭐ common, 🕐 numbers
+priority: yes
+//
+word: quatre-vingts
+translation: eighty
+type: phrase
+group: 🕐 Numbers & time
+pronunciation: /ka.tʁə.vɛ̃/
+example.fr: Il est quatre-vingts degrés.
+example.en: It is eighty degrees.
+tags: ⭐ common, 🕐 numbers
+priority: yes
+//
+word: quatre-vingt-dix
+translation: ninety
+type: phrase
+group: 🕐 Numbers & time
+pronunciation: /ka.tʁə.vɛ̃.dis/
+example.fr: Il a quatre-vingt-dix ans.
+example.en: He is ninety years old.
+tags: ⭐ common, 🕐 numbers
+priority: yes
+//
+word: cent
+translation: hundred
+type: phrase
+group: 🕐 Numbers & time
+pronunciation: /sɑ̃/
+example.fr: Il y a cent personnes ici.
+example.en: There are a hundred people here.
+tags: ⭐ common, 🕐 numbers
+priority: yes
+//
+word: mille
+translation: thousand
+type: phrase
+group: 🕐 Numbers & time
+pronunciation: /mil/
+example.fr: L'année deux mille vingt-six.
+example.en: The year two thousand and twenty-six.
+tags: ⭐ common, 🕐 numbers
+priority: yes
+//
+word: million
+translation: million
+type: phrase
+group: 🕐 Numbers & time
+pronunciation: /mi.ljɔ̃/
+example.fr: Il y a un million d'étoiles.
+example.en: There is a million stars.
+tags: ⭐ common, 🕐 numbers
+priority: yes
+//
+word: premier
+translation: first
+type: adjective
+group: 🕐 Numbers & time
+pronunciation: /pʁə.mje/
+grammar.Feminine form: première
+grammar.Plural (masc.): premiers
+grammar.Plural (fem.): premières
+example.fr: C'est mon premier voyage.
+example.en: It is my first trip.
+tags: ⭐ common, 🕐 numbers
+priority: yes
+//
+word: deuxième
+translation: second
+type: adjective
+group: 🕐 Numbers & time
+pronunciation: /dø.zjɛm/
+grammar.Feminine form: deuxième
+grammar.Plural (masc.): deuxièmes
+grammar.Plural (fem.): deuxièmes
+example.fr: C'est la deuxième fois.
+example.en: It is the second time.
+tags: ⭐ common, 🕐 numbers
+priority: yes
+//
+word: troisième
+translation: third
+type: adjective
+group: 🕐 Numbers & time
+pronunciation: /tʁwa.zjɛm/
+grammar.Feminine form: troisième
+grammar.Plural (masc.): troisièmes
+grammar.Plural (fem.): troisièmes
+example.fr: C'est mon troisième livre.
+example.en: It is my third book.
+tags: ⭐ common, 🕐 numbers
+priority: yes
+//
+word: lundi
+translation: Monday
+type: noun
+group: 🕐 Numbers & time
+grammar.Gender: m
+grammar.Plural: lundis
+pronunciation: /lœ̃.di/
+example.fr: Je travaille le lundi.
+example.en: I work on Mondays.
+tags: ⭐ common, 🕐 days
+priority: yes
+//
+word: mardi
+translation: Tuesday
+type: noun
+group: 🕐 Numbers & time
+grammar.Gender: m
+grammar.Plural: mardis
+pronunciation: /maʁ.di/
+example.fr: On se voit mardi ?
+example.en: Shall we meet on Tuesday?
+tags: ⭐ common, 🕐 days
+priority: yes
+//
+word: mercredi
+translation: Wednesday
+type: noun
+group: 🕐 Numbers & time
+grammar.Gender: m
+grammar.Plural: mercredis
+pronunciation: /mɛʁ.kʁə.di/
+example.fr: Le mercredi, je vais au sport.
+example.en: On Wednesdays, I go to the gym.
+tags: ⭐ common, 🕐 days
+priority: yes
+//
+word: jeudi
+translation: Thursday
+type: noun
+group: 🕐 Numbers & time
+grammar.Gender: m
+grammar.Plural: jeudis
+pronunciation: /ʒø.di/
+example.fr: Jeudi est un jour important.
+example.en: Thursday is an important day.
+tags: ⭐ common, 🕐 days
+priority: yes
+//
+word: vendredi
+translation: Friday
+type: noun
+group: 🕐 Numbers & time
+grammar.Gender: m
+grammar.Plural: vendredis
+pronunciation: /vɑ̃.dʁə.di/
+example.fr: Le vendredi, c'est le week-end !
+example.en: Friday is the weekend!
+tags: ⭐ common, 🕐 days
+priority: yes
+//
+word: samedi
+translation: Saturday
+type: noun
+group: 🕐 Numbers & time
+grammar.Gender: m
+grammar.Plural: samedis
+pronunciation: /sa.mə.di/
+example.fr: Samedi, je me repose.
+example.en: On Saturday, I am resting.
+tags: ⭐ common, 🕐 days
+priority: yes
+//
+word: dimanche
+translation: Sunday
+type: noun
+group: 🕐 Numbers & time
+grammar.Gender: m
+grammar.Plural: dimanches
+pronunciation: /di.mɑ̃ʃ/
+example.fr: Le dimanche, les magasins sont fermés.
+example.en: On Sundays, the shops are closed.
+tags: ⭐ common, 🕐 days
+priority: yes
+//
+word: janvier
+translation: January
+type: noun
+group: 🕐 Numbers & time
+grammar.Gender: m
+grammar.Plural: janviers
+pronunciation: /ʒɑ̃.vje/
+example.fr: Il fait froid en janvier.
+example.en: It is cold in January.
+tags: ⭐ common, 🕐 months
+priority: yes
+//
+word: février
+translation: February
+type: noun
+group: 🕐 Numbers & time
+grammar.Gender: m
+grammar.Plural: févriers
+pronunciation: /fe.vʁi.je/
+example.fr: Février est le mois le plus court.
+example.en: February is the shortest month.
+tags: ⭐ common, 🕐 months
+priority: yes
+//
+word: mars
+translation: March
+type: noun
+group: 🕐 Numbers & time
+grammar.Gender: m
+grammar.Plural: mars
+pronunciation: /maʁs/
+example.fr: Le printemps commence en mars.
+example.en: Spring begins in March.
+tags: ⭐ common, 🕐 months
+priority: yes
+//
+word: avril
+translation: April
+type: noun
+group: 🕐 Numbers & time
+grammar.Gender: m
+grammar.Plural: avrils
+pronunciation: /a.vʁil/
+example.fr: Il pleut souvent en avril.
+example.en: It rains often in April.
+tags: ⭐ common, 🕐 months
+priority: yes
+//
+word: mai
+translation: May
+type: noun
+group: 🕐 Numbers & time
+grammar.Gender: m
+grammar.Plural: mais
+pronunciation: /mɛ/
+example.fr: En mai, fais ce qu'il te plaît.
+example.en: In May, do as you please.
+tags: ⭐ common, 🕐 months
+priority: yes
+//
+word: juin
+translation: June
+type: noun
+group: 🕐 Numbers & time
+grammar.Gender: m
+grammar.Plural: juins
+pronunciation: /ʒwɛ̃/
+example.fr: Les vacances commencent en juin.
+example.en: The holidays start in June.
+tags: ⭐ common, 🕐 months
+priority: yes
+//
+word: juillet
+translation: July
+type: noun
+group: 🕐 Numbers & time
+grammar.Gender: m
+grammar.Plural: juillets
+pronunciation: /ʒɥi.jɛ/
+example.fr: Il fait très chaud en juillet.
+example.en: It is very hot in July.
+tags: ⭐ common, 🕐 months
+priority: yes
+//
+word: août
+translation: August
+type: noun
+group: 🕐 Numbers & time
+grammar.Gender: m
+grammar.Plural: aoûts
+pronunciation: /u/
+example.fr: Beaucoup de Français partent en août.
+example.en: Many French people go away in August.
+tags: ⭐ common, 🕐 months
+priority: yes
+//
+word: septembre
+translation: September
+type: noun
+group: 🕐 Numbers & time
+grammar.Gender: m
+grammar.Plural: septembres
+pronunciation: /sɛp.tɑ̃bʁ/
+example.fr: La rentrée est en septembre.
+example.en: The start of school is in September.
+tags: ⭐ common, 🕐 months
+priority: yes
+//
+word: octobre
+translation: October
+type: noun
+group: 🕐 Numbers & time
+grammar.Gender: m
+grammar.Plural: octobres
+pronunciation: /ɔk.tɔbʁ/
+example.fr: Les feuilles tombent en octobre.
+example.en: The leaves fall in October.
+tags: ⭐ common, 🕐 months
+priority: yes
+//
+word: novembre
+translation: November
+type: noun
+group: 🕐 Numbers & time
+grammar.Gender: m
+grammar.Plural: novembres
+pronunciation: /nɔ.vɑ̃bʁ/
+example.fr: Il fait gris en novembre.
+example.en: It is grey in November.
+tags: ⭐ common, 🕐 months
+priority: yes
+//
+word: décembre
+translation: December
+type: noun
+group: 🕐 Numbers & time
+grammar.Gender: m
+grammar.Plural: décembres
+pronunciation: /de.sɑ̃bʁ/
+example.fr: Noël est en décembre.
+example.en: Christmas is in December.
+tags: ⭐ common, 🕐 months
+priority: yes
+//
+word: matin
+translation: morning
+type: noun
+group: 🕐 Numbers & time
+grammar.Gender: m
+grammar.Plural: matins
+pronunciation: /ma.tɛ̃/
+example.fr: Je bois un café le matin.
+example.en: I drink coffee in the morning.
+tags: ⭐ common, 🕐 time
+priority: yes
+//
+word: après-midi
+translation: afternoon
+type: noun
+group: 🕐 Numbers & time
+grammar.Gender: m
+grammar.Plural: après-midi
+pronunciation: /a.pʁɛ.mi.di/
+example.fr: Bonne après-midi !
+example.en: Have a good afternoon!
+tags: ⭐ common, 🕐 time
+priority: yes
+//
+word: soir
+translation: evening
+type: noun
+group: 🕐 Numbers & time
+grammar.Gender: m
+grammar.Plural: soirs
+pronunciation: /swaʁ/
+example.fr: On dîne ce soir ?
+example.en: Shall we have dinner tonight?
+tags: ⭐ common, 🕐 time
+priority: yes
+//
+word: nuit
+translation: night
+type: noun
+group: 🕐 Numbers & time
+grammar.Gender: f
+grammar.Plural: nuits
+pronunciation: /nɥi/
+example.fr: Il a travaillé toute la nuit.
+example.en: He worked all night.
+tags: ⭐ common, 🕐 time
+priority: yes
+//
+word: aujourd'hui
+translation: today
+type: adverb
+group: 🕐 Numbers & time
+pronunciation: /o.ʒyʁ.dɥi/
+example.fr: Il fait beau aujourd'hui.
+example.en: It is beautiful today.
+tags: ⭐ common, 🕐 time
+priority: yes
+//
+word: demain
+translation: tomorrow
+type: adverb
+group: 🕐 Numbers & time
+pronunciation: /də.mɛ̃/
+example.fr: À demain !
+example.en: See you tomorrow!
+tags: ⭐ common, 🕐 time
+priority: yes
+//
+word: hier
+translation: yesterday
+type: adverb
+group: 🕐 Numbers & time
+pronunciation: /jɛʁ/
+example.fr: Hier, je suis allé au cinéma.
+example.en: Yesterday, I went to the cinema.
+tags: ⭐ common, 🕐 time
+priority: yes
+//
+word: heure
+translation: hour
+type: noun
+group: 🕐 Numbers & time
+grammar.Gender: f
+grammar.Plural: heures
+pronunciation: /œʁ/
+example.fr: Il est quelle heure ?
+example.en: What time is it?
+tags: ⭐ common, 🕐 time
+priority: yes
+//
+word: minute
+translation: minute
+type: noun
+group: 🕐 Numbers & time
+grammar.Gender: f
+grammar.Plural: minutes
+pronunciation: /mi.nyt/
+example.fr: Attends une minute.
+example.en: Wait a minute.
+tags: ⭐ common, 🕐 time
+priority: yes
+//
+word: semaine
+translation: week
+type: noun
+group: 🕐 Numbers & time
+grammar.Gender: f
+grammar.Plural: semaines
+pronunciation: /sə.mɛn/
+example.fr: Bonne semaine !
+example.en: Have a good week!
+tags: ⭐ common, 🕐 time
+priority: yes
+//
+word: mois
+translation: month
+type: noun
+group: 🕐 Numbers & time
+grammar.Gender: m
+grammar.Plural: mois
+pronunciation: /mwa/
+example.fr: Quel est ton mois préféré ?
+example.en: What is your favorite month?
+tags: ⭐ common, 🕐 time
+priority: yes
+//
+word: année
+translation: year
+type: noun
+group: 🕐 Numbers & time
+grammar.Gender: f
+grammar.Plural: années
+pronunciation: /a.ne/
+example.fr: Bonne année !
+example.en: Happy New Year!
+tags: ⭐ common, 🕐 time
+priority: yes
+//
+word: maintenant
+translation: now
+type: adverb
+group: 🕐 Numbers & time
+pronunciation: /mɛ̃.tə.nɑ̃/
+example.fr: Je dois partir maintenant.
+example.en: I have to leave now.
+tags: ⭐ common, 🕐 time
+priority: yes
+//
+word: plus tard
+translation: later
+type: adverb
+group: 🕐 Numbers & time
+pronunciation: /ply taʁ/
+example.fr: On se voit plus tard.
+example.en: We'll see each other later.
+tags: ⭐ common, 🕐 time
+priority: yes

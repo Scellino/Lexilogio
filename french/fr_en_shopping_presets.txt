@@ -1,0 +1,316 @@
+word: magasin
+translation: shop
+type: noun
+group: 🛒 Shopping & money
+grammar.Gender: m
+grammar.Plural: magasins
+pronunciation: /ma.ɡa.zɛ̃/
+example.fr: Ce magasin est fermé le dimanche.
+example.en: This shop is closed on Sunday.
+tags: ⭐ common, 🛒 shopping
+priority: yes
+//
+word: supermarché
+translation: supermarket
+type: noun
+group: 🛒 Shopping & money
+grammar.Gender: m
+grammar.Plural: supermarchés
+pronunciation: /sy.pɛʁ.maʁ.ʃe/
+example.fr: Je vais au supermarché pour faire les courses.
+example.en: I am going to the supermarket to do the shopping.
+tags: ⭐ common, 🛒 shopping
+priority: yes
+//
+word: prix
+translation: price
+type: noun
+group: 🛒 Shopping & money
+grammar.Gender: m
+grammar.Plural: prix
+pronunciation: /pʁi/
+example.fr: Quel est le prix de cet article ?
+example.en: What is the price of this item?
+tags: ⭐ common, 🛒 shopping
+priority: yes
+//
+word: réduction
+translation: discount
+type: noun
+group: 🛒 Shopping & money
+grammar.Gender: f
+grammar.Plural: réductions
+pronunciation: /ʁe.dyk.sjɔ̃/
+example.fr: J'ai eu une réduction de vingt pour cent.
+example.en: I got a twenty percent discount.
+tags: ⭐ common, 🛒 shopping
+priority: yes
+//
+word: soldes
+translation: sale
+type: noun
+group: 🛒 Shopping & money
+grammar.Gender: f
+grammar.Plural: soldes
+note: Usually used in the plural.
+pronunciation: /sɔld/
+example.fr: C'est la période des soldes.
+example.en: It's the sale season.
+tags: ⭐ common, 🛒 shopping
+priority: yes
+//
+word: reçu
+translation: receipt
+type: noun
+group: 🛒 Shopping & money
+grammar.Gender: m
+grammar.Plural: reçus
+pronunciation: /ʁə.sy/
+example.fr: Gardez votre reçu pour l'échange.
+example.en: Keep your receipt for the exchange.
+tags: ⭐ common, 🛒 shopping
+priority: yes
+//
+word: argent
+translation: money
+type: noun
+group: 🛒 Shopping & money
+grammar.Gender: m
+grammar.Plural: argents
+pronunciation: /aʁ.ʒɑ̃/
+example.fr: Je n'ai plus d'argent sur moi.
+example.en: I have no more money on me.
+tags: ⭐ common, 🛒 shopping
+priority: yes
+//
+word: pièce
+translation: coin
+type: noun
+group: 🛒 Shopping & money
+grammar.Gender: f
+grammar.Plural: pièces
+pronunciation: /pjes/
+example.fr: Avez-vous une pièce de deux euros ?
+example.en: Do you have a two-euro coin?
+tags: ⭐ common, 🛒 shopping
+priority: yes
+//
+word: carte de crédit
+translation: credit card
+type: noun
+group: 🛒 Shopping & money
+grammar.Gender: f
+grammar.Plural: cartes de crédit
+pronunciation: /kaʁt də kʁe.di/
+example.fr: Acceptez-vous la carte de crédit ?
+example.en: Do you accept credit cards?
+tags: ⭐ common, 🛒 shopping
+priority: yes
+//
+word: distributeur
+translation: ATM
+type: noun
+group: 🛒 Shopping & money
+grammar.Gender: m
+grammar.Plural: distributeurs
+pronunciation: /dis.tʁi.by.tœʁ/
+example.fr: Où est le distributeur le plus proche ?
+example.en: Where is the nearest ATM?
+tags: ⭐ common, 🛒 shopping
+priority: yes
+//
+word: bon marché
+translation: cheap
+type: adjective
+group: 🛒 Shopping & money
+pronunciation: /bɔ̃ maʁ.ʃe/
+example.fr: Ce restaurant est assez bon marché.
+example.en: This restaurant is quite cheap.
+tags: ⭐ common, 🛒 shopping
+priority: yes
+//
+word: cher
+translation: expensive
+type: adjective
+group: 🛒 Shopping & money
+pronunciation: /ʃɛʁ/
+grammar.Feminine form: chère
+grammar.Plural (masc.): chers
+grammar.Plural (fem.): chères
+example.fr: Ce sac est beaucoup trop cher.
+example.en: This bag is way too expensive.
+tags: ⭐ common, 🛒 shopping
+priority: yes
+//
+word: gratuit
+translation: free
+type: adjective
+group: 🛒 Shopping & money
+pronunciation: /ɡʁa.tɥi/
+grammar.Feminine form: gratuite
+grammar.Plural (masc.): gratuits
+grammar.Plural (fem.): gratuites
+example.fr: L'entrée est gratuite pour les enfants.
+example.en: Admission is free for children.
+tags: ⭐ common, 🛒 shopping
+priority: yes
+//
+word: payer
+translation: to pay
+type: verb
+group: 🛒 Shopping & money
+grammar.Verb group: 1er
+grammar.Auxiliary: avoir
+grammar.Past participle: payé
+grammar.Présent (all 6 forms): paie / paies / paie / payons / payez / paient
+example.fr: Je vais payer par carte.
+example.en: I am going to pay by card.
+tags: ⭐ common, 🛒 shopping
+priority: yes
+//
+word: acheter
+translation: to buy
+type: verb
+group: 🛒 Shopping & money
+grammar.Verb group: 1er
+grammar.Auxiliary: avoir
+grammar.Past participle: acheté
+grammar.Présent (all 6 forms): achète / achètes / achète / achetons / achetez / achètent
+example.fr: J'ai besoin d'acheter du pain.
+example.en: I need to buy some bread.
+tags: ⭐ common, 🛒 shopping
+priority: yes
+//
+word: vendre
+translation: to sell
+type: verb
+group: 🛒 Shopping & money
+grammar.Verb group: 3e
+grammar.Auxiliary: avoir
+grammar.Past participle: vendu
+grammar.Présent (all 6 forms): vends / vends / vend / vendons / vendez / vendent
+example.fr: Ils vont vendre leur maison.
+example.en: They are going to sell their house.
+tags: ⭐ common, 🛒 shopping
+priority: yes
+//
+word: coût
+translation: cost
+type: noun
+group: 🛒 Shopping & money
+grammar.Gender: m
+grammar.Plural: coûts
+pronunciation: /ku/
+example.fr: Le coût de la vie augmente.
+example.en: The cost of living is rising.
+tags: ⭐ common, 🛒 shopping
+priority: yes
+//
+word: portefeuille
+translation: wallet
+type: noun
+group: 🛒 Shopping & money
+grammar.Gender: m
+grammar.Plural: portefeuilles
+pronunciation: /pɔʁ.tə.fœj/
+example.fr: J'ai perdu mon portefeuille.
+example.en: I lost my wallet.
+tags: ⭐ common, 🛒 shopping
+priority: yes
+//
+word: budget
+translation: budget
+type: noun
+group: 🛒 Shopping & money
+grammar.Gender: m
+grammar.Plural: budgets
+pronunciation: /by.dʒɛ/
+example.fr: Je dois respecter mon budget mensuel.
+example.en: I must stick to my monthly budget.
+tags: ⭐ common, 🛒 shopping
+priority: yes
+//
+word: monnaie
+translation: change
+type: noun
+group: 🛒 Shopping & money
+grammar.Gender: f
+grammar.Plural: monnaies
+pronunciation: /mɔ.nɛ/
+example.fr: Gardez la monnaie.
+example.en: Keep the change.
+tags: ⭐ common, 🛒 shopping
+priority: yes
+//
+word: queue
+translation: queue, line
+type: noun
+group: 🛒 Shopping & money
+grammar.Gender: f
+grammar.Plural: queues
+pronunciation: /kø/
+example.fr: Il y a une longue queue à la caisse.
+example.en: There is a long queue at the checkout.
+tags: ⭐ common, 🛒 shopping
+priority: yes
+//
+word: horaires d'ouverture
+translation: opening hours
+type: phrase
+group: 🛒 Shopping & money
+pronunciation: /ɔ.ʁɛʁ dɔ.vɛʁ.tyʁ/
+example.fr: Quels sont vos horaires d'ouverture ?
+example.en: What are your opening hours?
+tags: ⭐ common, 🛒 shopping
+priority: yes
+//
+word: fermé
+translation: closed
+type: adjective
+group: 🛒 Shopping & money
+pronunciation: /fɛʁ.me/
+grammar.Feminine form: fermée
+grammar.Plural (masc.): fermés
+grammar.Plural (fem.): fermées
+example.fr: Le magasin est fermé le lundi.
+example.en: The shop is closed on Mondays.
+tags: ⭐ common, 🛒 shopping
+priority: yes
+//
+word: ouvert
+translation: open
+type: adjective
+group: 🛒 Shopping & money
+pronunciation: /u.vɛʁ/
+grammar.Feminine form: ouverte
+grammar.Plural (masc.): ouverts
+grammar.Plural (fem.): ouvertes
+example.fr: Le supermarché est ouvert jusqu'à vingt heures.
+example.en: The supermarket is open until 8 PM.
+tags: ⭐ common, 🛒 shopping
+priority: yes
+//
+note: Also the standard word for a business client.
+word: client
+translation: customer, client
+type: noun
+group: 🛒 Shopping & money
+grammar.Gender: m
+grammar.Plural: clients
+pronunciation: /kli.jɑ̃/
+example.fr: Le client est très satisfait.
+example.en: The customer is very satisfied.
+tags: ⭐ common, 🛒 shopping
+priority: yes
+//
+word: remboursement
+translation: refund
+type: noun
+group: 🛒 Shopping & money
+grammar.Gender: m
+grammar.Plural: remboursements
+pronunciation: /ʁɑ̃.buʁ.sə.mɑ̃/
+example.fr: Puis-je obtenir un remboursement ?
+example.en: Can I get a refund?
+tags: ⭐ common, 🛒 shopping
+priority: yes

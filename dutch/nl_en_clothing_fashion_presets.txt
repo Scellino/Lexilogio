@@ -1,0 +1,497 @@
+word: overhemd
+translation: shirt, dress shirt
+type: noun
+group: 👗 Clothing & fashion
+pronunciation: /ˈoːvərɦɛmt/
+example.nl: Hij draagt een net wit overhemd naar het sollicitatiegesprek.
+example.en: He is wearing a neat white shirt to the job interview.
+etymology: Compound of over (over) and hemd (undershirt/shirt).
+note: Specifically refers to a button-up dress shirt, usually for men.
+tags: ⭐ common, 👗 clothing, 🛍️ shopping
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: overhemden
+grammar.Diminutive: het overhemdje
+//
+word: t-shirt
+translation: t-shirt
+type: noun
+group: 👗 Clothing & fashion
+pronunciation: /ˈtiːʃørt/
+example.nl: In de zomer draag ik meestal gewoon een t-shirt en een korte broek.
+example.en: In the summer I usually just wear a t-shirt and shorts.
+etymology: Borrowed from English t-shirt.
+note: Often spelled with a capital or lowercase 't'. Plural always takes -s.
+tags: ⭐ common, 👗 clothing
+priority: yes
+grammar.Article / Gender: het
+grammar.Plural: t-shirts
+grammar.Diminutive: het t-shirtje
+//
+word: broek
+translation: trousers, pants
+type: noun
+group: 👗 Clothing & fashion
+pronunciation: /bruk/
+example.nl: Deze blauwe broek zit erg comfortabel.
+example.en: These blue trousers are very comfortable.
+etymology: From Proto-Germanic *brōks.
+note: Grammatically singular in Dutch, unlike English "trousers/pants".
+tags: ⭐ common, 👗 clothing
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: broeken
+grammar.Diminutive: het broekje
+//
+word: spijkerbroek
+translation: jeans
+type: noun
+group: 👗 Clothing & fashion
+pronunciation: /ˈspɛi̯kərˌbruk/
+example.nl: Ik moet een nieuwe spijkerbroek kopen want er zit een gat in de knie.
+example.en: I need to buy new jeans because there is a hole in the knee.
+etymology: Compound of spijker (nail/rivet) and broek (trousers).
+note: "Spijker" refers to the metal rivets on traditional jeans. Grammatically singular.
+tags: ⭐ common, 👗 clothing, 🛍️ shopping
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: spijkerbroeken
+grammar.Diminutive: het spijkerbroekje
+//
+word: jurk
+translation: dress
+type: noun
+group: 👗 Clothing & fashion
+pronunciation: /jʏrk/
+example.nl: Zij heeft een prachtige rode jurk gekocht voor het feest.
+example.en: She bought a beautiful red dress for the party.
+etymology: Origin uncertain, possibly related to Middle Dutch jorre (shabby coat).
+note: Refers to a one-piece dress.
+tags: ⭐ common, 👗 clothing, 🛍️ shopping
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: jurken
+grammar.Diminutive: het jurkje
+//
+word: rok
+translation: skirt
+type: noun
+group: 👗 Clothing & fashion
+pronunciation: /rɔk/
+example.nl: De wind blies haar rok omhoog toen ze op de fiets stapte.
+example.en: The wind blew her skirt up when she got on the bicycle.
+etymology: From Proto-Germanic *rukkaz (coat/gown).
+note: "Rok" can also historically mean a dress coat or tailcoat (rokostuum).
+tags: ⭐ common, 👗 clothing
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: rokken
+grammar.Diminutive: het rokje
+//
+word: jasje
+translation: jacket, blazer
+type: noun
+group: 👗 Clothing & fashion
+pronunciation: /ˈjɑʃə/
+example.nl: Neem een jasje mee voor als het vanavond afkoelt.
+example.en: Take a jacket with you in case it cools down tonight.
+etymology: Diminutive of jas (coat).
+note: Though grammatically a diminutive, it is the standard word for a light jacket, suit jacket, or blazer.
+tags: ⭐ common, 👗 clothing
+priority: yes
+grammar.Article / Gender: het
+grammar.Plural: jasjes
+grammar.Diminutive: het jasje
+//
+word: jas
+translation: coat, heavy jacket
+type: noun
+group: 👗 Clothing & fashion
+pronunciation: /jɑs/
+example.nl: Doe je warme jas aan, het vriest buiten!
+example.en: Put on your warm coat, it's freezing outside!
+etymology: Middle Dutch jas (coat).
+note: Refers to outer coats and heavy winter jackets.
+tags: ⭐ common, 👗 clothing, 🌧️ weather
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: jassen
+grammar.Diminutive: het jasje
+//
+word: pak
+translation: suit
+type: noun
+group: 👗 Clothing & fashion
+pronunciation: /pɑk/
+example.nl: De bruidegom droeg een elegant donkerblauw pak.
+example.en: The groom wore an elegant dark blue suit.
+etymology: From Middle Dutch pac (bundle/package).
+note: Usually refers to a matching business suit (jacket and trousers).
+tags: 👗 clothing, 💼 work
+priority: yes
+grammar.Article / Gender: het
+grammar.Plural: pakken
+grammar.Diminutive: het pakje
+//
+word: ondergoed
+translation: underwear
+type: noun
+group: 👗 Clothing & fashion
+pronunciation: /ˈɔndərˌɣut/
+example.nl: Ik leg het schone ondergoed altijd in de bovenste la.
+example.en: I always put the clean underwear in the top drawer.
+etymology: Compound of onder (under) and goed (goods/material).
+note: Collective noun, usually uncountable.
+tags: 👗 clothing, 🏠 home
+priority: yes
+grammar.Article / Gender: het
+grammar.Plural: -
+grammar.Diminutive: -
+//
+word: sok
+translation: sock
+type: noun
+group: 👗 Clothing & fashion
+pronunciation: /sɔk/
+example.nl: Ik kan de andere rode sok nergens vinden.
+example.en: I cannot find the other red sock anywhere.
+etymology: From Latin soccus (slipping shoe/light shoe).
+note: Usually used in the plural: 'sokken'.
+tags: ⭐ common, 👗 clothing
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: sokken
+grammar.Diminutive: het sokje
+//
+word: schoen
+translation: shoe
+type: noun
+group: 👗 Clothing & fashion
+pronunciation: /sxun/
+example.nl: Poets je schoenen voordat je naar de bruiloft gaat.
+example.en: Polish your shoes before you go to the wedding.
+etymology: From Proto-Germanic *skōhaz.
+note: Usually used in the plural: 'schoenen'.
+tags: ⭐ common, 👗 clothing
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: schoenen
+grammar.Diminutive: het schoentje
+//
+word: laars
+translation: boot
+type: noun
+group: 👗 Clothing & fashion
+pronunciation: /laːrs/
+example.nl: Trek je rubberen laarzen aan om door de modder te lopen.
+example.en: Put on your rubber boots to walk through the mud.
+etymology: From Middle Dutch lose (leather bag/sleeve).
+note: Usually used in plural: 'laarzen'. 'Regenlaarzen' refers specifically to rain boots.
+tags: 👗 clothing, 🌧️ weather
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: laarzen
+grammar.Diminutive: het laarsje
+//
+word: hoed
+translation: hat
+type: noun
+group: 👗 Clothing & fashion
+pronunciation: /hut/
+example.nl: De oude man nam zijn hoed af als groet.
+example.en: The old man took off his hat as a greeting.
+etymology: From Proto-Germanic *hōdaz.
+note: Refers to structured hats with a brim. 'Muts' is used for wool/winter beanies.
+tags: 👗 clothing
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: hoeden
+grammar.Diminutive: het hoedje
+//
+word: sjaal
+translation: scarf
+type: noun
+group: 👗 Clothing & fashion
+pronunciation: /ʃaːl/
+example.nl: Zij wikkelde een warme sjaal om haar nek tegen de koude wind.
+example.en: She wrapped a warm scarf around her neck against the cold wind.
+etymology: From Persian shāl, via French and English.
+note: An equally common spelling is 'das', though 'das' can also mean a tie or a badger.
+tags: 👗 clothing, 🌧️ weather
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: sjaals
+grammar.Diminutive: het sjaaltje
+//
+word: handschoen
+translation: glove
+type: noun
+group: 👗 Clothing & fashion
+pronunciation: /ˈɦɑntsxun/
+example.nl: Zonder handschoenen krijg je snel koude handen op de fiets.
+example.en: Without gloves you quickly get cold hands on the bicycle.
+etymology: Compound of hand (hand) and schoen (shoe). Literally "hand shoe".
+note: Usually used in plural: 'handschoenen'.
+tags: 👗 clothing, 🌧️ weather
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: handschoenen
+grammar.Diminutive: het handschoentje
+//
+word: riem
+translation: belt, strap
+type: noun
+group: 👗 Clothing & fashion
+pronunciation: /rim/
+example.nl: Mijn broek is te wijd, ik moet een riem dragen.
+example.en: My trousers are too loose, I have to wear a belt.
+etymology: From Proto-Germanic *remō.
+note: Double meaning: 'riem' also means an "oar" or "strap".
+tags: ⭐ common, 👗 clothing
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: riemen
+grammar.Diminutive: het riempje
+//
+word: stropdas
+translation: tie, necktie
+type: noun
+group: 👗 Clothing & fashion
+pronunciation: /ˈstrɔpdɑs/
+example.nl: Hij weet niet hoe hij een stropdas moet knopen.
+example.en: He doesn't know how to tie a necktie.
+etymology: Compound of strop (noose/halter) and das (neck scarf).
+note: Often shortened simply to 'das' in professional settings.
+tags: 👗 clothing, 💼 work
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: stropdassen
+grammar.Diminutive: het stropdasje
+//
+word: tas
+translation: bag, purse
+type: noun
+group: 👗 Clothing & fashion
+pronunciation: /tɑs/
+example.nl: Zij stopt haar portemonnee en sleutels in haar tas.
+example.en: She puts her wallet and keys in her bag.
+etymology: From Middle Dutch tassche.
+note: Can refer to any hand-held bag, backpack, or shopping bag.
+tags: ⭐ common, 👗 clothing, 🛍️ shopping
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: tassen
+grammar.Diminutive: het tasje
+//
+word: bril
+translation: glasses, spectacles
+type: noun
+group: 👗 Clothing & fashion
+pronunciation: /brɪl/
+example.nl: Waar is mijn bril? Ik kan de krant niet lezen zonder.
+example.en: Where are my glasses? I cannot read the newspaper without them.
+etymology: Named after beryl, the mineral used to make early reading lenses.
+note: Grammatically singular in Dutch. "Een zonnebril" means sunglasses.
+tags: ⭐ common, 👗 clothing
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: brillen
+grammar.Diminutive: het brilletje
+//
+word: ring
+translation: ring
+type: noun
+group: 👗 Clothing & fashion
+pronunciation: /rɪŋ/
+example.nl: Ze draagt een diamanten ring aan haar ringvinger.
+example.en: She is wearing a diamond ring on her ring finger.
+etymology: From Proto-Germanic *hringaz.
+note: Refers to finger jewelry, but also geometric circles.
+tags: 👗 clothing
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: ringen
+grammar.Diminutive: het ringetje
+//
+word: ketting
+translation: necklace, chain
+type: noun
+group: 👗 Clothing & fashion
+pronunciation: /ˈkɛtɪŋ/
+example.nl: Hij gaf haar een gouden ketting voor hun jubileum.
+example.en: He gave her a gold necklace for their anniversary.
+etymology: From Middle Dutch ketene.
+note: Can refer to jewelry or utility chains (like a 'fietsketting' - bicycle chain).
+tags: 👗 clothing
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: kettingen
+grammar.Diminutive: het kettinkje
+//
+word: maat
+translation: size, measurement
+type: noun
+group: 👗 Clothing & fashion
+pronunciation: /maːt/
+example.nl: Welke maat heeft u nodig voor deze schoenen?
+example.en: Which size do you need for these shoes?
+etymology: From Proto-Germanic *mētaz.
+note: Double meaning: 'maat' also colloquially means "buddy/mate".
+tags: ⭐ common, 👗 clothing, 🛍️ shopping
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: maten
+grammar.Diminutive: het maatje
+//
+word: dragen
+translation: to wear, carry
+type: verb
+group: 👗 Clothing & fashion
+pronunciation: /ˈdraːɣə(n)/
+example.nl: Vandaag draagt zij haar favoriete blauwe trui.
+example.en: Today she is wearing her favorite blue sweater.
+etymology: From Proto-Germanic *draganą.
+note: Strong verb. Covers both wearing clothing and carrying physical weight.
+tags: ⭐ common, 👗 clothing, 🚶 movement
+priority: yes
+grammar.Past tense (sg.): droeg
+grammar.Past participle: gedragen
+grammar.Auxiliary: hebben
+grammar.Present (ik / jij / hij / wij / jullie / zij): draag / draagt / draagt / dragen / dragen / dragen
+//
+word: aanpassen
+translation: to try on, adapt, adjust
+type: verb
+group: 👗 Clothing & fashion
+pronunciation: /ˈaːmpɑsə(n)/
+example.nl: Mag ik deze jas ergens aanpassen?
+example.en: May I try this coat on somewhere?
+etymology: Compound of aan (on) and passen (to fit/measure).
+note: Separable prefix verb ('ik pas aan'). 'Pasruimte' is the fitting room.
+tags: ⭐ common, 👗 clothing, 🛍️ shopping
+priority: yes
+grammar.Past tense (sg.): paste aan
+grammar.Past participle: aangepast
+grammar.Auxiliary: hebben
+grammar.Present (ik / jij / hij / wij / jullie / zij): pas aan / past aan / past aan / passen aan / passen aan / passen aan
+//
+word: passen
+translation: to fit, suit, match
+type: verb
+group: 👗 Clothing & fashion
+pronunciation: /ˈpɑsə(n)/
+example.nl: Deze schoenen passen me helaas niet, ze zijn te klein.
+example.en: Unfortunately these shoes do not fit me, they are too small.
+etymology: From French passer.
+note: Regular weak verb. Means "to fit" in size or style. Also means "to look after" (oppassen) or "to pass" (skip a turn).
+tags: ⭐ common, 👗 clothing, 🛍️ shopping
+priority: yes
+grammar.Past tense (sg.): paste
+grammar.Past participle: gepast
+grammar.Auxiliary: hebben
+grammar.Present (ik / jij / hij / wij / jullie / zij): pas / past / past / passen / passen / passen
+//
+word: strak
+translation: tight, strict, straight
+type: adjective
+group: 👗 Clothing & fashion
+pronunciation: /strɑk/
+example.nl: Deze broek zit veel te strak rond mijn middel.
+example.en: This pair of trousers is way too tight around my waist.
+etymology: Cognate with English "stretch" and German "stramm".
+note: Often combined with "zitten" to mean fitting tightly.
+tags: ⭐ common, 🎭 adjective, 👗 clothing
+priority: yes
+grammar.Inflected form: strakke
+grammar.Comparative: strakker
+grammar.Superlative: strakst
+//
+word: wijd
+translation: loose, wide, broad
+type: adjective
+group: 👗 Clothing & fashion
+pronunciation: /ʋɛi̯t/
+example.nl: Ik hou van wijde kleding als het erg warm is.
+example.en: I like loose-fitting clothing when it is very hot.
+etymology: From Proto-Germanic *wīdaz (wide/far).
+note: The standard antonym for "strak" (tight) when discussing clothes.
+tags: ⭐ common, 🎭 adjective, 👗 clothing
+priority: yes
+grammar.Inflected form: wijde
+grammar.Comparative: wijder
+grammar.Superlative: wijdst
+//
+word: gestreept
+translation: striped
+type: adjective
+group: 👗 Clothing & fashion
+pronunciation: /ɣəˈstreːpt/
+example.nl: Hij kocht een blauw-wit gestreept T-shirt.
+example.en: He bought a blue-and-white striped T-shirt.
+etymology: Derived from the noun streep (stripe/line).
+note: Past participle acting as an adjective.
+tags: 🎭 adjective, 👗 clothing
+priority: yes
+grammar.Inflected form: gestreepte
+grammar.Comparative: -
+grammar.Superlative: -
+//
+word: effen
+translation: plain, solid color, smooth
+type: adjective
+group: 👗 Clothing & fashion
+pronunciation: /ˈɛfə(n)/
+example.nl: Ik draag liever een effen overhemd dan iets met patronen.
+example.en: I prefer to wear a plain shirt over something with patterns.
+etymology: From Proto-Germanic *ebnaz (even/flat).
+note: Specifically used in fashion for single, solid-color textiles.
+tags: 🎭 adjective, 👗 clothing
+priority: yes
+grammar.Inflected form: effen
+grammar.Comparative: -
+grammar.Superlative: -
+//
+word: gemusterd
+translation: patterned, figured
+type: adjective
+group: 👗 Clothing & fashion
+pronunciation: /ɣəˈmʏstərt/
+example.nl: Zij kiest vaak voor vrolijke, gemusterde stoffen.
+example.en: She often opts for cheerful, patterned fabrics.
+etymology: Derived from monster (pattern/sample), from Latin monstrare.
+note: Indicates fabrics containing decorative prints or textures.
+tags: 🎭 adjective, 👗 clothing
+priority: no
+grammar.Inflected form: gemusterde
+grammar.Comparative: -
+grammar.Superlative: -
+//
+word: katoen
+translation: cotton
+type: noun
+group: 👗 Clothing & fashion
+pronunciation: /kaːˈtun/
+example.nl: Dit shirt is gemaakt van honderd procent katoen.
+example.en: This shirt is made of one hundred percent cotton.
+etymology: Borrowed via French and Spanish from Arabic qutun.
+note: The corresponding adjective is 'katoenen' (e.g., 'een katoenen tas').
+tags: 👗 clothing, 🧵 fashion
+priority: yes
+grammar.Article / Gender: het
+grammar.Plural: -
+grammar.Diminutive: -
+//
+word: wol
+translation: wool
+type: noun
+group: 👗 Clothing & fashion
+pronunciation: /ʋɔl/
+example.nl: Pure wol kriebelt soms een beetje op de huid.
+example.en: Pure wool sometimes itches a bit on the skin.
+etymology: From Proto-Germanic *wullō.
+note: The corresponding adjective is 'wollen' (e.g., 'een wollen sjaal').
+tags: 👗 clothing, 🌧️ weather
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: -
+grammar.Diminutive: -

@@ -1,0 +1,343 @@
+word: ville
+translation: city, town
+type: noun
+group: 🗺️ City & directions
+grammar.Gender: f
+grammar.Plural: villes
+pronunciation: /vil/
+example.fr: Cette ville est très animée.
+example.en: This city is very lively.
+tags: ⭐ common, 🗺️ travel
+priority: yes
+//
+word: village
+translation: village
+type: noun
+group: 🗺️ City & directions
+grammar.Gender: m
+grammar.Plural: villages
+pronunciation: /vi.laʒ/
+example.fr: Il y a une église au centre du village.
+example.en: There is a church in the center of the village.
+tags: ⭐ common, 🗺️ travel
+priority: yes
+//
+word: rue
+translation: street
+type: noun
+group: 🗺️ City & directions
+grammar.Gender: f
+grammar.Plural: rues
+pronunciation: /ʁy/
+example.fr: Ma maison est dans cette rue.
+example.en: My house is in this street.
+tags: ⭐ common, 🗺️ travel
+priority: yes
+//
+word: route
+translation: road
+type: noun
+group: 🗺️ City & directions
+grammar.Gender: f
+grammar.Plural: routes
+pronunciation: /ʁut/
+example.fr: La route est bloquée.
+example.en: The road is blocked.
+tags: ⭐ common, 🗺️ travel
+priority: yes
+//
+word: parc
+translation: park
+type: noun
+group: 🗺️ City & directions
+grammar.Gender: m
+grammar.Plural: parcs
+pronunciation: /paʁk/
+example.fr: Allons nous promener au parc.
+example.en: Let's go for a walk in the park.
+tags: ⭐ common, 🌿 nature
+priority: yes
+//
+word: pont
+translation: bridge
+type: noun
+group: 🗺️ City & directions
+grammar.Gender: m
+grammar.Plural: ponts
+pronunciation: /pɔ̃/
+example.fr: Traversons ce pont.
+example.en: Let's cross this bridge.
+tags: ⭐ common, 🗺️ travel
+priority: yes
+//
+word: gauche
+translation: left
+type: adverb
+group: 🗺️ City & directions
+pronunciation: /ɡoʃ/
+example.fr: Tournez à gauche.
+example.en: Turn left.
+tags: ⭐ common, 🗺️ travel
+priority: yes
+//
+word: droite
+translation: right
+type: adverb
+group: 🗺️ City & directions
+pronunciation: /dʁwat/
+example.fr: Tournez à droite.
+example.en: Turn right.
+tags: ⭐ common, 🗺️ travel
+priority: yes
+//
+word: tout droit
+translation: straight ahead
+type: phrase
+group: 🗺️ City & directions
+pronunciation: /tu dʁwa/
+example.fr: Continuez tout droit.
+example.en: Continue straight ahead.
+tags: ⭐ common, 🗺️ travel
+priority: yes
+//
+word: nord
+translation: north
+type: noun
+group: 🗺️ City & directions
+grammar.Gender: m
+grammar.Plural: nords
+pronunciation: /nɔʁ/
+example.fr: Le vent vient du nord.
+example.en: The wind is coming from the north.
+tags: ⭐ common, 🗺️ travel
+priority: yes
+//
+word: sud
+translation: south
+type: noun
+group: 🗺️ City & directions
+grammar.Gender: m
+grammar.Plural: suds
+pronunciation: /syd/
+example.fr: Il fait chaud dans le sud de la France.
+example.en: It is hot in the south of France.
+tags: ⭐ common, 🗺️ travel
+priority: yes
+//
+word: est
+translation: east
+type: noun
+group: 🗺️ City & directions
+grammar.Gender: m
+grammar.Plural: ests
+pronunciation: /ɛst/
+example.fr: Le soleil se lève à l'est.
+example.en: The sun rises in the east.
+tags: ⭐ common, 🗺️ travel
+priority: yes
+//
+word: ouest
+translation: west
+type: noun
+group: 🗺️ City & directions
+grammar.Gender: m
+grammar.Plural: ouests
+pronunciation: /wɛst/
+example.fr: Il habite dans l'ouest du pays.
+example.en: He lives in the west of the country.
+tags: ⭐ common, 🗺️ travel
+priority: yes
+//
+word: tourner
+translation: turn
+type: verb
+group: 🗺️ City & directions
+grammar.Verb group: 1er
+grammar.Auxiliary: avoir
+grammar.Past participle: tourné
+grammar.Présent (all 6 forms): tourne / tournes / tourne / tournons / tournez / tournent
+example.fr: Tournez à la prochaine rue.
+example.en: Turn at the next street.
+tags: ⭐ common, 🗺️ travel
+priority: yes
+//
+word: près
+translation: near
+type: adverb
+group: 🗺️ City & directions
+pronunciation: /pʁɛ/
+example.fr: Habitez-vous près d'ici ?
+example.en: Do you live near here?
+tags: ⭐ common, 🗺️ travel
+priority: yes
+//
+word: loin
+translation: far
+type: adverb
+group: 🗺️ City & directions
+pronunciation: /lwɛ̃/
+example.fr: C'est loin d'ici ?
+example.en: Is it far from here?
+tags: ⭐ common, 🗺️ travel
+priority: yes
+//
+word: à côté de
+translation: next to
+type: phrase
+group: 🗺️ City & directions
+pronunciation: /a ko.te də/
+example.fr: La banque est à côté de la bibliothèque.
+example.en: The bank is next to the library.
+tags: ⭐ common, 🗺️ travel
+priority: yes
+//
+word: en face
+translation: opposite
+type: phrase
+group: 🗺️ City & directions
+pronunciation: /ɑ̃ fas/
+example.fr: Le musée est en face de l'église.
+example.en: The museum is opposite the church.
+tags: ⭐ common, 🗺️ travel
+priority: yes
+//
+word: entre
+translation: between
+type: preposition
+group: 🗺️ City & directions
+pronunciation: /ɑ̃tʁ/
+example.fr: Le bus est entre les deux voitures.
+example.en: The bus is between the two cars.
+tags: ⭐ common, 🗺️ travel
+priority: yes
+//
+word: coin
+translation: corner
+type: noun
+group: 🗺️ City & directions
+grammar.Gender: m
+grammar.Plural: coins
+pronunciation: /kwɛ̃/
+example.fr: La boulangerie est au coin de la rue.
+example.en: The bakery is on the corner of the street.
+tags: ⭐ common, 🗺️ travel
+priority: yes
+//
+word: feux
+translation: traffic lights
+type: noun
+group: 🗺️ City & directions
+grammar.Gender: m
+grammar.Plural: feux
+note: Usually used in plural as 'les feux'.
+pronunciation: /fø/
+example.fr: Tournez après les feux.
+example.en: Turn after the traffic lights.
+tags: ⭐ common, 🗺️ travel
+priority: yes
+//
+word: rond-point
+translation: roundabout
+type: noun
+group: 🗺️ City & directions
+grammar.Gender: m
+grammar.Plural: rond-points
+pronunciation: /ʁɔ̃ pwɛ̃/
+example.fr: Prenez la deuxième sortie au rond-point.
+example.en: Take the second exit at the roundabout.
+tags: ⭐ common, 🗺️ travel
+priority: yes
+//
+word: église
+translation: church
+type: noun
+group: 🗺️ City & directions
+grammar.Gender: f
+grammar.Plural: églises
+pronunciation: /e.ɡliz/
+example.fr: L'église est très ancienne.
+example.en: The church is very old.
+tags: ⭐ common, 🗺️ travel
+priority: yes
+//
+word: musée
+translation: museum
+type: noun
+group: 🗺️ City & directions
+grammar.Gender: m
+grammar.Plural: musées
+pronunciation: /my.ze/
+example.fr: Le musée est fermé le lundi.
+example.en: The museum is closed on Mondays.
+tags: ⭐ common, 🗺️ travel
+priority: yes
+//
+word: bibliothèque
+translation: library
+type: noun
+group: 🗺️ City & directions
+grammar.Gender: f
+grammar.Plural: bibliothèques
+pronunciation: /bi.bli.jɔ.tɛk/
+example.fr: Je vais à la bibliothèque pour travailler.
+example.en: I am going to the library to work.
+tags: ⭐ common, 🗺️ travel
+priority: yes
+//
+word: banque
+translation: bank
+type: noun
+group: 🗺️ City & directions
+grammar.Gender: f
+grammar.Plural: banques
+pronunciation: /bɑ̃k/
+example.fr: Où est la banque la plus proche ?
+example.en: Where is the nearest bank?
+tags: ⭐ common, 🗺️ travel
+priority: yes
+//
+word: poste
+translation: post office
+type: noun
+group: 🗺️ City & directions
+grammar.Gender: f
+grammar.Plural: postes
+pronunciation: /pɔst/
+example.fr: Je dois aller à la poste.
+example.en: I need to go to the post office.
+tags: ⭐ common, 🗺️ travel
+priority: yes
+//
+word: marché
+translation: market
+type: noun
+group: 🗺️ City & directions
+grammar.Gender: m
+grammar.Plural: marchés
+pronunciation: /maʁ.ʃe/
+example.fr: Nous allons au marché ce matin.
+example.en: We are going to the market this morning.
+tags: ⭐ common, 🗺️ travel, 🍕 food
+priority: yes
+//
+word: arrêt de bus
+translation: bus stop
+type: phrase
+group: 🗺️ City & directions
+pronunciation: /a.ʁɛ də bys/
+example.fr: Où est l'arrêt de bus ?
+example.en: Where is the bus stop?
+tags: ⭐ common, 🗺️ travel
+priority: yes
+//
+word: port
+translation: port
+type: noun
+group: 🗺️ City & directions
+grammar.Gender: m
+grammar.Plural: ports
+pronunciation: /pɔʁ/
+example.fr: Le port est très actif.
+example.en: The port is very busy.
+tags: ⭐ common, 🗺️ travel
+priority: yes

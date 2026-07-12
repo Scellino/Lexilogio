@@ -1,0 +1,425 @@
+word: geinig
+translation: funny, cute, amusing
+type: adjective
+group: 🤪 Slang
+pronunciation: /ˈɣɛi.nɪx/
+example.nl: Dat is een geinig idee!
+example.en: That is a funny idea!
+etymology: derived from 'gein' (fun/joke)
+note: used for something lightheartedly amusing or quirky
+tags: ⭐ common, 🎭 adjective, 💬 communication
+priority: yes
+grammar.Inflected form: geinige
+grammar.Comparative: geiniger
+grammar.Superlative: geinigst
+//
+word: tof
+translation: cool, great, nice
+type: adjective
+group: 🤪 Slang
+pronunciation: /tɔf/
+example.nl: Wat een toffe auto heb jij.
+example.en: What a cool car you have.
+etymology: Yiddish 'tov' (good)
+note: very common informal way to say something is good
+tags: ⭐ common, 🎭 adjective
+priority: yes
+grammar.Inflected form: toffe
+grammar.Comparative: toffer
+grammar.Superlative: tofst
+//
+word: lekker
+translation: tasty, nice, great
+type: adjective
+group: 🤪 Slang
+pronunciation: /ˈlɛ.kər/
+example.nl: Lekker bezig!
+example.en: Doing great! (literally: nicely busy)
+note: used for food, physical comfort, or general approval
+tags: ⭐ common, 🎭 adjective, 🛍️ shopping
+priority: yes
+grammar.Inflected form: lekkere
+grammar.Comparative: lekkerder
+grammar.Superlative: lekkerst
+//
+word: gaaf
+translation: cool, awesome, neat
+type: adjective
+group: 🤪 Slang
+pronunciation: /ɣaːf/
+example.nl: Dat was echt een gave film.
+example.en: That was a really awesome movie.
+note: originally meant 'intact', now standard slang for 'cool'
+tags: ⭐ common, 🎭 adjective
+priority: yes
+grammar.Inflected form: gave
+grammar.Comparative: gaver
+grammar.Superlative: gaafst
+//
+word: balen
+translation: to suck, to be a bummer
+type: verb
+group: 🤪 Slang
+pronunciation: /ˈbaːlə(n)/
+example.nl: Wat balen dat het regent.
+example.en: It really sucks that it's raining.
+note: expresses disappointment or frustration
+tags: 🧠 emotion, 🌧️ weather
+priority: yes
+grammar.Past tense (sg.): baalde
+grammar.Past participle: gebaald
+grammar.Auxiliary: hebben
+grammar.Present (ik / jij / hij / wij / jullie / zij): baal / baalt / baalt / balen / balen / balen
+//
+word: boeiend
+translation: interesting, who cares?
+type: adjective
+group: 🤪 Slang
+pronunciation: /ˈbu.i.ənt/
+example.nl: Boeiend hoor...
+example.en: Who cares... / How fascinating (sarcastic)
+note: often used sarcastically to show complete lack of interest
+tags: 💬 communication, 🧠 thinking
+priority: yes
+grammar.Inflected form: boeiende
+grammar.Comparative: boeiender
+grammar.Superlative: boeiendst
+//
+word: chill
+translation: chill, relaxed, cool
+type: adjective
+group: 🤪 Slang
+pronunciation: /tʃɪl/
+example.nl: Het is hier heel chill.
+example.en: It's very chill here.
+etymology: loanword from English
+note: used for atmosphere or people
+tags: 🧠 emotion, 🏠 home
+priority: yes
+grammar.Inflected form: chille
+grammar.Comparative: chiller
+grammar.Superlative: chillst
+//
+word: bizar
+translation: bizarre, insane, crazy
+type: adjective
+group: 🤪 Slang
+pronunciation: /biˈzaːr/
+example.nl: Dat is echt bizar zeg!
+example.en: That is truly bizarre!
+note: used to describe shocking or unbelievable events
+tags: 🧠 thinking
+priority: yes
+grammar.Inflected form: bizarre
+grammar.Comparative: bizarder
+grammar.Superlative: bizarst
+//
+word: klungel
+translation: klutz, bungler
+type: noun
+group: 🤪 Slang
+pronunciation: /ˈklʏŋəl/
+example.nl: Wat ben jij toch een klungel.
+example.en: What a klutz you are.
+note: informal, used for someone clumsy or incompetent
+tags: 🧠 personality
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: klungels
+grammar.Diminutive: klungeltje
+//
+word: kletskous
+translation: chatterbox
+type: noun
+group: 🤪 Slang
+pronunciation: /ˈklɛtskɑus/
+example.nl: Je bent een echte kletskous.
+example.en: You are a real chatterbox.
+note: affectionate term for someone who talks a lot
+tags: 💬 communication, 🧠 personality
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: kletskousen
+grammar.Diminutive: kletskousje
+//
+word: bazen
+translation: to boss, to be the best
+type: verb
+group: 🤪 Slang
+pronunciation: /ˈbaːzə(n)/
+example.nl: Hij zit daar weer te bazen.
+example.en: He is acting like the boss again.
+note: 'Baas' means boss; as a verb, it means acting like you're in charge
+tags: 💼 work
+priority: no
+grammar.Past tense (sg.): baasde
+grammar.Past participle: gebaasd
+grammar.Auxiliary: hebben
+grammar.Present (ik / jij / hij / wij / jullie / zij): baas / baast / baast / bazen / bazen / bazen
+//
+word: pech
+translation: bad luck
+type: noun
+group: 🤪 Slang
+pronunciation: /pɛx/
+example.nl: Helaas, pech gehad!
+example.en: Too bad, tough luck!
+note: very common in daily life when things go wrong
+tags: ⭐ common, 🧠 emotion
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: pechgevallen
+grammar.Diminutive: -
+//
+word: vet
+translation: very, cool, fat
+type: adjective
+group: 🤪 Slang
+pronunciation: /vɛt/
+example.nl: Dat is echt vet cool!
+example.en: That is really very cool!
+note: 'vet' is used as an intensifier (like 'very') in slang
+tags: ⭐ common
+priority: yes
+grammar.Inflected form: vette
+grammar.Comparative: vetter
+grammar.Superlative: vetst
+//
+word: doei
+translation: bye
+type: interjection
+group: 🤪 Slang
+pronunciation: /ˈdu.i/
+example.nl: Tot morgen, doei!
+example.en: See you tomorrow, bye!
+note: more informal and playful version of 'dag'
+tags: ⭐ common, 💬 communication
+priority: yes
+grammar.Function / meaning nuance: informal farewell
+grammar.Typical usage example: Doei!
+//
+word: gast
+translation: guy, dude, mate
+type: noun
+group: 🤪 Slang
+pronunciation: /ɣɑst/
+example.nl: Wat zeg je nou, gast?
+example.en: What are you saying, dude?
+note: standard way to address male friends
+tags: ⭐ common, 💬 communication
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: gasten
+grammar.Diminutive: gastje
+//
+word: actie
+translation: special offer, action
+type: noun
+group: 🤪 Slang
+pronunciation: /ˈɑksi/
+example.nl: Is dit in de actie?
+example.en: Is this on sale?
+note: specifically refers to a temporary discount
+tags: 🛍️ shopping
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: acties
+grammar.Diminutive: actietje
+//
+word: kassa
+translation: checkout, jackpot
+type: noun
+group: 🤪 Slang
+pronunciation: /ˈkɑsa/
+example.nl: Dat is kassa voor hem!
+example.en: That's a jackpot for him!
+note: slang for making a lot of money
+tags: 🛍️ shopping, 💼 work
+priority: no
+grammar.Article / Gender: de
+grammar.Plural: kassa's
+grammar.Diminutive: kassaatje
+//
+word: smoes
+translation: excuse, pretense
+type: noun
+group: 🤪 Slang
+pronunciation: /smus/
+example.nl: Dat is een zwakke smoes.
+example.en: That is a weak excuse.
+note: often implies a lie or fabricated reason
+tags: 💬 communication, 🧠 thinking
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: smoezen
+grammar.Diminutive: smoesje
+//
+word: gedoe
+translation: hassle, fuss, mess
+type: noun
+group: 🤪 Slang
+pronunciation: /ɣəˈdu/
+example.nl: Wat een gedoe met die treinen.
+example.en: What a hassle with those trains.
+note: refers to annoying or complicated situations
+tags: 🚆 travel, 🌆 daily
+priority: yes
+grammar.Article / Gender: het
+grammar.Plural: -
+grammar.Diminutive: -
+//
+word: maf
+translation: crazy, weird, wacky
+type: adjective
+group: 🤪 Slang
+pronunciation: /mɑf/
+example.nl: Je bent echt maf!
+example.en: You are really weird/crazy!
+note: lighthearted way to call someone odd
+tags: 🧠 personality
+priority: yes
+grammar.Inflected form: maffe
+grammar.Comparative: maffer
+grammar.Superlative: mafst
+//
+word: droog
+translation: dry (humor)
+type: adjective
+group: 🤪 Slang
+pronunciation: /droːx/
+example.nl: Wat een droge grap.
+example.en: What a dry joke.
+note: refers to deadpan, expressionless humor
+tags: 💬 communication
+priority: no
+grammar.Inflected form: droge
+grammar.Comparative: droger
+grammar.Superlative: droogst
+//
+word: snuffelen
+translation: to browse, to nose around
+type: verb
+group: 🤪 Slang
+pronunciation: /ˈsnʏfələ(n)/
+example.nl: Ik ga even in de winkel snuffelen.
+example.en: I'm just going to browse in the shop.
+note: literally means to sniff, used for leisurely searching
+tags: 🛍️ shopping
+priority: no
+grammar.Past tense (sg.): snuffelde
+grammar.Past participle: gesnuffeld
+grammar.Auxiliary: hebben
+grammar.Present (ik / jij / hij / wij / jullie / zij): snuffel / snuffelt / snuffelt / snuffelen / snuffelen / snuffelen
+//
+word: joepie
+translation: yippee, yay
+type: interjection
+group: 🤪 Slang
+pronunciation: /ˈju.pi/
+example.nl: Joepie, we hebben vakantie!
+example.en: Yay, we're on vacation!
+note: joyful exclamation
+tags: 🧠 emotion
+priority: no
+grammar.Function / meaning nuance: excitement
+grammar.Typical usage example: Joepie!
+//
+word: sjiek
+translation: fancy, posh, chic
+type: adjective
+group: 🤪 Slang
+pronunciation: /ʃik/
+example.nl: Wat een sjiek restaurant.
+example.en: What a fancy restaurant.
+note: also written as 'chic'
+tags: 🛍️ shopping
+priority: no
+grammar.Inflected form: sjieke
+grammar.Comparative: sjieker
+grammar.Superlative: sjiekst
+//
+word: poen
+translation: money, cash
+type: noun
+group: 🤪 Slang
+pronunciation: /pun/
+example.nl: Hij heeft veel poen.
+example.en: He has lots of cash.
+note: very informal word for money
+tags: 🛍️ shopping
+priority: no
+grammar.Article / Gender: de
+grammar.Plural: -
+grammar.Diminutive: -
+//
+word: slap
+translation: weak, dull
+type: adjective
+group: 🤪 Slang
+pronunciation: /slɑp/
+example.nl: Slap gelul.
+example.en: Nonsense / Weak talk.
+note: used for bad arguments or weak behavior
+tags: 💬 communication
+priority: no
+grammar.Inflected form: slappe
+grammar.Comparative: slapper
+grammar.Superlative: slapst
+//
+word: sjonge
+translation: wow, geez
+type: interjection
+group: 🤪 Slang
+pronunciation: /ˈʃɔŋə/
+example.nl: Sjonge, dat wist ik niet.
+example.en: Wow/Geez, I didn't know that.
+note: mild exclamation of surprise or annoyance (short for 'jonge jonge')
+tags: 💬 communication
+priority: no
+grammar.Function / meaning nuance: surprise or slight frustration
+grammar.Typical usage example: Sjonge jonge!
+//
+word: knallen
+translation: to go hard, to excel, to bang
+type: verb
+group: 🤪 Slang
+pronunciation: /ˈknɑlə(n)/
+example.nl: We gaan lekker knallen vandaag!
+example.en: We're going to give it our all today!
+note: slang for working very hard or having a great time
+tags: 💼 work, 🧠 emotion
+priority: yes
+grammar.Past tense (sg.): knalde
+grammar.Past participle: geknald
+grammar.Auxiliary: hebben
+grammar.Present (ik / jij / hij / wij / jullie / zij): knal / knalt / knalt / knallen / knallen / knallen
+//
+word: babbelen
+translation: to chat, to gab
+type: verb
+group: 🤪 Slang
+pronunciation: /ˈbɑbələ(n)/
+example.nl: Gezellig babbelen met vrienden.
+example.en: Chatting nicely with friends.
+note: pleasant, informal conversation
+tags: 💬 communication
+priority: no
+grammar.Past tense (sg.): babbelde
+grammar.Past participle: gebabbeld
+grammar.Auxiliary: hebben
+grammar.Present (ik / jij / hij / wij / jullie / zij): babbel / babbelt / babbelt / babbelen / babbelen / babbelen
+//
+word: mazzel
+translation: luck
+type: noun
+group: 🤪 Slang
+pronunciation: /ˈmɑzəl/
+example.nl: Dat was mazzel hebben!
+example.en: That was lucky!
+etymology: Yiddish 'mazzel' (luck)
+note: often used as a goodbye too
+tags: ⭐ common, 💬 communication
+priority: yes
+grammar.Article / Gender: de
+grammar.Plural: mazzels
+grammar.Diminutive: -

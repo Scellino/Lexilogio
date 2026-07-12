@@ -1,0 +1,345 @@
+word: printemps
+translation: spring
+type: noun
+group: ⛅ Weather & seasons
+grammar.Gender: m
+grammar.Plural: printemps
+pronunciation: /pʁɛ̃.tɑ̃/
+example.fr: Le printemps est ma saison préférée.
+example.en: Spring is my favorite season.
+tags: ⭐ common, ⛅ weather
+priority: yes
+//
+word: été
+translation: summer
+type: noun
+group: ⛅ Weather & seasons
+grammar.Gender: m
+grammar.Plural: étés
+pronunciation: /e.te/
+example.fr: Il fait très chaud en été.
+example.en: It is very hot in summer.
+tags: ⭐ common, ⛅ weather
+priority: yes
+//
+word: automne
+translation: autumn, fall
+type: noun
+group: ⛅ Weather & seasons
+grammar.Gender: m
+grammar.Plural: automnes
+pronunciation: /o.tɔn/
+example.fr: Les feuilles tombent en automne.
+example.en: The leaves fall in autumn.
+tags: ⭐ common, ⛅ weather
+priority: yes
+//
+word: hiver
+translation: winter
+type: noun
+group: ⛅ Weather & seasons
+grammar.Gender: m
+grammar.Plural: hivers
+pronunciation: /i.vɛʁ/
+example.fr: Il neige souvent en hiver.
+example.en: It often snows in winter.
+tags: ⭐ common, ⛅ weather
+priority: yes
+//
+word: soleil
+translation: sun
+type: noun
+group: ⛅ Weather & seasons
+grammar.Gender: m
+grammar.Plural: soleils
+pronunciation: /sɔ.lɛj/
+example.fr: Le soleil brille aujourd'hui.
+example.en: The sun is shining today.
+tags: ⭐ common, ⛅ weather
+priority: yes
+//
+word: pluie
+translation: rain
+type: noun
+group: ⛅ Weather & seasons
+grammar.Gender: f
+grammar.Plural: pluies
+pronunciation: /plɥi/
+example.fr: J'entends la pluie sur le toit.
+example.en: I hear the rain on the roof.
+tags: ⭐ common, ⛅ weather
+priority: yes
+//
+word: neige
+translation: snow
+type: noun
+group: ⛅ Weather & seasons
+grammar.Gender: f
+grammar.Plural: neiges
+pronunciation: /nɛʒ/
+example.fr: La neige recouvre tout le jardin.
+example.en: The snow covers the whole garden.
+tags: ⭐ common, ⛅ weather
+priority: yes
+//
+word: vent
+translation: wind
+type: noun
+group: ⛅ Weather & seasons
+grammar.Gender: m
+grammar.Plural: vents
+pronunciation: /vɑ̃/
+example.fr: Il y a beaucoup de vent ce soir.
+example.en: It is very windy this evening.
+tags: ⭐ common, ⛅ weather
+priority: yes
+//
+word: nuage
+translation: cloud
+type: noun
+group: ⛅ Weather & seasons
+grammar.Gender: m
+grammar.Plural: nuages
+pronunciation: /nɥaʒ/
+example.fr: Il y a quelques nuages dans le ciel.
+example.en: There are a few clouds in the sky.
+tags: ⭐ common, ⛅ weather
+priority: yes
+//
+word: brouillard
+translation: fog
+type: noun
+group: ⛅ Weather & seasons
+grammar.Gender: m
+grammar.Plural: brouillards
+pronunciation: /bʁu.jaʁ/
+example.fr: Il y a beaucoup de brouillard ce matin.
+example.en: There is a lot of fog this morning.
+tags: ⭐ common, ⛅ weather
+priority: yes
+//
+word: orage
+translation: storm
+type: noun
+group: ⛅ Weather & seasons
+grammar.Gender: m
+grammar.Plural: orages
+pronunciation: /ɔ.ʁaʒ/
+example.fr: Un gros orage arrive.
+example.en: A big storm is coming.
+tags: ⭐ common, ⛅ weather
+priority: yes
+//
+word: éclair
+translation: lightning
+type: noun
+group: ⛅ Weather & seasons
+grammar.Gender: m
+grammar.Plural: éclairs
+pronunciation: /e.klɛʁ/
+example.fr: J'ai vu un éclair dans le ciel.
+example.en: I saw lightning in the sky.
+tags: ⭐ common, ⛅ weather
+priority: yes
+//
+word: tonnerre
+translation: thunder
+type: noun
+group: ⛅ Weather & seasons
+grammar.Gender: m
+grammar.Plural: tonnerres
+pronunciation: /tɔ.nɛʁ/
+example.fr: Le bruit du tonnerre est impressionnant.
+example.en: The sound of thunder is impressive.
+tags: ⭐ common, ⛅ weather
+priority: yes
+//
+word: glace
+translation: ice
+type: noun
+group: ⛅ Weather & seasons
+grammar.Gender: f
+grammar.Plural: glaces
+pronunciation: /ɡlas/
+example.fr: Il y a de la glace sur le pare-brise.
+example.en: There is ice on the windshield.
+tags: ⭐ common, ⛅ weather
+priority: yes
+//
+word: grêle
+translation: hail
+type: noun
+group: ⛅ Weather & seasons
+grammar.Gender: f
+grammar.Plural: grêles
+pronunciation: /ɡʁɛl/
+example.fr: La grêle a endommagé la voiture.
+example.en: The hail damaged the car.
+tags: ⭐ common, ⛅ weather
+priority: yes
+//
+word: chaud
+translation: hot, warm
+type: adjective
+group: ⛅ Weather & seasons
+pronunciation: /ʃo/
+grammar.Feminine form: chaude
+grammar.Plural (masc.): chauds
+grammar.Plural (fem.): chaudes
+example.fr: Il fait très chaud dehors.
+example.en: It is very hot outside.
+tags: ⭐ common, ⛅ weather
+priority: yes
+//
+word: froid
+translation: cold
+type: adjective
+group: ⛅ Weather & seasons
+pronunciation: /fʁwa/
+grammar.Feminine form: froide
+grammar.Plural (masc.): froids
+grammar.Plural (fem.): froides
+example.fr: Il fait froid en hiver.
+example.en: It is cold in winter.
+tags: ⭐ common, ⛅ weather
+priority: yes
+//
+word: température
+translation: temperature
+type: noun
+group: ⛅ Weather & seasons
+grammar.Gender: f
+grammar.Plural: températures
+pronunciation: /tɑ̃.pe.ʁa.tyʁ/
+example.fr: La température va baisser ce soir.
+example.en: The temperature is going to drop this evening.
+tags: ⭐ common, ⛅ weather
+priority: yes
+//
+word: degré
+translation: degree
+type: noun
+group: ⛅ Weather & seasons
+grammar.Gender: m
+grammar.Plural: degrés
+pronunciation: /de.ɡʁe/
+example.fr: Il fait dix degrés dehors.
+example.en: It is ten degrees outside.
+tags: ⭐ common, ⛅ weather
+priority: yes
+//
+word: prévisions
+translation: forecast
+type: noun
+group: ⛅ Weather & seasons
+grammar.Gender: f
+grammar.Plural: prévisions
+note: Often used in the plural 'les prévisions météo'.
+pronunciation: /pʁe.vi.zjɔ̃/
+example.fr: Les prévisions annoncent de la pluie.
+example.en: The forecast predicts rain.
+tags: ⭐ common, ⛅ weather
+priority: yes
+//
+word: parapluie
+translation: umbrella
+type: noun
+group: ⛅ Weather & seasons
+grammar.Gender: m
+grammar.Plural: parapluies
+pronunciation: /pa.ʁa.plɥi/
+example.fr: N'oublie pas ton parapluie.
+example.en: Don't forget your umbrella.
+tags: ⭐ common, ⛅ weather
+priority: yes
+//
+word: ensoleillé
+translation: sunny
+type: adjective
+group: ⛅ Weather & seasons
+pronunciation: /ɑ̃.sɔ.lɛ.je/
+grammar.Feminine form: ensoleillée
+grammar.Plural (masc.): ensoleillés
+grammar.Plural (fem.): ensoleillées
+example.fr: Nous aurons une journée ensoleillée.
+example.en: We will have a sunny day.
+tags: ⭐ common, ⛅ weather
+priority: yes
+//
+word: pluvieux
+translation: rainy
+type: adjective
+group: ⛅ Weather & seasons
+pronunciation: /ply.vjø/
+grammar.Feminine form: pluvieuse
+grammar.Plural (masc.): pluvieux
+grammar.Plural (fem.): pluvieuses
+example.fr: C'est un mois très pluvieux.
+example.en: It is a very rainy month.
+tags: ⭐ common, ⛅ weather
+priority: yes
+//
+word: enneigé
+translation: snowy
+type: adjective
+group: ⛅ Weather & seasons
+pronunciation: /ɛ.nɛ.ʒe/
+grammar.Feminine form: enneigée
+grammar.Plural (masc.): enneigés
+grammar.Plural (fem.): enneigées
+example.fr: Le paysage est tout enneigé.
+example.en: The landscape is all snowy.
+tags: ⭐ common, ⛅ weather
+priority: yes
+//
+word: venteux
+translation: windy
+type: adjective
+group: ⛅ Weather & seasons
+pronunciation: /vɑ̃.tø/
+grammar.Feminine form: venteuse
+grammar.Plural (masc.): venteux
+grammar.Plural (fem.): venteuses
+example.fr: La promenade est très venteuse.
+example.en: The walk is very windy.
+tags: ⭐ common, ⛅ weather
+priority: yes
+//
+word: nuageux
+translation: cloudy
+type: adjective
+group: ⛅ Weather & seasons
+pronunciation: /nɥa.ʒø/
+grammar.Feminine form: nuageuse
+grammar.Plural (masc.): nuageux
+grammar.Plural (fem.): nuageuses
+example.fr: Le ciel est très nuageux.
+example.en: The sky is very cloudy.
+tags: ⭐ common, ⛅ weather
+priority: yes
+//
+word: glacial
+translation: freezing
+type: adjective
+group: ⛅ Weather & seasons
+pronunciation: /ɡla.sjal/
+grammar.Feminine form: glaciale
+grammar.Plural (masc.): glacials (or glaciaux)
+grammar.Plural (fem.): glaciales
+example.fr: Il fait un vent glacial dehors.
+example.en: There is a freezing wind outside.
+tags: ⭐ common, ⛅ weather
+priority: yes
+//
+word: humide
+translation: humid
+type: adjective
+group: ⛅ Weather & seasons
+pronunciation: /y.mid/
+grammar.Feminine form: humide
+grammar.Plural (masc.): humides
+grammar.Plural (fem.): humides
+example.fr: L'air est très humide aujourd'hui.
+example.en: The air is very humid today.
+tags: ⭐ common, ⛅ weather
+priority: yes

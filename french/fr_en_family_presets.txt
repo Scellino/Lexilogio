@@ -1,0 +1,349 @@
+word: mère
+translation: mother
+type: noun
+group: 👨‍👩‍👧 Family & relationships
+grammar.Gender: f
+grammar.Plural: mères
+pronunciation: /mɛʁ/
+example.fr: Ma mère est très gentille.
+example.en: My mother is very kind.
+tags: ⭐ common, 👨‍👩‍👧 family
+priority: yes
+//
+word: père
+translation: father
+type: noun
+group: 👨‍👩‍👧 Family & relationships
+grammar.Gender: m
+grammar.Plural: pères
+pronunciation: /pɛʁ/
+example.fr: Mon père travaille beaucoup.
+example.en: My father works a lot.
+tags: ⭐ common, 👨‍👩‍👧 family
+priority: yes
+//
+word: parents
+translation: parents
+type: noun
+group: 👨‍👩‍👧 Family & relationships
+grammar.Gender: m
+grammar.Plural: parents
+pronunciation: /pa.ʁɑ̃/
+example.fr: Je vais voir mes parents ce week-end.
+example.en: I am going to see my parents this weekend.
+tags: ⭐ common, 👨‍👩‍👧 family
+priority: yes
+//
+word: sœur
+translation: sister
+type: noun
+group: 👨‍👩‍👧 Family & relationships
+grammar.Gender: f
+grammar.Plural: sœurs
+pronunciation: /sœʁ/
+example.fr: J'ai une sœur cadette.
+example.en: I have a younger sister.
+tags: ⭐ common, 👨‍👩‍👧 family
+priority: yes
+//
+word: frère
+translation: brother
+type: noun
+group: 👨‍👩‍👧 Family & relationships
+grammar.Gender: m
+grammar.Plural: frères
+pronunciation: /fʁɛʁ/
+example.fr: Mon frère joue au football.
+example.en: My brother plays football.
+tags: ⭐ common, 👨‍👩‍👧 family
+priority: yes
+//
+word: fils
+translation: son
+type: noun
+group: 👨‍👩‍👧 Family & relationships
+grammar.Gender: m
+grammar.Plural: fils
+pronunciation: /fis/
+example.fr: Il est très fier de son fils.
+example.en: He is very proud of his son.
+tags: ⭐ common, 👨‍👩‍👧 family
+priority: yes
+//
+word: fille
+translation: daughter
+type: noun
+group: 👨‍👩‍👧 Family & relationships
+grammar.Gender: f
+grammar.Plural: filles
+pronunciation: /fij/
+example.fr: Ma fille a cinq ans.
+example.en: My daughter is five years old.
+tags: ⭐ common, 👨‍👩‍👧 family
+priority: yes
+//
+word: bébé
+translation: baby
+type: noun
+group: 👨‍👩‍👧 Family & relationships
+grammar.Gender: m
+grammar.Plural: bébés
+pronunciation: /be.be/
+example.fr: Le bébé dort dans son lit.
+example.en: The baby is sleeping in its bed.
+tags: ⭐ common, 👨‍👩‍👧 family
+priority: yes
+//
+word: enfant
+translation: child
+type: noun
+group: 👨‍👩‍👧 Family & relationships
+grammar.Gender: m
+grammar.Plural: enfants
+pronunciation: /ɑ̃.fɑ̃/
+example.fr: Ils ont trois enfants.
+example.en: They have three children.
+tags: ⭐ common, 👨‍👩‍👧 family
+priority: yes
+//
+word: grand-mère
+translation: grandmother
+type: noun
+group: 👨‍👩‍👧 Family & relationships
+grammar.Gender: f
+grammar.Plural: grands-mères
+pronunciation: /ɡʁɑ̃.mɛʁ/
+example.fr: Ma grand-mère me raconte des histoires.
+example.en: My grandmother tells me stories.
+tags: ⭐ common, 👨‍👩‍👧 family
+priority: yes
+//
+word: grand-père
+translation: grandfather
+type: noun
+group: 👨‍👩‍👧 Family & relationships
+grammar.Gender: m
+grammar.Plural: grands-pères
+pronunciation: /ɡʁɑ̃.pɛʁ/
+example.fr: Mon grand-père habite à la campagne.
+example.en: My grandfather lives in the countryside.
+tags: ⭐ common, 👨‍👩‍👧 family
+priority: yes
+//
+word: grands-parents
+translation: grandparents
+type: noun
+group: 👨‍👩‍👧 Family & relationships
+grammar.Gender: m
+grammar.Plural: grands-parents
+pronunciation: /ɡʁɑ̃.pa.ʁɑ̃/
+example.fr: Nous rendons visite à nos grands-parents.
+example.en: We are visiting our grandparents.
+tags: ⭐ common, 👨‍👩‍👧 family
+priority: yes
+//
+word: oncle
+translation: uncle
+type: noun
+group: 👨‍👩‍👧 Family & relationships
+grammar.Gender: m
+grammar.Plural: oncles
+pronunciation: /ɔ̃kl/
+example.fr: Mon oncle est très drôle.
+example.en: My uncle is very funny.
+tags: ⭐ common, 👨‍👩‍👧 family
+priority: yes
+//
+word: tante
+translation: aunt
+type: noun
+group: 👨‍👩‍👧 Family & relationships
+grammar.Gender: f
+grammar.Plural: tantes
+pronunciation: /tɑ̃t/
+example.fr: Ma tante habite à Paris.
+example.en: My aunt lives in Paris.
+tags: ⭐ common, 👨‍👩‍👧 family
+priority: yes
+//
+word: cousin
+translation: cousin
+type: noun
+group: 👨‍👩‍👧 Family & relationships
+grammar.Gender: m
+grammar.Plural: cousins
+pronunciation: /ku.zɛ̃/
+note: Use 'cousine' for a female cousin.
+example.fr: Mon cousin vient dîner ce soir.
+example.en: My cousin is coming for dinner tonight.
+tags: ⭐ common, 👨‍👩‍👧 family
+priority: yes
+//
+word: nièce
+translation: niece
+type: noun
+group: 👨‍👩‍👧 Family & relationships
+grammar.Gender: f
+grammar.Plural: nièces
+pronunciation: /njɛs/
+example.fr: J'adore jouer avec ma nièce.
+example.en: I love playing with my niece.
+tags: ⭐ common, 👨‍👩‍👧 family
+priority: yes
+//
+word: neveu
+translation: nephew
+type: noun
+group: 👨‍👩‍👧 Family & relationships
+grammar.Gender: m
+grammar.Plural: neveux
+pronunciation: /nə.vø/
+example.fr: Mon neveu commence l'école demain.
+example.en: My nephew starts school tomorrow.
+tags: ⭐ common, 👨‍👩‍👧 family
+priority: yes
+//
+word: mari
+translation: husband
+type: noun
+group: 👨‍👩‍👧 Family & relationships
+grammar.Gender: m
+grammar.Plural: maris
+pronunciation: /ma.ʁi/
+example.fr: Elle part en vacances avec son mari.
+example.en: She is going on vacation with her husband.
+tags: ⭐ common, 👨‍👩‍👧 family
+priority: yes
+//
+word: femme
+translation: wife, woman
+type: noun
+group: 👨‍👩‍👧 Family & relationships
+grammar.Gender: f
+grammar.Plural: femmes
+pronunciation: /fam/
+example.fr: Sa femme est médecin.
+example.en: His wife is a doctor.
+tags: ⭐ common, 👨‍👩‍👧 family
+priority: yes
+//
+word: partenaire
+translation: partner
+type: noun
+group: 👨‍👩‍👧 Family & relationships
+grammar.Gender: m
+grammar.Plural: partenaires
+pronunciation: /paʁ.tə.nɛʁ/
+example.fr: Il vit avec son partenaire depuis deux ans.
+example.en: He has lived with his partner for two years.
+tags: ⭐ common, 👨‍👩‍👧 family
+priority: yes
+//
+word: ami
+translation: friend
+type: noun
+group: 👨‍👩‍👧 Family & relationships
+grammar.Gender: m
+grammar.Plural: amis
+pronunciation: /a.mi/
+note: Use 'amie' for a female friend.
+example.fr: C'est un très bon ami.
+example.en: He is a very good friend.
+tags: ⭐ common, 🗣️ social
+priority: yes
+//
+word: collègue
+translation: colleague
+type: noun
+group: 👨‍👩‍👧 Family & relationships
+grammar.Gender: m
+grammar.Plural: collègues
+pronunciation: /kɔ.lɛɡ/
+example.fr: J'ai parlé avec mon collègue de ce projet.
+example.en: I talked with my colleague about this project.
+tags: ⭐ common, 💼 work
+priority: yes
+//
+word: voisin
+translation: neighbor
+type: noun
+group: 👨‍👩‍👧 Family & relationships
+grammar.Gender: m
+grammar.Plural: voisins
+pronunciation: /vwa.zɛ̃/
+note: Use 'voisine' for a female neighbor.
+example.fr: Mon voisin est très gentil.
+example.en: My neighbor is very kind.
+tags: ⭐ common, 🏠 home
+priority: yes
+//
+word: petit ami
+translation: boyfriend
+type: phrase
+group: 👨‍👩‍👧 Family & relationships
+pronunciation: /pə.ti ta.mi/
+example.fr: Elle sort avec son petit ami.
+example.en: She is going out with her boyfriend.
+tags: ⭐ common, 🗣️ social
+priority: yes
+//
+word: petite amie
+translation: girlfriend
+type: phrase
+group: 👨‍👩‍👧 Family & relationships
+pronunciation: /pə.tit a.mi/
+example.fr: Il va au cinéma avec sa petite amie.
+example.en: He is going to the cinema with his girlfriend.
+tags: ⭐ common, 🗣️ social
+priority: yes
+//
+word: marié
+translation: married
+type: adjective
+group: 👨‍👩‍👧 Family & relationships
+pronunciation: /ma.ʁje/
+grammar.Feminine form: mariée
+grammar.Plural (masc.): mariés
+grammar.Plural (fem.): mariées
+example.fr: Ils sont mariés depuis dix ans.
+example.en: They have been married for ten years.
+tags: ⭐ common, 👨‍👩‍👧 family
+priority: yes
+//
+word: divorcé
+translation: divorced
+type: adjective
+group: 👨‍👩‍👧 Family & relationships
+pronunciation: /di.vɔʁ.se/
+grammar.Feminine form: divorcée
+grammar.Plural (masc.): divorcés
+grammar.Plural (fem.): divorcées
+example.fr: Il est divorcé depuis l'année dernière.
+example.en: He has been divorced since last year.
+tags: ⭐ common, 👨‍👩‍👧 family
+priority: yes
+//
+word: célibataire
+translation: single
+type: adjective
+group: 👨‍👩‍👧 Family & relationships
+pronunciation: /se.li.ba.tɛʁ/
+grammar.Feminine form: célibataire
+grammar.Plural (masc.): célibataires
+grammar.Plural (fem.): célibataires
+example.fr: Il est encore célibataire.
+example.en: He is still single.
+tags: ⭐ common, 🗣️ social
+priority: yes
+//
+word: famille
+translation: family
+type: noun
+group: 👨‍👩‍👧 Family & relationships
+grammar.Gender: f
+grammar.Plural: familles
+pronunciation: /fa.mij/
+example.fr: La famille est réunie pour Noël.
+example.en: The family is gathered for Christmas.
+tags: ⭐ common, 👨‍👩‍👧 family
+priority: yes

@@ -1,0 +1,373 @@
+word: ρε
+translation: hey, dude, man
+type: noun
+group: 🤪 Slang
+pronunciation: /ɾe/
+example.el: Έλα ρε, πώς πάει;
+example.en: Hey man, how's it going?
+etymology: Shortening of "βρε" (vre), derived from "μωρέ" (more).
+note: Highly versatile particle used to add emphasis, show affection, or express irritation.
+tags: 🗣️ colloquial, 😠 emphatic
+priority: yes
+//
+word: μάγκας
+translation: cool guy, street-smart, badass
+type: noun
+group: 🤪 Slang
+pronunciation: /ˈmaŋɡas/
+grammar.Gender: m
+grammar.Plural: οι μάγκες
+example.el: Αυτός ο τύπος είναι μάγκας!
+example.en: That guy is a legend!
+note: Originally referred to underworld figures, now used as a compliment for someone confident and capable.
+tags: 🕵️‍♂️ everyday life, 🗣️ colloquial
+priority: yes
+//
+word: αράζω
+translation: to chill, to hang out, to lounge
+type: Ρήμα
+group: 🤪 Slang
+pronunciation: /aˈɾazo/
+grammar.Present (all persons): αράζω / αράζεις / αράζει / αράζουμε / αράζετε / αράζουν
+grammar.Simple past: άραξα
+example.el: Θα αράξουμε στο σπίτι απόψε.
+example.en: We're going to chill at home tonight.
+note: Very common for casual plans with friends.
+tags: 🗓️ everyday life, 🗣️ colloquial
+priority: yes
+//
+word: γαμάτος
+translation: awesome, cool, amazing
+type: Επίθετο
+group: 🤪 Slang
+pronunciation: /ɣaˈmatos/
+grammar.Masculine: γαμάτος
+grammar.Feminine: γαμάτη
+grammar.Neuter: γαμάτο
+example.el: Η ταινία ήταν γαμάτη!
+example.en: The movie was awesome!
+note: Derived from a vulgar root, but widely used in casual speech as an intensifier for "great."
+tags: 🗣️ colloquial, 😠 emphatic
+priority: yes
+//
+word: τέλεια
+translation: perfect, great, awesome
+type: Επιρρήματα
+group: 🤪 Slang
+pronunciation: /ˈtɛlca/
+example.el: -Πάμε για φαγητό; -Τέλεια!
+example.en: -Shall we go for food? -Perfect!
+note: Used as a stand-alone exclamation for agreement or approval.
+tags: 🗣️ colloquial, 🗓️ everyday life
+priority: yes
+//
+word: χαλαρά
+translation: chill, relaxed, easy-going
+type: Επιρρήματα
+group: 🤪 Slang
+pronunciation: /xaˈlaɾa/
+example.el: Όλα θα γίνουν χαλαρά.
+example.en: Everything will be done easily/no stress.
+note: Epitomizes the laid-back Greek attitude towards stress.
+tags: 🗣️ colloquial, 🗓️ everyday life
+priority: yes
+//
+word: τρελός
+translation: amazing, wild, crazy
+type: Επίθετο
+group: 🤪 Slang
+pronunciation: /tɾeˈlos/
+grammar.Masculine: τρελός
+grammar.Feminine: τρελή
+grammar.Neuter: τρελό
+example.el: Ήταν ένα τρελό πάρτι!
+example.en: It was a crazy (awesome) party!
+note: Often used positively to describe something intense or impressive.
+tags: 🗣️ colloquial, 😠 emphatic
+priority: yes
+//
+word: φιλαράκι
+translation: buddy, pal
+type: noun
+group: 🤪 Slang
+pronunciation: /fiˈlaɾaci/
+grammar.Gender: n
+grammar.Plural: τα φιλαράκια
+example.el: Τι γίνεται, φιλαράκι;
+example.en: What's up, buddy?
+note: A warm, informal way to address someone, derived from "φίλος" (friend).
+tags: 🗣️ colloquial, 🗓️ everyday life
+priority: yes
+//
+word: σκατά
+translation: crap, shit, damn
+type: noun
+group: 🤪 Slang
+pronunciation: /skaˈta/
+grammar.Gender: n
+grammar.Plural: τα σκατά
+example.el: Σκατά, ξέχασα τα κλειδιά μου.
+example.en: Damn, I forgot my keys.
+note: Used to express frustration. Mildly vulgar but very common in daily life.
+tags: 🗣️ colloquial, 😠 emphatic
+priority: yes
+//
+word: πάμε
+translation: let's go
+type: Ρήμα
+group: 🤪 Slang
+pronunciation: /ˈpame/
+grammar.Present (all persons): πάμε (1st pl. only)
+example.el: Πάμε για καφέ;
+example.en: Shall we go for coffee?
+note: Used constantly to initiate an activity.
+tags: 🗓️ everyday life, 🗣️ colloquial
+priority: yes
+//
+word: φάση
+translation: phase, vibe, situation
+type: noun
+group: 🤪 Slang
+pronunciation: /ˈfasi/
+grammar.Gender: f
+grammar.Plural: οι φάσεις
+example.el: Δεν καταλαβαίνω τη φάση.
+example.en: I don't understand what's going on / the vibe.
+note: Refers to a situation or a "vibe" of a place or event.
+tags: 🗣️ colloquial, 🗓️ everyday life
+priority: yes
+//
+word: τζάμι
+translation: perfect, great, cool
+type: Επίθετο
+group: 🤪 Slang
+pronunciation: /ˈd͡zami/
+example.el: Όλα είναι τζάμι!
+example.en: Everything is perfect!
+note: Literally "glass," but used to mean something is clean, smooth, or perfect.
+tags: 🗣️ colloquial, 📖 literary
+priority: yes
+//
+word: χύμα
+translation: disorganized, messy, loose
+type: Επίθετο
+group: 🤪 Slang
+pronunciation: /ˈxima/
+example.el: Είναι λίγο χύμα τύπος.
+example.en: He's a bit of a disorganized person.
+note: Often implies someone who is unpretentious or casual to a fault.
+tags: 🗣️ colloquial
+priority: yes
+//
+word: παίζει
+translation: it is possible, it happens, it's on
+type: Ρήμα
+group: 🤪 Slang
+pronunciation: /ˈpɛizi/
+grammar.Present (all persons): παίζει (3rd sing. only)
+example.el: Παίζει να έρθω αργότερα.
+example.en: It's possible that I'll come later.
+note: Derived from "to play," used to express possibility or availability.
+tags: 🗣️ colloquial, 🗓️ everyday life
+priority: yes
+//
+word: κουλ
+translation: cool
+type: Επίθετο
+group: 🤪 Slang
+pronunciation: /kul/
+example.el: Μην αγχώνεσαι, όλα κουλ.
+example.en: Don't stress, everything is cool.
+note: Loanword from English, common among younger generations.
+tags: 🗣️ colloquial, loanword:english
+priority: yes
+//
+word: δουλειά
+translation: work, job
+type: noun
+group: 🤪 Slang
+pronunciation: /ðuˈʎa/
+grammar.Gender: f
+grammar.Plural: οι δουλειές
+note: In slang, often used to refer to a "scheme" or a "situation" ("Τι δουλειά είναι αυτή;").
+tags: 🗣️ colloquial, 💼 work
+priority: yes
+//
+word: φάγαμε
+translation: we got/experienced (slang usage)
+type: Ρήμα
+group: 🤪 Slang
+pronunciation: /ˈfaɣame/
+grammar.Present (all persons): τρώμε / τρως / τρώει / τρώμε / τρώτε / τρώνε
+grammar.Simple past: έφαγα / έφαγες / έφαγε / φάγαμε / φάγατε / έφαγαν
+example.el: Φάγαμε ήττα σήμερα.
+example.en: We got beaten/lost today.
+note: Used figuratively for "receiving" something unpleasant (e.g., waiting, bad news).
+tags: 🗣️ colloquial, ⚔️ figurative
+priority: yes
+//
+word: ψαρώνω
+translation: to be intimidated, to be tricked
+type: Ρήμα
+group: 🤪 Slang
+pronunciation: /psaˈrono/
+grammar.Present (all persons): ψαρώνω / ψαρώνεις / ψαρώνει / ψαρώνουμε / ψαρώνετε / ψαρώνουν
+grammar.Simple past: ψάρωσα
+example.el: Μην ψαρώνεις, δεν είναι τίποτα.
+example.en: Don't be intimidated, it's nothing.
+note: Used when someone is easily scared or fooled.
+tags: 🗣️ colloquial, 🧠 body
+priority: yes
+//
+word: κομμάτια
+translation: exhausted, wasted
+type: noun
+group: 🤪 Slang
+pronunciation: /koˈmatça/
+grammar.Gender: n
+grammar.Plural: τα κομμάτια (singular not used in this sense)
+example.el: Είμαι κομμάτια από τη δουλειά.
+example.en: I am exhausted/in pieces from work.
+note: Literally "pieces," used to describe total exhaustion or being very drunk.
+tags: 🗣️ colloquial, 🧠 body
+priority: yes
+//
+word: καψούρα
+translation: deep longing, infatuation
+type: noun
+group: 🤪 Slang
+pronunciation: /kapˈsura/
+grammar.Gender: f
+grammar.Plural: οι καψούρες
+example.el: Έχει μεγάλη καψούρα για εκείνη.
+example.en: He is deeply infatuated with her.
+note: Used for intense, often painful, romantic feelings.
+tags: 🗣️ colloquial, emotion
+priority: yes
+//
+word: σπάω
+translation: to annoy, to break
+type: Ρήμα
+group: 🤪 Slang
+pronunciation: /ˈspao/
+grammar.Present (all persons): σπάω / σπάς / σπάει / σπάμε / σπάτε / σπάνε
+grammar.Simple past: έσπασα
+example.el: Μου σπάς τα νεύρα!
+example.en: You are getting on my nerves!
+note: Used in the idiom "σπάω τα νεύρα" (to break/annoy the nerves).
+tags: 🗣️ colloquial, emotion
+priority: yes
+//
+word: γάτα
+translation: clever person, "cat"
+type: noun
+group: 🤪 Slang
+pronunciation: /ˈɣata/
+grammar.Gender: f
+grammar.Plural: οι γάτες
+example.el: Είναι γάτα αυτός!
+example.en: He is a sharp/clever one!
+note: Used to describe someone cunning or very smart.
+tags: 🗣️ colloquial, character
+priority: yes
+//
+word: σιγά
+translation: yeah right, as if
+type: Επιρρήματα
+group: 🤪 Slang
+pronunciation: /siˈɣa/
+example.el: Σιγά μην έρθει.
+example.en: Yeah right, as if he's coming.
+note: Expresses strong doubt or sarcasm.
+tags: 🗣️ colloquial, 😠 emphatic
+priority: yes
+//
+word: κολλάω
+translation: to be obsessed with, to get stuck
+type: Ρήμα
+group: 🤪 Slang
+pronunciation: /koˈlao/
+grammar.Present (all persons): κολλάω / κολλάς / κολλάει / κολλάμε / κολλάτε / κολλάνε
+grammar.Simple past: κόλλησα
+example.el: Έχω κολλήσει με αυτό το τραγούδι.
+example.en: I'm obsessed with this song.
+note: Means literally "to stick," but used for obsessions or being stuck in a situation.
+tags: 🗣️ colloquial, 🧠 body
+priority: yes
+//
+word: πακέτο
+translation: a tough situation, a "drag"
+type: noun
+group: 🤪 Slang
+pronunciation: /paˈceto/
+grammar.Gender: n
+grammar.Plural: τα πακέτα
+example.el: Τι πακέτο είναι αυτό!
+example.en: What a drag/difficult situation this is!
+note: Refers to an unpleasant task or reality one has to deal with.
+tags: 🗣️ colloquial, 😠 emphatic
+priority: yes
+//
+word: σκάλωμα
+translation: overthinking, getting stuck on an idea
+type: noun
+group: 🤪 Slang
+pronunciation: /ˈskaloma/
+grammar.Gender: n
+grammar.Plural: τα σκαλώματα
+example.el: Μην τρως σκάλωμα με αυτό.
+example.en: Don't get hung up on that.
+note: Derived from "σκαλώνω" (to snag/hang up).
+tags: 🗣️ colloquial, 🧠 body
+priority: yes
+//
+word: φτιαγμένος
+translation: high, buzzed, fixed
+type: Επίθετο
+group: 🤪 Slang
+pronunciation: /ftçaɣˈmenos/
+grammar.Masculine: φτιαγμένος
+grammar.Feminine: φτιαγμένη
+grammar.Neuter: φτιαγμένο
+example.el: Είναι φτιαγμένος από το ποτό.
+example.en: He is buzzed from the drink.
+note: Often used for someone under the influence or feeling "good."
+tags: 🗣️ colloquial, 🧠 body
+priority: yes
+//
+word: ψάχνω
+translation: to look for, to seek trouble
+type: Ρήμα
+group: 🤪 Slang
+pronunciation: /ˈpsaxno/
+grammar.Present (all persons): ψάχνω / ψάχνεις / ψάχνει / ψάχνουμε / ψάχνετε / ψάχνουν
+grammar.Simple past: έψαξα
+example.el: Ψάχνεσαι;
+example.en: Are you looking for trouble?
+note: Used colloquially as "Ψάχνεσαι;" to ask if someone is looking for a fight.
+tags: 🗣️ colloquial, ⚔️ figurative
+priority: yes
+//
+word: τσίτα
+translation: tense, on edge
+type: Επιρρήματα
+group: 🤪 Slang
+pronunciation: /ˈt͡sita/
+example.el: Είμαι στην τσίτα όλη μέρα.
+example.en: I've been on edge all day.
+note: Used to describe being alert, tense, or stressed.
+tags: 🗣️ colloquial, 🧠 body
+priority: yes
+//
+word: άκυρο
+translation: cancelled, invalid, "never mind"
+type: noun
+group: 🤪 Slang
+pronunciation: /ˈaciro/
+grammar.Gender: n
+grammar.Plural: τα άκυρα
+example.el: Άκυρο, δεν θα πάω.
+example.en: Never mind, I'm not going.
+note: Used to cancel plans or dismiss a topic.
+tags: 🗣️ colloquial, 🗓️ everyday life
+priority: yes

@@ -1,0 +1,355 @@
+word: heureux
+translation: happy
+type: adjective
+group: 😊 Emotions
+pronunciation: /ø.ʁø/
+grammar.Feminine form: heureuse
+grammar.Plural (masc.): heureux
+grammar.Plural (fem.): heureuses
+example.fr: Je suis très heureux de te voir.
+example.en: I am very happy to see you.
+tags: ⭐ common, 💭 emotions
+priority: yes
+//
+word: triste
+translation: sad
+type: adjective
+group: 😊 Emotions
+pronunciation: /tʁist/
+grammar.Feminine form: triste
+grammar.Plural (masc.): tristes
+grammar.Plural (fem.): tristes
+example.fr: Il a l'air un peu triste aujourd'hui.
+example.en: He looks a bit sad today.
+tags: ⭐ common, 💭 emotions
+priority: yes
+//
+word: en colère
+translation: angry
+type: phrase
+group: 😊 Emotions
+pronunciation: /ɑ̃ kɔ.lɛʁ/
+example.fr: Ne sois pas en colère contre moi.
+example.en: Don't be angry with me.
+tags: ⭐ common, 💭 emotions
+priority: yes
+//
+word: effrayé
+translation: afraid
+type: adjective
+group: 😊 Emotions
+pronunciation: /e.fʁe.je/
+grammar.Feminine form: effrayée
+grammar.Plural (masc.): effrayés
+grammar.Plural (fem.): effrayées
+example.fr: L'enfant est effrayé par l'orage.
+example.en: The child is afraid of the storm.
+tags: ⭐ common, 💭 emotions
+priority: yes
+//
+word: surpris
+translation: surprised
+type: adjective
+group: 😊 Emotions
+pronunciation: /syʁ.pʁi/
+grammar.Feminine form: surprise
+grammar.Plural (masc.): surpris
+grammar.Plural (fem.): surprises
+example.fr: Je suis vraiment surpris par cette nouvelle.
+example.en: I am really surprised by this news.
+tags: ⭐ common, 💭 emotions
+priority: yes
+//
+word: nerveux
+translation: nervous
+type: adjective
+group: 😊 Emotions
+pronunciation: /nɛʁ.vø/
+grammar.Feminine form: nerveuse
+grammar.Plural (masc.): nerveux
+grammar.Plural (fem.): nerveuses
+example.fr: Il est nerveux avant son examen.
+example.en: He is nervous before his exam.
+tags: ⭐ common, 💭 emotions
+priority: yes
+//
+word: excité
+translation: excited
+type: adjective
+group: 😊 Emotions
+pronunciation: /ɛk.si.te/
+grammar.Feminine form: excitée
+grammar.Plural (masc.): excités
+grammar.Plural (fem.): excitées
+example.fr: Les enfants sont excités par le voyage.
+example.en: The children are excited about the trip.
+tags: ⭐ common, 💭 emotions
+priority: yes
+//
+word: fatigué
+translation: tired
+type: adjective
+group: 😊 Emotions
+pronunciation: /fa.ti.ɡe/
+grammar.Feminine form: fatiguée
+grammar.Plural (masc.): fatigués
+grammar.Plural (fem.): fatiguées
+example.fr: Je suis très fatigué après cette journée.
+example.en: I am very tired after this day.
+tags: ⭐ common, 💭 emotions
+priority: yes
+//
+word: ennuyé
+translation: bored
+type: adjective
+group: 😊 Emotions
+pronunciation: /ɑ̃.nɥi.je/
+grammar.Feminine form: ennuyée
+grammar.Plural (masc.): ennuyés
+grammar.Plural (fem.): ennuyées
+example.fr: Il s'ennuie pendant la réunion.
+example.en: He is bored during the meeting.
+tags: ⭐ common, 💭 emotions
+priority: yes
+//
+word: confus
+translation: confused
+type: adjective
+group: 😊 Emotions
+pronunciation: /kɔ̃.fy/
+grammar.Feminine form: confuse
+grammar.Plural (masc.): confus
+grammar.Plural (fem.): confuses
+example.fr: Je suis un peu confus par ces instructions.
+example.en: I am a bit confused by these instructions.
+tags: ⭐ common, 💭 emotions
+priority: yes
+//
+word: fier
+translation: proud
+type: adjective
+group: 😊 Emotions
+pronunciation: /fjɛʁ/
+grammar.Feminine form: fière
+grammar.Plural (masc.): fiers
+grammar.Plural (fem.): fières
+example.fr: Ses parents sont très fiers de lui.
+example.en: His parents are very proud of him.
+tags: ⭐ common, 💭 emotions
+priority: yes
+//
+word: honteux
+translation: ashamed
+type: adjective
+group: 😊 Emotions
+pronunciation: /ɔ̃.tø/
+grammar.Feminine form: honteuse
+grammar.Plural (masc.): honteux
+grammar.Plural (fem.): honteuses
+example.fr: Il se sent honteux de son comportement.
+example.en: He feels ashamed of his behavior.
+tags: ⭐ common, 💭 emotions
+priority: yes
+//
+word: jaloux
+translation: jealous
+type: adjective
+group: 😊 Emotions
+pronunciation: /ʒa.lu/
+grammar.Feminine form: jalouse
+grammar.Plural (masc.): jaloux
+grammar.Plural (fem.): jalouses
+example.fr: Ne sois pas jaloux de sa réussite.
+example.en: Don't be jealous of his success.
+tags: ⭐ common, 💭 emotions
+priority: yes
+//
+word: seul
+translation: lonely
+type: adjective
+group: 😊 Emotions
+pronunciation: /sœl/
+grammar.Feminine form: seule
+grammar.Plural (masc.): seuls
+grammar.Plural (fem.): seules
+example.fr: Il se sent souvent seul le soir.
+example.en: He often feels lonely in the evening.
+tags: ⭐ common, 💭 emotions
+priority: yes
+//
+word: calme
+translation: calm
+type: adjective
+group: 😊 Emotions
+pronunciation: /kalm/
+grammar.Feminine form: calme
+grammar.Plural (masc.): calmes
+grammar.Plural (fem.): calmes
+example.fr: Reste calme, tout va bien se passer.
+example.en: Stay calm, everything will be fine.
+tags: ⭐ common, 💭 emotions
+priority: yes
+//
+word: stressé
+translation: stressed
+type: adjective
+group: 😊 Emotions
+pronunciation: /stʁɛ.se/
+grammar.Feminine form: stressée
+grammar.Plural (masc.): stressés
+grammar.Plural (fem.): stressées
+example.fr: Elle est très stressée par son travail.
+example.en: She is very stressed by her work.
+tags: ⭐ common, 💭 emotions
+priority: yes
+//
+word: détendu
+translation: relaxed
+type: adjective
+group: 😊 Emotions
+pronunciation: /de.tɑ̃.dy/
+grammar.Feminine form: détendue
+grammar.Plural (masc.): détendus
+grammar.Plural (fem.): détendues
+example.fr: Je me sens vraiment détendu ici.
+example.en: I feel really relaxed here.
+tags: ⭐ common, 💭 emotions
+priority: yes
+//
+word: curieux
+translation: curious
+type: adjective
+group: 😊 Emotions
+pronunciation: /ky.ʁjø/
+grammar.Feminine form: curieuse
+grammar.Plural (masc.): curieux
+grammar.Plural (fem.): curieuses
+example.fr: Je suis curieux de connaître la réponse.
+example.en: I am curious to know the answer.
+tags: ⭐ common, 💭 emotions
+priority: yes
+//
+word: optimiste
+translation: hopeful
+type: adjective
+group: 😊 Emotions
+pronunciation: /ɔp.ti.mist/
+grammar.Feminine form: optimiste
+grammar.Plural (masc.): optimistes
+grammar.Plural (fem.): optimistes
+example.fr: Je suis optimiste pour l'avenir.
+example.en: I am hopeful for the future.
+tags: ⭐ common, 💭 emotions
+priority: yes
+//
+word: déçu
+translation: disappointed
+type: adjective
+group: 😊 Emotions
+pronunciation: /de.sy/
+grammar.Feminine form: déçue
+grammar.Plural (masc.): déçus
+grammar.Plural (fem.): déçues
+example.fr: Il a été très déçu par le film.
+example.en: He was very disappointed by the film.
+tags: ⭐ common, 💭 emotions
+priority: yes
+//
+word: reconnaissant
+translation: grateful
+type: adjective
+group: 😊 Emotions
+pronunciation: /ʁə.kɔ.nɛ.sɑ̃/
+grammar.Feminine form: reconnaissante
+grammar.Plural (masc.): reconnaissants
+grammar.Plural (fem.): reconnaissantes
+example.fr: Je suis très reconnaissant pour ton aide.
+example.en: I am very grateful for your help.
+tags: ⭐ common, 💭 emotions
+priority: yes
+//
+word: content
+translation: content, satisfied
+type: adjective
+group: 😊 Emotions
+pronunciation: /kɔ̃.tɑ̃/
+grammar.Feminine form: contente
+grammar.Plural (masc.): contents
+grammar.Plural (fem.): contentes
+example.fr: Je suis content de mon choix.
+example.en: I am content with my choice.
+tags: ⭐ common, 💭 emotions
+priority: yes
+//
+word: amour
+translation: love
+type: noun
+group: 😊 Emotions
+grammar.Gender: m
+grammar.Plural: amours
+pronunciation: /a.muʁ/
+example.fr: L'amour est un sentiment merveilleux.
+example.en: Love is a wonderful feeling.
+tags: ⭐ common, 💭 emotions
+priority: yes
+//
+word: haine
+translation: hate
+type: noun
+group: 😊 Emotions
+grammar.Gender: f
+grammar.Plural: haines
+pronunciation: /ɛn/
+example.fr: Il n'y a pas de haine dans son cœur.
+example.en: There is no hate in his heart.
+tags: ⭐ common, 💭 emotions
+priority: yes
+//
+word: peur
+translation: fear
+type: noun
+group: 😊 Emotions
+grammar.Gender: f
+grammar.Plural: peurs
+pronunciation: /pœʁ/
+example.fr: Il a vaincu sa peur de l'avion.
+example.en: He conquered his fear of flying.
+tags: ⭐ common, 💭 emotions
+priority: yes
+//
+word: joie
+translation: joy
+type: noun
+group: 😊 Emotions
+grammar.Gender: f
+grammar.Plural: joies
+pronunciation: /ʒwa/
+example.fr: Elle a crié de joie.
+example.en: She shouted with joy.
+tags: ⭐ common, 💭 emotions
+priority: yes
+//
+word: sentir
+translation: to feel
+type: verb
+group: 😊 Emotions
+grammar.Verb group: 3e
+grammar.Auxiliary: avoir
+grammar.Past participle: senti
+grammar.Présent (all 6 forms): sens / sens / sent / sentons / sentez / sentent
+example.fr: Je me sens très bien aujourd'hui.
+example.en: I feel very good today.
+tags: ⭐ common, 💭 emotions
+priority: yes
+//
+word: humeur
+translation: mood
+type: noun
+group: 😊 Emotions
+grammar.Gender: f
+grammar.Plural: humeurs
+pronunciation: /y.mœʁ/
+example.fr: Il est de bonne humeur ce matin.
+example.en: He is in a good mood this morning.
+tags: ⭐ common, 💭 emotions
+priority: yes

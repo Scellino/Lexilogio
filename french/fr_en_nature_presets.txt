@@ -1,0 +1,467 @@
+word: chien
+translation: dog
+type: noun
+group: 🌿 Nature & animals
+grammar.Gender: m
+grammar.Plural: chiens
+pronunciation: /ʃjɛ̃/
+example.fr: Mon chien est très amical.
+example.en: My dog is very friendly.
+tags: ⭐ common, 🌿 nature
+priority: yes
+//
+word: chat
+translation: cat
+type: noun
+group: 🌿 Nature & animals
+grammar.Gender: m
+grammar.Plural: chats
+pronunciation: /ʃa/
+example.fr: Le chat dort sur le canapé.
+example.en: The cat is sleeping on the sofa.
+tags: ⭐ common, 🌿 nature
+priority: yes
+//
+word: cheval
+translation: horse
+type: noun
+group: 🌿 Nature & animals
+grammar.Gender: m
+grammar.Plural: chevaux
+pronunciation: /ʃə.val/
+example.fr: J'aime monter à cheval.
+example.en: I like to ride a horse.
+tags: ⭐ common, 🌿 nature
+priority: yes
+//
+word: vache
+translation: cow
+type: noun
+group: 🌿 Nature & animals
+grammar.Gender: f
+grammar.Plural: vaches
+pronunciation: /vaʃ/
+example.fr: La vache est dans le pré.
+example.en: The cow is in the meadow.
+tags: ⭐ common, 🌿 nature
+priority: yes
+//
+word: cochon
+translation: pig
+type: noun
+group: 🌿 Nature & animals
+grammar.Gender: m
+grammar.Plural: cochons
+pronunciation: /kɔ.ʃɔ̃/
+example.fr: Le cochon aime jouer dans la boue.
+example.en: The pig likes to play in the mud.
+tags: ⭐ common, 🌿 nature
+priority: yes
+//
+word: mouton
+translation: sheep
+type: noun
+group: 🌿 Nature & animals
+grammar.Gender: m
+grammar.Plural: moutons
+pronunciation: /mu.tɔ̃/
+example.fr: Il y a beaucoup de moutons à la ferme.
+example.en: There are many sheep at the farm.
+tags: ⭐ common, 🌿 nature
+priority: yes
+//
+word: oiseau
+translation: bird
+type: noun
+group: 🌿 Nature & animals
+grammar.Gender: m
+grammar.Plural: oiseaux
+pronunciation: /wa.zo/
+example.fr: J'entends le chant de l'oiseau.
+example.en: I hear the bird's song.
+tags: ⭐ common, 🌿 nature
+priority: yes
+//
+word: aigle
+translation: eagle
+type: noun
+group: 🌿 Nature & animals
+grammar.Gender: m
+grammar.Plural: aigles
+pronunciation: /ɛɡl/
+example.fr: L'aigle vole très haut.
+example.en: The eagle flies very high.
+tags: ⭐ common, 🌿 nature
+priority: yes
+//
+word: serpent
+translation: snake
+type: noun
+group: 🌿 Nature & animals
+grammar.Gender: m
+grammar.Plural: serpents
+pronunciation: /sɛʁ.pɑ̃/
+example.fr: J'ai peur du serpent.
+example.en: I am afraid of the snake.
+tags: ⭐ common, 🌿 nature
+priority: yes
+//
+word: lion
+translation: lion
+type: noun
+group: 🌿 Nature & animals
+grammar.Gender: m
+grammar.Plural: lions
+pronunciation: /ljɔ̃/
+example.fr: Le lion est le roi de la jungle.
+example.en: The lion is the king of the jungle.
+tags: ⭐ common, 🌿 nature
+priority: yes
+//
+word: tigre
+translation: tiger
+type: noun
+group: 🌿 Nature & animals
+grammar.Gender: m
+grammar.Plural: tigres
+pronunciation: /tiɡʁ/
+example.fr: Le tigre a des rayures orange et noires.
+example.en: The tiger has orange and black stripes.
+tags: ⭐ common, 🌿 nature
+priority: yes
+//
+word: éléphant
+translation: elephant
+type: noun
+group: 🌿 Nature & animals
+grammar.Gender: m
+grammar.Plural: éléphants
+pronunciation: /e.le.fɑ̃/
+example.fr: L'éléphant est un animal très imposant.
+example.en: The elephant is a very imposing animal.
+tags: ⭐ common, 🌿 nature
+priority: yes
+//
+word: ours
+translation: bear
+type: noun
+group: 🌿 Nature & animals
+grammar.Gender: m
+grammar.Plural: ours
+pronunciation: /uʁs/
+example.fr: Il y a des ours dans cette forêt.
+example.en: There are bears in this forest.
+tags: ⭐ common, 🌿 nature
+priority: yes
+//
+word: loup
+translation: wolf
+type: noun
+group: 🌿 Nature & animals
+grammar.Gender: m
+grammar.Plural: loups
+pronunciation: /lu/
+example.fr: Le loup hurle à la lune.
+example.en: The wolf howls at the moon.
+tags: ⭐ common, 🌿 nature
+priority: yes
+//
+word: lapin
+translation: rabbit
+type: noun
+group: 🌿 Nature & animals
+grammar.Gender: m
+grammar.Plural: lapins
+pronunciation: /la.pɛ̃/
+example.fr: Le lapin court vite.
+example.en: The rabbit runs fast.
+tags: ⭐ common, 🌿 nature
+priority: yes
+//
+word: souris
+translation: mouse
+type: noun
+group: 🌿 Nature & animals
+grammar.Gender: f
+grammar.Plural: souris
+pronunciation: /su.ʁi/
+example.fr: La souris mange un morceau de fromage.
+example.en: The mouse is eating a piece of cheese.
+tags: ⭐ common, 🌿 nature
+priority: yes
+//
+word: abeille
+translation: bee
+type: noun
+group: 🌿 Nature & animals
+grammar.Gender: f
+grammar.Plural: abeilles
+pronunciation: /a.bɛj/
+example.fr: L'abeille produit du miel.
+example.en: The bee produces honey.
+tags: ⭐ common, 🌿 nature
+priority: yes
+//
+word: papillon
+translation: butterfly
+type: noun
+group: 🌿 Nature & animals
+grammar.Gender: m
+grammar.Plural: papillons
+pronunciation: /pa.pi.jɔ̃/
+example.fr: Le papillon est très coloré.
+example.en: The butterfly is very colorful.
+tags: ⭐ common, 🌿 nature
+priority: yes
+//
+word: arbre
+translation: tree
+type: noun
+group: 🌿 Nature & animals
+grammar.Gender: m
+grammar.Plural: arbres
+pronunciation: /aʁbʁ/
+example.fr: Cet arbre est très vieux.
+example.en: This tree is very old.
+tags: ⭐ common, 🌿 nature
+priority: yes
+//
+word: fleur
+translation: flower
+type: noun
+group: 🌿 Nature & animals
+grammar.Gender: f
+grammar.Plural: fleurs
+pronunciation: /flœʁ/
+example.fr: Elle a cueilli une belle fleur.
+example.en: She picked a beautiful flower.
+tags: ⭐ common, 🌿 nature
+priority: yes
+//
+word: herbe
+translation: grass
+type: noun
+group: 🌿 Nature & animals
+grammar.Gender: f
+grammar.Plural: herbes
+pronunciation: /ɛʁb/
+example.fr: L'herbe est verte.
+example.en: The grass is green.
+tags: ⭐ common, 🌿 nature
+priority: yes
+//
+word: forêt
+translation: forest
+type: noun
+group: 🌿 Nature & animals
+grammar.Gender: f
+grammar.Plural: forêts
+pronunciation: /fɔ.ʁɛ/
+example.fr: Nous marchons dans la forêt.
+example.en: We are walking in the forest.
+tags: ⭐ common, 🌿 nature
+priority: yes
+//
+word: montagne
+translation: mountain
+type: noun
+group: 🌿 Nature & animals
+grammar.Gender: f
+grammar.Plural: montagnes
+pronunciation: /mɔ̃.taɲ/
+example.fr: La montagne est couverte de neige.
+example.en: The mountain is covered in snow.
+tags: ⭐ common, 🌿 nature
+priority: yes
+//
+word: rivière
+translation: river
+type: noun
+group: 🌿 Nature & animals
+grammar.Gender: f
+grammar.Plural: rivières
+pronunciation: /ʁi.vjɛʁ/
+example.fr: La rivière coule vers la mer.
+example.en: The river flows towards the sea.
+tags: ⭐ common, 🌿 nature
+priority: yes
+//
+word: lac
+translation: lake
+type: noun
+group: 🌿 Nature & animals
+grammar.Gender: m
+grammar.Plural: lacs
+pronunciation: /lak/
+example.fr: Nous nageons dans le lac.
+example.en: We are swimming in the lake.
+tags: ⭐ common, 🌿 nature
+priority: yes
+//
+word: mer
+translation: sea
+type: noun
+group: 🌿 Nature & animals
+grammar.Gender: f
+grammar.Plural: mers
+pronunciation: /mɛʁ/
+example.fr: J'aime regarder la mer.
+example.en: I like to watch the sea.
+tags: ⭐ common, 🌿 nature
+priority: yes
+//
+word: océan
+translation: ocean
+type: noun
+group: 🌿 Nature & animals
+grammar.Gender: m
+grammar.Plural: océans
+pronunciation: /o.se.ɑ̃/
+example.fr: L'océan est très vaste.
+example.en: The ocean is very vast.
+tags: ⭐ common, 🌿 nature
+priority: yes
+//
+word: plage
+translation: beach
+type: noun
+group: 🌿 Nature & animals
+grammar.Gender: f
+grammar.Plural: plages
+pronunciation: /plaʒ/
+example.fr: Nous allons à la plage aujourd'hui.
+example.en: We are going to the beach today.
+tags: ⭐ common, 🌿 nature
+priority: yes
+//
+word: désert
+translation: desert
+type: noun
+group: 🌿 Nature & animals
+grammar.Gender: m
+grammar.Plural: déserts
+pronunciation: /de.zɛʁ/
+example.fr: Il fait très chaud dans le désert.
+example.en: It is very hot in the desert.
+tags: ⭐ common, 🌿 nature
+priority: yes
+//
+word: île
+translation: island
+type: noun
+group: 🌿 Nature & animals
+grammar.Gender: f
+grammar.Plural: îles
+pronunciation: /il/
+example.fr: Ils habitent sur une petite île.
+example.en: They live on a small island.
+tags: ⭐ common, 🌿 nature
+priority: yes
+//
+word: rocher
+translation: rock
+type: noun
+group: 🌿 Nature & animals
+grammar.Gender: m
+grammar.Plural: rochers
+pronunciation: /ʁɔ.ʃe/
+example.fr: Il s'est assis sur un gros rocher.
+example.en: He sat on a big rock.
+tags: ⭐ common, 🌿 nature
+priority: yes
+//
+word: sable
+translation: sand
+type: noun
+group: 🌿 Nature & animals
+grammar.Gender: m
+grammar.Plural: sables
+pronunciation: /sabl/
+example.fr: Il y a du sable sur mes chaussures.
+example.en: There is sand on my shoes.
+tags: ⭐ common, 🌿 nature
+priority: yes
+//
+word: ciel
+translation: sky
+type: noun
+group: 🌿 Nature & animals
+grammar.Gender: m
+grammar.Plural: ciels
+pronunciation: /sjɛl/
+example.fr: Le ciel est bleu.
+example.en: The sky is blue.
+tags: ⭐ common, 🌿 nature
+priority: yes
+//
+word: lune
+translation: moon
+type: noun
+group: 🌿 Nature & animals
+grammar.Gender: f
+grammar.Plural: lunes
+pronunciation: /lyn/
+example.fr: La lune est pleine ce soir.
+example.en: The moon is full tonight.
+tags: ⭐ common, 🌿 nature
+priority: yes
+//
+word: étoile
+translation: star
+type: noun
+group: 🌿 Nature & animals
+grammar.Gender: f
+grammar.Plural: étoiles
+pronunciation: /e.twal/
+example.fr: Je vois une étoile brillante.
+example.en: I see a bright star.
+tags: ⭐ common, 🌿 nature
+priority: yes
+//
+word: terre
+translation: earth
+type: noun
+group: 🌿 Nature & animals
+grammar.Gender: f
+grammar.Plural: terres
+pronunciation: /tɛʁ/
+example.fr: La terre est notre planète.
+example.en: The earth is our planet.
+tags: ⭐ common, 🌿 nature
+priority: yes
+//
+word: air
+translation: air
+type: noun
+group: 🌿 Nature & animals
+grammar.Gender: m
+grammar.Plural: airs
+pronunciation: /ɛʁ/
+example.fr: Respirez l'air pur de la montagne.
+example.en: Breathe the pure mountain air.
+tags: ⭐ common, 🌿 nature
+priority: yes
+//
+word: feu
+translation: fire
+type: noun
+group: 🌿 Nature & animals
+grammar.Gender: m
+grammar.Plural: feux
+pronunciation: /fø/
+example.fr: Le feu nous réchauffe.
+example.en: The fire warms us.
+tags: ⭐ common, 🌿 nature
+priority: yes
+//
+word: plante
+translation: plant
+type: noun
+group: 🌿 Nature & animals
+grammar.Gender: f
+grammar.Plural: plantes
+pronunciation: /plɑ̃t/
+example.fr: Ma plante a besoin d'eau.
+example.en: My plant needs water.
+tags: ⭐ common, 🌿 nature
+priority: yes

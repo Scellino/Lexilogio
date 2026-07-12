@@ -1,0 +1,523 @@
+word: pain
+translation: bread
+type: noun
+group: 🍽️ Food & drink
+grammar.Gender: m
+grammar.Plural: pains
+pronunciation: /pɛ̃/
+example.fr: J'achète une baguette de pain tous les matins.
+example.en: I buy a baguette of bread every morning.
+tags: ⭐ common, 🍕 food
+priority: yes
+//
+word: riz
+translation: rice
+type: noun
+group: 🍽️ Food & drink
+grammar.Gender: m
+grammar.Plural: riz
+pronunciation: /ʁi/
+example.fr: J'aime manger du riz avec du poulet.
+example.en: I like to eat rice with chicken.
+tags: ⭐ common, 🍕 food
+priority: yes
+//
+word: pâtes
+translation: pasta
+type: noun
+group: 🍽️ Food & drink
+grammar.Gender: f
+grammar.Plural: pâtes
+note: Usually used in the plural 'les pâtes'.
+pronunciation: /pat/
+example.fr: Ce soir, on mange des pâtes.
+example.en: Tonight, we are eating pasta.
+tags: ⭐ common, 🍕 food
+priority: yes
+//
+word: œuf
+translation: egg
+type: noun
+group: 🍽️ Food & drink
+grammar.Gender: m
+grammar.Plural: œufs
+pronunciation: /œf/
+example.fr: Je voudrais deux œufs au plat.
+example.en: I would like two fried eggs.
+tags: ⭐ common, 🍕 food
+priority: yes
+//
+word: fromage
+translation: cheese
+type: noun
+group: 🍽️ Food & drink
+grammar.Gender: m
+grammar.Plural: fromages
+pronunciation: /fʁɔ.maʒ/
+example.fr: La France est célèbre pour son fromage.
+example.en: France is famous for its cheese.
+tags: ⭐ common, 🍕 food
+priority: yes
+//
+word: beurre
+translation: butter
+type: noun
+group: 🍽️ Food & drink
+grammar.Gender: m
+grammar.Plural: beurres
+pronunciation: /bœʁ/
+example.fr: Elle met du beurre sur son pain.
+example.en: She puts butter on her bread.
+tags: ⭐ common, 🍕 food
+priority: yes
+//
+word: huile
+translation: oil
+type: noun
+group: 🍽️ Food & drink
+grammar.Gender: f
+grammar.Plural: huiles
+pronunciation: /ɥil/
+example.fr: Utilisez de l'huile d'olive pour la salade.
+example.en: Use olive oil for the salad.
+tags: ⭐ common, 🍕 food
+priority: yes
+//
+word: sel
+translation: salt
+type: noun
+group: 🍽️ Food & drink
+grammar.Gender: m
+grammar.Plural: sels
+pronunciation: /sɛl/
+example.fr: Il y a trop de sel dans cette soupe.
+example.en: There is too much salt in this soup.
+tags: ⭐ common, 🍕 food
+priority: yes
+//
+word: poivre
+translation: pepper
+type: noun
+group: 🍽️ Food & drink
+grammar.Gender: m
+grammar.Plural: poivres
+pronunciation: /pwavʁ/
+example.fr: Ajoutez un peu de poivre à la viande.
+example.en: Add a little pepper to the meat.
+tags: ⭐ common, 🍕 food
+priority: yes
+//
+word: sucre
+translation: sugar
+type: noun
+group: 🍽️ Food & drink
+grammar.Gender: m
+grammar.Plural: sucres
+pronunciation: /sykʁ/
+example.fr: Je prends mon café sans sucre.
+example.en: I take my coffee without sugar.
+tags: ⭐ common, 🍕 food
+priority: yes
+//
+word: poulet
+translation: chicken
+type: noun
+group: 🍽️ Food & drink
+grammar.Gender: m
+grammar.Plural: poulets
+pronunciation: /pu.lɛ/
+example.fr: Le poulet rôti est délicieux.
+example.en: The roast chicken is delicious.
+tags: ⭐ common, 🍕 food
+priority: yes
+//
+word: bœuf
+translation: beef
+type: noun
+group: 🍽️ Food & drink
+grammar.Gender: m
+grammar.Plural: bœufs
+pronunciation: /bœf/
+example.fr: Il préfère manger du bœuf.
+example.en: He prefers eating beef.
+tags: ⭐ common, 🍕 food
+priority: yes
+//
+word: porc
+translation: pork
+type: noun
+group: 🍽️ Food & drink
+grammar.Gender: m
+grammar.Plural: porcs
+pronunciation: /pɔʁ/
+example.fr: Ce plat est préparé avec du porc.
+example.en: This dish is prepared with pork.
+tags: ⭐ common, 🍕 food
+priority: yes
+//
+word: agneau
+translation: lamb
+type: noun
+group: 🍽️ Food & drink
+grammar.Gender: m
+grammar.Plural: agneaux
+pronunciation: /a.ɲo/
+example.fr: J'ai commandé des côtelettes d'agneau.
+example.en: I ordered lamb chops.
+tags: ⭐ common, 🍕 food
+priority: yes
+//
+word: poisson
+translation: fish
+type: noun
+group: 🍽️ Food & drink
+grammar.Gender: m
+grammar.Plural: poissons
+pronunciation: /pwa.sɔ̃/
+example.fr: Je mange du poisson deux fois par semaine.
+example.en: I eat fish twice a week.
+tags: ⭐ common, 🍕 food
+priority: yes
+//
+word: fruits de mer
+translation: seafood
+type: phrase
+group: 🍽️ Food & drink
+pronunciation: /fʁɥi də mɛʁ/
+example.fr: J'adore les fruits de mer frais.
+example.en: I love fresh seafood.
+tags: ⭐ common, 🍕 food
+priority: yes
+//
+word: pomme de terre
+translation: potato
+type: noun
+group: 🍽️ Food & drink
+grammar.Gender: f
+grammar.Plural: pommes de terre
+pronunciation: /pɔm də tɛʁ/
+example.fr: Je voudrais une purée de pommes de terre.
+example.en: I would like mashed potatoes.
+tags: ⭐ common, 🍕 food
+priority: yes
+//
+word: tomate
+translation: tomato
+type: noun
+group: 🍽️ Food & drink
+grammar.Gender: f
+grammar.Plural: tomates
+pronunciation: /tɔ.mat/
+example.fr: Cette salade contient des tomates fraîches.
+example.en: This salad contains fresh tomatoes.
+tags: ⭐ common, 🍕 food
+priority: yes
+//
+word: oignon
+translation: onion
+type: noun
+group: 🍽️ Food & drink
+grammar.Gender: m
+grammar.Plural: oignons
+pronunciation: /ɔ.ɲɔ̃/
+example.fr: Il faut couper l'oignon finement.
+example.en: You must cut the onion finely.
+tags: ⭐ common, 🍕 food
+priority: yes
+//
+word: ail
+translation: garlic
+type: noun
+group: 🍽️ Food & drink
+grammar.Gender: m
+grammar.Plural: ails (or aulx)
+pronunciation: /aj/
+example.fr: Cette sauce a beaucoup d'ail.
+example.en: This sauce has a lot of garlic.
+tags: ⭐ common, 🍕 food
+priority: yes
+//
+word: carotte
+translation: carrot
+type: noun
+group: 🍽️ Food & drink
+grammar.Gender: f
+grammar.Plural: carottes
+pronunciation: /ka.ʁɔt/
+example.fr: Les carottes sont bonnes pour la vue.
+example.en: Carrots are good for your eyesight.
+tags: ⭐ common, 🍕 food
+priority: yes
+//
+word: salade
+translation: salad
+type: noun
+group: 🍽️ Food & drink
+grammar.Gender: f
+grammar.Plural: salades
+pronunciation: /sa.lad/
+example.fr: Je prends une salade composée.
+example.en: I am having a mixed salad.
+tags: ⭐ common, 🍕 food
+priority: yes
+//
+word: pomme
+translation: apple
+type: noun
+group: 🍽️ Food & drink
+grammar.Gender: f
+grammar.Plural: pommes
+pronunciation: /pɔm/
+example.fr: Elle mange une pomme rouge.
+example.en: She is eating a red apple.
+tags: ⭐ common, 🍕 food
+priority: yes
+//
+word: banane
+translation: banana
+type: noun
+group: 🍽️ Food & drink
+grammar.Gender: f
+grammar.Plural: bananes
+pronunciation: /ba.nan/
+example.fr: Je veux une banane pour le goûter.
+example.en: I want a banana for my snack.
+tags: ⭐ common, 🍕 food
+priority: yes
+//
+word: citron
+translation: lemon
+type: noun
+group: 🍽️ Food & drink
+grammar.Gender: m
+grammar.Plural: citrons
+pronunciation: /si.tʁɔ̃/
+example.fr: Le jus de citron est acide.
+example.en: Lemon juice is sour.
+tags: ⭐ common, 🍕 food
+priority: yes
+//
+word: fraise
+translation: strawberry
+type: noun
+group: 🍽️ Food & drink
+grammar.Gender: f
+grammar.Plural: fraises
+pronunciation: /fʁɛz/
+example.fr: J'adore la confiture de fraise.
+example.en: I love strawberry jam.
+tags: ⭐ common, 🍕 food
+priority: yes
+//
+word: raisin
+translation: grape
+type: noun
+group: 🍽️ Food & drink
+grammar.Gender: m
+grammar.Plural: raisins
+pronunciation: /ʁɛ.zɛ̃/
+example.fr: Il y a du raisin dans ce vin.
+example.en: There is grape in this wine.
+tags: ⭐ common, 🍕 food
+priority: yes
+//
+word: eau
+translation: water
+type: noun
+group: 🍽️ Food & drink
+grammar.Gender: f
+grammar.Plural: eaux
+pronunciation: /o/
+example.fr: Je bois de l'eau minérale.
+example.en: I am drinking mineral water.
+tags: ⭐ common, 🍕 food
+priority: yes
+//
+word: jus
+translation: juice
+type: noun
+group: 🍽️ Food & drink
+grammar.Gender: m
+grammar.Plural: jus
+pronunciation: /ʒy/
+example.fr: Je veux un jus d'orange pressé.
+example.en: I want a freshly squeezed orange juice.
+tags: ⭐ common, 🍕 food
+priority: yes
+//
+word: café
+translation: coffee
+type: noun
+group: 🍽️ Food & drink
+grammar.Gender: m
+grammar.Plural: cafés
+pronunciation: /ka.fe/
+example.fr: Je prends un café noir.
+example.en: I am having a black coffee.
+tags: ⭐ common, 🍕 food
+priority: yes
+//
+word: thé
+translation: tea
+type: noun
+group: 🍽️ Food & drink
+grammar.Gender: m
+grammar.Plural: thés
+pronunciation: /te/
+example.fr: Tu veux du thé ou du café ?
+example.en: Do you want tea or coffee?
+tags: ⭐ common, 🍕 food
+priority: yes
+//
+word: vin
+translation: wine
+type: noun
+group: 🍽️ Food & drink
+grammar.Gender: m
+grammar.Plural: vins
+pronunciation: /vɛ̃/
+example.fr: Un verre de vin rouge, s'il vous plaît.
+example.en: A glass of red wine, please.
+tags: ⭐ common, 🍕 food
+priority: yes
+//
+word: bière
+translation: beer
+type: noun
+group: 🍽️ Food & drink
+grammar.Gender: f
+grammar.Plural: bières
+pronunciation: /bjɛʁ/
+example.fr: Elle boit une bière fraîche.
+example.en: She is drinking a cold beer.
+tags: ⭐ common, 🍕 food
+priority: yes
+//
+word: lait
+translation: milk
+type: noun
+group: 🍽️ Food & drink
+grammar.Gender: m
+grammar.Plural: laits
+pronunciation: /lɛ/
+example.fr: Je mets du lait dans mes céréales.
+example.en: I put milk in my cereal.
+tags: ⭐ common, 🍕 food
+priority: yes
+//
+word: végétarien
+translation: vegetarian
+type: adjective
+group: 🍽️ Food & drink
+pronunciation: /ve.ʒe.ta.ʁjɛ̃/
+grammar.Feminine form: végétarienne
+grammar.Plural (masc.): végétariens
+grammar.Plural (fem.): végétariennes
+example.fr: Ce restaurant propose un menu végétarien.
+example.en: This restaurant offers a vegetarian menu.
+tags: ⭐ common, 🍕 food
+priority: yes
+//
+word: végane
+translation: vegan
+type: adjective
+group: 🍽️ Food & drink
+pronunciation: /ve.ɡan/
+grammar.Feminine form: végane
+grammar.Plural (masc.): véganes
+grammar.Plural (fem.): véganes
+example.fr: Elle a un régime végane.
+example.en: She has a vegan diet.
+tags: ⭐ common, 🍕 food
+priority: yes
+//
+word: épicé
+translation: spicy
+type: adjective
+group: 🍽️ Food & drink
+pronunciation: /e.pi.se/
+grammar.Feminine form: épicée
+grammar.Plural (masc.): épicés
+grammar.Plural (fem.): épicées
+example.fr: J'aime beaucoup la nourriture épicée.
+example.en: I really like spicy food.
+tags: ⭐ common, 🍕 food
+priority: yes
+//
+word: sucré
+translation: sweet
+type: adjective
+group: 🍽️ Food & drink
+pronunciation: /sy.kʁe/
+grammar.Feminine form: sucrée
+grammar.Plural (masc.): sucrés
+grammar.Plural (fem.): sucrées
+example.fr: Ce dessert est trop sucré pour moi.
+example.en: This dessert is too sweet for me.
+tags: ⭐ common, 🍕 food
+priority: yes
+//
+word: acide
+translation: sour
+type: adjective
+group: 🍽️ Food & drink
+pronunciation: /a.sid/
+grammar.Feminine form: acide
+grammar.Plural (masc.): acides
+grammar.Plural (fem.): acides
+example.fr: Ce fruit est très acide.
+example.en: This fruit is very sour.
+tags: ⭐ common, 🍕 food
+priority: yes
+//
+word: salé
+translation: salty
+type: adjective
+group: 🍽️ Food & drink
+pronunciation: /sa.le/
+grammar.Feminine form: salée
+grammar.Plural (masc.): salés
+grammar.Plural (fem.): salées
+example.fr: Ce plat est un peu trop salé.
+example.en: This dish is a little too salty.
+tags: ⭐ common, 🍕 food
+priority: yes
+//
+note: Also the everyday word for cool weather.
+word: frais
+translation: fresh, cool (weather)
+type: adjective
+group: 🍽️ Food & drink
+pronunciation: /fʁɛ/
+grammar.Feminine form: fraîche
+grammar.Plural (masc.): frais
+grammar.Plural (fem.): fraîches
+example.fr: Je veux seulement des légumes frais.
+example.en: I only want fresh vegetables.
+tags: ⭐ common, 🍕 food
+priority: yes
+//
+word: surgelé
+translation: frozen
+type: adjective
+group: 🍽️ Food & drink
+pronunciation: /syʁ.ʒə.le/
+grammar.Feminine form: surgelée
+grammar.Plural (masc.): surgelés
+grammar.Plural (fem.): surgelées
+example.fr: J'achète souvent des plats surgelés.
+example.en: I often buy frozen meals.
+tags: ⭐ common, 🍕 food
+priority: yes
+//
+word: repas
+translation: meal
+type: noun
+group: 🍽️ Food & drink
+grammar.Gender: m
+grammar.Plural: repas
+pronunciation: /ʁə.pa/
+example.fr: Nous avons partagé un bon repas.
+example.en: We shared a good meal.
+tags: ⭐ common, 🍕 food
+priority: yes

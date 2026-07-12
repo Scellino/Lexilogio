@@ -1,0 +1,388 @@
+word: chemise
+translation: shirt
+type: noun
+group: 👗 Clothing & fashion
+grammar.Gender: f
+grammar.Plural: chemises
+pronunciation: /ʃə.miz/
+example.fr: Il porte une chemise blanche.
+example.en: He is wearing a white shirt.
+tags: ⭐ common, 👗 clothing
+priority: yes
+//
+word: t-shirt
+translation: t-shirt
+type: noun
+group: 👗 Clothing & fashion
+grammar.Gender: m
+grammar.Plural: t-shirts
+pronunciation: /ti.ʃœʁt/
+example.fr: J'ai acheté un nouveau t-shirt.
+example.en: I bought a new t-shirt.
+tags: ⭐ common, 👗 clothing
+priority: yes
+//
+word: pantalon
+translation: trousers
+type: noun
+group: 👗 Clothing & fashion
+grammar.Gender: m
+grammar.Plural: pantalons
+pronunciation: /pɑ̃.ta.lɔ̃/
+example.fr: Ce pantalon est trop long.
+example.en: These trousers are too long.
+tags: ⭐ common, 👗 clothing
+priority: yes
+//
+word: jean
+translation: jeans
+type: noun
+group: 👗 Clothing & fashion
+grammar.Gender: m
+grammar.Plural: jeans
+pronunciation: /dʒin/
+example.fr: Je porte un jean bleu aujourd'hui.
+example.en: I am wearing blue jeans today.
+tags: ⭐ common, 👗 clothing
+priority: yes
+//
+word: robe
+translation: dress
+type: noun
+group: 👗 Clothing & fashion
+grammar.Gender: f
+grammar.Plural: robes
+pronunciation: /ʁɔb/
+example.fr: Elle a une très belle robe.
+example.en: She has a very beautiful dress.
+tags: ⭐ common, 👗 clothing
+priority: yes
+//
+word: jupe
+translation: skirt
+type: noun
+group: 👗 Clothing & fashion
+grammar.Gender: f
+grammar.Plural: jupes
+pronunciation: /ʒyp/
+example.fr: Elle porte une jupe courte.
+example.en: She is wearing a short skirt.
+tags: ⭐ common, 👗 clothing
+priority: yes
+//
+word: veste
+translation: jacket
+type: noun
+group: 👗 Clothing & fashion
+grammar.Gender: f
+grammar.Plural: vestes
+pronunciation: /vɛst/
+example.fr: Il fait frais, mets une veste.
+example.en: It's cool, put on a jacket.
+tags: ⭐ common, 👗 clothing
+priority: yes
+//
+word: manteau
+translation: coat
+type: noun
+group: 👗 Clothing & fashion
+grammar.Gender: m
+grammar.Plural: manteaux
+pronunciation: /mɑ̃.to/
+example.fr: Il neige, prends ton manteau.
+example.en: It's snowing, take your coat.
+tags: ⭐ common, 👗 clothing
+priority: yes
+//
+word: costume
+translation: suit
+type: noun
+group: 👗 Clothing & fashion
+grammar.Gender: m
+grammar.Plural: costumes
+pronunciation: /kɔs.tym/
+example.fr: Il porte un costume pour le mariage.
+example.en: He is wearing a suit for the wedding.
+tags: ⭐ common, 👗 clothing
+priority: yes
+//
+word: sous-vêtements
+translation: underwear
+type: noun
+group: 👗 Clothing & fashion
+grammar.Gender: m
+grammar.Plural: sous-vêtements
+note: Usually used in the plural.
+pronunciation: /su.vɛt.mɑ̃/
+example.fr: Il faut laver les sous-vêtements.
+example.en: You must wash the underwear.
+tags: ⭐ common, 👗 clothing
+priority: yes
+//
+word: chaussettes
+translation: socks
+type: noun
+group: 👗 Clothing & fashion
+grammar.Gender: f
+grammar.Plural: chaussettes
+pronunciation: /ʃo.sɛt/
+example.fr: J'ai perdu une de mes chaussettes.
+example.en: I lost one of my socks.
+tags: ⭐ common, 👗 clothing
+priority: yes
+//
+word: chaussures
+translation: shoes
+type: noun
+group: 👗 Clothing & fashion
+grammar.Gender: f
+grammar.Plural: chaussures
+pronunciation: /ʃo.syʁ/
+example.fr: Mes chaussures sont neuves.
+example.en: My shoes are new.
+tags: ⭐ common, 👗 clothing
+priority: yes
+//
+word: bottes
+translation: boots
+type: noun
+group: 👗 Clothing & fashion
+grammar.Gender: f
+grammar.Plural: bottes
+pronunciation: /bɔt/
+example.fr: Il pleut, mets tes bottes.
+example.en: It's raining, put on your boots.
+tags: ⭐ common, 👗 clothing
+priority: yes
+//
+word: chapeau
+translation: hat
+type: noun
+group: 👗 Clothing & fashion
+grammar.Gender: m
+grammar.Plural: chapeaux
+pronunciation: /ʃa.po/
+example.fr: Il porte un chapeau élégant.
+example.en: He is wearing an elegant hat.
+tags: ⭐ common, 👗 clothing
+priority: yes
+//
+word: écharpe
+translation: scarf
+type: noun
+group: 👗 Clothing & fashion
+grammar.Gender: f
+grammar.Plural: écharpes
+pronunciation: /e.ʃaʁp/
+example.fr: Mets ton écharpe, il fait froid.
+example.en: Put on your scarf, it's cold.
+tags: ⭐ common, 👗 clothing
+priority: yes
+//
+word: gants
+translation: gloves
+type: noun
+group: 👗 Clothing & fashion
+grammar.Gender: m
+grammar.Plural: gants
+pronunciation: /ɡɑ̃/
+example.fr: Mes mains sont froides, j'ai besoin de gants.
+example.en: My hands are cold, I need gloves.
+tags: ⭐ common, 👗 clothing
+priority: yes
+//
+word: ceinture
+translation: belt
+type: noun
+group: 👗 Clothing & fashion
+grammar.Gender: f
+grammar.Plural: ceintures
+pronunciation: /sɛ̃.tyʁ/
+example.fr: Son pantalon est trop large sans ceinture.
+example.en: His trousers are too loose without a belt.
+tags: ⭐ common, 👗 clothing
+priority: yes
+//
+word: cravate
+translation: tie
+type: noun
+group: 👗 Clothing & fashion
+grammar.Gender: f
+grammar.Plural: cravates
+pronunciation: /kʁa.vat/
+example.fr: Il doit porter une cravate au travail.
+example.en: He must wear a tie at work.
+tags: ⭐ common, 👗 clothing
+priority: yes
+//
+word: sac
+translation: bag
+type: noun
+group: 👗 Clothing & fashion
+grammar.Gender: m
+grammar.Plural: sacs
+pronunciation: /sak/
+example.fr: J'ai oublié mon sac dans le train.
+example.en: I forgot my bag on the train.
+tags: ⭐ common, 👗 clothing
+priority: yes
+//
+word: lunettes
+translation: glasses
+type: noun
+group: 👗 Clothing & fashion
+grammar.Gender: f
+grammar.Plural: lunettes
+pronunciation: /ly.nɛt/
+example.fr: Elle ne voit pas bien sans ses lunettes.
+example.en: She doesn't see well without her glasses.
+tags: ⭐ common, 👗 clothing
+priority: yes
+//
+word: bague
+translation: ring
+type: noun
+group: 👗 Clothing & fashion
+grammar.Gender: f
+grammar.Plural: bagues
+pronunciation: /baɡ/
+example.fr: Il lui a offert une belle bague.
+example.en: He gave her a beautiful ring.
+tags: ⭐ common, 👗 clothing
+priority: yes
+//
+word: collier
+translation: necklace
+type: noun
+group: 👗 Clothing & fashion
+grammar.Gender: m
+grammar.Plural: colliers
+pronunciation: /kɔ.lje/
+example.fr: Ce collier va bien avec ta robe.
+example.en: This necklace goes well with your dress.
+tags: ⭐ common, 👗 clothing
+priority: yes
+//
+word: taille
+translation: size
+type: noun
+group: 👗 Clothing & fashion
+grammar.Gender: f
+grammar.Plural: tailles
+pronunciation: /taj/
+example.fr: Quelle est votre taille ?
+example.en: What is your size?
+tags: ⭐ common, 👗 clothing
+priority: yes
+//
+word: porter
+translation: to wear
+type: verb
+group: 👗 Clothing & fashion
+grammar.Verb group: 1er
+grammar.Auxiliary: avoir
+grammar.Past participle: porté
+grammar.Présent (all 6 forms): porte / portes / porte / portons / portez / portent
+example.fr: Que portes-tu aujourd'hui ?
+example.en: What are you wearing today?
+tags: ⭐ common, 👗 clothing
+priority: yes
+//
+word: essayer
+translation: to try on
+type: verb
+group: 👗 Clothing & fashion
+grammar.Verb group: 1er
+grammar.Auxiliary: avoir
+grammar.Past participle: essayé
+grammar.Présent (all 6 forms): essaie / essaies / essaie / essayons / essayez / essaient
+example.fr: Je peux essayer ce pantalon ?
+example.en: Can I try on these trousers?
+tags: ⭐ common, 👗 clothing
+priority: yes
+//
+word: aller (bien)
+translation: to fit (well)
+type: verb
+group: 👗 Clothing & fashion
+grammar.Verb group: 3e
+grammar.Auxiliary: être
+grammar.Past participle: allé
+grammar.Présent (all 6 forms): vais / vas / va / allons / allez / vont
+example.fr: Cette veste me va très bien.
+example.en: This jacket fits me very well.
+tags: ⭐ common, 👗 clothing
+priority: yes
+//
+word: serré
+translation: tight
+type: adjective
+group: 👗 Clothing & fashion
+pronunciation: /sɛ.ʁe/
+grammar.Feminine form: serrée
+grammar.Plural (masc.): serrés
+grammar.Plural (fem.): serrées
+example.fr: Ce jean est trop serré.
+example.en: These jeans are too tight.
+tags: ⭐ common, 👗 clothing
+priority: yes
+//
+word: rayé
+translation: striped
+type: adjective
+group: 👗 Clothing & fashion
+pronunciation: /ʁe.je/
+grammar.Feminine form: rayée
+grammar.Plural (masc.): rayés
+grammar.Plural (fem.): rayées
+example.fr: Il porte une chemise rayée bleue.
+example.en: He is wearing a blue striped shirt.
+tags: ⭐ common, 👗 clothing
+priority: yes
+//
+word: uni
+translation: plain
+type: adjective
+group: 👗 Clothing & fashion
+pronunciation: /y.ni/
+grammar.Feminine form: unie
+grammar.Plural (masc.): unis
+grammar.Plural (fem.): unies
+example.fr: Je préfère les t-shirts unis.
+example.en: I prefer plain t-shirts.
+tags: ⭐ common, 👗 clothing
+priority: yes
+//
+word: à motifs
+translation: patterned
+type: phrase
+group: 👗 Clothing & fashion
+pronunciation: /a mɔ.ti/
+example.fr: Elle adore les robes à motifs.
+example.en: She loves patterned dresses.
+tags: ⭐ common, 👗 clothing
+priority: yes
+//
+word: coton
+translation: cotton
+type: noun
+group: 👗 Clothing & fashion
+grammar.Gender: m
+grammar.Plural: cotons
+pronunciation: /kɔ.tɔ̃/
+example.fr: Cette chemise est en coton.
+example.en: This shirt is made of cotton.
+tags: ⭐ common, 👗 clothing
+priority: yes
+//
+word: laine
+translation: wool
+type: noun
+group: 👗 Clothing & fashion
+grammar.Gender: f
+grammar.Plural: laines
+pronunciation: /lɛn/
+example.fr: J'ai un pull en laine très chaud.
+example.en: I have a very warm wool sweater.
+tags: ⭐ common, 👗 clothing
+priority: yes

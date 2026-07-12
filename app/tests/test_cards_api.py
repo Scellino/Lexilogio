@@ -74,3 +74,55 @@ def test_check_handles_malformed_json(client):
 def test_submit_requires_login(client):
     r = client.post("/vocab/api/submit", json={"word": "x", "translation": "y"})
     assert r.status_code == 401
+
+
+def test_retention_check_increments_tier_on_correct(app, client):
+    from models import Progress
+    uid = make_user(app, "retention-a@local.test")
+    login(client, uid)
+    cid = "el-en-test-word"
+
+    for _ in range(3):
+        r = client.post("/fr/vocab/api/check", json={
+            "id": cid, "guess": "correct-answer", "correct": "correct-answer",
+            "direction": "en→word", "retention_check": True,
+        })
+        assert r.status_code == 200
+    with app.app_context():
+        row = Progress.query.filter_by(user_id=uid, card_id=cid).first()
+        assert row.retention_tier == 3
+
+
+def test_retention_check_resets_tier_on_wrong(app, client):
+    from models import Progress
+    uid = make_user(app, "retention-b@local.test")
+    login(client, uid)
+    cid = "el-en-test-word-2"
+
+    client.post("/fr/vocab/api/check", json={
+        "id": cid, "guess": "right", "correct": "right",
+        "direction": "en→word", "retention_check": True,
+    })
+    with app.app_context():
+        assert Progress.query.filter_by(user_id=uid, card_id=cid).first().retention_tier == 1
+
+    client.post("/fr/vocab/api/check", json={
+        "id": cid, "guess": "totally-wrong", "correct": "right",
+        "direction": "en→word", "retention_check": True,
+    })
+    with app.app_context():
+        assert Progress.query.filter_by(user_id=uid, card_id=cid).first().retention_tier == 0
+
+
+def test_retention_check_ignored_without_flag(app, client):
+    from models import Progress
+    uid = make_user(app, "retention-c@local.test")
+    login(client, uid)
+    cid = "el-en-test-word-3"
+
+    client.post("/fr/vocab/api/check", json={
+        "id": cid, "guess": "right", "correct": "right", "direction": "en→word",
+    })
+    with app.app_context():
+        row = Progress.query.filter_by(user_id=uid, card_id=cid).first()
+        assert (row.retention_tier or 0) == 0

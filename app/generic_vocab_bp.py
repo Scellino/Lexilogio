@@ -156,6 +156,8 @@ button,a{-webkit-tap-highlight-color:transparent;touch-action:manipulation}
 .menu-item-icon{font-size:15px;width:22px;text-align:center;flex-shrink:0;line-height:1}
 .preview-banner{background:rgba(201,169,110,.08);border:1px solid rgba(201,169,110,.2);border-radius:12px;padding:10px 16px;font-family:sans-serif;font-size:12px;color:rgba(201,169,110,.8);text-align:center;margin-bottom:18px;width:100%;max-width:520px}
 .preview-banner a{color:#c9a96e;font-weight:600}
+.review-due-btn{display:block;width:100%;background:linear-gradient(135deg,rgba(122,196,154,.16),rgba(122,196,154,.08));border:1px solid rgba(122,196,154,.35);border-radius:12px;padding:13px 16px;font-family:sans-serif;font-size:13px;font-weight:700;color:#7ac49a;text-align:center;cursor:pointer;margin-bottom:18px;letter-spacing:.2px;transition:background .15s}
+.review-due-btn:hover{background:linear-gradient(135deg,rgba(122,196,154,.24),rgba(122,196,154,.12))}
 .header{text-align:center;margin-bottom:20px}
 .header-sub{font-size:10px;letter-spacing:4px;color:#c9a96e;text-transform:uppercase;margin-bottom:4px;font-family:sans-serif;opacity:.8}
 .header-title{font-size:22px;color:#fff;font-weight:normal;letter-spacing:1px}
@@ -519,11 +521,11 @@ async function init(){
 
 // ── What's new ─────────────────────────────────────────────────────────────────
 // Bump v and swap the items whenever a release has user-visible changes.
-const WHATS_NEW={v:1,date:'July 2026',items:[
+const WHATS_NEW={v:2,date:'July 2026',items:[
+  ['🔁','Review due, one tap','Mastered words you haven\\'t seen in a while quietly resurface. Tap the new "review due" button to drill just those.'],
   ['🔊','Hear every word','Tap the speaker on any card to hear it pronounced with your device\\'s own voices.'],
   ['🎯','Smarter quizzes','Words you struggle with now come up more often than ones you\\'ve mastered.'],
-  ['📦','New Greek packs','Body &amp; Doctor and Family &amp; relationships are in the Community hub, every card with grammar and etymology.'],
-  ['🏷️','Tidier filters','Group and tag filters now fold away neatly on small screens.'],
+  ['📦','New word packs','Fresh Greek and Dutch packs are in the Community hub, every card with grammar and etymology.'],
   ['☕','Support Lexilogio','The donate page is live. Entirely optional, as always.'],
 ]};
 function maybeShowWhatsNew(){
@@ -557,6 +559,21 @@ function cardMastery(c){
   if(w.length>=3&&w.filter(Boolean).length/w.length<0.4) return 'struggling';
   if(w.length>0)     return 'learning';
   return 'new';
+}
+// Long-interval retention checks for mastered words: ~1 month, then ~3, then
+// ~1 year, then steady annual refreshers. Answering correctly advances the
+// tier; answering wrong drops it back to the start.
+const RETENTION_DAYS=[30,90,365];
+function daysSince(isoDate){
+  if(!isoDate) return Infinity;
+  return Math.floor((Date.now()-new Date(isoDate+'T00:00:00').getTime())/86400000);
+}
+function retentionDue(c){
+  const e=(progress[String(c.id)]||{});
+  if(cardMastery(c)!=='mastered') return false;
+  const tier=e.retention_tier||0;
+  if(tier>=RETENTION_DAYS.length) return daysSince(e.last_day)>=RETENTION_DAYS[RETENTION_DAYS.length-1];
+  return daysSince(e.last_day)>=RETENTION_DAYS[tier];
 }
 function allGroups(){
   const s=new Set();allCards.forEach(c=>{if(c.group)s.add(c.group);});return[...s].sort();
@@ -823,13 +840,16 @@ function editBrowseCard(id){
 }
 
 // ── Quiz ──────────────────────────────────────────────────────────────────────
-function quizPool(){
-  return allCards.filter(c=>{
+function _groupTagFiltered(cards){
+  return cards.filter(c=>{
     if(quizGroups.size&&!quizGroups.has(c.group||'')) return false;
     if(quizTags.size){for(const t of quizTags){if(!(c.tags||[]).includes(t))return false;}}
-    if(quizMastery.size&&!quizMastery.has(cardMastery(c))) return false;
     return true;
   });
+}
+function quizPool(){
+  return _groupTagFiltered(allCards).filter(c=>
+    !quizMastery.size||quizMastery.has(cardMastery(c)));
 }
 
 function renderQuiz(){
@@ -845,8 +865,12 @@ function renderQuizSetup(){
   const ms={};
   ['new','learning','struggling','mastered'].forEach(k=>ms[k]=allCards.filter(c=>cardMastery(c)===k).length);
   const canGo=quizPickMode?manualCards.size>0:pool.length>0;
+  const dueCount=reviewDuePool().length;
 
   document.getElementById('content').innerHTML=`
+    ${dueCount?`<button class="review-due-btn" onclick="startReviewQuiz()">
+      &#128260; ${dueCount} word${dueCount!==1?'s':''} due for review. Quick start &#8594;
+    </button>`:''}
     <div class="sec">
       <div class="sec-label">Direction</div>
       <div class="pills">
@@ -954,15 +978,40 @@ function renderPickPanel(){
 // mastered ones. Weighted sampling without replacement (Efraimidis-Spirakis:
 // key = random^(1/weight), keep the highest keys).
 const QUIZ_WEIGHTS={struggling:3,new:2,learning:2,mastered:1};
-function _buildQuizWords(){
+function _quizWeight(c){
+  // A mastered word overdue for its retention check competes for attention
+  // like a struggling one, even though its badge still reads "mastered".
+  if(retentionDue(c)) return QUIZ_WEIGHTS.struggling;
+  return QUIZ_WEIGHTS[cardMastery(c)]||1;
+}
+function _buildQuizWords(pool){
   if(quizPickMode&&manualCards.size)
     return shuffle(allCards.filter(c=>manualCards.has(c.id)));
-  const picked=[...quizPool()]
-    .map(c=>({c,k:Math.pow(Math.random(),1/(QUIZ_WEIGHTS[cardMastery(c)]||1))}))
+  const picked=[...(pool||quizPool())]
+    .map(c=>({c,k:Math.pow(Math.random(),1/_quizWeight(c))}))
     .sort((a,b)=>b.k-a.k)
     .slice(0,quizCount)
     .map(x=>x.c);
   return shuffle(picked);
+}
+// "Review due": words you're shaky on, plus mastered words overdue for a
+// retention check. Skips brand-new words on purpose — this is a review, not
+// a first exposure. Respects whatever group/tag filters are already set.
+function reviewDuePool(){
+  // Ignores the knowledge-level pills (this feature defines its own
+  // criteria) but still honours whatever group/tag filters are active.
+  return _groupTagFiltered(allCards).filter(c=>{
+    const m=cardMastery(c);
+    return m==='struggling'||m==='learning'||(m==='mastered'&&retentionDue(c));
+  });
+}
+function startReviewQuiz(){
+  const pool=reviewDuePool();
+  if(!pool.length) return;
+  quizWords=_buildQuizWords(pool);
+  quizOrigSet=[...quizWords];
+  droppedCards=new Set();
+  quizIdx=0;quizResults=[];quizRetrying=false;quizPhase='quiz';renderQuizQuestion();
 }
 function startQuiz(){
   quizWords=_buildQuizWords();
@@ -1040,7 +1089,8 @@ function renderQuizQuestion(){
   const promptColor=(isW2E&&gc)?gc:'#e8c98a';
   const promptSub=isW2E?(card.pronunciation?'['+card.pronunciation+']':''):(card.type||'');
   const lvl=cardMastery(card);
-  const mastLbl=lvl!=='new'?MASTERY_LABELS[lvl]:null;
+  const due=retentionDue(card);
+  const mastLbl=lvl!=='new'?(due?'🔁 review due':MASTERY_LABELS[lvl]):null;
   const pct=((quizIdx+1)/quizWords.length*100).toFixed(1);
 
   document.getElementById('content').innerHTML=`
@@ -1051,7 +1101,7 @@ function renderQuizQuestion(){
     <div class="progress-wrap"><div class="progress-bar" style="width:${pct}%"></div></div>
     <div class="prompt-card" style="border-color:${gc?gc+'33':'rgba(255,255,255,.06)'}">
       ${card.priority?'<div class="star-badge">&#11088;</div>':''}
-      ${mastLbl?`<div class="mastery-badge" style="color:${MASTERY_COLORS[lvl]}">${mastLbl}</div>`:''}
+      ${mastLbl?`<div class="mastery-badge" style="color:${due?'#7ac49a':MASTERY_COLORS[lvl]}">${mastLbl}</div>`:''}
       <div class="prompt-word" style="font-size:${promptSize};color:${promptColor}">${esc(prompt)}${isW2E?spkBtn(card.word):''}</div>
       ${promptSub?`<div class="prompt-sub">${esc(promptSub)}</div>`:''}
       ${card.group?`<div class="prompt-group">${esc(groupLabel(card.group))}</div>`:''}
@@ -1078,7 +1128,10 @@ async function checkAnswer(){
   const guess=input.value.trim();
   const card=quizWords[quizIdx];
   const correct=quizDir===DIR_FWD?card.translation:card.word;
-  const res=await apiPost('/api/check',{id:card.id,guess,correct,direction:quizDir});
+  // Retention checks judge the first attempt only — no typo leniency, since
+  // the point is confirming the word has truly stuck long-term.
+  const isRetentionCheck=!quizRetrying&&retentionDue(card);
+  const res=await apiPost('/api/check',{id:card.id,guess,correct,direction:quizDir,retention_check:isRetentionCheck});
   progress=(await api('/api/progress')).progress;
 
   if(res.result==='close'&&!quizRetrying){
@@ -1095,7 +1148,8 @@ async function checkAnswer(){
 async function skipWord(){
   const card=quizWords[quizIdx];
   const correct=quizDir===DIR_FWD?card.translation:card.word;
-  await apiPost('/api/check',{id:card.id,guess:'',correct,direction:quizDir});
+  const isRetentionCheck=!quizRetrying&&retentionDue(card);
+  await apiPost('/api/check',{id:card.id,guess:'',correct,direction:quizDir,retention_check:isRetentionCheck});
   progress=(await api('/api/progress')).progress;
   const score=quizRetrying?0.5:0;
   quizRetrying=false;
@@ -1964,6 +2018,7 @@ def make_vocab_blueprint(lang, check_fn=None):
         correct   = body.get("correct", "")
         direction = body.get("direction", "word→en")
         cid       = str(body.get("id", ""))
+        retention_check = bool(body.get("retention_check"))
         if check_fn:
             card   = _card_by_id(cid) if cid else {}
             result = check_fn(guess, correct, direction, card)
@@ -2014,6 +2069,9 @@ def make_vocab_blueprint(lang, check_fn=None):
             row.rev_window  = json.dumps(rev_window)
             row.spaced_days = spaced_days
             row.dirs        = json.dumps(dirs)
+            if retention_check:
+                row.retention_tier = (min((row.retention_tier or 0) + 1, 3)
+                                       if correct_bool else 0)
             db.session.commit()
         return jsonify({"result": result})
 

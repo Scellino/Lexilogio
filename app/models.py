@@ -57,6 +57,11 @@ class Progress(db.Model):
     last_day    = db.Column(db.String(10))            # ISO date "YYYY-MM-DD"
     spaced_days = db.Column(db.Integer, default=0)
     dirs        = db.Column(db.Text, default="[]")   # JSON string array
+    # How many long-interval retention checks a mastered word has survived in a
+    # row: 0=none yet, 1=passed the ~1-month check, 2=~3-month, 3=~1-year (then
+    # stays on the annual cadence). Resets to 0 the first time such a check is
+    # answered wrong. See [[project-lexilogio-roadmap]] "Review due" feature.
+    retention_tier = db.Column(db.Integer, default=0)
 
     __table_args__ = (
         db.UniqueConstraint("user_id", "lang_code", "card_id", name="uq_progress"),
@@ -69,6 +74,7 @@ class Progress(db.Model):
             "last_day":    self.last_day,
             "spaced_days": self.spaced_days or 0,
             "dirs":        json.loads(self.dirs or "[]"),
+            "retention_tier": self.retention_tier or 0,
         }
 
 

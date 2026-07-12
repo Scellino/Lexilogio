@@ -1,0 +1,388 @@
+word: mutter
+translation: mother
+type: noun
+group: 👨‍👩‍👧 Family & relationships
+pronunciation: /ˈmʊtɐ/
+example.de: Meine Mutter ruft jeden Sonntag an.
+example.en: My mother calls every Sunday.
+grammar.Gender: f
+grammar.Plural (with article): die Mütter
+grammar.Genitive singular: der Mutter
+note: Mama is the everyday, affectionate word.
+tags: ⭐ common, 👪 family
+priority: yes
+//
+word: vater
+translation: father
+type: noun
+group: 👨‍👩‍👧 Family & relationships
+pronunciation: /ˈfaːtɐ/
+example.de: Mein Vater arbeitet in München.
+example.en: My father works in Munich.
+grammar.Gender: m
+grammar.Plural (with article): die Väter
+grammar.Genitive singular: des Vaters
+note: Papa is the everyday, affectionate word.
+tags: ⭐ common, 👪 family
+priority: yes
+//
+word: eltern
+translation: parents
+type: noun
+group: 👨‍👩‍👧 Family & relationships
+pronunciation: /ˈɛltɐn/
+example.de: Meine Eltern wohnen noch im selben Haus.
+example.en: My parents still live in the same house.
+grammar.Gender: pl
+note: Only exists in the plural — there's no singular "ein Elter"; use Elternteil for "one parent."
+tags: ⭐ common, 👪 family
+priority: yes
+//
+word: schwester
+translation: sister
+type: noun
+group: 👨‍👩‍👧 Family & relationships
+pronunciation: /ˈʃvɛstɐ/
+example.de: Ich habe eine ältere Schwester.
+example.en: I have an older sister.
+grammar.Gender: f
+grammar.Plural (with article): die Schwestern
+grammar.Genitive singular: der Schwester
+tags: ⭐ common, 👪 family
+priority: yes
+//
+word: bruder
+translation: brother
+type: noun
+group: 👨‍👩‍👧 Family & relationships
+pronunciation: /ˈbʁuːdɐ/
+example.de: Ich habe einen Bruder und zwei Schwestern.
+example.en: I have one brother and two sisters.
+grammar.Gender: m
+grammar.Plural (with article): die Brüder
+grammar.Genitive singular: des Bruders
+tags: ⭐ common, 👪 family
+priority: yes
+//
+word: sohn
+translation: son
+type: noun
+group: 👨‍👩‍👧 Family & relationships
+pronunciation: /zoːn/
+example.de: Ihr Sohn studiert in Berlin.
+example.en: Their son studies in Berlin.
+grammar.Gender: m
+grammar.Plural (with article): die Söhne
+grammar.Genitive singular: des Sohnes
+tags: ⭐ common, 👪 family
+priority: yes
+//
+word: tochter
+translation: daughter
+type: noun
+group: 👨‍👩‍👧 Family & relationships
+pronunciation: /ˈtɔxtɐ/
+example.de: Unsere Tochter ist im Mai geboren.
+example.en: Our daughter was born in May.
+grammar.Gender: f
+grammar.Plural (with article): die Töchter
+grammar.Genitive singular: der Tochter
+tags: ⭐ common, 👪 family
+priority: yes
+//
+word: baby
+translation: baby
+type: noun
+group: 👨‍👩‍👧 Family & relationships
+pronunciation: /ˈbeːbi/
+example.de: Das Baby schläft endlich.
+example.en: The baby is finally sleeping.
+grammar.Gender: n
+grammar.Plural (with article): die Babys
+grammar.Genitive singular: des Babys
+tags: ⭐ common, 👪 family
+priority: yes
+//
+word: kind
+translation: child
+type: noun
+group: 👨‍👩‍👧 Family & relationships
+pronunciation: /kɪnt/
+example.de: Sie haben drei Kinder.
+example.en: They have three children.
+grammar.Gender: n
+grammar.Plural (with article): die Kinder
+grammar.Genitive singular: des Kindes
+tags: ⭐ common, 👪 family
+priority: yes
+//
+word: großmutter
+translation: grandmother
+type: noun
+group: 👨‍👩‍👧 Family & relationships
+pronunciation: /ˈɡʁoːsmʊtɐ/
+example.de: Meine Großmutter backt den besten Kuchen.
+example.en: My grandmother bakes the best cake.
+grammar.Gender: f
+grammar.Plural (with article): die Großmütter
+grammar.Genitive singular: der Großmutter
+note: Oma is the everyday word, used far more often than Großmutter.
+tags: ⭐ common, 👪 family
+priority: yes
+//
+word: großvater
+translation: grandfather
+type: noun
+group: 👨‍👩‍👧 Family & relationships
+pronunciation: /ˈɡʁoːsfaːtɐ/
+example.de: Mein Großvater erzählt immer Geschichten von früher.
+example.en: My grandfather always tells stories from the old days.
+grammar.Gender: m
+grammar.Plural (with article): die Großväter
+grammar.Genitive singular: des Großvaters
+note: Opa is the everyday word, used far more often than Großvater.
+tags: ⭐ common, 👪 family
+priority: yes
+//
+word: großeltern
+translation: grandparents
+type: noun
+group: 👨‍👩‍👧 Family & relationships
+pronunciation: /ˈɡʁoːsʔɛltɐn/
+example.de: Meine Großeltern kommen aus Bayern.
+example.en: My grandparents come from Bavaria.
+grammar.Gender: pl
+tags: 👪 family
+priority: yes
+//
+word: onkel
+translation: uncle
+type: noun
+group: 👨‍👩‍👧 Family & relationships
+pronunciation: /ˈɔŋkl̩/
+example.de: Onkel Peter kommt zu Besuch.
+example.en: Uncle Peter is coming to visit.
+grammar.Gender: m
+grammar.Plural (with article): die Onkel
+grammar.Genitive singular: des Onkels
+tags: ⭐ common, 👪 family
+priority: yes
+//
+word: tante
+translation: aunt
+type: noun
+group: 👨‍👩‍👧 Family & relationships
+pronunciation: /ˈtantə/
+example.de: Meine Tante wohnt gleich nebenan.
+example.en: My aunt lives right next door.
+grammar.Gender: f
+grammar.Plural (with article): die Tanten
+grammar.Genitive singular: der Tante
+tags: ⭐ common, 👪 family
+priority: yes
+//
+word: cousin
+translation: cousin (male)
+type: noun
+group: 👨‍👩‍👧 Family & relationships
+pronunciation: /kuˈzɛ̃/
+example.de: Mein Cousin ist genauso alt wie ich.
+example.en: My cousin is the same age as me.
+grammar.Gender: m
+grammar.Plural (with article): die Cousins
+grammar.Genitive singular: des Cousins
+note: Female form is Cousine (also spelled Kusine) — pronounced /kuˈziːnə/.
+tags: ⭐ common, 👪 family
+priority: yes
+//
+word: nichte
+translation: niece
+type: noun
+group: 👨‍👩‍👧 Family & relationships
+pronunciation: /ˈnɪçtə/
+example.de: Meine Nichte wurde gestern fünf.
+example.en: My niece turned five yesterday.
+grammar.Gender: f
+grammar.Plural (with article): die Nichten
+grammar.Genitive singular: der Nichte
+tags: ⭐ common, 👪 family
+priority: yes
+//
+word: neffe
+translation: nephew
+type: noun
+group: 👨‍👩‍👧 Family & relationships
+pronunciation: /ˈnɛfə/
+example.de: Mein Neffe hat gerade die Schule beendet.
+example.en: My nephew just finished school.
+grammar.Gender: m
+grammar.Plural (with article): die Neffen
+grammar.Genitive singular: des Neffen
+tags: ⭐ common, 👪 family
+priority: yes
+//
+word: ehemann
+translation: husband
+type: noun
+group: 👨‍👩‍👧 Family & relationships
+pronunciation: /ˈeːəman/
+example.de: Ihr Ehemann arbeitet im Ausland.
+example.en: Her husband works abroad.
+grammar.Gender: m
+grammar.Plural (with article): die Ehemänner
+grammar.Genitive singular: des Ehemannes
+note: In conversation, mein Mann ("my man/husband") is far more common than mein Ehemann.
+tags: ⭐ common, 💞 relationships
+priority: yes
+//
+word: ehefrau
+translation: wife
+type: noun
+group: 👨‍👩‍👧 Family & relationships
+pronunciation: /ˈeːəfʁaʊ̯/
+example.de: Seine Ehefrau ist Anwältin.
+example.en: His wife is a lawyer.
+grammar.Gender: f
+grammar.Plural (with article): die Ehefrauen
+grammar.Genitive singular: der Ehefrau
+note: In conversation, meine Frau ("my woman/wife") is far more common than meine Ehefrau.
+tags: ⭐ common, 💞 relationships
+priority: yes
+//
+word: partner
+translation: partner
+type: noun
+group: 👨‍👩‍👧 Family & relationships
+pronunciation: /ˈpaʁtnɐ/
+example.de: Sie kam mit ihrem Partner.
+example.en: She came with her partner.
+grammar.Gender: m
+grammar.Plural (with article): die Partner
+grammar.Genitive singular: des Partners
+note: Feminine form is Partnerin — the neutral, common word for a romantic partner of any gender combination.
+tags: 💞 relationships
+priority: yes
+//
+word: freund
+translation: friend, boyfriend
+type: noun
+group: 👨‍👩‍👧 Family & relationships
+pronunciation: /fʁɔɪ̯nt/
+example.de: Er ist ein guter Freund von mir.
+example.en: He is a good friend of mine.
+grammar.Gender: m
+grammar.Plural (with article): die Freunde
+grammar.Genitive singular: des Freundes
+note: Mein Freund with a possessive usually means "boyfriend"; ein Freund (indefinite) means "a friend." Same ambiguity as Dutch and French.
+tags: ⭐ common, 💞 relationships
+priority: yes
+//
+word: freundin
+translation: friend (female), girlfriend
+type: noun
+group: 👨‍👩‍👧 Family & relationships
+pronunciation: /ˈfʁɔɪ̯ndɪn/
+example.de: Meine Freundin und ich wohnen zusammen.
+example.en: My girlfriend and I live together.
+grammar.Gender: f
+grammar.Plural (with article): die Freundinnen
+grammar.Genitive singular: der Freundin
+note: Same possessive ambiguity as Freund — meine Freundin usually means "girlfriend."
+tags: ⭐ common, 💞 relationships
+priority: yes
+//
+word: kollege
+translation: colleague
+type: noun
+group: 👨‍👩‍👧 Family & relationships
+pronunciation: /kɔˈleːɡə/
+example.de: Mein Kollege hilft mir bei dem Projekt.
+example.en: My colleague is helping me with the project.
+grammar.Gender: m
+grammar.Plural (with article): die Kollegen
+grammar.Genitive singular: des Kollegen
+note: Feminine form is Kollegin.
+tags: 💞 relationships
+priority: yes
+//
+word: nachbar
+translation: neighbor
+type: noun
+group: 👨‍👩‍👧 Family & relationships
+pronunciation: /ˈnaːxbaːɐ̯/
+example.de: Unser Nachbar hat die Pakete angenommen.
+example.en: Our neighbor took in our parcels.
+grammar.Gender: m
+grammar.Plural (with article): die Nachbarn
+grammar.Genitive singular: des Nachbarn
+note: Feminine form is Nachbarin.
+tags: ⭐ common, 💞 relationships
+priority: yes
+//
+word: fester freund
+translation: boyfriend
+type: noun
+group: 👨‍👩‍👧 Family & relationships
+pronunciation: /ˈfɛstɐ fʁɔɪ̯nt/
+example.de: Sie hat einen festen Freund.
+example.en: She has a boyfriend.
+note: Literally "steady friend" — used to be unambiguous when just saying Freund isn't clear enough from context.
+tags: 💞 relationships
+priority: yes
+//
+word: feste freundin
+translation: girlfriend
+type: noun
+group: 👨‍👩‍👧 Family & relationships
+pronunciation: /ˈfɛstə ˈfʁɔɪ̯ndɪn/
+example.de: Er hat seit einem Jahr eine feste Freundin.
+example.en: He's had a girlfriend for a year.
+note: Literally "steady girlfriend" — the unambiguous alternative to plain Freundin.
+tags: 💞 relationships
+priority: yes
+//
+word: verheiratet
+translation: married
+type: adjective
+group: 👨‍👩‍👧 Family & relationships
+pronunciation: /fɛɐ̯haɪ̯ˈʁaːtət/
+example.de: Sie sind seit zehn Jahren verheiratet.
+example.en: They've been married for ten years.
+etymology: From heiraten (to marry) + ver- prefix.
+tags: ⭐ common, 💞 relationships
+priority: yes
+//
+word: geschieden
+translation: divorced
+type: adjective
+group: 👨‍👩‍👧 Family & relationships
+pronunciation: /ɡəˈʃiːdn̩/
+example.de: Meine Eltern sind geschieden.
+example.en: My parents are divorced.
+etymology: From scheiden (to separate/divorce).
+tags: 💞 relationships
+priority: yes
+//
+word: ledig
+translation: single
+type: adjective
+group: 👨‍👩‍👧 Family & relationships
+pronunciation: /ˈleːdɪç/
+example.de: Er ist seit Jahren ledig.
+example.en: He's been single for years.
+note: Solo or Single (the English loanword) are common alternatives in casual speech.
+tags: 💞 relationships
+priority: yes
+//
+word: familie
+translation: family
+type: noun
+group: 👨‍👩‍👧 Family & relationships
+pronunciation: /faˈmiːli̯ə/
+example.de: Meine ganze Familie kommt zu Weihnachten.
+example.en: My whole family comes at Christmas.
+grammar.Gender: f
+grammar.Plural (with article): die Familien
+grammar.Genitive singular: der Familie
+tags: ⭐ common, 👪 family
+priority: yes

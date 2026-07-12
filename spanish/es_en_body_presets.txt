@@ -1,0 +1,532 @@
+word: cabeza
+translation: head
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /kaˈβeθa/
+example.es: Me duele la cabeza.
+example.en: My head hurts.
+grammar.Gender: f
+grammar.Plural: cabezas
+tags: ⭐ common, 🩺 body
+priority: yes
+//
+word: ojo
+translation: eye
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /ˈoxo/
+example.es: Tiene los ojos azules.
+example.en: She has blue eyes.
+grammar.Gender: m
+grammar.Plural: ojos
+tags: ⭐ common, 🩺 body
+priority: yes
+//
+word: oreja
+translation: ear
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /oˈɾexa/
+example.es: No oigo bien de esta oreja.
+example.en: I don't hear well from this ear.
+grammar.Gender: f
+grammar.Plural: orejas
+note: Oreja is the outer, visible ear; oído refers to the inner ear and the sense of hearing.
+tags: ⭐ common, 🩺 body
+priority: yes
+//
+word: nariz
+translation: nose
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /naˈɾiθ/
+example.es: Tengo la nariz tapada.
+example.en: My nose is blocked.
+grammar.Gender: f
+grammar.Plural: narices
+tags: ⭐ common, 🩺 body
+priority: yes
+//
+word: boca
+translation: mouth
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /ˈboka/
+example.es: Abre la boca, por favor.
+example.en: Open your mouth, please.
+grammar.Gender: f
+grammar.Plural: bocas
+tags: ⭐ common, 🩺 body
+priority: yes
+//
+word: diente
+translation: tooth
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /ˈdjente/
+example.es: Me duele un diente.
+example.en: I have a toothache.
+grammar.Gender: m
+grammar.Plural: dientes
+note: El dentista (the dentist) treats los dientes.
+tags: ⭐ common, 🩺 body
+priority: yes
+//
+word: lengua
+translation: tongue, language
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /ˈleŋɡwa/
+example.es: El médico te mira la lengua.
+example.en: The doctor looks at your tongue.
+grammar.Gender: f
+grammar.Plural: lenguas
+note: Same word for the body part and for a spoken language — lengua materna means "mother tongue."
+tags: 🩺 body
+priority: yes
+//
+word: cuello
+translation: neck
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /ˈkweʎo/
+example.es: Tengo el cuello rígido.
+example.en: My neck is stiff.
+grammar.Gender: m
+grammar.Plural: cuellos
+note: Also means the collar of a shirt.
+tags: 🩺 body
+priority: yes
+//
+word: hombro
+translation: shoulder
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /ˈombɾo/
+example.es: Llevaba la bolsa al hombro.
+example.en: He carried the bag on his shoulder.
+grammar.Gender: m
+grammar.Plural: hombros
+tags: 🩺 body
+priority: yes
+//
+word: brazo
+translation: arm
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /ˈbɾaθo/
+example.es: Se rompió el brazo esquiando.
+example.en: She broke her arm while skiing.
+grammar.Gender: m
+grammar.Plural: brazos
+tags: ⭐ common, 🩺 body
+priority: yes
+//
+word: codo
+translation: elbow
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /ˈkoðo/
+example.es: Me golpeé el codo con la puerta.
+example.en: I bumped my elbow on the door.
+grammar.Gender: m
+grammar.Plural: codos
+tags: 🩺 body
+priority: yes
+//
+word: muñeca
+translation: wrist
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /muˈɲeka/
+example.es: Lleva un reloj en la muñeca.
+example.en: She wears a watch on her wrist.
+grammar.Gender: f
+grammar.Plural: muñecas
+note: Also the word for "doll" — the same word covers both meanings in Spanish.
+tags: 🩺 body
+priority: yes
+//
+word: mano
+translation: hand
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /ˈmano/
+example.es: Lávate las manos antes de comer.
+example.en: Wash your hands before eating.
+grammar.Gender: f
+grammar.Plural: manos
+note: Ends in -o but is feminine — one of the classic exceptions to Spanish's usual gender-by-ending pattern.
+tags: ⭐ common, 🩺 body
+priority: yes
+//
+word: dedo
+translation: finger
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /ˈdeðo/
+example.es: Me corté el dedo.
+example.en: I cut my finger.
+grammar.Gender: m
+grammar.Plural: dedos
+note: Also used for toes — dedo del pie specifies "finger of the foot."
+tags: ⭐ common, 🩺 body
+priority: yes
+//
+word: pulgar
+translation: thumb
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /pulˈɣaɾ/
+example.es: El bebé se chupa el pulgar.
+example.en: The baby sucks its thumb.
+grammar.Gender: m
+grammar.Plural: pulgares
+tags: 🩺 body
+priority: yes
+//
+word: espalda
+translation: back
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /esˈpalda/
+example.es: Me duele la espalda.
+example.en: My back hurts.
+grammar.Gender: f
+grammar.Plural: espaldas
+tags: ⭐ common, 🩺 body
+priority: yes
+//
+word: pecho
+translation: chest
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /ˈpetʃo/
+example.es: El médico te ausculta el pecho.
+example.en: The doctor listens to your chest.
+grammar.Gender: m
+grammar.Plural: pechos
+tags: 🩺 body
+priority: yes
+//
+word: estómago
+translation: stomach
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /esˈtomaɣo/
+example.es: Me duele el estómago.
+example.en: I have a stomachache.
+grammar.Gender: m
+grammar.Plural: estómagos
+note: Barriga is the everyday, more casual word for belly.
+tags: ⭐ common, 🩺 body
+priority: yes
+//
+word: pierna
+translation: leg
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /ˈpjeɾna/
+example.es: Se rompió la pierna jugando al fútbol.
+example.en: He broke his leg playing football.
+grammar.Gender: f
+grammar.Plural: piernas
+tags: ⭐ common, 🩺 body
+priority: yes
+//
+word: rodilla
+translation: knee
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /roˈðiʎa/
+example.es: Me duele la rodilla después de correr.
+example.en: My knee hurts after running.
+grammar.Gender: f
+grammar.Plural: rodillas
+tags: ⭐ common, 🩺 body
+priority: yes
+//
+word: tobillo
+translation: ankle
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /toˈβiʎo/
+example.es: Se torció el tobillo.
+example.en: She sprained her ankle.
+grammar.Gender: m
+grammar.Plural: tobillos
+tags: 🩺 body
+priority: yes
+//
+word: pie
+translation: foot
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /pje/
+example.es: Vamos a pie al centro.
+example.en: We're walking to the centre on foot.
+grammar.Gender: m
+grammar.Plural: pies
+tags: ⭐ common, 🩺 body
+priority: yes
+//
+word: dedo del pie
+translation: toe
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /ˈdeðo ðel pje/
+example.es: Me golpeé el dedo del pie pequeño.
+example.en: I stubbed my little toe.
+note: Literally "finger of the foot" — Spanish uses one word (dedo) for both fingers and toes.
+tags: 🩺 body
+priority: yes
+//
+word: piel
+translation: skin
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /pjel/
+example.es: Ponte crema solar en la piel.
+example.en: Put sunscreen on your skin.
+grammar.Gender: f
+grammar.Plural: pieles
+tags: 🩺 body
+priority: yes
+//
+word: pelo
+translation: hair
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /ˈpelo/
+example.es: Tiene el pelo largo y rubio.
+example.en: She has long, blonde hair.
+grammar.Gender: m
+grammar.Plural: pelos
+note: Cabello is a more formal synonym, often used for describing hairstyles.
+tags: ⭐ common, 🩺 body
+priority: yes
+//
+word: corazón
+translation: heart
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /koɾaˈθon/
+example.es: Mi corazón late rápido después de correr.
+example.en: My heart beats fast after running.
+grammar.Gender: m
+grammar.Plural: corazones
+tags: ⭐ common, 🩺 body
+priority: yes
+//
+word: pulmón
+translation: lung
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /pulˈmon/
+example.es: Fumar daña los pulmones.
+example.en: Smoking damages the lungs.
+grammar.Gender: m
+grammar.Plural: pulmones
+tags: 🩺 body
+priority: yes
+//
+word: sangre
+translation: blood
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /ˈsaŋɡɾe/
+example.es: La enfermera saca un poco de sangre.
+example.en: The nurse draws some blood.
+grammar.Gender: f
+tags: ⭐ common, 🩺 body
+priority: yes
+//
+word: hueso
+translation: bone
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /ˈweso/
+example.es: Por suerte no hay ningún hueso roto.
+example.en: Luckily no bone is broken.
+grammar.Gender: m
+grammar.Plural: huesos
+tags: 🩺 body
+priority: yes
+//
+word: médico
+translation: doctor
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /ˈmeðiko/
+example.es: Tengo que ir al médico.
+example.en: I have to see the doctor.
+grammar.Gender: m
+grammar.Plural: médicos
+note: Feminine form is médica. Doctor/doctora is also common, especially as a title of address.
+tags: ⭐ common, 🩺 medical
+priority: yes
+//
+word: enfermera
+translation: nurse
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /emfeɾˈmeɾa/
+example.es: La enfermera te pone una inyección.
+example.en: The nurse gives you an injection.
+grammar.Gender: f
+grammar.Plural: enfermeras
+note: Masculine form is enfermero.
+tags: 🩺 medical
+priority: yes
+//
+word: hospital
+translation: hospital
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /ospiˈtal/
+example.es: Está ingresado en el hospital.
+example.en: He is in hospital.
+grammar.Gender: m
+grammar.Plural: hospitales
+tags: ⭐ common, 🩺 medical
+priority: yes
+//
+word: farmacia
+translation: pharmacy
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /faɾˈmaθja/
+example.es: Puedes comprar la medicina en la farmacia.
+example.en: You can buy the medicine at the pharmacy.
+grammar.Gender: f
+grammar.Plural: farmacias
+note: Recognizable by the green cross sign — very common across Spanish and Latin American cities.
+tags: ⭐ common, 🩺 medical
+priority: yes
+//
+word: medicina
+translation: medicine
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /meðiˈθina/
+example.es: Toma esta medicina dos veces al día.
+example.en: Take this medicine twice a day.
+grammar.Gender: f
+grammar.Plural: medicinas
+note: Also means "medicine" as the academic field — estudiar medicina (to study medicine).
+tags: ⭐ common, 🩺 medical
+priority: yes
+//
+word: dolor
+translation: pain
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /doˈloɾ/
+example.es: ¿Dónde le duele?
+example.en: Where does it hurt?
+grammar.Gender: m
+grammar.Plural: dolores
+note: Compounds freely — dolor de cabeza (headache), dolor de estómago (stomachache), dolor de espalda (backache).
+tags: ⭐ common, 🩺 medical
+priority: yes
+//
+word: fiebre
+translation: fever
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /ˈfjeβɾe/
+example.es: Tiene 39 grados de fiebre.
+example.en: She has a fever of 39 degrees.
+grammar.Gender: f
+tags: ⭐ common, 🩺 medical
+priority: yes
+//
+word: enfermo
+translation: ill, sick
+type: adjective
+group: 🩺 Body & Doctor
+pronunciation: /emˈfeɾmo/
+example.es: Estoy enfermo y me quedo en casa hoy.
+example.en: I'm ill and I'm staying home today.
+grammar.Feminine form: enferma
+grammar.Plural (masc.): enfermos
+note: Estar enfermo (temporary illness) contrasts with ser + adjective for permanent traits — a classic ser/estar distinction.
+tags: ⭐ common, 🩺 medical
+priority: yes
+//
+word: cita
+translation: appointment
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /ˈθita/
+example.es: Tengo una cita con el médico mañana.
+example.en: I have a doctor's appointment tomorrow.
+grammar.Gender: f
+grammar.Plural: citas
+note: Also means "date" in a romantic sense — context makes the meaning clear.
+tags: ⭐ common, 🩺 medical
+priority: yes
+//
+word: alergia
+translation: allergy
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /aˈleɾxja/
+example.es: Tengo alergia a los frutos secos.
+example.en: I have a nut allergy.
+grammar.Gender: f
+grammar.Plural: alergias
+note: Alérgico a means "allergic to."
+tags: 🩺 medical
+priority: yes
+//
+word: síntoma
+translation: symptom
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /ˈsintoma/
+example.es: ¿Cuáles son los síntomas?
+example.en: What are the symptoms?
+grammar.Gender: m
+grammar.Plural: síntomas
+note: Ends in -a but is masculine — like several Greek-derived words (el problema, el sistema, el idioma).
+tags: 🩺 medical
+priority: yes
+//
+word: inyección
+translation: injection
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /iɲjekˈθjon/
+example.es: Al bebé le ponen una inyección hoy.
+example.en: The baby gets an injection today.
+grammar.Gender: f
+grammar.Plural: inyecciones
+tags: 🩺 medical
+priority: yes
+//
+word: receta
+translation: prescription
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /reˈθeta/
+example.es: Este medicamento es solo con receta.
+example.en: This medicine is only available on prescription.
+grammar.Gender: f
+grammar.Plural: recetas
+note: Also means "recipe" — the same double meaning appears in French, Dutch, Greek, and German.
+tags: 🩺 medical
+priority: yes
+//
+word: ambulancia
+translation: ambulance
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /ambuˈlanθja/
+example.es: ¡Llama a una ambulancia!
+example.en: Call an ambulance!
+grammar.Gender: f
+grammar.Plural: ambulancias
+note: The emergency number across Spain and the EU is 112.
+tags: ⭐ common, 🩺 medical
+priority: yes

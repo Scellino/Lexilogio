@@ -1,0 +1,660 @@
+word: eins
+translation: one
+type: numeral
+group: 🕐 Numbers & time
+pronunciation: /aɪ̯ns/
+example.de: Ich habe nur eins.
+example.en: I only have one.
+note: Eins is used when counting alone; before a noun it becomes ein/eine (ein Buch, eine Frau) depending on gender.
+tags: ⭐ common, 🔢 numbers
+priority: yes
+//
+word: zwei
+translation: two
+type: numeral
+group: 🕐 Numbers & time
+pronunciation: /tsvaɪ̯/
+example.de: Zwei Kaffee, bitte.
+example.en: Two coffees, please.
+tags: ⭐ common, 🔢 numbers
+priority: yes
+//
+word: drei
+translation: three
+type: numeral
+group: 🕐 Numbers & time
+pronunciation: /dʁaɪ̯/
+example.de: Wir sind zu dritt.
+example.en: There are three of us.
+tags: ⭐ common, 🔢 numbers
+priority: yes
+//
+word: vier
+translation: four
+type: numeral
+group: 🕐 Numbers & time
+pronunciation: /fiːɐ̯/
+example.de: Der Zug fährt um vier Uhr.
+example.en: The train leaves at four o'clock.
+tags: ⭐ common, 🔢 numbers
+priority: yes
+//
+word: fünf
+translation: five
+type: numeral
+group: 🕐 Numbers & time
+pronunciation: /fʏnf/
+example.de: Noch fünf Minuten warten.
+example.en: Five more minutes to wait.
+tags: ⭐ common, 🔢 numbers
+priority: yes
+//
+word: sechs
+translation: six
+type: numeral
+group: 🕐 Numbers & time
+pronunciation: /zɛks/
+example.de: Das Fest beginnt um sechs Uhr.
+example.en: The party starts at six.
+tags: ⭐ common, 🔢 numbers
+priority: yes
+//
+word: sieben
+translation: seven
+type: numeral
+group: 🕐 Numbers & time
+pronunciation: /ˈziːbn̩/
+example.de: Eine Woche hat sieben Tage.
+example.en: A week has seven days.
+tags: ⭐ common, 🔢 numbers
+priority: yes
+//
+word: acht
+translation: eight
+type: numeral
+group: 🕐 Numbers & time
+pronunciation: /axt/
+example.de: Ich arbeite acht Stunden am Tag.
+example.en: I work eight hours a day.
+tags: ⭐ common, 🔢 numbers
+priority: yes
+//
+word: neun
+translation: nine
+type: numeral
+group: 🕐 Numbers & time
+pronunciation: /nɔɪ̯n/
+example.de: Der Laden öffnet um neun Uhr.
+example.en: The shop opens at nine.
+tags: ⭐ common, 🔢 numbers
+priority: yes
+//
+word: zehn
+translation: ten
+type: numeral
+group: 🕐 Numbers & time
+pronunciation: /tseːn/
+example.de: Zähl bis zehn und atme tief durch.
+example.en: Count to ten and take a deep breath.
+tags: ⭐ common, 🔢 numbers
+priority: yes
+//
+word: zwanzig
+translation: twenty
+type: numeral
+group: 🕐 Numbers & time
+pronunciation: /ˈtsvantsɪç/
+example.de: Das kostet zwanzig Euro.
+example.en: It costs twenty euros.
+note: German builds compound numbers backwards from 21: einundzwanzig is literally "one-and-twenty."
+tags: ⭐ common, 🔢 numbers
+priority: yes
+//
+word: dreißig
+translation: thirty
+type: numeral
+group: 🕐 Numbers & time
+pronunciation: /ˈdʁaɪ̯sɪç/
+example.de: Er ist dreißig Jahre alt.
+example.en: He is thirty years old.
+note: Irregular ending -ßig instead of the usual -zig.
+tags: 🔢 numbers
+priority: yes
+//
+word: vierzig
+translation: forty
+type: numeral
+group: 🕐 Numbers & time
+pronunciation: /ˈfɪɐ̯tsɪç/
+example.de: Die Stunde dauert vierzig Minuten.
+example.en: The lesson lasts forty minutes.
+tags: 🔢 numbers
+priority: yes
+//
+word: fünfzig
+translation: fifty
+type: numeral
+group: 🕐 Numbers & time
+pronunciation: /ˈfʏnftsɪç/
+example.de: Höchstens fünfzig Kilometer pro Stunde.
+example.en: Fifty kilometres per hour maximum.
+tags: 🔢 numbers
+priority: yes
+//
+word: sechzig
+translation: sixty
+type: numeral
+group: 🕐 Numbers & time
+pronunciation: /ˈzɛçtsɪç/
+example.de: Eine Stunde hat sechzig Minuten.
+example.en: An hour has sixty minutes.
+note: Note the spelling sechzig, not "sechszig" — the s drops before -zig.
+tags: 🔢 numbers
+priority: yes
+//
+word: siebzig
+translation: seventy
+type: numeral
+group: 🕐 Numbers & time
+pronunciation: /ˈziːptsɪç/
+example.de: Meine Oma ist siebzig geworden.
+example.en: My grandma turned seventy.
+note: Spelled siebzig, not "siebenzig" — the -en drops before -zig.
+tags: 🔢 numbers
+priority: yes
+//
+word: achtzig
+translation: eighty
+type: numeral
+group: 🕐 Numbers & time
+pronunciation: /ˈaxtsɪç/
+example.de: Er ist über achtzig und noch fit.
+example.en: He is over eighty and still fit.
+tags: 🔢 numbers
+priority: yes
+//
+word: neunzig
+translation: ninety
+type: numeral
+group: 🕐 Numbers & time
+pronunciation: /ˈnɔɪ̯ntsɪç/
+example.de: Sie ist neunzig und lebt allein.
+example.en: She is ninety and lives alone.
+tags: 🔢 numbers
+priority: yes
+//
+word: hundert
+translation: hundred
+type: numeral
+group: 🕐 Numbers & time
+pronunciation: /ˈhʊndɐt/
+example.de: Mehr als hundert Leute kamen.
+example.en: More than a hundred people came.
+tags: ⭐ common, 🔢 numbers
+priority: yes
+//
+word: tausend
+translation: thousand
+type: numeral
+group: 🕐 Numbers & time
+pronunciation: /ˈtaʊ̯zn̩t/
+example.de: Die Stadt ist tausend Jahre alt.
+example.en: The city is a thousand years old.
+tags: 🔢 numbers
+priority: yes
+//
+word: million
+translation: million
+type: numeral
+group: 🕐 Numbers & time
+pronunciation: /mɪˈljoːn/
+example.de: Berlin hat fast vier Millionen Einwohner.
+example.en: Berlin has almost four million inhabitants.
+grammar.Gender: f
+grammar.Plural (with article): die Millionen
+grammar.Genitive singular: der Million
+note: Unlike the numerals below a hundred, Million is a real noun — it takes an article and a plural ending.
+tags: 🔢 numbers
+priority: yes
+//
+word: erste
+translation: first
+type: adjective
+group: 🕐 Numbers & time
+pronunciation: /ˈeːɐ̯stə/
+example.de: Das ist meine erste Deutschstunde.
+example.en: This is my first German lesson.
+note: Ordinal adjectives take regular adjective endings — erste, erster, erstes depending on gender and case.
+tags: ⭐ common, 🔢 numbers
+priority: yes
+//
+word: zweite
+translation: second
+type: adjective
+group: 🕐 Numbers & time
+pronunciation: /ˈtsvaɪ̯tə/
+example.de: Wir wohnen im zweiten Stock.
+example.en: We live on the second floor.
+tags: 🔢 numbers
+priority: yes
+//
+word: dritte
+translation: third
+type: adjective
+group: 🕐 Numbers & time
+pronunciation: /ˈdʁɪtə/
+example.de: Das ist schon das dritte Mal diese Woche.
+example.en: It's already the third time this week.
+tags: 🔢 numbers
+priority: yes
+//
+word: montag
+translation: Monday
+type: noun
+group: 🕐 Numbers & time
+pronunciation: /ˈmoːntaːk/
+example.de: Am Montag fange ich früh an.
+example.en: On Monday I start early.
+grammar.Gender: m
+grammar.Plural (with article): die Montage
+grammar.Genitive singular: des Montags
+note: Days of the week are always capitalized nouns in German.
+tags: ⭐ common, 🕐 time
+priority: yes
+//
+word: dienstag
+translation: Tuesday
+type: noun
+group: 🕐 Numbers & time
+pronunciation: /ˈdiːnstaːk/
+example.de: Dienstags ist Markt in der Stadt.
+example.en: On Tuesdays there's a market in town.
+grammar.Gender: m
+grammar.Plural (with article): die Dienstage
+grammar.Genitive singular: des Dienstags
+tags: ⭐ common, 🕐 time
+priority: yes
+//
+word: mittwoch
+translation: Wednesday
+type: noun
+group: 🕐 Numbers & time
+pronunciation: /ˈmɪtvɔx/
+example.de: Mittwochnachmittag haben die Kinder frei.
+example.en: On Wednesday afternoon the kids are off school.
+grammar.Gender: m
+grammar.Plural (with article): die Mittwoche
+grammar.Genitive singular: des Mittwochs
+etymology: Literally "mid-week" — from Mitte (middle) + Woche (week).
+tags: ⭐ common, 🕐 time
+priority: yes
+//
+word: donnerstag
+translation: Thursday
+type: noun
+group: 🕐 Numbers & time
+pronunciation: /ˈdɔnɐstaːk/
+example.de: Donnerstag habe ich einen Termin.
+example.en: On Thursday I have an appointment.
+grammar.Gender: m
+grammar.Plural (with article): die Donnerstage
+grammar.Genitive singular: des Donnerstags
+etymology: "Donar's day" — named after the Germanic thunder god (cf. English Thursday/Thor).
+tags: ⭐ common, 🕐 time
+priority: yes
+//
+word: freitag
+translation: Friday
+type: noun
+group: 🕐 Numbers & time
+pronunciation: /ˈfʁaɪ̯taːk/
+example.de: Freitagabend gehen wir oft aus.
+example.en: On Friday evening we often go out.
+grammar.Gender: m
+grammar.Plural (with article): die Freitage
+grammar.Genitive singular: des Freitags
+tags: ⭐ common, 🕐 time
+priority: yes
+//
+word: samstag
+translation: Saturday
+type: noun
+group: 🕐 Numbers & time
+pronunciation: /ˈzamstaːk/
+example.de: Samstags gehen wir einkaufen.
+example.en: On Saturdays we go shopping.
+grammar.Gender: m
+grammar.Plural (with article): die Samstage
+grammar.Genitive singular: des Samstags
+note: Southern Germany, Austria, and Switzerland say Samstag; much of northern Germany prefers Sonnabend.
+tags: ⭐ common, 🕐 time
+priority: yes
+//
+word: sonntag
+translation: Sunday
+type: noun
+group: 🕐 Numbers & time
+pronunciation: /ˈzɔntaːk/
+example.de: Am Sonntag sind die meisten Geschäfte zu.
+example.en: On Sunday most shops are closed.
+grammar.Gender: m
+grammar.Plural (with article): die Sonntage
+grammar.Genitive singular: des Sonntags
+tags: ⭐ common, 🕐 time
+priority: yes
+//
+word: januar
+translation: January
+type: noun
+group: 🕐 Numbers & time
+pronunciation: /ˈjanuaːɐ̯/
+example.de: Im Januar ist es kalt.
+example.en: In January it is cold.
+grammar.Gender: m
+grammar.Genitive singular: des Januars
+tags: 🕐 time
+priority: yes
+//
+word: februar
+translation: February
+type: noun
+group: 🕐 Numbers & time
+pronunciation: /ˈfeːbʁuaːɐ̯/
+example.de: Februar ist der kürzeste Monat.
+example.en: February is the shortest month.
+grammar.Gender: m
+grammar.Genitive singular: des Februars
+tags: 🕐 time
+priority: yes
+//
+word: märz
+translation: March
+type: noun
+group: 🕐 Numbers & time
+pronunciation: /mɛɐ̯ts/
+example.de: Im März beginnt der Frühling.
+example.en: Spring begins in March.
+grammar.Gender: m
+grammar.Genitive singular: des März
+etymology: Named after Mars, the Roman god of war — the same root as English "March."
+tags: 🕐 time
+priority: yes
+//
+word: april
+translation: April
+type: noun
+group: 🕐 Numbers & time
+pronunciation: /aˈpʁɪl/
+example.de: Im April blühen die Tulpen.
+example.en: In April the tulips bloom.
+grammar.Gender: m
+grammar.Genitive singular: des Aprils
+tags: 🕐 time
+priority: yes
+//
+word: mai
+translation: May
+type: noun
+group: 🕐 Numbers & time
+pronunciation: /maɪ̯/
+example.de: Der erste Mai ist ein Feiertag.
+example.en: The first of May is a public holiday.
+grammar.Gender: m
+grammar.Genitive singular: des Mai
+tags: 🕐 time
+priority: yes
+//
+word: juni
+translation: June
+type: noun
+group: 🕐 Numbers & time
+pronunciation: /ˈjuːni/
+example.de: Im Juni sind die Tage am längsten.
+example.en: In June the days are longest.
+grammar.Gender: m
+grammar.Genitive singular: des Juni
+tags: 🕐 time
+priority: yes
+//
+word: juli
+translation: July
+type: noun
+group: 🕐 Numbers & time
+pronunciation: /ˈjuːli/
+example.de: Im Juli beginnen die Sommerferien.
+example.en: The summer holidays start in July.
+grammar.Gender: m
+grammar.Genitive singular: des Juli
+tags: 🕐 time
+priority: yes
+//
+word: august
+translation: August
+type: noun
+group: 🕐 Numbers & time
+pronunciation: /aʊ̯ˈɡʊst/
+example.de: Im August ist es oft heiß.
+example.en: In August it is often hot.
+grammar.Gender: m
+grammar.Genitive singular: des August
+tags: 🕐 time
+priority: yes
+//
+word: september
+translation: September
+type: noun
+group: 🕐 Numbers & time
+pronunciation: /zɛpˈtɛmbɐ/
+example.de: Im September beginnt das Schuljahr.
+example.en: The school year starts in September.
+grammar.Gender: m
+grammar.Genitive singular: des September
+tags: 🕐 time
+priority: yes
+//
+word: oktober
+translation: October
+type: noun
+group: 🕐 Numbers & time
+pronunciation: /ɔkˈtoːbɐ/
+example.de: Im Oktober fallen die Blätter.
+example.en: In October the leaves fall.
+grammar.Gender: m
+grammar.Genitive singular: des Oktober
+tags: 🕐 time
+priority: yes
+//
+word: november
+translation: November
+type: noun
+group: 🕐 Numbers & time
+pronunciation: /noˈvɛmbɐ/
+example.de: Im November regnet es viel.
+example.en: In November it rains a lot.
+grammar.Gender: m
+grammar.Genitive singular: des November
+tags: 🕐 time
+priority: yes
+//
+word: dezember
+translation: December
+type: noun
+group: 🕐 Numbers & time
+pronunciation: /deˈtsɛmbɐ/
+example.de: Im Dezember feiern wir Weihnachten.
+example.en: In December we celebrate Christmas.
+grammar.Gender: m
+grammar.Genitive singular: des Dezember
+tags: 🕐 time
+priority: yes
+//
+word: vormittag
+translation: morning
+type: noun
+group: 🕐 Numbers & time
+pronunciation: /ˈfoːɐ̯mɪtaːk/
+example.de: Ich trainiere immer am Vormittag.
+example.en: I always exercise in the morning.
+grammar.Gender: m
+grammar.Plural (with article): die Vormittage
+grammar.Genitive singular: des Vormittags
+note: Vormittag is specifically the morning-into-midday stretch; der Morgen covers early morning only, right after waking.
+tags: ⭐ common, 🕐 time
+priority: yes
+//
+word: nachmittag
+translation: afternoon
+type: noun
+group: 🕐 Numbers & time
+pronunciation: /ˈnaːxmɪtaːk/
+example.de: Am Nachmittag trinke ich keinen Kaffee mehr.
+example.en: In the afternoon I don't drink coffee anymore.
+grammar.Gender: m
+grammar.Plural (with article): die Nachmittage
+grammar.Genitive singular: des Nachmittags
+tags: ⭐ common, 🕐 time
+priority: yes
+//
+word: abend
+translation: evening
+type: noun
+group: 🕐 Numbers & time
+pronunciation: /ˈaːbn̩t/
+example.de: Heute Abend bleiben wir zu Hause.
+example.en: Tonight we're staying home.
+grammar.Gender: m
+grammar.Plural (with article): die Abende
+grammar.Genitive singular: des Abends
+note: Heute Abend means "tonight" — German has no separate word for it.
+tags: ⭐ common, 🕐 time
+priority: yes
+//
+word: nacht
+translation: night
+type: noun
+group: 🕐 Numbers & time
+pronunciation: /naxt/
+example.de: Das Baby schlief die ganze Nacht durch.
+example.en: The baby slept through the whole night.
+grammar.Gender: f
+grammar.Plural (with article): die Nächte
+grammar.Genitive singular: der Nacht
+tags: ⭐ common, 🕐 time
+priority: yes
+//
+word: heute
+translation: today
+type: adverb
+group: 🕐 Numbers & time
+pronunciation: /ˈhɔɪ̯tə/
+example.de: Heute arbeite ich von zu Hause.
+example.en: Today I work from home.
+tags: ⭐ common, 🕐 time
+priority: yes
+//
+word: morgen
+translation: tomorrow
+type: adverb
+group: 🕐 Numbers & time
+pronunciation: /ˈmɔʁɡn̩/
+example.de: Morgen gehe ich in die Stadt.
+example.en: Tomorrow I am going to the city.
+note: Easy to confuse with der Morgen (morning) — same word, but lowercase and unrelated to time-of-day when used this way.
+tags: ⭐ common, 🕐 time
+priority: yes
+//
+word: gestern
+translation: yesterday
+type: adverb
+group: 🕐 Numbers & time
+pronunciation: /ˈɡɛstɐn/
+example.de: Gestern habe ich einen Film gesehen.
+example.en: Yesterday I watched a movie.
+tags: ⭐ common, 🕐 time
+priority: yes
+//
+word: stunde
+translation: hour
+type: noun
+group: 🕐 Numbers & time
+pronunciation: /ˈʃtʊndə/
+example.de: Die Reise dauert zwei Stunden.
+example.en: The journey takes two hours.
+grammar.Gender: f
+grammar.Plural (with article): die Stunden
+grammar.Genitive singular: der Stunde
+note: Also means "lesson" in a school context — eine Stunde Deutsch (a German lesson).
+tags: ⭐ common, 🕐 time
+priority: yes
+//
+word: minute
+translation: minute
+type: noun
+group: 🕐 Numbers & time
+pronunciation: /miˈnuːtə/
+example.de: Es dauert noch fünf Minuten.
+example.en: It takes five more minutes.
+grammar.Gender: f
+grammar.Plural (with article): die Minuten
+grammar.Genitive singular: der Minute
+tags: ⭐ common, 🕐 time
+priority: yes
+//
+word: woche
+translation: week
+type: noun
+group: 🕐 Numbers & time
+pronunciation: /ˈvɔxə/
+example.de: Nächste Woche habe ich Urlaub.
+example.en: Next week I'm on holiday.
+grammar.Gender: f
+grammar.Plural (with article): die Wochen
+grammar.Genitive singular: der Woche
+tags: ⭐ common, 🕐 time
+priority: yes
+//
+word: monat
+translation: month
+type: noun
+group: 🕐 Numbers & time
+pronunciation: /ˈmoːnat/
+example.de: Ich wohne seit drei Monaten hier.
+example.en: I've been living here for three months.
+grammar.Gender: m
+grammar.Plural (with article): die Monate
+grammar.Genitive singular: des Monats
+tags: ⭐ common, 🕐 time
+priority: yes
+//
+word: jahr
+translation: year
+type: noun
+group: 🕐 Numbers & time
+pronunciation: /jaːɐ̯/
+example.de: Frohes neues Jahr!
+example.en: Happy New Year!
+grammar.Gender: n
+grammar.Plural (with article): die Jahre
+grammar.Genitive singular: des Jahres
+tags: ⭐ common, 🕐 time
+priority: yes
+//
+word: jetzt
+translation: now
+type: adverb
+group: 🕐 Numbers & time
+pronunciation: /jɛtst/
+example.de: Wir müssen jetzt los.
+example.en: We have to leave now.
+tags: ⭐ common, 🕐 time
+priority: yes
+//
+word: später
+translation: later
+type: adverb
+group: 🕐 Numbers & time
+pronunciation: /ˈʃpɛːtɐ/
+example.de: Ich rufe dich später zurück.
+example.en: I'll call you back later.
+tags: ⭐ common, 🕐 time
+priority: yes

@@ -1,0 +1,345 @@
+word: rot
+translation: red
+type: adjective
+group: 🎨 Colors & shapes
+pronunciation: /ʁoːt/
+example.de: Die Tulpen sind rot.
+example.en: The tulips are red.
+grammar.Comparative: röter
+grammar.Superlative: am rötesten
+tags: ⭐ common, 🎨 colors
+priority: yes
+//
+word: blau
+translation: blue
+type: adjective
+group: 🎨 Colors & shapes
+pronunciation: /blaʊ̯/
+example.de: Der Himmel ist heute strahlend blau.
+example.en: The sky is bright blue today.
+grammar.Comparative: blauer
+grammar.Superlative: am blauesten
+note: Blau machen (literally "to make blue") is a colloquial way of saying to skip work.
+tags: ⭐ common, 🎨 colors
+priority: yes
+//
+word: grün
+translation: green
+type: adjective
+group: 🎨 Colors & shapes
+pronunciation: /ɡʁyːn/
+example.de: Das Gras ist grün.
+example.en: The grass is green.
+grammar.Comparative: grüner
+grammar.Superlative: am grünsten
+tags: ⭐ common, 🎨 colors
+priority: yes
+//
+word: gelb
+translation: yellow
+type: adjective
+group: 🎨 Colors & shapes
+pronunciation: /ɡɛlp/
+example.de: Der Käse ist gelb.
+example.en: The cheese is yellow.
+grammar.Comparative: gelber
+grammar.Superlative: am gelbsten
+tags: ⭐ common, 🎨 colors
+priority: yes
+//
+word: orange
+translation: orange
+type: adjective
+group: 🎨 Colors & shapes
+pronunciation: /oˈʁɑ̃ːʒə/
+example.de: Sie trägt eine orange Jacke.
+example.en: She's wearing an orange jacket.
+note: A loanword from French — one of the few German color adjectives that doesn't inflect for gender/case in casual speech.
+tags: ⭐ common, 🎨 colors
+priority: yes
+//
+word: lila
+translation: purple
+type: adjective
+group: 🎨 Colors & shapes
+pronunciation: /ˈliːla/
+example.de: Sie hat einen lila Schal.
+example.en: She has a purple scarf.
+note: Indeclinable — lila never changes its ending regardless of gender or case.
+tags: 🎨 colors
+priority: yes
+//
+word: rosa
+translation: pink
+type: adjective
+group: 🎨 Colors & shapes
+pronunciation: /ˈʁoːza/
+example.de: Das Baby trägt ein rosa Kleidchen.
+example.en: The baby wears a pink dress.
+note: Also indeclinable, like lila — both stay unchanged before any noun.
+tags: 🎨 colors
+priority: yes
+//
+word: braun
+translation: brown
+type: adjective
+group: 🎨 Colors & shapes
+pronunciation: /bʁaʊ̯n/
+example.de: Er hat braune Augen.
+example.en: He has brown eyes.
+grammar.Comparative: brauner
+grammar.Superlative: am braunsten
+tags: ⭐ common, 🎨 colors
+priority: yes
+//
+word: schwarz
+translation: black
+type: adjective
+group: 🎨 Colors & shapes
+pronunciation: /ʃvaʁts/
+example.de: Er trinkt seinen Kaffee schwarz.
+example.en: He drinks his coffee black.
+grammar.Comparative: schwärzer
+grammar.Superlative: am schwärzesten
+tags: ⭐ common, 🎨 colors
+priority: yes
+//
+word: weiß
+translation: white
+type: adjective
+group: 🎨 Colors & shapes
+pronunciation: /vaɪ̯s/
+example.de: Im Winter ist das Dach manchmal weiß.
+example.en: In winter the roof is sometimes white.
+grammar.Comparative: weißer
+grammar.Superlative: am weißesten
+tags: ⭐ common, 🎨 colors
+priority: yes
+//
+word: grau
+translation: grey
+type: adjective
+group: 🎨 Colors & shapes
+pronunciation: /ɡʁaʊ̯/
+example.de: Der Himmel ist grau, es wird regnen.
+example.en: The sky is grey, it's going to rain.
+grammar.Comparative: grauer
+grammar.Superlative: am grauesten
+tags: ⭐ common, 🎨 colors
+priority: yes
+//
+word: dunkel
+translation: dark
+type: adjective
+group: 🎨 Colors & shapes
+pronunciation: /ˈdʊŋkl̩/
+example.de: Im Winter wird es früh dunkel.
+example.en: In winter it gets dark early.
+grammar.Comparative: dunkler
+grammar.Superlative: am dunkelsten
+note: Drops the middle e when it takes an ending: dunkel → dunkle, not "dunkele."
+tags: ⭐ common, 🎨 colors
+priority: yes
+//
+word: hell
+translation: light
+type: adjective
+group: 🎨 Colors & shapes
+pronunciation: /hɛl/
+example.de: Sie trägt gerne helle Farben.
+example.en: She likes wearing light colours.
+grammar.Comparative: heller
+grammar.Superlative: am hellsten
+tags: ⭐ common, 🎨 colors
+priority: yes
+//
+word: leuchtend
+translation: bright
+type: adjective
+group: 🎨 Colors & shapes
+pronunciation: /ˈlɔɪ̯çtn̩t/
+example.de: Das ist eine leuchtend rote Farbe!
+example.en: That's a bright red colour!
+etymology: From leuchten (to shine/glow).
+tags: 🎨 colors
+priority: yes
+//
+word: blass
+translation: pale
+type: adjective
+group: 🎨 Colors & shapes
+pronunciation: /blas/
+example.de: Du siehst blass aus, geht es dir gut?
+example.en: You look pale, are you feeling okay?
+grammar.Comparative: blasser
+grammar.Superlative: am blassesten
+tags: 🎨 colors
+priority: yes
+//
+word: groß
+translation: big
+type: adjective
+group: 🎨 Colors & shapes
+pronunciation: /ɡʁoːs/
+example.de: Sie wohnen in einem großen Haus.
+example.en: They live in a big house.
+grammar.Comparative: größer
+grammar.Superlative: am größten
+tags: ⭐ common, 🔷 shapes
+priority: yes
+//
+word: klein
+translation: small
+type: adjective
+group: 🎨 Colors & shapes
+pronunciation: /klaɪ̯n/
+example.de: Deutschland ist kleiner als Frankreich.
+example.en: Germany is smaller than France.
+grammar.Comparative: kleiner
+grammar.Superlative: am kleinsten
+tags: ⭐ common, 🔷 shapes
+priority: yes
+//
+word: lang
+translation: long
+type: adjective
+group: 🎨 Colors & shapes
+pronunciation: /laŋ/
+example.de: Das war ein langer Tag.
+example.en: It was a long day.
+grammar.Comparative: länger
+grammar.Superlative: am längsten
+note: Also means "tall" for people: er ist sehr lang.
+tags: ⭐ common, 🔷 shapes
+priority: yes
+//
+word: kurz
+translation: short
+type: adjective
+group: 🎨 Colors & shapes
+pronunciation: /kʊʁts/
+example.de: Ein kurzes Gespräch reicht manchmal.
+example.en: A short conversation is sometimes enough.
+grammar.Comparative: kürzer
+grammar.Superlative: am kürzesten
+tags: ⭐ common, 🔷 shapes
+priority: yes
+//
+word: breit
+translation: wide
+type: adjective
+group: 🎨 Colors & shapes
+pronunciation: /bʁaɪ̯t/
+example.de: Der Fluss ist hier sehr breit.
+example.en: The river is very wide here.
+grammar.Comparative: breiter
+grammar.Superlative: am breitesten
+tags: 🔷 shapes
+priority: yes
+//
+word: schmal
+translation: narrow
+type: adjective
+group: 🎨 Colors & shapes
+pronunciation: /ʃmaːl/
+example.de: Die Gasse ist schmal und alt.
+example.en: The alley is narrow and old.
+grammar.Comparative: schmaler
+grammar.Superlative: am schmalsten
+tags: 🔷 shapes
+priority: yes
+//
+word: rund
+translation: round
+type: adjective
+group: 🎨 Colors & shapes
+pronunciation: /ʁʊnt/
+example.de: Die Erde ist rund.
+example.en: The earth is round.
+grammar.Comparative: runder
+grammar.Superlative: am rundesten
+tags: 🔷 shapes
+priority: yes
+//
+word: kreis
+translation: circle
+type: noun
+group: 🎨 Colors & shapes
+pronunciation: /kʁaɪ̯s/
+example.de: Die Kinder sitzen im Kreis.
+example.en: The children sit in a circle.
+grammar.Gender: m
+grammar.Plural (with article): die Kreise
+grammar.Genitive singular: des Kreises
+note: Also means "district" in an administrative sense (Landkreis).
+tags: 🔷 shapes
+priority: yes
+//
+word: quadrat
+translation: square
+type: noun
+group: 🎨 Colors & shapes
+pronunciation: /kvaˈdʁaːt/
+example.de: Ein Quadrat hat vier gleiche Seiten.
+example.en: A square has four equal sides.
+grammar.Gender: n
+grammar.Plural (with article): die Quadrate
+grammar.Genitive singular: des Quadrats
+tags: 🔷 shapes
+priority: yes
+//
+word: dreieck
+translation: triangle
+type: noun
+group: 🎨 Colors & shapes
+pronunciation: /ˈdʁaɪ̯ʔɛk/
+example.de: Ein Dreieck hat drei Ecken.
+example.en: A triangle has three corners.
+grammar.Gender: n
+grammar.Plural (with article): die Dreiecke
+grammar.Genitive singular: des Dreiecks
+etymology: Literally "three-corner" — drei (three) + Eck (corner).
+tags: 🔷 shapes
+priority: yes
+//
+word: rechteck
+translation: rectangle
+type: noun
+group: 🎨 Colors & shapes
+pronunciation: /ˈʁɛçtʔɛk/
+example.de: Der Bildschirm hat die Form eines Rechtecks.
+example.en: The screen has the shape of a rectangle.
+grammar.Gender: n
+grammar.Plural (with article): die Rechtecke
+grammar.Genitive singular: des Rechtecks
+etymology: Literally "right-angle corner" — recht (right) + Eck (corner).
+tags: 🔷 shapes
+priority: yes
+//
+word: linie
+translation: line
+type: noun
+group: 🎨 Colors & shapes
+pronunciation: /ˈliːni̯ə/
+example.de: Zieh eine gerade Linie.
+example.en: Draw a straight line.
+grammar.Gender: f
+grammar.Plural (with article): die Linien
+grammar.Genitive singular: der Linie
+note: Also used for bus/train lines — Linie 5.
+tags: 🔷 shapes
+priority: yes
+//
+word: punkt
+translation: point, dot
+type: noun
+group: 🎨 Colors & shapes
+pronunciation: /pʊŋkt/
+example.de: Setz einen Punkt am Satzende.
+example.en: Put a full stop at the end of the sentence.
+grammar.Gender: m
+grammar.Plural (with article): die Punkte
+grammar.Genitive singular: des Punktes
+note: Punkt is also the German word for a decimal separator's opposite — Germans use a comma for decimals (3,14) and a Punkt to group thousands (1.000).
+tags: 🔷 shapes
+priority: yes

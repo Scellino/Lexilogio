@@ -1,0 +1,576 @@
+word: kopf
+translation: head
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /kɔpf/
+example.de: Ich habe Kopfschmerzen.
+example.en: I have a headache.
+grammar.Gender: m
+grammar.Plural (with article): die Köpfe
+grammar.Genitive singular: des Kopfes
+note: Kopfschmerzen (headache) — literally "head pains," always plural.
+tags: ⭐ common, 🩺 body
+priority: yes
+//
+word: auge
+translation: eye
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /ˈaʊ̯ɡə/
+example.de: Sie hat blaue Augen.
+example.en: She has blue eyes.
+grammar.Gender: n
+grammar.Plural (with article): die Augen
+grammar.Genitive singular: des Auges
+tags: ⭐ common, 🩺 body
+priority: yes
+//
+word: ohr
+translation: ear
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /oːɐ̯/
+example.de: Ich höre auf diesem Ohr schlecht.
+example.en: I hear poorly with this ear.
+grammar.Gender: n
+grammar.Plural (with article): die Ohren
+grammar.Genitive singular: des Ohres
+tags: ⭐ common, 🩺 body
+priority: yes
+//
+word: nase
+translation: nose
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /ˈnaːzə/
+example.de: Meine Nase ist verstopft.
+example.en: My nose is blocked.
+grammar.Gender: f
+grammar.Plural (with article): die Nasen
+grammar.Genitive singular: der Nase
+tags: ⭐ common, 🩺 body
+priority: yes
+//
+word: mund
+translation: mouth
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /mʊnt/
+example.de: Öffne bitte den Mund.
+example.en: Please open your mouth.
+grammar.Gender: m
+grammar.Plural (with article): die Münder
+grammar.Genitive singular: des Mundes
+tags: ⭐ common, 🩺 body
+priority: yes
+//
+word: zahn
+translation: tooth
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /tsaːn/
+example.de: Ich habe Zahnschmerzen.
+example.en: I have a toothache.
+grammar.Gender: m
+grammar.Plural (with article): die Zähne
+grammar.Genitive singular: des Zahnes
+note: Der Zahnarzt (dentist) is literally "tooth doctor."
+tags: ⭐ common, 🩺 body
+priority: yes
+//
+word: zunge
+translation: tongue
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /ˈtsʊŋə/
+example.de: Der Arzt schaut sich deine Zunge an.
+example.en: The doctor looks at your tongue.
+grammar.Gender: f
+grammar.Plural (with article): die Zungen
+grammar.Genitive singular: der Zunge
+note: Also means "language" in some fixed expressions, like Muttersprache (mother tongue) uses Sprache instead — Zunge stays mostly literal in German.
+tags: 🩺 body
+priority: yes
+//
+word: hals
+translation: neck
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /hals/
+example.de: Mein Hals tut weh.
+example.en: My neck hurts.
+grammar.Gender: m
+grammar.Plural (with article): die Hälse
+grammar.Genitive singular: des Halses
+note: Also covers "throat" — Halsschmerzen means a sore throat.
+tags: 🩺 body
+priority: yes
+//
+word: schulter
+translation: shoulder
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /ˈʃʊltɐ/
+example.de: Er trug die Tasche auf der Schulter.
+example.en: He carried the bag on his shoulder.
+grammar.Gender: f
+grammar.Plural (with article): die Schultern
+grammar.Genitive singular: der Schulter
+tags: 🩺 body
+priority: yes
+//
+word: arm
+translation: arm
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /aʁm/
+example.de: Sie hat sich beim Skifahren den Arm gebrochen.
+example.en: She broke her arm while skiing.
+grammar.Gender: m
+grammar.Plural (with article): die Arme
+grammar.Genitive singular: des Armes
+tags: ⭐ common, 🩺 body
+priority: yes
+//
+word: ellbogen
+translation: elbow
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /ˈɛlboːɡn̩/
+example.de: Ich habe mir den Ellbogen gestoßen.
+example.en: I bumped my elbow.
+grammar.Gender: m
+grammar.Plural (with article): die Ellbogen
+grammar.Genitive singular: des Ellbogens
+tags: 🩺 body
+priority: yes
+//
+word: handgelenk
+translation: wrist
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /ˈhantɡəlɛŋk/
+example.de: Sie trägt eine Uhr am Handgelenk.
+example.en: She wears a watch on her wrist.
+grammar.Gender: n
+grammar.Plural (with article): die Handgelenke
+grammar.Genitive singular: des Handgelenks
+etymology: Literally "hand joint" — Hand + Gelenk (joint).
+tags: 🩺 body
+priority: yes
+//
+word: hand
+translation: hand
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /hant/
+example.de: Wasch dir die Hände vor dem Essen.
+example.en: Wash your hands before eating.
+grammar.Gender: f
+grammar.Plural (with article): die Hände
+grammar.Genitive singular: der Hand
+tags: ⭐ common, 🩺 body
+priority: yes
+//
+word: finger
+translation: finger
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /ˈfɪŋɐ/
+example.de: Ich habe mich in den Finger geschnitten.
+example.en: I cut my finger.
+grammar.Gender: m
+grammar.Plural (with article): die Finger
+grammar.Genitive singular: des Fingers
+tags: ⭐ common, 🩺 body
+priority: yes
+//
+word: daumen
+translation: thumb
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /ˈdaʊ̯mən/
+example.de: Das Baby lutscht am Daumen.
+example.en: The baby sucks its thumb.
+grammar.Gender: m
+grammar.Plural (with article): die Daumen
+grammar.Genitive singular: des Daumens
+note: Die Daumen drücken (to press one's thumbs) is the German equivalent of "fingers crossed."
+tags: 🩺 body
+priority: yes
+//
+word: rücken
+translation: back
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /ˈʁʏkn̩/
+example.de: Ich habe Rückenschmerzen.
+example.en: My back hurts.
+grammar.Gender: m
+grammar.Plural (with article): die Rücken
+grammar.Genitive singular: des Rückens
+tags: ⭐ common, 🩺 body
+priority: yes
+//
+word: brust
+translation: chest
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /bʁʊst/
+example.de: Der Arzt hört die Brust ab.
+example.en: The doctor listens to your chest.
+grammar.Gender: f
+grammar.Plural (with article): die Brüste
+grammar.Genitive singular: der Brust
+tags: 🩺 body
+priority: yes
+//
+word: bauch
+translation: stomach, belly
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /baʊ̯x/
+example.de: Ich habe Bauchschmerzen.
+example.en: I have a stomachache.
+grammar.Gender: m
+grammar.Plural (with article): die Bäuche
+grammar.Genitive singular: des Bauches
+note: Der Magen refers specifically to the stomach organ; Bauch is the everyday word for the belly area.
+tags: ⭐ common, 🩺 body
+priority: yes
+//
+word: bein
+translation: leg
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /baɪ̯n/
+example.de: Er hat sich beim Fußball das Bein gebrochen.
+example.en: He broke his leg playing football.
+grammar.Gender: n
+grammar.Plural (with article): die Beine
+grammar.Genitive singular: des Beines
+tags: ⭐ common, 🩺 body
+priority: yes
+//
+word: knie
+translation: knee
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /kniː/
+example.de: Mein Knie tut nach dem Laufen weh.
+example.en: My knee hurts after running.
+grammar.Gender: n
+grammar.Plural (with article): die Knie
+grammar.Genitive singular: des Knies
+note: Same form in singular and plural — das Knie, die Knie.
+tags: ⭐ common, 🩺 body
+priority: yes
+//
+word: knöchel
+translation: ankle
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /ˈknœçl̩/
+example.de: Sie hat sich den Knöchel verstaucht.
+example.en: She sprained her ankle.
+grammar.Gender: m
+grammar.Plural (with article): die Knöchel
+grammar.Genitive singular: des Knöchels
+tags: 🩺 body
+priority: yes
+//
+word: fuß
+translation: foot
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /fuːs/
+example.de: Wir gehen zu Fuß in die Stadt.
+example.en: We're walking to the city on foot.
+grammar.Gender: m
+grammar.Plural (with article): die Füße
+grammar.Genitive singular: des Fußes
+tags: ⭐ common, 🩺 body
+priority: yes
+//
+word: zeh
+translation: toe
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /tseː/
+example.de: Ich habe mir den kleinen Zeh gestoßen.
+example.en: I stubbed my little toe.
+grammar.Gender: m
+grammar.Plural (with article): die Zehen
+grammar.Genitive singular: des Zehs
+tags: 🩺 body
+priority: yes
+//
+word: haut
+translation: skin
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /haʊ̯t/
+example.de: Trag Sonnencreme auf die Haut auf.
+example.en: Put sunscreen on your skin.
+grammar.Gender: f
+grammar.Plural (with article): die Häute
+grammar.Genitive singular: der Haut
+tags: 🩺 body
+priority: yes
+//
+word: haare
+translation: hair
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /ˈhaːʁə/
+example.de: Sie hat lange, blonde Haare.
+example.en: She has long, blonde hair.
+grammar.Gender: n
+grammar.Plural (with article): die Haare
+grammar.Genitive singular: des Haares
+note: Almost always used in the plural for a head of hair; ein Haar (singular) means one strand.
+tags: ⭐ common, 🩺 body
+priority: yes
+//
+word: herz
+translation: heart
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /hɛʁts/
+example.de: Mein Herz schlägt schnell nach dem Laufen.
+example.en: My heart beats fast after running.
+grammar.Gender: n
+grammar.Plural (with article): die Herzen
+grammar.Genitive singular: des Herzens
+tags: ⭐ common, 🩺 body
+priority: yes
+//
+word: lunge
+translation: lung
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /ˈlʊŋə/
+example.de: Rauchen schadet der Lunge.
+example.en: Smoking damages the lungs.
+grammar.Gender: f
+grammar.Plural (with article): die Lungen
+grammar.Genitive singular: der Lunge
+tags: 🩺 body
+priority: yes
+//
+word: blut
+translation: blood
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /bluːt/
+example.de: Die Krankenschwester nimmt etwas Blut ab.
+example.en: The nurse draws some blood.
+grammar.Gender: n
+grammar.Genitive singular: des Blutes
+tags: ⭐ common, 🩺 body
+priority: yes
+//
+word: knochen
+translation: bone
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /ˈknɔxn̩/
+example.de: Zum Glück ist kein Knochen gebrochen.
+example.en: Luckily no bone is broken.
+grammar.Gender: m
+grammar.Plural (with article): die Knochen
+grammar.Genitive singular: des Knochens
+tags: 🩺 body
+priority: yes
+//
+word: arzt
+translation: doctor
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /aːɐ̯tst/
+example.de: Ich muss zum Arzt.
+example.en: I have to see the doctor.
+grammar.Gender: m
+grammar.Plural (with article): die Ärzte
+grammar.Genitive singular: des Arztes
+note: Feminine form is die Ärztin. Der Hausarzt is the family GP — usually your first stop for any health concern.
+tags: ⭐ common, 🩺 medical
+priority: yes
+//
+word: krankenschwester
+translation: nurse
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /ˈkʁaŋkŋ̩ˌʃvɛstɐ/
+example.de: Die Krankenschwester gibt dir eine Spritze.
+example.en: The nurse gives you an injection.
+grammar.Gender: f
+grammar.Plural (with article): die Krankenschwestern
+grammar.Genitive singular: der Krankenschwester
+etymology: Literally "sick sister" — krank (sick) + Schwester (sister), echoing the historical nursing-order origins.
+note: Male form is der Krankenpfleger. Both are increasingly replaced by the gender-neutral Pflegekraft.
+tags: 🩺 medical
+priority: yes
+//
+word: krankenhaus
+translation: hospital
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /ˈkʁaŋkŋ̩haʊ̯s/
+example.de: Er liegt im Krankenhaus.
+example.en: He is in hospital.
+grammar.Gender: n
+grammar.Plural (with article): die Krankenhäuser
+grammar.Genitive singular: des Krankenhauses
+etymology: Literally "sick house" — krank (sick) + Haus (house).
+tags: ⭐ common, 🩺 medical
+priority: yes
+//
+word: apotheke
+translation: pharmacy
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /apoˈteːkə/
+example.de: Die Medikamente bekommst du in der Apotheke.
+example.en: You can get the medicine at the pharmacy.
+grammar.Gender: f
+grammar.Plural (with article): die Apotheken
+grammar.Genitive singular: der Apotheke
+note: Recognizable by the red "A" sign — German pharmacies are strictly separate from drugstores (Drogerie), which only sell non-prescription items.
+tags: ⭐ common, 🩺 medical
+priority: yes
+//
+word: medikament
+translation: medicine
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /medikaˈmɛnt/
+example.de: Nimm dieses Medikament zweimal täglich.
+example.en: Take this medicine twice a day.
+grammar.Gender: n
+grammar.Plural (with article): die Medikamente
+grammar.Genitive singular: des Medikaments
+tags: ⭐ common, 🩺 medical
+priority: yes
+//
+word: schmerz
+translation: pain
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /ʃmɛʁts/
+example.de: Wo haben Sie Schmerzen?
+example.en: Where does it hurt?
+grammar.Gender: m
+grammar.Plural (with article): die Schmerzen
+grammar.Genitive singular: des Schmerzes
+note: Almost always used in the plural when describing symptoms — Bauchschmerzen, Kopfschmerzen, Rückenschmerzen all compound freely.
+tags: ⭐ common, 🩺 medical
+priority: yes
+//
+word: fieber
+translation: fever
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /ˈfiːbɐ/
+example.de: Sie hat 39 Grad Fieber.
+example.en: She has a fever of 39 degrees.
+grammar.Gender: n
+grammar.Genitive singular: des Fiebers
+tags: ⭐ common, 🩺 medical
+priority: yes
+//
+word: krank
+translation: ill, sick
+type: adjective
+group: 🩺 Body & Doctor
+pronunciation: /kʁaŋk/
+example.de: Ich bin krank und bleibe heute zu Hause.
+example.en: I'm ill and I'm staying home today.
+grammar.Comparative: kränker
+grammar.Superlative: am kränksten
+note: Sich krankmelden means "to call in sick."
+tags: ⭐ common, 🩺 medical
+priority: yes
+//
+word: termin
+translation: appointment
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /tɛɐ̯ˈmiːn/
+example.de: Ich habe morgen einen Termin beim Arzt.
+example.en: I have a doctor's appointment tomorrow.
+grammar.Gender: m
+grammar.Plural (with article): die Termine
+grammar.Genitive singular: des Termins
+tags: ⭐ common, 🩺 medical
+priority: yes
+//
+word: allergie
+translation: allergy
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /alɛʁˈɡiː/
+example.de: Ich habe eine Allergie gegen Nüsse.
+example.en: I have a nut allergy.
+grammar.Gender: f
+grammar.Plural (with article): die Allergien
+grammar.Genitive singular: der Allergie
+note: Allergisch gegen means "allergic to."
+tags: 🩺 medical
+priority: yes
+//
+word: symptom
+translation: symptom
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /zʏmpˈtoːm/
+example.de: Was sind die Symptome?
+example.en: What are the symptoms?
+grammar.Gender: n
+grammar.Plural (with article): die Symptome
+grammar.Genitive singular: des Symptoms
+tags: 🩺 medical
+priority: yes
+//
+word: spritze
+translation: injection
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /ˈʃpʁɪtsə/
+example.de: Das Baby bekommt heute eine Spritze.
+example.en: The baby gets an injection today.
+grammar.Gender: f
+grammar.Plural (with article): die Spritzen
+grammar.Genitive singular: der Spritze
+etymology: From spritzen (to squirt/spray).
+tags: 🩺 medical
+priority: yes
+//
+word: rezept
+translation: prescription
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /ʁeˈtsɛpt/
+example.de: Dieses Medikament gibt es nur auf Rezept.
+example.en: This medicine is only available on prescription.
+grammar.Gender: n
+grammar.Plural (with article): die Rezepte
+grammar.Genitive singular: des Rezepts
+note: Also means "recipe" — the same double meaning shows up in French, Dutch, and Greek too.
+tags: 🩺 medical
+priority: yes
+//
+word: krankenwagen
+translation: ambulance
+type: noun
+group: 🩺 Body & Doctor
+pronunciation: /ˈkʁaŋkŋ̩ˌvaːɡn̩/
+example.de: Ruf einen Krankenwagen!
+example.en: Call an ambulance!
+grammar.Gender: m
+grammar.Plural (with article): die Krankenwagen
+grammar.Genitive singular: des Krankenwagens
+etymology: Literally "sick car" — krank (sick) + Wagen (car/wagon).
+note: The emergency number in Germany is 112, the EU-wide standard.
+tags: ⭐ common, 🩺 medical
+priority: yes

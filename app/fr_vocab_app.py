@@ -17,6 +17,9 @@ FR_LANG = {
     "data_module":  "fr_vocab_data",
     "word_types":   ["noun", "verb", "adjective", "adverb", "phrase"],
 
+    # Lets preset cards set their article colour via grammar.Gender: m|f
+    "gender_grammar_label": "Gender",
+
     # Emoji labels for tags and groups (shown in filter pills)
     "tag_labels": {
         "common":    "⭐ Common",

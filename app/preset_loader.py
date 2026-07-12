@@ -88,7 +88,35 @@ def _parse_preset_text(text, lang, departure):
             card["id"] = _slug(lang, departure, card["word"])
             card["departure_lang"] = departure
             cards.append(card)
-    return cards
+
+    # Guard against duplicate slugs within one file. Two cases:
+    #  1. The same word appears twice (a generation mistake) — keep the first,
+    #     drop the rest.
+    #  2. Two different words collide once accents are stripped (e.g. French
+    #     "sucre" vs "sucré") — both are real content, so instead of losing
+    #     one, give the later id a numeric suffix so it stays unique.
+    # Without this, importing the file raises UNIQUE constraint failed and
+    # the *whole file's* cards are lost.
+    seen_words = {}   # id -> word already using it
+    deduped = []
+    for card in cards:
+        base_id = card["id"]
+        prior_word = seen_words.get(base_id)
+        if prior_word == card["word"]:
+            print(f"[presets] {lang}/{departure}: skipping duplicate card "
+                  f"'{card['word']}' (id '{base_id}')")
+            continue
+        if prior_word is not None:
+            n = 2
+            while f"{base_id}-{n}" in seen_words:
+                n += 1
+            card["id"] = f"{base_id}-{n}"
+            print(f"[presets] {lang}/{departure}: '{card['word']}' collides "
+                  f"with '{prior_word}' after accent-stripping — "
+                  f"using id '{card['id']}'")
+        seen_words[card["id"]] = card["word"]
+        deduped.append(card)
+    return deduped
 
 
 def _parse_filename(txt_file):

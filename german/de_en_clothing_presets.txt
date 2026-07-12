@@ -1,0 +1,433 @@
+word: hemd
+translation: shirt
+type: noun
+group: 👗 Clothing & fashion
+pronunciation: /hɛmt/
+example.de: Er trägt ein weißes Hemd zur Arbeit.
+example.en: He wears a white shirt to work.
+grammar.Gender: n
+grammar.Plural (with article): die Hemden
+grammar.Genitive singular: des Hemdes
+note: Refers to a button-up shirt; a T-shirt has its own word below.
+tags: ⭐ common, 👗 clothing
+priority: yes
+//
+word: t-shirt
+translation: t-shirt
+type: noun
+group: 👗 Clothing & fashion
+pronunciation: /ˈtiːʃœʁt/
+example.de: Im Sommer trage ich nur T-Shirts.
+example.en: In summer I only wear t-shirts.
+grammar.Gender: n
+grammar.Plural (with article): die T-Shirts
+grammar.Genitive singular: des T-Shirts
+tags: ⭐ common, 👗 clothing
+priority: yes
+//
+word: hose
+translation: trousers
+type: noun
+group: 👗 Clothing & fashion
+pronunciation: /ˈhoːzə/
+example.de: Diese Hose ist mir zu eng.
+example.en: These trousers are too tight for me.
+grammar.Gender: f
+grammar.Plural (with article): die Hosen
+grammar.Genitive singular: der Hose
+note: Singular in German (die Hose), unlike English "trousers," which is always plural.
+tags: ⭐ common, 👗 clothing
+priority: yes
+//
+word: jeans
+translation: jeans
+type: noun
+group: 👗 Clothing & fashion
+pronunciation: /dʒiːns/
+example.de: Er trägt fast immer Jeans.
+example.en: He almost always wears jeans.
+grammar.Gender: pl
+tags: ⭐ common, 👗 clothing
+priority: yes
+//
+word: kleid
+translation: dress
+type: noun
+group: 👗 Clothing & fashion
+pronunciation: /klaɪ̯t/
+example.de: Sie trägt ein rotes Kleid.
+example.en: She's wearing a red dress.
+grammar.Gender: n
+grammar.Plural (with article): die Kleider
+grammar.Genitive singular: des Kleides
+note: Kleider (plural) can also just mean "clothes" in general.
+tags: ⭐ common, 👗 clothing
+priority: yes
+//
+word: rock
+translation: skirt
+type: noun
+group: 👗 Clothing & fashion
+pronunciation: /ʁɔk/
+example.de: Sie kaufte einen neuen Rock.
+example.en: She bought a new skirt.
+grammar.Gender: m
+grammar.Plural (with article): die Röcke
+grammar.Genitive singular: des Rockes
+note: Also means "rock" music, spelled and pronounced identically as a loanword — context always makes it obvious.
+tags: 👗 clothing
+priority: yes
+//
+word: jacke
+translation: jacket
+type: noun
+group: 👗 Clothing & fashion
+pronunciation: /ˈjakə/
+example.de: Zieh deine Jacke an, es ist kalt.
+example.en: Put on your jacket, it's cold.
+grammar.Gender: f
+grammar.Plural (with article): die Jacken
+grammar.Genitive singular: der Jacke
+tags: ⭐ common, 👗 clothing
+priority: yes
+//
+word: mantel
+translation: coat
+type: noun
+group: 👗 Clothing & fashion
+pronunciation: /ˈmantl̩/
+example.de: Im Winter trage ich einen dicken Mantel.
+example.en: In winter I wear a thick coat.
+grammar.Gender: m
+grammar.Plural (with article): die Mäntel
+grammar.Genitive singular: des Mantels
+tags: ⭐ common, 👗 clothing
+priority: yes
+//
+word: anzug
+translation: suit
+type: noun
+group: 👗 Clothing & fashion
+pronunciation: /ˈantsuːk/
+example.de: Er trägt einen Anzug zur Hochzeit.
+example.en: He's wearing a suit to the wedding.
+grammar.Gender: m
+grammar.Plural (with article): die Anzüge
+grammar.Genitive singular: des Anzugs
+tags: 👗 clothing
+priority: yes
+//
+word: unterwäsche
+translation: underwear
+type: noun
+group: 👗 Clothing & fashion
+pronunciation: /ˈʊntɐˌvɛʃə/
+example.de: Ich muss neue Unterwäsche kaufen.
+example.en: I need to buy new underwear.
+grammar.Gender: f
+grammar.Genitive singular: der Unterwäsche
+etymology: Unter (under) + Wäsche (laundry/linen).
+tags: 👗 clothing
+priority: yes
+//
+word: socken
+translation: socks
+type: noun
+group: 👗 Clothing & fashion
+pronunciation: /ˈzɔkn̩/
+example.de: Meine Füße sind kalt, ich brauche Socken.
+example.en: My feet are cold, I need socks.
+grammar.Gender: pl
+note: Singular is die Socke, but almost always used in the plural.
+tags: ⭐ common, 👗 clothing
+priority: yes
+//
+word: schuhe
+translation: shoes
+type: noun
+group: 👗 Clothing & fashion
+pronunciation: /ˈʃuːə/
+example.de: Zieh deine Schuhe aus, bevor du reinkommst.
+example.en: Take off your shoes before you come in.
+grammar.Gender: pl
+note: Singular is der Schuh.
+tags: ⭐ common, 👗 clothing
+priority: yes
+//
+word: stiefel
+translation: boots
+type: noun
+group: 👗 Clothing & fashion
+pronunciation: /ˈʃtiːfl̩/
+example.de: Im Winter trage ich warme Stiefel.
+example.en: In winter I wear warm boots.
+grammar.Gender: pl
+note: Singular is der Stiefel.
+tags: 👗 clothing
+priority: yes
+//
+word: hut
+translation: hat
+type: noun
+group: 👗 Clothing & fashion
+pronunciation: /huːt/
+example.de: Sie trägt einen großen Hut in der Sonne.
+example.en: She wears a big hat in the sun.
+grammar.Gender: m
+grammar.Plural (with article): die Hüte
+grammar.Genitive singular: des Hutes
+tags: 👗 clothing
+priority: yes
+//
+word: schal
+translation: scarf
+type: noun
+group: 👗 Clothing & fashion
+pronunciation: /ʃaːl/
+example.de: Im Winter trage ich immer einen Schal.
+example.en: In winter I always wear a scarf.
+grammar.Gender: m
+grammar.Plural (with article): die Schals
+grammar.Genitive singular: des Schals
+tags: 👗 clothing
+priority: yes
+//
+word: handschuhe
+translation: gloves
+type: noun
+group: 👗 Clothing & fashion
+pronunciation: /ˈhantʃuːə/
+example.de: Zieh deine Handschuhe an, es ist eiskalt.
+example.en: Put your gloves on, it's freezing.
+grammar.Gender: pl
+etymology: Literally "hand shoes" — Hand + Schuh (shoe).
+note: Singular is der Handschuh.
+tags: 👗 clothing
+priority: yes
+//
+word: gürtel
+translation: belt
+type: noun
+group: 👗 Clothing & fashion
+pronunciation: /ˈɡʏʁtl̩/
+example.de: Dieser Gürtel passt nicht mehr.
+example.en: This belt doesn't fit anymore.
+grammar.Gender: m
+grammar.Plural (with article): die Gürtel
+grammar.Genitive singular: des Gürtels
+tags: 👗 clothing
+priority: yes
+//
+word: krawatte
+translation: tie
+type: noun
+group: 👗 Clothing & fashion
+pronunciation: /kʁaˈvatə/
+example.de: Er trägt eine Krawatte zum Meeting.
+example.en: He wears a tie to the meeting.
+grammar.Gender: f
+grammar.Plural (with article): die Krawatten
+grammar.Genitive singular: der Krawatte
+etymology: From "Kroate" (Croat) — the necktie is said to trace back to Croatian mercenaries in French service in the 17th century.
+tags: 👗 clothing
+priority: yes
+//
+word: tasche
+translation: bag
+type: noun
+group: 👗 Clothing & fashion
+pronunciation: /ˈtaʃə/
+example.de: Ihre Tasche ist sehr modisch.
+example.en: Her bag is very fashionable.
+grammar.Gender: f
+grammar.Plural (with article): die Taschen
+grammar.Genitive singular: der Tasche
+note: Also means "pocket" — Hosentasche is a trouser pocket.
+tags: ⭐ common, 👗 clothing
+priority: yes
+//
+word: brille
+translation: glasses
+type: noun
+group: 👗 Clothing & fashion
+pronunciation: /ˈbʁɪlə/
+example.de: Ich brauche eine neue Brille.
+example.en: I need new glasses.
+grammar.Gender: f
+grammar.Plural (with article): die Brillen
+grammar.Genitive singular: der Brille
+note: Singular in German (die Brille) even though it refers to a pair, unlike English "glasses."
+tags: ⭐ common, 👗 clothing
+priority: yes
+//
+word: ring
+translation: ring
+type: noun
+group: 👗 Clothing & fashion
+pronunciation: /ʁɪŋ/
+example.de: Sie trägt einen goldenen Ring.
+example.en: She wears a gold ring.
+grammar.Gender: m
+grammar.Plural (with article): die Ringe
+grammar.Genitive singular: des Ringes
+tags: 👗 clothing
+priority: yes
+//
+word: halskette
+translation: necklace
+type: noun
+group: 👗 Clothing & fashion
+pronunciation: /ˈhalsˌkɛtə/
+example.de: Sie trägt eine silberne Halskette.
+example.en: She wears a silver necklace.
+grammar.Gender: f
+grammar.Plural (with article): die Halsketten
+grammar.Genitive singular: der Halskette
+etymology: Hals (neck) + Kette (chain).
+tags: 👗 clothing
+priority: yes
+//
+word: größe
+translation: size
+type: noun
+group: 👗 Clothing & fashion
+pronunciation: /ˈɡʁøːsə/
+example.de: Welche Größe brauchen Sie?
+example.en: What size do you need?
+grammar.Gender: f
+grammar.Plural (with article): die Größen
+grammar.Genitive singular: der Größe
+tags: ⭐ common, 👗 clothing
+priority: yes
+//
+word: tragen
+translation: to wear
+type: verb
+group: 👗 Clothing & fashion
+pronunciation: /ˈtʁaːɡn̩/
+example.de: Was ziehst du zur Party an?
+example.en: What are you wearing to the party?
+grammar.Verb type: strong
+grammar.Separable verb?: no
+grammar.Auxiliary (Perfekt): haben
+grammar.Partizip II: getragen
+grammar.Präteritum (ich): trug
+grammar.Präsens (all 6 forms): trage / trägst / trägt / tragen / tragt / tragen
+note: Also means "to carry" — the same verb covers both senses.
+tags: ⭐ common, 👗 clothing
+priority: yes
+//
+word: anprobieren
+translation: to try on
+type: verb
+group: 👗 Clothing & fashion
+pronunciation: /ˈanpʁoˌbiːʁən/
+example.de: Kann ich dieses Kleid anprobieren?
+example.en: Can I try on this dress?
+grammar.Verb type: weak
+grammar.Separable verb?: yes
+grammar.Auxiliary (Perfekt): haben
+grammar.Partizip II: anprobiert
+grammar.Präteritum (ich): probierte an
+grammar.Präsens (all 6 forms): probiere an / probierst an / probiert an / probieren an / probiert an / probieren an
+tags: 👗 clothing
+priority: yes
+//
+word: passen
+translation: to fit
+type: verb
+group: 👗 Clothing & fashion
+pronunciation: /ˈpasn̩/
+example.de: Diese Schuhe passen mir nicht.
+example.en: These shoes don't fit me.
+grammar.Verb type: weak
+grammar.Separable verb?: no
+grammar.Auxiliary (Perfekt): haben
+grammar.Partizip II: gepasst
+grammar.Präteritum (ich): passte
+grammar.Präsens (all 6 forms): passe / passt / passt / passen / passt / passen
+tags: 👗 clothing
+priority: yes
+//
+word: eng
+translation: tight
+type: adjective
+group: 👗 Clothing & fashion
+pronunciation: /ɛŋ/
+example.de: Diese Jeans sind mir zu eng.
+example.en: These jeans are too tight for me.
+grammar.Comparative: enger
+grammar.Superlative: am engsten
+tags: 👗 clothing
+priority: yes
+//
+word: locker
+translation: loose
+type: adjective
+group: 👗 Clothing & fashion
+pronunciation: /ˈlɔkɐ/
+example.de: Ich mag lockere Kleidung.
+example.en: I like loose clothing.
+grammar.Comparative: lockerer
+grammar.Superlative: am lockersten
+note: Also colloquially means "relaxed/easygoing" for a person's attitude.
+tags: 👗 clothing
+priority: yes
+//
+word: gestreift
+translation: striped
+type: adjective
+group: 👗 Clothing & fashion
+pronunciation: /ɡəˈʃtʁaɪ̯ft/
+example.de: Er trägt ein gestreiftes Hemd.
+example.en: He's wearing a striped shirt.
+etymology: Past participle of streifen (to streak/stripe).
+tags: 👗 clothing
+priority: yes
+//
+word: einfarbig
+translation: plain
+type: adjective
+group: 👗 Clothing & fashion
+pronunciation: /ˈaɪ̯nfaʁbɪç/
+example.de: Ich bevorzuge einfarbige T-Shirts.
+example.en: I prefer plain t-shirts.
+etymology: Ein (one) + Farbe (color) — "one-colored."
+tags: 👗 clothing
+priority: yes
+//
+word: gemustert
+translation: patterned
+type: adjective
+group: 👗 Clothing & fashion
+pronunciation: /ɡəˈmʊstɐt/
+example.de: Sie trägt einen gemusterten Rock.
+example.en: She's wearing a patterned skirt.
+etymology: From Muster (pattern).
+tags: 👗 clothing
+priority: yes
+//
+word: baumwolle
+translation: cotton
+type: noun
+group: 👗 Clothing & fashion
+pronunciation: /ˈbaʊ̯mvɔlə/
+example.de: Dieses Hemd ist aus reiner Baumwolle.
+example.en: This shirt is made of pure cotton.
+grammar.Gender: f
+grammar.Genitive singular: der Baumwolle
+etymology: Literally "tree wool" — Baum (tree) + Wolle (wool).
+tags: 👗 clothing
+priority: yes
+//
+word: wolle
+translation: wool
+type: noun
+group: 👗 Clothing & fashion
+pronunciation: /ˈvɔlə/
+example.de: Der Pullover ist aus Wolle.
+example.en: The sweater is made of wool.
+grammar.Gender: f
+grammar.Genitive singular: der Wolle
+tags: 👗 clothing
+priority: yes

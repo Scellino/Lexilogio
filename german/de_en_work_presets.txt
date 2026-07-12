@@ -1,0 +1,455 @@
+word: ingenieur
+translation: engineer
+type: noun
+group: 💼 Jobs & work
+pronunciation: /ɪnʒɛˈni̯øːɐ̯/
+example.de: Sie arbeitet als Ingenieurin bei Siemens.
+example.en: She works as an engineer at Siemens.
+grammar.Gender: m
+grammar.Plural (with article): die Ingenieure
+grammar.Genitive singular: des Ingenieurs
+note: Feminine form is Ingenieurin.
+tags: ⭐ common, 💼 work
+priority: yes
+//
+word: anwalt
+translation: lawyer
+type: noun
+group: 💼 Jobs & work
+pronunciation: /ˈanvalt/
+example.de: Mein Bruder ist Anwalt.
+example.en: My brother is a lawyer.
+grammar.Gender: m
+grammar.Plural (with article): die Anwälte
+grammar.Genitive singular: des Anwalts
+note: Feminine form is Anwältin.
+tags: ⭐ common, 💼 work
+priority: yes
+//
+word: journalist
+translation: journalist
+type: noun
+group: 💼 Jobs & work
+pronunciation: /ʒʊʁnaˈlɪst/
+example.de: Er arbeitet als Journalist für eine Zeitung.
+example.en: He works as a journalist for a newspaper.
+grammar.Gender: m
+grammar.Plural (with article): die Journalisten
+grammar.Genitive singular: des Journalisten
+note: Feminine form is Journalistin.
+tags: 💼 work
+priority: yes
+//
+word: koch
+translation: chef
+type: noun
+group: 💼 Jobs & work
+pronunciation: /kɔx/
+example.de: Er ist Koch in einem bekannten Restaurant.
+example.en: He is a chef at a well-known restaurant.
+grammar.Gender: m
+grammar.Plural (with article): die Köche
+grammar.Genitive singular: des Koches
+note: A classic false friend — German Chef means "boss," not "cook." Don't mix them up!
+tags: 💼 work
+priority: yes
+//
+word: architekt
+translation: architect
+type: noun
+group: 💼 Jobs & work
+pronunciation: /aʁçiˈtɛkt/
+example.de: Sie ist eine bekannte Architektin.
+example.en: She is a well-known architect.
+grammar.Gender: m
+grammar.Plural (with article): die Architekten
+grammar.Genitive singular: des Architekten
+note: Feminine form is Architektin.
+tags: 💼 work
+priority: yes
+//
+word: polizist
+translation: police officer
+type: noun
+group: 💼 Jobs & work
+pronunciation: /poliˈtsɪst/
+example.de: Der Polizist half uns mit dem Weg.
+example.en: The police officer helped us with directions.
+grammar.Gender: m
+grammar.Plural (with article): die Polizisten
+grammar.Genitive singular: des Polizisten
+note: Feminine form is Polizistin.
+tags: 💼 work
+priority: yes
+//
+word: feuerwehrmann
+translation: firefighter
+type: noun
+group: 💼 Jobs & work
+pronunciation: /ˈfɔɪ̯ɐveːɐ̯man/
+example.de: Die Feuerwehrmänner löschten den Brand schnell.
+example.en: The firefighters put out the fire quickly.
+grammar.Gender: m
+grammar.Plural (with article): die Feuerwehrmänner
+grammar.Genitive singular: des Feuerwehrmannes
+etymology: Feuerwehr (fire brigade, from Feuer "fire" + Wehr "defense") + Mann (man).
+note: Gender-neutral form is Feuerwehrperson or simply Feuerwehrleute for the plural workforce.
+tags: 💼 work
+priority: yes
+//
+word: pilot
+translation: pilot
+type: noun
+group: 💼 Jobs & work
+pronunciation: /piˈloːt/
+example.de: Der Pilot begrüßte die Passagiere.
+example.en: The pilot welcomed the passengers.
+grammar.Gender: m
+grammar.Plural (with article): die Piloten
+grammar.Genitive singular: des Piloten
+note: Feminine form is Pilotin.
+tags: 💼 work
+priority: yes
+//
+word: mechaniker
+translation: mechanic
+type: noun
+group: 💼 Jobs & work
+pronunciation: /meˈçaːnikɐ/
+example.de: Der Mechaniker repariert mein Auto.
+example.en: The mechanic is fixing my car.
+grammar.Gender: m
+grammar.Plural (with article): die Mechaniker
+grammar.Genitive singular: des Mechanikers
+note: Feminine form is Mechanikerin.
+tags: 💼 work
+priority: yes
+//
+word: programmierer
+translation: programmer
+type: noun
+group: 💼 Jobs & work
+pronunciation: /pʁoɡʁaˈmiːʁɐ/
+example.de: Sie arbeitet als Programmiererin.
+example.en: She works as a programmer.
+grammar.Gender: m
+grammar.Plural (with article): die Programmierer
+grammar.Genitive singular: des Programmierers
+note: Feminine form is Programmiererin.
+tags: 💼 work
+priority: yes
+//
+word: künstler
+translation: artist
+type: noun
+group: 💼 Jobs & work
+pronunciation: /ˈkʏnstlɐ/
+example.de: Er ist ein talentierter Künstler.
+example.en: He is a talented artist.
+grammar.Gender: m
+grammar.Plural (with article): die Künstler
+grammar.Genitive singular: des Künstlers
+note: Feminine form is Künstlerin.
+tags: 💼 work
+priority: yes
+//
+word: musiker
+translation: musician
+type: noun
+group: 💼 Jobs & work
+pronunciation: /ˈmuːzikɐ/
+example.de: Er ist Musiker in einer Jazzband.
+example.en: He is a musician in a jazz band.
+grammar.Gender: m
+grammar.Plural (with article): die Musiker
+grammar.Genitive singular: des Musikers
+note: Feminine form is Musikerin.
+tags: 💼 work
+priority: yes
+//
+word: schauspieler
+translation: actor
+type: noun
+group: 💼 Jobs & work
+pronunciation: /ˈʃaʊ̯ʃpiːlɐ/
+example.de: Er ist ein berühmter Schauspieler.
+example.en: He is a famous actor.
+grammar.Gender: m
+grammar.Plural (with article): die Schauspieler
+grammar.Genitive singular: des Schauspielers
+etymology: Literally "show-player" — schauen (to look/watch) + Spiel (play/game).
+note: Feminine form is Schauspielerin.
+tags: 💼 work
+priority: yes
+//
+word: bauer
+translation: farmer
+type: noun
+group: 💼 Jobs & work
+pronunciation: /ˈbaʊ̯ɐ/
+example.de: Der Bauer bestellt seine Felder.
+example.en: The farmer tends his fields.
+grammar.Gender: m
+grammar.Plural (with article): die Bauern
+grammar.Genitive singular: des Bauern
+note: Feminine form is Bäuerin.
+tags: 💼 work
+priority: yes
+//
+word: bauarbeiter
+translation: builder
+type: noun
+group: 💼 Jobs & work
+pronunciation: /ˈbaʊ̯ʔaʁbaɪ̯tɐ/
+example.de: Die Bauarbeiter arbeiten auf der Baustelle.
+example.en: The builders are working on the construction site.
+grammar.Gender: m
+grammar.Plural (with article): die Bauarbeiter
+grammar.Genitive singular: des Bauarbeiters
+etymology: Bau (construction) + Arbeiter (worker).
+tags: 💼 work
+priority: yes
+//
+word: buchhalter
+translation: accountant
+type: noun
+group: 💼 Jobs & work
+pronunciation: /ˈbuːxhaltɐ/
+example.de: Meine Schwester ist Buchhalterin.
+example.en: My sister is an accountant.
+grammar.Gender: m
+grammar.Plural (with article): die Buchhalter
+grammar.Genitive singular: des Buchhalters
+etymology: Literally "book-holder" — Buch (book) + halten (to hold/keep).
+note: Feminine form is Buchhalterin.
+tags: 💼 work
+priority: yes
+//
+word: stelle
+translation: job
+type: noun
+group: 💼 Jobs & work
+pronunciation: /ˈʃtɛlə/
+example.de: Sie hat eine neue Stelle gefunden.
+example.en: She found a new job.
+grammar.Gender: f
+grammar.Plural (with article): die Stellen
+grammar.Genitive singular: der Stelle
+note: Job (the English loanword) is also very common in casual speech.
+tags: ⭐ common, 💼 work
+priority: yes
+//
+word: arbeit
+translation: work
+type: noun
+group: 💼 Jobs & work
+pronunciation: /ˈaʁbaɪ̯t/
+example.de: Ich gehe jetzt zur Arbeit.
+example.en: I'm going to work now.
+grammar.Gender: f
+grammar.Plural (with article): die Arbeiten
+grammar.Genitive singular: der Arbeit
+tags: ⭐ common, 💼 work
+priority: yes
+//
+word: gehalt
+translation: salary
+type: noun
+group: 💼 Jobs & work
+pronunciation: /ɡəˈhalt/
+example.de: Das Gehalt wird am Monatsende ausgezahlt.
+example.en: The salary is paid at the end of the month.
+grammar.Gender: n
+grammar.Plural (with article): die Gehälter
+grammar.Genitive singular: des Gehalts
+tags: 💼 work
+priority: yes
+//
+word: büro
+translation: office
+type: noun
+group: 💼 Jobs & work
+pronunciation: /byˈʁoː/
+example.de: Ich arbeite von neun bis fünf im Büro.
+example.en: I work nine to five in the office.
+grammar.Gender: n
+grammar.Plural (with article): die Büros
+grammar.Genitive singular: des Büros
+tags: ⭐ common, 💼 work
+priority: yes
+//
+word: fabrik
+translation: factory
+type: noun
+group: 💼 Jobs & work
+pronunciation: /faˈbʁiːk/
+example.de: Er arbeitet in einer Fabrik.
+example.en: He works in a factory.
+grammar.Gender: f
+grammar.Plural (with article): die Fabriken
+grammar.Genitive singular: der Fabrik
+tags: 💼 work
+priority: yes
+//
+word: besprechung
+translation: meeting
+type: noun
+group: 💼 Jobs & work
+pronunciation: /bəˈʃpʁɛçʊŋ/
+example.de: Die Besprechung beginnt um zehn Uhr.
+example.en: The meeting starts at ten o'clock.
+grammar.Gender: f
+grammar.Plural (with article): die Besprechungen
+grammar.Genitive singular: der Besprechung
+note: Meeting (the English loanword) is also extremely common in office speech.
+tags: ⭐ common, 💼 work
+priority: yes
+//
+word: chef
+translation: boss
+type: noun
+group: 💼 Jobs & work
+pronunciation: /ʃɛf/
+example.de: Mein Chef ist heute nicht im Büro.
+example.en: My boss isn't in the office today.
+grammar.Gender: m
+grammar.Plural (with article): die Chefs
+grammar.Genitive singular: des Chefs
+note: A classic false friend for English speakers — this word never means "cook" in German, only "boss/manager."
+tags: ⭐ common, 💼 work
+priority: yes
+//
+word: frist
+translation: deadline
+type: noun
+group: 💼 Jobs & work
+pronunciation: /fʁɪst/
+example.de: Die Frist für die Abgabe ist Freitag.
+example.en: The deadline for submission is Friday.
+grammar.Gender: f
+grammar.Plural (with article): die Fristen
+grammar.Genitive singular: der Frist
+tags: 💼 work
+priority: yes
+//
+word: karriere
+translation: career
+type: noun
+group: 💼 Jobs & work
+pronunciation: /kaˈʁjɛːʁə/
+example.de: Sie macht Karriere in der Finanzbranche.
+example.en: She's building a career in finance.
+grammar.Gender: f
+grammar.Plural (with article): die Karrieren
+grammar.Genitive singular: der Karriere
+tags: 💼 work
+priority: yes
+//
+word: vorstellungsgespräch
+translation: interview
+type: noun
+group: 💼 Jobs & work
+pronunciation: /foːɐ̯ˈʃtɛlʊŋsɡəʃpʁɛːç/
+example.de: Ich habe morgen ein Vorstellungsgespräch.
+example.en: I have a job interview tomorrow.
+grammar.Gender: n
+grammar.Plural (with article): die Vorstellungsgespräche
+grammar.Genitive singular: des Vorstellungsgesprächs
+etymology: Literally "presentation conversation" — sich vorstellen (to introduce oneself) + Gespräch (conversation).
+tags: 💼 work
+priority: yes
+//
+word: einstellen
+translation: to hire
+type: verb
+group: 💼 Jobs & work
+pronunciation: /ˈaɪ̯nʃtɛlən/
+example.de: Die Firma will drei neue Leute einstellen.
+example.en: The company wants to hire three new people.
+grammar.Verb type: weak
+grammar.Separable verb?: yes
+grammar.Auxiliary (Perfekt): haben
+grammar.Partizip II: eingestellt
+grammar.Präteritum (ich): stellte ein
+grammar.Präsens (all 6 forms): stelle ein / stellst ein / stellt ein / stellen ein / stellt ein / stellen ein
+note: Also means "to adjust/set" (a device) in other contexts.
+tags: 💼 work
+priority: yes
+//
+word: in rente gehen
+translation: to retire
+type: phrase
+group: 💼 Jobs & work
+pronunciation: /ɪn ˈʁɛntə ˈɡeːən/
+example.de: Mein Vater geht nächstes Jahr in Rente.
+example.en: My father is retiring next year.
+etymology: Rente (pension) + gehen (to go) — "to go into pension."
+tags: 💼 work
+priority: yes
+//
+word: vertrag
+translation: contract
+type: noun
+group: 💼 Jobs & work
+pronunciation: /fɛɐ̯ˈtʁaːk/
+example.de: Ich habe den Vertrag noch nicht unterschrieben.
+example.en: I haven't signed the contract yet.
+grammar.Gender: m
+grammar.Plural (with article): die Verträge
+grammar.Genitive singular: des Vertrags
+tags: ⭐ common, 💼 work
+priority: yes
+//
+word: angestellter
+translation: employee
+type: noun
+group: 💼 Jobs & work
+pronunciation: /ˈanɡəʃtɛltɐ/
+example.de: Das Unternehmen hat über hundert Angestellte.
+example.en: The company has over a hundred employees.
+grammar.Gender: m
+grammar.Plural (with article): die Angestellten
+grammar.Genitive singular: des Angestellten
+note: Declines like an adjective, not a regular noun — die Angestellte (feminine), ein Angestellter (indefinite masculine).
+tags: 💼 work
+priority: yes
+//
+word: arbeitgeber
+translation: employer
+type: noun
+group: 💼 Jobs & work
+pronunciation: /ˈaʁbaɪ̯tɡeːbɐ/
+example.de: Mein Arbeitgeber ist sehr flexibel.
+example.en: My employer is very flexible.
+grammar.Gender: m
+grammar.Plural (with article): die Arbeitgeber
+grammar.Genitive singular: des Arbeitgebers
+etymology: Literally "work-giver" — Arbeit (work) + Geber (giver).
+tags: 💼 work
+priority: yes
+//
+word: projekt
+translation: project
+type: noun
+group: 💼 Jobs & work
+pronunciation: /pʁoˈjɛkt/
+example.de: Wir arbeiten an einem neuen Projekt.
+example.en: We're working on a new project.
+grammar.Gender: n
+grammar.Plural (with article): die Projekte
+grammar.Genitive singular: des Projekts
+tags: ⭐ common, 💼 work
+priority: yes
+//
+word: bericht
+translation: report
+type: noun
+group: 💼 Jobs & work
+pronunciation: /bəˈʁɪçt/
+example.de: Ich muss bis Freitag einen Bericht schreiben.
+example.en: I have to write a report by Friday.
+grammar.Gender: m
+grammar.Plural (with article): die Berichte
+grammar.Genitive singular: des Berichts
+tags: 💼 work
+priority: yes

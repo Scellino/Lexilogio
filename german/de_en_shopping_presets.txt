@@ -1,0 +1,360 @@
+word: geschäft
+translation: shop
+type: noun
+group: 🛒 Shopping & money
+pronunciation: /ɡəˈʃɛft/
+example.de: Das Geschäft schließt um achtzehn Uhr.
+example.en: The shop closes at six o'clock.
+grammar.Gender: n
+grammar.Plural (with article): die Geschäfte
+grammar.Genitive singular: des Geschäfts
+note: Also the everyday word for "business" in general — ein gutes Geschäft (a good deal/business).
+tags: ⭐ common, 🛒 shopping
+priority: yes
+//
+word: supermarkt
+translation: supermarket
+type: noun
+group: 🛒 Shopping & money
+pronunciation: /ˈzuːpɐmaʁkt/
+example.de: Ich gehe schnell zum Supermarkt.
+example.en: I'm quickly going to the supermarket.
+grammar.Gender: m
+grammar.Plural (with article): die Supermärkte
+grammar.Genitive singular: des Supermarktes
+tags: ⭐ common, 🛒 shopping
+priority: yes
+//
+word: preis
+translation: price
+type: noun
+group: 🛒 Shopping & money
+pronunciation: /pʁaɪ̯s/
+example.de: Der Preis ist wirklich fair.
+example.en: The price is really fair.
+grammar.Gender: m
+grammar.Plural (with article): die Preise
+grammar.Genitive singular: des Preises
+note: Also means "prize/award" — the same word covers both.
+tags: ⭐ common, 🛒 shopping
+priority: yes
+//
+word: rabatt
+translation: discount
+type: noun
+group: 🛒 Shopping & money
+pronunciation: /ʁaˈbat/
+example.de: Wir bekommen zehn Prozent Rabatt.
+example.en: We get a ten percent discount.
+grammar.Gender: m
+grammar.Plural (with article): die Rabatte
+grammar.Genitive singular: des Rabatts
+tags: ⭐ common, 🛒 shopping
+priority: yes
+//
+word: ausverkauf
+translation: sale
+type: noun
+group: 🛒 Shopping & money
+pronunciation: /ˈaʊ̯sfɛɐ̯kaʊ̯f/
+example.de: Im Ausverkauf sind alle Preise reduziert.
+example.en: Everything is reduced during the sale.
+grammar.Gender: m
+grammar.Genitive singular: des Ausverkaufs
+etymology: Aus (out) + verkaufen (to sell) — "selling out."
+tags: 🛒 shopping
+priority: yes
+//
+word: quittung
+translation: receipt
+type: noun
+group: 🛒 Shopping & money
+pronunciation: /ˈkvɪtʊŋ/
+example.de: Kann ich bitte eine Quittung bekommen?
+example.en: Could I get a receipt, please?
+grammar.Gender: f
+grammar.Plural (with article): die Quittungen
+grammar.Genitive singular: der Quittung
+tags: ⭐ common, 🛒 shopping
+priority: yes
+//
+word: geld
+translation: money
+type: noun
+group: 🛒 Shopping & money
+pronunciation: /ɡɛlt/
+example.de: Ich habe nicht genug Geld dabei.
+example.en: I don't have enough money with me.
+grammar.Gender: n
+grammar.Genitive singular: des Geldes
+tags: ⭐ common, 🛒 shopping
+priority: yes
+//
+word: münze
+translation: coin
+type: noun
+group: 🛒 Shopping & money
+pronunciation: /ˈmʏntsə/
+example.de: Ich habe nur eine Münze in der Tasche.
+example.en: I only have one coin in my pocket.
+grammar.Gender: f
+grammar.Plural (with article): die Münzen
+grammar.Genitive singular: der Münze
+tags: 🛒 shopping
+priority: yes
+//
+word: geldschein
+translation: banknote
+type: noun
+group: 🛒 Shopping & money
+pronunciation: /ˈɡɛltʃaɪ̯n/
+example.de: Ich habe mit einem Zwanzig-Euro-Schein bezahlt.
+example.en: I paid with a twenty-euro banknote.
+grammar.Gender: m
+grammar.Plural (with article): die Geldscheine
+grammar.Genitive singular: des Geldscheins
+note: Often just shortened to Schein in everyday speech.
+tags: 🛒 shopping
+priority: yes
+//
+word: kreditkarte
+translation: credit card
+type: noun
+group: 🛒 Shopping & money
+pronunciation: /kʁeˈdiːtkaʁtə/
+example.de: Kann ich mit Kreditkarte bezahlen?
+example.en: Can I pay with a credit card?
+grammar.Gender: f
+grammar.Plural (with article): die Kreditkarten
+grammar.Genitive singular: der Kreditkarte
+note: Cash is still king in much of Germany — always check that card payment is accepted before you order.
+tags: ⭐ common, 🛒 shopping
+priority: yes
+//
+word: geldautomat
+translation: ATM
+type: noun
+group: 🛒 Shopping & money
+pronunciation: /ˈɡɛltʔaʊ̯tomaːt/
+example.de: Der nächste Geldautomat ist um die Ecke.
+example.en: The nearest ATM is around the corner.
+grammar.Gender: m
+grammar.Plural (with article): die Geldautomaten
+grammar.Genitive singular: des Geldautomaten
+etymology: Geld (money) + Automat (machine).
+tags: 🛒 shopping
+priority: yes
+//
+word: billig
+translation: cheap
+type: adjective
+group: 🛒 Shopping & money
+pronunciation: /ˈbɪlɪç/
+example.de: Dieses Restaurant ist ziemlich billig.
+example.en: This restaurant is quite cheap.
+grammar.Comparative: billiger
+grammar.Superlative: am billigsten
+note: Günstig is a more neutral/positive synonym; billig can carry a hint of "cheaply made."
+tags: ⭐ common, 🛒 shopping
+priority: yes
+//
+word: teuer
+translation: expensive
+type: adjective
+group: 🛒 Shopping & money
+pronunciation: /ˈtɔɪ̯ɐ/
+example.de: Diese Uhr ist sehr teuer.
+example.en: This watch is very expensive.
+grammar.Comparative: teurer
+grammar.Superlative: am teuersten
+tags: ⭐ common, 🛒 shopping
+priority: yes
+//
+word: kostenlos
+translation: free
+type: adjective
+group: 🛒 Shopping & money
+pronunciation: /ˈkɔstn̩loːs/
+example.de: Der Eintritt ist heute kostenlos.
+example.en: Entry is free today.
+etymology: Kosten (costs) + -los (suffix meaning "without").
+note: Gratis is a common, equally casual synonym.
+tags: ⭐ common, 🛒 shopping
+priority: yes
+//
+word: bezahlen
+translation: to pay
+type: verb
+group: 🛒 Shopping & money
+pronunciation: /bəˈtsaːlən/
+example.de: Wie möchten Sie bezahlen?
+example.en: How would you like to pay?
+grammar.Verb type: weak
+grammar.Separable verb?: no
+grammar.Auxiliary (Perfekt): haben
+grammar.Partizip II: bezahlt
+grammar.Präteritum (ich): bezahlte
+grammar.Präsens (all 6 forms): bezahle / bezahlst / bezahlt / bezahlen / bezahlt / bezahlen
+tags: ⭐ common, 🛒 shopping
+priority: yes
+//
+word: kaufen
+translation: to buy
+type: verb
+group: 🛒 Shopping & money
+pronunciation: /ˈkaʊ̯fn̩/
+example.de: Ich möchte dieses Kleid kaufen.
+example.en: I'd like to buy this dress.
+grammar.Verb type: weak
+grammar.Separable verb?: no
+grammar.Auxiliary (Perfekt): haben
+grammar.Partizip II: gekauft
+grammar.Präteritum (ich): kaufte
+grammar.Präsens (all 6 forms): kaufe / kaufst / kauft / kaufen / kauft / kaufen
+tags: ⭐ common, 🛒 shopping
+priority: yes
+//
+word: verkaufen
+translation: to sell
+type: verb
+group: 🛒 Shopping & money
+pronunciation: /fɛɐ̯ˈkaʊ̯fn̩/
+example.de: Sie verkauft ihr altes Auto.
+example.en: She's selling her old car.
+grammar.Verb type: weak
+grammar.Separable verb?: no
+grammar.Auxiliary (Perfekt): haben
+grammar.Partizip II: verkauft
+grammar.Präteritum (ich): verkaufte
+grammar.Präsens (all 6 forms): verkaufe / verkaufst / verkauft / verkaufen / verkauft / verkaufen
+tags: ⭐ common, 🛒 shopping
+priority: yes
+//
+word: kosten
+translation: cost
+type: noun
+group: 🛒 Shopping & money
+pronunciation: /ˈkɔstn̩/
+example.de: Die Kosten sind höher als erwartet.
+example.en: The costs are higher than expected.
+grammar.Gender: pl
+note: Almost always used in the plural, even for a single overall cost.
+tags: 🛒 shopping
+priority: yes
+//
+word: geldbeutel
+translation: wallet
+type: noun
+group: 🛒 Shopping & money
+pronunciation: /ˈɡɛltbɔɪ̯tl̩/
+example.de: Ich habe meinen Geldbeutel zu Hause vergessen.
+example.en: I forgot my wallet at home.
+grammar.Gender: m
+grammar.Plural (with article): die Geldbeutel
+grammar.Genitive singular: des Geldbeutels
+note: Portemonnaie (a French loanword) is an equally common alternative.
+tags: 🛒 shopping
+priority: yes
+//
+word: budget
+translation: budget
+type: noun
+group: 🛒 Shopping & money
+pronunciation: /byˈdʒeː/
+example.de: Wir haben ein festes Budget für den Urlaub.
+example.en: We have a fixed budget for the holiday.
+grammar.Gender: n
+grammar.Plural (with article): die Budgets
+grammar.Genitive singular: des Budgets
+tags: 🛒 shopping
+priority: yes
+//
+word: wechselgeld
+translation: change
+type: noun
+group: 🛒 Shopping & money
+pronunciation: /ˈvɛksl̩ɡɛlt/
+example.de: Hier ist Ihr Wechselgeld.
+example.en: Here is your change.
+grammar.Gender: n
+grammar.Genitive singular: des Wechselgeldes
+etymology: Wechseln (to change/exchange) + Geld (money).
+tags: 🛒 shopping
+priority: yes
+//
+word: warteschlange
+translation: queue
+type: noun
+group: 🛒 Shopping & money
+pronunciation: /ˈvaʁtəˌʃlaŋə/
+example.de: Die Warteschlange an der Kasse war sehr lang.
+example.en: The queue at the checkout was very long.
+grammar.Gender: f
+grammar.Plural (with article): die Warteschlangen
+grammar.Genitive singular: der Warteschlange
+etymology: Warten (to wait) + Schlange (snake) — "waiting snake." In casual speech, people usually just say Schlange stehen (to stand in a queue) instead of using this full compound.
+tags: 🛒 shopping
+priority: yes
+//
+word: öffnungszeiten
+translation: opening hours
+type: noun
+group: 🛒 Shopping & money
+pronunciation: /ˈœfnʊŋstsaɪ̯tn̩/
+example.de: Die Öffnungszeiten stehen an der Tür.
+example.en: The opening hours are on the door.
+grammar.Gender: pl
+etymology: Öffnung (opening) + Zeiten (times).
+tags: 🛒 shopping
+priority: yes
+//
+word: geschlossen
+translation: closed
+type: adjective
+group: 🛒 Shopping & money
+pronunciation: /ɡəˈʃlɔsn̩/
+example.de: Der Laden ist sonntags geschlossen.
+example.en: The shop is closed on Sundays.
+etymology: Past participle of schließen (to close).
+tags: ⭐ common, 🛒 shopping
+priority: yes
+//
+word: offen
+translation: open
+type: adjective
+group: 🛒 Shopping & money
+pronunciation: /ˈɔfn̩/
+example.de: Das Geschäft ist bis zwanzig Uhr offen.
+example.en: The shop is open until eight o'clock.
+grammar.Comparative: offener
+grammar.Superlative: am offensten
+tags: ⭐ common, 🛒 shopping
+priority: yes
+//
+word: kunde
+translation: customer, client
+type: noun
+group: 🛒 Shopping & money
+pronunciation: /ˈkʊndə/
+example.de: Der Kunde hat immer recht.
+example.en: The customer is always right.
+grammar.Gender: m
+grammar.Plural (with article): die Kunden
+grammar.Genitive singular: des Kunden
+note: Same word for a shop customer and a business client. Feminine form is Kundin.
+tags: ⭐ common, 🛒 shopping
+priority: yes
+//
+word: rückerstattung
+translation: refund
+type: noun
+group: 🛒 Shopping & money
+pronunciation: /ˈʁʏkʔɛɐ̯ʃtatʊŋ/
+example.de: Ich möchte eine Rückerstattung beantragen.
+example.en: I would like to request a refund.
+grammar.Gender: f
+grammar.Plural (with article): die Rückerstattungen
+grammar.Genitive singular: der Rückerstattung
+etymology: Zurück (back) + erstatten (to reimburse).
+tags: 🛒 shopping
+priority: yes

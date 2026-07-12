@@ -1,0 +1,512 @@
+word: hund
+translation: dog
+type: noun
+group: 🌿 Nature & animals
+pronunciation: /hʊnt/
+example.de: Mein Hund liebt es, im Park zu spielen.
+example.en: My dog loves playing in the park.
+grammar.Gender: m
+grammar.Plural (with article): die Hunde
+grammar.Genitive singular: des Hundes
+tags: ⭐ common, 🌿 animals
+priority: yes
+//
+word: katze
+translation: cat
+type: noun
+group: 🌿 Nature & animals
+pronunciation: /ˈkatsə/
+example.de: Die Katze schläft den ganzen Tag.
+example.en: The cat sleeps all day.
+grammar.Gender: f
+grammar.Plural (with article): die Katzen
+grammar.Genitive singular: der Katze
+tags: ⭐ common, 🌿 animals
+priority: yes
+//
+word: pferd
+translation: horse
+type: noun
+group: 🌿 Nature & animals
+pronunciation: /pfeːɐ̯t/
+example.de: Sie reitet jeden Samstag ihr Pferd.
+example.en: She rides her horse every Saturday.
+grammar.Gender: n
+grammar.Plural (with article): die Pferde
+grammar.Genitive singular: des Pferdes
+tags: ⭐ common, 🌿 animals
+priority: yes
+//
+word: kuh
+translation: cow
+type: noun
+group: 🌿 Nature & animals
+pronunciation: /kuː/
+example.de: Die Kühe grasen auf der Weide.
+example.en: The cows graze in the meadow.
+grammar.Gender: f
+grammar.Plural (with article): die Kühe
+grammar.Genitive singular: der Kuh
+tags: 🌿 animals
+priority: yes
+//
+word: schwein
+translation: pig
+type: noun
+group: 🌿 Nature & animals
+pronunciation: /ʃvaɪ̯n/
+example.de: Auf dem Bauernhof leben Schweine.
+example.en: Pigs live on the farm.
+grammar.Gender: n
+grammar.Plural (with article): die Schweine
+grammar.Genitive singular: des Schweines
+note: Schwein haben (to have a pig) colloquially means "to be lucky."
+tags: 🌿 animals
+priority: yes
+//
+word: schaf
+translation: sheep
+type: noun
+group: 🌿 Nature & animals
+pronunciation: /ʃaːf/
+example.de: Die Schafe fressen Gras auf dem Hügel.
+example.en: The sheep are eating grass on the hill.
+grammar.Gender: n
+grammar.Plural (with article): die Schafe
+grammar.Genitive singular: des Schafes
+tags: 🌿 animals
+priority: yes
+//
+word: vogel
+translation: bird
+type: noun
+group: 🌿 Nature & animals
+pronunciation: /ˈfoːɡl̩/
+example.de: Ein Vogel singt vor meinem Fenster.
+example.en: A bird is singing outside my window.
+grammar.Gender: m
+grammar.Plural (with article): die Vögel
+grammar.Genitive singular: des Vogels
+tags: ⭐ common, 🌿 animals
+priority: yes
+//
+word: adler
+translation: eagle
+type: noun
+group: 🌿 Nature & animals
+pronunciation: /ˈaːdlɐ/
+example.de: Der Adler kreist über den Bergen.
+example.en: The eagle circles above the mountains.
+grammar.Gender: m
+grammar.Plural (with article): die Adler
+grammar.Genitive singular: des Adlers
+note: The eagle appears on the German federal coat of arms — der Bundesadler.
+tags: 🌿 animals
+priority: yes
+//
+word: schlange
+translation: snake
+type: noun
+group: 🌿 Nature & animals
+pronunciation: /ˈʃlaŋə/
+example.de: Eine Schlange schlängelte sich durchs Gras.
+example.en: A snake slithered through the grass.
+grammar.Gender: f
+grammar.Plural (with article): die Schlangen
+grammar.Genitive singular: der Schlange
+note: The same word also means "queue/line" — Schlange stehen means "to stand in line." The dedicated compound Warteschlange avoids the ambiguity.
+tags: 🌿 animals
+priority: yes
+//
+word: löwe
+translation: lion
+type: noun
+group: 🌿 Nature & animals
+pronunciation: /ˈløːvə/
+example.de: Der Löwe gilt als König der Tiere.
+example.en: The lion is considered the king of the animals.
+grammar.Gender: m
+grammar.Plural (with article): die Löwen
+grammar.Genitive singular: des Löwen
+tags: 🌿 animals
+priority: yes
+//
+word: tiger
+translation: tiger
+type: noun
+group: 🌿 Nature & animals
+pronunciation: /ˈtiːɡɐ/
+example.de: Der Tiger ist die größte Katzenart.
+example.en: The tiger is the largest cat species.
+grammar.Gender: m
+grammar.Plural (with article): die Tiger
+grammar.Genitive singular: des Tigers
+tags: 🌿 animals
+priority: yes
+//
+word: elefant
+translation: elephant
+type: noun
+group: 🌿 Nature & animals
+pronunciation: /eleˈfant/
+example.de: Der Elefant ist das größte Landtier.
+example.en: The elephant is the largest land animal.
+grammar.Gender: m
+grammar.Plural (with article): die Elefanten
+grammar.Genitive singular: des Elefanten
+tags: 🌿 animals
+priority: yes
+//
+word: bär
+translation: bear
+type: noun
+group: 🌿 Nature & animals
+pronunciation: /bɛːɐ̯/
+example.de: Im Wald lebt ein Bär.
+example.en: A bear lives in the forest.
+grammar.Gender: m
+grammar.Plural (with article): die Bären
+grammar.Genitive singular: des Bären
+note: Berlin's city symbol and name are widely (if disputedly) linked to this word.
+tags: 🌿 animals
+priority: yes
+//
+word: wolf
+translation: wolf
+type: noun
+group: 🌿 Nature & animals
+pronunciation: /vɔlf/
+example.de: Wölfe leben und jagen im Rudel.
+example.en: Wolves live and hunt in packs.
+grammar.Gender: m
+grammar.Plural (with article): die Wölfe
+grammar.Genitive singular: des Wolfes
+tags: 🌿 animals
+priority: yes
+//
+word: kaninchen
+translation: rabbit
+type: noun
+group: 🌿 Nature & animals
+pronunciation: /kaˈniːnçən/
+example.de: Das Kaninchen frisst eine Karotte.
+example.en: The rabbit is eating a carrot.
+grammar.Gender: n
+grammar.Plural (with article): die Kaninchen
+grammar.Genitive singular: des Kaninchens
+note: Hase refers specifically to a wild hare, a distinct (larger, longer-eared) animal from the domesticated Kaninchen.
+tags: 🌿 animals
+priority: yes
+//
+word: maus
+translation: mouse
+type: noun
+group: 🌿 Nature & animals
+pronunciation: /maʊ̯s/
+example.de: Eine Maus lief über den Boden.
+example.en: A mouse ran across the floor.
+grammar.Gender: f
+grammar.Plural (with article): die Mäuse
+grammar.Genitive singular: der Maus
+note: Also the everyday word for a computer mouse.
+tags: 🌿 animals
+priority: yes
+//
+word: biene
+translation: bee
+type: noun
+group: 🌿 Nature & animals
+pronunciation: /ˈbiːnə/
+example.de: Die Biene fliegt von Blume zu Blume.
+example.en: The bee flies from flower to flower.
+grammar.Gender: f
+grammar.Plural (with article): die Bienen
+grammar.Genitive singular: der Biene
+tags: 🌿 animals
+priority: yes
+//
+word: schmetterling
+translation: butterfly
+type: noun
+group: 🌿 Nature & animals
+pronunciation: /ˈʃmɛtɐlɪŋ/
+example.de: Ein bunter Schmetterling landete auf der Blume.
+example.en: A colorful butterfly landed on the flower.
+grammar.Gender: m
+grammar.Plural (with article): die Schmetterlinge
+grammar.Genitive singular: des Schmetterlings
+etymology: From Schmetten (an old regional word for cream) — folklore held that butterflies (or witches disguised as them) stole cream and butter.
+tags: 🌿 animals
+priority: yes
+//
+word: baum
+translation: tree
+type: noun
+group: 🌿 Nature & animals
+pronunciation: /baʊ̯m/
+example.de: Vor dem Haus steht ein großer Baum.
+example.en: There's a big tree in front of the house.
+grammar.Gender: m
+grammar.Plural (with article): die Bäume
+grammar.Genitive singular: des Baumes
+tags: ⭐ common, 🌿 nature
+priority: yes
+//
+word: blume
+translation: flower
+type: noun
+group: 🌿 Nature & animals
+pronunciation: /ˈbluːmə/
+example.de: Er schenkte ihr einen Strauß Blumen.
+example.en: He gave her a bouquet of flowers.
+grammar.Gender: f
+grammar.Plural (with article): die Blumen
+grammar.Genitive singular: der Blume
+tags: ⭐ common, 🌿 nature
+priority: yes
+//
+word: gras
+translation: grass
+type: noun
+group: 🌿 Nature & animals
+pronunciation: /ɡʁaːs/
+example.de: Das Gras muss gemäht werden.
+example.en: The grass needs mowing.
+grammar.Gender: n
+grammar.Genitive singular: des Grases
+tags: 🌿 nature
+priority: yes
+//
+word: wald
+translation: forest
+type: noun
+group: 🌿 Nature & animals
+pronunciation: /valt/
+example.de: Wir wandern gern im Wald.
+example.en: We like hiking in the forest.
+grammar.Gender: m
+grammar.Plural (with article): die Wälder
+grammar.Genitive singular: des Waldes
+tags: ⭐ common, 🌿 nature
+priority: yes
+//
+word: berg
+translation: mountain
+type: noun
+group: 🌿 Nature & animals
+pronunciation: /bɛʁk/
+example.de: Wir bestiegen den höchsten Berg der Region.
+example.en: We climbed the highest mountain in the region.
+grammar.Gender: m
+grammar.Plural (with article): die Berge
+grammar.Genitive singular: des Berges
+tags: ⭐ common, 🌿 nature
+priority: yes
+//
+word: fluss
+translation: river
+type: noun
+group: 🌿 Nature & animals
+pronunciation: /flʊs/
+example.de: Der Fluss fließt durch die ganze Stadt.
+example.en: The river flows through the whole city.
+grammar.Gender: m
+grammar.Plural (with article): die Flüsse
+grammar.Genitive singular: des Flusses
+tags: ⭐ common, 🌿 nature
+priority: yes
+//
+word: see
+translation: lake
+type: noun
+group: 🌿 Nature & animals
+pronunciation: /zeː/
+example.de: Wir schwimmen im See.
+example.en: We're swimming in the lake.
+grammar.Gender: m
+grammar.Plural (with article): die Seen
+grammar.Genitive singular: des Sees
+note: Watch the gender — der See (masculine) is the lake, but die See (feminine) means "the sea."
+tags: 🌿 nature
+priority: yes
+//
+word: meer
+translation: sea
+type: noun
+group: 🌿 Nature & animals
+pronunciation: /meːɐ̯/
+example.de: Wir fahren im Sommer ans Meer.
+example.en: In summer we're going to the sea.
+grammar.Gender: n
+grammar.Plural (with article): die Meere
+grammar.Genitive singular: des Meeres
+tags: ⭐ common, 🌿 nature
+priority: yes
+//
+word: ozean
+translation: ocean
+type: noun
+group: 🌿 Nature & animals
+pronunciation: /ˈoːtseaːn/
+example.de: Der Atlantik ist ein riesiger Ozean.
+example.en: The Atlantic is a huge ocean.
+grammar.Gender: m
+grammar.Plural (with article): die Ozeane
+grammar.Genitive singular: des Ozeans
+tags: 🌿 nature
+priority: yes
+//
+word: strand
+translation: beach
+type: noun
+group: 🌿 Nature & animals
+pronunciation: /ʃtʁant/
+example.de: Wir verbringen den Tag am Strand.
+example.en: We're spending the day at the beach.
+grammar.Gender: m
+grammar.Plural (with article): die Strände
+grammar.Genitive singular: des Strandes
+tags: ⭐ common, 🌿 nature
+priority: yes
+//
+word: wüste
+translation: desert
+type: noun
+group: 🌿 Nature & animals
+pronunciation: /ˈvyːstə/
+example.de: Die Sahara ist die größte heiße Wüste.
+example.en: The Sahara is the largest hot desert.
+grammar.Gender: f
+grammar.Plural (with article): die Wüsten
+grammar.Genitive singular: der Wüste
+tags: 🌿 nature
+priority: yes
+//
+word: insel
+translation: island
+type: noun
+group: 🌿 Nature & animals
+pronunciation: /ˈɪnzl̩/
+example.de: Diese Insel hat wunderschöne Strände.
+example.en: This island has beautiful beaches.
+grammar.Gender: f
+grammar.Plural (with article): die Inseln
+grammar.Genitive singular: der Insel
+tags: 🌿 nature
+priority: yes
+//
+word: stein
+translation: rock
+type: noun
+group: 🌿 Nature & animals
+pronunciation: /ʃtaɪ̯n/
+example.de: Er warf einen Stein ins Wasser.
+example.en: He threw a rock into the water.
+grammar.Gender: m
+grammar.Plural (with article): die Steine
+grammar.Genitive singular: des Steines
+tags: 🌿 nature
+priority: yes
+//
+word: sand
+translation: sand
+type: noun
+group: 🌿 Nature & animals
+pronunciation: /zant/
+example.de: Der Sand ist heiß in der Sonne.
+example.en: The sand is hot in the sun.
+grammar.Gender: m
+grammar.Genitive singular: des Sandes
+tags: 🌿 nature
+priority: yes
+//
+word: himmel
+translation: sky
+type: noun
+group: 🌿 Nature & animals
+pronunciation: /ˈhɪml̩/
+example.de: Der Himmel ist heute wolkenlos.
+example.en: The sky is cloudless today.
+grammar.Gender: m
+grammar.Plural (with article): die Himmel
+grammar.Genitive singular: des Himmels
+note: Also means "heaven" — the same word for both, distinguished by context.
+tags: ⭐ common, 🌿 nature
+priority: yes
+//
+word: mond
+translation: moon
+type: noun
+group: 🌿 Nature & animals
+pronunciation: /moːnt/
+example.de: Der Mond ist heute Nacht voll.
+example.en: The moon is full tonight.
+grammar.Gender: m
+grammar.Plural (with article): die Monde
+grammar.Genitive singular: des Mondes
+tags: ⭐ common, 🌿 nature
+priority: yes
+//
+word: stern
+translation: star
+type: noun
+group: 🌿 Nature & animals
+pronunciation: /ʃtɛʁn/
+example.de: Man kann heute Nacht viele Sterne sehen.
+example.en: You can see many stars tonight.
+grammar.Gender: m
+grammar.Plural (with article): die Sterne
+grammar.Genitive singular: des Sterns
+tags: ⭐ common, 🌿 nature
+priority: yes
+//
+word: erde
+translation: earth
+type: noun
+group: 🌿 Nature & animals
+pronunciation: /ˈeːɐ̯də/
+example.de: Die Erde dreht sich um die Sonne.
+example.en: The earth revolves around the sun.
+grammar.Gender: f
+grammar.Genitive singular: der Erde
+note: Also means "soil/ground" — Erde in einen Blumentopf füllen (to put soil in a flowerpot).
+tags: ⭐ common, 🌿 nature
+priority: yes
+//
+word: luft
+translation: air
+type: noun
+group: 🌿 Nature & animals
+pronunciation: /lʊft/
+example.de: Die Luft hier ist sehr sauber.
+example.en: The air here is very clean.
+grammar.Gender: f
+grammar.Genitive singular: der Luft
+tags: ⭐ common, 🌿 nature
+priority: yes
+//
+word: feuer
+translation: fire
+type: noun
+group: 🌿 Nature & animals
+pronunciation: /ˈfɔɪ̯ɐ/
+example.de: Wir machten ein Feuer am Strand.
+example.en: We made a fire on the beach.
+grammar.Gender: n
+grammar.Plural (with article): die Feuer
+grammar.Genitive singular: des Feuers
+tags: ⭐ common, 🌿 nature
+priority: yes
+//
+word: pflanze
+translation: plant
+type: noun
+group: 🌿 Nature & animals
+pronunciation: /ˈpflantsə/
+example.de: Ich gieße meine Pflanzen jeden Tag.
+example.en: I water my plants every day.
+grammar.Gender: f
+grammar.Plural (with article): die Pflanzen
+grammar.Genitive singular: der Pflanze
+tags: ⭐ common, 🌿 nature
+priority: yes

@@ -1,0 +1,373 @@
+word: frühling
+translation: spring
+type: noun
+group: ⛅ Weather & seasons
+pronunciation: /ˈfʁyːlɪŋ/
+example.de: Im Frühling blühen die Blumen.
+example.en: In spring the flowers bloom.
+grammar.Gender: m
+grammar.Plural (with article): die Frühlinge
+grammar.Genitive singular: des Frühlings
+tags: ⭐ common, ⛅ weather
+priority: yes
+//
+word: sommer
+translation: summer
+type: noun
+group: ⛅ Weather & seasons
+pronunciation: /ˈzɔmɐ/
+example.de: Im Sommer fahren wir ans Meer.
+example.en: In summer we go to the sea.
+grammar.Gender: m
+grammar.Plural (with article): die Sommer
+grammar.Genitive singular: des Sommers
+tags: ⭐ common, ⛅ weather
+priority: yes
+//
+word: herbst
+translation: autumn
+type: noun
+group: ⛅ Weather & seasons
+pronunciation: /hɛʁpst/
+example.de: Im Herbst werden die Blätter bunt.
+example.en: In autumn the leaves turn colorful.
+grammar.Gender: m
+grammar.Plural (with article): die Herbste
+grammar.Genitive singular: des Herbstes
+tags: ⭐ common, ⛅ weather
+priority: yes
+//
+word: winter
+translation: winter
+type: noun
+group: ⛅ Weather & seasons
+pronunciation: /ˈvɪntɐ/
+example.de: Im Winter schneit es oft.
+example.en: In winter it often snows.
+grammar.Gender: m
+grammar.Plural (with article): die Winter
+grammar.Genitive singular: des Winters
+tags: ⭐ common, ⛅ weather
+priority: yes
+//
+word: sonne
+translation: sun
+type: noun
+group: ⛅ Weather & seasons
+pronunciation: /ˈzɔnə/
+example.de: Die Sonne scheint heute stark.
+example.en: The sun is shining strongly today.
+grammar.Gender: f
+grammar.Plural (with article): die Sonnen
+grammar.Genitive singular: der Sonne
+tags: ⭐ common, ⛅ weather
+priority: yes
+//
+word: regen
+translation: rain
+type: noun
+group: ⛅ Weather & seasons
+pronunciation: /ˈʁeːɡn̩/
+example.de: Der Regen hört bald auf.
+example.en: The rain will stop soon.
+grammar.Gender: m
+grammar.Genitive singular: des Regens
+tags: ⭐ common, ⛅ weather
+priority: yes
+//
+word: schnee
+translation: snow
+type: noun
+group: ⛅ Weather & seasons
+pronunciation: /ʃneː/
+example.de: Der Schnee bedeckt die Straßen.
+example.en: The snow covers the streets.
+grammar.Gender: m
+grammar.Genitive singular: des Schnees
+tags: ⭐ common, ⛅ weather
+priority: yes
+//
+word: wind
+translation: wind
+type: noun
+group: ⛅ Weather & seasons
+pronunciation: /vɪnt/
+example.de: Der Wind ist heute sehr stark.
+example.en: The wind is very strong today.
+grammar.Gender: m
+grammar.Plural (with article): die Winde
+grammar.Genitive singular: des Windes
+tags: ⭐ common, ⛅ weather
+priority: yes
+//
+word: wolke
+translation: cloud
+type: noun
+group: ⛅ Weather & seasons
+pronunciation: /ˈvɔlkə/
+example.de: Eine Wolke verdeckt die Sonne.
+example.en: A cloud is covering the sun.
+grammar.Gender: f
+grammar.Plural (with article): die Wolken
+grammar.Genitive singular: der Wolke
+tags: ⭐ common, ⛅ weather
+priority: yes
+//
+word: nebel
+translation: fog
+type: noun
+group: ⛅ Weather & seasons
+pronunciation: /ˈneːbl̩/
+example.de: Heute Morgen war dichter Nebel.
+example.en: There was thick fog this morning.
+grammar.Gender: m
+grammar.Genitive singular: des Nebels
+tags: ⛅ weather
+priority: yes
+//
+word: sturm
+translation: storm
+type: noun
+group: ⛅ Weather & seasons
+pronunciation: /ʃtʊʁm/
+example.de: Ein starker Sturm zieht auf.
+example.en: A strong storm is coming.
+grammar.Gender: m
+grammar.Plural (with article): die Stürme
+grammar.Genitive singular: des Sturmes
+tags: ⛅ weather
+priority: yes
+//
+word: blitz
+translation: lightning
+type: noun
+group: ⛅ Weather & seasons
+pronunciation: /blɪts/
+example.de: Ein Blitz erhellte den Himmel.
+example.en: A lightning bolt lit up the sky.
+grammar.Gender: m
+grammar.Plural (with article): die Blitze
+grammar.Genitive singular: des Blitzes
+note: Also the everyday word for a camera flash.
+tags: ⛅ weather
+priority: yes
+//
+word: donner
+translation: thunder
+type: noun
+group: ⛅ Weather & seasons
+pronunciation: /ˈdɔnɐ/
+example.de: Der Donner ließ die Fenster klirren.
+example.en: The thunder made the windows rattle.
+grammar.Gender: m
+grammar.Genitive singular: des Donners
+etymology: The Germanic thunder god Donar (cf. Thursday, Donnerstag) shares this root.
+tags: ⛅ weather
+priority: yes
+//
+word: eis
+translation: ice
+type: noun
+group: ⛅ Weather & seasons
+pronunciation: /aɪ̯s/
+example.de: Der See ist mit Eis bedeckt.
+example.en: The lake is covered with ice.
+grammar.Gender: n
+grammar.Genitive singular: des Eises
+note: Also means "ice cream" in everyday speech — context makes it clear.
+tags: ⭐ common, ⛅ weather
+priority: yes
+//
+word: hagel
+translation: hail
+type: noun
+group: ⛅ Weather & seasons
+pronunciation: /ˈhaːɡl̩/
+example.de: Der Hagel beschädigte die Autos.
+example.en: The hail damaged the cars.
+grammar.Gender: m
+grammar.Genitive singular: des Hagels
+tags: ⛅ weather
+priority: yes
+//
+word: heiß
+translation: hot
+type: adjective
+group: ⛅ Weather & seasons
+pronunciation: /haɪ̯s/
+example.de: Es ist heute sehr heiß.
+example.en: It is very hot today.
+grammar.Comparative: heißer
+grammar.Superlative: am heißesten
+tags: ⭐ common, ⛅ weather
+priority: yes
+//
+word: kalt
+translation: cold
+type: adjective
+group: ⛅ Weather & seasons
+pronunciation: /kalt/
+example.de: Mir ist kalt, kannst du das Fenster schließen?
+example.en: I'm cold, can you close the window?
+grammar.Comparative: kälter
+grammar.Superlative: am kältesten
+note: Mir ist kalt (dative) is the standard construction, not "ich bin kalt."
+tags: ⭐ common, ⛅ weather
+priority: yes
+//
+word: warm
+translation: warm
+type: adjective
+group: ⛅ Weather & seasons
+pronunciation: /vaʁm/
+example.de: Es wird morgen wärmer.
+example.en: It will be warmer tomorrow.
+grammar.Comparative: wärmer
+grammar.Superlative: am wärmsten
+tags: ⭐ common, ⛅ weather
+priority: yes
+//
+word: kühl
+translation: cool
+type: adjective
+group: ⛅ Weather & seasons
+pronunciation: /kyːl/
+example.de: Die Abende sind schon kühl.
+example.en: The evenings are already cool.
+grammar.Comparative: kühler
+grammar.Superlative: am kühlsten
+tags: ⛅ weather
+priority: yes
+//
+word: temperatur
+translation: temperature
+type: noun
+group: ⛅ Weather & seasons
+pronunciation: /tɛmpəʁaˈtuːɐ̯/
+example.de: Die Temperatur sinkt am Abend.
+example.en: The temperature drops in the evening.
+grammar.Gender: f
+grammar.Plural (with article): die Temperaturen
+grammar.Genitive singular: der Temperatur
+tags: ⭐ common, ⛅ weather
+priority: yes
+//
+word: grad
+translation: degree
+type: noun
+group: ⛅ Weather & seasons
+pronunciation: /ɡʁaːt/
+example.de: Es sind heute zwanzig Grad.
+example.en: It's twenty degrees today.
+grammar.Gender: n
+grammar.Plural (with article): die Grade
+grammar.Genitive singular: des Grades
+tags: ⭐ common, ⛅ weather
+priority: yes
+//
+word: wettervorhersage
+translation: forecast
+type: noun
+group: ⛅ Weather & seasons
+pronunciation: /ˈvɛtɐfoːɐ̯heːɐ̯zaːɡə/
+example.de: Laut Wettervorhersage regnet es morgen.
+example.en: According to the forecast, it will rain tomorrow.
+grammar.Gender: f
+grammar.Plural (with article): die Wettervorhersagen
+grammar.Genitive singular: der Wettervorhersage
+etymology: Wetter (weather) + vorhersagen (to predict/forecast).
+tags: ⛅ weather
+priority: yes
+//
+word: regenschirm
+translation: umbrella
+type: noun
+group: ⛅ Weather & seasons
+pronunciation: /ˈʁeːɡn̩ʃɪʁm/
+example.de: Nimm deinen Regenschirm mit, es könnte regnen.
+example.en: Take your umbrella, it might rain.
+grammar.Gender: m
+grammar.Plural (with article): die Regenschirme
+grammar.Genitive singular: des Regenschirms
+etymology: Regen (rain) + Schirm (screen/shield).
+tags: ⭐ common, ⛅ weather
+priority: yes
+//
+word: sonnig
+translation: sunny
+type: adjective
+group: ⛅ Weather & seasons
+pronunciation: /ˈzɔnɪç/
+example.de: Morgen wird es sonnig.
+example.en: Tomorrow it will be sunny.
+etymology: From Sonne (sun).
+tags: ⭐ common, ⛅ weather
+priority: yes
+//
+word: regnerisch
+translation: rainy
+type: adjective
+group: ⛅ Weather & seasons
+pronunciation: /ˈʁeːɡnəʁɪʃ/
+example.de: Der Herbst ist meistens regnerisch.
+example.en: Autumn is usually rainy.
+etymology: From regnen (to rain).
+tags: ⛅ weather
+priority: yes
+//
+word: verschneit
+translation: snowy
+type: adjective
+group: ⛅ Weather & seasons
+pronunciation: /fɛɐ̯ˈʃnaɪ̯t/
+example.de: Die Berge sind komplett verschneit.
+example.en: The mountains are completely snowy.
+etymology: Past participle of verschneien (to become covered in snow).
+tags: ⛅ weather
+priority: yes
+//
+word: windig
+translation: windy
+type: adjective
+group: ⛅ Weather & seasons
+pronunciation: /ˈvɪndɪç/
+example.de: Es ist heute sehr windig am Strand.
+example.en: It is very windy on the beach today.
+etymology: From Wind.
+tags: ⛅ weather
+priority: yes
+//
+word: bewölkt
+translation: cloudy
+type: adjective
+group: ⛅ Weather & seasons
+pronunciation: /bəˈvœlkt/
+example.de: Der Himmel ist heute bewölkt.
+example.en: The sky is cloudy today.
+etymology: Past participle of bewölken, from Wolke (cloud).
+tags: ⛅ weather
+priority: yes
+//
+word: eiskalt
+translation: freezing
+type: adjective
+group: ⛅ Weather & seasons
+pronunciation: /ˈaɪ̯skalt/
+example.de: Draußen ist es eiskalt.
+example.en: It's freezing outside.
+etymology: Eis (ice) + kalt (cold) — "ice-cold."
+tags: ⛅ weather
+priority: yes
+//
+word: feucht
+translation: humid
+type: adjective
+group: ⛅ Weather & seasons
+pronunciation: /fɔɪ̯çt/
+example.de: Die Luft ist heute sehr feucht.
+example.en: The air is very humid today.
+grammar.Comparative: feuchter
+grammar.Superlative: am feuchtesten
+note: Also the everyday word for "damp/moist" more generally.
+tags: ⛅ weather
+priority: yes

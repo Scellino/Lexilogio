@@ -259,7 +259,7 @@ tags: 🗣️ colloquial, emotion
 priority: yes
 //
 word: γάτα
-translation: clever person, "cat"
+translation: cat, clever person
 type: noun
 group: 🤪 Slang
 pronunciation: /ˈɣata/

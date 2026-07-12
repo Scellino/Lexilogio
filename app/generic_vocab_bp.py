@@ -443,7 +443,6 @@ function mkel(tag, cls, text) {
 
 // ── Constants ─────────────────────────────────────────────────────────────────
 const MASTERY_COLORS = {new:'#7ab3d4',learning:'#c9a96e',struggling:'#d47a8f',mastered:'#7ac49a'};
-const MASTERY_LABELS = {new:'🆕 New',learning:'📘 Learning',struggling:'⚠️ Struggling',mastered:'✅ Mastered'};
 
 // ── State ─────────────────────────────────────────────────────────────────────
 let allCards=[], progress={}, tab='browse';
@@ -467,6 +466,23 @@ const DEP      = (USER && USER.departure_lang) || 'en';
 const DEP_NAME = (USER && USER.departure_name) || 'English';
 const DIR_FWD  = 'word→' + DEP;   // e.g. 'word→en', 'word→de'
 const DIR_REV  = DEP + '→word';   // e.g. 'en→word', 'de→word'
+
+// On-card labels follow the departure language (the language the learner
+// reads), not the target language being studied. Falls back to English for
+// any departure language without a translation yet.
+const UI_STRINGS = {
+  en: {grammar:'Grammar', example:'Example', note:'Note', etymology:'Etymology',
+       flip:'tap to flip', all:'🎲 All', due:'🔁 review due',
+       new:'🆕 New', learning:'📘 Learning', struggling:'⚠️ Struggling', mastered:'✅ Mastered'},
+  de: {grammar:'Grammatik', example:'Beispiel', note:'Hinweis', etymology:'Etymologie',
+       flip:'zum Umdrehen tippen', all:'🎲 Alle', due:'🔁 Wiederholung fällig',
+       new:'🆕 Neu', learning:'📘 Lernen', struggling:'⚠️ Schwierig', mastered:'✅ Gemeistert'},
+  el: {grammar:'Γραμματική', example:'Παράδειγμα', note:'Σημείωση', etymology:'Ετυμολογία',
+       flip:'πάτησε για αναστροφή', all:'🎲 Όλα', due:'🔁 προς επανάληψη',
+       new:'🆕 Νέο', learning:'📘 Σε εκμάθηση', struggling:'⚠️ Δυσκολία', mastered:'✅ Κατακτημένο'},
+};
+const UI = UI_STRINGS[DEP] || UI_STRINGS.en;
+const MASTERY_LABELS = {new:UI.new, learning:UI.learning, struggling:UI.struggling, mastered:UI.mastered};
 quizDir = DIR_FWD;
 
 (function _initMenu(){
@@ -663,10 +679,10 @@ function cardBackHTML(c){
     }
   }
   return (c.type?`<div style="font-size:10px;color:rgba(255,255,255,.2);font-family:sans-serif;margin-bottom:6px">${esc(c.type)}</div>`:'')
-    +(gramRows?`<div class="bcard-section"><div class="bcard-section-label">Grammar</div><div class="bcard-grammar">${gramRows}</div></div>`:'')
-    +(exHTML?`<div class="bcard-section"><div class="bcard-section-label">Example</div>${exHTML}</div>`:'')
-    +(c.note?`<div class="bcard-section"><div class="bcard-section-label">Note</div><div class="bcard-note">&#128161; ${esc(c.note)}</div></div>`:'')
-    +(c.etymology?`<div class="bcard-section"><div class="bcard-section-label">Etymology</div><div class="bcard-etym">&#128279; ${esc(c.etymology)}</div></div>`:'');
+    +(gramRows?`<div class="bcard-section"><div class="bcard-section-label">${UI.grammar}</div><div class="bcard-grammar">${gramRows}</div></div>`:'')
+    +(exHTML?`<div class="bcard-section"><div class="bcard-section-label">${UI.example}</div>${exHTML}</div>`:'')
+    +(c.note?`<div class="bcard-section"><div class="bcard-section-label">${UI.note}</div><div class="bcard-note">&#128161; ${esc(c.note)}</div></div>`:'')
+    +(c.etymology?`<div class="bcard-section"><div class="bcard-section-label">${UI.etymology}</div><div class="bcard-etym">&#128279; ${esc(c.etymology)}</div></div>`:'');
 }
 
 // ── Navigation history (mouse back/forward) ────────────────────────────────────
@@ -725,7 +741,7 @@ function renderBrowse(){
     <div class="sec">
       <div class="sec-label">Knowledge level</div>
       <div class="pills">
-        ${['all','new','learning','struggling','mastered'].map(k=>pill(k,k==='all'?'🎲 All':MASTERY_LABELS[k],browseMastery===k,`setBrowseMastery('${k}')`)).join('')}
+        ${['all','new','learning','struggling','mastered'].map(k=>pill(k,k==='all'?UI.all:MASTERY_LABELS[k],browseMastery===k,`setBrowseMastery('${k}')`)).join('')}
       </div>
     </div>
     <div class="search-wrap">
@@ -764,7 +780,7 @@ function renderBrowse(){
             <div class="fc-word" style="${gc?`color:${gc}`:''}">${esc(c.word)}${spkBtn(c.word)}</div>
             ${c.pronunciation?`<div class="fc-pron">[${esc(c.pronunciation)}]</div>`:''}
             ${c.type?`<div class="fc-type">${esc(c.type)}</div>`:''}
-            <div class="fc-hint">tap to flip</div>
+            <div class="fc-hint">${UI.flip}</div>
           </div>
           <div class="fc-back">
             <div style="font-family:Georgia,serif;font-size:22px;color:#e8c98a;margin-bottom:12px">${esc(c.translation)}</div>
@@ -1065,7 +1081,7 @@ function renderStudyCards(){
 
           ${card.pronunciation?`<div class="fc-pron">[${esc(card.pronunciation)}]</div>`:''}
           ${card.type?`<div class="fc-type">${esc(card.type)}</div>`:''}
-          <div class="fc-hint">tap to flip</div>
+          <div class="fc-hint">${UI.flip}</div>
         </div>
         <div class="fc-back">
           <div style="font-family:Georgia,serif;font-size:22px;color:#e8c98a;margin-bottom:12px">${esc(card.translation)}</div>
@@ -1093,7 +1109,7 @@ function renderQuizQuestion(){
   const promptSub=isW2E?(card.pronunciation?'['+card.pronunciation+']':''):(card.type||'');
   const lvl=cardMastery(card);
   const due=retentionDue(card);
-  const mastLbl=lvl!=='new'?(due?'🔁 review due':MASTERY_LABELS[lvl]):null;
+  const mastLbl=lvl!=='new'?(due?UI.due:MASTERY_LABELS[lvl]):null;
   const pct=((quizIdx+1)/quizWords.length*100).toFixed(1);
 
   document.getElementById('content').innerHTML=`

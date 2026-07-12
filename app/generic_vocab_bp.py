@@ -1192,7 +1192,7 @@ function switchQuizDir(){
   quizDir=quizDir===DIR_FWD?DIR_REV:DIR_FWD;
   droppedCards=new Set();
   quizWords=shuffle([...quizOrigSet]);
-  quizIdx=0;quizRetrying=false;
+  quizIdx=0;quizRetrying=false;quizResults=[];
   renderQuizQuestion();
 }
 

@@ -5,8 +5,78 @@ Registered in app.py at /nl/vocab.
 To add another language, copy this file, fill in a new LANG dict,
 call make_vocab_blueprint(), and register the blueprint in app.py.
 """
+import re
 from pathlib import Path
-from generic_vocab_bp import make_vocab_blueprint
+from generic_vocab_bp import make_vocab_blueprint, resolve_expected_article
+
+# ── Check function ─────────────────────────────────────────────────────────────
+
+_NL_ARTICLES = frozenset(["de", "het", "een"])
+
+
+def _nl_edit_distance(a, b):
+    m, n = len(a), len(b)
+    dp = list(range(n + 1))
+    for i in range(1, m + 1):
+        prev, dp[0] = dp[0], i
+        for j in range(1, n + 1):
+            prev, dp[j] = dp[j], prev if a[i-1]==b[j-1] else 1+min(prev, dp[j], dp[j-1])
+    return dp[n]
+
+
+def _nl_normalize(s):
+    s = s.lower().strip()
+    for a, b in [("é","e"),("è","e"),("ë","e"),("ï","i"),("ö","o"),("ü","u")]:
+        s = s.replace(a, b)
+    s = re.sub(r"[^\w\s]", " ", s)
+    return s.strip()
+
+
+def _nl_strip_article(s):
+    for art in sorted(_NL_ARTICLES, key=len, reverse=True):
+        if s.startswith(art + " "):
+            return s[len(art):].lstrip()
+    return s
+
+
+def _nl_is_close(guess, target):
+    max_len = max(len(guess), len(target), 1)
+    d = _nl_edit_distance(guess, target)
+    if max_len <= 4:  return d == 1
+    if max_len <= 9:  return d <= 2
+    return d <= 3
+
+
+def _strip_the(s):
+    return s[4:] if s.startswith("the ") else s
+
+
+def _nl_check_fn(guess, correct, direction, card):
+    g_norm = _strip_the(_nl_normalize(guess))
+    c_norm = _strip_the(_nl_normalize(correct))
+
+    if direction == "word→en":
+        if g_norm == c_norm:
+            return "correct"
+        if _nl_is_close(g_norm, c_norm):
+            return "correct"
+        return "wrong"
+
+    # en→word: the article is part of the answer whenever the card's gender
+    # is known — a bare noun with no article, or the wrong one, is "close"
+    # (retry), not silently accepted or hard-failed.
+    g_bare = _nl_strip_article(g_norm)
+    if g_bare == c_norm:
+        expected = _nl_normalize(resolve_expected_article(NL_LANG, card))
+        if not expected:
+            return "correct"   # no known gender — can't require an article
+        return "correct" if g_norm == f"{expected} {c_norm}" else "close"
+    if _nl_is_close(g_bare, c_norm):
+        return "close"
+    if _nl_is_close(g_norm, c_norm):
+        return "close"
+    return "wrong"
+
 
 NL_LANG = {
     "code":         "nl",
@@ -195,4 +265,4 @@ NL_LANG = {
     },
 }
 
-nl_vocab_bp = make_vocab_blueprint(NL_LANG)
+nl_vocab_bp = make_vocab_blueprint(NL_LANG, check_fn=_nl_check_fn)

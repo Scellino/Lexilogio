@@ -289,10 +289,12 @@ def _make_greek_check_fn(accepted_alts):
                 return bool(cw and gw and cw[0] == gw[0] and len(target) < 20)
 
             if _word_matches(norm_guess) or _word_matches(guess_word):
-                if guess_art is not None:
-                    exp_art = _el_card_article(card)
-                    if exp_art and guess_art != exp_art:
-                        return "close"  # right word, wrong article
+                # The article is part of the answer whenever the card's
+                # article is known — omitting it, or getting it wrong, is
+                # "close" (retry), not silently accepted.
+                exp_art = _el_card_article(card)
+                if exp_art:
+                    return "correct" if guess_art == exp_art else "close"
                 return "correct"
 
             for w in {norm_guess, guess_word}:

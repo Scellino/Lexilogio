@@ -6,6 +6,8 @@ from el_vocab_app import _el_grammar_forms, _make_greek_check_fn
 from de_vocab_app import _de_check_fn
 from it_vocab_app import _it_check_fn
 from es_vocab_app import _es_check_fn
+from fr_vocab_app import _fr_check_fn
+from nl_vocab_app import _nl_check_fn
 
 
 # ── Generic checker ───────────────────────────────────────────────────────────
@@ -126,36 +128,85 @@ def test_grammar_forms_extraction():
 
 
 # ── Article handling on en→word answers, gendered-article languages ────────────
-# The English prompt never shows an article, so omitting one must be fully
-# correct. Only an article the learner actually typed but got wrong should
-# trigger "close" (retry). Typos in the bare word still count as "close"
-# regardless of the article, since target-language recall is what's tested.
-
-def test_de_no_article_is_correct():
-    assert _de_check_fn("hund", "der hund", "en→word", {}) == "correct"
+# Articles are always required whenever the card's gender is known: an
+# omitted article and a wrong article are both treated as "close" (retry),
+# not silently accepted. When gender is unknown (e.g. a card with no
+# grammar data), the requirement can't be enforced, so it's waived.
 
 def test_de_correct_article_is_correct():
-    assert _de_check_fn("der hund", "der hund", "en→word", {}) == "correct"
+    c = {"gender": "m", "word": "hund"}
+    assert _de_check_fn("der hund", "hund", "en→word", c) == "correct"
+
+def test_de_no_article_is_close():
+    c = {"gender": "m", "word": "hund"}
+    assert _de_check_fn("hund", "hund", "en→word", c) == "close"
 
 def test_de_wrong_article_is_close():
-    assert _de_check_fn("die hund", "der hund", "en→word", {}) == "close"
+    c = {"gender": "m", "word": "hund"}
+    assert _de_check_fn("die hund", "hund", "en→word", c) == "close"
 
 def test_de_typo_without_article_is_close():
-    assert _de_check_fn("hnd", "der hund", "en→word", {}) == "close"
+    c = {"gender": "m", "word": "hund"}
+    assert _de_check_fn("hnd", "hund", "en→word", c) == "close"
 
-def test_it_no_article_is_correct():
-    assert _it_check_fn("gatto", "il gatto", "en→word", {}) == "correct"
+def test_de_unknown_gender_article_not_required():
+    # no grammar data on the card → can't resolve an expected article,
+    # so a bare word is graded correct rather than penalized
+    assert _de_check_fn("hund", "hund", "en→word", {}) == "correct"
+
+def test_it_correct_article_is_correct():
+    c = {"gender": "m", "word": "gatto"}
+    assert _it_check_fn("il gatto", "gatto", "en→word", c) == "correct"
+
+def test_it_no_article_is_close():
+    c = {"gender": "m", "word": "gatto"}
+    assert _it_check_fn("gatto", "gatto", "en→word", c) == "close"
 
 def test_it_wrong_article_is_close():
-    assert _it_check_fn("la gatto", "il gatto", "en→word", {}) == "close"
+    c = {"gender": "m", "word": "gatto"}
+    assert _it_check_fn("la gatto", "gatto", "en→word", c) == "close"
 
-def test_es_no_article_is_correct():
-    assert _es_check_fn("perro", "el perro", "en→word", {}) == "correct"
+def test_es_correct_article_is_correct():
+    c = {"gender": "m", "word": "perro"}
+    assert _es_check_fn("el perro", "perro", "en→word", c) == "correct"
+
+def test_es_no_article_is_close():
+    c = {"gender": "m", "word": "perro"}
+    assert _es_check_fn("perro", "perro", "en→word", c) == "close"
 
 def test_es_wrong_article_is_close():
-    assert _es_check_fn("la perro", "el perro", "en→word", {}) == "close"
+    c = {"gender": "m", "word": "perro"}
+    assert _es_check_fn("la perro", "perro", "en→word", c) == "close"
 
-def test_greek_no_article_is_correct():
+def test_fr_correct_article_is_correct():
+    c = {"gender": "m", "word": "chien"}
+    assert _fr_check_fn("le chien", "chien", "en→word", c) == "correct"
+
+def test_fr_no_article_is_close():
+    c = {"gender": "m", "word": "chien"}
+    assert _fr_check_fn("chien", "chien", "en→word", c) == "close"
+
+def test_fr_wrong_article_is_close():
+    c = {"gender": "f", "word": "chien"}
+    assert _fr_check_fn("le chien", "chien", "en→word", c) == "close"
+
+def test_fr_vowel_start_elision():
+    c = {"gender": "m", "word": "arbre"}
+    assert _fr_check_fn("l'arbre", "arbre", "en→word", c) == "correct"
+
+def test_nl_correct_article_is_correct():
+    c = {"gender": "de", "word": "hond"}
+    assert _nl_check_fn("de hond", "hond", "en→word", c) == "correct"
+
+def test_nl_no_article_is_close():
+    c = {"gender": "de", "word": "hond"}
+    assert _nl_check_fn("hond", "hond", "en→word", c) == "close"
+
+def test_nl_wrong_article_is_close():
+    c = {"gender": "het", "word": "hond"}
+    assert _nl_check_fn("de hond", "hond", "en→word", c) == "close"
+
+def test_greek_no_article_is_close():
     c = _card(word="σκύλος", translation="dog",
               grammar=[{"label": "Article", "value": "ο σκύλος"}])
-    assert _greek_check("σκύλος", "", "en→word", c) == "correct"
+    assert _greek_check("σκύλος", "", "en→word", c) == "close"

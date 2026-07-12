@@ -103,6 +103,44 @@ def _strip_particles(s):
     return s
 
 
+def resolve_expected_article(lang, card):
+    """Resolve the grammatically correct article for a card from its gender
+    data and the language's article_rule config. Mirrors the frontend's
+    articleFor() exactly, so backend correctness-checking and the on-screen
+    feedback never disagree. Returns '' when the gender/article isn't known
+    (e.g. non-nouns, or presets that never set grammar.Gender) — callers
+    should treat that as "can't require an article, don't penalize".
+    """
+    rule = lang.get("article_rule")
+    if not rule:
+        return ""
+    if card.get("article"):
+        return card["article"]
+    based_on = rule.get("based_on", "gender")
+    rules = rule.get("rules", {})
+    direct = (card.get(based_on) or "").strip()
+    fv = ""
+    if direct and direct in rules:
+        fv = direct
+    elif direct:
+        low = direct.lower()
+        fv = next((k for k in rules if low.startswith(k.lower())), "")
+    if not fv:
+        return ""
+    r = rules[fv]
+    word = (card.get("word") or "").lower()
+    first = word[:1]
+    vowels = rule.get("vowels", "aeiou")
+    if r.get("vowel_start") and first and first in vowels:
+        return r["vowel_start"]
+    prefix_overrides = r.get("prefix_overrides")
+    if prefix_overrides:
+        for pfx in sorted(prefix_overrides, key=len, reverse=True):
+            if word.startswith(pfx):
+                return prefix_overrides[pfx]
+    return r.get("otherwise", "")
+
+
 def _check(guess, correct, direction='word→en'):
     g    = _strip_particles(_normalise(guess))
     alts = [_strip_particles(_normalise(a.strip())) for a in correct.split(",")]
@@ -671,6 +709,17 @@ function articleColorFor(card){
   }
   return '';
 }
+// Foreign word with its article, e.g. "der Hund" — same string the backend
+// now requires on en→word answers, so prompt/feedback and grading agree.
+function wordWithArticle(card){
+  const a=articleFor(card);
+  return a?a+' '+card.word:card.word;
+}
+// English translation with a leading "the" when the card has a known
+// article — a visual cue that the foreign answer needs one too.
+function enWithArticle(card){
+  return articleFor(card)?'the '+card.translation:card.translation;
+}
 
 // ── Card back HTML (shared by browse, study, quiz feedback) ───────────────────
 function cardBackHTML(c){
@@ -1114,7 +1163,10 @@ function renderQuizQuestion(){
   const card=quizWords[quizIdx];
   const isW2E=quizDir===DIR_FWD;
   const art=articleFor(card),gc=articleColorFor(card);
-  const prompt=isW2E?(art?art+' ':'')+card.word:card.translation;
+  // en→word: when the card has a known article, the answer will require one
+  // too — show "the [word]" as a visual reminder, since the plain English
+  // translation gives no hint that an article is expected.
+  const prompt=isW2E?wordWithArticle(card):enWithArticle(card);
   const promptSize=isW2E?'36px':'22px';
   const promptColor=(isW2E&&gc)?gc:'#e8c98a';
   const promptSub=isW2E?(card.pronunciation?'['+card.pronunciation+']':''):(card.type||'');
@@ -1243,8 +1295,8 @@ function _spellNote(guess,correctAnswer){
 function showFeedback(card,guess,result){
   const isW2E=quizDir===DIR_FWD;
   const correct=result==='correct';
-  const gc=articleColorFor(card),art=articleFor(card);
-  const correctAnswer=isW2E?card.translation:(art?art+' ':'')+card.word;
+  const gc=articleColorFor(card);
+  const correctAnswer=isW2E?enWithArticle(card):wordWithArticle(card);
   const w=(progress[String(card.id)]||{}).window||[];
   const dots=w.map((v,i)=>{
     const opacity=0.3+0.7*(i/Math.max(w.length-1,1));
@@ -1264,7 +1316,7 @@ function showFeedback(card,guess,result){
       <div class="feedback-verdict">${verdict}</div>
       <div class="feedback-answer">
         <span style="color:rgba(255,255,255,.4);font-size:11px">${isW2E?LANG.name:DEP_NAME}: </span>
-        <strong style="font-family:Georgia,serif;${gc&&!isW2E?`color:${gc}`:''}">${esc(isW2E?(art?art+' ':'')+card.word:card.translation)}</strong>${isW2E?spkBtn(card.word,true):''}
+        <strong style="font-family:Georgia,serif;${gc&&!isW2E?`color:${gc}`:''}">${esc(isW2E?wordWithArticle(card):enWithArticle(card))}</strong>${isW2E?spkBtn(card.word,true):''}
       </div>
       <div class="feedback-answer">
         <span style="color:rgba(255,255,255,.4);font-size:11px">${isW2E?DEP_NAME:LANG.name}: </span>

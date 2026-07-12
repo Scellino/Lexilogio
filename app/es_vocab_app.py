@@ -4,7 +4,7 @@ Registered in app.py at /es/vocab.
 """
 import re
 from pathlib import Path
-from generic_vocab_bp import make_vocab_blueprint
+from generic_vocab_bp import make_vocab_blueprint, resolve_expected_article
 
 # ── Check function ─────────────────────────────────────────────────────────────
 
@@ -55,30 +55,27 @@ def _strip_the(s):
 def _es_check_fn(guess, correct, direction, card):
     g_norm = _strip_the(_es_normalize(guess))
     c_norm = _strip_the(_es_normalize(correct))
-    if g_norm == c_norm:
-        return "correct"
-
-    g_bare = _es_strip_article(g_norm)
-    c_bare = _es_strip_article(c_norm)
 
     if direction == "word→en":
+        if g_norm == c_norm:
+            return "correct"
         if _es_is_close(g_norm, c_norm):
             return "correct"
-    else:
-        # The English prompt gives no article, so omitting one is fully
-        # correct. Only flag "close" (retry) when the learner supplied an
-        # article that doesn't match the expected one.
-        g_had_article = g_bare != g_norm
-        c_had_article = c_bare != c_norm
-        if g_bare == c_bare:
-            if g_had_article and c_had_article:
-                return "close"  # right word, wrong article
-            return "correct"
-        if _es_is_close(g_bare, c_bare):
-            return "close"
-        if _es_is_close(g_norm, c_norm):
-            return "close"
+        return "wrong"
 
+    # en→word: the article is part of the answer whenever the card's gender
+    # is known — a bare noun with no article, or the wrong one, is "close"
+    # (retry), not silently accepted or hard-failed.
+    g_bare = _es_strip_article(g_norm)
+    if g_bare == c_norm:
+        expected = _es_normalize(resolve_expected_article(ES_LANG, card))
+        if not expected:
+            return "correct"   # no known gender — can't require an article
+        return "correct" if g_norm == f"{expected} {c_norm}" else "close"
+    if _es_is_close(g_bare, c_norm):
+        return "close"
+    if _es_is_close(g_norm, c_norm):
+        return "close"
     return "wrong"
 
 

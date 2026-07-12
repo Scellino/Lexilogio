@@ -598,7 +598,11 @@ function allGroups(){
   const s=new Set();allCards.forEach(c=>{if(c.group)s.add(c.group);});return[...s].sort();
 }
 function _stripGroup(s){
-  return s.replace(/^\S+\s+/,'').trim().toLowerCase()||s.replace(/[^\w\sÀ-ɏͰ-Ͽ]/g,'').trim().toLowerCase();
+  // Strip a leading emoji/symbol prefix only (not a real word), so a group
+  // typed without its emoji — "Graphic Novel" — still matches "📕 Graphic
+  // Novel". The old version stripped the first token unconditionally, which
+  // turned "Graphic Novel" into "novel".
+  return (s||'').replace(/^[^\p{L}\p{N}]+/u,'').trim().toLowerCase();
 }
 function resolveGroup(raw){
   if(!raw) return raw;
@@ -1772,7 +1776,8 @@ async function saveCard(form){
   if(!card.word||!card.translation) return;
 
   if(!isEditing){
-    const dupe=allCards.find(c=>c.word.trim().toLowerCase()===card.word.toLowerCase());
+    const key=_normStr(card.word);
+    const dupe=allCards.find(c=>_normStr(c.word)===key);
     if(dupe&&!confirm('"'+card.word+'" is already in your library ('+dupe.group+' — '+dupe.translation+'). Save anyway?')) return;
   }
 
@@ -1861,8 +1866,14 @@ async function saveGenBulk(){
   if(!genBulkParsed||!genBulkParsed.cards.length) return;
   const sb=document.getElementById('gen-bulk-save-btn');
   if(sb){sb.disabled=true;sb.textContent='Saving…';}
-  let saved=0;
+  // Skip words already in the library, and dedupe within the pasted batch.
+  const existingKeys=new Set(allCards.map(c=>_normStr(c.word||'')));
+  const batchKeys=new Set();
+  let saved=0, skipped=0;
   for(const card of genBulkParsed.cards){
+    const dupKey=_normStr(card.word||'');
+    if(existingKeys.has(dupKey)||batchKeys.has(dupKey)){skipped++;continue;}
+    batchKeys.add(dupKey);
     const primaryMeaning=(card.translation||'').split(',')[0].trim().toLowerCase();
     const full={
       id:           Date.now()+Math.random(),
@@ -1887,7 +1898,7 @@ async function saveGenBulk(){
   }
   allCards=(await api('/api/cards')).cards;
   const area=document.getElementById('gen-bulk-preview');
-  if(area) area.innerHTML=`<div style="background:rgba(122,196,154,.12);border:1px solid #7ac49a;border-radius:10px;padding:12px;font-family:sans-serif;font-size:13px;color:#7ac49a;text-align:center">&#10003; Saved ${saved} card${saved!==1?'s':''}</div>`;
+  if(area) area.innerHTML=`<div style="background:rgba(122,196,154,.12);border:1px solid #7ac49a;border-radius:10px;padding:12px;font-family:sans-serif;font-size:13px;color:#7ac49a;text-align:center">&#10003; Saved ${saved} card${saved!==1?'s':''}${skipped?` &middot; skipped ${skipped} duplicate${skipped!==1?'s':''}`:''}</div>`;
   const ta=document.getElementById('gen-bulk-textarea');if(ta) ta.value='';
   genBulkParsed=null;
   if(sb){sb.textContent='Save to Library';sb.disabled=true;}

@@ -26,3 +26,6 @@ __pycache__/
 # SQLite WAL sidecar files
 app/*.db-wal
 app/*.db-shm
+
+# Preset-load cross-worker lock
+.preset_load.lock

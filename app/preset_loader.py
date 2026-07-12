@@ -103,7 +103,22 @@ def _parse_filename(txt_file):
 
 
 def load_presets(app):
-    """Call once at startup to upsert all preset cards from txt files."""
+    """Upsert all preset cards from txt files at startup.
+
+    Runs under an exclusive file lock so the multiple gunicorn workers that
+    each import this module can't race: without it, two workers try to INSERT
+    the same new card ids concurrently and the loser crash-fails with
+    'UNIQUE constraint failed: preset_cards.id'. With the lock, the first
+    worker inserts and the rest see the rows already present (pure updates).
+    """
+    import fcntl
+    lock_path = BASE / ".preset_load.lock"
+    with open(lock_path, "w") as _lock:
+        fcntl.flock(_lock, fcntl.LOCK_EX)
+        _load_presets_locked(app)
+
+
+def _load_presets_locked(app):
     from models import db, PresetCard
 
     with app.app_context():

@@ -1283,10 +1283,26 @@ function showCloseFeedback(card,guess,reason){
 function _normStr(s){
   return s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,'');
 }
-function _spellNote(guess,correctAnswer){
+// Grammar-derived alternate forms (Masculine/Feminine/Neuter, "Also written", …) that
+// some languages' checkers accept as fully correct answers in their own right — not
+// spelling variants of the displayed headword. _spellNote must know about these too,
+// or it wrongly flags a correct alternate-gender answer as a spelling mistake.
+function _cardAltForms(card){
+  if(!card||!card.grammar) return [];
+  const out=[];
+  card.grammar.forEach(g=>{
+    const lbl=(g.label||'').toLowerCase();
+    if(/masculine|feminine|neuter|also written|alternative|\balt\b/.test(lbl)){
+      const v=(g.value||'').split('(')[0].split('←')[0].split('·')[0].split(',')[0].trim();
+      if(v) out.push(v);
+    }
+  });
+  return out;
+}
+function _spellNote(guess,correctAnswer,card){
   if(!guess) return '';
   const g=guess.trim();
-  const alts=correctAnswer.split(/[,\/]/).map(s=>s.trim()).filter(Boolean);
+  const alts=correctAnswer.split(/[,\/]/).map(s=>s.trim()).filter(Boolean).concat(_cardAltForms(card));
   if(alts.some(a=>a.toLowerCase()===g.toLowerCase())) return '';
   const gn=_normStr(g);
   const accentMatch=alts.find(a=>_normStr(a)===gn);
@@ -1330,7 +1346,7 @@ function showFeedback(card,guess,result,reason){
         <span style="color:rgba(255,255,255,.4);font-size:11px">${isW2E?DEP_NAME:LANG.name}: </span>
         <strong style="font-family:Georgia,serif;${gc&&isW2E?`color:${gc}`:''}">${esc(correctAnswer)}</strong>${!isW2E?spkBtn(card.word,true):''}
       </div>
-      ${correct?_spellNote(guess,correctAnswer):guess?`${_articleNote(reason)}<div class="feedback-yours">You wrote: ${esc(guess)}</div>`:''}
+      ${correct?_spellNote(guess,correctAnswer,card):guess?`${_articleNote(reason)}<div class="feedback-yours">You wrote: ${esc(guess)}</div>`:''}
       ${w.length?`<div class="window-dots"><span style="font-size:9px;color:rgba(255,255,255,.25);font-family:sans-serif;margin-right:2px">last ${w.length}:</span>${dots}</div>`:''}
     </div>
     <div style="padding:0 0 12px">${cardBackHTML(card)}</div>

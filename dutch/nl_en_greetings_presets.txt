@@ -1,87 +1,532 @@
-word: hallo translation: hello, hi type: interjection group: 👋 Greetings & phrases pronunciation: /ˈɦɑ.loː/ example.nl: Hallo! Hoe gaat het met je? example.en: Hello! How are you? note: Neutral greeting suitable in most situations. tags: ⭐ common, 💬 phrases priority: yes
+word: hallo
+translation: hello, hi
+type: interjection
+group: 👋 Greetings & phrases
+pronunciation: /ˈɦɑ.loː/
+example.nl: Hallo! Hoe gaat het met je?
+example.en: Hello! How are you?
+etymology: A shared Germanic greeting also found as German "hallo" and English "hello", possibly from an old call used to hail a ferryman or attract attention.
+note: Neutral greeting suitable in most situations.
+tags: ⭐ common, 💬 phrases
+priority: yes
 //
-word: hoi translation: hi type: interjection group: 👋 Greetings & phrases pronunciation: /ɦɔi/ example.nl: Hoi, leuk je te zien! example.en: Hi, nice to see you! note: Informal greeting. tags: ⭐ common, 💬 phrases priority: yes
+word: hoi
+translation: hi
+type: interjection
+group: 👋 Greetings & phrases
+pronunciation: /ɦɔi/
+example.nl: Hoi, leuk je te zien!
+example.en: Hi, nice to see you!
+etymology: An informal exclamatory interjection, related to English "hoy", used across Dutch dialects as a casual greeting.
+note: Informal greeting.
+tags: ⭐ common, 💬 phrases
+priority: yes
 //
-word: tot ziens translation: goodbye, see you type: phrase group: 👋 Greetings & phrases pronunciation: /tɔt ˈzins/ example.nl: Tot ziens! Fijne dag! example.en: Goodbye! Have a nice day! note: Neutral farewell. Literally "until seeing (you)." tags: ⭐ common, 💬 phrases priority: yes
+word: tot ziens
+translation: goodbye, see you
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /tɔt ˈzins/
+example.nl: Tot ziens! Fijne dag!
+example.en: Goodbye! Have a nice day!
+etymology: tot (until) + ziens, an old verbal-noun form of zien (to see) — literally "until seeing (each other) again."
+note: Neutral farewell. Literally "until seeing (you)."
+tags: ⭐ common, 💬 phrases
+priority: yes
 //
-word: goedemorgen translation: good morning type: phrase group: 👋 Greetings & phrases example.nl: Goedemorgen! Lekker geslapen? example.en: Good morning! Did you sleep well? tags: ⭐ common, 💬 phrases priority: yes
+word: goedemorgen
+translation: good morning
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /ˌɣu.dəˈmɔr.ɣə(n)/
+example.nl: Goedemorgen! Lekker geslapen?
+example.en: Good morning! Did you sleep well?
+etymology: goede (good, the inflected form of goed) + morgen (morning) — cognate with German "guten Morgen".
+tags: ⭐ common, 💬 phrases
+priority: yes
 //
-word: goedemiddag translation: good afternoon type: phrase group: 👋 Greetings & phrases example.nl: Goedemiddag, waarmee kan ik u helpen? example.en: Good afternoon, how can I help you? tags: ⭐ common, 💬 phrases priority: yes
+word: goedemiddag
+translation: good afternoon
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /ˌɣu.dəˈmɪ.dɑx/
+example.nl: Goedemiddag, waarmee kan ik u helpen?
+example.en: Good afternoon, how can I help you?
+etymology: goede (good) + middag (midday, afternoon), from midden (middle) + dag (day) — literally "good midday."
+tags: ⭐ common, 💬 phrases
+priority: yes
 //
-word: goedenavond translation: good evening type: phrase group: 👋 Greetings & phrases example.nl: Goedenavond, welkom bij het restaurant. example.en: Good evening, welcome to the restaurant. tags: ⭐ common, 💬 phrases priority: yes
+word: goedenavond
+translation: good evening
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /ˌɣu.dənˈaː.vɔnt/
+example.nl: Goedenavond, welkom bij het restaurant.
+example.en: Good evening, welcome to the restaurant.
+etymology: goede (good) + avond (evening) — cognate with German "Abend" and English "even(ing)", from a common Germanic root.
+tags: ⭐ common, 💬 phrases
+priority: yes
 //
-word: welterusten translation: good night type: phrase group: 👋 Greetings & phrases example.nl: Welterusten, slaap lekker! example.en: Good night, sleep well! note: Said when someone goes to bed. Slaap lekker is the cosy variant. tags: ⭐ common, 💬 phrases priority: yes
+word: welterusten
+translation: good night
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /ˌʋɛl.təˈrʏ.stə(n)/
+example.nl: Welterusten, slaap lekker!
+example.en: Good night, sleep well!
+etymology: wel (well) + te (to) + rusten (to rest) — literally "to rest well."
+note: Said when someone goes to bed. Slaap lekker is the cosy variant.
+tags: ⭐ common, 💬 phrases
+priority: yes
 //
-word: alsjeblieft translation: please, here you are type: interjection group: 👋 Greetings & phrases pronunciation: /ɑls.jəˈblift/ example.nl: Kun je me alsjeblieft helpen? example.en: Could you please help me? note: Also means "here you are" when giving something. tags: ⭐ common, 💬 phrases priority: yes
+word: alsjeblieft
+translation: please, here you are
+type: interjection
+group: 👋 Greetings & phrases
+pronunciation: /ɑls.jəˈblift/
+example.nl: Kun je me alsjeblieft helpen?
+example.en: Could you please help me?
+etymology: Contraction of als het je belieft, literally "if it pleases you" — the informal (je) form of address.
+note: Also means "here you are" when giving something.
+tags: ⭐ common, 💬 phrases
+priority: yes
 //
-word: alstublieft translation: please, here you are (formal) type: interjection group: 👋 Greetings & phrases example.nl: Mag ik de rekening, alstublieft? example.en: May I have the bill, please? note: Formal version of alsjeblieft, used with u. tags: ⭐ common, 💬 phrases priority: yes
+word: alstublieft
+translation: please, here you are (formal)
+type: interjection
+group: 👋 Greetings & phrases
+pronunciation: /ˌɑl.styˈblift/
+example.nl: Mag ik de rekening, alstublieft?
+example.en: May I have the bill, please?
+etymology: Contraction of als het u belieft, literally "if it pleases you" — the formal (u) counterpart of alsjeblieft.
+note: Formal version of alsjeblieft, used with u.
+tags: ⭐ common, 💬 phrases
+priority: yes
 //
-word: bedankt translation: thank you, thanks type: interjection group: 👋 Greetings & phrases pronunciation: /bəˈdɑŋkt/ example.nl: Bedankt voor je hulp. example.en: Thank you for your help. note: Dank je (wel) is slightly more personal. tags: ⭐ common, 💬 phrases priority: yes
+word: bedankt
+translation: thank you, thanks
+type: interjection
+group: 👋 Greetings & phrases
+pronunciation: /bəˈdɑŋkt/
+example.nl: Bedankt voor je hulp.
+example.en: Thank you for your help.
+etymology: Past participle of bedanken (to thank), be- (intensifying prefix) + danken (to thank) — cognate with English "thank" and German "danken".
+note: Dank je (wel) is slightly more personal.
+tags: ⭐ common, 💬 phrases
+priority: yes
 //
-word: graag gedaan translation: you're welcome type: phrase group: 👋 Greetings & phrases example.nl: Bedankt! — Graag gedaan! example.en: Thanks! — You're welcome! note: Literally "gladly done." tags: ⭐ common, 💬 phrases priority: yes
+word: graag gedaan
+translation: you're welcome
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /ˌɣraːx ɣəˈdaːn/
+example.nl: Bedankt! — Graag gedaan!
+example.en: Thanks! — You're welcome!
+etymology: graag (gladly) + gedaan, the past participle of doen (to do) — literally "gladly done."
+note: Literally "gladly done."
+tags: ⭐ common, 💬 phrases
+priority: yes
 //
-word: sorry translation: sorry type: interjection group: 👋 Greetings & phrases pronunciation: /ˈsɔ.ri/ example.nl: Sorry dat ik te laat ben. example.en: Sorry I'm late. note: Also commonly used in Dutch alongside "het spijt me." tags: ⭐ common, 💬 phrases priority: yes
+word: sorry
+translation: sorry
+type: interjection
+group: 👋 Greetings & phrases
+pronunciation: /ˈsɔ.ri/
+example.nl: Sorry dat ik te laat ben.
+example.en: Sorry I'm late.
+etymology: Direct loanword from English "sorry", widely used in casual Dutch alongside the native het spijt me.
+note: Also commonly used in Dutch alongside "het spijt me."
+tags: ⭐ common, 💬 phrases
+priority: yes
 //
-word: pardon translation: excuse me, pardon type: interjection group: 👋 Greetings & phrases pronunciation: /pɑrˈdɔn/ example.nl: Pardon, mag ik erlangs? example.en: Excuse me, may I get past? note: Used to get attention or ask someone to repeat something. tags: ⭐ common, 💬 phrases priority: yes
+word: pardon
+translation: excuse me, pardon
+type: interjection
+group: 👋 Greetings & phrases
+pronunciation: /pɑrˈdɔn/
+example.nl: Pardon, mag ik erlangs?
+example.en: Excuse me, may I get past?
+etymology: Loanword from French pardon (forgiveness), from Latin perdonare (to give completely, forgive).
+note: Used to get attention or ask someone to repeat something.
+tags: ⭐ common, 💬 phrases
+priority: yes
 //
-word: ja translation: yes type: interjection group: 👋 Greetings & phrases example.nl: Ja, dat klopt. example.en: Yes, that's right. tags: ⭐ common, 💬 phrases priority: yes
+word: ja
+translation: yes
+type: interjection
+group: 👋 Greetings & phrases
+pronunciation: /jaː/
+example.nl: Ja, dat klopt.
+example.en: Yes, that's right.
+etymology: A common Germanic affirmative particle, cognate with German "ja" and, via a different root, English "yea".
+tags: ⭐ common, 💬 phrases
+priority: yes
 //
-word: nee translation: no type: interjection group: 👋 Greetings & phrases example.nl: Nee, dank je. example.en: No, thank you. tags: ⭐ common, 💬 phrases priority: yes
+word: nee
+translation: no
+type: interjection
+group: 👋 Greetings & phrases
+pronunciation: /neː/
+example.nl: Nee, dank je.
+example.en: No, thank you.
+etymology: From Middle Dutch ne(e), a Germanic negative particle related to English "nay" and German "nein".
+tags: ⭐ common, 💬 phrases
+priority: yes
 //
-word: ik begrijp het niet translation: I don't understand type: phrase group: 👋 Greetings & phrases example.nl: Sorry, ik begrijp het niet. Kunt u dat herhalen? example.en: Sorry, I don't understand. Could you repeat that? tags: ⭐ common, 💬 phrases priority: yes
+word: ik begrijp het niet
+translation: I don't understand
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /ɪk bəˈɣrɛip ɦət nit/
+example.nl: Sorry, ik begrijp het niet. Kunt u dat herhalen?
+example.en: Sorry, I don't understand. Could you repeat that?
+etymology: begrijpen (to understand), be- + grijpen (to grasp) — the same "grasping" metaphor as the English phrase "I don't get it."
+tags: ⭐ common, 💬 phrases
+priority: yes
 //
-word: ik heet translation: my name is type: phrase group: 👋 Greetings & phrases example.nl: Hallo, ik heet Emma. example.en: Hello, my name is Emma. note: From the verb heten (to be called). Also: mijn naam is… tags: ⭐ common, 💬 phrases priority: yes
+word: ik heet
+translation: my name is
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /ɪk ɦeːt/
+example.nl: Hallo, ik heet Emma.
+example.en: Hello, my name is Emma.
+etymology: From heten (to be called, to be named), a Germanic verb cognate with German "heißen" and the archaic English verb "hight."
+note: From the verb heten (to be called). Also: mijn naam is…
+tags: ⭐ common, 💬 phrases
+priority: yes
 //
-word: hoe gaat het translation: how are you type: phrase group: 👋 Greetings & phrases example.nl: Hoe gaat het met je? example.en: How are you? note: Answer: goed, hoor! Or: het gaat wel (so-so). tags: ⭐ common, 💬 phrases priority: yes
+word: hoe gaat het
+translation: how are you
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /ɦu ɣaːt ɦət/
+example.nl: Hoe gaat het met je?
+example.en: How are you?
+etymology: hoe (how) + gaat, from gaan (to go) + het (it) — literally "how goes it," the same construction as German "wie geht's."
+note: Answer: goed, hoor! Or: het gaat wel (so-so).
+tags: ⭐ common, 💬 phrases
+priority: yes
 //
-word: het gaat goed translation: I'm fine type: phrase group: 👋 Greetings & phrases example.nl: Het gaat goed met mij, en met jou? example.en: I'm fine, and you? tags: ⭐ common, 💬 phrases priority: yes
+word: het gaat goed
+translation: I'm fine
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /ɦət ɣaːt ɣut/
+example.nl: Het gaat goed met mij, en met jou?
+example.en: I'm fine, and you?
+etymology: het (it) + gaat, from gaan (to go) + goed (well, good) — literally "it goes well."
+tags: ⭐ common, 💬 phrases
+priority: yes
 //
-word: aangenaam translation: nice to meet you type: phrase group: 👋 Greetings & phrases example.nl: Aangenaam! Ik ben Pieter. example.en: Nice to meet you! I'm Pieter. note: Slightly formal; casually people just say "leuk je te ontmoeten." tags: ⭐ common, 💬 phrases priority: yes
+word: aangenaam
+translation: nice to meet you
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /ˌaːn.ɣəˈnaːm/
+example.nl: Aangenaam! Ik ben Pieter.
+example.en: Nice to meet you! I'm Pieter.
+etymology: aan- + an older adjective related to genoegen (satisfaction, pleasure) — cognate with German angenehm, "pleasant."
+note: Slightly formal; casually people just say "leuk je te ontmoeten."
+tags: ⭐ common, 💬 phrases
+priority: yes
 //
-word: tot straks translation: see you later type: phrase group: 👋 Greetings & phrases example.nl: Ik ga even boodschappen doen, tot straks! example.en: I'm off to do some shopping, see you later! note: Tot zo = see you in a moment. tags: ⭐ common, 💬 phrases priority: yes
+word: tot straks
+translation: see you later
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /tɔt strɑks/
+example.nl: Ik ga even boodschappen doen, tot straks!
+example.en: I'm off to do some shopping, see you later!
+etymology: tot (until) + straks (soon, shortly), from Middle Dutch strac (straight, direct) — literally "until soon."
+note: Tot zo = see you in a moment.
+tags: ⭐ common, 💬 phrases
+priority: yes
 //
-word: tot morgen translation: see you tomorrow type: phrase group: 👋 Greetings & phrases example.nl: Fijne avond en tot morgen! example.en: Have a nice evening and see you tomorrow! tags: ⭐ common, 💬 phrases priority: yes
+word: tot morgen
+translation: see you tomorrow
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /tɔt ˈmɔr.ɣə(n)/
+example.nl: Fijne avond en tot morgen!
+example.en: Have a nice evening and see you tomorrow!
+etymology: tot (until) + morgen — the same Dutch word covers both "morning" and "tomorrow," cognate with German "morgen."
+tags: ⭐ common, 💬 phrases
+priority: yes
 //
-word: proost translation: cheers type: interjection group: 👋 Greetings & phrases example.nl: Proost! Op je gezondheid! example.en: Cheers! To your health! tags: ⭐ common, 💬 phrases priority: yes
+word: proost
+translation: cheers
+type: interjection
+group: 👋 Greetings & phrases
+pronunciation: /proːst/
+example.nl: Proost! Op je gezondheid!
+example.en: Cheers! To your health!
+etymology: From Latin prosit ("may it benefit/be good"), the subjunctive of prodesse (to be useful) — the same Latin root behind German "Prost."
+tags: ⭐ common, 💬 phrases
+priority: yes
 //
-word: gefeliciteerd translation: congratulations type: interjection group: 👋 Greetings & phrases example.nl: Gefeliciteerd met je nieuwe baan! example.en: Congratulations on your new job! note: On birthdays Dutch people congratulate the whole family. tags: ⭐ common, 💬 phrases priority: yes
+word: gefeliciteerd
+translation: congratulations
+type: interjection
+group: 👋 Greetings & phrases
+pronunciation: /ɣəˌfeː.li.siˈteːrt/
+example.nl: Gefeliciteerd met je nieuwe baan!
+example.en: Congratulations on your new job!
+etymology: Past participle of feliciteren (to congratulate), a loanword from French féliciter, from Latin felix (happy, fortunate) — the same root as English "felicity."
+note: On birthdays Dutch people congratulate the whole family.
+tags: ⭐ common, 💬 phrases
+priority: yes
 //
-word: gefeliciteerd met je verjaardag translation: happy birthday type: phrase group: 👋 Greetings & phrases example.nl: Gefeliciteerd met je verjaardag! Nog vele jaren! example.en: Happy birthday! Many happy returns! note: At Dutch birthdays you shake hands with everyone in the circle. tags: 💬 phrases priority: yes
+word: gefeliciteerd met je verjaardag
+translation: happy birthday
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /ɣəˌfeː.li.siˈteːrt mɛt jə vərˈjaːr.dɑx/
+example.nl: Gefeliciteerd met je verjaardag! Nog vele jaren!
+example.en: Happy birthday! Many happy returns!
+etymology: gefeliciteerd (congratulated) + verjaardag, from jaar (year) — literally "the day that turns a year," i.e. anniversary.
+note: At Dutch birthdays you shake hands with everyone in the circle.
+tags: 💬 phrases
+priority: yes
 //
-word: welkom translation: welcome type: interjection group: 👋 Greetings & phrases pronunciation: /ˈʋɛl.kɔm/ example.nl: Welkom in Nederland! example.en: Welcome to the Netherlands! note: Also used as an adjective. tags: ⭐ common, 💬 phrases priority: yes
+word: welkom
+translation: welcome
+type: interjection
+group: 👋 Greetings & phrases
+pronunciation: /ˈʋɛl.kɔm/
+example.nl: Welkom in Nederland!
+example.en: Welcome to the Netherlands!
+etymology: wel (well) + komen (to come) — literally "come well," cognate with German "willkommen" and English "welcome."
+note: Also used as an adjective.
+tags: ⭐ common, 💬 phrases
+priority: yes
 //
-word: geen probleem translation: no problem type: phrase group: 👋 Greetings & phrases example.nl: Kun je later komen? — Geen probleem! example.en: Can you come later? — No problem! tags: ⭐ common, 💬 phrases priority: yes
+word: geen probleem
+translation: no problem
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /ɣeːn proːˈbleːm/
+example.nl: Kun je later komen? — Geen probleem!
+example.en: Can you come later? — No problem!
+etymology: geen (no, not any) + probleem, a loanword from French problème, ultimately from Greek πρόβλημα, "a thing thrown forward, an obstacle."
+tags: ⭐ common, 💬 phrases
+priority: yes
 //
-word: natuurlijk translation: of course type: adverb group: 👋 Greetings & phrases example.nl: Mag ik meedoen? — Natuurlijk! example.en: May I join? — Of course! tags: ⭐ common, 💬 phrases priority: yes
+word: natuurlijk
+translation: of course
+type: adverb
+group: 👋 Greetings & phrases
+pronunciation: /naːˈtyːr.lək/
+example.nl: Mag ik meedoen? — Natuurlijk!
+example.en: May I join? — Of course!
+etymology: natuur (nature), from Latin natura, + -lijk (adjectival/adverbial suffix, cognate with English "-ly") — literally "naturally."
+tags: ⭐ common, 💬 phrases
+priority: yes
 //
-word: naam translation: name type: noun group: 👋 Greetings & phrases pronunciation: /naːm/ example.nl: Wat is je naam? example.en: What is your name? grammar.Article / Gender: de grammar.Plural: namen tags: ⭐ common, 💬 phrases priority: yes
+word: naam
+translation: name
+type: noun
+group: 👋 Greetings & phrases
+pronunciation: /naːm/
+example.nl: Wat is je naam?
+example.en: What is your name?
+etymology: From Middle Dutch name, a Germanic word cognate with English "name" and German "Name", ultimately from Proto-Indo-European *h₁nómn̥.
+grammar.Article / Gender: de
+grammar.Plural: namen
+tags: ⭐ common, 💬 phrases
+priority: yes
 //
-word: voornaam translation: first name, given name type: noun group: 👋 Greetings & phrases pronunciation: /ˈvoːr.naːm/ example.nl: Mijn voornaam is Emma. example.en: My first name is Emma. note: Opposite of "achternaam." grammar.Article / Gender: de grammar.Plural: voornamen tags: 💬 phrases priority: yes
+word: voornaam
+translation: first name, given name
+type: noun
+group: 👋 Greetings & phrases
+pronunciation: /ˈvoːr.naːm/
+example.nl: Mijn voornaam is Emma.
+example.en: My first name is Emma.
+etymology: voor (before, in front) + naam (name) — literally "front name," the name that comes before the surname.
+note: Opposite of "achternaam."
+grammar.Article / Gender: de
+grammar.Plural: voornamen
+tags: 💬 phrases
+priority: yes
 //
-word: achternaam translation: last name, surname type: noun group: 👋 Greetings & phrases pronunciation: /ˈɑx.tər.naːm/ example.nl: Wat is uw achternaam? example.en: What is your last name? note: More formal with "uw." grammar.Article / Gender: de grammar.Plural: achternamen tags: 💬 phrases priority: yes
+word: achternaam
+translation: last name, surname
+type: noun
+group: 👋 Greetings & phrases
+pronunciation: /ˈɑx.tər.naːm/
+example.nl: Wat is uw achternaam?
+example.en: What is your last name?
+etymology: achter (behind, after) + naam (name) — literally "back name," the exact mirror of voornaam.
+note: More formal with "uw."
+grammar.Article / Gender: de
+grammar.Plural: achternamen
+tags: 💬 phrases
+priority: yes
 //
-word: voorstellen translation: introduce, introduce oneself type: verb group: 👋 Greetings & phrases pronunciation: /ˈvoːr.stɛ.lə(n)/ example.nl: Mag ik me even voorstellen? example.en: May I introduce myself? note: Reflexive when introducing yourself: zich voorstellen. grammar.Past tense (sg.): stelde voor grammar.Past participle: voorgesteld grammar.Auxiliary: hebben tags: ⭐ common, 💬 phrases priority: yes
+word: voorstellen
+translation: introduce, introduce oneself
+type: verb
+group: 👋 Greetings & phrases
+pronunciation: /ˈvoːr.stɛ.lə(n)/
+example.nl: Mag ik me even voorstellen?
+example.en: May I introduce myself?
+etymology: voor (forward, before) + stellen (to place, put) — literally "to put forward."
+note: Reflexive when introducing yourself: zich voorstellen.
+grammar.Past tense (sg.): stelde voor
+grammar.Past participle: voorgesteld
+grammar.Auxiliary: hebben
+tags: ⭐ common, 💬 phrases
+priority: yes
 //
-word: ontmoeten translation: meet type: verb group: 👋 Greetings & phrases pronunciation: /ˌɔntˈmutə(n)/ example.nl: Ik ontmoet morgen een nieuwe collega. example.en: I'm meeting a new colleague tomorrow. note: Means meeting someone for the first time or by arrangement. grammar.Past tense (sg.): ontmoette grammar.Past participle: ontmoet grammar.Auxiliary: hebben tags: ⭐ common, 💬 phrases priority: yes
+word: ontmoeten
+translation: meet
+type: verb
+group: 👋 Greetings & phrases
+pronunciation: /ˌɔntˈmutə(n)/
+example.nl: Ik ontmoet morgen een nieuwe collega.
+example.en: I'm meeting a new colleague tomorrow.
+etymology: From Middle Dutch ontmoeten, ont- (a prefix marking a chance encounter) + an old verb related to modern moeten — the "meeting" sense survives here, though bare moeten now means "must."
+note: Means meeting someone for the first time or by arrangement.
+grammar.Past tense (sg.): ontmoette
+grammar.Past participle: ontmoet
+grammar.Auxiliary: hebben
+tags: ⭐ common, 💬 phrases
+priority: yes
 //
-word: hoe translation: how type: adverb group: 👋 Greetings & phrases pronunciation: /ɦu/ example.nl: Hoe gaat het met je? example.en: How are you? note: Used in questions about manner, condition, or degree. tags: ⭐ common, 💬 phrases priority: yes
+word: hoe
+translation: how
+type: adverb
+group: 👋 Greetings & phrases
+pronunciation: /ɦu/
+example.nl: Hoe gaat het met je?
+example.en: How are you?
+etymology: From Middle Dutch hoe, distantly related to English "how" and German "wie", all from a common Germanic interrogative root.
+note: Used in questions about manner, condition, or degree.
+tags: ⭐ common, 💬 phrases
+priority: yes
 //
-word: waarom translation: why type: adverb group: 👋 Greetings & phrases pronunciation: /ʋaːˈrɔm/ example.nl: Waarom ben je zo laat? example.en: Why are you so late? tags: ⭐ common, 💬 phrases priority: yes
+word: waarom
+translation: why
+type: adverb
+group: 👋 Greetings & phrases
+pronunciation: /ʋaːˈrɔm/
+example.nl: Waarom ben je zo laat?
+example.en: Why are you so late?
+etymology: waar (where) + om (around, for) — literally "where-for," cognate with German "warum" and the archaic English "wherefore."
+tags: ⭐ common, 💬 phrases
+priority: yes
 //
-word: omdat translation: because type: conjunction group: 👋 Greetings & phrases pronunciation: /ˈɔmdat/ example.nl: Ik blijf thuis omdat ik ziek ben. example.en: I stay home because I am sick. note: Introduces a reason clause. The verb goes to the end of the clause. tags: ⭐ common, 💬 phrases priority: yes
+word: omdat
+translation: because
+type: conjunction
+group: 👋 Greetings & phrases
+pronunciation: /ˈɔm.dat/
+example.nl: Ik blijf thuis omdat ik ziek ben.
+example.en: I stay home because I am sick.
+etymology: om (for, around) + dat (that) — literally "for that," built the same way as many Dutch subordinating conjunctions.
+note: Introduces a reason clause. The verb goes to the end of the clause.
+tags: ⭐ common, 💬 phrases
+priority: yes
 //
-word: druk translation: busy type: adjective group: 👋 Greetings & phrases pronunciation: /drʏk/ example.nl: Ik ben deze week erg druk. example.en: I am very busy this week. note: Can also mean crowded or noisy. grammar.Inflected form: drukke tags: ⭐ common, 💬 phrases priority: yes
+word: druk
+translation: busy
+type: adjective
+group: 👋 Greetings & phrases
+pronunciation: /drʏk/
+example.nl: Ik ben deze week erg druk.
+example.en: I am very busy this week.
+etymology: From Middle Dutch druc (pressure), related to drukken (to press, to print) — the "busy" sense grew from the idea of being under pressure.
+note: Can also mean crowded or noisy.
+grammar.Inflected form: drukke
+tags: ⭐ common, 💬 phrases
+priority: yes
 //
-word: vrij translation: free, available type: adjective group: 👋 Greetings & phrases pronunciation: /vrɛi/ example.nl: Ben je morgen vrij? example.en: Are you free tomorrow? note: Also means "free" as in without cost or not imprisoned. grammar.Inflected form: vrije tags: ⭐ common, 💬 phrases priority: yes
+word: vrij
+translation: free, available
+type: adjective
+group: 👋 Greetings & phrases
+pronunciation: /vrɛi/
+example.nl: Ben je morgen vrij?
+example.en: Are you free tomorrow?
+etymology: From Middle Dutch vri, cognate with English "free" and German "frei", from a Proto-Germanic word originally meaning "dear, beloved" (of one's own household, as opposed to a slave).
+note: Also means "free" as in without cost or not imprisoned.
+grammar.Inflected form: vrije
+tags: ⭐ common, 💬 phrases
+priority: yes
 //
-word: interessant translation: interesting type: adjective group: 👋 Greetings & phrases pronunciation: /ɪn.te.rɛˈsɑnt/ example.nl: Dat is een interessant boek. example.en: That is an interesting book. grammar.Inflected form: interessante tags: ⭐ common, 💬 phrases priority: yes
+word: interessant
+translation: interesting
+type: adjective
+group: 👋 Greetings & phrases
+pronunciation: /ɪn.te.rɛˈsɑnt/
+example.nl: Dat is een interessant boek.
+example.en: That is an interesting book.
+etymology: Loanword from French intéressant, present participle of intéresser (to interest), from Latin interesse, literally "to be between."
+grammar.Inflected form: interessante
+tags: ⭐ common, 💬 phrases
+priority: yes
 //
-word: saai translation: boring type: adjective group: 👋 Greetings & phrases pronunciation: /saːi/ example.nl: De film was erg saai. example.en: The movie was very boring. grammar.Inflected form: saaie tags: ⭐ common, 💬 phrases priority: yes
+word: saai
+translation: boring
+type: adjective
+group: 👋 Greetings & phrases
+pronunciation: /saːi/
+example.nl: De film was erg saai.
+example.en: The movie was very boring.
+etymology: Of uncertain origin, possibly related to Middle Dutch saeyen (to sow), evoking the tedium of repetitive work.
+grammar.Inflected form: saaie
+tags: ⭐ common, 💬 phrases
+priority: yes
 //
-word: leuk translation: nice, fun, pleasant type: adjective group: 👋 Greetings & phrases pronunciation: /løk/ example.nl: Dat is een leuk idee. example.en: That's a nice idea. note: Extremely common adjective for people, activities and objects. grammar.Inflected form: leuke grammar.Comparative: leuker grammar.Superlative: leukst tags: ⭐ common, 💬 phrases priority: yes
+word: leuk
+translation: nice, fun, pleasant
+type: adjective
+group: 👋 Greetings & phrases
+pronunciation: /løk/
+example.nl: Dat is een leuk idee.
+example.en: That's a nice idea.
+etymology: From Middle Dutch le(u)c (lukewarm, tepid), the same root as English "lukewarm" — the sense shifted from "mild, pleasant" to modern "nice, fun."
+note: Extremely common adjective for people, activities and objects.
+grammar.Inflected form: leuke
+grammar.Comparative: leuker
+grammar.Superlative: leukst
+tags: ⭐ common, 💬 phrases
+priority: yes
 //
-word: akkoord gaan translation: agree type: phrase group: 👋 Greetings & phrases example.nl: Ik ga akkoord met jouw voorstel. example.en: I agree with your proposal. tags: 💬 phrases priority: yes
+word: akkoord gaan
+translation: agree
+type: phrase
+group: 👋 Greetings & phrases
+pronunciation: /aˈkoːrt ɣaːn/
+example.nl: Ik ga akkoord met jouw voorstel.
+example.en: I agree with your proposal.
+etymology: akkoord, a loanword from French accord (agreement), from Latin ad- + cor (heart), literally "of one heart" + gaan (to go).
+tags: 💬 phrases
+priority: yes
 //
-word: denken translation: think type: verb group: 👋 Greetings & phrases pronunciation: /ˈdɛŋkə(n)/ example.nl: Ik denk dat het goed komt. example.en: I think it will be okay. note: Often followed by "dat" with a subordinate clause. grammar.Past tense (sg.): dacht grammar.Past participle: gedacht grammar.Auxiliary: hebben tags: ⭐ common, 💬 phrases priority: yes
+word: denken
+translation: think
+type: verb
+group: 👋 Greetings & phrases
+pronunciation: /ˈdɛŋkə(n)/
+example.nl: Ik denk dat het goed komt.
+example.en: I think it will be okay.
+etymology: From Middle Dutch dinken/denken, cognate with English "think" and German "denken", from a Proto-Germanic root also behind "thank" (a thought given in return).
+note: Often followed by "dat" with a subordinate clause.
+grammar.Past tense (sg.): dacht
+grammar.Past participle: gedacht
+grammar.Auxiliary: hebben
+tags: ⭐ common, 💬 phrases
+priority: yes
 //
-word: misschien translation: maybe, perhaps type: adverb group: 👋 Greetings & phrases pronunciation: /misˈxiːn/ example.nl: Misschien kom ik morgen. example.en: Maybe I will come tomorrow. tags: ⭐ common, 💬 phrases priority: yes
+word: misschien
+translation: maybe, perhaps
+type: adverb
+group: 👋 Greetings & phrases
+pronunciation: /mɪˈsxin/
+example.nl: Misschien kom ik morgen.
+example.en: Maybe I will come tomorrow.
+etymology: mag (may) + schijnen (to seem, appear) — literally "it may seem (so)," a fossilized phrase turned into a single adverb.
+tags: ⭐ common, 💬 phrases
+priority: yes

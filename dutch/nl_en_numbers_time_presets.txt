@@ -1,115 +1,115 @@
-word: een translation: one type: numeral group: 🕐 Numbers & time example.nl: Ik heb maar één vraag. example.en: I have just one question. note: Written één when it could be confused with the article "een" (a). tags: ⭐ common, 🔢 numbers priority: yes
+word: een translation: one type: numeral group: 🕐 Numbers & time pronunciation: /eːn/ example.nl: Ik heb maar één vraag. example.en: I have just one question. etymology: From Middle Dutch een/ēn, cognate with English "one" and German "ein", from Proto-Germanic *ainaz. note: Written één when it could be confused with the article "een" (a). tags: ⭐ common, 🔢 numbers priority: yes
 //
-word: twee translation: two type: numeral group: 🕐 Numbers & time example.nl: Twee koffie, alstublieft. example.en: Two coffees, please. tags: ⭐ common, 🔢 numbers priority: yes
+word: twee translation: two type: numeral group: 🕐 Numbers & time pronunciation: /tʋeː/ example.nl: Twee koffie, alstublieft. example.en: Two coffees, please. etymology: From Middle Dutch twee, cognate with English "two" and German "zwei", from Proto-Germanic *twai. tags: ⭐ common, 🔢 numbers priority: yes
 //
-word: drie translation: three type: numeral group: 🕐 Numbers & time example.nl: We zijn met z'n drieën. example.en: There are three of us. tags: ⭐ common, 🔢 numbers priority: yes
+word: drie translation: three type: numeral group: 🕐 Numbers & time pronunciation: /dri/ example.nl: We zijn met z'n drieën. example.en: There are three of us. etymology: From Middle Dutch drie, cognate with English "three" and German "drei", from Proto-Germanic *þrīz. tags: ⭐ common, 🔢 numbers priority: yes
 //
-word: vier translation: four type: numeral group: 🕐 Numbers & time example.nl: De trein vertrekt om vier uur. example.en: The train leaves at four o'clock. tags: ⭐ common, 🔢 numbers priority: yes
+word: vier translation: four type: numeral group: 🕐 Numbers & time pronunciation: /vir/ example.nl: De trein vertrekt om vier uur. example.en: The train leaves at four o'clock. etymology: From Middle Dutch vier, cognate with English "four" and German "vier", from Proto-Germanic *fedwōr. tags: ⭐ common, 🔢 numbers priority: yes
 //
-word: vijf translation: five type: numeral group: 🕐 Numbers & time example.nl: Nog vijf minuten wachten. example.en: Five more minutes to wait. tags: ⭐ common, 🔢 numbers priority: yes
+word: vijf translation: five type: numeral group: 🕐 Numbers & time pronunciation: /vɛif/ example.nl: Nog vijf minuten wachten. example.en: Five more minutes to wait. etymology: From Middle Dutch vijf, cognate with English "five" and German "fünf", from Proto-Germanic *fimf. tags: ⭐ common, 🔢 numbers priority: yes
 //
-word: zes translation: six type: numeral group: 🕐 Numbers & time example.nl: Het feest begint om zes uur. example.en: The party starts at six. tags: ⭐ common, 🔢 numbers priority: yes
+word: zes translation: six type: numeral group: 🕐 Numbers & time pronunciation: /zɛs/ example.nl: Het feest begint om zes uur. example.en: The party starts at six. etymology: From Middle Dutch zes, cognate with English "six" and German "sechs", from Proto-Germanic *sehs. tags: ⭐ common, 🔢 numbers priority: yes
 //
-word: zeven translation: seven type: numeral group: 🕐 Numbers & time example.nl: Een week heeft zeven dagen. example.en: A week has seven days. tags: ⭐ common, 🔢 numbers priority: yes
+word: zeven translation: seven type: numeral group: 🕐 Numbers & time pronunciation: /ˈzeː.və(n)/ example.nl: Een week heeft zeven dagen. example.en: A week has seven days. etymology: From Middle Dutch seven, cognate with English "seven" and German "sieben", from Proto-Germanic *sebun. tags: ⭐ common, 🔢 numbers priority: yes
 //
-word: acht translation: eight type: numeral group: 🕐 Numbers & time example.nl: Ik werk acht uur per dag. example.en: I work eight hours a day. tags: ⭐ common, 🔢 numbers priority: yes
+word: acht translation: eight type: numeral group: 🕐 Numbers & time pronunciation: /ɑxt/ example.nl: Ik werk acht uur per dag. example.en: I work eight hours a day. etymology: From Middle Dutch acht, cognate with English "eight" and German "acht", from Proto-Germanic *ahtōu. tags: ⭐ common, 🔢 numbers priority: yes
 //
-word: negen translation: nine type: numeral group: 🕐 Numbers & time example.nl: De winkel opent om negen uur. example.en: The shop opens at nine. tags: ⭐ common, 🔢 numbers priority: yes
+word: negen translation: nine type: numeral group: 🕐 Numbers & time pronunciation: /ˈneː.ɣə(n)/ example.nl: De winkel opent om negen uur. example.en: The shop opens at nine. etymology: From Middle Dutch negen, cognate with English "nine" and German "neun", from Proto-Germanic *newun. tags: ⭐ common, 🔢 numbers priority: yes
 //
-word: tien translation: ten type: numeral group: 🕐 Numbers & time example.nl: Tel tot tien en haal diep adem. example.en: Count to ten and take a deep breath. tags: ⭐ common, 🔢 numbers priority: yes
+word: tien translation: ten type: numeral group: 🕐 Numbers & time pronunciation: /tin/ example.nl: Tel tot tien en haal diep adem. example.en: Count to ten and take a deep breath. etymology: From Middle Dutch tien, cognate with English "ten" and German "zehn", from Proto-Germanic *tehun. tags: ⭐ common, 🔢 numbers priority: yes
 //
-word: twintig translation: twenty type: numeral group: 🕐 Numbers & time example.nl: Het kost twintig euro. example.en: It costs twenty euros. note: 21 = eenentwintig — units come first in Dutch! tags: ⭐ common, 🔢 numbers priority: yes
+word: twintig translation: twenty type: numeral group: 🕐 Numbers & time pronunciation: /ˈtʋɪn.təx/ example.nl: Het kost twintig euro. example.en: It costs twenty euros. etymology: twee (two) + -tig, a suffix meaning "a group of ten" cognate with English "-ty" — literally "two tens." note: 21 = eenentwintig — units come first in Dutch! tags: ⭐ common, 🔢 numbers priority: yes
 //
-word: dertig translation: thirty type: numeral group: 🕐 Numbers & time example.nl: Hij is dertig jaar oud. example.en: He is thirty years old. tags: 🔢 numbers priority: yes
+word: dertig translation: thirty type: numeral group: 🕐 Numbers & time pronunciation: /ˈdɛr.təx/ example.nl: Hij is dertig jaar oud. example.en: He is thirty years old. etymology: drie (three) + -tig — literally "three tens," with an irregular contracted form rather than the expected "drietig." tags: 🔢 numbers priority: yes
 //
-word: veertig translation: forty type: numeral group: 🕐 Numbers & time example.nl: De les duurt veertig minuten. example.en: The lesson lasts forty minutes. note: Spelled with v but pronounced with f. tags: 🔢 numbers priority: yes
+word: veertig translation: forty type: numeral group: 🕐 Numbers & time pronunciation: /ˈveːr.təx/ example.nl: De les duurt veertig minuten. example.en: The lesson lasts forty minutes. etymology: vier (four) + -tig — literally "four tens." note: Spelled with v but pronounced with f. tags: 🔢 numbers priority: yes
 //
-word: vijftig translation: fifty type: numeral group: 🕐 Numbers & time example.nl: Maximaal vijftig kilometer per uur. example.en: Fifty kilometres per hour maximum. tags: 🔢 numbers priority: yes
+word: vijftig translation: fifty type: numeral group: 🕐 Numbers & time pronunciation: /ˈvɛif.təx/ example.nl: Maximaal vijftig kilometer per uur. example.en: Fifty kilometres per hour maximum. etymology: vijf (five) + -tig — literally "five tens." tags: 🔢 numbers priority: yes
 //
-word: zestig translation: sixty type: numeral group: 🕐 Numbers & time example.nl: Een uur heeft zestig minuten. example.en: An hour has sixty minutes. tags: 🔢 numbers priority: yes
+word: zestig translation: sixty type: numeral group: 🕐 Numbers & time pronunciation: /ˈzɛs.təx/ example.nl: Een uur heeft zestig minuten. example.en: An hour has sixty minutes. etymology: zes (six) + -tig — literally "six tens." tags: 🔢 numbers priority: yes
 //
-word: zeventig translation: seventy type: numeral group: 🕐 Numbers & time example.nl: Mijn oma is zeventig geworden. example.en: My grandma turned seventy. tags: 🔢 numbers priority: yes
+word: zeventig translation: seventy type: numeral group: 🕐 Numbers & time pronunciation: /ˈzeː.və(n).təx/ example.nl: Mijn oma is zeventig geworden. example.en: My grandma turned seventy. etymology: zeven (seven) + -tig — literally "seven tens." tags: 🔢 numbers priority: yes
 //
-word: tachtig translation: eighty type: numeral group: 🕐 Numbers & time example.nl: De Tachtigjarige Oorlog duurde tachtig jaar. example.en: The Eighty Years' War lasted eighty years. note: Note the t- at the start (not "achttig"). tags: 🔢 numbers priority: yes
+word: tachtig translation: eighty type: numeral group: 🕐 Numbers & time pronunciation: /ˈtɑx.təx/ example.nl: De Tachtigjarige Oorlog duurde tachtig jaar. example.en: The Eighty Years' War lasted eighty years. etymology: An irregular, contracted form of acht (eight) + -tig — the initial t- is a fossilized remnant that broke the regular pattern. note: Note the t- at the start (not "achttig"). tags: 🔢 numbers priority: yes
 //
-word: negentig translation: ninety type: numeral group: 🕐 Numbers & time example.nl: Ze is negentig en nog fit. example.en: She is ninety and still fit. tags: 🔢 numbers priority: yes
+word: negentig translation: ninety type: numeral group: 🕐 Numbers & time pronunciation: /ˈneː.ɣə(n).təx/ example.nl: Ze is negentig en nog fit. example.en: She is ninety and still fit. etymology: negen (nine) + -tig — literally "nine tens." tags: 🔢 numbers priority: yes
 //
-word: honderd translation: hundred type: numeral group: 🕐 Numbers & time example.nl: Meer dan honderd mensen kwamen. example.en: More than a hundred people came. tags: ⭐ common, 🔢 numbers priority: yes
+word: honderd translation: hundred type: numeral group: 🕐 Numbers & time pronunciation: /ˈɦɔn.dərt/ example.nl: Meer dan honderd mensen kwamen. example.en: More than a hundred people came. etymology: From Middle Dutch hondert, cognate with English "hundred" and German "hundert", from Proto-Germanic *hundaradą. tags: ⭐ common, 🔢 numbers priority: yes
 //
-word: duizend translation: thousand type: numeral group: 🕐 Numbers & time example.nl: De stad bestaat duizend jaar. example.en: The city is a thousand years old. tags: 🔢 numbers priority: yes
+word: duizend translation: thousand type: numeral group: 🕐 Numbers & time pronunciation: /ˈdœy.zənt/ example.nl: De stad bestaat duizend jaar. example.en: The city is a thousand years old. etymology: From Middle Dutch dusent, cognate with English "thousand" and German "tausend", from Proto-Germanic *þūsundī. tags: 🔢 numbers priority: yes
 //
-word: miljoen translation: million type: numeral group: 🕐 Numbers & time example.nl: Amsterdam heeft bijna een miljoen inwoners. example.en: Amsterdam has almost a million inhabitants. grammar.Article / Gender: het grammar.Plural: miljoenen tags: 🔢 numbers priority: yes
+word: miljoen translation: million type: numeral group: 🕐 Numbers & time pronunciation: /mɪlˈjun/ example.nl: Amsterdam heeft bijna een miljoen inwoners. example.en: Amsterdam has almost a million inhabitants. etymology: Loanword from French million, from Italian milione, an augmentative of mille (thousand) — literally "a big thousand." grammar.Article / Gender: het grammar.Plural: miljoenen tags: 🔢 numbers priority: yes
 //
-word: eerste translation: first type: adjective group: 🕐 Numbers & time example.nl: Dit is mijn eerste les Nederlands. example.en: This is my first Dutch lesson. tags: ⭐ common, 🔢 numbers priority: yes
+word: eerste translation: first type: adjective group: 🕐 Numbers & time pronunciation: /ˈeːr.stə/ example.nl: Dit is mijn eerste les Nederlands. example.en: This is my first Dutch lesson. etymology: Superlative of eer (early, before), cognate with English "ere" and German "erste" — literally "the earliest, foremost." tags: ⭐ common, 🔢 numbers priority: yes
 //
-word: tweede translation: second type: adjective group: 🕐 Numbers & time example.nl: We wonen op de tweede verdieping. example.en: We live on the second floor. tags: 🔢 numbers priority: yes
+word: tweede translation: second type: adjective group: 🕐 Numbers & time pronunciation: /ˈtʋeː.də/ example.nl: We wonen op de tweede verdieping. example.en: We live on the second floor. etymology: From twee (two) + the ordinal suffix -de. tags: 🔢 numbers priority: yes
 //
-word: derde translation: third type: adjective group: 🕐 Numbers & time example.nl: Het is al de derde keer deze week. example.en: It's already the third time this week. tags: 🔢 numbers priority: yes
+word: derde translation: third type: adjective group: 🕐 Numbers & time pronunciation: /ˈdɛr.də/ example.nl: Het is al de derde keer deze week. example.en: It's already the third time this week. etymology: From drie (three) + the ordinal suffix -de, with an irregular consonant shift. tags: 🔢 numbers priority: yes
 //
-word: maandag translation: Monday type: noun group: 🕐 Numbers & time example.nl: Op maandag begin ik vroeg. example.en: On Monday I start early. note: Days of the week are written lowercase in Dutch. grammar.Article / Gender: de tags: ⭐ common, 🕐 time priority: yes
+word: maandag translation: Monday type: noun group: 🕐 Numbers & time pronunciation: /ˈmaːn.dɑx/ example.nl: Op maandag begin ik vroeg. example.en: On Monday I start early. etymology: maan (moon) + dag (day) — "moon day," cognate with English "Monday" and German "Montag." note: Days of the week are written lowercase in Dutch. grammar.Article / Gender: de tags: ⭐ common, 🕐 time priority: yes
 //
-word: dinsdag translation: Tuesday type: noun group: 🕐 Numbers & time example.nl: Dinsdag is het markt in het centrum. example.en: On Tuesday there's a market in the centre. grammar.Article / Gender: de tags: ⭐ common, 🕐 time priority: yes
+word: dinsdag translation: Tuesday type: noun group: 🕐 Numbers & time pronunciation: /ˈdɪns.dɑx/ example.nl: Dinsdag is het markt in het centrum. example.en: On Tuesday there's a market in the centre. etymology: Named after Tiw/Ziu, the Germanic god of war and law, + dag — cognate with English "Tuesday," both honouring the same god. grammar.Article / Gender: de tags: ⭐ common, 🕐 time priority: yes
 //
-word: woensdag translation: Wednesday type: noun group: 🕐 Numbers & time example.nl: Woensdagmiddag zijn de kinderen vrij. example.en: On Wednesday afternoon the kids are off school. grammar.Article / Gender: de tags: ⭐ common, 🕐 time priority: yes
+word: woensdag translation: Wednesday type: noun group: 🕐 Numbers & time pronunciation: /ˈʋuns.dɑx/ example.nl: Woensdagmiddag zijn de kinderen vrij. example.en: On Wednesday afternoon the kids are off school. etymology: Named after Wodan, the chief Germanic god, + dag — cognate with English "Wednesday," literally "Woden's day." grammar.Article / Gender: de tags: ⭐ common, 🕐 time priority: yes
 //
-word: donderdag translation: Thursday type: noun group: 🕐 Numbers & time example.nl: Donderdag heb ik een afspraak. example.en: On Thursday I have an appointment. grammar.Article / Gender: de tags: ⭐ common, 🕐 time priority: yes
+word: donderdag translation: Thursday type: noun group: 🕐 Numbers & time pronunciation: /ˈdɔn.dər.dɑx/ example.nl: Donderdag heb ik een afspraak. example.en: On Thursday I have an appointment. etymology: donder (thunder) + dag — "thunder day," named after Donar, the Germanic thunder god — cognate with English "Thursday," Thor's day. grammar.Article / Gender: de tags: ⭐ common, 🕐 time priority: yes
 //
-word: vrijdag translation: Friday type: noun group: 🕐 Numbers & time example.nl: Vrijdagavond eten we vaak friet. example.en: On Friday evening we often eat fries. grammar.Article / Gender: de tags: ⭐ common, 🕐 time priority: yes
+word: vrijdag translation: Friday type: noun group: 🕐 Numbers & time pronunciation: /ˈvrɛi.dɑx/ example.nl: Vrijdagavond eten we vaak friet. example.en: On Friday evening we often eat fries. etymology: Named after Freya, the Germanic goddess of love, + dag — cognate with English "Friday." grammar.Article / Gender: de tags: ⭐ common, 🕐 time priority: yes
 //
-word: zaterdag translation: Saturday type: noun group: 🕐 Numbers & time example.nl: Zaterdag doen we boodschappen. example.en: On Saturday we do the shopping. grammar.Article / Gender: de tags: ⭐ common, 🕐 time priority: yes
+word: zaterdag translation: Saturday type: noun group: 🕐 Numbers & time pronunciation: /ˈzaː.tər.dɑx/ example.nl: Zaterdag doen we boodschappen. example.en: On Saturday we do the shopping. etymology: From Latin Saturni dies (Saturn's day) — unlike the other weekdays, this one kept its Roman name rather than a Germanic god's, cognate with English "Saturday." grammar.Article / Gender: de tags: ⭐ common, 🕐 time priority: yes
 //
-word: zondag translation: Sunday type: noun group: 🕐 Numbers & time example.nl: Op zondag zijn veel winkels dicht. example.en: On Sunday many shops are closed. grammar.Article / Gender: de tags: ⭐ common, 🕐 time priority: yes
+word: zondag translation: Sunday type: noun group: 🕐 Numbers & time pronunciation: /ˈzɔn.dɑx/ example.nl: Op zondag zijn veel winkels dicht. example.en: On Sunday many shops are closed. etymology: zon (sun) + dag — "sun day," cognate with English "Sunday" and German "Sonntag." grammar.Article / Gender: de tags: ⭐ common, 🕐 time priority: yes
 //
-word: januari translation: January type: noun group: 🕐 Numbers & time example.nl: In januari is het koud. example.en: In January it is cold. note: Months are written lowercase in Dutch. grammar.Article / Gender: de tags: 🕐 time priority: yes
+word: januari translation: January type: noun group: 🕐 Numbers & time pronunciation: /jɑ.nyˈaː.ri/ example.nl: In januari is het koud. example.en: In January it is cold. etymology: From Latin Ianuarius, named after Janus, the two-faced Roman god of doorways and beginnings. note: Months are written lowercase in Dutch. grammar.Article / Gender: de tags: 🕐 time priority: yes
 //
-word: februari translation: February type: noun group: 🕐 Numbers & time example.nl: Februari is de kortste maand. example.en: February is the shortest month. grammar.Article / Gender: de tags: 🕐 time priority: yes
+word: februari translation: February type: noun group: 🕐 Numbers & time pronunciation: /feː.bry.ˈaː.ri/ example.nl: Februari is de kortste maand. example.en: February is the shortest month. etymology: From Latin Februarius, named after februa, a Roman purification festival held during this month. grammar.Article / Gender: de tags: 🕐 time priority: yes
 //
-word: maart translation: March type: noun group: 🕐 Numbers & time example.nl: In maart begint de lente. example.en: Spring begins in March. grammar.Article / Gender: de tags: 🕐 time priority: yes
+word: maart translation: March type: noun group: 🕐 Numbers & time pronunciation: /maːrt/ example.nl: In maart begint de lente. example.en: Spring begins in March. etymology: From Latin Martius, named after Mars, the Roman god of war. grammar.Article / Gender: de tags: 🕐 time priority: yes
 //
-word: april translation: April type: noun group: 🕐 Numbers & time example.nl: In april bloeien de tulpen. example.en: In April the tulips bloom. grammar.Article / Gender: de tags: 🕐 time priority: yes
+word: april translation: April type: noun group: 🕐 Numbers & time pronunciation: /aːˈprɪl/ example.nl: In april bloeien de tulpen. example.en: In April the tulips bloom. etymology: From Latin Aprilis, of disputed origin, possibly related to aperire (to open), as buds open in spring. grammar.Article / Gender: de tags: 🕐 time priority: yes
 //
-word: mei translation: May type: noun group: 🕐 Numbers & time example.nl: In mei vieren we Bevrijdingsdag. example.en: In May we celebrate Liberation Day. grammar.Article / Gender: de tags: 🕐 time priority: yes
+word: mei translation: May type: noun group: 🕐 Numbers & time pronunciation: /mɛi/ example.nl: In mei vieren we Bevrijdingsdag. example.en: In May we celebrate Liberation Day. etymology: From Latin Maius, named after Maia, a Roman goddess of growth and fertility. grammar.Article / Gender: de tags: 🕐 time priority: yes
 //
-word: juni translation: June type: noun group: 🕐 Numbers & time example.nl: In juni zijn de dagen het langst. example.en: In June the days are longest. grammar.Article / Gender: de tags: 🕐 time priority: yes
+word: juni translation: June type: noun group: 🕐 Numbers & time pronunciation: /ˈjy.ni/ example.nl: In juni zijn de dagen het langst. example.en: In June the days are longest. etymology: From Latin Iunius, named after Juno, queen of the Roman gods. grammar.Article / Gender: de tags: 🕐 time priority: yes
 //
-word: juli translation: July type: noun group: 🕐 Numbers & time example.nl: In juli begint de zomervakantie. example.en: The summer holidays start in July. grammar.Article / Gender: de tags: 🕐 time priority: yes
+word: juli translation: July type: noun group: 🕐 Numbers & time pronunciation: /ˈjy.li/ example.nl: In juli begint de zomervakantie. example.en: The summer holidays start in July. etymology: From Latin Iulius, named after Julius Caesar, who reformed the Roman calendar. grammar.Article / Gender: de tags: 🕐 time priority: yes
 //
-word: augustus translation: August type: noun group: 🕐 Numbers & time example.nl: In augustus is het vaak warm. example.en: In August it is often warm. grammar.Article / Gender: de tags: 🕐 time priority: yes
+word: augustus translation: August type: noun group: 🕐 Numbers & time pronunciation: /ɑuˈɣʏs.tʏs/ example.nl: In augustus is het vaak warm. example.en: In August it is often warm. etymology: From Latin Augustus, named after Emperor Augustus, Julius Caesar's successor. grammar.Article / Gender: de tags: 🕐 time priority: yes
 //
-word: september translation: September type: noun group: 🕐 Numbers & time example.nl: In september begint het schooljaar. example.en: The school year starts in September. grammar.Article / Gender: de tags: 🕐 time priority: yes
+word: september translation: September type: noun group: 🕐 Numbers & time pronunciation: /sɛpˈtɛm.bər/ example.nl: In september begint het schooljaar. example.en: The school year starts in September. etymology: From Latin septem (seven) — originally the seventh month in the old Roman calendar, before January and February were added. grammar.Article / Gender: de tags: 🕐 time priority: yes
 //
-word: oktober translation: October type: noun group: 🕐 Numbers & time example.nl: In oktober vallen de bladeren. example.en: In October the leaves fall. grammar.Article / Gender: de tags: 🕐 time priority: yes
+word: oktober translation: October type: noun group: 🕐 Numbers & time pronunciation: /ɔkˈtoː.bər/ example.nl: In oktober vallen de bladeren. example.en: In October the leaves fall. etymology: From Latin octo (eight) — originally the eighth month, before the Roman calendar shifted. grammar.Article / Gender: de tags: 🕐 time priority: yes
 //
-word: november translation: November type: noun group: 🕐 Numbers & time example.nl: In november regent het veel. example.en: In November it rains a lot. grammar.Article / Gender: de tags: 🕐 time priority: yes
+word: november translation: November type: noun group: 🕐 Numbers & time pronunciation: /noːˈvɛm.bər/ example.nl: In november regent het veel. example.en: In November it rains a lot. etymology: From Latin novem (nine) — originally the ninth month of the old Roman calendar. grammar.Article / Gender: de tags: 🕐 time priority: yes
 //
-word: december translation: December type: noun group: 🕐 Numbers & time example.nl: In december vieren we Sinterklaas en Kerst. example.en: In December we celebrate Sinterklaas and Christmas. grammar.Article / Gender: de tags: 🕐 time priority: yes
+word: december translation: December type: noun group: 🕐 Numbers & time pronunciation: /deːˈsɛm.bər/ example.nl: In december vieren we Sinterklaas en Kerst. example.en: In December we celebrate Sinterklaas and Christmas. etymology: From Latin decem (ten) — originally the tenth and final month of the old Roman ten-month year. grammar.Article / Gender: de tags: 🕐 time priority: yes
 //
-word: ochtend translation: morning type: noun group: 🕐 Numbers & time example.nl: Ik sport altijd in de ochtend. example.en: I always exercise in the morning. note: 's Ochtends = in the morning. Also: de morgen. grammar.Article / Gender: de grammar.Plural: ochtenden tags: ⭐ common, 🕐 time priority: yes
+word: ochtend translation: morning type: noun group: 🕐 Numbers & time pronunciation: /ˈɔx.tənt/ example.nl: Ik sport altijd in de ochtend. example.en: I always exercise in the morning. etymology: From Middle Dutch ochtent, from a Germanic root for "early dawn" (compare Old English ūhta) — the moment night gives way to day. note: 's Ochtends = in the morning. Also: de morgen. grammar.Article / Gender: de grammar.Plural: ochtenden tags: ⭐ common, 🕐 time priority: yes
 //
-word: middag translation: afternoon type: noun group: 🕐 Numbers & time example.nl: In de middag drink ik geen koffie meer. example.en: In the afternoon I don't drink coffee anymore. note: 's Middags = in the afternoon. Tussen de middag = at lunchtime. grammar.Article / Gender: de grammar.Plural: middagen tags: ⭐ common, 🕐 time priority: yes
+word: middag translation: afternoon type: noun group: 🕐 Numbers & time pronunciation: /ˈmɪ.dɑx/ example.nl: In de middag drink ik geen koffie meer. example.en: In the afternoon I don't drink coffee anymore. etymology: midden (middle) + dag (day) — literally "mid-day," directly parallel to English. note: 's Middags = in the afternoon. Tussen de middag = at lunchtime. grammar.Article / Gender: de grammar.Plural: middagen tags: ⭐ common, 🕐 time priority: yes
 //
-word: avond translation: evening type: noun group: 🕐 Numbers & time example.nl: Vanavond blijven we thuis. example.en: Tonight we're staying home. note: 's Avonds = in the evening. Vanavond = tonight. grammar.Article / Gender: de grammar.Plural: avonden tags: ⭐ common, 🕐 time priority: yes
+word: avond translation: evening type: noun group: 🕐 Numbers & time pronunciation: /ˈaː.vɔnt/ example.nl: Vanavond blijven we thuis. example.en: Tonight we're staying home. etymology: From Middle Dutch avont, cognate with English "even(ing)" and German "Abend", from a shared Germanic root. note: 's Avonds = in the evening. Vanavond = tonight. grammar.Article / Gender: de grammar.Plural: avonden tags: ⭐ common, 🕐 time priority: yes
 //
-word: nacht translation: night type: noun group: 🕐 Numbers & time example.nl: De baby sliep de hele nacht door. example.en: The baby slept through the whole night. note: 's Nachts = at night. grammar.Article / Gender: de grammar.Plural: nachten tags: ⭐ common, 🕐 time priority: yes
+word: nacht translation: night type: noun group: 🕐 Numbers & time pronunciation: /nɑxt/ example.nl: De baby sliep de hele nacht door. example.en: The baby slept through the whole night. etymology: From Middle Dutch nacht, cognate with English "night" and German "Nacht", from Proto-Germanic *nahts. note: 's Nachts = at night. grammar.Article / Gender: de grammar.Plural: nachten tags: ⭐ common, 🕐 time priority: yes
 //
-word: vandaag translation: today type: adverb group: 🕐 Numbers & time pronunciation: /fanˈdaːx/ example.nl: Vandaag werk ik thuis. example.en: Today I work from home. tags: ⭐ common, 🕐 time priority: yes
+word: vandaag translation: today type: adverb group: 🕐 Numbers & time pronunciation: /fɑnˈdaːx/ example.nl: Vandaag werk ik thuis. example.en: Today I work from home. etymology: van (of, from) + daag, an old dative-style form of dag (day) — literally "of this day." tags: ⭐ common, 🕐 time priority: yes
 //
-word: morgen translation: tomorrow type: adverb group: 🕐 Numbers & time pronunciation: /ˈmɔr.ɣə(n)/ example.nl: Morgen ga ik naar de stad. example.en: Tomorrow I am going to the city. note: Can also mean "morning" depending on context: de morgen. tags: ⭐ common, 🕐 time priority: yes
+word: morgen translation: tomorrow type: adverb group: 🕐 Numbers & time pronunciation: /ˈmɔr.ɣə(n)/ example.nl: Morgen ga ik naar de stad. example.en: Tomorrow I am going to the city. etymology: From Middle Dutch morgen, cognate with English "morrow" and German "morgen" — the same word originally covered both "morning" and "the coming day." note: Can also mean "morning" depending on context: de morgen. tags: ⭐ common, 🕐 time priority: yes
 //
-word: gisteren translation: yesterday type: adverb group: 🕐 Numbers & time pronunciation: /ˈɣɪstə.rə(n)/ example.nl: Gisteren heb ik een film gekeken. example.en: Yesterday I watched a movie. tags: ⭐ common, 🕐 time priority: yes
+word: gisteren translation: yesterday type: adverb group: 🕐 Numbers & time pronunciation: /ˈɣɪ.stə.rə(n)/ example.nl: Gisteren heb ik een film gekeken. example.en: Yesterday I watched a movie. etymology: From Middle Dutch ghisteren, cognate with English "yesterday" (the "yester-" part) and German "gestern", from Proto-Germanic *gestra-. tags: ⭐ common, 🕐 time priority: yes
 //
-word: uur translation: hour type: noun group: 🕐 Numbers & time example.nl: De reis duurt twee uur. example.en: The journey takes two hours. note: Stays singular after numbers: twee uur, not twee uren. grammar.Article / Gender: het grammar.Plural: uren tags: ⭐ common, 🕐 time priority: yes
+word: uur translation: hour type: noun group: 🕐 Numbers & time pronunciation: /yːr/ example.nl: De reis duurt twee uur. example.en: The journey takes two hours. etymology: Loanword from Old French ure/ore, from Latin hora, from Greek ὥρα (hour, season) — the same root as "horoscope." note: Stays singular after numbers: twee uur, not twee uren. grammar.Article / Gender: het grammar.Plural: uren tags: ⭐ common, 🕐 time priority: yes
 //
-word: minuut translation: minute type: noun group: 🕐 Numbers & time example.nl: Het duurt nog vijf minuten. example.en: It takes five more minutes. grammar.Article / Gender: de grammar.Plural: minuten tags: ⭐ common, 🕐 time priority: yes
+word: minuut translation: minute type: noun group: 🕐 Numbers & time pronunciation: /miˈnyt/ example.nl: Het duurt nog vijf minuten. example.en: It takes five more minutes. etymology: Loanword from French minute, from Latin pars minuta, "a diminished/small part" — the same root as English "minute" (tiny). grammar.Article / Gender: de grammar.Plural: minuten tags: ⭐ common, 🕐 time priority: yes
 //
-word: week translation: week type: noun group: 🕐 Numbers & time example.nl: Volgende week heb ik vakantie. example.en: Next week I'm on holiday. grammar.Article / Gender: de grammar.Plural: weken tags: ⭐ common, 🕐 time priority: yes
+word: week translation: week type: noun group: 🕐 Numbers & time pronunciation: /ʋeːk/ example.nl: Volgende week heb ik vakantie. example.en: Next week I'm on holiday. etymology: From Middle Dutch weke, cognate with English "week" and German "Woche", from a Germanic root meaning "a turn, a succession." grammar.Article / Gender: de grammar.Plural: weken tags: ⭐ common, 🕐 time priority: yes
 //
-word: weekend translation: weekend type: noun group: 🕐 Numbers & time pronunciation: /ˈʋik.ɛnt/ example.nl: In het weekend slaap ik langer. example.en: On the weekend I sleep longer. grammar.Article / Gender: het grammar.Plural: weekenden tags: ⭐ common, 🕐 time priority: yes
+word: weekend translation: weekend type: noun group: 🕐 Numbers & time pronunciation: /ˈʋik.ɛnt/ example.nl: In het weekend slaap ik langer. example.en: On the weekend I sleep longer. etymology: Direct loanword from English "weekend." grammar.Article / Gender: het grammar.Plural: weekenden tags: ⭐ common, 🕐 time priority: yes
 //
-word: maand translation: month type: noun group: 🕐 Numbers & time example.nl: Ik woon hier nu drie maanden. example.en: I've been living here for three months now. grammar.Article / Gender: de grammar.Plural: maanden tags: ⭐ common, 🕐 time priority: yes
+word: maand translation: month type: noun group: 🕐 Numbers & time pronunciation: /maːnt/ example.nl: Ik woon hier nu drie maanden. example.en: I've been living here for three months now. etymology: From Middle Dutch maent, cognate with English "month" and German "Monat", related to maan (moon), since months were once measured by lunar cycles. grammar.Article / Gender: de grammar.Plural: maanden tags: ⭐ common, 🕐 time priority: yes
 //
-word: jaar translation: year type: noun group: 🕐 Numbers & time example.nl: Gelukkig nieuwjaar! example.en: Happy New Year! note: Stays singular after numbers: vijf jaar. grammar.Article / Gender: het grammar.Plural: jaren tags: ⭐ common, 🕐 time priority: yes
+word: jaar translation: year type: noun group: 🕐 Numbers & time pronunciation: /jaːr/ example.nl: Gelukkig nieuwjaar! example.en: Happy New Year! etymology: From Middle Dutch jaer, cognate with English "year" and German "Jahr", from Proto-Germanic *jērą. note: Stays singular after numbers: vijf jaar. grammar.Article / Gender: het grammar.Plural: jaren tags: ⭐ common, 🕐 time priority: yes
 //
-word: nu translation: now type: adverb group: 🕐 Numbers & time example.nl: We moeten nu vertrekken. example.en: We have to leave now. tags: ⭐ common, 🕐 time priority: yes
+word: nu translation: now type: adverb group: 🕐 Numbers & time pronunciation: /ny/ example.nl: We moeten nu vertrekken. example.en: We have to leave now. etymology: From Middle Dutch nu, cognate with English "now" and German "nun", from Proto-Indo-European *nu. tags: ⭐ common, 🕐 time priority: yes
 //
-word: later translation: later type: adverb group: 🕐 Numbers & time example.nl: Ik bel je later terug. example.en: I'll call you back later. tags: ⭐ common, 🕐 time priority: yes
+word: later translation: later type: adverb group: 🕐 Numbers & time pronunciation: /ˈlaː.tər/ example.nl: Ik bel je later terug. example.en: I'll call you back later. etymology: Comparative of laat (late), cognate with English "later" and German "später" — from a common Germanic root meaning "slow, sluggish." tags: ⭐ common, 🕐 time priority: yes

@@ -1218,13 +1218,13 @@ async function checkAnswer(){
 
   if(res.result==='close'&&!quizRetrying){
     quizRetrying=true;
-    showCloseFeedback(card,guess);
+    showCloseFeedback(card,guess,res.reason);
     return;
   }
   const score=res.result==='correct'?1:quizRetrying?0.5:0;
   quizRetrying=false;
   quizResults.push({card,guess,score,result:res.result});
-  showFeedback(card,guess,res.result);
+  showFeedback(card,guess,res.result,res.reason);
 }
 
 async function skipWord(){
@@ -1255,16 +1255,19 @@ function switchQuizDir(){
   renderQuizQuestion();
 }
 
-function showCloseFeedback(card,guess){
+function showCloseFeedback(card,guess,reason){
   const isW2E=quizDir===DIR_FWD;
   const pct=((quizIdx+1)/quizWords.length*100).toFixed(1);
+  const verdict=reason==='missing_article'?'&#126; Almost &mdash; you left out the article'
+    :reason==='wrong_article'?'&#126; Almost &mdash; wrong article'
+    :'&#126; Almost &mdash; check your spelling';
   document.getElementById('content').innerHTML=`
     <div class="progress-label">
       <span>${quizIdx+1} / ${quizWords.length}</span>
     </div>
     <div class="progress-wrap"><div class="progress-bar" style="width:${pct}%"></div></div>
     <div class="feedback close">
-      <div class="feedback-verdict">&#126; Almost &mdash; check your spelling</div>
+      <div class="feedback-verdict">${verdict}</div>
       <div class="feedback-yours">You wrote: ${esc(guess)}</div>
     </div>
     <input type="text" id="answer-input" autofocus
@@ -1292,7 +1295,12 @@ function _spellNote(guess,correctAnswer){
   }
   return `<div class="feedback-correction">You typed <em>${esc(g)}</em>, correct spelling is <em>${esc(alts[0])}</em></div>`;
 }
-function showFeedback(card,guess,result){
+function _articleNote(reason){
+  if(reason==='missing_article') return '<div class="feedback-correction">You left out the article.</div>';
+  if(reason==='wrong_article') return '<div class="feedback-correction">You used the wrong article.</div>';
+  return '';
+}
+function showFeedback(card,guess,result,reason){
   const isW2E=quizDir===DIR_FWD;
   const correct=result==='correct';
   const gc=articleColorFor(card);
@@ -1322,7 +1330,7 @@ function showFeedback(card,guess,result){
         <span style="color:rgba(255,255,255,.4);font-size:11px">${isW2E?DEP_NAME:LANG.name}: </span>
         <strong style="font-family:Georgia,serif;${gc&&isW2E?`color:${gc}`:''}">${esc(correctAnswer)}</strong>${!isW2E?spkBtn(card.word,true):''}
       </div>
-      ${correct?_spellNote(guess,correctAnswer):guess?`<div class="feedback-yours">You wrote: ${esc(guess)}</div>`:''}
+      ${correct?_spellNote(guess,correctAnswer):guess?`${_articleNote(reason)}<div class="feedback-yours">You wrote: ${esc(guess)}</div>`:''}
       ${w.length?`<div class="window-dots"><span style="font-size:9px;color:rgba(255,255,255,.25);font-family:sans-serif;margin-right:2px">last ${w.length}:</span>${dots}</div>`:''}
     </div>
     <div style="padding:0 0 12px">${cardBackHTML(card)}</div>
@@ -2113,6 +2121,9 @@ def make_vocab_blueprint(lang, check_fn=None):
             result = check_fn(guess, correct, direction, card)
         else:
             result = _check(guess, correct, direction)
+        reason = None
+        if isinstance(result, tuple):
+            result, reason = result
         # Save progress only for logged-in users
         if cid and current_user.is_authenticated:
             today = date.today().isoformat()
@@ -2162,7 +2173,7 @@ def make_vocab_blueprint(lang, check_fn=None):
                 row.retention_tier = (min((row.retention_tier or 0) + 1, 3)
                                        if correct_bool else 0)
             db.session.commit()
-        return jsonify({"result": result})
+        return jsonify({"result": result, "reason": reason})
 
     @bp.route("/api/save", methods=["POST"])
     def save():

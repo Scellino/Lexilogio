@@ -104,7 +104,7 @@ def test_greek_gender_forms_accepted():
 def test_greek_wrong_article_is_close():
     c = _card(word="κεφάλι", translation="head",
               grammar=[{"label": "Article", "value": "το κεφάλι"}])
-    assert _greek_check("ο κεφάλι", "", "en→word", c) == "close"
+    assert _greek_check("ο κεφάλι", "", "en→word", c) == ("close", "wrong_article")
     assert _greek_check("το κεφάλι", "", "en→word", c) == "correct"
 
 def test_greek_to_english_multi_option():
@@ -139,11 +139,11 @@ def test_de_correct_article_is_correct():
 
 def test_de_no_article_is_close():
     c = {"gender": "m", "word": "hund"}
-    assert _de_check_fn("hund", "hund", "en→word", c) == "close"
+    assert _de_check_fn("hund", "hund", "en→word", c) == ("close", "missing_article")
 
 def test_de_wrong_article_is_close():
     c = {"gender": "m", "word": "hund"}
-    assert _de_check_fn("die hund", "hund", "en→word", c) == "close"
+    assert _de_check_fn("die hund", "hund", "en→word", c) == ("close", "wrong_article")
 
 def test_de_typo_without_article_is_close():
     c = {"gender": "m", "word": "hund"}
@@ -160,11 +160,11 @@ def test_it_correct_article_is_correct():
 
 def test_it_no_article_is_close():
     c = {"gender": "m", "word": "gatto"}
-    assert _it_check_fn("gatto", "gatto", "en→word", c) == "close"
+    assert _it_check_fn("gatto", "gatto", "en→word", c) == ("close", "missing_article")
 
 def test_it_wrong_article_is_close():
     c = {"gender": "m", "word": "gatto"}
-    assert _it_check_fn("la gatto", "gatto", "en→word", c) == "close"
+    assert _it_check_fn("la gatto", "gatto", "en→word", c) == ("close", "wrong_article")
 
 def test_es_correct_article_is_correct():
     c = {"gender": "m", "word": "perro"}
@@ -172,11 +172,11 @@ def test_es_correct_article_is_correct():
 
 def test_es_no_article_is_close():
     c = {"gender": "m", "word": "perro"}
-    assert _es_check_fn("perro", "perro", "en→word", c) == "close"
+    assert _es_check_fn("perro", "perro", "en→word", c) == ("close", "missing_article")
 
 def test_es_wrong_article_is_close():
     c = {"gender": "m", "word": "perro"}
-    assert _es_check_fn("la perro", "perro", "en→word", c) == "close"
+    assert _es_check_fn("la perro", "perro", "en→word", c) == ("close", "wrong_article")
 
 def test_fr_correct_article_is_correct():
     c = {"gender": "m", "word": "chien"}
@@ -184,11 +184,11 @@ def test_fr_correct_article_is_correct():
 
 def test_fr_no_article_is_close():
     c = {"gender": "m", "word": "chien"}
-    assert _fr_check_fn("chien", "chien", "en→word", c) == "close"
+    assert _fr_check_fn("chien", "chien", "en→word", c) == ("close", "missing_article")
 
 def test_fr_wrong_article_is_close():
     c = {"gender": "f", "word": "chien"}
-    assert _fr_check_fn("le chien", "chien", "en→word", c) == "close"
+    assert _fr_check_fn("le chien", "chien", "en→word", c) == ("close", "wrong_article")
 
 def test_fr_vowel_start_elision():
     c = {"gender": "m", "word": "arbre"}
@@ -200,13 +200,13 @@ def test_nl_correct_article_is_correct():
 
 def test_nl_no_article_is_close():
     c = {"gender": "de", "word": "hond"}
-    assert _nl_check_fn("hond", "hond", "en→word", c) == "close"
+    assert _nl_check_fn("hond", "hond", "en→word", c) == ("close", "missing_article")
 
 def test_nl_wrong_article_is_close():
     c = {"gender": "het", "word": "hond"}
-    assert _nl_check_fn("de hond", "hond", "en→word", c) == "close"
+    assert _nl_check_fn("de hond", "hond", "en→word", c) == ("close", "wrong_article")
 
 def test_greek_no_article_is_close():
     c = _card(word="σκύλος", translation="dog",
               grammar=[{"label": "Article", "value": "ο σκύλος"}])
-    assert _greek_check("σκύλος", "", "en→word", c) == "close"
+    assert _greek_check("σκύλος", "", "en→word", c) == ("close", "missing_article")

@@ -294,7 +294,9 @@ def _make_greek_check_fn(accepted_alts):
                 # "close" (retry), not silently accepted.
                 exp_art = _el_card_article(card)
                 if exp_art:
-                    return "correct" if guess_art == exp_art else "close"
+                    if guess_art == exp_art:
+                        return "correct"
+                    return ("close", "missing_article") if not guess_art else ("close", "wrong_article")
                 return "correct"
 
             for w in {norm_guess, guess_word}:

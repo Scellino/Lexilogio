@@ -75,7 +75,9 @@ def _fr_check_fn(guess, correct, direction, card):
         expected = _fr_normalize(resolve_expected_article(FR_LANG, card))
         if not expected:
             return "correct"   # no known gender — can't require an article
-        return "correct" if g_norm == f"{expected} {c_norm}" else "close"
+        if g_norm == f"{expected} {c_norm}":
+            return "correct"
+        return ("close", "missing_article") if g_norm == c_norm else ("close", "wrong_article")
     if _fr_is_close(g_bare, c_norm):
         return "close"
     if _fr_is_close(g_norm, c_norm):

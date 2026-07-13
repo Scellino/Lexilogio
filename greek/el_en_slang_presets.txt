@@ -25,7 +25,7 @@ priority: yes
 //
 word: αράζω
 translation: to chill, to hang out, to lounge
-type: Ρήμα
+type: verb
 group: 🤪 Slang
 pronunciation: /aˈɾazo/
 grammar.Present (all persons): αράζω / αράζεις / αράζει / αράζουμε / αράζετε / αράζουν
@@ -38,7 +38,7 @@ priority: yes
 //
 word: γαμάτος
 translation: awesome, cool, amazing
-type: Επίθετο
+type: adjective
 group: 🤪 Slang
 pronunciation: /ɣaˈmatos/
 grammar.Masculine: γαμάτος
@@ -52,7 +52,7 @@ priority: yes
 //
 word: τέλεια
 translation: perfect, great, awesome
-type: Επιρρήματα
+type: adverb
 group: 🤪 Slang
 pronunciation: /ˈtɛlca/
 example.el: -Πάμε για φαγητό; -Τέλεια!
@@ -63,7 +63,7 @@ priority: yes
 //
 word: χαλαρά
 translation: chill, relaxed, easy-going
-type: Επιρρήματα
+type: adverb
 group: 🤪 Slang
 pronunciation: /xaˈlaɾa/
 example.el: Όλα θα γίνουν χαλαρά.
@@ -74,7 +74,7 @@ priority: yes
 //
 word: τρελός
 translation: amazing, wild, crazy
-type: Επίθετο
+type: adjective
 group: 🤪 Slang
 pronunciation: /tɾeˈlos/
 grammar.Masculine: τρελός
@@ -114,7 +114,7 @@ priority: yes
 //
 word: πάμε
 translation: let's go
-type: Ρήμα
+type: verb
 group: 🤪 Slang
 pronunciation: /ˈpame/
 grammar.Present (all persons): πάμε (1st pl. only)
@@ -139,7 +139,7 @@ priority: yes
 //
 word: τζάμι
 translation: perfect, great, cool
-type: Επίθετο
+type: adjective
 group: 🤪 Slang
 pronunciation: /ˈd͡zami/
 example.el: Όλα είναι τζάμι!
@@ -150,7 +150,7 @@ priority: yes
 //
 word: χύμα
 translation: disorganized, messy, loose
-type: Επίθετο
+type: adjective
 group: 🤪 Slang
 pronunciation: /ˈxima/
 example.el: Είναι λίγο χύμα τύπος.
@@ -161,7 +161,7 @@ priority: yes
 //
 word: παίζει
 translation: it is possible, it happens, it's on
-type: Ρήμα
+type: verb
 group: 🤪 Slang
 pronunciation: /ˈpɛizi/
 grammar.Present (all persons): παίζει (3rd sing. only)
@@ -173,7 +173,7 @@ priority: yes
 //
 word: κουλ
 translation: cool
-type: Επίθετο
+type: adjective
 group: 🤪 Slang
 pronunciation: /kul/
 example.el: Μην αγχώνεσαι, όλα κουλ.
@@ -195,7 +195,7 @@ priority: yes
 //
 word: φάγαμε
 translation: we got/experienced (slang usage)
-type: Ρήμα
+type: verb
 group: 🤪 Slang
 pronunciation: /ˈfaɣame/
 grammar.Present (all persons): τρώμε / τρως / τρώει / τρώμε / τρώτε / τρώνε
@@ -208,7 +208,7 @@ priority: yes
 //
 word: ψαρώνω
 translation: to be intimidated, to be tricked
-type: Ρήμα
+type: verb
 group: 🤪 Slang
 pronunciation: /psaˈrono/
 grammar.Present (all persons): ψαρώνω / ψαρώνεις / ψαρώνει / ψαρώνουμε / ψαρώνετε / ψαρώνουν
@@ -247,7 +247,7 @@ priority: yes
 //
 word: σπάω
 translation: to annoy, to break
-type: Ρήμα
+type: verb
 group: 🤪 Slang
 pronunciation: /ˈspao/
 grammar.Present (all persons): σπάω / σπάς / σπάει / σπάμε / σπάτε / σπάνε
@@ -273,7 +273,7 @@ priority: yes
 //
 word: σιγά
 translation: yeah right, as if
-type: Επιρρήματα
+type: adverb
 group: 🤪 Slang
 pronunciation: /siˈɣa/
 example.el: Σιγά μην έρθει.
@@ -284,7 +284,7 @@ priority: yes
 //
 word: κολλάω
 translation: to be obsessed with, to get stuck
-type: Ρήμα
+type: verb
 group: 🤪 Slang
 pronunciation: /koˈlao/
 grammar.Present (all persons): κολλάω / κολλάς / κολλάει / κολλάμε / κολλάτε / κολλάνε
@@ -323,7 +323,7 @@ priority: yes
 //
 word: φτιαγμένος
 translation: high, buzzed, fixed
-type: Επίθετο
+type: adjective
 group: 🤪 Slang
 pronunciation: /ftçaɣˈmenos/
 grammar.Masculine: φτιαγμένος
@@ -337,7 +337,7 @@ priority: yes
 //
 word: ψάχνω
 translation: to search, to look for, to seek trouble
-type: Ρήμα
+type: verb
 group: 🤪 Slang
 pronunciation: /ˈpsaxno/
 grammar.Present (all persons): ψάχνω / ψάχνεις / ψάχνει / ψάχνουμε / ψάχνετε / ψάχνουν
@@ -350,7 +350,7 @@ priority: yes
 //
 word: τσίτα
 translation: tense, on edge
-type: Επιρρήματα
+type: adverb
 group: 🤪 Slang
 pronunciation: /ˈt͡sita/
 example.el: Είμαι στην τσίτα όλη μέρα.

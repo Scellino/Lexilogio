@@ -336,7 +336,7 @@ tags: 🗣️ colloquial, 🧠 body
 priority: yes
 //
 word: ψάχνω
-translation: to look for, to seek trouble
+translation: to search, to look for, to seek trouble
 type: Ρήμα
 group: 🤪 Slang
 pronunciation: /ˈpsaxno/

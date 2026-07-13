@@ -449,6 +449,10 @@ CARDS = [
         ],
         "grammar": [
             {
+                "label": "Gender",
+                "value": "m",
+            },
+            {
                 "label": "Masculine",
                 "value": "ο κολλητός",
             },
@@ -1035,6 +1039,10 @@ CARDS = [
         ],
         "grammar": [
             {
+                "label": "Gender",
+                "value": "m",
+            },
+            {
                 "label": "Masculine",
                 "value": "ο φαφλατάς",
             },
@@ -1070,6 +1078,10 @@ CARDS = [
             "colloquial",
         ],
         "grammar": [
+            {
+                "label": "Gender",
+                "value": "m",
+            },
             {
                 "label": "Masculine",
                 "value": "ο κουτσομπόλης",
@@ -1154,6 +1166,10 @@ CARDS = [
             "colloquial",
         ],
         "grammar": [
+            {
+                "label": "Gender",
+                "value": "m",
+            },
             {
                 "label": "Masculine",
                 "value": "ο αλάνης",

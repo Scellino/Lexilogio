@@ -9,7 +9,7 @@ import urllib.parse
 import urllib.request
 from pathlib import Path
 from flask import request, jsonify
-from generic_vocab_bp import make_vocab_blueprint
+from generic_vocab_bp import make_vocab_blueprint, resolve_expected_article
 
 # ── Data ─────────────────────────────────────────────────────────────────────
 import json
@@ -221,7 +221,12 @@ def _el_card_article(card):
         if g.get("label") == "Article":
             parts = _el_normalize(g["value"]).split()
             return parts[0] if parts else None
-    return None
+    # No explicit "Article" grammar entry (e.g. cards that only list
+    # Gender, or Masculine/Feminine forms) — fall back to deriving the
+    # article from the card's gender via the same article_rule the other
+    # five languages use, so the requirement never silently no-ops.
+    fallback = resolve_expected_article(EL_LANG, card)
+    return _el_normalize(fallback) if fallback else None
 
 
 def _el_grammar_forms(card):

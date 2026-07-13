@@ -129,9 +129,10 @@ DE_LANG = {
     "article_rule": {
         "based_on": "gender",
         "rules": {
-            "m": {"otherwise": "der"},
-            "f": {"otherwise": "die"},
-            "n": {"otherwise": "das"},
+            "m":  {"otherwise": "der"},
+            "f":  {"otherwise": "die"},
+            "n":  {"otherwise": "das"},
+            "pl": {"otherwise": "die"},   # plural-only nouns always take "die"
         },
     },
     "article_colors": {
@@ -148,9 +149,10 @@ DE_LANG = {
                 "widget":    "radio",
                 "top_level": True,
                 "options": [
-                    {"value": "m", "label": "Masculine — der"},
-                    {"value": "f", "label": "Feminine — die"},
-                    {"value": "n", "label": "Neuter — das"},
+                    {"value": "m",  "label": "Masculine — der"},
+                    {"value": "f",  "label": "Feminine — die"},
+                    {"value": "n",  "label": "Neuter — das"},
+                    {"value": "pl", "label": "Plural-only — die"},
                 ],
             },
             {

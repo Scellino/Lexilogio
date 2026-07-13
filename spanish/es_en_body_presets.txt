@@ -277,6 +277,7 @@ group: 🩺 Body & Doctor
 pronunciation: /ˈdeðo ðel pje/
 example.es: Me golpeé el dedo del pie pequeño.
 example.en: I stubbed my little toe.
+grammar.Gender: m
 note: Literally "finger of the foot" — Spanish uses one word (dedo) for both fingers and toes.
 tags: 🩺 body
 priority: yes

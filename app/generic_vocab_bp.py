@@ -1646,7 +1646,20 @@ function renderAdd(prefillCard){
       '  For nouns whose standard/citation form is the plural (e.g. Greek πληροφορίες — "information"),\\n'+
       '  use the plural as the main word and note the singular in grammar or note fields.\\n'+
       '• grammar fields: use EXACTLY the label names listed in the GRAMMAR FIELDS section below.\\n'+
-      '  Do not translate them, rename them, or add parenthetical clarifications.\\n\\n'+
+      '  Do not translate them, rename them, or add parenthetical clarifications.\\n'+
+      '• REQUIRED — every field marked "← key field" below is mandatory for every noun, with no\\n'+
+      '  exceptions. The quiz uses it to require the correct article on answers; if it\\'s left blank,\\n'+
+      '  the quiz silently accepts any article (or none) as correct, which is a real bug, not a minor gap.\\n'+
+      '  This includes nouns that feel like edge cases:\\n'+
+      '    - plural-only nouns (e.g. "clothes", "news") — set it to whatever value gives the right\\n'+
+      '      plural article, even if that means a value like "pl" rather than a standard gender.\\n'+
+      '    - dual-gender person nouns with separate masculine/feminine forms (e.g. "gossip",\\n'+
+      '      "specialist") — set it to the gender of whichever form is used as the headword in "word".\\n'+
+      '    - adjectives used as nouns (e.g. "the present", "the slightest thing") — set it to the\\n'+
+      '      gender of that nominal use, even though the word is also an adjective.\\n'+
+      '  The only cards that should skip it are ones with no article at all in this language\\n'+
+      '  (indeclinable loanwords, pronouns, interjections) — never skip it just because the noun\\n'+
+      '  doesn\\'t fit the simple single-gender case.\\n\\n'+
       '── EXAMPLE CARD (noun) ─────────────────────\\n'+
       'word: [dictionary form — no article prefix]\\n'+
       'translation: [primary '+DEP_NAME+' meaning; comma-separate up to 3 senses]\\n'+

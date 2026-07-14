@@ -276,6 +276,9 @@ input[type=text]:focus{border-color:rgba(201,169,110,.5)}
 .view-toggle{display:flex;gap:4px;justify-content:center;margin-bottom:16px}
 .view-btn{padding:5px 14px;border-radius:8px;border:1px solid rgba(255,255,255,.12);background:transparent;color:rgba(255,255,255,.35);font-size:11px;font-family:sans-serif;font-weight:700;cursor:pointer;transition:all .15s}
 .view-btn.active{background:rgba(201,169,110,.15);border-color:#c9a96e;color:#c9a96e}
+.browse-select-bar{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin:-4px 0 14px;font-family:sans-serif;font-size:12px;color:rgba(255,255,255,.5)}
+.browse-select-bar a{color:#c9a96e;cursor:pointer;text-decoration:none}
+.browse-select-bar a:hover{text-decoration:underline}
 /* Flashcard */
 .fc-wrap{perspective:1000px;width:100%;margin-bottom:20px;cursor:pointer;user-select:none}
 .fc-inner{position:relative;width:100%;transform-style:preserve-3d;transition:transform .5s cubic-bezier(.4,0,.2,1)}
@@ -296,6 +299,7 @@ input[type=text]:focus{border-color:rgba(201,169,110,.5)}
 .bcard{background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.07);border-radius:12px;margin-bottom:8px;overflow:hidden;cursor:pointer;transition:border-color .15s}
 .bcard:hover{border-color:rgba(201,169,110,.3)}
 .bcard.open{border-color:rgba(201,169,110,.4)}
+.bcard.selected{border-color:#c9a96e;background:rgba(201,169,110,.08)}
 .bcard-head{display:flex;align-items:center;gap:10px;padding:10px 14px}
 .bcard-left{display:flex;align-items:center;gap:10px;flex:1;min-width:0;overflow:hidden}
 .bcard-word{font-family:Georgia,serif;font-size:17px;color:#e8c98a;flex-shrink:0;white-space:nowrap}
@@ -455,6 +459,41 @@ function pill(key, label, active, onclick) {
 }
 function tagLabel(t)   { return (LANG.tag_labels||{})[t]   || t; }
 function groupLabel(g) { return (LANG.group_labels||{})[g] || g; }
+const GROUP_EMOJI_LIST=['📚','📖','🎭','📰','🎬','🎮','🗺️','🏛️',
+  '🍽️','🥘','🍕','☕','🍷','🥂',
+  '🏠','🏙️','🛒','💊','🧹',
+  '✈️','🌍','🚂','⛵',
+  '💼','🔧','💻','🎓','🔬',
+  '❤️','🌿','⭐','🐾','💰','🎵',
+  '🏃','⚽','⚡','🌅','🎯','🌸'];
+// Wires an emoji-picker button + popup grid onto an existing text input,
+// prepending the chosen emoji. Shared by the Add form's group field and
+// the browse tab's bulk group-change modal.
+function attachEmojiPicker(wrap,inp){
+  const btn=mkel('button','btn-ghost','🙂');
+  btn.type='button';btn.title='Pick emoji';
+  btn.style.cssText='padding:5px 8px;font-size:16px;line-height:1;flex-shrink:0';
+  const picker=document.createElement('div');
+  picker.style.cssText='display:none;position:absolute;top:calc(100% + 4px);left:0;z-index:99;background:#1e1e30;border:1px solid rgba(255,255,255,.15);border-radius:10px;padding:8px;flex-wrap:wrap;gap:2px;width:216px';
+  GROUP_EMOJI_LIST.forEach(em=>{
+    const b=document.createElement('button');b.type='button';b.textContent=em;
+    b.style.cssText='background:none;border:none;font-size:18px;cursor:pointer;padding:3px;border-radius:4px;width:28px;height:28px;line-height:1';
+    b.onmouseenter=()=>{b.style.background='rgba(255,255,255,.1)';};
+    b.onmouseleave=()=>{b.style.background='none';};
+    b.onclick=()=>{
+      let cur=inp.value.trim();
+      if(cur&&!/^[a-zA-Z0-9\xC0-ɏͰ-Ͽ]/.test(cur)) cur=cur.replace(/^\S+\s*/,'');
+      inp.value=em+' '+cur;
+      picker.style.display='none';
+      inp.focus();
+    };
+    picker.appendChild(b);
+  });
+  btn.onclick=e=>{e.stopPropagation();picker.style.display=picker.style.display==='none'?'flex':'none';};
+  document.addEventListener('click',()=>{picker.style.display='none';});
+  wrap.appendChild(btn);wrap.appendChild(picker);
+  return {btn,picker};
+}
 const PILLS_VISIBLE=3;
 const expandedPills=new Set();
 function pillsWithExpand(items, renderFn, id, activeSet) {
@@ -495,6 +534,7 @@ let studyFlipped=false;
 let browseView='list', browseSearch='';
 let browseGroups=new Set(), browseTags=new Set(), browseMastery='all';
 let browseIdx=0, browseFlipped=false, browseOpen=new Set();
+let browseSelectMode=false, browseSelected=new Set();
 let quizPhase='setup';
 let quizDir;
 let quizGroups=new Set(), quizTags=new Set(), quizMastery=new Set(), quizCount=10;
@@ -812,8 +852,15 @@ function renderBrowse(){
     <div class="view-toggle">
       <button class="view-btn${browseView==='list'?' active':''}" onclick="setBrowseView('list')">&#9776; List</button>
       <button class="view-btn${browseView==='cards'?' active':''}" onclick="setBrowseView('cards')">&#9634; Cards</button>
+      ${browseView==='list'?`<button class="view-btn${browseSelectMode?' active':''}" onclick="toggleBrowseSelectMode()">${browseSelectMode?'&#10005; Cancel':'&#9745; Select'}</button>`:''}
     </div>
-    <div class="browse-count">${filtered.length} word${filtered.length!==1?'s':''}</div>`;
+    <div class="browse-count">${filtered.length} word${filtered.length!==1?'s':''}</div>
+    ${browseSelectMode?`<div class="browse-select-bar">
+      <span>${browseSelected.size} selected</span>
+      <a onclick="selectAllFiltered()">Select all</a>
+      <a onclick="browseSelected=new Set();renderBrowse()">Clear</a>
+      <button class="btn-secondary" style="margin-left:auto;font-size:11px;padding:5px 10px" ${browseSelected.size?'':'disabled'} onclick="openBulkGroupModal()">Change group&#8230;</button>
+    </div>`:''}`;
 
   if(browseView==='cards'){
     const idx=Math.min(browseIdx,Math.max(filtered.length-1,0));browseIdx=idx;
@@ -856,8 +903,14 @@ function renderBrowse(){
     const rows=filtered.map(c=>{
       const gc=articleColorFor(c),art=articleFor(c),lvl=cardMastery(c),isOpen=browseOpen.has(String(c.id));
       const tagBadges=(c.tags||[]).map(t=>`<span style="font-size:9px;opacity:.5">${esc(t.split(':').pop())}</span>`).join('');
-      return `<div class="bcard${isOpen?' open':''}" style="${gc?`border-left:3px solid ${gc}`:''}" onclick="toggleBCard('${c.id}')">
+      const selected=browseSelected.has(String(c.id));
+      const rowClick=browseSelectMode?(c._user?`toggleCardSelected('${c.id}')`:''):`toggleBCard('${c.id}')`;
+      const checkbox=browseSelectMode?(c._user
+        ?`<input type="checkbox" ${selected?'checked':''} onclick="event.stopPropagation();toggleCardSelected('${c.id}')" style="flex-shrink:0;margin-right:2px">`
+        :`<span title="Preset cards can't be moved" style="width:13px;flex-shrink:0"></span>`):'';
+      return `<div class="bcard${isOpen?' open':''}${selected?' selected':''}" style="${gc?`border-left:3px solid ${gc}`:''}" ${rowClick?`onclick="${rowClick}"`:''}>
         <div class="bcard-head">
+          ${checkbox}
           <div class="mastery-dot" style="background:${MASTERY_COLORS[lvl]}" title="${lvl}"></div>
           ${c.priority?'<span style="font-size:11px;flex-shrink:0">&#11088;</span>':''}
           <div class="bcard-left">
@@ -866,21 +919,113 @@ function renderBrowse(){
             <span class="bcard-trans">${esc(c.translation)}</span>
           </div>
           <span class="bcard-badges">${tagBadges}</span>
-          ${c._user?`<button class="icon-btn" title="Edit" onclick="event.stopPropagation();editBrowseCard('${c.id}')">Edit</button>
+          ${!browseSelectMode&&c._user?`<button class="icon-btn" title="Edit" onclick="event.stopPropagation();editBrowseCard('${c.id}')">Edit</button>
           <button class="icon-btn del" title="Delete" onclick="event.stopPropagation();deleteBrowseCard('${c.id}')">Delete</button>`:''}
-          <span style="font-size:10px;color:rgba(255,255,255,.2);flex-shrink:0">${isOpen?'&#9650;':'&#9660;'}</span>
+          ${!browseSelectMode?`<span style="font-size:10px;color:rgba(255,255,255,.2);flex-shrink:0">${isOpen?'&#9650;':'&#9660;'}</span>`:''}
         </div>
-        ${isOpen?`<div class="bcard-body">${cardBackHTML(c)}</div>`:''}
+        ${isOpen&&!browseSelectMode?`<div class="bcard-body">${cardBackHTML(c)}</div>`:''}
       </div>`;
     }).join('');
     document.getElementById('content').innerHTML=filters+(rows||'<div style="text-align:center;color:rgba(255,255,255,.2);font-family:sans-serif;padding:40px 0">No words match</div>');
   }
 }
 
-function setBrowseView(v){browseView=v;browseFlipped=false;browseIdx=0;renderBrowse();}
+function setBrowseView(v){browseView=v;browseFlipped=false;browseIdx=0;if(v!=='list'){browseSelectMode=false;browseSelected=new Set();}renderBrowse();}
 function fcFlip(){browseFlipped=!browseFlipped;const el=document.getElementById('fc-inner');if(el)el.classList.toggle('flipped',browseFlipped);}
 function fcNav(dir){_navPush();const f=browseFilter();browseIdx=Math.max(0,Math.min(browseIdx+dir,f.length-1));browseFlipped=false;renderBrowse();}
 function toggleBCard(id){browseOpen.has(id)?browseOpen.delete(id):browseOpen.add(id);renderBrowse();}
+
+// ── Bulk group edit ────────────────────────────────────────────────────────────
+function toggleBrowseSelectMode(){
+  browseSelectMode=!browseSelectMode;
+  browseSelected=new Set();
+  renderBrowse();
+}
+function toggleCardSelected(id){
+  id=String(id);
+  browseSelected.has(id)?browseSelected.delete(id):browseSelected.add(id);
+  renderBrowse();
+}
+function selectAllFiltered(){
+  browseFilter().forEach(c=>{if(c._user) browseSelected.add(String(c.id));});
+  renderBrowse();
+}
+function openBulkGroupModal(){
+  if(!browseSelected.size) return;
+  const overlay=document.createElement('div');
+  overlay.style.cssText='position:fixed;inset:0;background:rgba(0,0,0,.6);z-index:9999;display:flex;align-items:center;justify-content:center;padding:24px';
+  overlay.innerHTML=`<div style="background:#1a1a2e;border:1px solid rgba(255,255,255,.12);border-radius:16px;padding:28px 24px;max-width:340px;width:100%;font-family:system-ui,sans-serif"></div>`;
+  const box=overlay.firstElementChild;
+
+  const title=document.createElement('div');
+  title.style.cssText='font-size:15px;color:#fff;margin-bottom:4px;font-weight:600';
+  title.textContent='Change group';
+  box.appendChild(title);
+  const subtitle=document.createElement('div');
+  subtitle.style.cssText='font-size:12px;color:rgba(255,255,255,.4);margin-bottom:16px';
+  subtitle.textContent=`${browseSelected.size} card${browseSelected.size!==1?'s':''} selected`;
+  box.appendChild(subtitle);
+
+  const gWrap=document.createElement('div');
+  gWrap.style.cssText='position:relative;display:flex;gap:6px;align-items:center;margin-bottom:14px';
+  const gInp=document.createElement('input');
+  gInp.type='text';gInp.placeholder='e.g. 📚 Reading, 🍽️ Food…';
+  gInp.style.cssText='flex:1;padding:8px;border-radius:8px;background:#12121e;border:1px solid rgba(255,255,255,.15);color:#fff;font-size:13px;font-family:system-ui,sans-serif';
+  gInp.setAttribute('autocorrect','off');gInp.setAttribute('autocapitalize','none');
+  gInp.setAttribute('autocomplete','off');gInp.spellcheck=false;
+  gWrap.appendChild(gInp);
+  attachEmojiPicker(gWrap,gInp);
+  box.appendChild(gWrap);
+
+  const groups=allGroups();
+  if(groups.length){
+    const lbl=document.createElement('div');
+    lbl.style.cssText='font-size:11px;color:rgba(255,255,255,.4);margin-bottom:6px';
+    lbl.textContent='Or pick an existing group';
+    box.appendChild(lbl);
+    const sel=document.createElement('select');
+    sel.style.cssText='width:100%;padding:8px;border-radius:8px;background:#12121e;border:1px solid rgba(255,255,255,.15);color:#fff;font-size:13px;margin-bottom:20px;font-family:system-ui,sans-serif';
+    const blank=document.createElement('option');blank.value='';blank.textContent='— choose —';sel.appendChild(blank);
+    groups.forEach(g=>{
+      const o=document.createElement('option');o.value=g;o.textContent=groupLabel(g);sel.appendChild(o);
+    });
+    sel.onchange=()=>{if(sel.value) gInp.value=sel.value;};
+    box.appendChild(sel);
+  }
+
+  const btnRow=document.createElement('div');
+  btnRow.style.cssText='display:flex;gap:10px';
+  const cancelBtn=document.createElement('button');
+  cancelBtn.textContent='Cancel';
+  cancelBtn.style.cssText='flex:1;padding:10px;border-radius:10px;border:1px solid rgba(255,255,255,.12);background:transparent;color:rgba(255,255,255,.5);font-size:13px;cursor:pointer;font-family:system-ui,sans-serif';
+  cancelBtn.onclick=()=>overlay.remove();
+  const applyBtn=document.createElement('button');
+  applyBtn.textContent='Apply';
+  applyBtn.style.cssText='flex:1;padding:10px;border-radius:10px;border:none;background:rgba(201,169,110,.25);color:#e8c98a;font-size:13px;font-weight:600;cursor:pointer;font-family:system-ui,sans-serif';
+  applyBtn.onclick=async()=>{
+    const newGroup=gInp.value.trim();
+    if(!newGroup){gInp.focus();return;}
+    applyBtn.disabled=true;cancelBtn.disabled=true;applyBtn.textContent='Saving…';
+    await applyBulkGroup(newGroup);
+    overlay.remove();
+  };
+  btnRow.appendChild(cancelBtn);btnRow.appendChild(applyBtn);
+  box.appendChild(btnRow);
+
+  document.body.appendChild(overlay);
+  gInp.focus();
+}
+async function applyBulkGroup(newGroup){
+  const cards=[...browseSelected].map(id=>{
+    const c=allCards.find(x=>String(x.id)===id);
+    return c?{...c,group:newGroup}:null;
+  }).filter(Boolean);
+  if(!cards.length) return;
+  await apiPost('/api/bulk_edit_group',{cards});
+  allCards=(await api('/api/cards')).cards;
+  browseSelectMode=false;browseSelected=new Set();
+  renderBrowse();
+}
 function toggleBrowseGroup(g){browseGroups.has(g)?browseGroups.delete(g):browseGroups.add(g);browseIdx=0;renderBrowse();}
 function toggleBrowseTag(t){browseTags.has(t)?browseTags.delete(t):browseTags.add(t);browseIdx=0;renderBrowse();}
 function setBrowseMastery(m){browseMastery=m;browseIdx=0;renderBrowse();}
@@ -1544,35 +1689,8 @@ function renderAdd(prefillCard){
       _gInp.setAttribute('autocorrect','off');_gInp.setAttribute('autocapitalize','none');
       _gInp.setAttribute('autocomplete','off');_gInp.spellcheck=false;
       if(prefill?.group) _gInp.value=prefill.group;
-      const _gBtn=mkel('button','btn-ghost','🙂');
-      _gBtn.type='button';_gBtn.title='Pick emoji';
-      _gBtn.style.cssText='padding:5px 8px;font-size:16px;line-height:1;flex-shrink:0';
-      const _gPicker=document.createElement('div');
-      _gPicker.style.cssText='display:none;position:absolute;top:calc(100% + 4px);left:0;z-index:99;background:#1e1e30;border:1px solid rgba(255,255,255,.15);border-radius:10px;padding:8px;flex-wrap:wrap;gap:2px;width:216px';
-      ['📚','📖','🎭','📰','🎬','🎮','🗺️','🏛️',
-       '🍽️','🥘','🍕','☕','🍷','🥂',
-       '🏠','🏙️','🛒','💊','🧹',
-       '✈️','🌍','🚂','⛵',
-       '💼','🔧','💻','🎓','🔬',
-       '❤️','🌿','⭐','🐾','💰','🎵',
-       '🏃','⚽','⚡','🌅','🎯','🌸'
-      ].forEach(em=>{
-        const b=document.createElement('button');b.type='button';b.textContent=em;
-        b.style.cssText='background:none;border:none;font-size:18px;cursor:pointer;padding:3px;border-radius:4px;width:28px;height:28px;line-height:1';
-        b.onmouseenter=()=>{b.style.background='rgba(255,255,255,.1)';};
-        b.onmouseleave=()=>{b.style.background='none';};
-        b.onclick=()=>{
-          let cur=_gInp.value.trim();
-          if(cur&&!/^[a-zA-Z0-9\xC0-ɏͰ-Ͽ]/.test(cur)) cur=cur.replace(/^\S+\s*/,'');
-          _gInp.value=em+' '+cur;
-          _gPicker.style.display='none';
-          _gInp.focus();
-        };
-        _gPicker.appendChild(b);
-      });
-      _gBtn.onclick=e=>{e.stopPropagation();_gPicker.style.display=_gPicker.style.display==='none'?'flex':'none';};
-      document.addEventListener('click',()=>{_gPicker.style.display='none';});
-      _gWrap.appendChild(_gInp);_gWrap.appendChild(_gBtn);_gWrap.appendChild(_gPicker);
+      _gWrap.appendChild(_gInp);
+      attachEmojiPicker(_gWrap,_gInp);
       form.appendChild(_gWrap);
     }
 
@@ -2274,6 +2392,38 @@ def make_vocab_blueprint(lang, check_fn=None):
             db.session.add(row)
         db.session.commit()
         return jsonify({"ok": True})
+
+    @bp.route("/api/bulk_edit_group", methods=["POST"])
+    def bulk_edit_group():
+        """Move a batch of the user's own cards into a (possibly new) group.
+        Accepts full card objects (as returned by /api/cards, group already
+        patched by the caller) rather than ids, so it can reuse the exact
+        same upsert-or-fork logic as the single-card /api/edit route."""
+        if not current_user.is_authenticated:
+            return jsonify({"error": "login required"}), 401
+        body = request.get_json(silent=True) or {}
+        cards = body.get("cards")
+        if not isinstance(cards, list) or not cards or len(cards) > 300:
+            return jsonify({"error": "invalid cards list"}), 400
+        if len(json.dumps(cards, ensure_ascii=False).encode()) > MAX_CARD_BYTES * len(cards):
+            return jsonify({"error": "payload too large"}), 400
+        updated = 0
+        for card in cards:
+            if not isinstance(card, dict) or not card.get("id"):
+                continue
+            cid = str(card["id"])
+            row = UserCard.query.filter_by(
+                user_id=current_user.id, lang_code=lang_code, card_id=cid
+            ).first()
+            if row:
+                row.card_data = json.dumps(card, ensure_ascii=False)
+            else:
+                row = UserCard(user_id=current_user.id, lang_code=lang_code,
+                               card_id=cid, card_data=json.dumps(card, ensure_ascii=False))
+                db.session.add(row)
+            updated += 1
+        db.session.commit()
+        return jsonify({"ok": True, "updated": updated})
 
     @bp.route("/api/delete", methods=["POST"])
     def delete():

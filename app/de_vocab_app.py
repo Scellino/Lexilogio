@@ -58,10 +58,23 @@ def _de_check_fn(guess, correct, direction, card):
     c_norm = _strip_the(_de_normalize(correct))
 
     if direction == "word→en":
-        if g_norm == c_norm:
-            return "correct"
-        if _de_is_close(g_norm, c_norm):
-            return "correct"
+        options = [_strip_the(_de_normalize(o)) for o in re.split(r"[/,]", correct) if o.strip()]
+        if not options:
+            options = [c_norm]
+        for opt in options:
+            if g_norm == opt:
+                return "correct"
+            opt_w   = [w for w in opt.split()    if len(w) > 2]
+            guess_w = [w for w in g_norm.split() if len(w) > 2]
+            if opt_w and guess_w and opt_w[0] == guess_w[0]:
+                return "correct"
+        for opt in options:
+            if _de_is_close(g_norm, opt):
+                return "correct"
+            opt_w   = [w for w in opt.split()    if len(w) > 2]
+            guess_w = [w for w in g_norm.split() if len(w) > 2]
+            if opt_w and guess_w and _de_is_close(guess_w[0], opt_w[0]):
+                return "correct"
         return "wrong"
 
     # en→word: the article is part of the answer whenever the card's gender

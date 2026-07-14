@@ -107,6 +107,41 @@ def test_greek_wrong_article_is_close():
     assert _greek_check("ο κεφάλι", "", "en→word", c) == ("close", "wrong_article")
     assert _greek_check("το κεφάλι", "", "en→word", c) == "correct"
 
+def test_greek_gender_forms_accepted_no_article_required():
+    # plain adjectives (no Gender/Article field) never require an article,
+    # regardless of which gendered form was typed — this must not regress
+    c = _card(word="άρρωστος", translation="ill",
+              grammar=[{"label": "Feminine", "value": "άρρωστη"},
+                       {"label": "Neuter", "value": "άρρωστο"}])
+    assert _greek_check("άρρωστη", "", "en→word", c) == "correct"
+    assert _greek_check("άρρωστο", "", "en→word", c) == "correct"
+
+def test_greek_dual_gender_noun_feminine_form_with_correct_article():
+    # a person-noun whose Feminine grammar value includes its own article
+    # (η κολλητή) must be graded against THAT article, not the card's
+    # masculine default (ο) — this was the bug: typing "η κολλητή" was
+    # wrongly marked "wrong_article" because it was compared to "ο".
+    c = _card(word="κολλητός", translation="best friend", gender="m",
+              grammar=[{"label": "Gender", "value": "m"},
+                       {"label": "Masculine", "value": "ο κολλητός"},
+                       {"label": "Feminine", "value": "η κολλητή"}])
+    assert _greek_check("η κολλητή", "", "en→word", c) == "correct"
+    assert _greek_check("ο κολλητός", "", "en→word", c) == "correct"
+
+def test_greek_dual_gender_noun_bare_feminine_still_needs_article():
+    c = _card(word="κολλητός", translation="best friend", gender="m",
+              grammar=[{"label": "Gender", "value": "m"},
+                       {"label": "Masculine", "value": "ο κολλητός"},
+                       {"label": "Feminine", "value": "η κολλητή"}])
+    assert _greek_check("κολλητή", "", "en→word", c) == ("close", "missing_article")
+
+def test_greek_dual_gender_noun_feminine_form_wrong_article():
+    c = _card(word="κολλητός", translation="best friend", gender="m",
+              grammar=[{"label": "Gender", "value": "m"},
+                       {"label": "Masculine", "value": "ο κολλητός"},
+                       {"label": "Feminine", "value": "η κολλητή"}])
+    assert _greek_check("ο κολλητή", "", "en→word", c) == ("close", "wrong_article")
+
 def test_greek_to_english_multi_option():
     c = _card(word="γλώσσα", translation="tongue, language")
     assert _greek_check("language", "", "word→en", c) == "correct"
@@ -210,3 +245,27 @@ def test_greek_no_article_is_close():
     c = _card(word="σκύλος", translation="dog",
               grammar=[{"label": "Article", "value": "ο σκύλος"}])
     assert _greek_check("σκύλος", "", "en→word", c) == ("close", "missing_article")
+
+
+# ── word→en multi-sense translations, gendered-article languages ──────────────
+# card.translation is often comma-separated ("to see, to view"). Typing any
+# one sense in full — even without "to" — must count, not just the first
+# listed sense or a close match to the whole combined string.
+
+def test_de_word_to_en_multi_sense_second_option():
+    assert _de_check_fn("view", "to see, to view", "word→en", {}) == "correct"
+
+def test_de_word_to_en_multi_sense_first_option():
+    assert _de_check_fn("see", "to see, to view", "word→en", {}) == "correct"
+
+def test_it_word_to_en_multi_sense():
+    assert _it_check_fn("view", "to see, to view", "word→en", {}) == "correct"
+
+def test_es_word_to_en_multi_sense():
+    assert _es_check_fn("view", "to see, to view", "word→en", {}) == "correct"
+
+def test_fr_word_to_en_multi_sense():
+    assert _fr_check_fn("view", "to see, to view", "word→en", {}) == "correct"
+
+def test_nl_word_to_en_multi_sense():
+    assert _nl_check_fn("view", "to see, to view", "word→en", {}) == "correct"

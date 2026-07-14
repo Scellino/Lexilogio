@@ -229,7 +229,17 @@ def _el_card_article(card):
     return _el_normalize(fallback) if fallback else None
 
 
+_EL_GENDER_LABELS = {
+    "masculine": "m", "masc": "m",
+    "feminine":  "f", "fem":  "f",
+    "neuter":    "n", "neut": "n",
+}
+
+
 def _el_grammar_forms(card):
+    """Bare alternate forms accepted as a correct answer, with any article
+    the data happened to include stripped off (some cards write "η κολλητή",
+    others just "χαρούμενη" — both must match a bare guess the same way)."""
     forms = []
     for entry in (card.get("grammar") or []):
         lbl = entry.get("label", "").lower()
@@ -237,13 +247,35 @@ def _el_grammar_forms(card):
             val = entry.get("value", "")
             val = val.split("←")[0].split("·")[0].split(",")[0].strip()
             if val:
-                forms.append(_el_normalize(val))
+                _, bare = _el_strip_article(_el_normalize(val))
+                forms.append(bare)
         elif any(x in lbl for x in ("alt", "also written", "alternative")):
             # Extract the Greek word before any parenthetical description
             val = entry.get("value", "").split("(")[0].strip()
             if val:
                 forms.append(_el_normalize(val))
     return forms
+
+
+def _el_grammar_gendered_forms(card):
+    """Masculine/Feminine/Neuter alt forms paired with their gender, so the
+    checker can require the article matching whichever gendered form the
+    guess actually used — typing "η κολλητή" must be checked against "η",
+    not against the card's default (masculine) article."""
+    out = []
+    for entry in (card.get("grammar") or []):
+        lbl = entry.get("label", "").lower()
+        gender = next((g for key, g in _EL_GENDER_LABELS.items() if key in lbl), None)
+        if not gender:
+            continue
+        val = entry.get("value", "")
+        val = val.split("←")[0].split("·")[0].split(",")[0].strip()
+        if not val:
+            continue
+        _, bare = _el_strip_article(_el_normalize(val))
+        if bare:
+            out.append((bare, gender))
+    return out
 
 
 def _make_greek_check_fn(accepted_alts):
@@ -283,6 +315,7 @@ def _make_greek_check_fn(accepted_alts):
             alts   = [_el_normalize(a) for a in accepted_alts.get(card.get("id"), [])]
             alts  += _el_grammar_forms(card)
             alts   = list(dict.fromkeys(alts))
+            gendered_forms = _el_grammar_gendered_forms(card)
 
             guess_art, guess_word = _el_strip_article(norm_guess)
 
@@ -296,9 +329,25 @@ def _make_greek_check_fn(accepted_alts):
             if _word_matches(norm_guess) or _word_matches(guess_word):
                 # The article is part of the answer whenever the card's
                 # article is known — omitting it, or getting it wrong, is
-                # "close" (retry), not silently accepted.
+                # "close" (retry), not silently accepted. Cards with no
+                # known article (e.g. plain adjectives with no Gender/
+                # Article field) stay exempt, regardless of which
+                # Masculine/Feminine/Neuter form the guess happened to
+                # match — that's not an article requirement, just an
+                # accepted alternate spelling.
                 exp_art = _el_card_article(card)
                 if exp_art:
+                    # If the guess matched a specific gendered alt form
+                    # rather than the card's primary word, require THAT
+                    # gender's article instead of the card's default —
+                    # typing "η κολλητή" must not be told it needs "ο".
+                    for form, gender in gendered_forms:
+                        if form == guess_word or form == norm_guess:
+                            matched = _el_normalize(
+                                resolve_expected_article(EL_LANG, {**card, "gender": gender}))
+                            if matched:
+                                exp_art = matched
+                            break
                     if guess_art == exp_art:
                         return "correct"
                     return ("close", "missing_article") if not guess_art else ("close", "wrong_article")

@@ -1299,17 +1299,43 @@ function _cardAltForms(card){
   });
   return out;
 }
+function _editDistance(a,b){
+  const m=a.length,n=b.length,dp=Array.from({length:n+1},(_,j)=>j);
+  for(let i=1;i<=m;i++){
+    let prev=dp[0];dp[0]=i;
+    for(let j=1;j<=n;j++){
+      const tmp=dp[j];
+      dp[j]=a[i-1]===b[j-1]?prev:1+Math.min(prev,dp[j],dp[j-1]);
+      prev=tmp;
+    }
+  }
+  return dp[n];
+}
+// Strip a leading infinitive/article marker so "view" lines up with "to view"
+// and "house" lines up with "the house" — mirrors the backend's own stripping.
+function _stripLead(s){
+  return s.replace(/^(to|the)\s+/i,'');
+}
 function _spellNote(guess,correctAnswer,card){
   if(!guess) return '';
   const g=guess.trim();
+  const gs=_stripLead(g).toLowerCase();
   const alts=correctAnswer.split(/[,\/]/).map(s=>s.trim()).filter(Boolean).concat(_cardAltForms(card));
-  if(alts.some(a=>a.toLowerCase()===g.toLowerCase())) return '';
-  const gn=_normStr(g);
-  const accentMatch=alts.find(a=>_normStr(a)===gn);
+  if(alts.some(a=>_stripLead(a).toLowerCase()===gs)) return '';
+  const gn=_normStr(gs);
+  const accentMatch=alts.find(a=>_normStr(_stripLead(a))===gn);
   if(accentMatch){
     return `<div class="feedback-correction">Watch the spelling: you typed <em>${esc(g)}</em>, correct form is <em>${esc(accentMatch)}</em></div>`;
   }
-  return `<div class="feedback-correction">You typed <em>${esc(g)}</em>, correct spelling is <em>${esc(alts[0])}</em></div>`;
+  // No close match to any single alt — point at whichever sense the guess
+  // was actually closest to, not just the first-listed one, so "view" gets
+  // compared against "to view" rather than an unrelated "to see".
+  let best=alts[0],bestDist=Infinity;
+  alts.forEach(a=>{
+    const d=_editDistance(gn,_normStr(_stripLead(a)));
+    if(d<bestDist){bestDist=d;best=a;}
+  });
+  return `<div class="feedback-correction">You typed <em>${esc(g)}</em>, correct spelling is <em>${esc(best)}</em></div>`;
 }
 function _articleNote(reason){
   if(reason==='missing_article') return '<div class="feedback-correction">You left out the article.</div>';

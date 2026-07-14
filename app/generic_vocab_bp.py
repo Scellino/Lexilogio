@@ -219,6 +219,7 @@ button,a{-webkit-tap-highlight-color:transparent;touch-action:manipulation}
 .btn-primary{width:100%;padding:14px;border-radius:12px;background:linear-gradient(135deg,#c9a96e,#e8c98a);border:none;color:#1a1a2e;font-size:15px;font-weight:700;font-family:sans-serif;letter-spacing:1px;cursor:pointer;text-transform:uppercase;margin-top:8px}
 .btn-primary:disabled{background:rgba(255,255,255,.05);color:rgba(255,255,255,.2);cursor:default}
 .btn-secondary{padding:12px;border-radius:10px;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.15);color:rgba(255,255,255,.6);font-size:12px;font-weight:700;font-family:sans-serif;cursor:pointer;text-transform:uppercase}
+.btn-secondary:disabled{opacity:.35;cursor:not-allowed}
 /* Progress bar */
 .progress-wrap{height:2px;background:rgba(255,255,255,.08);border-radius:2px;margin-bottom:20px;overflow:hidden}
 .progress-bar{height:100%;background:#c9a96e;border-radius:2px;transition:width .3s}

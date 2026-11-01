@@ -44,7 +44,9 @@ venv/bin/python app.py        # → http://localhost:5003
 
 Optional env: `GOOGLE_CLIENT_ID/SECRET` (OAuth), `RESEND_API_KEY` (email),
 `TURNSTILE_SITE_KEY/SECRET_KEY` (CAPTCHA), `COOKIE_SECURE=1` (HTTPS-only
-cookies — production only).
+cookies — production only; the app then refuses to start without a real
+`SECRET_KEY`), `LEXILOGIO_DATA_DIR` (where `verb_presets.json` lives;
+default `greek/`), `SENTRY_DSN`.
 
 ## Tests
 
@@ -52,7 +54,11 @@ cookies — production only).
 cd app && venv/bin/pip install pytest && venv/bin/python -m pytest tests/ -q
 ```
 
-CI runs the suite on every push (`.github/workflows/ci.yml`).
+CI runs the suite on every push (`.github/workflows/ci.yml`). On `main` it
+then builds the production image `ghcr.io/scellino/lexilogio:latest` from
+`Dockerfile` (also weekly, for base-image security fixes). The container runs
+with a read-only root as uid 1000; its state is `/data` (SQLite and
+`verb_presets.json`), `/healthz` answers `ok` when app and DB respond.
 
 ## Deployment
 

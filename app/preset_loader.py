@@ -140,7 +140,9 @@ def load_presets(app):
     worker inserts and the rest see the rows already present (pure updates).
     """
     import fcntl
-    lock_path = BASE / ".preset_load.lock"
+    import tempfile
+    # /tmp: writable in the read-only container and shared by its workers.
+    lock_path = Path(tempfile.gettempdir()) / "lexilogio-preset-load.lock"
     with open(lock_path, "w") as _lock:
         fcntl.flock(_lock, fcntl.LOCK_EX)
         _load_presets_locked(app)

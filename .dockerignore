@@ -1,0 +1,14 @@
+.git
+.github
+.claude
+**/__pycache__
+**/*.pyc
+app/.venv
+app/venv
+app/.env
+app/*.db*
+app/instance
+app/tests
+app/lexilogio.command
+*.bak*
+.DS_Store

@@ -48,7 +48,7 @@ from it_vocab_app import it_vocab_bp
 from es_vocab_app import es_vocab_bp
 from de_vocab_app import de_vocab_bp
 from community_bp import community_bp
-from preset_loader import load_presets
+from preset_loader import load_presets, startup_lock
 from generic_verb_bp import make_verb_blueprint
 fr_verb_bp = make_verb_blueprint("fr")
 de_verb_bp = make_verb_blueprint("de")
@@ -118,7 +118,7 @@ app.register_blueprint(it_verb_bp,    url_prefix="/it/verb")
 app.register_blueprint(es_verb_bp,    url_prefix="/es/verb")
 app.register_blueprint(nl_verb_bp,    url_prefix="/nl/verb")
 
-with app.app_context():
+with app.app_context(), startup_lock():
     db.create_all()
     load_presets(app)
 

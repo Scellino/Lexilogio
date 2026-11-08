@@ -11,9 +11,12 @@ cards separated by //). On app startup, only new cards (by ID) are imported.
 ID format: {target_lang}-{departure_lang}-{slug}
   e.g. nl-en-hallo, nl-de-hallo
 """
+import fcntl
 import re
 import json
+import tempfile
 import unicodedata
+from contextlib import contextmanager
 from pathlib import Path
 
 BASE = Path(__file__).parent.parent
@@ -130,25 +133,23 @@ def _parse_filename(txt_file):
     return parts[0], 'en'           # nl_presets → ('nl', 'en')
 
 
-def load_presets(app):
-    """Upsert all preset cards from txt files at startup.
-
-    Runs under an exclusive file lock so the multiple gunicorn workers that
-    each import this module can't race: without it, two workers try to INSERT
-    the same new card ids concurrently and the loser crash-fails with
-    'UNIQUE constraint failed: preset_cards.id'. With the lock, the first
-    worker inserts and the rest see the rows already present (pure updates).
-    """
-    import fcntl
-    import tempfile
+@contextmanager
+def startup_lock():
+    """An exclusive file lock for what every gunicorn worker runs at import:
+    create_all() and load_presets(). Without it two workers race on an empty
+    DB ('table users already exists') and on new preset ids ('UNIQUE
+    constraint failed: preset_cards.id'), and the loser crash-fails; with it,
+    the first worker creates and inserts, the rest find it all present."""
     # /tmp: writable in the read-only container and shared by its workers.
     lock_path = Path(tempfile.gettempdir()) / "lexilogio-preset-load.lock"
-    with open(lock_path, "w") as _lock:
-        fcntl.flock(_lock, fcntl.LOCK_EX)
-        _load_presets_locked(app)
+    with open(lock_path, "w") as lock:
+        fcntl.flock(lock, fcntl.LOCK_EX)
+        yield
 
 
-def _load_presets_locked(app):
+def load_presets(app):
+    """Upsert all preset cards from txt files at startup; run it under
+    startup_lock()."""
     from models import db, PresetCard
 
     with app.app_context():

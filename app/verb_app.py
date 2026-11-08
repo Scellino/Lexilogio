@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Greek Verb Conjugation Trainer — reads directly from PDF on demand."""
 
-import json, re, threading, unicodedata
+import json, os, re, threading, unicodedata
 from pathlib import Path
 from flask import Blueprint, Flask, jsonify, request
 from flask_login import current_user
@@ -14,7 +14,9 @@ APP_DIR      = Path(__file__).parent.parent / 'greek'
 PROGRESS_FILE      = APP_DIR / "verb_progress.json"   # legacy — read only by migrate_verb_progress.py
 INDEX_FILE         = APP_DIR / "verb_index.json"
 CONJUGATIONS_FILE  = APP_DIR / "verb_conjugations.json"
-PRESETS_FILE       = APP_DIR / "verb_presets.json"
+# Admin-edited at runtime, so it lives with the other state: LEXILOGIO_DATA_DIR
+# in the container (read-only code), next to the verb data locally.
+PRESETS_FILE       = Path(os.environ.get("LEXILOGIO_DATA_DIR", APP_DIR)) / "verb_presets.json"
 
 # ── Tense schema ─────────────────────────────────────────────────────────────
 # (name, row_count):  row_count=1 for non-conjugated forms (participles, infinitives)

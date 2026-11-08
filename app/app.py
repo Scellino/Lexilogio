@@ -48,7 +48,7 @@ from it_vocab_app import it_vocab_bp
 from es_vocab_app import es_vocab_bp
 from de_vocab_app import de_vocab_bp
 from community_bp import community_bp
-from preset_loader import load_presets
+from preset_loader import load_presets, startup_lock
 from generic_verb_bp import make_verb_blueprint
 fr_verb_bp = make_verb_blueprint("fr")
 de_verb_bp = make_verb_blueprint("de")
@@ -57,16 +57,31 @@ es_verb_bp = make_verb_blueprint("es")
 nl_verb_bp = make_verb_blueprint("nl")
 
 _DIR = Path(__file__).parent
+_DEV_SECRET = "dev-secret-CHANGE-IN-PROD"
+
+
+def secret_key_from_env(env) -> str:
+    """SECRET_KEY, or the dev key locally. In production (COOKIE_SECURE=1) a
+    missing key would sign sessions with a key published in this repo, so
+    anyone could forge a login: refuse to start instead."""
+    key = env.get("SECRET_KEY", "")
+    production = env.get("COOKIE_SECURE", "").lower() in ("1", "true", "yes")
+    if production and key in ("", _DEV_SECRET):
+        raise RuntimeError("SECRET_KEY is unset or the dev key while COOKIE_SECURE=1; "
+                           "set SECRET_KEY (python -c 'import secrets; print(secrets.token_hex(32))')")
+    return key or _DEV_SECRET
+
+
+# Session hardening. COOKIE_SECURE=1 is set in production; it stays off
+# locally so login still works over plain http.
+_COOKIE_SECURE = os.environ.get("COOKIE_SECURE", "").lower() in ("1", "true", "yes")
 
 app = Flask(__name__, static_folder=None)
-app.wsgi_app = ProxyFix(app.wsgi_app, x_proto=1, x_host=1)
-app.config["SECRET_KEY"]             = os.environ.get("SECRET_KEY", "dev-secret-CHANGE-IN-PROD")
+app.wsgi_app = ProxyFix(app.wsgi_app, x_for=1, x_proto=1, x_host=1)
+app.config["SECRET_KEY"]             = secret_key_from_env(os.environ)
 app.config["SQLALCHEMY_DATABASE_URI"]= os.environ.get("DATABASE_URL", f"sqlite:///{_DIR / 'lexilogio.db'}")
 app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
 
-# Session hardening. COOKIE_SECURE=1 is set in the production .env; it stays
-# off locally so login still works over plain http.
-_COOKIE_SECURE = os.environ.get("COOKIE_SECURE", "").lower() in ("1", "true", "yes")
 app.config["SESSION_COOKIE_SECURE"]   = _COOKIE_SECURE
 app.config["SESSION_COOKIE_HTTPONLY"] = True
 app.config["SESSION_COOKIE_SAMESITE"] = "Lax"
@@ -103,7 +118,7 @@ app.register_blueprint(it_verb_bp,    url_prefix="/it/verb")
 app.register_blueprint(es_verb_bp,    url_prefix="/es/verb")
 app.register_blueprint(nl_verb_bp,    url_prefix="/nl/verb")
 
-with app.app_context():
+with app.app_context(), startup_lock():
     db.create_all()
     load_presets(app)
 
@@ -1099,6 +1114,14 @@ def terms():
 @app.route("/favicon.ico")
 def favicon():
     return send_from_directory(_DIR / "icons", "favicon-32.png", mimetype="image/png")
+
+
+@app.route("/healthz")
+def healthz():
+    """Liveness for the container healthcheck: the app answers and the DB is readable."""
+    from sqlalchemy import text
+    db.session.execute(text("SELECT 1"))
+    return Response("ok\n", mimetype="text/plain")
 
 
 @app.route("/robots.txt")

@@ -62,6 +62,20 @@ def test_login_rate_limit(app, client):
     assert "Too many attempts" in r.get_data(as_text=True)
 
 
+def test_login_rate_limit_is_per_client_behind_proxy(app, client):
+    # In production every request arrives from the reverse proxy's address;
+    # the client is only in X-Forwarded-For. One client's failed attempts
+    # must not lock out everyone else.
+    make_user(app, "proxied@local.test")
+    for _ in range(10):
+        client.post("/auth/login", headers={"X-Forwarded-For": "203.0.113.7"},
+                    data={"email": "proxied@local.test", "password": "wrong"})
+    r = client.post("/auth/login", headers={"X-Forwarded-For": "198.51.100.9"},
+                    data={"email": "proxied@local.test", "password": "hunter2secret"})
+    assert "Too many attempts" not in r.get_data(as_text=True)
+    assert r.status_code == 302
+
+
 def test_delete_account_requires_csrf_header(app, client):
     uid = make_user(app, "deleteme@local.test")
     login(client, uid)
